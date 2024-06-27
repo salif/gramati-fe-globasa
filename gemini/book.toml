@@ -1,0 +1,12 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "bg"
+multilingual = false
+src = "src"
+title = "Граматика на глобаса"
+description = "Български превод на граматиката на глобаса."
+
+[output.html]
+additional-css = ["./theme/catppuccin.css"]
+default-theme = "latte"
+preferred-dark-theme = "mocha"
