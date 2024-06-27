@@ -4,7 +4,7 @@
 <h2>Съдържателни думи</h2>
 <ul>
     <li><strong>benjilexi</strong> <em>(b)</em> - съществително име/глагол <em>(n/v)</em></li>
-    <li><strong><a href="/eng/gramati/inharelexi#falelexili_klase">falelexi</a></strong> <em>(f)</em> - глагол
+    <li><strong><a href="./inharelexi.html#falelexili_klase">falelexi</a></strong> <em>(f)</em> - глагол
         <em>(v)</em>
         <ul>
             <li><strong>linkuli falelexi</strong> <em>(b.lin)</em> - спомагателен глагол <em>(v.cop)</em></li>
@@ -64,7 +64,7 @@
     </li>
 </ul>
 <h2>Фрази</h2>
-<p>В допълнение към отделните думи, в речника на Globasa са включени и различни фрази. Няколко примера са изброени
+<p>В допълнение към отделните думи, в речника на глобаса са включени и различни фрази. Няколко примера са изброени
     по-долу. </p>
 <ul>
     <li><strong>jumlemon</strong> <em>(jm)</em> - фраза <em>(phrs)</em>

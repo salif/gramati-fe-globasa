@@ -10,3 +10,7 @@ description = "Български превод на граматиката на 
 additional-css = ["./theme/catppuccin.css"]
 default-theme = "latte"
 preferred-dark-theme = "mocha"
+smart-punctuation = false
+git-repository-url = "https://github.com/salif/gramati-fe-globasa"
+edit-url-template = "https://github.com/salif/gramati-fe-globasa/edit/main/gemini/{path}"
+site-url = "/gemini/"

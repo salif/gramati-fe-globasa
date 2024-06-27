@@ -4,7 +4,7 @@
 <h2>Съдържателни думи</h2>
 <ul>
     <li><strong>benjilexi</strong> <em>(b)</em> - съществително/глагол <em>(с/г)</em></li>
-    <li><strong><a href="/eng/gramati/inharelexi#falelexili_klase">falelexi</a></strong> <em>(f)</em> - глагол
+    <li><strong><a href="./inharelexi.html#falelexili_klase">falelexi</a></strong> <em>(f)</em> - глагол
         <em>(г)</em>
         <ul>
             <li><strong>linkuli falelexi</strong> <em>(b.lin)</em> - свързващ глагол <em>(г.св)</em></li>
@@ -65,7 +65,7 @@
     </li>
 </ul>
 <h2>Фрази</h2>
-<p>Освен отделни думи, в речника на Глобаса се срещат и различни фрази като речникови единици. По-долу са изброени
+<p>Освен отделни думи, в речника на глобаса се срещат и различни фрази като речникови единици. По-долу са изброени
     няколко примера. </p>
 <ul>
     <li><strong>jumlemon</strong> <em>(jm)</em> - фраза <em>(фр)</em>

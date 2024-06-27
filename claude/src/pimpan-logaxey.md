@@ -113,7 +113,7 @@
 <p><strong>Mi sen lao fe... (nyan).</strong> <em>или</em> <strong>Mi sen fe... (nyan).</strong><br> Аз съм на... години.
 </p>
 <ul>
-	<li><strong>Kam yu (pala) Globasa?</strong><br> Говориш ли Глобаса?</li>
+	<li><strong>Kam yu (pala) Globasa?</strong><br> Говориш ли глобаса?</li>
 </ul>
 <p><strong>Si, xosu.</strong><br> Да, малко.</p>
 <ul>
@@ -126,9 +126,9 @@
 <p><strong>(Si,) mi aham.</strong><br> (Да,) разбирам. </p>
 <p><strong>(No,) mi no aham.</strong><br> (Не,) не разбирам.</p>
 <ul>
-	<li><strong>Ren loga... kemaner (in Globasa)?</strong><br> Как се казва... (на Глобаса)?</li>
+	<li><strong>Ren loga... kemaner (in Globasa)?</strong><br> Как се казва... (на глобаса)?</li>
 </ul>
-<p><strong>In Globasa, ren loga...</strong><br> (На Глобаса) се казва... </p>
+<p><strong>In Globasa, ren loga...</strong><br> (На глобаса) се казва... </p>
 <h2>Често използвани изречения</h2>
 <p><strong>Mi jixi.</strong><br> Знам.</p>
 <p><strong>Mi no jixi.</strong><br> Не знам.</p>

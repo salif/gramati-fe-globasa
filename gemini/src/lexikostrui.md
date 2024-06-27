@@ -6,17 +6,17 @@
 	дефинират като прилагателни/наречия суфикси или съществителни/глаголни суфикси.</p>
 <h2>Граматически афикси</h2>
 <ul>
-	<li><strong><a href="/eng/gramati/pronamelexi#suyali_sifalexi">-su</a>:</strong> притежателни прилагателни</li>
-	<li><strong><a href="/eng/gramati/inharelexi#xafefikso_-li">-li</a>:</strong> превръща съществителните имена в
+	<li><strong><a href="./pronamelexi.html#suyali_sifalexi">-su</a>:</strong> притежателни прилагателни</li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-li">-li</a>:</strong> превръща съществителните имена в
 		прилагателни/наречия (<em>от, свързан с</em>)</li>
-	<li><strong><a href="/eng/gramati/inharelexi#xafefikso_-mo">-mo</a>:</strong> превръща прилагателните в
+	<li><strong><a href="./inharelexi.html#xafefikso_-mo">-mo</a>:</strong> превръща прилагателните в
 		<em>модифициращи наречия</em></li>
-	<li><strong><a href="/eng/gramati/inharelexi#xafefikso_-ya">-ya</a>:</strong> превръща прилагателните в абстрактни
+	<li><strong><a href="./inharelexi.html#xafefikso_-ya">-ya</a>:</strong> превръща прилагателните в абстрактни
 		съществителни </li>
-	<li><strong><a href="/eng/gramati/inharelexi#xafefikso_-gi">-gi</a>:</strong> маркер за преходност</li>
-	<li><strong><a href="/eng/gramati/inharelexi#xafefikso_-cu">-cu</a>:</strong> маркер за непреходност</li>
-	<li><strong><a href="/eng/gramati/falelexili-morfo#be-">be-</a>:</strong> пасивен залог</li>
-	<li><strong><a href="/eng/gramati/inharelexi#lefefikso_du-">du-</a>:</strong> герундий; <em>обичаен/продължителен
+	<li><strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a>:</strong> маркер за преходност</li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a>:</strong> маркер за непреходност</li>
+	<li><strong><a href="./falelexili-morfo.html#be-">be-</a>:</strong> пасивен залог</li>
+	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> герундий; <em>обичаен/продължителен
 			глаголен аспект</em></li>
 </ul>
 <h2>Префикси</h2>
@@ -143,7 +143,7 @@
 		</ul>
 	</li>
 	<li><strong>-sa:</strong> език; животински звуци [<strong>basa</strong> - език] <ul>
-			<li><strong>Globasa</strong> - Глобаса (<em>globa</em> - <em>свят</em>); <strong>Englisa</strong> -
+			<li><strong>Globasa</strong> - глобаса (<em>globa</em> - <em>свят</em>); <strong>Englisa</strong> -
 				английски (<em>Engli</em> - <em>Англия</em>); <strong>Espanisa</strong> - испански (<em>Espani</em> -
 				<em>Испания</em>)</li>
 			<li><strong>bwawsa</strong> - лай (<em>bwaw</em> - <em>куче</em>); <strong>myawsa</strong> - мяукане

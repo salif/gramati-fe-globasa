@@ -1,8 +1,8 @@
 <h1>Служебни думи: Съюзи, предлози и функционални наречия</h1>
 <p></p>
-<p>Кликнете <a href="/eng/gramati/pronamelexi">тук</a>, за да видите местоименията. Кликнете <a
-		href="/eng/gramati/tabellexi">тук</a>, за да видите корелативите. Кликнете <a
-		href="/eng/gramati/numer-ji-mesi">тук</a>, за да видите числата.</p>
+<p>Кликнете <a href="./pronamelexi.html">тук</a>, за да видите местоименията. Кликнете <a
+		href="./tabellexi.html">тук</a>, за да видите корелативите. Кликнете <a
+		href="./numer-ji-mesi.html">тук</a>, за да видите числата.</p>
 <h2>Съюзи</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ji">ji</a></strong> - и <ul>
