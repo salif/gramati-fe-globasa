@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+title: "Граматика на глобаса"
+description: "Български превод на граматиката на глобаса."
+repository: "salif/gramati-fe-globasa"
+lang: bg
+
+author:
+  name: "Salif Mehmed"
+  url: "https://salif.eu"
