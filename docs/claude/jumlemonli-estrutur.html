@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="bg" class="latte" dir="ltr">
+<html lang="bg" class="rust" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -30,6 +30,7 @@
 
         <!-- Custom theme stylesheets -->
         <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/custom.css">
 
     </head>
     <body class="sidebar-visible no-js">
@@ -37,7 +38,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha" : "latte";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -62,7 +63,7 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('latte')
+            html.classList.remove('rust')
             html.classList.add(theme);
             var body = document.querySelector('body');
             body.classList.remove('no-js')
@@ -255,7 +256,7 @@
 </table>
 <p>Тъй като определителите и допълненията са незадължителни, именната фраза може да се състои от едно единствено
 	съществително, например <strong>kitabu</strong>.</p>
-<h3 id="Местоимения-в-трето-лице-в-края-на-именните-фрази"><a class="header" href="#Местоимения-в-трето-лице-в-края-на-именните-фрази">Местоимения в трето лице в края на именните фрази <a id="pronamelexi_in_namelexili_jumlemon"></a></a></h3>
+<h3 id="Местоимения-в-трето-лице-в-края-на-именните-фрази"><a class="header" href="#Местоимения-в-трето-лице-в-края-на-именните-фрази">Местоимения в трето лице в края на именните фрази <a id="pornamelexi_in_namelexili_jumlemon"></a></a></h3>
 <p>Именните фрази винаги трябва да завършват или със съществително, или с местоимение. Когато съществителното се
 	подразбира и е пропуснато, местоимение трябва да го замести, вместо да се оставя определител или допълнение да виси.
 	Без използването на местоимения за завършване на именните фрази, такива фрази биха имали различни значения или биха

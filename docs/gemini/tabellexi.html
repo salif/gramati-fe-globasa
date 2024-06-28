@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="bg" class="latte" dir="ltr">
+<html lang="bg" class="rust" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -30,6 +30,7 @@
 
         <!-- Custom theme stylesheets -->
         <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/custom.css">
 
     </head>
     <body class="sidebar-visible no-js">
@@ -37,7 +38,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha" : "latte";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -62,7 +63,7 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('latte')
+            html.classList.remove('rust')
             html.classList.add(theme);
             var body = document.querySelector('body');
             body.classList.remove('no-js')
@@ -387,7 +388,7 @@
 	не трябва да стоят самостоятелно, защото при пропускане на <em>(место)имението</em> съотношението може лесно да се
 	сбърка с определител на съществителното/глагола, който го следва. При липса на посочено съществително, местоименията
 	<strong>te</strong> или <strong>to</strong> маркират края на съществителната фраза. Вижте <a
-		href="./jumlemonli-estrutur.html#pronamelexi_in_namelexili_jumlemon">Съществителни фрази</a>.</p>
+		href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Съществителни фрази</a>.</p>
 <p>Сравнете следните изречения:</p>
 <p><strong>Hinto bon nasacu.</strong><br> Това (нещо) мирише добре.</p>
 <p>В горното изречение <strong>-to</strong> маркира края на съществителната фраза.</p>

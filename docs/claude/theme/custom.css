@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+html {
+	font-family: "Alegreya", "Open Sans", sans-serif;
+}
+
+body {
+	font-size: 1.81rem;
+	font-weight: 400;
+}
+
+/* @media not print { } */
+
+.rust body {
+	font-weight: 500;
+}
+
+.rust .content strong,
+.rust .content td b {
+	color: orangered;
+}
+
+.rust .content strong a {
+	--links: orangered;
+}
+
+.rust .content strong a {
+	text-decoration: underline;
+}
+
+.rust .content strong a:hover {
+	--links: #2b79a2;
+}
+
+.mocha body {
+	font-weight: 500;
+}
+
+.mocha .content strong,
+.mocha .content td b {
+	color: coral;
+}
+
+.mocha .content strong a {
+	--links: coral;
+}
+
+.mocha .content strong a {
+	text-decoration: underline;
+}
+
+.mocha .content strong a:hover {
+	--links: #89b4fa;
+}
+
+@media print {
+	table {
+		table-layout: fixed;
+	}
+}
