@@ -325,7 +325,7 @@
 	<strong>minim... te/to</strong>. Думата <strong>of</strong> означава <em>от</em> или <em>измежду</em>. Забележете,
 	че местоименията <strong>te</strong>/<strong>to</strong> трябва да следват непосредствено прилагателното, тъй като
 	именните фрази трябва винаги да завършват със съществително или местоимение. Вижте <a
-		href="./jumlemonli-estrutur.html#pronamelexi_in_namelexili_jumlemon">Именни фрази</a>.</p>
+		href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Именни фрази</a>.</p>
 <ul>
 	<li><strong>maxim juni te (of misu bete)</strong> - най-младият (от моите деца)</li>
 	<li><strong>minim kimapul to (of yusu mobil)</strong> - най-евтиният (от вашите коли)</li>

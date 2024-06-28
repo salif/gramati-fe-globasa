@@ -6,7 +6,7 @@
 	дефинират като прилагателни/наречия суфикси или съществителни/глаголни суфикси.</p>
 <h2>Граматически афикси</h2>
 <ul>
-	<li><strong><a href="./pronamelexi.html#suyali_sifalexi">-su</a>:</strong> притежателни прилагателни</li>
+	<li><strong><a href="./pornamelexi.html#suyali_sifalexi">-su</a>:</strong> притежателни прилагателни</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-li">-li</a>:</strong> превръща съществителните имена в
 		прилагателни/наречия (<em>от, свързан с</em>)</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-mo">-mo</a>:</strong> превръща прилагателните в

@@ -150,7 +150,7 @@
 <p>Както се вижда в Съотносителните думи, местоименията за трето лице (<strong>te</strong>/<strong>to</strong> и
 	<strong>ete</strong>/<strong>oto</strong>) се използват за съотносителни местоимения, тъй като детерминаторите
 	(<strong>ke</strong>, <strong>hin</strong>, <strong>den</strong> и т.н.) винаги трябва да бъдат последвани от
-	(место)име. Вижте <a href="./jumlemonli-estrutur.html#pronamelexi_in_namelexili_jumlemon">Именни фрази</a>.
+	(место)име. Вижте <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Именни фрази</a>.
 </p>
 <p>По същия начин <strong>(e)te</strong>/<strong>(o)to</strong> се използват в края на именните фрази, когато
 	съществителното се подразбира. </p>

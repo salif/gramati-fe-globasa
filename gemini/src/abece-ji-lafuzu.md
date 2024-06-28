@@ -16,162 +16,162 @@
 			<td><strong>a</strong></td>
 			<td><strong>A</strong></td>
 			<td>/ä/</td>
-			<td>ая</td>
+			<td>aya</td>
 		</tr>
 		<tr>
 			<td><strong>b</strong></td>
 			<td><strong>B</strong></td>
 			<td>/b/</td>
-			<td>ибе</td>
+			<td>ibe</td>
 		</tr>
 		<tr>
 			<td><strong>c</strong></td>
 			<td><strong>C</strong></td>
 			<td>/t͡ʃʰ/</td>
-			<td>ице</td>
+			<td>ice</td>
 		</tr>
 		<tr>
 			<td><strong>d</strong></td>
 			<td><strong>D</strong></td>
 			<td>/d/</td>
-			<td>иде</td>
+			<td>ide</td>
 		</tr>
 		<tr>
 			<td><strong>e</strong></td>
 			<td><strong>E</strong></td>
 			<td>/e̞/</td>
-			<td>ея</td>
+			<td>eya</td>
 		</tr>
 		<tr>
 			<td><strong>f</strong></td>
 			<td><strong>F</strong></td>
 			<td>/f/</td>
-			<td>ифе</td>
+			<td>ife</td>
 		</tr>
 		<tr>
 			<td><strong>g</strong></td>
 			<td><strong>G</strong></td>
 			<td>/g/</td>
-			<td>иге</td>
+			<td>ige</td>
 		</tr>
 		<tr>
 			<td><strong>h</strong></td>
 			<td><strong>H</strong></td>
 			<td>/x/</td>
-			<td>ихе</td>
+			<td>ihe</td>
 		</tr>
 		<tr>
 			<td><strong>i</strong></td>
 			<td><strong>I</strong></td>
 			<td>/i/</td>
-			<td>ия</td>
+			<td>iya</td>
 		</tr>
 		<tr>
 			<td><strong>j</strong></td>
 			<td><strong>J</strong></td>
 			<td>/d͡ʒ/</td>
-			<td>идже</td>
+			<td>ije</td>
 		</tr>
 		<tr>
 			<td><strong>k</strong></td>
 			<td><strong>K</strong></td>
 			<td>/kʰ/</td>
-			<td>ике</td>
+			<td>ike</td>
 		</tr>
 		<tr>
 			<td><strong>l</strong></td>
 			<td><strong>L</strong></td>
 			<td>/l/</td>
-			<td>иле</td>
+			<td>ile</td>
 		</tr>
 		<tr>
 			<td><strong>m</strong></td>
 			<td><strong>M</strong></td>
 			<td>/m/</td>
-			<td>име</td>
+			<td>ime</td>
 		</tr>
 		<tr>
 			<td><strong>n</strong></td>
 			<td><strong>N</strong></td>
 			<td>/n/</td>
-			<td>ине</td>
+			<td>ine</td>
 		</tr>
 		<tr>
 			<td><strong>o</strong></td>
 			<td><strong>O</strong></td>
 			<td>/o̞/</td>
-			<td>оя</td>
+			<td>oya</td>
 		</tr>
 		<tr>
 			<td><strong>p</strong></td>
 			<td><strong>P</strong></td>
 			<td>/pʰ/</td>
-			<td>ипе</td>
+			<td>ipe</td>
 		</tr>
 		<tr>
 			<td><strong>r</strong></td>
 			<td><strong>R</strong></td>
 			<td>/ɾ/</td>
-			<td>ире</td>
+			<td>ire</td>
 		</tr>
 		<tr>
 			<td><strong>s</strong></td>
 			<td><strong>S</strong></td>
 			<td>/s/</td>
-			<td>исе</td>
+			<td>ise</td>
 		</tr>
 		<tr>
 			<td><strong>t</strong></td>
 			<td><strong>T</strong></td>
 			<td>/tʰ/</td>
-			<td>ите</td>
+			<td>ite</td>
 		</tr>
 		<tr>
 			<td><strong>u</strong></td>
 			<td><strong>U</strong></td>
 			<td>/u/</td>
-			<td>уя</td>
+			<td>uya</td>
 		</tr>
 		<tr>
 			<td><strong>v</strong></td>
 			<td><strong>V</strong></td>
 			<td>/v/</td>
-			<td>иве</td>
+			<td>ive</td>
 		</tr>
 		<tr>
 			<td><strong>w</strong></td>
 			<td><strong>W</strong></td>
 			<td>/w/</td>
-			<td>иуе</td>
+			<td>iwe</td>
 		</tr>
 		<tr>
 			<td><strong>x</strong></td>
 			<td><strong>X</strong></td>
 			<td>/ʃ/</td>
-			<td>ише</td>
+			<td>ixe</td>
 		</tr>
 		<tr>
 			<td><strong>y</strong></td>
 			<td><strong>Y</strong></td>
 			<td>/j/</td>
-			<td>ийе</td>
+			<td>iye</td>
 		</tr>
 		<tr>
 			<td><strong>z</strong></td>
 			<td><strong>Z</strong></td>
 			<td>/z/</td>
-			<td>изе</td>
+			<td>ize</td>
 		</tr>
 	</tbody>
 </table>
-<h3>Главни vs. Малки букви</h3>
+<h3>Главни и малки букви</h3>
 <p>В момента няма установени правила в глобаса за използването на главни букви. Говорещите глобаса могат да използват
 	главни букви по свое усмотрение, докато не се установят такива правила или насоки.</p>
 <h3>Имена на буквите</h3>
 <p>При произнасяне на думите буква по буква, имената на буквите могат да бъдат съкратени.</p>
 <ul>
-	<li>Гласни: а, е, и, о, у</li>
-	<li>Съгласни: бе, це, де и т.н.</li>
+	<li>Гласни: a, e, i, o, u</li>
+	<li>Съгласни: be, ce, de и т.н.</li>
 </ul>
 <h2>Съгласни</h2>
 <table>
@@ -628,7 +628,7 @@
 <p><strong>burroya</strong> (кошмар), произнася се <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/burroya.mp3">[bu'roja]</a> или
 	<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/burroya_single_r.mp3">[bu'ɾoja]</a> или <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/bur_roya.mp3">[buɾə'ɾoja]</a></p>
-<h2>В и Ь</h2>
+<h2>W и Y</h2>
 <p><strong>Забележка:</strong> Като изучаващ глобаса, можете да пропуснете следващата част, която е просто дискусия за
 	това как глобаса се справя с <em>w</em> и <em>y</em>.</p>
 <h3>Ударение</h3>

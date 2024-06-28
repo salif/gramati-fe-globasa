@@ -199,7 +199,7 @@
 	<em>местоимение</em>. Те никога не трябва да стоят сами, защото чрез пропускането на <em>(место)името</em>
 	съотносителната дума може лесно да бъде сбъркана като определител на съществителното/глагола, който следва. При
 	липса на конкретно съществително, местоименията <strong>te</strong> или <strong>to</strong> маркират края на
-	именната фраза. Вижте <a href="./jumlemonli-estrutur.html#pronamelexi_in_namelexili_jumlemon">Именни
+	именната фраза. Вижте <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Именни
 		фрази</a>.</p>
 <p>Сравнете следните изречения:</p>
 <p><strong>Hinto bon nasacu.</strong><br> Това (нещо) мирише хубаво.</p>

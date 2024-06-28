@@ -7,8 +7,8 @@ title = "Граматика на глобаса"
 description = "Български превод на граматиката на глобаса."
 
 [output.html]
-additional-css = ["./theme/catppuccin.css"]
-default-theme = "latte"
+additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]
+default-theme = "rust"
 preferred-dark-theme = "mocha"
 smart-punctuation = false
 git-repository-url = "https://github.com/salif/gramati-fe-globasa"
