@@ -12,5 +12,5 @@ default-theme = "rust"
 preferred-dark-theme = "mocha"
 smart-punctuation = false
 git-repository-url = "https://github.com/salif/gramati-fe-globasa"
-edit-url-template = "https://github.com/salif/gramati-fe-globasa/edit/main/claude/{path}"
-site-url = "/claude/"
+edit-url-template = "https://github.com/salif/gramati-fe-globasa/edit/main/bg-claude/{path}"
+site-url = "/bg-claude/"

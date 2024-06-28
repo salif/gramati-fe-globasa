@@ -2,5 +2,7 @@
 
 Изберете книга:
 
-- [Граматика на глобаса (Gemini)](./gemini/index.html)
-- [Граматика на глобаса (Claude)](./claude/index.html)
+- [Граматика на глобаса (Gemini)](./bg-gemini/)
+- [Граматика на глобаса (Claude)](./bg-claude/)
+
+- [Complete Globasa Grammar](./eng/)

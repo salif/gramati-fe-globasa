@@ -1,0 +1,17 @@
+# Summary
+
+- [Globasa Grammar](./gramati.md)
+- [Summary](./SUMMARY.md)
+- [Alphabet and Pronunciation](./abece-ji-lafuzu.md)
+- [Content Words: Nouns, Verbs, Adjectives and Adverbs](./inharelexi.md)
+- [Function Words: Conjunctions, Prepositions and Function Adverbs](./gramatilexi.md)
+- [Pronouns](./pornamelexi.md)
+- [Correlatives](./tabellexi.md)
+- [Numbers and Months of the Year](./numer-ji-mesi.md)
+- [Verb Forms](./falelexili-morfo.md)
+- [Word Order: Phrase Structure](./jumlemonli-estrutur.md)
+- [Word Order: Sentence Structure](./jumleli-estrutur.md)
+- [Word Formation](./lexikostrui.md)
+- [Truncated Morphemes](./ofkatado-morfomon.md)
+- [Word Classes](./lexiklase.md)
+- [Common Phrases and Expressions](./pimpan-logaxey.md)

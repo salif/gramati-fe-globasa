@@ -1,11 +1,15 @@
 #!/usr/bin/bash
 set -e
-cd ./claude
+cd ./bg-claude
 mdbook build
-[ -d ../docs/claude ] && rm -r ../docs/claude
-mv ./book/ ../docs/claude
-cd ../gemini
+[ -d ../docs/bg-claude ] && rm -r ../docs/bg-claude
+mv ./book/ ../docs/bg-claude
+cd ../bg-gemini
 mdbook build
-[ -d ../docs/gemini ] && rm -r ../docs/gemini
-mv ./book/ ../docs/gemini
+[ -d ../docs/bg-gemini ] && rm -r ../docs/bg-gemini
+mv ./book/ ../docs/bg-gemini
+cd ../eng
+mdbook build
+[ -d ../docs/eng ] && rm -r ../docs/eng
+mv ./book/ ../docs/eng
 cd ..
