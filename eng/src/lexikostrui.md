@@ -7,12 +7,11 @@
 <h2>Grammatical Affixes</h2>
 <ul>
 	<li><strong><a href="./pornamelexi.html#suyali_sifalexi">-su</a>:</strong> possessive adjectives</li>
-	<li><strong><a href="./inharelexi.html#xafefikso_-li">-li</a>:</strong> turns nouns into adjective/adverbs
-		(<em>of, relating to</em>)</li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-li">-li</a>:</strong> turns nouns into adjective/adverbs (<em>of,
+			relating to</em>)</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-mo">-mo</a>:</strong> turns adjectives into
 		<em>adjective/adverb-modifying adverbs</em></li>
-	<li><strong><a href="./inharelexi.html#xafefikso_-ya">-ya</a>:</strong> turns adjectives into abstract nouns
-	</li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-ya">-ya</a>:</strong> turns adjectives into abstract nouns </li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a>:</strong> transitivity marker</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a>:</strong> intransitivity marker</li>
 	<li><strong><a href="./falelexili-morfo.html#be-">be-</a>:</strong> passive voice</li>
@@ -667,17 +666,17 @@
 	compound words. A hyphen may be optionally added to separate any two morphemes within any compound word. However, it
 	is suggested that as a rule of thumb, hyphens be used only to separate morphemes that are less commonly used in
 	compounds, such as those in the words below.</p>
-<p><strong>rukebao</strong> or <strong>ruke-bao</strong> - backpack<br>
-	<strong>familname</strong> or <strong>famil-name</strong> - last name<br>
-	<strong>kosmonaviyen</strong> or <strong>kosmo-naviyen</strong> - astronaut<br>
+<p><strong>rukebao</strong> or <strong>ruke-bao</strong> - backpack<br />
+	<strong>familname</strong> or <strong>famil-name</strong> - last name<br />
+	<strong>kosmonaviyen</strong> or <strong>kosmo-naviyen</strong> - astronaut<br />
 	<strong>mobilxuliyen</strong> or <strong>mobil-xuliyen</strong> - mechanic
 </p>
 <h2>Proper Noun Compounds</h2>
 <p>Proper nouns may also be joined to create compounds. They may be spelled in one of three ways as seen below.</p>
 <p><strong>Ceskieslovaki</strong> or <strong>CeskiEslovaki</strong> or <strong>Ceski-Eslovaki</strong> -
-	Czechoslovakia<br>
+	Czechoslovakia<br />
 	<strong>Serbihervatskasa</strong> or <strong>SerbiHervatskasa</strong> or <strong>Serbi-Hervatskasa</strong> -
-	Serbo-Croatian<br>
+	Serbo-Croatian<br />
 	<strong>Kinsasakongo</strong> or <strong>KinsasaKongo</strong> or <strong>Kinsasa-Kongo</strong> - Kongo-Kinshasa
 </p>
 <p>Likewise, proper nouns with <strong>utara</strong>, <strong>sude</strong>, <strong>dongu</strong>,
@@ -701,7 +700,7 @@
 		birthday</em>)</p>
 <h2>Object-Verb Adjectives</h2>
 <p>Object-Verb Adjectives are adjectives that consist of two nouns (object and verb) plus an adjective suffix. </p>
-<p><strong>mogeyamne ameba</strong> - brain-eating amoeba<br>
+<p><strong>mogeyamne ameba</strong> - brain-eating amoeba<br />
 	<strong>fikirprovokane idey</strong> - thought-provoking idea
 </p>
 <p></p>

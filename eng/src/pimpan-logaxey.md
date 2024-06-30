@@ -83,53 +83,53 @@
 <p><strong>Kam okey?</strong> - Is that okay? Is everything all right? </p>
 <h2>Common Questions/Replies</h2>
 <ul>
-	<li><strong>Yu sen kepul?</strong> <em>or</em> <strong>Yu kepul?</strong><br> How are you? </li>
+	<li><strong>Yu sen kepul?</strong> <em>or</em> <strong>Yu kepul?</strong><br /> How are you? </li>
 </ul>
-<p><strong>Daymo bon, ji yu?</strong><br> Very well, and you?</p>
-<p><strong>semibon</strong><br> Not too bad</p>
-<p><strong>semi semi</strong><br> so-so</p>
+<p><strong>Daymo bon, ji yu?</strong><br /> Very well, and you?</p>
+<p><strong>semibon</strong><br /> Not too bad</p>
+<p><strong>semi semi</strong><br /> so-so</p>
 <ul>
-	<li><strong>Yu name keto?</strong> <em>or</em> <strong>Yusu name sen keto?</strong><br> What is your name?</li>
+	<li><strong>Yu name keto?</strong> <em>or</em> <strong>Yusu name sen keto?</strong><br /> What is your name?</li>
 </ul>
-<p><strong>Mi name...</strong> <em>or</em> <strong>Misu name sen...</strong><br> My name is...</p>
-<p><strong>(To sen) yukwe, na xorkone yu.</strong> <em>or</em> <strong>Yukwe.</strong><br> It's nice (pleasant) meeting
-	you. or It's pleasant. </p>
-<p><strong>(To sen) furaha, na xorkone yu.</strong> <em>or</em> <strong>Furaha.</strong><br> It's a pleasure to meet
+<p><strong>Mi name...</strong> <em>or</em> <strong>Misu name sen...</strong><br /> My name is...</p>
+<p><strong>(To sen) yukwe, na xorkone yu.</strong> <em>or</em> <strong>Yukwe.</strong><br /> It's nice (pleasant)
+	meeting you. or It's pleasant. </p>
+<p><strong>(To sen) furaha, na xorkone yu.</strong> <em>or</em> <strong>Furaha.</strong><br /> It's a pleasure to meet
 	you. or It's a pleasure.</p>
-<p><strong>(Mi sen) hox na xorkone yu.</strong> <em>or</em> <strong>Mi sen hox.</strong><br> (I am) happy to meet you.
+<p><strong>(Mi sen) hox na xorkone yu.</strong> <em>or</em> <strong>Mi sen hox.</strong><br /> (I am) happy to meet you.
 	or I am happy.</p>
 <ul>
-	<li><strong>Yu ogar keloka?</strong><br> Where do you live?</li>
+	<li><strong>Yu ogar keloka?</strong><br /> Where do you live?</li>
 </ul>
-<p><strong>Mi ogar in...</strong><br> I live in...</p>
+<p><strong>Mi ogar in...</strong><br /> I live in...</p>
 <ul>
-	<li><strong>Yu sen of keloka?</strong><br> Where are you from?</li>
+	<li><strong>Yu sen of keloka?</strong><br /> Where are you from?</li>
 </ul>
-<p><strong>Mi sen of...</strong><br> I'm from...</p>
+<p><strong>Mi sen of...</strong><br /> I'm from...</p>
 <ul>
-	<li><strong>Yu sen kemo lao?</strong> <em>or</em> <strong>Yu sen fe ke nyan?</strong><br> How old are you? </li>
+	<li><strong>Yu sen kemo lao?</strong> <em>or</em> <strong>Yu sen fe ke nyan?</strong><br /> How old are you? </li>
 </ul>
-<p><strong>Mi sen lao fe... (nyan).</strong> <em>or</em> <strong>Mi sen fe... (nyan).</strong><br> I am... years old.
+<p><strong>Mi sen lao fe... (nyan).</strong> <em>or</em> <strong>Mi sen fe... (nyan).</strong><br /> I am... years old.
 </p>
 <ul>
-	<li><strong>Kam yu (pala) Globasa?</strong><br> Do you speak Globasa?</li>
+	<li><strong>Kam yu (pala) Globasa?</strong><br /> Do you speak Globasa?</li>
 </ul>
-<p><strong>Si, xosu.</strong><br> Yes, a (little) bit.</p>
+<p><strong>Si, xosu.</strong><br /> Yes, a (little) bit.</p>
 <ul>
-	<li><strong>Yu pala ke basa?</strong><br> What language(s) do you speak? </li>
+	<li><strong>Yu pala ke basa?</strong><br /> What language(s) do you speak? </li>
 </ul>
-<p><strong>Mi pala...</strong><br> I speak...</p>
+<p><strong>Mi pala...</strong><br /> I speak...</p>
 <ul>
-	<li><strong>Kam yu aham?</strong><br> Do you understand?</li>
+	<li><strong>Kam yu aham?</strong><br /> Do you understand?</li>
 </ul>
-<p><strong>(Si,) mi aham.</strong><br> (Yes,) I understand. </p>
-<p><strong>(No,) mi no aham.</strong><br> (No,) I don't understand.</p>
+<p><strong>(Si,) mi aham.</strong><br /> (Yes,) I understand. </p>
+<p><strong>(No,) mi no aham.</strong><br /> (No,) I don't understand.</p>
 <ul>
-	<li><strong>Ren loga... kemaner (in Globasa)?</strong><br> How do you say... (in Globasa)?</li>
+	<li><strong>Ren loga... kemaner (in Globasa)?</strong><br /> How do you say... (in Globasa)?</li>
 </ul>
-<p><strong>In Globasa, ren loga...</strong><br> (In Globasa), you say... </p>
+<p><strong>In Globasa, ren loga...</strong><br /> (In Globasa), you say... </p>
 <h2>Common Statements</h2>
-<p><strong>Mi jixi.</strong><br> I know.</p>
-<p><strong>Mi no jixi.</strong><br> I don't know.</p>
-<p><strong>Mi lubi yu.</strong><br> I love you.</p>
+<p><strong>Mi jixi.</strong><br /> I know.</p>
+<p><strong>Mi no jixi.</strong><br /> I don't know.</p>
+<p><strong>Mi lubi yu.</strong><br /> I love you.</p>
 <p></p>

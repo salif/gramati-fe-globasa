@@ -4,8 +4,7 @@
 <h2>Content Words</h2>
 <ul>
     <li><strong>benjilexi</strong> <em>(b)</em> - noun/verb <em>(n/v)</em></li>
-    <li><strong><a href="./inharelexi.html#falelexili_klase">falelexi</a></strong> <em>(f)</em> - verb
-        <em>(v)</em>
+    <li><strong><a href="./inharelexi.html#falelexili_klase">falelexi</a></strong> <em>(f)</em> - verb <em>(v)</em>
         <ul>
             <li><strong>linkuli falelexi</strong> <em>(b.lin)</em> - copula <em>(v.cop)</em></li>
             <li><strong>ojetoli falelexi</strong> <em>(b.oj)</em> - transitive verb <em>(v.tr)</em></li>

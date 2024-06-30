@@ -1,8 +1,8 @@
 <h1>Function Words: Conjunctions, Prepositions and Function Adverbs</h1>
 <p>
 </p>
-<p>Click <a href="./pornamelexi.html">here</a> to see Pronouns. Click <a href="./tabellexi.html">here</a> to
-	see Correlatives. Click <a href="./numer-ji-mesi.html">here</a> to see Numbers.</p>
+<p>Click <a href="./pornamelexi.html">here</a> to see Pronouns. Click <a href="./tabellexi.html">here</a> to see
+	Correlatives. Click <a href="./numer-ji-mesi.html">here</a> to see Numbers.</p>
 <h2>Conjunctions</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ji">ji</a></strong> - and <ul>
@@ -38,30 +38,30 @@
 	below), in sentence initial phrases, as an alternative to <strong>-li</strong> adjectives, and in cases where no
 	other preposition is suitable.</p>
 <p><strong>Fe</strong> is optional with most expressions of time, as shown in the following examples:</p>
-<p>(<strong>fe</strong>) <strong>ban mara</strong> - on a certain occasion, once, once upon a time<br>
-	(<strong>fe</strong>) <strong>duli mara</strong> - sometimes, on occasion, at times<br> (<strong>fe</strong>)
-	<strong>hin mara</strong> - this time<br> (<strong>fe</strong>) <strong>hin momento</strong> - in this moment<br>
-	(<strong>fe</strong>) <strong>Lunadin</strong> - (on) Monday<br> (<strong>fe</strong>) <strong>duli Lunadin</strong>
-	- (on) Mondays<br> (<strong>fe</strong>) <strong>nundin</strong> - today (<em>used as an adverb</em>)<br>
-	(<strong>fe</strong>) <strong>tiga din fe xaya</strong> - three days later</p>
+<p>(<strong>fe</strong>) <strong>ban mara</strong> - on a certain occasion, once, once upon a time<br />
+	(<strong>fe</strong>) <strong>duli mara</strong> - sometimes, on occasion, at times<br /> (<strong>fe</strong>)
+	<strong>hin mara</strong> - this time<br /> (<strong>fe</strong>) <strong>hin momento</strong> - in this
+	moment<br /> (<strong>fe</strong>) <strong>Lunadin</strong> - (on) Monday<br /> (<strong>fe</strong>) <strong>duli
+		Lunadin</strong> - (on) Mondays<br /> (<strong>fe</strong>) <strong>nundin</strong> - today (<em>used as an
+		adverb</em>)<br /> (<strong>fe</strong>) <strong>tiga din fe xaya</strong> - three days later</p>
 <p>The expressions <strong>fe nunya</strong> (at present, presently, now), <strong>fe leya</strong> (in the past,
 	previously) and <strong>fe xaya</strong> (in the future, later on, afterwards) are typically left intact.</p>
 <h2>Expressing Possession</h2>
 <p>Globasa has two ways of expressing possession. The preposition <strong><a
 			href="https://menalari.globasa.net/eng/lexi/de">de</a></strong> (<em>of</em>, <em>belonging to</em>) is used
 	to express possession by nouns.</p>
-<p><strong>Baytu de Maria sen day.</strong><br> "House of Mary is big."<br> Mary's house is big.</p>
+<p><strong>Baytu de Maria sen day.</strong><br /> "House of Mary is big."<br /> Mary's house is big.</p>
 <p>If the noun is understood, a pronoun is used (<strong>te</strong>/<strong>to</strong> or
 	<strong>ete</strong>/<strong>oto</strong>):</p>
-<p><strong>To de Maria sen day.</strong><br> Mary's is big.</p>
+<p><strong>To de Maria sen day.</strong><br /> Mary's is big.</p>
 <p>The suffix <strong>-su</strong> is added to pronouns to form possessive adjectives. Similarly, the particle
 	<strong><a href="https://menalari.globasa.net/eng/lexi/su">su</a></strong> is used to express possession by nouns
 	and is equivalent to the English possessive suffix <em>'s</em>. Unlike in English, however, <strong>su</strong> is
 	used as a separate word.</p>
-<p><strong>Maria su baytu sen day.</strong><br> Mary's house is big.</p>
+<p><strong>Maria su baytu sen day.</strong><br /> Mary's house is big.</p>
 <p>If the noun is understood, a pronoun is used (<strong>te</strong>/<strong>to</strong> or
 	<strong>ete</strong>/<strong>oto</strong>):</p>
-<p><strong>Maria su to sen day.</strong><br> Mary's is big.</p>
+<p><strong>Maria su to sen day.</strong><br /> Mary's is big.</p>
 <h2>Prepositions of Place</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/in">in</a></strong> - in, inside of <ul>

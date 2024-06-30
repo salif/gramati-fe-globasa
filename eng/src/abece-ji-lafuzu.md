@@ -188,121 +188,142 @@
 			<td><strong>b</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/b.mp3">/b/</a></td>
 			<td>as in <em>boy</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/baytu.mp3"><strong>baytu</strong></a> house</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/baytu.mp3"><strong>baytu</strong></a>
+				house</td>
 		</tr>
 		<tr>
 			<td><strong>c</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/c_aspirated.mp3">/t͡ʃʰ/</a></td>
 			<td>as <em>ch</em> in <em>chair</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/cokolate.mp3"><strong>cokolate</strong></a> chocolate</td>
+			<td><a
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/cokolate.mp3"><strong>cokolate</strong></a>
+				chocolate</td>
 		</tr>
 		<tr>
 			<td><strong>d</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/d.mp3">/d/</a></td>
 			<td>as in <em>dip</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/doste.mp3"><strong>doste</strong></a> friend</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/doste.mp3"><strong>doste</strong></a>
+				friend</td>
 		</tr>
 		<tr>
 			<td><strong>f</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/f.mp3">/f/</a></td>
 			<td>as in <em>fun</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/fasul.mp3"><strong>fasul</strong></a> bean</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/fasul.mp3"><strong>fasul</strong></a>
+				bean</td>
 		</tr>
 		<tr>
 			<td><strong>g</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/g.mp3">/g/</a></td>
 			<td>as in <em>good</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/globa.mp3"><strong>globa</strong></a> world</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/globa.mp3"><strong>globa</strong></a>
+				world</td>
 		</tr>
 		<tr>
 			<td><strong>h</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">/x/</a></td>
 			<td>as <em>ch</em> in <em>Bach</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/hawa.mp3"><strong>hawa</strong></a> air</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/hawa.mp3"><strong>hawa</strong></a> air
+			</td>
 		</tr>
 		<tr>
 			<td><strong>j</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/j.mp3">/d͡ʒ/</a></td>
 			<td>as in <em>jazz</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/juni.mp3"><strong>juni</strong></a> young</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/juni.mp3"><strong>juni</strong></a> young
+			</td>
 		</tr>
 		<tr>
 			<td><strong>k</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/k_aspirated.mp3">/kʰ/</a></td>
 			<td>as in <em>kite</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/kitabu.mp3"><strong>kitabu</strong></a> book</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/kitabu.mp3"><strong>kitabu</strong></a>
+				book</td>
 		</tr>
 		<tr>
 			<td><strong>l</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/l.mp3">/l/</a></td>
 			<td>as in <em>log</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/lala.mp3"><strong>lala</strong></a> sing, song</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/lala.mp3"><strong>lala</strong></a> sing,
+				song</td>
 		</tr>
 		<tr>
 			<td><strong>m</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/m.mp3">/m/</a></td>
 			<td>as in <em>map</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/multi.mp3"><strong>multi</strong></a> many, much</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/multi.mp3"><strong>multi</strong></a>
+				many, much</td>
 		</tr>
 		<tr>
 			<td><strong>n</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/n.mp3">/n/</a></td>
 			<td>as in <em>nine</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/neo.mp3"><strong>neo</strong></a> new</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/neo.mp3"><strong>neo</strong></a> new
+			</td>
 		</tr>
 		<tr>
 			<td><strong>p</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/p_aspirated.mp3">/pʰ/</a></td>
 			<td>as in <em>peace</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pingo.mp3"><strong>pingo</strong></a> apple</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pingo.mp3"><strong>pingo</strong></a>
+				apple</td>
 		</tr>
 		<tr>
 			<td><strong>r</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">/ɾ/</a></td>
 			<td>as <em>r</em> in Spanish or Italian</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/risi.mp3"><strong>risi</strong></a> rice</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/risi.mp3"><strong>risi</strong></a> rice
+			</td>
 		</tr>
 		<tr>
 			<td><strong>s</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/s.mp3">/s/</a></td>
 			<td>as in <em>sit</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/sui.mp3"><strong>sui</strong></a> water</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/sui.mp3"><strong>sui</strong></a> water
+			</td>
 		</tr>
 		<tr>
 			<td><strong>t</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/t_aspirated.mp3">/tʰ/</a></td>
 			<td>as in <em>time</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/teatro.mp3"><strong>teatro</strong></a> theater</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/teatro.mp3"><strong>teatro</strong></a>
+				theater</td>
 		</tr>
 		<tr>
 			<td><strong>v</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/v.mp3">/v/</a></td>
 			<td>as in <em>vest</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/visita.mp3"><strong>visita</strong></a> visit</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/visita.mp3"><strong>visita</strong></a>
+				visit</td>
 		</tr>
 		<tr>
 			<td><strong>w</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/w.mp3">/w/</a></td>
 			<td>as in <em>win</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/watu.mp3"><strong>watu</strong></a> time</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/watu.mp3"><strong>watu</strong></a> time
+			</td>
 		</tr>
 		<tr>
 			<td><strong>x</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/x.mp3">/ʃ/</a></td>
 			<td>as <em>sh</em> in <em>shop</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/xugwan.mp3"><strong>xugwan</strong></a> habit</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/xugwan.mp3"><strong>xugwan</strong></a>
+				habit</td>
 		</tr>
 		<tr>
 			<td><strong>y</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/y.mp3">/j/</a></td>
 			<td>as in <em>yes</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/yuxi.mp3"><strong>yuxi</strong></a> play, game</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/yuxi.mp3"><strong>yuxi</strong></a> play,
+				game</td>
 		</tr>
 		<tr>
 			<td><strong>z</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/z.mp3">/z/</a></td>
 			<td>as in <em>zen</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/zebra.mp3"><strong>zebra</strong></a> zebra</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/zebra.mp3"><strong>zebra</strong></a>
+				zebra</td>
 		</tr>
 	</tbody>
 </table>
@@ -314,14 +335,15 @@
 <p><strong>d</strong>, <strong>t</strong> - never like the American English pronunciation of <em>d</em> and <em>t</em>
 	between vowels, as in <em>lady</em> and <em>meter</em></p>
 <p>In American English, <em>d</em> and <em>t</em> tend to be rendered as <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">[ɾ]</a> when they appear between vowels (leader, liter, etc). The
-	phoneme [ɾ], or so-called <em>tap</em>, is virtually identical to the Spanish (and Globasa) <em>r</em>. English
-	speakers with American accents should be careful to always pronounce a true <em>d</em> (the <em>d</em> in
-	<em>done</em>, not in <em>leader</em>) and a true <em>t</em> (the <em>t</em> in <em>talk</em>, not in
-	<em>liter</em>) in Globasa.</p>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">[ɾ]</a> when they appear between vowels
+	(leader, liter, etc). The phoneme [ɾ], or so-called <em>tap</em>, is virtually identical to the Spanish (and
+	Globasa) <em>r</em>. English speakers with American accents should be careful to always pronounce a true <em>d</em>
+	(the <em>d</em> in <em>done</em>, not in <em>leader</em>) and a true <em>t</em> (the <em>t</em> in <em>talk</em>,
+	not in <em>liter</em>) in Globasa.</p>
 <p><strong>g</strong> - never [dʒ] as in <em>gym</em></p>
-<p><strong>h</strong> - ideally pronounced as a <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">voiceless velar
-		fricative</a>, not to be confused with [χ], a <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/uvular.mp3">voiceless uvular
+<p><strong>h</strong> - ideally pronounced as a <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">voiceless velar fricative</a>, not to be
+	confused with [χ], a <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/uvular.mp3">voiceless uvular
 		fricative</a></p>
 <p>The <em>velar</em> fricative is pronounced in the same point of articulation as [k], and is akin to a cat's hissing
 	sound. In contrast, the <em>uvular</em> fricative is a more guttural sound pronounced further back in the throat in
@@ -329,10 +351,12 @@
 <p><strong>l</strong> - ideally pronounced as a clear or light [l] in any position, rather than as [ɫ], a velarized or
 	so-called dark <em>l</em>, pronounced in English in syllable-final position, as in <em>bell</em>; compare with the
 	French pronunciation of <em>belle</em></p>
-<p><strong>ng</strong> - may be pronounced as <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ng.mp3">[ŋ]</a> in syllable-final
-	position (as seen only in proper nouns); elsewhere as [ŋg]</p>
-<p><strong>r</strong> - ideally pronounced as a single <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3"><em>flap or
-			tap</em></a> rather than a <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/rr.mp3"><em>trill</em></a></p>
+<p><strong>ng</strong> - may be pronounced as <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ng.mp3">[ŋ]</a> in syllable-final position (as seen
+	only in proper nouns); elsewhere as [ŋg]</p>
+<p><strong>r</strong> - ideally pronounced as a single <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3"><em>flap or tap</em></a> rather than a <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/rr.mp3"><em>trill</em></a></p>
 <p><strong>s</strong> - always as a voiceless [s]; never [z] as in <em>visit</em></p>
 <p>In English, the <em>s</em> tends to be pronounced as [z] between vowels or in word-final position. In Globasa,
 	<em>s</em> always remains voiceless. </p>
@@ -343,13 +367,17 @@
 <p><strong>z</strong> - always as a single voiced sibilant; never [ts] as in <em>pizza</em></p>
 <h3>Other Consonant Variants</h3>
 <p>Depending on one's native language, other consonant variants are also permissible. For example, some Spanish speakers
-	might tend to pronounce <em>h</em> as <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/uvular.mp3">[χ]</a> rather than <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">[x]</a>. French speakers might tend to pronounce <em>r</em> as <a
+	might tend to pronounce <em>h</em> as <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/uvular.mp3">[χ]</a> rather than <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">[x]</a>. French speakers might tend to
+	pronounce <em>r</em> as <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_uvular_fricative.ogg">[ʁ]</a> rather than <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">[ɾ]</a>. Mandarin speakers might tend to pronounce <em>x</em> as <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_alveolo-palatal_sibilant.ogg">[ʂ]</a> or <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_retroflex_sibilant.ogg">[ɕ]</a> rather than <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/x.mp3">[ʃ]</a>. These and other such variants are also permissible. </p>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">[ɾ]</a>. Mandarin speakers might tend to
+	pronounce <em>x</em> as <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_alveolo-palatal_sibilant.ogg">[ʂ]</a> or
+	<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_retroflex_sibilant.ogg">[ɕ]</a> rather than
+	<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/x.mp3">[ʃ]</a>. These and other such variants are
+	also permissible. </p>
 <p>The following table lists all free variation consonant allophones. The first allophone listed for each phoneme is the
 	ideal Globasa pronunciation. Dozens of other complementary distribution allophones (allophones that depend on the
 	phonetic environment) will likely be heard among many speakers, but everybody should make an effort to not deviate
@@ -380,7 +408,8 @@
 		<tr>
 			<td><strong>f</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/f.mp3">f</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_bilabial_fricative.ogg">ɸ</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_bilabial_fricative.ogg">ɸ</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>g</strong></td>
@@ -390,26 +419,31 @@
 			<td><strong>h</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">x</a> ~ <a
 					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/uvular.mp3">χ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_pharyngeal_fricative.ogg">ħ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_glottal_fricative.ogg">h</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_pharyngeal_fricative.ogg">ħ</a>
+				~ <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_glottal_fricative.ogg">h</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>j</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/j.mp3">d͡ʒ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palato-alveolar_sibilant.ogg">ʒ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_alveolo-palatal_affricate.ogg">d͡ʑ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palatal_affricate.ogg">ɟ͡ʝ</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palato-alveolar_sibilant.ogg">ʒ</a>
+				~ <a
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_alveolo-palatal_affricate.ogg">d͡ʑ</a>
+				~ <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palatal_affricate.ogg">ɟ͡ʝ</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>k</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/k_aspirated.mp3">kʰ</a> ~ <a
 					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/k_unaspirated.mp3">k</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_uvular_plosive.ogg">q</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_uvular_plosive.ogg">q</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>l</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/l.mp3">l</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Velarized_alveolar_lateral_approximant.ogg">ɫ</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Velarized_alveolar_lateral_approximant.ogg">ɫ</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>m</strong></td>
@@ -429,8 +463,8 @@
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">ɾ</a> ~ <a
 					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Alveolar_trill.ogg">r</a> ~ <a
 					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Alveolar_approximant.ogg">ɹ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Postalveolar_approximant.ogg">ɹ̠</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Retroflex_Approximant2.mp3">ɻ</a> ~ <a
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Postalveolar_approximant.ogg">ɹ̠</a> ~
+				<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Retroflex_Approximant2.mp3">ɻ</a> ~ <a
 					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_uvular_fricative.ogg">ʁ</a>]</td>
 		</tr>
 		<tr>
@@ -455,13 +489,16 @@
 		<tr>
 			<td><strong>x</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/x.mp3">ʃ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_retroflex_sibilant.ogg">ʂ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_alveolo-palatal_sibilant.ogg">ɕ</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_retroflex_sibilant.ogg">ʂ</a>
+				~ <a
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_alveolo-palatal_sibilant.ogg">ɕ</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>y</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/y.mp3">j</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palatal_fricative.ogg">ʝ</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palatal_fricative.ogg">ʝ</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>z</strong></td>
@@ -486,13 +523,15 @@
 			<td><strong>a</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/a.ogg">/ä/</a></td>
 			<td>as <em>a</em> in <em>Thai</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/basa.mp3"><strong>basa</strong></a> language</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/basa.mp3"><strong>basa</strong></a>
+				language</td>
 		</tr>
 		<tr>
 			<td><strong>e</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/e.ogg">/e̞/</a></td>
 			<td>as in <em>let</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/bete.mp3"><strong>bete</strong></a> child (daughter/son)</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/bete.mp3"><strong>bete</strong></a> child
+				(daughter/son)</td>
 		</tr>
 		<tr>
 			<td><strong>i</strong></td>
@@ -504,13 +543,15 @@
 			<td><strong>o</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/o.ogg">/o̞/</a></td>
 			<td>as in <em>more</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/oko.mp3"><strong>oko</strong></a> eye</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/oko.mp3"><strong>oko</strong></a> eye
+			</td>
 		</tr>
 		<tr>
 			<td><strong>u</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/u.ogg">/u/</a></td>
 			<td>as in <em>flu</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/mumu.mp3"><strong>mumu</strong></a> cattle (bull/cow)</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/mumu.mp3"><strong>mumu</strong></a>
+				cattle (bull/cow)</td>
 		</tr>
 	</tbody>
 </table>
@@ -531,8 +572,9 @@
 	open-mid <a href="https://upload.wikimedia.org/wikipedia/commons/d/d0/PR-open-mid_back_rounded_vowel.ogg">[ɔ]</a>
 	are permissible variants</p>
 <p><strong>u</strong> - ideally pronounced <a href="https://en.wikipedia.org/wiki/Close_back_rounded_vowel">[u]</a>, a
-	close back rounded vowel; the close back compressed <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/compressed_u.mp3">[ɯᵝ]</a>
-	is a permissible variant</p>
+	close back rounded vowel; the close back compressed <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/compressed_u.mp3">[ɯᵝ]</a> is a permissible variant
+</p>
 <h3>Elision</h3>
 <p>In certain cases, primarily in poetry and song lyrics, <em>e</em> in word-initial position (when followed by
 	<em>-s-</em> and another consonant) may be rendered silent and replaced by an apostrophe. </p>
@@ -558,9 +600,9 @@
 	<li>If the word ends in a consonant, the stress falls on the last vowel. </li>
 </ul>
 <p><strong>barix</strong> (rain), pronounced <em>ba-r<u><strong>i</strong></u>x</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/barix.mp3">[ba.'ɾiʃ]</a><br>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/barix.mp3">[ba.'ɾiʃ]</a><br />
 	<strong>pantalun</strong> (pants, trousers, slacks), pronounced <em>pan-ta-l<u><strong>u</strong></u>n</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pantalun.mp3">[pan.ta.'lun]</a><br>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pantalun.mp3">[pan.ta.'lun]</a><br />
 	<strong>kitabudom</strong> (library), pronounced <em>ki-ta-bu-d<u><strong>o</strong></u>m</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/kitabudom.mp3">[ki.ta.bu.'dom]</a>
 </p>
@@ -568,9 +610,9 @@
 	<li>If the word ends in a vowel, the stress falls on the second-to-last vowel.</li>
 </ul>
 <p><strong>piu</strong> (bird), pronounced <em>p<u><strong>i</strong></u>-u</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/piu.mp3">['pi.u]</a><br>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/piu.mp3">['pi.u]</a><br />
 	<strong>harita</strong> (map), pronounced <em>ha-r<u><strong>i</strong></u>-ta</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/harita.mp3">[ha.'ri.ta]</a><br>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/harita.mp3">[ha.'ri.ta]</a><br />
 	<strong>Espanisa</strong> (Spanish language), pronounced <em>es-pa-n<u><strong>i</strong></u>-sa</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Espanisa.mp3">[es.pa.'ni.sa]</a>
 </p>
@@ -582,31 +624,37 @@
 <h3>Consonant Epenthesis</h3>
 <p>Although not ideal, and unlikely to be utilized by English speakers in most cases, an unwritten glottal stop may be
 	optionally inserted between any two vowels, whether within or between words.</p>
-<p><strong>poema</strong> (poem), pronounced <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/poema.mp3">[po'ema]</a> or <a
+<p><strong>poema</strong> (poem), pronounced <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/poema.mp3">[po'ema]</a> or <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/po_ema.mp3">[poʔ'ema]</a></p>
 <h3>Vowel Epenthesis</h3>
 <p>Although not ideal, and unlikely to be utilized by English speakers in most cases, any unrounded central vowel such
 	as [ə] may be optionally inserted between any two consonants or in word-final position. As a central vowel, the
 	cardinal [ä] is also allowed as an unwritten epenthesis, although this is the least recommended option since it's
 	more likely to reduce intelligibility.</p>
-<p><strong>magneto</strong> (magnet), pronounced <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/magneto.mp3">[mag'neto]</a> or <a
+<p><strong>magneto</strong> (magnet), pronounced <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/magneto.mp3">[mag'neto]</a> or <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/mag_neto.mp3">[magə'neto]</a> </p>
-<p><strong>asif</strong> (sorry), pronounced <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/asif.mp3">[a'sif]</a> or <a
+<p><strong>asif</strong> (sorry), pronounced <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/asif.mp3">[a'sif]</a> or <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/asif_.mp3">[a'sifə]</a></p>
 <h2>Double Vowels and Consonants</h2>
 <p>Double vowels and consonants, whether within words as a result of derivation or between words, are typically
 	pronounced slightly longer or up to twice as long as single ones. As seen above, a permissible alternative is to add
 	a glottal stop between double vowels and a mid central vowel between double consonants.</p>
 <h3>Double Vowels</h3>
-<p><strong>beeskri</strong> (be written), pronounced <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/beeskri.mp3">[be'eskri]</a>
-	or <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/be_eskri.mp3">[beʔeskri]</a></p>
+<p><strong>beeskri</strong> (be written), pronounced <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/beeskri.mp3">[be'eskri]</a> or <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/be_eskri.mp3">[beʔeskri]</a></p>
 <p><strong>semiisula</strong> (peninsula), pronounced <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/semiisula.mp3">[semi:'sula]</a> or <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/semi_isula.mp3">[semiʔi'sula]</a></p>
 <h3>Double Consonants</h3>
-<p><strong>possahay</strong> (hinder), pronounced <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/possahay.mp3">[pos:a'xaj]</a> or
-	<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pos_sahay.mp3">[posəsa'xaj]</a></p>
-<p><strong>aselli</strong> (original), pronounced <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/aselli.mp3">[a'sel:i]</a> or <a
+<p><strong>possahay</strong> (hinder), pronounced <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/possahay.mp3">[pos:a'xaj]</a> or <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pos_sahay.mp3">[posəsa'xaj]</a></p>
+<p><strong>aselli</strong> (original), pronounced <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/aselli.mp3">[a'sel:i]</a> or <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/asel_li.mp3">[a'seləli]</a></p>
 <h3>Double r</h3>
 <p>Although <em>r</em> cannot be lengthened in the same way that other consonants can be, a double <em>r</em> may be
@@ -627,9 +675,10 @@
 	consonants they are never stressed.</p>
 <p>Compare the pronunciation of following proper names:</p>
 <p><strong><em>Maria</em></strong>, pronounced <em>ma-r<u><strong>i</strong></u>-a</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maria.mp3">[ma.'ɾi.a]</a><br>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maria.mp3">[ma.'ɾi.a]</a><br />
 	<strong><em>Maryo</em></strong>, pronounced <em>m<u><strong>a</strong></u>-ryo</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maryo.mp3">['ma.ɾjo]</a> or <em>m<u><strong>a</strong></u>-ri-o</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maryo.mp3">['ma.ɾjo]</a> or
+	<em>m<u><strong>a</strong></u>-ri-o</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ma.ri.o.mp3">['ma.ɾi.o]</a>
 </p>
 <p>Spelling <strong>Maryo</strong> with <em>y</em> rather than <em>i</em> allows the stress to be shifted to <em>a</em>,
@@ -648,7 +697,8 @@
 	independent, unstressed vowels.</p>
 <p><strong>Ewropa</strong> (Europe), pronounced <em>ew-r<u><strong>o</strong></u>-pa</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ewropa.mp3">[ew.'ɾo.pa]/[eu̯.'ɾo.pa]</a> or even
-	<em>e-u-r<u><strong>o</strong></u>-pa</em> <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/e.u.ro.pa.mp3">[e.u.'ɾo.pa]</a></p>
+	<em>e-u-r<u><strong>o</strong></u>-pa</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/e.u.ro.pa.mp3">[e.u.'ɾo.pa]</a></p>
 <h3>Spelling Convention <a id="regula_fe_harufiya"></a></h3>
 <p>The following spelling convention applies only to root words and not to derived words. Next to other vowels, Globasa
 	uses <em>i</em> and <em>u</em> only if these are stressed or if <em>y</em> and <em>w</em> are not permitted by
@@ -656,29 +706,33 @@
 </p>
 <p>In the following root words, <em>i</em> and <em>u</em> are stressed:</p>
 <p><strong>maux</strong> (mouse), pronounced <em>ma-<u><strong>u</strong></u>x</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maux.mp3">[ma.'uʃ]</a><br>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maux.mp3">[ma.'uʃ]</a><br />
 	<strong>daif</strong> (weak), pronounced <em>da-<u><strong>i</strong></u>f</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/daif.mp3">[da.'if]</a>
 </p>
 <p>In the following root words, phonotactic rules only allow <em>i</em> and <em>u</em>: </p>
 <p><strong>triunfa</strong> (win, triumph), pronounced <em>tri-<u><strong>u</strong></u>n-fa</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/triunfa.mp3">[tri.'un.fa]</a><br>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/triunfa.mp3">[tri.'un.fa]</a><br />
 	<strong>kruel</strong> (cruel), pronounced <em>kru-<u><strong>e</strong></u>l</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/kruel.mp3">[kru.'el]</a>
 </p>
 <p>In the following root words, <em>y</em> and <em>w</em>, which may optionally be pronounced as vowels, are
 	conventionally used: </p>
 <p><strong>pyano</strong> (piano), pronounced <em>py<u><strong>a</strong></u>-no</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pyano.mp3">['pja.no]</a> or <em>pi-<u><strong>a</strong></u>-no</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pi.a.no.mp3">[pi.'a.no]</a><br>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pyano.mp3">['pja.no]</a> or
+	<em>pi-<u><strong>a</strong></u>-no</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pi.a.no.mp3">[pi.'a.no]</a><br />
 	<strong>cyan</strong> (cyan), pronounced <em>cy<u><strong>a</strong></u>n</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/cyan.mp3">[t͡ʃjan]</a> or <em>ci-<u><strong>a</strong></u>n</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ci.an.mp3">[t͡ʃi.'an]</a><br>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/cyan.mp3">[t͡ʃjan]</a> or
+	<em>ci-<u><strong>a</strong></u>n</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ci.an.mp3">[t͡ʃi.'an]</a><br />
 	<strong>swini</strong> (pig, hog), pronounced <em>sw<u><strong>i</strong></u>-ni</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/swini.mp3">['swi.ni]</a> or <em>su-<u><strong>i</strong></u>-ni</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/su.i.ni.mp3">[su.'i.ni]</a><br>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/swini.mp3">['swi.ni]</a> or
+	<em>su-<u><strong>i</strong></u>-ni</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/su.i.ni.mp3">[su.'i.ni]</a><br />
 	<strong>trawma</strong> (trauma), pronounced <em>tr<u><strong>a</strong></u>w-ma</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/trawma.mp3">['traw.ma]</a> or <em>tr<u><strong>a</strong></u>-u-ma</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/trawma.mp3">['traw.ma]</a> or
+	<em>tr<u><strong>a</strong></u>-u-ma</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/tra.u.ma.mp3">['tra.u.ma]</a>
 </p>
 <h2>Phonotactics for Ordinary Words</h2>
@@ -693,9 +747,9 @@
 <h3>Onset</h3>
 <p>Syllables may or may not have an onset. In Globasa, the onset consists of any single consonant, or any of the
 	following Cl/Cr and Cw/Cy clusters:</p>
-<p>bl-, fl-, gl-, kl-, pl-, vl-<br> br-, dr-, fr-, gr-, kr-, pr-, tr-, vr-<br> bw-, cw-, dw-, fw-, gw-, hw-, jw-, kw-,
-	lw-, mw-, nw-, pw-, rw-, sw-, tw-, vw-, xw-, zw-<br> by-, cy-, dy-, fy-, gy-, hy-, jy-, ky-, ly-, my-, ny-, py-,
-	ry-, sy-, ty-, vy-, xy-, zy-</p>
+<p>bl-, fl-, gl-, kl-, pl-, vl-<br /> br-, dr-, fr-, gr-, kr-, pr-, tr-, vr-<br /> bw-, cw-, dw-, fw-, gw-, hw-, jw-,
+	kw-, lw-, mw-, nw-, pw-, rw-, sw-, tw-, vw-, xw-, zw-<br /> by-, cy-, dy-, fy-, gy-, hy-, jy-, ky-, ly-, my-, ny-,
+	py-, ry-, sy-, ty-, vy-, xy-, zy-</p>
 <h3>Nucleus</h3>
 <p>All syllables have a nucleus. In Globasa, the nucleus consists of any single vowel: a, e, i, o, u.</p>
 <h3>Coda</h3>

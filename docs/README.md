@@ -2,7 +2,14 @@
 
 Изберете книга:
 
-- [Граматика на глобаса (Gemini)](./bg-gemini/)
-- [Граматика на глобаса (Claude)](./bg-claude/)
+- *български:*
+  - [Граматика на глобаса (Gemini)](./bg-gemini/)
+  - [Граматика на глобаса (Claude)](./bg-claude/)
 
-- [Complete Globasa Grammar](./eng/)
+- *English:*
+  - [Complete Globasa Grammar](./eng/)
+
+<!--
+- *español:*
+  - [Gramática completa de Globasa](./spa/)
+-->

@@ -38,7 +38,7 @@
 <h2>Дробни числа</h2>
 <p>Производните дробни числа са съществителни и се състоят от две думи, числителят, следван от знаменателя с представка
 	<strong>of-</strong>.</p>
-<p>1/2 (половина) - <strong>un ofdua</strong><br> 1/3 (една трета) - <strong>un oftiga</strong><br> 1/4 (една четвърт) -
+<p>1/2 (една втора) - <strong>un ofdua</strong><br> 1/3 (една трета) - <strong>un oftiga</strong><br> 1/4 (една четвърт) -
 	<strong>un ofcare</strong><br> 1/5 (една пета) - <strong>un oflima</strong><br> 1/6 (една шеста) - <strong>un
 		ofsisa</strong><br> 1/7 (една седма) - <strong>un ofsabe</strong><br> 1/8 (една осма) - <strong>un
 		ofoco</strong><br> 1/9 (една девета) - <strong>un ofnue</strong><br> 1/10 (една десета) - <strong>un
@@ -76,17 +76,17 @@
 	<strong>sisaple</strong> - шесторен, и т.н.
 </p>
 <h2>Месеци на годината</h2>
-<p><strong>mesi 1 (mesi un)</strong> - Януари<br>
-	<strong>mesi 2 (mesi dua)</strong> - Февруари<br>
-	<strong>mesi 3 (mesi tiga)</strong> - Март<br>
-	<strong>mesi 4 (mesi care)</strong> - Април<br>
-	<strong>mesi 5 (mesi lima)</strong> - Май<br>
-	<strong>mesi 6 (mesi sisa)</strong> - Юни<br>
-	<strong>mesi 7 (mesi sabe)</strong> - Юли<br>
-	<strong>mesi 8 (mesi oco)</strong> - Август<br>
-	<strong>mesi 9 (mesi nue)</strong> - Септември<br>
-	<strong>mesi 10 (mesi des)</strong> - Октомври<br>
-	<strong>mesi 11 (mesi des un)</strong> - Ноември<br>
-	<strong>mesi 12 (mesi des dua)</strong> - Декември
+<p><strong>mesi 1 (mesi un)</strong> - януари<br>
+	<strong>mesi 2 (mesi dua)</strong> - февруари<br>
+	<strong>mesi 3 (mesi tiga)</strong> - март<br>
+	<strong>mesi 4 (mesi care)</strong> - април<br>
+	<strong>mesi 5 (mesi lima)</strong> - май<br>
+	<strong>mesi 6 (mesi sisa)</strong> - юни<br>
+	<strong>mesi 7 (mesi sabe)</strong> - юли<br>
+	<strong>mesi 8 (mesi oco)</strong> - август<br>
+	<strong>mesi 9 (mesi nue)</strong> - септември<br>
+	<strong>mesi 10 (mesi des)</strong> - октомври<br>
+	<strong>mesi 11 (mesi des un)</strong> - ноември<br>
+	<strong>mesi 12 (mesi des dua)</strong> - декември
 </p>
 <p></p>

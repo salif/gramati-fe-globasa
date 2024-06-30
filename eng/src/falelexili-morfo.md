@@ -37,14 +37,14 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td>General Present<br><br><br></td>
-			<td><strong>(nun)</strong><br><br><br></td>
-			<td><strong>Mi (nun) yam pingo.</strong><br>I eat the apple.<br>I am eating the apple.</td>
+			<td>General Present<br /><br /><br /></td>
+			<td><strong>(nun)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) yam pingo.</strong><br />I eat the apple.<br />I am eating the apple.</td>
 		</tr>
 		<tr>
-			<td>Continuous/Habitual Present<br><br><br></td>
-			<td><strong>(nun) (du-)</strong><br><br><br></td>
-			<td><strong>Mi (nun) (du)yam pingo.</strong><br>I (continuously/habitually) eat apples.</td>
+			<td>Continuous/Habitual Present<br /><br /><br /></td>
+			<td><strong>(nun) (du-)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) (du)yam pingo.</strong><br />I (continuously/habitually) eat apples.</td>
 		</tr>
 	</tbody>
 </table>
@@ -62,10 +62,10 @@
 	over an indefinite period of time, rather than happening in a single moment in time or for a specific length of
 	time. The prefix <strong>du-</strong> is typically omitted with the present tense.</p>
 <p>As nouns, words with the prefix <strong>du-</strong> are equivalent to the gerund in English.</p>
-<p><strong>dulala</strong> - (the act of) singing<br>
+<p><strong>dulala</strong> - (the act of) singing<br />
 	<strong>dudanse</strong> - (the act of) dancing
 </p>
-<p><em>The prefix <strong>du-</strong> is truncated from <strong>dure</strong> (duration).<br> Etymology of
+<p><em>The prefix <strong>du-</strong> is truncated from <strong>dure</strong> (duration).<br /> Etymology of
 		<strong>dure</strong>: English, French, German, Spanish</em></p>
 <h2>Simple Past</h2>
 <p>The simple past tenses are expressed using the particle <strong>le</strong>.</p>
@@ -83,14 +83,14 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td>General Past<br><br></td>
-			<td><strong>le</strong><br><br></td>
-			<td><strong>Mi le yam pingo.</strong><br>I ate the apple.</td>
+			<td>General Past<br /><br /></td>
+			<td><strong>le</strong><br /><br /></td>
+			<td><strong>Mi le yam pingo.</strong><br />I ate the apple.</td>
 		</tr>
 		<tr>
-			<td>Continuous/Habitual Past<br><br></td>
-			<td><strong>le du-</strong><br><br></td>
-			<td><strong>Mi le duyam pingo.</strong><br>I used to eat apples.</td>
+			<td>Continuous/Habitual Past<br /><br /></td>
+			<td><strong>le du-</strong><br /><br /></td>
+			<td><strong>Mi le duyam pingo.</strong><br />I used to eat apples.</td>
 		</tr>
 	</tbody>
 </table>
@@ -110,14 +110,14 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td>General Future<br><br></td>
-			<td><strong>xa</strong><br><br></td>
-			<td><strong>Mi xa yam pingo.</strong><br>I will eat the apple.</td>
+			<td>General Future<br /><br /></td>
+			<td><strong>xa</strong><br /><br /></td>
+			<td><strong>Mi xa yam pingo.</strong><br />I will eat the apple.</td>
 		</tr>
 		<tr>
-			<td>Continuous/Habitual Future<br><br></td>
-			<td><strong>xa du-</strong><br><br></td>
-			<td><strong>Mi xa duyam pingo.</strong><br>I will (continuously/habitually) eat apples.</td>
+			<td>Continuous/Habitual Future<br /><br /></td>
+			<td><strong>xa du-</strong><br /><br /></td>
+			<td><strong>Mi xa duyam pingo.</strong><br />I will (continuously/habitually) eat apples.</td>
 		</tr>
 	</tbody>
 </table>
@@ -136,14 +136,14 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td>Immediate Past<br><br></td>
-			<td><strong>jale</strong><br><br></td>
-			<td><strong>Mi jale yam pingo.</strong><br>I just ate the apple.</td>
+			<td>Immediate Past<br /><br /></td>
+			<td><strong>jale</strong><br /><br /></td>
+			<td><strong>Mi jale yam pingo.</strong><br />I just ate the apple.</td>
 		</tr>
 		<tr>
-			<td>Immediate Future<br><br></td>
-			<td><strong>jaxa</strong><br><br></td>
-			<td><strong>Mi jaxa yam pingo.</strong><br>I am about to eat the apple.</td>
+			<td>Immediate Future<br /><br /></td>
+			<td><strong>jaxa</strong><br /><br /></td>
+			<td><strong>Mi jaxa yam pingo.</strong><br />I am about to eat the apple.</td>
 		</tr>
 	</tbody>
 </table>
@@ -178,19 +178,19 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td>Present Active<br><br></td>
-			<td><strong>(nun) nun</strong><br><br></td>
-			<td><strong>Mi (nun) nun yam pingo.</strong><br>I am eating the apple.</td>
+			<td>Present Active<br /><br /></td>
+			<td><strong>(nun) nun</strong><br /><br /></td>
+			<td><strong>Mi (nun) nun yam pingo.</strong><br />I am eating the apple.</td>
 		</tr>
 		<tr>
-			<td>Present Completed<br><br></td>
-			<td><strong>nun le</strong><br><br></td>
-			<td><strong>Mi nun le yam pingo.</strong><br>I have eaten the apple.</td>
+			<td>Present Completed<br /><br /></td>
+			<td><strong>nun le</strong><br /><br /></td>
+			<td><strong>Mi nun le yam pingo.</strong><br />I have eaten the apple.</td>
 		</tr>
 		<tr>
-			<td>Present Prospective<br><br></td>
-			<td><strong>nun xa</strong><br><br></td>
-			<td><strong>Mi nun xa yam pingo.</strong><br>I am going to eat the apple.</td>
+			<td>Present Prospective<br /><br /></td>
+			<td><strong>nun xa</strong><br /><br /></td>
+			<td><strong>Mi nun xa yam pingo.</strong><br />I am going to eat the apple.</td>
 		</tr>
 	</tbody>
 </table>
@@ -209,19 +209,19 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td>Past Active<br><br></td>
-			<td><strong>le nun</strong><br><br></td>
-			<td><strong>Mi le nun yam pingo.</strong><br>I was eating the apple.</td>
+			<td>Past Active<br /><br /></td>
+			<td><strong>le nun</strong><br /><br /></td>
+			<td><strong>Mi le nun yam pingo.</strong><br />I was eating the apple.</td>
 		</tr>
 		<tr>
-			<td>Past Completed<br><br></td>
-			<td><strong>le le</strong><br><br></td>
-			<td><strong>Mi le le yam pingo.</strong><br>I had eaten the apple.</td>
+			<td>Past Completed<br /><br /></td>
+			<td><strong>le le</strong><br /><br /></td>
+			<td><strong>Mi le le yam pingo.</strong><br />I had eaten the apple.</td>
 		</tr>
 		<tr>
-			<td>Past Prospective<br><br></td>
-			<td><strong>le xa</strong><br><br></td>
-			<td><strong>Mi le xa yam pingo.</strong><br>I was going to eat the apple.</td>
+			<td>Past Prospective<br /><br /></td>
+			<td><strong>le xa</strong><br /><br /></td>
+			<td><strong>Mi le xa yam pingo.</strong><br />I was going to eat the apple.</td>
 		</tr>
 	</tbody>
 </table>
@@ -240,19 +240,19 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td>Future Active<br><br></td>
-			<td><strong>xa nun</strong><br><br></td>
-			<td><strong>Mi xa nun yam pingo.</strong><br>I will be eating the apple.</td>
+			<td>Future Active<br /><br /></td>
+			<td><strong>xa nun</strong><br /><br /></td>
+			<td><strong>Mi xa nun yam pingo.</strong><br />I will be eating the apple.</td>
 		</tr>
 		<tr>
-			<td>Future Completed<br><br></td>
-			<td><strong>xa le</strong><br><br></td>
-			<td><strong>Mi xa le yam pingo.</strong><br>I will have eaten the apple.</td>
+			<td>Future Completed<br /><br /></td>
+			<td><strong>xa le</strong><br /><br /></td>
+			<td><strong>Mi xa le yam pingo.</strong><br />I will have eaten the apple.</td>
 		</tr>
 		<tr>
-			<td>Future Prospective<br><br></td>
-			<td><strong>xa xa</strong><br><br></td>
-			<td><strong>Mi xa xa yam pingo.</strong><br>I will be going to eat the apple.</td>
+			<td>Future Prospective<br /><br /></td>
+			<td><strong>xa xa</strong><br /><br /></td>
+			<td><strong>Mi xa xa yam pingo.</strong><br />I will be going to eat the apple.</td>
 		</tr>
 	</tbody>
 </table>
@@ -263,18 +263,18 @@
 	continues into the present. In English, this is expressed either with the <em>present perfect</em> or the
 	<em>perfect progressive</em>.</p>
 <h3>Example Sentences with the Present Perfect in English</h3>
-<p><strong>Mi no dupul oko te xorfe mesi tiga.</strong><br> I haven't seen her since March.</p>
-<p><strong>Mi dupul kone te dur 30 nyan.</strong><br> I have known him for 30 years.</p>
-<p><strong>Mi dupul sen gadibu.</strong><br> I have been angry.</p>
-<p><strong>Yu dupul sen kepul?</strong><br> How have you been?</p>
+<p><strong>Mi no dupul oko te xorfe mesi tiga.</strong><br /> I haven't seen her since March.</p>
+<p><strong>Mi dupul kone te dur 30 nyan.</strong><br /> I have known him for 30 years.</p>
+<p><strong>Mi dupul sen gadibu.</strong><br /> I have been angry.</p>
+<p><strong>Yu dupul sen kepul?</strong><br /> How have you been?</p>
 <h3>Example Sentences with the Perfect Progressive in English</h3>
-<p><strong>Mi dupul yam hin pingo dur un satu.</strong><br> I have been eating this apple for one hour.</p>
-<p><strong>Yu dupul fale keto?</strong><br> What have you been doing?</p>
-<p><strong>Mi dupul doxo hin kitabu xorfe jaleli sabedin.</strong><br> I have been reading this book since last week.
+<p><strong>Mi dupul yam hin pingo dur un satu.</strong><br /> I have been eating this apple for one hour.</p>
+<p><strong>Yu dupul fale keto?</strong><br /> What have you been doing?</p>
+<p><strong>Mi dupul doxo hin kitabu xorfe jaleli sabedin.</strong><br /> I have been reading this book since last week.
 </p>
 <h2>Conditional Mood</h2>
 <p>The conditional mood is expressed using the particle <strong>ger</strong>. </p>
-<p><em>The particle <strong>ger</strong> is truncated from <strong>eger</strong> (if).<br> Etymology of
+<p><em>The particle <strong>ger</strong> is truncated from <strong>eger</strong> (if).<br /> Etymology of
 		<strong>eger</strong>: Hindi (अगर “agar”), Persian (اگر “agar”), Turkish (eğer)</em></p>
 <table>
 	<thead>
@@ -289,19 +289,19 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td>Conditional<br><br></td>
-			<td><strong>ger</strong><br><br></td>
-			<td><strong>Mi ger yam pingo.</strong><br>I would eat the apple.</td>
+			<td>Conditional<br /><br /></td>
+			<td><strong>ger</strong><br /><br /></td>
+			<td><strong>Mi ger yam pingo.</strong><br />I would eat the apple.</td>
 		</tr>
 		<tr>
-			<td>Conditional Past<br><br></td>
-			<td><strong>ger le</strong><br><br></td>
-			<td><strong>Mi ger le yam pingo.</strong><br>I would have eaten the apple.</td>
+			<td>Conditional Past<br /><br /></td>
+			<td><strong>ger le</strong><br /><br /></td>
+			<td><strong>Mi ger le yam pingo.</strong><br />I would have eaten the apple.</td>
 		</tr>
 	</tbody>
 </table>
 <p>The subordinate clause (if...) uses the dictionary form of the verb.</p>
-<p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br> I would eat the apple if I were hungry.</p>
+<p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> I would eat the apple if I were hungry.</p>
 <h2>Passive Voice <a id="be-"></a></h2>
 <p>The passive voice is expressed using the prefix <strong>be-</strong>.</p>
 <p><em>Etymology of <strong>be-</strong>: Mandarin (被 “bèi”), English (be), Norwegian (ble)</em></p>
@@ -318,19 +318,19 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td>Present Passive<br><br></td>
-			<td><strong>(nun) be-</strong><br><br></td>
-			<td><strong>Pingo beyam mi.</strong><br>The apple is eaten by me.</td>
+			<td>Present Passive<br /><br /></td>
+			<td><strong>(nun) be-</strong><br /><br /></td>
+			<td><strong>Pingo beyam mi.</strong><br />The apple is eaten by me.</td>
 		</tr>
 		<tr>
-			<td>Past Passive<br><br></td>
-			<td><strong>le be-</strong><br><br></td>
-			<td><strong>Pingo le beyam mi.</strong><br>The apple was eaten by me.</td>
+			<td>Past Passive<br /><br /></td>
+			<td><strong>le be-</strong><br /><br /></td>
+			<td><strong>Pingo le beyam mi.</strong><br />The apple was eaten by me.</td>
 		</tr>
 		<tr>
-			<td>Future Passive<br><br></td>
-			<td><strong>xa be-</strong><br><br></td>
-			<td><strong>Pingo xa beyam mi.</strong><br>The apple will be eaten by me.</td>
+			<td>Future Passive<br /><br /></td>
+			<td><strong>xa be-</strong><br /><br /></td>
+			<td><strong>Pingo xa beyam mi.</strong><br />The apple will be eaten by me.</td>
 		</tr>
 	</tbody>
 </table>
@@ -338,12 +338,12 @@
 	used with the general present, past and future tenses, as illustrated above.</p>
 <p>Note: In Globasa, the agent in passive voice sentences is expressed as the direct object without the need for a
 	preposition to mark the agent. In contrast, English marks the agent using <em>by</em>.</p>
-<p><strong>Myaw le no velosi yam piu.</strong><br> The cat didn't eat the bird quickly.</p>
-<p><strong>Piu le no velosi beyam myaw.</strong><br> The bird wasn't quickly eaten by the cat.</p>
+<p><strong>Myaw le no velosi yam piu.</strong><br /> The cat didn't eat the bird quickly.</p>
+<p><strong>Piu le no velosi beyam myaw.</strong><br /> The bird wasn't quickly eaten by the cat.</p>
 <h2>Imperative and Jussive Moods</h2>
 <p>In Globasa, commands (<em>imperative mood</em>) and exhortation (<em>jussive mood</em>) are both expressed using the
 	particle <strong>am</strong>.</p>
-<p><em>The particle <strong>am</strong> is truncated from <strong>amiru</strong> (command)<br> Etymology of
+<p><em>The particle <strong>am</strong> is truncated from <strong>amiru</strong> (command)<br /> Etymology of
 		<strong>amiru</strong>: Arabic (أمر “amr”), Turkish (emir), Swahili (amri, -amuru)</em></p>
 <table>
 	<thead>
@@ -358,15 +358,16 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td>Imperative Mood<br><br><br><br><br><br><br><br></td>
-			<td><strong>am</strong><br><br><br><br><br><br><br><br></td>
-			<td><strong>(Yu) Am yam!</strong><br>Eat!<br><br><strong>(Uyu) Am yam!</strong><br>(You all)
-				eat!<br><br><strong>Imi am yam!</strong><br>Let’s eat!</td>
+			<td>Imperative Mood<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>(Yu) Am yam!</strong><br />Eat!<br /><br /><strong>(Uyu) Am yam!</strong><br />(You all)
+				eat!<br /><br /><strong>Imi am yam!</strong><br />Let’s eat!</td>
 		</tr>
 		<tr>
-			<td>Jussive Mood<br><br><br><br><br><br><br><br></td>
-			<td><strong>am</strong><br><br><br><br><br><br><br><br></td>
-			<td><strong>Te am yam.</strong><br>May she eat.<br><br><strong>Mi am yam.</strong><br>May I eat.</td>
+			<td>Jussive Mood<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Te am yam.</strong><br />May she eat.<br /><br /><strong>Mi am yam.</strong><br />May I eat.
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -379,9 +380,9 @@
 	singular (<strong>mi</strong>).</p>
 <p>The jussive mood can also function as a <em>mandative subjunctive</em> within subordinate clauses. The <em>mandative
 		subjunctive</em> expresses a demand, requirement, request, recommendation or suggestion.</p>
-<p><strong>Mi vole ki te am safegi sesu kamer.</strong><br> I want him to clean his room.</p>
-<p><strong>Mi peti ki imi am xorata jaldi.</strong><br> I ask that we arrive early.</p>
-<p><strong>Kitabu hu xwexiyen am doxo da no sen daymo lungo.</strong><br> The book that the pupils are to read is not
+<p><strong>Mi vole ki te am safegi sesu kamer.</strong><br /> I want him to clean his room.</p>
+<p><strong>Mi peti ki imi am xorata jaldi.</strong><br /> I ask that we arrive early.</p>
+<p><strong>Kitabu hu xwexiyen am doxo da no sen daymo lungo.</strong><br /> The book that the pupils are to read is not
 	very long.</p>
 <h2>Negation</h2>
 <p>Negation for all verbs forms is expressed with the word <strong>no</strong> and, as an adverb, it immediately
@@ -399,27 +400,27 @@
 			<td>Sample Sentences</td>
 		</tr>
 		<tr>
-			<td><strong>no</strong><br><br><br><br><br><br><br><br></td>
-			<td><strong>Mi no sen lao.</strong><br>I am not old.<br><br><strong>Te no yam pingo.</strong><br>S/he
-				doesn't eat the apple.<br><br><strong>Am no yam pingo.</strong><br>Don't eat the apple.</td>
+			<td><strong>no</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Mi no sen lao.</strong><br />I am not old.<br /><br /><strong>Te no yam
+					pingo.</strong><br />S/he doesn't eat the apple.<br /><br /><strong>Am no yam
+					pingo.</strong><br />Don't eat the apple.</td>
 		</tr>
 	</tbody>
 </table>
 <h2>Infinitive Mood</h2>
 <p>In Globasa, the infinitive verb form is marked with the particle <strong>na</strong> and is typically omitted within
 	a clause once it has been established with the first verb. See <a
-		href="./jumleli-estrutur.html#nafalelexili_jumlemon">Infinitive Verb Phrases</a> under Sentence Structure.
-</p>
+		href="./jumleli-estrutur.html#nafalelexili_jumlemon">Infinitive Verb Phrases</a> under Sentence Structure. </p>
 <p><em>Etymology of <strong>na</strong>: Greek (να “na”), Hindi (-ना “-na”)</em></p>
 <h2>Subordinate Clauses</h2>
 <p>As seen above, <em>if</em> clauses in conditional sentences use the dictionary verb form. However, not every sentence
 	that has an <em>if</em> clause is a conditional sentence. Unless the sentence is conditional, <em>if</em> clauses
 	are marked for tense. </p>
-<p><strong>Eger mi xa yam pingo, mi xa no haji sen yamkal.</strong><br> If I eat the apple (<em>in the future</em>), I
+<p><strong>Eger mi xa yam pingo, mi xa no haji sen yamkal.</strong><br /> If I eat the apple (<em>in the future</em>), I
 	will no longer be hungry.</p>
-<p><strong>Eger te le yam yusu pingo, kam yu xa sen gadibu?</strong><br> If he ate your apple (<em>in the past</em>),
+<p><strong>Eger te le yam yusu pingo, kam yu xa sen gadibu?</strong><br /> If he ate your apple (<em>in the past</em>),
 	will you be angry?</p>
-<p><strong>Eger te yam yusu pingo, kam yu gadibucu?</strong><br> If he eats your apples (<em>in general</em>), do you
+<p><strong>Eger te yam yusu pingo, kam yu gadibucu?</strong><br /> If he eats your apples (<em>in general</em>), do you
 	get angry?</p>
 <h3>Sentences with other subordinate clauses</h3>
 <p>Besides <strong>eger</strong> (<em>if</em>), subordinate clauses may begin with other conjunctions, such as

@@ -36,7 +36,7 @@
 <h2>Дробни числа</h2>
 <p>Производните дробни числа са съществителни имена и се състоят от две думи - числителят, следван от знаменателя,
 	предшестван от <strong>of-</strong>.</p>
-<p>1/2 (половина) - <strong>un ofdua</strong><br> 1/3 (една трета) - <strong>un oftiga</strong><br> 1/4 (една четвърт) -
+<p>1/2 (една втора) - <strong>un ofdua</strong><br> 1/3 (една трета) - <strong>un oftiga</strong><br> 1/4 (една четвърт) -
 	<strong>un ofcare</strong><br> 1/5 (една пета) - <strong>un oflima</strong><br> 1/6 (една шеста) - <strong>un
 		ofsisa</strong><br> 1/7 (една седма) - <strong>un ofsabe</strong><br> 1/8 (една осма) - <strong>un
 		ofoco</strong><br> 1/9 (една девета) - <strong>un ofnue</strong><br> 1/10 (една десета) - <strong>un
@@ -50,8 +50,8 @@
 <h2>Метрични мерки</h2>
 <p>Думите за метрични мерки използват цели числа и дробни числа като представки.</p>
 <p><strong>metro</strong> - метър<br>
-	<strong>desmetro</strong> - десет метра<br>
-	<strong>cenmetro</strong> - сто метра<br>
+	<strong>desmetro</strong> - декаметър<br>
+	<strong>cenmetro</strong> - хектометър<br>
 	<strong>kilometro</strong> - километър
 </p>
 <p><strong>decimetro</strong> - дециметър<br>
@@ -70,8 +70,8 @@
 	<strong>duaple</strong> - двоен<br>
 	<strong>tigaple</strong> - троен<br>
 	<strong>careple</strong> - четворен<br>
-	<strong>limaple</strong> - петкратен<br>
-	<strong>sisaple</strong> - шесткратен, и т.н.
+	<strong>limaple</strong> - петорен<br>
+	<strong>sisaple</strong> - шесторен, и т.н.
 </p>
 <h2>Месеци от годината</h2>
 <p><strong>mesi 1 (mesi un)</strong> - януари<br>

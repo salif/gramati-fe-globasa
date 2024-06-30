@@ -139,57 +139,57 @@
 	<li><strong>max... kom...</strong> - more... than...</li>
 	<li><strong>min... kom...</strong> - fewer... than...</li>
 </ul>
-<p><strong>Mi hare max kitabu kom yu.</strong><br> I have more books than you.</p>
-<p><strong>Yu hare min kitabu kom mi.</strong><br> You have fewer books than I.</p>
+<p><strong>Mi hare max kitabu kom yu.</strong><br /> I have more books than you.</p>
+<p><strong>Yu hare min kitabu kom mi.</strong><br /> You have fewer books than I.</p>
 <ul>
 	<li><strong>max te/to kom...</strong> - more (of them) than...</li>
 	<li><strong>min te/to kom...</strong> - fewer (of them) than...</li>
 </ul>
-<p><strong>Mi hare max to kom yu.</strong><br> I have more (of them) than you.</p>
-<p><strong>Yu hare min to kom mi.</strong><br> You have fewer (of them) than I.</p>
+<p><strong>Mi hare max to kom yu.</strong><br /> I have more (of them) than you.</p>
+<p><strong>Yu hare min to kom mi.</strong><br /> You have fewer (of them) than I.</p>
 <ul>
 	<li><strong>max kom</strong> - more than</li>
 	<li><strong>min kom</strong> - fewer than</li>
 </ul>
-<p><strong>Mi hare max kom cen kitabu.</strong><br> I have more than one hundred books.</p>
-<p><strong>Yu hare min kom cen kitabu.</strong><br> You have fewer than one hundred books.</p>
+<p><strong>Mi hare max kom cen kitabu.</strong><br /> I have more than one hundred books.</p>
+<p><strong>Yu hare min kom cen kitabu.</strong><br /> You have fewer than one hundred books.</p>
 <ul>
 	<li><strong>dennumer... kom...</strong> - as many... as...</li>
 </ul>
-<p><strong>Te hare dennumer kitabu kom mi.</strong><br> She has as many books as me.</p>
+<p><strong>Te hare dennumer kitabu kom mi.</strong><br /> She has as many books as me.</p>
 <ul>
 	<li><strong>dennumer te/to kom...</strong> as many (of them) as...</li>
 </ul>
-<p><strong>Te hare dennumer to kom mi.</strong><br> She has as many as me.</p>
+<p><strong>Te hare dennumer to kom mi.</strong><br /> She has as many as me.</p>
 <ul>
 	<li><strong>denkwanti... kom...</strong> as much... as...</li>
 </ul>
-<p><strong>Yu yam denkwanti risi kom mi.</strong><br> You eat as much rice as me.</p>
+<p><strong>Yu yam denkwanti risi kom mi.</strong><br /> You eat as much rice as me.</p>
 <ul>
 	<li><strong>denkwanti to kom...</strong> as much (of it) as...</li>
 </ul>
-<p><strong>Yu yam denkwanti to kom mi.</strong><br> You eat as much (of it) as me.</p>
+<p><strong>Yu yam denkwanti to kom mi.</strong><br /> You eat as much (of it) as me.</p>
 <p>With verbs:</p>
 <ul>
 	<li><strong>max... kom....</strong> or <strong>max kom...</strong> - more than</li>
 </ul>
-<p><strong>Myaw max somno kom bwaw.</strong><br> or: <strong>Myaw somno max kom bwaw.</strong><br> The cat sleeps more
-	than the dog.</p>
+<p><strong>Myaw max somno kom bwaw.</strong><br /> or: <strong>Myaw somno max kom bwaw.</strong><br /> The cat sleeps
+	more than the dog.</p>
 <ul>
 	<li><strong>min... kom....</strong> or <strong>min kom...</strong> - less than</li>
 </ul>
-<p><strong>Bwaw min somno kom myaw.</strong><br> or: <strong>Bwaw somno min kom myaw.</strong><br> The dog sleeps less
-	than the cat.</p>
+<p><strong>Bwaw min somno kom myaw.</strong><br /> or: <strong>Bwaw somno min kom myaw.</strong><br /> The dog sleeps
+	less than the cat.</p>
 <ul>
 	<li><strong>denkwanti... kom...</strong> or <strong>denkwanti kom...</strong> - as much as</li>
 </ul>
-<p><strong>Bebe denkwanti somno kom myaw.</strong><br> or: <strong>Bebe somno denkwanti kom myaw.</strong><br> The baby
-	sleeps as much as the cat.</p>
+<p><strong>Bebe denkwanti somno kom myaw.</strong><br /> or: <strong>Bebe somno denkwanti kom myaw.</strong><br /> The
+	baby sleeps as much as the cat.</p>
 <p>To express <em>the more/the less..., the more/the less...</em>, Globasa uses <strong>folki... max/min,
 		max/min</strong>.</p>
-<p><strong>Folki mi max doxo, mi max jixi.</strong><br> The more I read, the more I know.</p>
+<p><strong>Folki mi max doxo, mi max jixi.</strong><br /> The more I read, the more I know.</p>
 <p>The order of these phrases may switch places:</p>
-<p><strong>Mi max jixi, folki mi max doxo.</strong><br> I know more, the more I read.</p>
+<p><strong>Mi max jixi, folki mi max doxo.</strong><br /> I know more, the more I read.</p>
 <h3>Verb Categories <a id="falelexili_klase"></a></h3>
 <p>Verbs are defined in the dictionary as <em>auxiliary</em>, <em>copula</em>, _transitive, <em>intransitive</em>, or
 	<em>ambitransitive</em>.</p>
@@ -212,55 +212,55 @@
 	<strong>loka</strong> (be located). However, certain verbs that are usually intransitive may become transitive. Most
 	of these cases are seen in sentences in which the same noun/verb word is used as the verb and repeated as the direct
 	object.</p>
-<p><strong>Mi le somno (lungo somno).</strong><br> I slept (a long sleep).</p>
-<p><strong>Yu le haha (sotipul haha).</strong><br> You laughed (a loud laugh). </p>
+<p><strong>Mi le somno (lungo somno).</strong><br /> I slept (a long sleep).</p>
+<p><strong>Yu le haha (sotipul haha).</strong><br /> You laughed (a loud laugh). </p>
 <h4>Ambitransitive Verbs</h4>
 <p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">Ambitransitive verbs</a> in Globasa are verbs
 	for which both the subject of the intransitive reading and the direct object of the transitive reading experience
 	the same action/state of the verb. The intransitive reading of these verbs may optionally take <strong>-cu</strong>
 	and the transitive reading may optionally take <strong>-gi</strong>. </p>
 <ul>
-	<li><strong>esto(cu)</strong> - stop (<em>come to a stop</em>)<br>
+	<li><strong>esto(cu)</strong> - stop (<em>come to a stop</em>)<br />
 		<strong>esto(gi)</strong> - stop (<em>bring to a stop or cause to stop</em>)
 	</li>
 </ul>
-<p><strong>Am esto(cu)!</strong><br> Stop!</p>
-<p><strong>Am esto(gi) mobil!</strong><br> Stop the car!</p>
+<p><strong>Am esto(cu)!</strong><br /> Stop!</p>
+<p><strong>Am esto(gi) mobil!</strong><br /> Stop the car!</p>
 <ul>
-	<li><strong>harka(cu)</strong> - move (<em>make a movement</em>)<br>
+	<li><strong>harka(cu)</strong> - move (<em>make a movement</em>)<br />
 		<strong>harka(gi)</strong> - move (<em>cause to move</em>)
 	</li>
 </ul>
-<p><strong>Am no harka(cu)!</strong><br> Don't move!</p>
-<p><strong>Mi le harka(gi) yusu kursi.</strong><br> I moved your chair. </p>
+<p><strong>Am no harka(cu)!</strong><br /> Don't move!</p>
+<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> I moved your chair. </p>
 <ul>
-	<li><strong>kasiru(cu)</strong> - break (<em>get broken</em>)<br>
+	<li><strong>kasiru(cu)</strong> - break (<em>get broken</em>)<br />
 		<strong>kasiru(gi)</strong> - break (<em>cause to break</em>)
 	</li>
 </ul>
-<p><strong>Janela le kasiru(cu).</strong><br> The window broke. </p>
-<p><strong>Mi le kasiru(gi) janela.</strong><br> I broke the window.</p>
+<p><strong>Janela le kasiru(cu).</strong><br /> The window broke. </p>
+<p><strong>Mi le kasiru(gi) janela.</strong><br /> I broke the window.</p>
 <ul>
-	<li><strong>buka(cu)</strong> - open (<em>become open</em>)<br>
+	<li><strong>buka(cu)</strong> - open (<em>become open</em>)<br />
 		<strong>buka(gi)</strong> - open (<em>make open</em>)
 	</li>
 </ul>
-<p><strong>Dwer le buka(cu).</strong><br> The door opened.</p>
-<p><strong>Mi le buka(gi) dwer.</strong><br> I opened the door.</p>
+<p><strong>Dwer le buka(cu).</strong><br /> The door opened.</p>
+<p><strong>Mi le buka(gi) dwer.</strong><br /> I opened the door.</p>
 <ul>
-	<li><strong>sokutu(cu)</strong> - fall<br>
+	<li><strong>sokutu(cu)</strong> - fall<br />
 		<strong>sokutu(gi)</strong> - drop
 	</li>
 </ul>
-<p><strong>Kitabu le sokutu(cu).</strong><br> The book fell. </p>
-<p><strong>Mi le sokutu(gi) kitabu.</strong><br> I dropped the book.</p>
+<p><strong>Kitabu le sokutu(cu).</strong><br /> The book fell. </p>
+<p><strong>Mi le sokutu(gi) kitabu.</strong><br /> I dropped the book.</p>
 <ul>
-	<li><strong>resta(cu)</strong> - stay, remain<br>
+	<li><strong>resta(cu)</strong> - stay, remain<br />
 		<strong>resta(gi)</strong> - leave (behind), keep (<em>cause to stay, remain</em>)
 	</li>
 </ul>
-<p><strong>Am resta(cu) in ogar.</strong><br> Stay home. </p>
-<p><strong>Am resta(gi) kamisa in bao.</strong><br> Leave/keep the shirt in the bag. </p>
+<p><strong>Am resta(cu) in ogar.</strong><br /> Stay home. </p>
+<p><strong>Am resta(gi) kamisa in bao.</strong><br /> Leave/keep the shirt in the bag. </p>
 <h2>Adjective/Adverbs</h2>
 <p>In Globasa, adjectives and <em>verb-modifying adverbs</em> have identical form.</p>
 <ul>
@@ -269,20 +269,20 @@
 	<li><strong>multi</strong> - many, much</li>
 </ul>
 <p>Adjective/adverbs precede the noun/verbs they modify.</p>
-<p><strong>Hinto sen <em>bon yam</em>.</strong><br> This is a <em>good meal</em>.</p>
-<p><strong>Bebe <em>bon yam</em>.</strong><br> The baby <em>eats well</em>.</p>
-<p><strong>Uma <em>velosi pawbu</em>.</strong><br> The horse <em>runs fast</em>.</p>
+<p><strong>Hinto sen <em>bon yam</em>.</strong><br /> This is a <em>good meal</em>.</p>
+<p><strong>Bebe <em>bon yam</em>.</strong><br /> The baby <em>eats well</em>.</p>
+<p><strong>Uma <em>velosi pawbu</em>.</strong><br /> The horse <em>runs fast</em>.</p>
 <p>Alternatively, adverbs may appear after the verb, but preceded by the direct and indirect objects, if any: Subject -
 	Verb - (Direct and Indirect Objects) - Adverb.</p>
-<p><strong>Bebe yam <em>bon</em>.</strong><br> The baby eats <em>well</em>.</p>
-<p><strong>Bwaw glu sui <em>velosi</em>.</strong><br> The dog drinks the water <em>quickly</em>.</p>
+<p><strong>Bebe yam <em>bon</em>.</strong><br /> The baby eats <em>well</em>.</p>
+<p><strong>Bwaw glu sui <em>velosi</em>.</strong><br /> The dog drinks the water <em>quickly</em>.</p>
 <p>Adverbs may also be moved to the start of the sentence, so long as there is a definite pause with the comma so as to
 	separate the phrase from the rest of the sentence. Without the pause, the adjective/adverb could be mistakenly
 	interpreted as modifying the subject. </p>
-<p><strong><em>Velosi</em>, bwaw glu sui.</strong><br>
+<p><strong><em>Velosi</em>, bwaw glu sui.</strong><br />
 	<em>Quickly</em>, the dog drinks the water.
 </p>
-<p><strong><em>Unyum</em>, te le idi cel banko.</strong><br>
+<p><strong><em>Unyum</em>, te le idi cel banko.</strong><br />
 	<em>First</em>, she went to the bank.
 </p>
 <h3>Adjective/Adverbs in Sentence-Initial Phrases</h3>
@@ -321,8 +321,8 @@
 <p>To express <em>the most (-est)</em> and <em>the least</em>, Glosaba uses <strong>maxim... te/to</strong> and
 	<strong>minim... te/to</strong>. The word <strong>of</strong> means <em>out of</em> or <em>off (of)</em>. Note that
 	the pronouns <strong>te</strong>/<strong>to</strong> must immediately follow the adjective since noun phrases must
-	always end in a noun or pronoun. See <a
-		href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Noun Phrases</a>.</p>
+	always end in a noun or pronoun. See <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Noun
+		Phrases</a>.</p>
 <ul>
 	<li><strong>maxim juni te (of misu bete)</strong> - the youngest (of my children)</li>
 	<li><strong>minim kimapul to (of yusu mobil)</strong> - the least expensive/costly (of your cars)</li>
@@ -350,22 +350,22 @@
 </ol>
 <ul>
 	<li>
-		<p><strong>real</strong> - real (<em>adj</em>)<br>
+		<p><strong>real</strong> - real (<em>adj</em>)<br />
 			<strong>realya</strong> - reality (<em>noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>bimar</strong> - sick, ill (<em>adj</em>)<br>
+		<p><strong>bimar</strong> - sick, ill (<em>adj</em>)<br />
 			<strong>bimarya</strong> - illness, disease (<em>noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>huru</strong> - free (<em>adj</em>)<br>
+		<p><strong>huru</strong> - free (<em>adj</em>)<br />
 			<strong>huruya</strong> - freedom, liberty (<em>noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>solo</strong> - alone (<em>adj</em>)<br>
+		<p><strong>solo</strong> - alone (<em>adj</em>)<br />
 			<strong>soloya</strong> - solitude (<em>noun</em>)
 		</p>
 	</li>
@@ -382,17 +382,17 @@
 </p>
 <ul>
 	<li>
-		<p><strong>matre</strong> - mother (<em>concrete noun</em>)<br>
+		<p><strong>matre</strong> - mother (<em>concrete noun</em>)<br />
 			<strong>matreya</strong> - motherhood (<em>abstract noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>patre</strong> - father (<em>concrete noun</em>)<br>
+		<p><strong>patre</strong> - father (<em>concrete noun</em>)<br />
 			<strong>patreya</strong> - fatherhood (<em>abstract noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>doste</strong> - friend (<em>concrete noun</em>)<br>
+		<p><strong>doste</strong> - friend (<em>concrete noun</em>)<br />
 			<strong>dosteya</strong> - friendship (<em>abstract noun</em>)
 		</p>
 	</li>
@@ -401,17 +401,17 @@
 	<strong>-ya</strong> and functions as the counterpart to the verb.</p>
 <ul>
 	<li>
-		<p><strong>imaje</strong> - image/picture (<em>concrete noun</em>), imagine/picture (<em>verb</em>)<br>
+		<p><strong>imaje</strong> - image/picture (<em>concrete noun</em>), imagine/picture (<em>verb</em>)<br />
 			<strong>imajeya</strong> - imagination (<em>abstract noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>magneto</strong> - magnet (<em>concrete noun</em>), attract (<em>verb</em>)<br>
+		<p><strong>magneto</strong> - magnet (<em>concrete noun</em>), attract (<em>verb</em>)<br />
 			<strong>magnetoya</strong> - attraction (<em>abstract noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>turi</strong> - trip (<em>count noun</em>), travel (<em>verb</em>)<br>
+		<p><strong>turi</strong> - trip (<em>count noun</em>), travel (<em>verb</em>)<br />
 			<strong>turiya</strong> - tourism (<em>noncount noun</em>)
 		</p>
 	</li>
@@ -420,27 +420,27 @@
 	<strong>-ya</strong> is used to derive the abstract noun.</p>
 <ul>
 	<li>
-		<p><strong>oko</strong> - eye (<em>concrete noun</em>), see, look (<em>verb</em>)<br>
+		<p><strong>oko</strong> - eye (<em>concrete noun</em>), see, look (<em>verb</em>)<br />
 			<strong>okoya</strong> - sight <em>or</em> sense of sight (<em>abstract noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>ore</strong> - ear (<em>concrete noun</em>), hear, listen (<em>verb</em>)<br>
+		<p><strong>ore</strong> - ear (<em>concrete noun</em>), hear, listen (<em>verb</em>)<br />
 			<strong>oreya</strong> - hearing <em>or</em> sense of hearing (<em>abstract noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>nasa</strong> - nose (<em>concrete noun</em>), smell (<em>verb</em>)<br>
+		<p><strong>nasa</strong> - nose (<em>concrete noun</em>), smell (<em>verb</em>)<br />
 			<strong>nasaya</strong> - smell <em>or</em> sense of smell (<em>abstract noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>xeto</strong> - tongue (<em>concrete noun</em>), taste (<em>verb</em>)<br>
+		<p><strong>xeto</strong> - tongue (<em>concrete noun</em>), taste (<em>verb</em>)<br />
 			<strong>xetoya</strong> - taste <em>or</em> sense of taste (<em>abstract noun</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>pifu</strong> - skin (<em>concrete noun</em>), touch (<em>verb</em>)<br>
+		<p><strong>pifu</strong> - skin (<em>concrete noun</em>), touch (<em>verb</em>)<br />
 			<strong>pifuya</strong> - touch <em>or</em> sense of touch (<em>abstract noun</em>)
 		</p>
 	</li>
@@ -464,7 +464,7 @@
 </ul>
 <p>The prefix <strong>du-</strong> is also used for the <em>continuous/habitual verb aspect</em>. See <a
 		href="./falelexili-morfo.html">Verb Forms</a>.</p>
-<p><em>The prefix <strong>du-</strong> is truncated from <strong>dure</strong> (duration).<br> Etymology of
+<p><em>The prefix <strong>du-</strong> is truncated from <strong>dure</strong> (duration).<br /> Etymology of
 		<strong>dure</strong>: English, French, German and Spanish</em></p>
 <h3>Noun/Verb Suffix -gi <a id="xafefikso_-gi"></a></h3>
 <p>The suffix <strong>-gi</strong> may be applied to adjectives, verbs and nouns.</p>
@@ -472,17 +472,17 @@
 <p>The suffix <strong>-gi</strong> turns adjectives into transitive verbs.</p>
 <ul>
 	<li>
-		<p><strong>bala</strong> - strong<br>
+		<p><strong>bala</strong> - strong<br />
 			<strong>balagi</strong> - strengthen
 		</p>
 	</li>
 	<li>
-		<p><strong>pul</strong> - full<br>
+		<p><strong>pul</strong> - full<br />
 			<strong>pulgi</strong> - fill
 		</p>
 	</li>
 	<li>
-		<p><strong>mor</strong> - dead<br>
+		<p><strong>mor</strong> - dead<br />
 			<strong>morgi</strong> - kill
 		</p>
 	</li>
@@ -493,12 +493,12 @@
 		href="./inharelexi.html#falelexili_klase">Verb Categories</a>).</p>
 <ul>
 	<li>
-		<p><strong>haha</strong> - laugh<br>
+		<p><strong>haha</strong> - laugh<br />
 			<strong>hahagi</strong> - make laugh (<em>cause laughter</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>yam</strong> - eat<br>
+		<p><strong>yam</strong> - eat<br />
 			<strong>yamgi</strong> - feed (<em>cause to eat</em>)
 		</p>
 	</li>
@@ -507,17 +507,17 @@
 <p>The suffix <strong>-gi</strong> means <em>cause to be(come)</em> when added to nouns. </p>
 <ul>
 	<li>
-		<p><strong>zombi</strong> - zombie<br>
+		<p><strong>zombi</strong> - zombie<br />
 			<strong>zombigi</strong> - zombify
 		</p>
 	</li>
 	<li>
-		<p><strong>korbani</strong> - victim<br>
+		<p><strong>korbani</strong> - victim<br />
 			<strong>korbanigi</strong> - victimize
 		</p>
 	</li>
 </ul>
-<p><em>The suffix <strong>-gi</strong> is truncated from <strong>gibe</strong> (give).<br> Etymology of
+<p><em>The suffix <strong>-gi</strong> is truncated from <strong>gibe</strong> (give).<br /> Etymology of
 		<strong>gibe</strong>: English (give), German (geben, gibt) and Mandarin (给 “gěi”)</em></p>
 <h3>Noun/Verb Suffix -cu <a id="xafefikso_-cu"></a></h3>
 <p>The suffix <strong>-cu</strong> may be applied to adjectives, verbs and nouns.</p>
@@ -525,12 +525,12 @@
 <p>The suffix <strong>-cu</strong> (get/become) turns adjectives into intransitive verbs.</p>
 <ul>
 	<li>
-		<p><strong>roso</strong> - red<br>
+		<p><strong>roso</strong> - red<br />
 			<strong>rosocu</strong> - blush/redden (<em>get red</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>mor</strong> - dead<br>
+		<p><strong>mor</strong> - dead<br />
 			<strong>morcu</strong> - die (<em>become dead</em>)
 		</p>
 	</li>
@@ -541,12 +541,12 @@
 	<strong>-cu</strong> is required to make a distinction. </p>
 <ul>
 	<li>
-		<p><strong>gami</strong> - spouse (<em>noun</em>); marry, get married (<em>verb</em>)<br>
+		<p><strong>gami</strong> - spouse (<em>noun</em>); marry, get married (<em>verb</em>)<br />
 			<strong>gamicu</strong> - wedding (<em>noun</em>); get married (<em>verb</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>side</strong> - sit (<em>be seated or cause to sit</em>), seat<br>
+		<p><strong>side</strong> - sit (<em>be seated or cause to sit</em>), seat<br />
 			<strong>sidecu</strong> - sit down (<em>become seated</em>)
 		</p>
 	</li>
@@ -555,40 +555,40 @@
 <p>The suffix <strong>-cu</strong> means <em>become</em> when added to nouns. </p>
 <ul>
 	<li>
-		<p><strong>zombi</strong> - zombie<br>
+		<p><strong>zombi</strong> - zombie<br />
 			<strong>zombicu</strong> - turn into a zombie
 		</p>
 	</li>
 	<li>
-		<p><strong>ixu</strong> - (human) adult<br>
+		<p><strong>ixu</strong> - (human) adult<br />
 			<strong>ixucu</strong> - become an adult, come of age
 		</p>
 	</li>
 </ul>
-<p><em>The suffix <strong>-cu</strong> is truncated from <strong>cudu</strong> (take, obtain, acquire, gain)<br>
+<p><em>The suffix <strong>-cu</strong> is truncated from <strong>cudu</strong> (take, obtain, acquire, gain)<br />
 		Etymology of <strong>cudu</strong>: Mandarin (取得 "qǔdé"), Korean (취득 “chwideug”)</em></p>
 <h3>Adjective/Adverb Suffix -li <a id="xafefikso_-li"></a></h3>
 <p>In Globasa, adjective/adverbs are derived from nouns by means of various suffixes. See full list of suffixes under <a
-		href="./lexikostrui.html">Word Formation</a>. One of the most common is the suffix <strong>-li</strong>
-	(<em>of, relating to</em>).</p>
+		href="./lexikostrui.html">Word Formation</a>. One of the most common is the suffix <strong>-li</strong> (<em>of,
+		relating to</em>).</p>
 <ul>
 	<li>
-		<p><strong>musika</strong> - music<br>
+		<p><strong>musika</strong> - music<br />
 			<strong>musikali</strong> - musical, musically
 		</p>
 	</li>
 	<li>
-		<p><strong>denta</strong> - tooth<br>
+		<p><strong>denta</strong> - tooth<br />
 			<strong>dentali</strong> - dental
 		</p>
 	</li>
 	<li>
-		<p><strong>dongu</strong> - east<br>
+		<p><strong>dongu</strong> - east<br />
 			<strong>donguli</strong> - eastern
 		</p>
 	</li>
 	<li>
-		<p><strong>Franse</strong> - France<br>
+		<p><strong>Franse</strong> - France<br />
 			<strong>Franseli</strong> - French
 		</p>
 	</li>
@@ -602,12 +602,12 @@
 		or more than enough</em>.</p>
 <ul>
 	<li>
-		<p><strong>jawgu</strong> - care, take care<br>
+		<p><strong>jawgu</strong> - care, take care<br />
 			<strong>jawgupul</strong> - careful
 		</p>
 	</li>
 	<li>
-		<p><strong>hatari</strong> - danger<br>
+		<p><strong>hatari</strong> - danger<br />
 			<strong>hataripul</strong> - dangerous
 		</p>
 	</li>
@@ -622,27 +622,27 @@
 	as adjectives.</p>
 <ul>
 	<li>
-		<p><strong>somno</strong> - sleep<br>
+		<p><strong>somno</strong> - sleep<br />
 			<strong><em>somnone</em> meliyen</strong> - <em>sleeping</em> beauty
 		</p>
 	</li>
 	<li>
-		<p><strong>anda</strong> - walk<br>
+		<p><strong>anda</strong> - walk<br />
 			<strong><em>andane</em> moryen</strong> - <em>walking</em> dead
 		</p>
 	</li>
 	<li>
-		<p><strong>danse</strong> - dance<br>
+		<p><strong>danse</strong> - dance<br />
 			<strong><em>dansene</em> uma</strong> - <em>dancing</em> horse
 		</p>
 	</li>
 	<li>
-		<p><strong>interes</strong> - interest<br>
+		<p><strong>interes</strong> - interest<br />
 			<strong><em>interesne</em> kitabu</strong> - <em>interesting</em> book
 		</p>
 	</li>
 	<li>
-		<p><strong>amusa</strong> - amuse, fun<br>
+		<p><strong>amusa</strong> - amuse, fun<br />
 			<strong><em>amusane</em> filme</strong> - <em>amusing/fun</em> film
 		</p>
 	</li>
@@ -652,23 +652,23 @@
 <h3>Sentence-Initial Active Adjectives</h3>
 <p>Active adjectives that appear sentence initially may alternatively be expressed as prepositional phrases using the
 	infinitive verb form.</p>
-<p><strong><em>Doxone,</em> nini le xorsomno.</strong><br>
+<p><strong><em>Doxone,</em> nini le xorsomno.</strong><br />
 	<em>Reading,</em> the kid fell asleep.
 </p>
 <p><em>or</em></p>
-<p><strong><em>Fe na doxo,</em> nini le xorsomno.</strong><br>
-	<em>Reading,</em> the kid fell asleep.<br>
-	<em>or</em><br>
-	<strong><em>Dur na doxo,</em> nini le xorsomno.</strong><br>
+<p><strong><em>Fe na doxo,</em> nini le xorsomno.</strong><br />
+	<em>Reading,</em> the kid fell asleep.<br />
+	<em>or</em><br />
+	<strong><em>Dur na doxo,</em> nini le xorsomno.</strong><br />
 	<em>While reading,</em> the kid fell asleep.
 </p>
 <p>This construction is useful particularly when the phrase includes a direct object since, unlike the <em>present
 		participle</em> in English, <em>active adjectives</em> in Globasa cannot function as verbs.</p>
-<p><strong><em>Dur na doxo sesu preferido kitabu,</em> nini le xorsomno.</strong><br>
+<p><strong><em>Dur na doxo sesu preferido kitabu,</em> nini le xorsomno.</strong><br />
 	<em>While reading his favorite book,</em> the kid fell asleep.
 </p>
 <p>Naturally, these phrases may also be expressed as full clauses, as opposed to prepositional phrases.</p>
-<p><strong><em>Dur te le doxo (sesu preferido kitabu),</em> nini le xorsomno.</strong><br>
+<p><strong><em>Dur te le doxo (sesu preferido kitabu),</em> nini le xorsomno.</strong><br />
 	<em>While he read (his favorite book),</em> the kid fell asleep.
 </p>
 <h3>Passive Adjectives</h3>
@@ -709,17 +709,17 @@
 	<strong>-mo</strong>. Compare the following pairs of phrases.</p>
 <ul>
 	<li>
-		<p><strong>perfeto blue oko</strong> - perfect blue eyes (<em>blue eyes that are perfect</em>)<br>
+		<p><strong>perfeto blue oko</strong> - perfect blue eyes (<em>blue eyes that are perfect</em>)<br />
 			<strong>perfetomo blue oko</strong> - perfectly blue eyes (<em>eyes that are perfectly blue</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>naturali syahe tofa</strong> - natural black hair (<em>not a wig</em>)<br>
+		<p><strong>naturali syahe tofa</strong> - natural black hair (<em>not a wig</em>)<br />
 			<strong>naturalimo syahe tofa</strong> - naturally black hair (<em>not dyed</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>sotikal doxone nini</strong> - quiet child reading<br>
+		<p><strong>sotikal doxone nini</strong> - quiet child reading<br />
 			<strong>sotikalmo doxone nini</strong> - child silently reading
 		</p>
 	</li>

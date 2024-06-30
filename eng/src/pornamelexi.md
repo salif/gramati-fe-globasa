@@ -21,12 +21,12 @@
 			<td><b>uyu</b> - you</td>
 		</tr>
 		<tr>
-			<th><b><i>3rd person<br>(animate)</i></b></th>
+			<th><b><i>3rd person<br />(animate)</i></b></th>
 			<td><b>te</b> - he, him, she, her, it</td>
 			<td><b>ete</b> - they, them</td>
 		</tr>
 		<tr>
-			<th><b><i>3rd person<br>(inanimate)</i></b></th>
+			<th><b><i>3rd person<br />(inanimate)</i></b></th>
 			<td><b>to</b> - it</td>
 			<td><b>oto</b> - they, them</td>
 		</tr>
@@ -54,8 +54,8 @@
 </ul>
 <h3>seli</h3>
 <p>The adjective <strong>seli</strong> is used with subject pronouns to express emphasis of self.</p>
-<p><strong>seli mi</strong> - I myself<br>
-	<strong>seli yu</strong> - you yourself<br> etc.
+<p><strong>seli mi</strong> - I myself<br />
+	<strong>seli yu</strong> - you yourself<br /> etc.
 </p>
 <h2>Possessive Adjectives <a id="suyali_sifalexi"></a></h2>
 <p>The possessive adjectives are derived from the pronouns by adding the suffix <strong>-su</strong>:</p>
@@ -77,12 +77,12 @@
 			<td><b>uyusu</b> - your</td>
 		</tr>
 		<tr>
-			<th><b><i>3rd person<br>animate</i></b></th>
+			<th><b><i>3rd person<br />animate</i></b></th>
 			<td><b>tesu</b> - her, his, its</td>
 			<td><b>etesu</b> - their</td>
 		</tr>
 		<tr>
-			<th><b><i>3rd person<br>inanimate</i></b></th>
+			<th><b><i>3rd person<br />inanimate</i></b></th>
 			<td><b>tosu</b> - its</td>
 			<td><b>otosu</b> - their</td>
 		</tr>
@@ -128,12 +128,12 @@
 			<td><b>uyusu te/to</b> - yours</td>
 		</tr>
 		<tr>
-			<th><b><i>3rd person<br>animate</i></b></th>
+			<th><b><i>3rd person<br />animate</i></b></th>
 			<td><b>tesu te/to</b> - hers, his, its</td>
 			<td><b>etesu te/to</b> - theirs</td>
 		</tr>
 		<tr>
-			<th><b><i>3rd person<br>inanimate</i></b></th>
+			<th><b><i>3rd person<br />inanimate</i></b></th>
 			<td><b>tosu te/to</b> - its</td>
 			<td><b>otosu te/to</b> - theirs</td>
 		</tr>
@@ -157,10 +157,10 @@
 <p><em>One reason for this rule, as illustrated below, is that since nouns and verbs have the same form in Globasa,
 		leaving a determiner or an adjective without a (pro)noun can potentially be mistaken as modifying the noun/verb
 		immediately following.</em></p>
-<p><strong>Multi <em>te</em> pala sol in Englisa.</strong><br> Many (<em>people</em>) speak only (in) English.</p>
+<p><strong>Multi <em>te</em> pala sol in Englisa.</strong><br /> Many (<em>people</em>) speak only (in) English.</p>
 <p><em>Another reason, as illustrated below, is that Globasa does not use articles. So whereas English is able to use
 		adjectives as nouns, Globasa cannot.</em></p>
-<p><strong>bon <em>te</em>, bur <em>te</em> ji colo <em>te</em></strong><br> the good (<em>one</em>), the bad
+<p><strong>bon <em>te</em>, bur <em>te</em> ji colo <em>te</em></strong><br /> the good (<em>one</em>), the bad
 	(<em>one</em>) and the ugly (<em>one</em>)</p>
 <p>Notice as well that although <strong>te</strong> and <strong>to</strong> are singular pronouns they may be optionally
 	used with words denoting plurality, such as <strong>max</strong>, <strong>min</strong>, <strong>multi</strong>,
