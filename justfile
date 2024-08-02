@@ -24,5 +24,11 @@ clean:
 	rm -rf ./docs/bg-gemini
 	rm -rf ./docs/eng
 
-gh-pages: && build
+gh-pages:
+	git switch gh-pages
 	git rebase main
+	just build
+	git add ./docs
+	git commit -m "Sync"
+	git push --force-with-lease
+	git switch -
