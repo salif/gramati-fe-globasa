@@ -2,10 +2,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-title: "Граматика на глобаса"
-description: "Български превод на граматиката на глобаса."
+title: "Gramati fe Globasa"
+description: "kitabu"
 repository: "salif/gramati-fe-globasa"
-lang: bg
 
 author:
   name: "Salif Mehmed"

@@ -1,13 +1,13 @@
-# Граматика на глобаса
+# Gramati fe Globasa
 
-Изберете книга:
+kitabu:
+
+- *English:*
+  - [Complete Globasa Grammar](./eng/)
 
 - *български:*
   - [Граматика на глобаса (Gemini)](./bg-gemini/)
   - [Граматика на глобаса (Claude)](./bg-claude/)
-
-- *English:*
-  - [Complete Globasa Grammar](./eng/)
 
 <!--
 - *español:*
