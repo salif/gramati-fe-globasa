@@ -12,5 +12,5 @@ default-theme = "rust"
 preferred-dark-theme = "mocha"
 smart-punctuation = false
 git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
-edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/eng/{path}"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/eng/{path}"
 site-url = "/eng/"

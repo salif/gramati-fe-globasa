@@ -4,7 +4,7 @@ language = "bg"
 multilingual = false
 src = "src"
 title = "Граматика на глобаса"
-description = "Български превод на граматиката на глобаса с помощта на Claude"
+description = "Български превод на граматиката на глобаса с помощта на Google Gemini"
 
 [output.html]
 additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]
@@ -12,5 +12,5 @@ default-theme = "rust"
 preferred-dark-theme = "mocha"
 smart-punctuation = false
 git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
-edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bg-claude/{path}"
-site-url = "/bg-claude/"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/bg-gemini/{path}"
+site-url = "/bg-gemini/"

@@ -3,34 +3,32 @@
 _:
 	@just --list
 
-[doc('Build Bulgarian books')]
-build-bg: clean
-	cd ./bg-claude && mdbook build
-	mv ./bg-claude/book/ ./docs/bg-claude
-	cd ./bg-gemini && mdbook build
-	mv ./bg-gemini/book/ ./docs/bg-gemini
-
 [doc('Build all books')]
-build: clean build-bg
-	cd ./eng && mdbook build
-	mv ./eng/book/ ./docs/eng
+build: clean
+	cd books && \
+	for d in */; do \
+		(cd "$d" && mdbook build && mv book "../../docs/$d"); \
+	done
 
 [doc('Delete built books')]
 clean:
-	rm -rf ./docs/bg-claude
-	rm -rf ./docs/bg-gemini
-	rm -rf ./docs/eng
+	cd books && find . -maxdepth 1 -mindepth 1 -type d -exec \
+		rm -rf "../docs/{}" \;
 
+[confirm]
 [doc('Apply theme changes to all books')]
 sync-theme:
-	cp -ft ./bg-claude/theme/ ./theme/*
-	cp -ft ./bg-gemini/theme/ ./theme/*
-	cp -ft ./eng/theme/ ./theme/*
+	cd books && \
+	for d in */; do \
+		rm -rf "./${d}theme"; \
+		mkdir -p "./${d}theme"; \
+		cp -ft "./${d}theme/" ../theme/*; \
+	done
 
 [doc('Apply docs/README.md changes to README.md')]
 sync-readme:
 	cp -f ./docs/README.md ./README.md
-	sed -i 's/(.\//(https:\/\/salif.github.io\/gramati-fe-globasa\//g' ./README.md
+	sed -i -e 's/(.\//(https:\/\/salif.github.io\/gramati-fe-globasa\//g' -e 's/<\!---//g' -e 's/--->//g' ./README.md
 
 [confirm]
 [doc('Publish to GitHub Pages')]
