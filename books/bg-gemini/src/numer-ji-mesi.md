@@ -1,4 +1,4 @@
-<h1>Числа и месеци от годината</h1>
+<h1>Числа и месеци в годината</h1>
 <h2>Кардинални числа</h2>
 <p>0 - <strong>nil</strong><br> 1 - <strong>un</strong><br> 2 - <strong>dua</strong><br> 3 - <strong>tiga</strong><br> 4
 	- <strong>care</strong><br> 5 - <strong>lima</strong><br> 6 - <strong>sisa</strong><br> 7 -
@@ -73,7 +73,7 @@
 	<strong>limaple</strong> - петорен<br>
 	<strong>sisaple</strong> - шесторен, и т.н.
 </p>
-<h2>Месеци от годината</h2>
+<h2>Месеци в годината</h2>
 <p><strong>mesi 1 (mesi un)</strong> - януари<br>
 	<strong>mesi 2 (mesi dua)</strong> - февруари<br>
 	<strong>mesi 3 (mesi tiga)</strong> - март<br>

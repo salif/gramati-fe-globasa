@@ -1,11 +1,14 @@
 # Gramati fe Globasa
 
-- *English:*
+- 🏴󠁧󠁢󠁥󠁮󠁧󠁿 *English:*
   - [Complete Globasa Grammar](https://salif.github.io/gramati-fe-globasa/eng/)
 
-- *български:*
+- 🇧🇬 *български:*
   - [Граматика на глобаса (Gemini)](https://salif.github.io/gramati-fe-globasa/bg-gemini/)
   - [Граматика на глобаса (Claude)](https://salif.github.io/gramati-fe-globasa/bg-claude/)
+
+- 🇹🇷 *Türkçe*:
+  - [Globasa dilbilgisi (Gemini)](https://salif.github.io/gramati-fe-globasa/tr-gemini/)
 
 <!--
 - *español:*
@@ -32,5 +35,6 @@ just build
 ```sh
 just --yes sync-theme
 just build
+# just serve
 ```
 

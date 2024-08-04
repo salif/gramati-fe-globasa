@@ -1,0 +1,17 @@
+# Özet
+
+- [Globasa Dilbilgisi](./gramati.md)
+- [Özet](./SUMMARY.md)
+- [Alfabe ve Telaffuz](./abece-ji-lafuzu.md)
+- [İçerik Sözcükleri: İsimler, Fiiller, Sıfatlar ve Zarflar](./inharelexi.md)
+- [İşlev Sözcükleri: Bağlaçlar, Edatlar ve İşlev Zarfları](./gramatilexi.md)
+- [Zamirler](./pornamelexi.md)
+- [İlişki Zamirleri](./tabellexi.md)
+- [Sayılar ve Yılın Ayları](./numer-ji-mesi.md)
+- [Fiil Çekimleri](./falelexili-morfo.md)
+- [Sözcük Sırası: Öbek Yapısı](./jumlemonli-estrutur.md)
+- [Sözcük Sırası: Cümle Yapısı](./jumleli-estrutur.md)
+- [Kelime Oluşturma](./lexikostrui.md)
+- [Kısaltılmış Morfemler](./ofkatado-morfomon.md)
+- [Sözcük Türleri](./lexiklase.md)
+- [Yaygın Deyimler ve İfadeler](./pimpan-logaxey.md)

@@ -1,0 +1,16 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "tr"
+multilingual = false
+src = "src"
+title = "Globasa dilbilgisi"
+description = "Globasa dilbilgisinin Türkçe çevirisi (Google Gemini ile)"
+
+[output.html]
+additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]
+default-theme = "rust"
+preferred-dark-theme = "mocha"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/tr-gemini/{path}"
+site-url = "/gramati-fe-globasa/tr-gemini/"
