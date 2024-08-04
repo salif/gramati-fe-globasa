@@ -239,7 +239,7 @@
 <p><strong>hay</strong> fiili ayrıca aşağıdaki gibi atmosferik koşullarla ilgili cümlelerde de kullanılır:</p>
 <p><strong>Hay barix.</strong> veya <strong>To barix.</strong><br /> "Yağmur var." veya "Yağmur yağıyor."<br /> Yağmur yağıyor.
 </p>
-<p><strong>Hay termo.</strong> veya <strong>To sen termopul.</strong><br /> "Sıcaklık var." veya "Sıcak."br /> Sıcak. </p>
+<p><strong>Hay termo.</strong> veya <strong>To sen termopul.</strong><br /> "Sıcaklık var." veya "Sıcak."<br /> Sıcak. </p>
 <h2>Bağlaç ki</h2>
 <p><strong>ki</strong> bağlacı, bir cümlecik (<em>ana cümleye gömülü bir cümle</em>) doğrudan nesnenin veya öznenin yerine geçtiğinde kullanılır.</p>
 <h3>Doğrudan Nesne Yerine Cümlecik</h3>

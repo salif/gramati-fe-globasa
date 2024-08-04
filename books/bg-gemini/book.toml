@@ -8,8 +8,8 @@ description = "Български превод на граматиката на 
 
 [output.html]
 additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]
-default-theme = "rust"
-preferred-dark-theme = "mocha"
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
 smart-punctuation = false
 git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
 edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/bg-gemini/{path}"

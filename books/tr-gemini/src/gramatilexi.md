@@ -1,5 +1,3 @@
-<html>
-<body>
 <h1>İşlev Sözcükleri: Bağlaçlar, Edatlar ve İşlev Zarfları</h1>
 <p>
 </p>

@@ -8,8 +8,8 @@ description = "Globasa dilbilgisinin Türkçe çevirisi (Google Gemini ile)"
 
 [output.html]
 additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]
-default-theme = "rust"
-preferred-dark-theme = "mocha"
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
 smart-punctuation = false
 git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
 edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/tr-gemini/{path}"

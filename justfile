@@ -1,4 +1,6 @@
-#!/usr/bin/just -f
+#!/usr/bin/env -S just -f
+
+args := ""
 
 _:
 	@just --list
@@ -36,7 +38,7 @@ serve-init:
 
 [doc('Jekyll serve')]
 serve:
-	cd docs && if ! bundle check; then just serve-init; fi && bundle exec jekyll serve
+	cd docs && if ! bundle check; then just serve-init; fi && bundle exec jekyll serve {{args}}
 
 [confirm]
 [doc('Publish to GitHub Pages')]
