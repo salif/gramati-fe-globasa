@@ -4,19 +4,19 @@
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>{{ title }}</title>
-        {{#if is_print }}
-        <meta name="robots" content="noindex">
-        {{/if}}
         {{#if base_url}}
         <base href="{{ base_url }}">
         {{/if}}
 
-
         <!-- Custom HTML head -->
         {{> head}}
 
-        <meta name="description" content="{{ description }}: {{ chapter_title }}">
+        {{#if is_print }}
+        <meta name="robots" content="noindex">
+        {{else}}
         <meta name="robots" content="index, follow" />
+        {{/if}}
+        <meta name="description" content="{{ description }}: {{ chapter_title }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
