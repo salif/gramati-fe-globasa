@@ -30,6 +30,14 @@ sync-readme:
 	cp -f ./docs/README.md ./README.md
 	sed -i -e 's/(.\//(https:\/\/salif.github.io\/gramati-fe-globasa\//g' -e 's/<\!---//g' -e 's/--->//g' ./README.md
 
+[private]
+serve-init:
+	cd docs && bundle install
+
+[doc('Jekyll serve')]
+serve:
+	cd docs && if ! bundle check; then just serve-init; fi && bundle exec jekyll serve
+
 [confirm]
 [doc('Publish to GitHub Pages')]
 gh-pages:

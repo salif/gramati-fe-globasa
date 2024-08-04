@@ -1,6 +1,6 @@
 # Граматика на глобаса
 
-Тази книга съдържа български превод на [Complete Globasa Grammar](https://salif.github.io/gramati-fe-globasa/eng/).
+Тази книга съдържа български превод на [Complete Globasa Grammar](/gramati-fe-globasa/eng/).
 
 Авторът на съдържанието е [the Globasa Team](https://globasa.net/). Преводът на български език е направен от [Salif Mehmed](https://salif.eu/bg) с помощта на Google Gemini 1.5 Pro.[^1]
 

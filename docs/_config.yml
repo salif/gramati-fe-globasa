@@ -4,6 +4,7 @@ plugins:
 
 title: "Gramati fe Globasa"
 description: "kitabu"
+baseurl: "/gramati-fe-globasa"
 repository: "salif/gramati-fe-globasa"
 
 author:
