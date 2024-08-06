@@ -21,8 +21,8 @@
 	<strong>nue kilo</strong></p>
 <p>1 x 10^6 (1,000,000) - <strong>mega</strong><br /> 1 X 10^9 (1,000,000,000) - <strong>giga</strong><br /> 1 X 10^12
 	(1,000,000,000,000) - <strong>tera</strong> </p>
-<p>Daha büyük sayılar <strong>kilo</strong>, <strong>mega</strong>, <strong>giga</strong> ve
-	<strong>tera</strong>'nın birleştirilmesiyle ifade edilebilir.</p>
+<p>Daha büyük sayılar <strong>kilo</strong>, <strong>mega</strong>, <strong>giga</strong> ve <strong>tera</strong>'nın
+	birleştirilmesiyle ifade edilebilir.</p>
 <p>1 x 10^15 - <strong>kilo tera</strong><br /> 1 x 10^18 - <strong>mega tera</strong><br /> 1 x 10^21 - <strong>giga
 		tera</strong><br /> 1 x 10^24 - <strong>tera tera</strong> </p>
 <h2>Sıra Sayıları</h2>
@@ -38,7 +38,8 @@
 	<strong>tigayen, tigaxey</strong> - üçlü, vb.
 </p>
 <h2>Kesirli Sayılar</h2>
-<p>Türetilmiş kesirli sayılar isimlerdir ve <strong>of-</strong> önekiyle paydanın takip ettiği pay olmak üzere iki kelimeden oluşur.</p>
+<p>Türetilmiş kesirli sayılar isimlerdir ve <strong>of-</strong> önekiyle paydanın takip ettiği pay olmak üzere iki
+	kelimeden oluşur.</p>
 <p>1/2 (yarım) - <strong>un ofdua</strong><br /> 1/3 (üçte bir) - <strong>un oftiga</strong><br /> 1/4 (dörtte bir) -
 	<strong>un ofcare</strong><br /> 1/5 (beşte bir) - <strong>un oflima</strong><br /> 1/6 (altıda bir) - <strong>un
 		ofsisa</strong><br /> 1/7 (yedide bir) - <strong>un ofsabe</strong><br /> 1/8 (sekizde bir) - <strong>un
@@ -48,9 +49,8 @@
 <p>1 X 10^-1 (onda biri): <strong>deci</strong> (<strong>un ofdes fe</strong>)<br /> 1 X 10^-2 (yüzde biri):
 	<strong>centi</strong> (<strong>un ofcen fe</strong>)<br /> 1 X 10^-3 (binde biri): <strong>mili</strong>
 	(<strong>un ofkilo fe</strong>)<br /> 1 X 10^-6 (milyonda biri): <strong>mikro</strong> (<strong>un ofmega
-		fe</strong>)<br /> 1 X 10^-9 (milyarda biri): <strong>nano</strong> (<strong>un ofgiga
-		fe</strong>)<br /> 1 X 10^-12 (trilyonda biri): <strong>piko</strong> (<strong>un oftera
-		fe</strong>)</p>
+		fe</strong>)<br /> 1 X 10^-9 (milyarda biri): <strong>nano</strong> (<strong>un ofgiga fe</strong>)<br /> 1 X
+	10^-12 (trilyonda biri): <strong>piko</strong> (<strong>un oftera fe</strong>)</p>
 <h2>Metrik Ölçümler</h2>
 <p>Metrik ölçümler için kelimeler, tam sayı ve kesirli sayıları önek olarak kullanır.</p>
 <p><strong>metro</strong> - metre<br />

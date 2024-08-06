@@ -19,7 +19,11 @@
 <p><strong>bon axam</strong> - iyi akşamlar </p>
 <p><strong>bon noce</strong> - iyi geceler </p>
 <h2>Diğer İyi Dilekler</h2>
-<p>Not: Yukarıda görüldüğü gibi, <strong>bon</strong> (iyi) ile yapılan selamlaşmalar birleşik kelimeler olarak ifade edilirken, veda etmeler iki kelimelik ifadeler olarak ifade edilir. Aşağıdaki ifadelerde, konuşmacı ve dinleyici birlikte kaldığında birleşik kelimeler kullanılır. Dolayısıyla, iki kök kelime bir araya getirilerek tek bir kelime haline getirilir. Buna karşılık, konuşmacı veya dinleyiciden biri ayrılırsa iki kelimelik ifadeler kullanılır. Dolayısıyla, kök kelimeler ayrıdır. </p>
+<p>Not: Yukarıda görüldüğü gibi, <strong>bon</strong> (iyi) ile yapılan selamlaşmalar birleşik kelimeler olarak ifade
+	edilirken, veda etmeler iki kelimelik ifadeler olarak ifade edilir. Aşağıdaki ifadelerde, konuşmacı ve dinleyici
+	birlikte kaldığında birleşik kelimeler kullanılır. Dolayısıyla, iki kök kelime bir araya getirilerek tek bir kelime
+	haline getirilir. Buna karşılık, konuşmacı veya dinleyiciden biri ayrılırsa iki kelimelik ifadeler kullanılır.
+	Dolayısıyla, kök kelimeler ayrıdır. </p>
 <p><strong>bonata</strong> <em>veya</em> <strong>bon ata</strong> - hoş geldiniz </p>
 <p><strong>bonxanse</strong> <em>veya</em> <strong>bon xanse</strong> - iyi şanslar </p>
 <p><strong>bonyam</strong> <em>veya</em> <strong>bon yam</strong> - afiyet olsun ("iyi yemek") </p>
@@ -89,9 +93,12 @@
 	<li><strong>Yu name keto?</strong> <em>veya</em> <strong>Yusu name sen keto?</strong><br /> Adın ne? </li>
 </ul>
 <p><strong>Mi name...</strong> <em>veya</em> <strong>Misu name sen...</strong><br /> Benim adım... </p>
-<p><strong>(To sen) yukwe, na xorkone yu.</strong> <em>veya</em> <strong>Yukwe.</strong><br /> Tanıştığımıza memnun oldum. veya Memnun oldum. </p>
-<p><strong>(To sen) furaha, na xorkone yu.</strong> <em>veya</em> <strong>Furaha.</strong><br /> Tanıştığımıza memnun oldum. veya Memnun oldum. </p>
-<p><strong>(Mi sen) hox na xorkone yu.</strong> <em>veya</em> <strong>Mi sen hox.</strong><br /> (Ben) seninle tanıştığıma sevindim. veya Mutluyum. </p>
+<p><strong>(To sen) yukwe, na xorkone yu.</strong> <em>veya</em> <strong>Yukwe.</strong><br /> Tanıştığımıza memnun
+	oldum. veya Memnun oldum. </p>
+<p><strong>(To sen) furaha, na xorkone yu.</strong> <em>veya</em> <strong>Furaha.</strong><br /> Tanıştığımıza memnun
+	oldum. veya Memnun oldum. </p>
+<p><strong>(Mi sen) hox na xorkone yu.</strong> <em>veya</em> <strong>Mi sen hox.</strong><br /> (Ben) seninle
+	tanıştığıma sevindim. veya Mutluyum. </p>
 <ul>
 	<li><strong>Yu ogar keloka?</strong><br /> Nerede yaşıyorsun? </li>
 </ul>
@@ -103,7 +110,8 @@
 <ul>
 	<li><strong>Yu sen kemo lao?</strong> <em>veya</em> <strong>Yu sen fe ke nyan?</strong><br /> Kaç yaşındasın? </li>
 </ul>
-<p><strong>Mi sen lao fe... (nyan).</strong> <em>veya</em> <strong>Mi sen fe... (nyan).</strong><br /> ... yaşındayım. </p>
+<p><strong>Mi sen lao fe... (nyan).</strong> <em>veya</em> <strong>Mi sen fe... (nyan).</strong><br /> ... yaşındayım.
+</p>
 <ul>
 	<li><strong>Kam yu (pala) Globasa?</strong><br /> Globasa konuşuyor musun? </li>
 </ul>

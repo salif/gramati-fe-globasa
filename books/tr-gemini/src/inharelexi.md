@@ -43,17 +43,17 @@
 	<li><strong>femgami</strong> - karı/eş; <strong>mangami</strong> - koca/eş</li>
 	<li><strong>femmumu</strong> - inek; <strong>manmumu</strong> - boğa</li>
 </ul>
-<p><em><strong>fem</strong> kelimesinin etimolojisi: İngilizce (feminine), Fransızca (féminin), Almanca (feminin), İspanyolca
-		(femenina)</em></p>
-<p><em><strong>man</strong> kelimesinin etimolojisi: Mandarin (男 “nán”), Fransızca (masculin), İspanyolca (masculino), İngilizce
-		(masculine), Almanca (männlich), Hintçe (मर्दाना “mardana”), Farsça (مردانه “mardane”)</em></p>
+<p><em><strong>fem</strong> kelimesinin etimolojisi: İngilizce (feminine), Fransızca (féminin), Almanca (feminin),
+		İspanyolca (femenina)</em></p>
+<p><em><strong>man</strong> kelimesinin etimolojisi: Mandarin (男 “nán”), Fransızca (masculin), İspanyolca (masculino),
+		İngilizce (masculine), Almanca (männlich), Hintçe (मर्दाना “mardana”), Farsça (مردانه “mardane”)</em></p>
 <p>İnsanları ifade eden birkaç isim cinsiyet belirtir.</p>
 <ul>
 	<li><strong>matre</strong> veya <strong>mama</strong> - anne</li>
 	<li><strong>patre</strong> veya <strong>papa</strong> - baba</li>
 </ul>
-<p><em>Not: Ebeveyn(ler) için cinsiyetten bağımsız kelime <strong>atre</strong>. Anne/baba için cinsiyetten bağımsız kelime
-		<strong>mapa</strong>.</em></p>
+<p><em>Not: Ebeveyn(ler) için cinsiyetten bağımsız kelime <strong>atre</strong>. Anne/baba için cinsiyetten bağımsız
+		kelime <strong>mapa</strong>.</em></p>
 <h3>Cümle Başlangıç Öbeklerinde İsimler</h3>
 <p><strong>Fe</strong> genellikle cümle başlangıç öbeklerinde isimlerle kullanılır.</p>
 <ul>
@@ -73,8 +73,8 @@
 	<li><strong>Fe xaya,</strong> - Gelecekte, Daha sonra </li>
 </ul>
 <h3>Yan Yana Koyma</h3>
-<p>Globasa'da, ikinci isim ilkinin kimliğini belirttiğinde, bir isim edat kullanılmadan başka bir isim takip edebilir. Bu,
-	<em>yan yana koyma</em> olarak bilinir.</p>
+<p>Globasa'da, ikinci isim ilkinin kimliğini belirttiğinde, bir isim edat kullanılmadan başka bir isim takip edebilir.
+	Bu, <em>yan yana koyma</em> olarak bilinir.</p>
 <ul>
 	<li><strong>Hotel Kaliforni</strong> - Hotel California </li>
 	<li><strong>Estato Florida</strong> - Florida Eyaleti </li>
@@ -85,8 +85,8 @@
 	<li><strong>lexi <em>kursi</em></strong> - <em>sandalye</em> kelimesi</li>
 </ul>
 <h3>Parçacık <em>di</em>: Kültüre Özgü Kelimeler ve Özel İsimler</h3>
-<p><strong>di</strong> parçacığı, Globasa'da zaten yerleşmiş olan sıradan kelimelerle <em>aynı forma</em> sahip, kültüre özgü
-	kelimeleri ve özel isimleri işaretlemek için isteğe bağlı olarak kullanılabilir. </p>
+<p><strong>di</strong> parçacığı, Globasa'da zaten yerleşmiş olan sıradan kelimelerle <em>aynı forma</em> sahip, kültüre
+	özgü kelimeleri ve özel isimleri işaretlemek için isteğe bağlı olarak kullanılabilir. </p>
 <ul>
 	<li><strong>soho</strong> - karşılıklı, ortak <ul>
 			<li><strong>(di) Soho</strong> - Soho (New York City mahallesi)</li>
@@ -110,8 +110,8 @@
 	</li>
 </ul>
 <h3>Saygı İfadeleri: <em>Gao</em> ve <em>Kef</em></h3>
-<p><strong>gao</strong> (yüksek, uzun) sıfatı ve <strong>kef</strong> (patron, şef) ismi saygı ifadeleri olarak kullanılabilir.
-</p>
+<p><strong>gao</strong> (yüksek, uzun) sıfatı ve <strong>kef</strong> (patron, şef) ismi saygı ifadeleri olarak
+	kullanılabilir. </p>
 <ul>
 	<li><strong>alimyen</strong> - öğretmen <ul>
 			<li><strong>gao alimyen</strong> - usta</li>
@@ -173,8 +173,8 @@
 <ul>
 	<li><strong>max... kom....</strong> veya <strong>max kom...</strong> - daha fazla</li>
 </ul>
-<p><strong>Myaw max somno kom bwaw.</strong><br /> veya: <strong>Myaw somno max kom bwaw.</strong><br /> Kedi köpekten daha
-	fazla uyur.</p>
+<p><strong>Myaw max somno kom bwaw.</strong><br /> veya: <strong>Myaw somno max kom bwaw.</strong><br /> Kedi köpekten
+	daha fazla uyur.</p>
 <ul>
 	<li><strong>min... kom....</strong> veya <strong>min kom...</strong> - daha az</li>
 </ul>
@@ -183,15 +183,15 @@
 <ul>
 	<li><strong>denkwanti... kom...</strong> veya <strong>denkwanti kom...</strong> - kadar çok</li>
 </ul>
-<p><strong>Bebe denkwanti somno kom myaw.</strong><br /> veya: <strong>Bebe somno denkwanti kom myaw.</strong><br /> Bebek kedi
-	kadar çok uyur.</p>
+<p><strong>Bebe denkwanti somno kom myaw.</strong><br /> veya: <strong>Bebe somno denkwanti kom myaw.</strong><br />
+	Bebek kedi kadar çok uyur.</p>
 <p><em>Ne kadar çok/az..., o kadar çok/az...</em> ifadesini belirtmek için Globasa <strong>folki... max/min,
 		max/min</strong> kullanır.</p>
 <p><strong>Folki mi max doxo, mi max jixi.</strong><br /> Ne kadar çok okursam, o kadar çok bilirim.</p>
 <p>Bu ifadelerin sırası yer değiştirebilir:</p>
 <p><strong>Mi max jixi, folki mi max doxo.</strong><br /> Ne kadar çok okursam, o kadar çok bilirim.</p>
 <h3>Fiil Kategorileri <a id="falelexili_klase"></a></h3>
-<p>Fiiller sözlükte <em>yardımcı</em>, <em>bağlaç</em>, _geçişli, <em>geçişsiz</em> veya
+<p>Fiiller sözlükte <em>yardımcı</em>, <em>bağlaç</em>, <em>geçişli</em>, <em>geçişsiz</em> veya
 	<em>geçişli/geçişsiz</em> olarak tanımlanır.</p>
 <h4>Yardımcı Fiiller</h4>
 <p>Yardımcı fiiller hemen ardından başka bir fiil gelir ve bu fiil atlanabilir. Globasa'da sadece üç yardımcı fiil
@@ -199,27 +199,26 @@
 	<strong>musi</strong> (zorunda olmak, mecbur olmak). </p>
 <h4>Bağlaç Fiiller</h4>
 <p>Bağlaç fiiller özneyi tümleçine bağlar. Şu anda 12 bağlaç fiil vardır: <strong>sen</strong> (olmak),
-	<strong>sencu</strong> (olmak), <strong>sengi</strong> (olmasına neden olmak), <strong>kwasisen</strong>
-	(gibi görünmek), <strong>finsen</strong> (sonunda olmak), <strong>okocu</strong> (görünmek),
-	<strong>orecu</strong> (ses çıkarmak), <strong>nasacu</strong> (kokmak), <strong>xetocu</strong> (tadına bakmak),
-	<strong>pifucu</strong> (dokunmak), <strong>hisicu</strong> (fiziksel olarak hissetmek),
-	<strong>ganjoncu</strong> (duygusal olarak hissetmek). </p>
+	<strong>sencu</strong> (olmak), <strong>sengi</strong> (olmasına neden olmak), <strong>kwasisen</strong> (gibi
+	görünmek), <strong>finsen</strong> (sonunda olmak), <strong>okocu</strong> (görünmek), <strong>orecu</strong> (ses
+	çıkarmak), <strong>nasacu</strong> (kokmak), <strong>xetocu</strong> (tadına bakmak), <strong>pifucu</strong>
+	(dokunmak), <strong>hisicu</strong> (fiziksel olarak hissetmek), <strong>ganjoncu</strong> (duygusal olarak
+	hissetmek). </p>
 <h4>Geçişli Fiiller</h4>
-<p>Geçişli fiiller bir nesne alır: <strong>haja</strong> (ihtiyaç duymak), <strong>bujo</strong> (yakalamak,
-	ele geçirmek), <strong>gibe</strong> (vermek). Ancak, bazı geçişli fiiller bazen veya sık sık nesneyi atlar:
+<p>Geçişli fiiller bir nesne alır: <strong>haja</strong> (ihtiyaç duymak), <strong>bujo</strong> (yakalamak, ele
+	geçirmek), <strong>gibe</strong> (vermek). Ancak, bazı geçişli fiiller bazen veya sık sık nesneyi atlar:
 	<strong>doxo</strong> (okumak), <strong>yam</strong> (yemek yemek). </p>
 <h4>Geçişsiz Fiiller</h4>
 <p>Geçişsiz fiiller nesne almaz: <strong>idi</strong> (gitmek), <strong>konduta</strong> (davranmak),
-	<strong>loka</strong> (bulunmak). Ancak, genellikle geçişsiz olan bazı fiiller geçişli hale gelebilir. Bu
-	durumların çoğu, aynı isim/fiil kelimesinin fiil olarak kullanıldığı ve nesne olarak tekrarlandığı cümlelerde
-	görülür.</p>
+	<strong>loka</strong> (bulunmak). Ancak, genellikle geçişsiz olan bazı fiiller geçişli hale gelebilir. Bu durumların
+	çoğu, aynı isim/fiil kelimesinin fiil olarak kullanıldığı ve nesne olarak tekrarlandığı cümlelerde görülür.</p>
 <p><strong>Mi le somno (lungo somno).</strong><br /> Uyudum (uzun bir uyku).</p>
 <p><strong>Yu le haha (sotipul haha).</strong><br /> Güldün (yüksek sesle bir kahkaha). </p>
 <h4>Geçişli/Geçişsiz Fiiller</h4>
-<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">Geçişli/Geçişsiz
-	fiiller</a> Globasa'da, geçişsiz okumanın öznesinin ve geçişli okumanın nesnesinin fiilin aynı eylemini/durumunu
-	yaşadığı fiillerdir. Bu fiillerin geçişsiz okuması isteğe bağlı olarak <strong>-cu</strong> alabilir ve geçişli
-	okuması isteğe bağlı olarak <strong>-gi</strong> alabilir. </p>
+<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">Geçişli/Geçişsiz fiiller</a> Globasa'da,
+	geçişsiz okumanın öznesinin ve geçişli okumanın nesnesinin fiilin aynı eylemini/durumunu yaşadığı fiillerdir. Bu
+	fiillerin geçişsiz okuması isteğe bağlı olarak <strong>-cu</strong> alabilir ve geçişli okuması isteğe bağlı olarak
+	<strong>-gi</strong> alabilir. </p>
 <ul>
 	<li><strong>esto(cu)</strong> - durmak (<em>durmaya gelmek</em>)<br />
 		<strong>esto(gi)</strong> - durdurmak (<em>durmaya getirmek veya durmaya neden olmak</em>)
@@ -286,8 +285,8 @@
 	<em>İlk önce</em>, bankaya gitti.
 </p>
 <h3>Cümle Başlangıç Öbeklerinde Sıfat/Zarflar</h3>
-<p>Aşağıdakiler, cümlenin geri kalanından önce açık bir duraklama ile takip edilen, cümle başlangıç öbeklerinde
-	yaygın olarak kullanılan sıfat/zarflardır.</p>
+<p>Aşağıdakiler, cümlenin geri kalanından önce açık bir duraklama ile takip edilen, cümle başlangıç öbeklerinde yaygın
+	olarak kullanılan sıfat/zarflardır.</p>
 <ul>
 	<li><strong>Ripul,</strong> - Tekrar </li>
 	<li><strong>Ible,</strong> - Belki </li>
@@ -310,9 +309,9 @@
 	<li><strong>Telixali,</strong> - Uzun bir süre sonra </li>
 </ul>
 <h3>Sıfat/Zarf Karşılaştırması</h3>
-<p>Sıfat/zarf karşılaştırması, <strong>maxmo</strong> (<em>daha fazla, daha</em>),
-	<strong>minmo</strong> (<em>daha az</em>), <strong>denmo</strong> (<em>kadar</em>),
-	<strong>kom</strong> (<em>-den, -dan</em>) kelimeleri kullanılarak aşağıdaki gibi ifade edilir.</p>
+<p>Sıfat/zarf karşılaştırması, <strong>maxmo</strong> (<em>daha fazla, daha</em>), <strong>minmo</strong> (<em>daha
+		az</em>), <strong>denmo</strong> (<em>kadar</em>), <strong>kom</strong> (<em>-den, -dan</em>) kelimeleri
+	kullanılarak aşağıdaki gibi ifade edilir.</p>
 <ul>
 	<li><strong>maxmo kimapul kom...</strong> - ...den daha pahalı</li>
 	<li><strong>minmo kimapul kom...</strong> - ...den daha ucuz</li>
@@ -343,8 +342,8 @@
 </ul>
 <h2>Ortak Ekler</h2>
 <h3>İsim Eki -ya <a id="xafefikso_-ya"></a></h3>
-<p><strong>-ya</strong> eki çeşitli yararlı işlevlere sahiptir ve birkaç İngilizce eke eşdeğerdir:
-	<em>-ity</em>, <em>-ness</em>, <em>-dom</em>, <em>-hood</em>, <em>-ship</em>.</p>
+<p><strong>-ya</strong> eki çeşitli yararlı işlevlere sahiptir ve birkaç İngilizce eke eşdeğerdir: <em>-ity</em>,
+	<em>-ness</em>, <em>-dom</em>, <em>-hood</em>, <em>-ship</em>.</p>
 <ol>
 	<li>Soyut isimler, <strong>-ya</strong> eklenerek sıfat/zarflardan türetilir.</li>
 </ol>
@@ -488,10 +487,9 @@
 	</li>
 </ul>
 <h4>Fiiller</h4>
-<p><strong>-gi</strong> eki ayrıca geçişsiz, geçişli veya etken geçişli/geçişsiz fiilleri ettirgen fiillere
-	dönüştürmek için de kullanılır (aşağıda görüldüğü gibi) veya edilgen geçişli/geçişsiz fiillerde isteğe bağlı
-	olarak kullanılır (yukarıda, <a href="./inharelexi.html#falelexili_klase">Fiil Kategorileri</a> altında
-	görüldüğü gibi).</p>
+<p><strong>-gi</strong> eki ayrıca geçişsiz, geçişli veya etken geçişli/geçişsiz fiilleri ettirgen fiillere dönüştürmek
+	için de kullanılır (aşağıda görüldüğü gibi) veya edilgen geçişli/geçişsiz fiillerde isteğe bağlı olarak kullanılır
+	(yukarıda, <a href="./inharelexi.html#falelexili_klase">Fiil Kategorileri</a> altında görüldüğü gibi).</p>
 <ul>
 	<li>
 		<p><strong>haha</strong> - gülmek<br />
@@ -538,8 +536,8 @@
 </ul>
 <h4>Fiiller</h4>
 <p><strong>-cu</strong> eki ayrıca edilgen geçişli/geçişsiz fiillere de isteğe bağlı olarak uygulanabilir (yukarıda, <a
-		href="./inharelexi.html#falelexili_klase">Fiil Kategorileri</a> altında görüldüğü gibi), ancak bazı
-	durumlarda bir ayrım yapmak için <strong>-cu</strong> gereklidir. </p>
+		href="./inharelexi.html#falelexili_klase">Fiil Kategorileri</a> altında görüldüğü gibi), ancak bazı durumlarda
+	bir ayrım yapmak için <strong>-cu</strong> gereklidir. </p>
 <ul>
 	<li>
 		<p><strong>gami</strong> - eş (<em>isim</em>); evlenmek (<em>fiil</em>)<br />
@@ -596,11 +594,11 @@
 </ul>
 <p><strong>-li</strong> eki ayrıca işlev kelimelerinden sıfat/zarf türetmek için de kullanılır. Bkz. <a
 		href="./gramatilexi.html">İşlev Kelimeleri</a>.</p>
-<p><em><strong>-li</strong> ekinin etimolojisi: Fransızca (-el, -elle), İspanyolca (-al), İngilizce (-al, -ly),
-		Almanca (-lich), Rusça (-ельный “-elni”, -альный “-alni”), Türkçe (-li)</em></p>
+<p><em><strong>-li</strong> ekinin etimolojisi: Fransızca (-el, -elle), İspanyolca (-al), İngilizce (-al, -ly), Almanca
+		(-lich), Rusça (-ельный “-elni”, -альный “-alni”), Türkçe (-li)</em></p>
 <h3>Sıfat/Zarf Eki -pul <a id="xafefikso_-pul"></a></h3>
-<p><strong>pul</strong> kelimesi <em>dolu</em> anlamına gelir. Ancak, <strong>-pul</strong> eki olarak
-	<em>yeterince veya yeterinden fazla</em> anlamına gelir.</p>
+<p><strong>pul</strong> kelimesi <em>dolu</em> anlamına gelir. Ancak, <strong>-pul</strong> eki olarak <em>yeterince
+		veya yeterinden fazla</em> anlamına gelir.</p>
 <ul>
 	<li>
 		<p><strong>jawgu</strong> - özen göstermek, dikkat etmek<br />
@@ -615,12 +613,13 @@
 </ul>
 <p><em><strong>pul</strong> etimolojisi: İngilizce (full), Hintçe (पूर्ण “purn”), Rusça (полный “poln-”)</em></p>
 <h3>Etken Sıfatlar: Ek -ne <a id="xafefikso_-ne"></a></h3>
-<p><strong>-ne</strong> eki <em>etken bir durumda veya sürecinde</em> anlamına gelir ve Globasa'da
-	<em>etken sıfatlar</em> olarak bilinenleri türetmek için kullanılır.</p>
+<p><strong>-ne</strong> eki <em>etken bir durumda veya sürecinde</em> anlamına gelir ve Globasa'da <em>etken
+		sıfatlar</em> olarak bilinenleri türetmek için kullanılır.</p>
 <p><em>Etken sıfatlar</em> çoğu durumda İngilizcedeki <em>şimdiki zaman ortaçlarına</em> (<em>-ing</em> ile biten
 	sıfatlar) eşdeğerdir. Ancak, İngilizceden farklı olarak, <em>etken sıfatlar</em>
-	<em>sürekli fiil</em> formlarını (<em>Uyuyorum</em>, <em>Dans ediyor</em>, vb.) üretmek için
-	kullanılmaz. Bunun yerine, yalnızca sıfat olarak işlev görürler.</p>
+	<em>sürekli fiil</em> formlarını (<em>Uyuyorum</em>, <em>Dans ediyor</em>, vb.) üretmek için kullanılmaz. Bunun
+	yerine, yalnızca sıfat olarak işlev görürler.
+</p>
 <ul>
 	<li>
 		<p><strong>somno</strong> - uyumak<br />
@@ -648,8 +647,8 @@
 		</p>
 	</li>
 </ul>
-<p><em><strong>-ne</strong> ekinin etimolojisi: İngilizce (-ing), Fransızca (-ant), İspanyolca (-ando),
-		Almanca (-en, -ende), Rusça (-ный “-ny”), Türkçe (-en, -an)</em></p>
+<p><em><strong>-ne</strong> ekinin etimolojisi: İngilizce (-ing), Fransızca (-ant), İspanyolca (-ando), Almanca (-en,
+		-ende), Rusça (-ный “-ny”), Türkçe (-en, -an)</em></p>
 <h3>Cümle Başlangıç Etken Sıfatları</h3>
 <p>Cümle başında görünen etken sıfatlar, alternatif olarak mastar fiil formu kullanılarak edat öbekleri olarak ifade
 	edilebilir.</p>
@@ -673,10 +672,10 @@
 	<em>(En sevdiği kitabı) okurken,</em> çocuk uyuyakaldı.
 </p>
 <h3>Edilgen Sıfatlar</h3>
-<p><em>Etken sıfatlar</em>, Globasa'da <em>edilgen etken sıfatlar</em> (veya kısaca <em>edilgen sıfatlar</em>)
-	olarak bilinenleri türetmek için edilgen önek <strong>be-</strong> eklenerek edilgen hale getirilebilir.
-	İngilizcede <em>edilgen sıfatlar</em> için tam bir eşdeğer yoktur, ancak en iyi İngilizcedeki
-	<em>şimdiki zaman ortaçının</em> tam edilgen formu olarak anlaşılırlar.</p>
+<p><em>Etken sıfatlar</em>, Globasa'da <em>edilgen etken sıfatlar</em> (veya kısaca <em>edilgen sıfatlar</em>) olarak
+	bilinenleri türetmek için edilgen önek <strong>be-</strong> eklenerek edilgen hale getirilebilir. İngilizcede
+	<em>edilgen sıfatlar</em> için tam bir eşdeğer yoktur, ancak en iyi İngilizcedeki <em>şimdiki zaman ortaçının</em>
+	tam edilgen formu olarak anlaşılırlar.</p>
 <ul>
 	<li><strong>belalane melodi</strong> - söylenen veya söylenmekte olan melodi </li>
 	<li><strong>belubine doste</strong> - sevilen arkadaş veya sevilen arkadaş</li>
@@ -685,11 +684,12 @@
 <p><strong>-do</strong> eki <em>etkin olmayan bir durumda</em> anlamına gelir. Bu eke sahip kelimeler Globasa'da
 	<em>etkin olmayan sıfatlar</em> olarak bilinir ve genellikle İngilizcedeki <em>geçmiş zaman ortacı</em> olarak
 	çevrilir. Ancak, İngilizceden farklı olarak, <em>etkin olmayan sıfatlar</em>
-	<em>tamamlanmış</em> veya <em>edilgen fiil</em> formlarını (<em>Çalıştım</em>, <em>Çalındı</em>,
-	vb.) üretmek için kullanılmaz. Bunun yerine, yalnızca sıfat olarak işlev görürler.</p>
+	<em>tamamlanmış</em> veya <em>edilgen fiil</em> formlarını (<em>Çalıştım</em>, <em>Çalındı</em>, vb.) üretmek için
+	kullanılmaz. Bunun yerine, yalnızca sıfat olarak işlev görürler.
+</p>
 <p>Teknik olarak konuşursak, <strong>-do</strong> ekinin isim/fiillerin <em>isim</em> yönüne eklendiğini belirtmek
-	gerekir. Bu nedenle, <strong>-do</strong> geçişli, geçişsiz veya geçişli/geçişsiz fiil isim/fiillerine
-	eklenebilir.</p>
+	gerekir. Bu nedenle, <strong>-do</strong> geçişli, geçişsiz veya geçişli/geçişsiz fiil isim/fiillerine eklenebilir.
+</p>
 <h4>Geçişli fiillerle</h4>
 <ul>
 	<li><strong>hajado ergo</strong> - gerekli iş (<em>gereklilik durumunda</em>) </li>
@@ -712,8 +712,8 @@
 <ul>
 	<li>
 		<p><strong>perfeto blue oko</strong> - mükemmel mavi gözler (<em>mükemmel olan mavi gözler</em>)<br />
-			<strong>perfetomo blue oko</strong> - mükemmel şekilde mavi gözler (<em>mükemmel şekilde mavi
-				olan gözler</em>)
+			<strong>perfetomo blue oko</strong> - mükemmel şekilde mavi gözler (<em>mükemmel şekilde mavi olan
+				gözler</em>)
 		</p>
 	</li>
 	<li>

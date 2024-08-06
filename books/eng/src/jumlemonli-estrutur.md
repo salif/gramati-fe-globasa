@@ -236,9 +236,9 @@
 <p><strong>Misu gami glu <em>sol</em> kafe fe soba.</strong><br /> My spouse drinks <em>only</em> coffee in the morning.
 </p>
 <p><strong>Misu gami glu kafe <em>hata</em> fe axam.</strong><br /> My spouse drinks coffee <em>even</em> in the
-	evening. </p>
+	evening.</p>
 <p><strong><em>Pia</em> misu gami glu kafe fe soba.</strong><br /> My spouse, <em>too</em>, drinks coffee in the
-	morning. </p>
+	morning.</p>
 <h2>Complex Adjective Phrases</h2>
 <p>Complex adjective phrases come after the nouns they modify.</p>
 <p><strong>Adj/Adv&nbsp;plus&nbsp;Prepositional Phrase</strong></p>

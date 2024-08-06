@@ -191,8 +191,8 @@
 <p>The order of these phrases may switch places:</p>
 <p><strong>Mi max jixi, folki mi max doxo.</strong><br /> I know more, the more I read.</p>
 <h3>Verb Categories <a id="falelexili_klase"></a></h3>
-<p>Verbs are defined in the dictionary as <em>auxiliary</em>, <em>copula</em>, _transitive, <em>intransitive</em>, or
-	<em>ambitransitive</em>.</p>
+<p>Verbs are defined in the dictionary as <em>auxiliary</em>, <em>copula</em>, <em>transitive</em>,
+	<em>intransitive</em>, or <em>ambitransitive</em>.</p>
 <h4>Auxiliary Verbs</h4>
 <p>Auxiliary verbs are immediately followed by another verb, which may be omitted. There are only three auxiliary verbs
 	in Globasa: <strong>abil</strong> (can, able to), <strong>ingay</strong> (should, ought to), <strong>musi</strong>

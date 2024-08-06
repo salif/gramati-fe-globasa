@@ -265,7 +265,7 @@
 <p><strong>Hay barix.</strong> or <strong>To barix.</strong><br /> "There is rain." or "It rains."<br /> It's raining.
 </p>
 <p><strong>Hay termo.</strong> or <strong>To sen termopul.</strong><br /> "There is heat." or "It is warm."<br /> It's
-	warm. </p>
+	warm.</p>
 <h2>Conjunction ki</h2>
 <p>The conjunction <strong>ki</strong> is used when a clause (<em>a sentence embedded into the main sentence</em>)
 	functions in place of either the direct object or the subject.</p>
@@ -331,7 +331,7 @@
 <p>(1) <strong>Yu sen kepul?</strong><br /> "You are how?"<br /> How are you?</p>
 <p>(2) <strong>Mi sen bon.</strong><br /> I'm fine.</p>
 <p>(1) <strong>Parti xa okur keloka?</strong><br /> "The party will happen where?"<br /> Where will the party take
-	place? </p>
+	place?</p>
 <p>(2) <strong>Parti xa okur in misu preferido restoran.</strong><br /> The party will take place in my favorite
 	restaurant.</p>
 <h3>Colon Questions</h3>

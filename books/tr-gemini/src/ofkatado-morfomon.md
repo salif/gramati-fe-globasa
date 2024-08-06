@@ -1,16 +1,18 @@
 <h1>Kısaltılmış Morfemler</h1>
 <p>
 </p>
-<p>Globasa'nın özel bir özelliği <em>kısaltılmış morfemlerin</em> kullanımıdır. Kısaltılmış morfemler, 
-    karşılık gelen ana kelimelerinden daha kısa bir forma ve tipik olarak daha dar veya daha geniş bir anlama sahip olan 
-    işlev kelimeleri veya eklerdir. Kısaltılmış morfemler, kendi başlarına türetilmiş kelimeler değildir ve aslında 
-    öğrenme sürecini kolaylaştırmak için biçim olarak belirli içerik kelimelerine benzeyen tamamen bağımsız kök kelimeler 
-    olarak kabul edilirler. Sonuç olarak, kısaltılmış morfemlerin sistematik bir kalıpla ortaya çıkması gerekmez.</p>
-<p>Benzer bir özellik doğal dillerde de bulunur. Örneğin, dünyanın kreol dillerinde, işlev kelimelerinin ana 
-    dilden gelen içerik kelimelerinden ortaya çıktığını görmek yaygındır. Aslında, çoğu doğal dil bu şekilde 
-    evrimleşmiş ve işlev kelimeleri ve dilbilgisel morfemler üretmiştir. Bu konuyla ilgili büyüleyici bir tartışma 
-    için Guy Deutscher tarafından yazılan <a href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1?keywords=unfolding%2Bof%2Blanguage&qid=1565409086&s=gateway&sr=8-1"><em>The Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention</em></a> 
-    (Dilin Açılımı: İnsanlığın En Büyük Buluşunun Evrimsel Bir Gezisi) adlı kitaba bakın.</p>
+<p>Globasa'nın özel bir özelliği <em>kısaltılmış morfemlerin</em> kullanımıdır. Kısaltılmış morfemler, karşılık gelen
+	ana kelimelerinden daha kısa bir forma ve tipik olarak daha dar veya daha geniş bir anlama sahip olan işlev
+	kelimeleri veya eklerdir. Kısaltılmış morfemler, kendi başlarına türetilmiş kelimeler değildir ve aslında öğrenme
+	sürecini kolaylaştırmak için biçim olarak belirli içerik kelimelerine benzeyen tamamen bağımsız kök kelimeler olarak
+	kabul edilirler. Sonuç olarak, kısaltılmış morfemlerin sistematik bir kalıpla ortaya çıkması gerekmez.</p>
+<p>Benzer bir özellik doğal dillerde de bulunur. Örneğin, dünyanın kreol dillerinde, işlev kelimelerinin ana dilden
+	gelen içerik kelimelerinden ortaya çıktığını görmek yaygındır. Aslında, çoğu doğal dil bu şekilde evrimleşmiş ve
+	işlev kelimeleri ve dilbilgisel morfemler üretmiştir. Bu konuyla ilgili büyüleyici bir tartışma için Guy Deutscher
+	tarafından yazılan <a
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1?keywords=unfolding%2Bof%2Blanguage&qid=1565409086&s=gateway&sr=8-1"><em>The
+			Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention</em></a> (Dilin Açılımı:
+	İnsanlığın En Büyük Buluşunun Evrimsel Bir Gezisi) adlı kitaba bakın.</p>
 <p>Aşağıdaki işlev kelimeleri <em>kısaltılmış morfemlerdir</em>:</p>
 <ul>
 	<li><strong>cel</strong> (e, için, -mek için) <em>-den</em> <strong>cele</strong> (hedef, amaç)</li>
@@ -46,7 +48,8 @@
 <p>Aşağıdaki son ekler <em>kısaltılmış morfemlerdir</em>:</p>
 <ul>
 	<li><strong>-cu</strong> (<em>geçişsiz</em>) <em>-den</em> <strong>cudu</strong> (elde etmek, almak)</li>
-	<li><strong>-gon</strong> (<em>belirli sayıda açılı geometrik şekil</em>) <em>-den</em> <strong>gono</strong> (açı)</li>
+	<li><strong>-gon</strong> (<em>belirli sayıda açılı geometrik şekil</em>) <em>-den</em> <strong>gono</strong> (açı)
+	</li>
 	<li><strong>-gi</strong> (<em>geçişli</em>) <em>-den</em> <strong>gibe</strong> (vermek)</li>
 	<li><strong>-je</strong> (derece) <em>-den</em> <strong>daraje</strong> (derece)</li>
 	<li><strong>-sa</strong> (dil; hayvan sesleri) <em>-den</em> <strong>basa</strong> (dil)</li>

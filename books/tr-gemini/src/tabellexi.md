@@ -194,59 +194,54 @@
 	</tbody>
 </table>
 <h2>Belirleyici İlişki Zamirleri</h2>
-<p><strong>ke</strong>, <strong>hin</strong>, <strong>den</strong>, <strong>ban</strong>,
-	<strong>moy</strong>, <strong>nil</strong>, <strong>alo</strong> ve <strong>sama</strong> 
-    ilişki zamirleri daima bir <em>isim</em> (sıfatlarla değiştirilmiş olsun ya da olmasın) 
-    veya bir <em>zamir</em> tarafından takip edilmelidir. Asla tek başlarına durmamalılar çünkü 
-    <em>(zamir)isim</em> çıkarıldığında, ilişki zamiri kolayca onu takip eden isim/fiilin 
-    belirleyicisi olarak yanlış anlaşılabilir. Belirli bir isim olmadığında, 
-    <strong>te</strong> veya <strong>to</strong> zamirleri isim tamlamasının sonunu işaretler. 
-    Bkz. <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">İsim
-		Tamlamaları</a>.</p>
+<p><strong>ke</strong>, <strong>hin</strong>, <strong>den</strong>, <strong>ban</strong>, <strong>moy</strong>,
+	<strong>nil</strong>, <strong>alo</strong> ve <strong>sama</strong> ilişki zamirleri daima bir <em>isim</em>
+	(sıfatlarla değiştirilmiş olsun ya da olmasın) veya bir <em>zamir</em> tarafından takip edilmelidir. Asla tek
+	başlarına durmamalılar çünkü <em>(zamir)isim</em> çıkarıldığında, ilişki zamiri kolayca onu takip eden isim/fiilin
+	belirleyicisi olarak yanlış anlaşılabilir. Belirli bir isim olmadığında, <strong>te</strong> veya
+	<strong>to</strong> zamirleri isim tamlamasının sonunu işaretler. Bkz. <a
+		href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">İsim Tamlamaları</a>.</p>
 <p>Aşağıdaki cümleleri karşılaştırın:</p>
 <p><strong>Hinto bon nasacu.</strong><br /> Bu (şey) güzel kokuyor.</p>
 <p>Yukarıdaki cümlede, <strong>-to</strong> isim tamlamasının sonunu işaretler.</p>
 <p><strong>Hin bon nasacu... memorigi mi cel misu femgami.</strong><br /> Bu güzel koku... bana eşimi hatırlatıyor.</p>
 <p>Yukarıdaki cümlede, <strong>nasacu</strong> isim tamlamasının sonunu işaretler.</p>
 <h2><em>kekwanti</em>, <em>kenumer</em></h2>
-<p>Benzer şekilde, <strong>kekwanti</strong> (ne kadar miktarda) ve <strong>kenumer</strong> (kaç tane) 
-    ifadeleri de, bir isim ima edildiğinde ve belirtilmediğinde <strong>te</strong> veya 
-    <strong>to</strong> tarafından takip edilmelidir.</p>
+<p>Benzer şekilde, <strong>kekwanti</strong> (ne kadar miktarda) ve <strong>kenumer</strong> (kaç tane) ifadeleri de,
+	bir isim ima edildiğinde ve belirtilmediğinde <strong>te</strong> veya <strong>to</strong> tarafından takip
+	edilmelidir.</p>
 <p><strong>kenumer bon lala</strong> - kaç tane güzel şarkı<br /> vs<br />
 	<strong>Kenumer te bon lala?</strong><br /> Kaç tanesi iyi şarkı söylüyor?
 </p>
-<p><strong>Mi le kari dua kilogramo fe risi. Yu le kari kekwanti to?</strong><br /> İki kilo pirinç aldım. 
-    Sen ne kadar aldın?</p>
+<p><strong>Mi le kari dua kilogramo fe risi. Yu le kari kekwanti to?</strong><br /> İki kilo pirinç aldım. Sen ne kadar
+	aldın?</p>
 <h2>Zorunlu <em>cel</em></h2>
-<p>Hareket söz konusu olduğunda, <strong>loka</strong> ilişki zamirleriyle 
-    <strong>cel</strong> edatı zorunludur.
-</p>
+<p>Hareket söz konusu olduğunda, <strong>loka</strong> ilişki zamirleriyle <strong>cel</strong> edatı zorunludur. </p>
 <p><strong>cel keloka</strong> - nereye<br />
 	<strong>cel hinloka</strong> - buraya<br />
 	<strong>cel denloka</strong> - oraya<br /> vb.
 </p>
 <h2>Sorular ve Bildirim Cümleleri İçerisindeki Soru Cümlecikleri</h2>
-<p><em>Bildirim cümleleri içerisindeki soru cümlecikleri</em>, isim tamlamaları yerine 
-    geçen ve <em>"XYZ?" sorusunun cevabı</em> veya bunun bir çeşitlemesi anlamına gelen 
-    cümleciklerdir. Cümlecik bağlacı <strong>ku</strong> ile başlatılarak, gerçek sorularda 
-    görülen aynı belirleyiciyi (<strong>ke</strong>) kullanarak ve cümleciğin karşılık 
-    geldiği sorunun kelime sırasını koruyarak oluşturulurlar. </p>
-<p>Aşağıdaki örnek cümle çiftleri şunları göstermektedir: (1) gerçek sorular, (2) soru 
-    cümlecikleri içeren bildirim cümleleri</p>
+<p><em>Bildirim cümleleri içerisindeki soru cümlecikleri</em>, isim tamlamaları yerine geçen ve <em>"XYZ?" sorusunun
+		cevabı</em> veya bunun bir çeşitlemesi anlamına gelen cümleciklerdir. Cümlecik bağlacı <strong>ku</strong> ile
+	başlatılarak, gerçek sorularda görülen aynı belirleyiciyi (<strong>ke</strong>) kullanarak ve cümleciğin karşılık
+	geldiği sorunun kelime sırasını koruyarak oluşturulurlar. </p>
+<p>Aşağıdaki örnek cümle çiftleri şunları göstermektedir: (1) gerçek sorular, (2) soru cümlecikleri içeren bildirim
+	cümleleri</p>
 <h3>ke - <em>hangi</em>; kete - <em>kim</em>; keto - <em>ne</em></h3>
 <p>(1) <strong>Kete lubi yu?</strong><br /> "Kim seni seviyor?"<br /> Seni kim seviyor?</p>
-<p>(2) <strong>Mi jixi ku kete lubi yu.</strong><br /> "Şunu biliyorum: <em>Kim seni seviyor?</em>."<br /> 
-    Seni kimin sevdiğini biliyorum. </p>
+<p>(2) <strong>Mi jixi ku kete lubi yu.</strong><br /> "Şunu biliyorum: <em>Kim seni seviyor?</em>."<br /> Seni kimin
+	sevdiğini biliyorum. </p>
 <p>(1) <strong>Yu lubi kete?</strong><br /> "Sen kimi seviyorsun."<br /> Kimi seviyorsun?</p>
-<p>(2) <strong>Mi jixi ku yu lubi kete.</strong><br /> "Şunu biliyorum: <em>Sen kimi seviyorsun?</em>."<br /> 
-    Kimi sevdiğini biliyorum. </p>
+<p>(2) <strong>Mi jixi ku yu lubi kete.</strong><br /> "Şunu biliyorum: <em>Sen kimi seviyorsun?</em>."<br /> Kimi
+	sevdiğini biliyorum. </p>
 <p>(1) <strong>Te vole na yam keto?</strong><br /> "O ne yemek istiyor?"<br /> Ne yemek istiyor?</p>
-<p>(2) <strong>Mi le wanji ku te vole na yam keto.</strong><br /> "Şunu unuttum: <em>O ne yemek istiyor?</em>."<br /> 
-    Ne yemek istediğini unuttum. </p>
-<p>(1) <strong>Te le gibe pesa tas ke doste?</strong><br /> "Parayı hangi arkadaşa verdi?" Parayı hangi 
-    arkadaşa verdi? </p>
-<p>(2) <strong>Te le no loga ku te le gibe pesa tas ke doste.</strong><br /> "Şunu söylemedi <em>Parayı hangi 
-    arkadaşa verdi?</em>."<br /> Parayı hangi arkadaşa verdiğini söylemedi. </p>
+<p>(2) <strong>Mi le wanji ku te vole na yam keto.</strong><br /> "Şunu unuttum: <em>O ne yemek istiyor?</em>."<br /> Ne
+	yemek istediğini unuttum. </p>
+<p>(1) <strong>Te le gibe pesa tas ke doste?</strong><br /> "Parayı hangi arkadaşa verdi?" Parayı hangi arkadaşa verdi?
+</p>
+<p>(2) <strong>Te le no loga ku te le gibe pesa tas ke doste.</strong><br /> "Şunu söylemedi <em>Parayı hangi arkadaşa
+		verdi?</em>."<br /> Parayı hangi arkadaşa verdiğini söylemedi. </p>
 <h3>kesu - <em>kimin</em></h3>
 <p>(1) <strong>Hinto sen kesu kursi?</strong><br /> "Bu kimin sandalyesi?"<br /> Bu kimin sandalyesi?</p>
 <p>(2) <strong>Mi vole na jixi ku hinto sen kesu kursi.</strong><br /> "Şunu bilmek istiyorum: <em>Bu kimin
@@ -256,119 +251,116 @@
 		kitabı?</em>."<br /> Masadaki kitabın kimin olduğunu biliyorum. </p>
 <h3>kepul - <em>nasıl veya ne tür (isimle); nasıl (fiille)</em></h3>
 <p>(1) <strong>Yu sen kepul?</strong><br /> "Nasısın?"<br /> Nasılsın?</p>
-<p>(2) <strong>Te le swal ku yu sen kepul.</strong><br /> "Şunu sordu: <em>Nasılsın?</em>."<br /> Nasıl 
-    olduğunu sordu. </p>
+<p>(2) <strong>Te le swal ku yu sen kepul.</strong><br /> "Şunu sordu: <em>Nasılsın?</em>."<br /> Nasıl olduğunu sordu.
+</p>
 <p>(1) <strong>Yu sen kepul insan?</strong><br /> "Ne tür bir insansın?"<br /> Ne tür bir insansın? </p>
-<p>(2) <strong>Mi jixi ku yu sen kepul insan.</strong><br /> "Şunu biliyorum: <em>Ne tür bir insansın?</em>."<br /> 
-    Ne tür bir insan olduğunu biliyorum. </p>
+<p>(2) <strong>Mi jixi ku yu sen kepul insan.</strong><br /> "Şunu biliyorum: <em>Ne tür bir insansın?</em>."<br /> Ne
+	tür bir insan olduğunu biliyorum. </p>
 <h3>kemo - <em>ne kadar (hangi dereceye kadar)</em></h3>
 <p>(1) <strong>Te sen kemo lao?</strong><br /> "Kaç yaşında?"<br /> Kaç yaşında?</p>
-<p>(2) <strong>Te le loga tas mi ku te sen kemo lao.</strong><br /> "Bana şunu söyledi: <em>Kaç yaşında?</em>."<br /> 
-    Bana kaç yaşında olduğunu söyledi.</p>
+<p>(2) <strong>Te le loga tas mi ku te sen kemo lao.</strong><br /> "Bana şunu söyledi: <em>Kaç yaşında?</em>."<br />
+	Bana kaç yaşında olduğunu söyledi.</p>
 <p>(1) <strong>Yu sen kemo pilodo?</strong><br /> "Ne kadar yorgunsun?"<br /> Ne kadar yorgunsun?</p>
-<p>(2) <strong>Mi jixi ku yu sen kemo pilodo.</strong><br /> Şunu biliyorum: "Ne kadar yorgunsun?".<br /> Ne kadar 
-    yorgun olduğunu biliyorum. </p>
+<p>(2) <strong>Mi jixi ku yu sen kemo pilodo.</strong><br /> Şunu biliyorum: "Ne kadar yorgunsun?".<br /> Ne kadar
+	yorgun olduğunu biliyorum. </p>
 <h3>kekwanti - <em>ne kadar (miktar)</em>; kenumer - <em>kaç tane</em></h3>
 <p>(1) <strong>Yu le kari kekwanti risi?</strong><br /> "Ne kadar pirinç aldın?"<br /> Ne kadar pirinç aldın?</p>
-<p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Şunu gördüm: <em>Ne kadar
-		pirinç aldın?</em>."<br /> Ne kadar pirinç aldığını gördüm. </p>
-<p>(1) <strong>Yu hare kenumer bete?</strong><br /> "Kaç çocuğun var?"<br /> Kaç çocuğun var?
-</p>
-<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "Şunu merak ediyorum: <em>Kaç
-		çocuğun var?</em>."<br /> Kaç çocuğun olduğunu merak ediyorum. </p>
+<p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Şunu gördüm: <em>Ne kadar pirinç
+		aldın?</em>."<br /> Ne kadar pirinç aldığını gördüm. </p>
+<p>(1) <strong>Yu hare kenumer bete?</strong><br /> "Kaç çocuğun var?"<br /> Kaç çocuğun var? </p>
+<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "Şunu merak ediyorum: <em>Kaç çocuğun
+		var?</em>."<br /> Kaç çocuğun olduğunu merak ediyorum. </p>
 <h3>keloka - <em>nerede</em></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "Nerede çalışıyor?"<br /> Nerede çalışıyor?</p>
-<p>(2) <strong>Mi jixi ku te ergo keloka.</strong><br /> "Şunu biliyorum: <em>Nerede çalışıyor?</em>."<br /> 
-    Nerede çalıştığını biliyorum. </p>
+<p>(2) <strong>Mi jixi ku te ergo keloka.</strong><br /> "Şunu biliyorum: <em>Nerede çalışıyor?</em>."<br /> Nerede
+	çalıştığını biliyorum. </p>
 <h3>kewatu - <em>ne zaman</em></h3>
 <p>(1) <strong>Te xa preata kewatu?</strong><br /> "Ne zaman varacak?"<br /> Ne zaman varacak?</p>
-<p>(2) <strong>Dento sen ku te xa preata kewatu.</strong><br /> "Şudur: <em>Ne zaman varacak?</em>."<br /> 
-    Varacağı zaman budur. </p>
+<p>(2) <strong>Dento sen ku te xa preata kewatu.</strong><br /> "Şudur: <em>Ne zaman varacak?</em>."<br /> Varacağı
+	zaman budur. </p>
 <h3>keseba - <em>neden</em></h3>
-<p>(1) <strong>Yu le no idi cel parti keseba?</strong><br /> "Partiye neden gitmedin?"<br /> Partiye 
-    neden gitmedin?</p>
-<p>(2) <strong>Mi jixi ku yu le no idi cel parti keseba.</strong><br /> "Şunu biliyorum: <em>Partiye
-		neden gitmedin?</em>."<br /> Partiye neden gitmediğini biliyorum. </p>
+<p>(1) <strong>Yu le no idi cel parti keseba?</strong><br /> "Partiye neden gitmedin?"<br /> Partiye neden gitmedin?</p>
+<p>(2) <strong>Mi jixi ku yu le no idi cel parti keseba.</strong><br /> "Şunu biliyorum: <em>Partiye neden
+		gitmedin?</em>."<br /> Partiye neden gitmediğini biliyorum. </p>
 <h3>kemaner - <em>nasıl (nasıl yapılmış)</em></h3>
-<p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "Arabayı nasıl tamir ettin?"<br /> Arabayı nasıl 
-    tamir ettin?</p>
-<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> Şunu merak ediyorum: <em>Arabayı
-		nasıl tamir ettin?</em>."<br /> Arabayı nasıl tamir ettiğini merak ediyorum. </p>
+<p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "Arabayı nasıl tamir ettin?"<br /> Arabayı nasıl tamir ettin?
+</p>
+<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> Şunu merak ediyorum: <em>Arabayı nasıl tamir
+		ettin?</em>."<br /> Arabayı nasıl tamir ettiğini merak ediyorum. </p>
 <h2>Soru Öbekleri İçeren Bildirim Cümleleri</h2>
-<p>Konuşmacılar bazen bir soru cümleciğini bir öbeğe, hatta tek bir soru kelimesine 
-    indirgeyebilirler. Tam bir cümlecik olmadığında bile <strong>ku</strong> bağlacı hala 
-    kullanılır.</p>
+<p>Konuşmacılar bazen bir soru cümleciğini bir öbeğe, hatta tek bir soru kelimesine indirgeyebilirler. Tam bir cümlecik
+	olmadığında bile <strong>ku</strong> bağlacı hala kullanılır.</p>
 <p><strong>Mi jixi ku fe ke mesi.</strong><br /> Hangi ayda olduğunu biliyorum.</p>
 <p><strong>Te le no loga ku keseba.</strong><br /> Nedenini söylemedi.</p>
 <p><strong>Dento sen ku keloka.</strong><br /> İşte orası.</p>
 <p><strong>Mi jixi ku na idi keloka.</strong><br /> Nereye gideceğimi biliyorum.</p>
 <h2>İlişkisel Öbek Bağlaçları</h2>
-<p>İlişkisel öbek bağlaçları <strong>-loka</strong>, <strong>-watu</strong>, 
-    <strong>-seba</strong> ve <strong>-maner</strong> ile biter ve 
-    <strong>hu</strong> göreli bağlacını kullanır. </p>
+<p>İlişkisel öbek bağlaçları <strong>-loka</strong>, <strong>-watu</strong>, <strong>-seba</strong> ve
+	<strong>-maner</strong> ile biter ve <strong>hu</strong> göreli bağlacını kullanır. </p>
 <p><strong>Mi ergo <em>denloka hu yu ergo</em>.</strong><br /> <em>Senin çalıştığın yerde</em> çalışıyorum.</p>
 <p><strong>Mi xa preata <em>denwatu hu yam sen jumbi</em>.</strong> <em>veya</em> <strong><em>Denwatu hu yam sen
-			jumbi</em>, mi xa preata.</strong><br /> <em>Yemek hazır olduğunda</em> varacağım. <em>veya</em> <em>Yemek 
-        hazır olduğunda</em>, varacağım.</p>
-<p><strong>Mi le no idi cel parti <em>denseba hu yu idi</em>.</strong><br /> Partiye <em>senin gittiğin 
-    nedenden dolayı</em> gitmedim.</p>
-<p><strong>Mi le xuli mobil <em>denmaner hu yu le alim tas mi</em>.</strong><br /> Arabayı <em>bana öğrettiğin 
-    gibi</em> tamir ettim.</p>
+			jumbi</em>, mi xa preata.</strong><br /> <em>Yemek hazır olduğunda</em> varacağım. <em>veya</em> <em>Yemek
+		hazır olduğunda</em>, varacağım.</p>
+<p><strong>Mi le no idi cel parti <em>denseba hu yu idi</em>.</strong><br /> Partiye <em>senin gittiğin nedenden
+		dolayı</em> gitmedim.</p>
+<p><strong>Mi le xuli mobil <em>denmaner hu yu le alim tas mi</em>.</strong><br /> Arabayı <em>bana öğrettiğin gibi</em>
+	tamir ettim.</p>
 <p><strong><em>Denmaner hu mi le loga...</em></strong><br />
 	<em>Dediğim gibi</em>...
 </p>
 <h2>Karşılaştırmalı İlişki Zamirleri</h2>
-<p><strong>kom</strong> bağlacı <em>gibi, -e benzer</em> anlamına gelir ve 
-    <strong>-pul</strong>, <strong>-mo</strong>, <strong>-kwanti</strong> ve 
-    <strong>-numer</strong> ile biten ilişki zamirleriyle karşılaştırma yapmak için 
-    kullanılır. Aşağıdaki örnek cümle çiftlerinde, ikinci cümle belirli bir kelimeyi veya 
-    öbeği bir ilişki zamiriyle değiştirir. </p>
-<p>(1) <strong>Mi sen <em>hazuni kom yu</em>.</strong><br /> <em>Senin gibi</em> 
-    <em>üzgünüm</em>. </p>
+<p><strong>kom</strong> bağlacı <em>gibi, -e benzer</em> anlamına gelir ve <strong>-pul</strong>, <strong>-mo</strong>,
+	<strong>-kwanti</strong> ve <strong>-numer</strong> ile biten ilişki zamirleriyle karşılaştırma yapmak için
+	kullanılır. Aşağıdaki örnek cümle çiftlerinde, ikinci cümle belirli bir kelimeyi veya öbeği bir ilişki zamiriyle
+	değiştirir. </p>
+<p>(1) <strong>Mi sen <em>hazuni kom yu</em>.</strong><br /> <em>Senin gibi</em>
+	<em>üzgünüm</em>.
+</p>
 <p>(2) <strong>Mi sen <em>denpul kom yu</em>.</strong><br /> <em>Senin gibiyim</em>. </p>
-<p>(1) <strong>Mi salom yu <em>sodarsim kom misu sodar</em>.</strong><br /> Seni 
-    <em>kardeşim gibi kardeşçe</em> selamlıyorum.</p>
-<p>(2) <strong>Mi salom yu <em>denpul kom misu sodar</em>.</strong><br /> Seni 
-    <em>kardeşim gibi</em> selamlıyorum.</p>
-<p>(1) <strong>Mi no abil na lala <em>meli kom yu</em>.</strong><br /> <em>Senin gibi güzel</em> şarkı 
-    söyleyemiyorum.</p>
-<p>(2) <strong>Mi no abil na lala <em>denpul kom yu</em>.</strong><br /> <em>Senin gibi</em> şarkı 
-    söyleyemiyorum.</p>
+<p>(1) <strong>Mi salom yu <em>sodarsim kom misu sodar</em>.</strong><br /> Seni <em>kardeşim gibi kardeşçe</em>
+	selamlıyorum.</p>
+<p>(2) <strong>Mi salom yu <em>denpul kom misu sodar</em>.</strong><br /> Seni <em>kardeşim gibi</em> selamlıyorum.</p>
+<p>(1) <strong>Mi no abil na lala <em>meli kom yu</em>.</strong><br /> <em>Senin gibi güzel</em> şarkı söyleyemiyorum.
+</p>
+<p>(2) <strong>Mi no abil na lala <em>denpul kom yu</em>.</strong><br /> <em>Senin gibi</em> şarkı söyleyemiyorum.</p>
 <p>(1) <strong><em>Sama kom mi,</em> pia te hare tiga bete.</strong><br />
 	<em>Benim gibi,</em> onun da üç çocuğu var.
 </p>
 <p>(2) <strong><em>Denpul kom mi,</em> pia te hare tiga bete.</strong><br />
 	<em>Benim gibi,</em> onun da üç çocuğu var.
 </p>
-<p>(1) <strong>Hin baytu sen <em>daymo</em> day <em>kom misu to</em>.</strong><br /> Bu ev 
-    <em>benimki gibi</em> <em>çok</em> büyük. </p>
-<p>(2) <strong>Hin baytu sen <em>denmo</em> day <em>kom misu to</em>.</strong><br /> Bu ev 
-    <em>benimki kadar</em> büyük. </p>
-<p>(1) <strong>Mi hare <em>tiga</em> bete <em>kom misu gami</em>.</strong><br /> 
-    <em>Eşim gibi</em> <em>üç</em> çocuğum var.</p>
-<p>(2) <strong>Mi hare <em>dennumer</em> bete <em>kom misu gami</em>.</strong><br /> 
-    <em>Eşim kadar</em> çocuğum var.</p>
-<p>(1) <strong>Mi le kari <em>dua kilogramo fe</em> risi <em>kom yu</em>.</strong><br /> 
-    <em>Senin gibi</em> <em>iki kilo</em> pirinç aldım.</p>
-<p>(2) <strong>Mi le kari <em>denkwanti</em> risi <em>kom yu</em>.</strong><br /> 
-    <em>Senin kadar</em> pirinç aldım.</p>
+<p>(1) <strong>Hin baytu sen <em>daymo</em> day <em>kom misu to</em>.</strong><br /> Bu ev <em>benimki gibi</em>
+	<em>çok</em> büyük.
+</p>
+<p>(2) <strong>Hin baytu sen <em>denmo</em> day <em>kom misu to</em>.</strong><br /> Bu ev <em>benimki kadar</em> büyük.
+</p>
+<p>(1) <strong>Mi hare <em>tiga</em> bete <em>kom misu gami</em>.</strong><br />
+	<em>Eşim gibi</em> <em>üç</em> çocuğum var.
+</p>
+<p>(2) <strong>Mi hare <em>dennumer</em> bete <em>kom misu gami</em>.</strong><br />
+	<em>Eşim kadar</em> çocuğum var.
+</p>
+<p>(1) <strong>Mi le kari <em>dua kilogramo fe</em> risi <em>kom yu</em>.</strong><br />
+	<em>Senin gibi</em> <em>iki kilo</em> pirinç aldım.
+</p>
+<p>(2) <strong>Mi le kari <em>denkwanti</em> risi <em>kom yu</em>.</strong><br />
+	<em>Senin kadar</em> pirinç aldım.
+</p>
 <h2>daydenpul</h2>
-<p><strong>daydenpul</strong> kelimesi, <strong>day-</strong> (<em>büyütme
-		öneki</em>) ve <strong>denpul</strong> ilişki zamiriyle oluşan türetilmiş bir 
-    kelimedir. Aşağıdaki gibi ünlemlerde bir isimden sonra gelen <em>ne ... !</em> anlamına gelir:</p>
+<p><strong>daydenpul</strong> kelimesi, <strong>day-</strong> (<em>büyütme öneki</em>) ve <strong>denpul</strong> ilişki
+	zamiriyle oluşan türetilmiş bir kelimedir. Aşağıdaki gibi ünlemlerde bir isimden sonra gelen <em>ne ... !</em>
+	anlamına gelir:</p>
 <p><strong><em>Daydenpul</em> din!</strong><br />
 	<em>Ne</em> gün ama!
 </p>
 <h2>daydenmo <a id="daydenmmo"></a></h2>
-<p><strong>daydenmo</strong> kelimesi, <strong>day-</strong> (<em>büyütme
-		öneki</em>) ve <strong>denmo</strong> ilişki zamiriyle oluşan türetilmiş bir kelimedir. 
-    Bir sıfat/zarf takip ettiğinde <em>çok</em>, değiştirilmiş bir isim takip ettiğinde 
-    ise <em>böyle bir</em> anlamına gelen bir derece zarfıdır. </p>
+<p><strong>daydenmo</strong> kelimesi, <strong>day-</strong> (<em>büyütme öneki</em>) ve <strong>denmo</strong> ilişki
+	zamiriyle oluşan türetilmiş bir kelimedir. Bir sıfat/zarf takip ettiğinde <em>çok</em>, değiştirilmiş bir isim takip
+	ettiğinde ise <em>böyle bir</em> anlamına gelen bir derece zarfıdır. </p>
 <p><strong>Yu <em>daydenmo</em> bala.</strong><br /> <em>Çok</em> güçlüsün.</p>
 <p><strong>Yu hare <em>daydenmo</em> day oko.</strong><br /> <em>Böyle</em> büyük gözlerin var.</p>
-<p><strong>daydenmo</strong> kelimesi ayrıca <strong>daydenpul</strong> gibi de 
-    kullanılır. Bir sıfat/zarf takip ettiğinde <em>ne kadar</em>, değiştirilmiş bir isim 
-    takip ettiğinde ise <em>ne ... !</em> anlamına gelir.</p>
+<p><strong>daydenmo</strong> kelimesi ayrıca <strong>daydenpul</strong> gibi de kullanılır. Bir sıfat/zarf takip
+	ettiğinde <em>ne kadar</em>, değiştirilmiş bir isim takip ettiğinde ise <em>ne ... !</em> anlamına gelir.</p>
 <p><strong><em>Daydenmo</em> meli!</strong><br />
 	<em>Ne kadar</em> güzel!
 </p>
@@ -376,20 +368,19 @@
 	<em>Ne</em> güzel bir gün ama!
 </p>
 <h2>daydenkwanti, daydennumer, denmo multi</h2>
-<p>Benzer şekilde, <strong>daydenkwanti</strong> ve <strong>daydennumer</strong> kelimeleri 
-    sırasıyla <em>bu kadar çok</em> ve <em>bu kadar fazla</em> anlamını ifade etmek için 
-    kullanılabilir. Alternatif olarak, <strong>denmo multi</strong> ifadesi, hem 
-    <strong>daydenkwanti</strong> hem de <strong>daydennumer</strong> ile eş anlamlı 
-    olduğu için her ikisini de ifade etmek için kullanılabilir.</p>
+<p>Benzer şekilde, <strong>daydenkwanti</strong> ve <strong>daydennumer</strong> kelimeleri sırasıyla <em>bu kadar
+		çok</em> ve <em>bu kadar fazla</em> anlamını ifade etmek için kullanılabilir. Alternatif olarak, <strong>denmo
+		multi</strong> ifadesi, hem <strong>daydenkwanti</strong> hem de <strong>daydennumer</strong> ile eş anlamlı
+	olduğu için her ikisini de ifade etmek için kullanılabilir.</p>
 <h2>moyun</h2>
-<p><strong>moyun</strong> kelimesi, <strong>moy</strong> ilişki zamiri ve 
-    <strong>un</strong> (<em>bir</em>) ile oluşan türetilmiş bir kelimedir. 
-    <em>Her biri</em> anlamına gelir ve <em>her/tümü</em> ile ayırt edilmesi gerektiğinde 
-    kullanılır.</p>
+<p><strong>moyun</strong> kelimesi, <strong>moy</strong> ilişki zamiri ve <strong>un</strong> (<em>bir</em>) ile oluşan
+	türetilmiş bir kelimedir. <em>Her biri</em> anlamına gelir ve <em>her/tümü</em> ile ayırt edilmesi gerektiğinde
+	kullanılır.</p>
 <p>Aşağıdaki cümleleri karşılaştırın:</p>
-<p><strong>Mi le kari tiga yuxitul cel <em>moyun nini</em>.</strong><br /> 
-    <em>Her çocuk</em> için üç oyuncak aldım.
+<p><strong>Mi le kari tiga yuxitul cel <em>moyun nini</em>.</strong><br />
+	<em>Her çocuk</em> için üç oyuncak aldım.
 </p>
-<p><strong>Mi le kari tiga yuxitul cel <em>moy nini</em>.</strong><br /> 
-    <em>Tüm çocuklar</em> için üç oyuncak aldım.</p>
+<p><strong>Mi le kari tiga yuxitul cel <em>moy nini</em>.</strong><br />
+	<em>Tüm çocuklar</em> için üç oyuncak aldım.
+</p>
 <p></p>
