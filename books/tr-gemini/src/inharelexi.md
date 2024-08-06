@@ -209,30 +209,51 @@
 	geçirmek), <strong>gibe</strong> (vermek). Ancak, bazı geçişli fiiller bazen veya sık sık nesneyi atlar:
 	<strong>doxo</strong> (okumak), <strong>yam</strong> (yemek yemek). </p>
 <h4>Geçişsiz Fiiller</h4>
-<p>Geçişsiz fiiller nesne almaz: <strong>idi</strong> (gitmek), <strong>konduta</strong> (davranmak),
-	<strong>loka</strong> (bulunmak). Ancak, genellikle geçişsiz olan bazı fiiller geçişli hale gelebilir. Bu durumların
-	çoğu, aynı isim/fiil kelimesinin fiil olarak kullanıldığı ve nesne olarak tekrarlandığı cümlelerde görülür.</p>
+<p>Geçişsiz fiiller doğrudan nesne almaz: <strong>idi</strong> (gitmek), <strong>konduta</strong> (davranmak),
+	<strong>loka</strong> (bulunmak). Ancak, geçişsiz olarak etiketlenen bazı fiiller geçişli fiil olarak
+	kullanılabilir. Bu durumların çoğu, aynı isim/fiil kelimesinin hem fiil hem de tekrarlanan doğrudan nesne olarak
+	kullanıldığı veya aynı şekilde özel bir isim veya söz konusu ismin kategorisinin kullanıldığı cümlelerde görülür.
+</p>
 <p><strong>Mi le somno (lungo somno).</strong><br /> Uyudum (uzun bir uyku).</p>
 <p><strong>Yu le haha (sotipul haha).</strong><br /> Güldün (yüksek sesle bir kahkaha). </p>
-<h4>Geçişli/Geçişsiz Fiiller</h4>
-<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">Geçişli/Geçişsiz fiiller</a> Globasa'da,
-	geçişsiz okumanın öznesinin ve geçişli okumanın nesnesinin fiilin aynı eylemini/durumunu yaşadığı fiillerdir. Bu
-	fiillerin geçişsiz okuması isteğe bağlı olarak <strong>-cu</strong> alabilir ve geçişli okuması isteğe bağlı olarak
-	<strong>-gi</strong> alabilir. </p>
+<p><strong>Te xa lala (Hox Xencudin).</strong><br /> O şarkı söyleyecek (Doğum Günün Kutlu Olsun).</p>
+<p><strong>Te danse (tango).</strong><br /> O dans ediyor (tango).</p>
+<p>Tüm geçişsiz fiiller teorik olarak isteğe bağlı <strong>-gi</strong> kullanımıyla geçişli olarak kullanılabilir,
+	ancak çoğu durumda <strong>-gi</strong> uygulamak daha iyi bir uygulama olabilir. </p>
+<p><strong>Kam yu fley(gi) hawanavi?</strong><br /> Uçak uçurur musun?</p>
+<p><strong>Mi xa sampo(gi) bwaw fe axam.</strong><br /> Akşam köpeği gezdireceğim.</p>
+<h4>Geçişli-Geçişsiz Fiiller</h4>
+<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">Geçişli-Geçişsiz fiiller</a> Globasa'da,
+	geçişsiz anlamın öznesinin ve geçişli anlamın doğrudan nesnesinin fiilin aynı eylemini/durumunu deneyimlediği
+	fiillerdir. Aksi belirtilmedikçe, bu fiillerin geçişsiz anlamı isteğe bağlı olarak <strong>-cu</strong>
+	uygulayabilir ve geçişli anlamı isteğe bağlı olarak <strong>-gi</strong> uygulayabilir. Geçişli-geçişsiz fiillerin
+	üç alt kategorisi vardır: duygu fiilleri, etmensiz fiiller ve konum/yer veya hareket fiilleri. </p>
+<p><em>Duygu Fiilleri</em></p>
+<p>Bir duyguyu ifade eden geçişli-geçişsiz fiiller <em>[kök isim] hissetmek veya [kök isim] hissettirmek</em> anlamına
+	gelir. <strong>-gi</strong> eki isteğe bağlı olarak geçişli anlam için uygulanabilirken, geçişsiz anlamda tek başına
+	kök fiil ve [kök fiil]<strong>-cu</strong> arasında aşağıda görüldüğü gibi bir ayrım yapılır. </p>
 <ul>
-	<li><strong>esto(cu)</strong> - durmak (<em>durmaya gelmek</em>)<br />
-		<strong>esto(gi)</strong> - durdurmak (<em>durmaya getirmek veya durmaya neden olmak</em>)
+	<li><strong>interes</strong> - ilgilenmek veya ilgili olmak/hissetmek (ilgi hissetmek)<br />
+		<strong>interesgi</strong> - ilgilendirmek<br />
+		<strong>interescu</strong> (veya <strong>xorinteres</strong>) - ilgilenmeye başlamak
 	</li>
 </ul>
-<p><strong>Am esto(cu)!</strong><br /> Dur!</p>
-<p><strong>Am esto(gi) mobil!</strong><br /> Arabayı durdur!</p>
+<p><strong>Mi interes tem basalogi.</strong><br /> Dil bilimine ilgi duyuyorum.</p>
+<p><strong>Basalogi interes(gi) mi.</strong><br /> Dil bilimi ilgimi çekiyor.</p>
+<p><strong>Mi interescu tem basalogi lefe multi nyan.</strong><br /> Yıllar önce dil bilimine ilgi duymaya başladım.
+</p>
 <ul>
-	<li><strong>harka(cu)</strong> - hareket etmek (<em>bir hareket yapmak</em>)<br />
-		<strong>harka(gi)</strong> - hareket ettirmek (<em>hareket etmesine neden olmak</em>)
+	<li><strong>pilo</strong> - yormak veya yorgun olmak/hissetmek (yorgunluk hissetmek)<br />
+		<strong>pilogi</strong> - yormak<br />
+		<strong>pilocu</strong> (veya <strong>xorpilo</strong>) - yorulmak
 	</li>
 </ul>
-<p><strong>Am no harka(cu)!</strong><br /> Hareket etme!</p>
-<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> Sandalyeni hareket ettirdim. </p>
+<p><strong>Te pilo.</strong><br /> O yorgun (hissediyor).</p>
+<p><strong>Tesu ergo pilo(gi) te.</strong><br /> İşi onu yoruyor.</p>
+<p><strong>Te pilocu dur na ergo.</strong><br /> Çalışırken yoruldu.</p>
+<p><em>Etmensiz Fiiller</em></p>
+<p>Etmensiz geçişli-geçişsiz fiillerin geçişsiz anlamında, eylem öznenin gerçekleştirdiği bir şey değil, öznenin başına
+	gelen bir şeydir. </p>
 <ul>
 	<li><strong>kasiru(cu)</strong> - kırmak (<em>kırılmak</em>)<br />
 		<strong>kasiru(gi)</strong> - kırmak (<em>kırılmasına neden olmak</em>)
@@ -242,25 +263,52 @@
 <p><strong>Mi le kasiru(gi) janela.</strong><br /> Pencereyi kırdım.</p>
 <ul>
 	<li><strong>buka(cu)</strong> - açmak (<em>açılmak</em>)<br />
-		<strong>buka(gi)</strong> - açmak (<em>açılmasını sağlamak</em>)
+		<strong>buka(gi)</strong> - açmak (<em>açık hale getirmek</em>)
 	</li>
 </ul>
 <p><strong>Dwer le buka(cu).</strong><br /> Kapı açıldı.</p>
 <p><strong>Mi le buka(gi) dwer.</strong><br /> Kapıyı açtım.</p>
+<p><em>Konum/Yer veya Hareket Fiilleri</em></p>
+<p>Konum/yer veya hareket geçişli-geçişsiz fiillerinin geçişsiz anlamında özne hem etken hem de edilgendir. </p>
 <ul>
-	<li><strong>sokutu(cu)</strong> - düşmek<br />
-		<strong>sokutu(gi)</strong> - düşürmek
+	<li><strong>esto(cu)</strong> - durmak (<em>durmaya gelmek</em>)<br />
+		<strong>esto(gi)</strong> - durdurmak (<em>durdurmaya getirmek veya durmasına neden olmak</em>)
 	</li>
 </ul>
-<p><strong>Kitabu le sokutu(cu).</strong><br /> Kitap düştü. </p>
-<p><strong>Mi le sokutu(gi) kitabu.</strong><br /> Kitabı düşürdüm.</p>
+<p><strong>Am esto(cu)!</strong><br /> Dur!</p>
+<p><strong>Am esto(gi) mobil!</strong><br /> Arabayı durdur!</p>
 <ul>
-	<li><strong>resta(cu)</strong> - kalmak<br />
-		<strong>resta(gi)</strong> - bırakmak, tutmak (<em>kalmasına neden olmak</em>)
+	<li><strong>harka(cu)</strong> - hareket etmek (<em>hareket yapmak</em>)<br />
+		<strong>harka(gi)</strong> - hareket ettirmek (<em>hareket etmesine neden olmak</em>)
 	</li>
 </ul>
-<p><strong>Am resta(cu) in ogar.</strong><br /> Evde kal. </p>
-<p><strong>Am resta(gi) kamisa in bao.</strong><br /> Gömleği çantada bırak/tut. </p>
+<p><strong>Am no harka(cu)!</strong><br /> Kımıldama!</p>
+<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> Sandalyeni hareket ettirdim. </p>
+<p>Bu alt kategoride, geçişsiz anlamda tek başına kök fiil ve [kök fiil]<strong>-cu</strong> arasında bir ayrım yapılan
+	üç fiil vardır: <strong>side</strong>, <strong>estay</strong>, <strong>leta</strong>. </p>
+<ul>
+	<li><strong>side</strong> - oturmak (oturmuş olmak) veya oturtmak<br />
+		<strong>sidegi</strong> - oturtmak<br />
+		<strong>sidecu</strong> (veya <strong>xorside</strong>) - oturmak, yerleşmek
+	</li>
+</ul>
+<p><strong>Te side fe fronta de darsu-kamer.</strong><br /> Sınıfın önünde oturuyor.</p>
+<p><strong>Am side(gi) bebe per hin kursi.</strong><br /> Bebeği bu sandalyeye oturt.</p>
+<p><strong>Am sidecu per sofa.</strong><br /> Kanepeye otur. </p>
+<ul>
+	<li>
+		<p><strong>estay</strong> - ayakta durmak veya (ayakta) durdurmak<br />
+			<strong>estaygi</strong> - (ayakta) durdurmak<br />
+			<strong>estaycu</strong> (veya <strong>xorestay</strong>) - ayağa kalkmak
+		</p>
+	</li>
+	<li>
+		<p><strong>leta</strong> - uzanmak veya yatırmak<br />
+			<strong>letagi</strong> - yatırmak<br />
+			<strong>letacu</strong> (veya <strong>xorleta</strong>) - uzanmak
+		</p>
+	</li>
+</ul>
 <h2>Sıfat/Zarflar</h2>
 <p>Globasa'da, sıfatlar ve <em>fiil değiştiren zarflar</em> aynı forma sahiptir.</p>
 <ul>

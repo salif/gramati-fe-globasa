@@ -3,9 +3,10 @@ plugins:
   - jekyll-seo-tag
 
 title: "Gramati fe Globasa"
-description: "kitabu"
+description: "Kompleto Gramati fe Globasa"
 baseurl: "/gramati-fe-globasa"
 repository: "salif/gramati-fe-globasa"
+lang: glb
 
 author:
   name: "Salif Mehmed"

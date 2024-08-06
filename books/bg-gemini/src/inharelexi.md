@@ -212,59 +212,110 @@
 	улавям), <strong>gibe</strong> (давам). Някои преходни глаголи обаче понякога или често пропускат прякото
 	допълнение: <strong>doxo</strong> (чета), <strong>yam</strong> (ям). </p>
 <h4>Непреходни глаголи</h4>
-<p>Непреходните глаголи не приемат пряко допълнение: <strong>idi</strong> (отивам), <strong>konduta</strong> (държа се),
-	<strong>loka</strong> (намирам се). Някои глаголи, които обикновено са непреходни, могат да станат преходни.
-	Повечето от тези случаи се наблюдават в изречения, в които една и съща дума съществително/глагол се използва като
-	глагол и се повтаря като пряко допълнение.</p>
-<p><strong>Mi le somno (lungo somno).</strong><br> Спах (дълбок сън).</p>
-<p><strong>Yu le haha (sotipul haha).</strong><br> Ти се смя (силно).</p>
+<p>Непреходните глаголи не приемат пряк обект: <strong>idi</strong> (отивам), <strong>konduta</strong> (държа се),
+	<strong>loka</strong> (намирам се). Въпреки това, някои глаголи, обозначени като непреходни, могат да се използват
+	като преходни глаголи. Повечето от тези случаи се наблюдават в изречения, в които една и съща дума/глагол се
+	използва като глагол и се повтаря като пряко допълнение, или по подобен начин, ако се използва собствено име или
+	категория на споменатата дума.</p>
+<p><strong>Mi le somno (lungo somno).</strong><br /> Аз спах (дълъг сън).</p>
+<p><strong>Yu le haha (sotipul haha).</strong><br /> Ти се смя (силен смях). </p>
+<p><strong>Te xa lala (Hox Xencudin).</strong><br /> Тя ще пее (Честит Рожден Ден).</p>
+<p><strong>Te danse (tango).</strong><br /> Той танцува (танго).</p>
+<p>Всички непреходни глаголи теоретично могат да се използват преходно с опционално използване на <strong>-gi</strong>,
+	макар че може да е по-добра практика да се прилага <strong>-gi</strong> в повечето случаи. </p>
+<p><strong>Kam yu fley(gi) hawanavi?</strong><br /> Летиш ли със самолет?</p>
+<p><strong>Mi xa sampo(gi) bwaw fe axam.</strong><br /> Ще разходя кучето вечерта.</p>
 <h4>Амбитранзитивни глаголи</h4>
-<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">Амбитранзитивните глаголи</a> в глобаса са
-	глаголи , при които както подлогът на непреходното четене, така и прякото допълнение на преходното четене изпитват
-	едно и също действие/състояние на глагола. Непреходното четене на тези глаголи може по избор да вземе
-	<strong>-cu</strong> , а преходното четене може по избор да вземе <strong>-gi</strong>. </p>
+<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">Амбитранзитивни глаголи</a> в глобаса са
+	глаголи, за които както подлогът на непреходното значение, така и прекият обект на преходното значение, изпитват
+	едно и също действие/състояние на глагола. Освен ако не е посочено друго, непреходното значение на тези глаголи може
+	опционално да приложи <strong>-cu</strong>, а преходното значение може опционално да приложи <strong>-gi</strong>.
+	Има три подкатегории амбитранзитивни глаголи: глаголи за чувства, глаголи без действащо лице и глаголи за
+	положение/местоположение или движение. </p>
+<p><em>Глаголи за чувства</em></p>
+<p>Амбитранзитивните глаголи, обозначаващи чувство, означават <em>да чувствам [коренна дума] или да карам да се чувства
+		[коренна дума]</em>. Наставката <strong>-gi</strong> може да се приложи опционално за преходното значение,
+	докато се прави разлика в непреходното значение между самостоятелния коренен глагол и [коренен
+	глагол]<strong>-cu</strong>, както е показано по-долу. </p>
 <ul>
-	<li><strong>esto(cu)</strong> - спирам (<em>спирам</em>)<br>
-		<strong>esto(gi)</strong> - спирам (<em>карам да спре</em>)
+	<li><strong>interes</strong> - интерес или съм/чувствам се заинтересован (чувствам интерес)<br />
+		<strong>interesgi</strong> - интересувам<br />
+		<strong>interescu</strong> (или <strong>xorinteres</strong>) - заинтересувам се
 	</li>
 </ul>
-<p><strong>Am esto(cu)!</strong><br> Спри!</p>
-<p><strong>Am esto(gi) mobil!</strong><br> Спри колата!</p>
+<p><strong>Mi interes tem basalogi.</strong><br /> Интересувам се от лингвистика.</p>
+<p><strong>Basalogi interes(gi) mi.</strong><br /> Лингвистиката ме интересува.</p>
+<p><strong>Mi interescu tem basalogi lefe multi nyan.</strong><br /> Заинтересувах се от лингвистика преди много години.
+</p>
 <ul>
-	<li><strong>harka(cu)</strong> - движа се (<em>правя движение</em>)<br>
-		<strong>harka(gi)</strong> - движа (<em>карам да се движи</em>)
+	<li><strong>pilo</strong> - уморявам или съм/чувствам се уморен (чувствам умора)<br />
+		<strong>pilogi</strong> - уморявам<br />
+		<strong>pilocu</strong> (или <strong>xorpilo</strong>) - изморявам се
 	</li>
 </ul>
-<p><strong>Am no harka(cu)!</strong><br> Не се движи!</p>
-<p><strong>Mi le harka(gi) yusu kursi.</strong><br> Преместих стола ти. </p>
+<p><strong>Te pilo.</strong><br /> Тя е/чувства се уморена.</p>
+<p><strong>Tesu ergo pilo(gi) te.</strong><br /> Работата й я уморява.</p>
+<p><strong>Te pilocu dur na ergo.</strong><br /> Тя се измори, докато работеше.</p>
+<p><em>Глаголи без действащо лице</em></p>
+<p>В непреходното значение на амбитранзитивни глаголи без действащо лице, действието е нещо, което се случва с подлога,
+	а не нещо, което подлогът извършва. </p>
 <ul>
-	<li><strong>kasiru(cu)</strong> - чупя се (<em>счупвам се</em>)<br>
+	<li><strong>kasiru(cu)</strong> - чупя (се) (<em>счупвам се</em>)<br />
 		<strong>kasiru(gi)</strong> - чупя (<em>карам да се счупи</em>)
 	</li>
 </ul>
-<p><strong>Janela le kasiru(cu).</strong><br> Прозорецът се счупи. </p>
-<p><strong>Mi le kasiru(gi) janela.</strong><br> Счупих прозореца.</p>
+<p><strong>Janela le kasiru(cu).</strong><br /> Прозорецът се счупи. </p>
+<p><strong>Mi le kasiru(gi) janela.</strong><br /> Счупих прозореца.</p>
 <ul>
-	<li><strong>buka(cu)</strong> - отварям се (<em>отварям се</em>)<br>
+	<li><strong>buka(cu)</strong> - отварям (се) (<em>отварям се</em>)<br />
 		<strong>buka(gi)</strong> - отварям (<em>карам да се отвори</em>)
 	</li>
 </ul>
-<p><strong>Dwer le buka(cu).</strong><br> Вратата се отвори.</p>
-<p><strong>Mi le buka(gi) dwer.</strong><br> Отворих вратата.</p>
+<p><strong>Dwer le buka(cu).</strong><br /> Вратата се отвори.</p>
+<p><strong>Mi le buka(gi) dwer.</strong><br /> Отворих вратата.</p>
+<p><em>Глаголи за положение/местоположение или движение</em></p>
+<p>В непреходното значение на амбитранзитивни глаголи за положение/местоположение или движение, подлогът е едновременно
+	действащо лице и пациент. </p>
 <ul>
-	<li><strong>sokutu(cu)</strong> - падам<br>
-		<strong>sokutu(gi)</strong> - изпускам
+	<li><strong>esto(cu)</strong> - спирам (<em>спирам се</em>)<br />
+		<strong>esto(gi)</strong> - спирам (<em>карам да спре</em>)
 	</li>
 </ul>
-<p><strong>Kitabu le sokutu(cu).</strong><br> Книгата падна. </p>
-<p><strong>Mi le sokutu(gi) kitabu.</strong><br> Изпуснах книгата.</p>
+<p><strong>Am esto(cu)!</strong><br /> Спри!</p>
+<p><strong>Am esto(gi) mobil!</strong><br /> Спри колата!</p>
 <ul>
-	<li><strong>resta(cu)</strong> - оставам<br>
-		<strong>resta(gi)</strong> - оставям (<em>карам да остане</em>)
+	<li><strong>harka(cu)</strong> - движа (се) (<em>правя движение</em>)<br />
+		<strong>harka(gi)</strong> - движа (<em>карам да се движи</em>)
 	</li>
 </ul>
-<p><strong>Am resta(cu) in ogar.</strong><br> Стой си вкъщи. </p>
-<p><strong>Am resta(gi) kamisa in bao.</strong><br> Остави/запази ризата в чантата. </p>
+<p><strong>Am no harka(cu)!</strong><br /> Не се движи!</p>
+<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> Преместих стола ти. </p>
+<p>Има три глагола в тази подкатегория, в които се прави разлика в непреходното значение между самостоятелния коренен
+	глагол и [коренен глагол]<strong>-cu</strong>: <strong>side</strong>, <strong>estay</strong>, <strong>leta</strong>.
+</p>
+<ul>
+	<li><strong>side</strong> - седя (съм седнал) или сядам<br />
+		<strong>sidegi</strong> - сядам<br />
+		<strong>sidecu</strong> (или <strong>xorside</strong>) - сядам, настанявам се
+	</li>
+</ul>
+<p><strong>Te side fe fronta de darsu-kamer.</strong><br /> Той седи отпред в класната стая.</p>
+<p><strong>Am side(gi) bebe per hin kursi.</strong><br /> Сложи бебето на този стол.</p>
+<p><strong>Am sidecu per sofa.</strong><br /> Седни на дивана. </p>
+<ul>
+	<li>
+		<p><strong>estay</strong> - стоя или (карам да) стоя<br />
+			<strong>estaygi</strong> - (карам да) стоя<br />
+			<strong>estaycu</strong> (или <strong>xorestay</strong>) - изправям се
+		</p>
+	</li>
+	<li>
+		<p><strong>leta</strong> - лежа или лягам<br />
+			<strong>letagi</strong> - лягам<br />
+			<strong>letacu</strong> (или <strong>xorleta</strong>) - лягам си
+		</p>
+	</li>
+</ul>
 <h2>Прилагателно/наречие</h2>
 <p>В глобаса прилагателните и <em>наречията, модифициращи глаголи</em>, имат идентична форма.</p>
 <ul>

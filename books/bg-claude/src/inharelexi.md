@@ -211,59 +211,111 @@
 	улавям), <strong>gibe</strong> (давам). Някои преходни глаголи обаче понякога или често пропускат прякото
 	допълнение: <strong>doxo</strong> (чета), <strong>yam</strong> (ям).</p>
 <h4>Непреходни глаголи</h4>
-<p>Непреходните глаголи не вземат пряко допълнение: <strong>idi</strong> (отивам), <strong>konduta</strong> (държа се),
-	<strong>loka</strong> (намирам се). Някои глаголи, които обикновено са непреходни, могат да станат преходни.
-	Повечето от тези случаи се срещат в изречения, в които една и съща дума съществително/глагол се използва като глагол
-	и се повтаря като пряко допълнение.</p>
-<p><strong>Mi le somno (lungo somno).</strong><br> Аз спах (дълъг сън).</p>
-<p><strong>Yu le haha (sotipul haha).</strong><br> Ти се смя (силен смях).</p>
+<p>Непреходните глаголи не приемат пряко допълнение: <strong>idi</strong> (отивам), <strong>konduta</strong> (държа се),
+	<strong>loka</strong> (намирам се). Въпреки това, някои глаголи, обозначени като непреходни, могат да се използват
+	като преходни глаголи. Повечето от тези случаи се наблюдават в изречения, в които една и съща дума, която е
+	съществително/глагол, се използва като глагол и се повтаря като пряко допълнение, или по подобен начин, ако се
+	използва собствено име или категория на споменатото съществително.</p>
+<p><strong>Mi le somno (lungo somno).</strong><br /> Аз спах (дълъг сън).</p>
+<p><strong>Yu le haha (sotipul haha).</strong><br /> Ти се смя (силен смях). </p>
+<p><strong>Te xa lala (Hox Xencudin).</strong><br /> Тя ще пее (Честит рожден ден).</p>
+<p><strong>Te danse (tango).</strong><br /> Той танцува (танго).</p>
+<p>Всички непреходни глаголи теоретично могат да се използват преходно с незадължителна употреба на
+	<strong>-gi</strong>, въпреки че може да е по-добра практика да се прилага <strong>-gi</strong> в повечето случаи.
+</p>
+<p><strong>Kam yu fley(gi) hawanavi?</strong><br /> Пилотираш ли самолети?</p>
+<p><strong>Mi xa sampo(gi) bwaw fe axam.</strong><br /> Ще разходя кучето вечерта.</p>
 <h4>Двупреходни глаголи</h4>
 <p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">Двупреходните глаголи</a> в глобаса са
-	глаголи, при които както подлогът на непреходното четене, така и прякото допълнение на преходното четене изпитват
-	едно и също действие/състояние на глагола. Непреходното четене на тези глаголи може по избор да приеме
-	<strong>-cu</strong>, а преходното четене може по избор да приеме <strong>-gi</strong>.</p>
+	глаголи, при които както подлогът в непреходното значение, така и прякото допълнение в преходното значение изпитват
+	едно и също действие/състояние на глагола. Освен ако не е посочено друго, непреходното значение на тези глаголи може
+	по избор да прилага <strong>-cu</strong>, а преходното значение може по избор да прилага <strong>-gi</strong>. Има
+	три подкатегории двупреходни глаголи: глаголи за чувства, безагентни глаголи и глаголи за положение/местоположение
+	или движение. </p>
+<p><em>Глаголи за чувства</em></p>
+<p>Двупреходните глаголи, обозначаващи чувство, означават <em>да чувствам [коренно съществително] или да карам да се
+		чувства [коренно съществително]</em>. Наставката <strong>-gi</strong> може да се прилага по избор за преходното
+	значение, докато се прави разлика в непреходното значение между самостоятелния коренен глагол и [коренен
+	глагол]<strong>-cu</strong>, както се вижда по-долу. </p>
 <ul>
-	<li><strong>esto(cu)</strong> - спирам (<em>идвам до спиране</em>)<br>
-		<strong>esto(gi)</strong> - спирам (<em>довеждам до спиране или карам да спре</em>)
+	<li><strong>interes</strong> - интересувам или съм/чувствам се заинтересован (чувствам интерес)<br />
+		<strong>interesgi</strong> - интересувам<br />
+		<strong>interescu</strong> (или <strong>xorinteres</strong>) - ставам заинтересован
 	</li>
 </ul>
-<p><strong>Am esto(cu)!</strong><br> Спри!</p>
-<p><strong>Am esto(gi) mobil!</strong><br> Спри колата!</p>
+<p><strong>Mi interes tem basalogi.</strong><br /> Интересувам се от лингвистика.</p>
+<p><strong>Basalogi interes(gi) mi.</strong><br /> Лингвистиката ме интересува.</p>
+<p><strong>Mi interescu tem basalogi lefe multi nyan.</strong><br /> Станах заинтересован от лингвистика преди много
+	години. </p>
 <ul>
-	<li><strong>harka(cu)</strong> - движа се (<em>правя движение</em>)<br>
-		<strong>harka(gi)</strong> - движа (<em>карам да се движи</em>)
+	<li><strong>pilo</strong> - уморявам или съм/чувствам се уморен (чувствам умора)<br />
+		<strong>pilogi</strong> - уморявам<br />
+		<strong>pilocu</strong> (или <strong>xorpilo</strong>) - ставам уморен
 	</li>
 </ul>
-<p><strong>Am no harka(cu)!</strong><br> Не мърдай!</p>
-<p><strong>Mi le harka(gi) yusu kursi.</strong><br> Преместих стола ти.</p>
+<p><strong>Te pilo.</strong><br /> Тя е/чувства се уморена.</p>
+<p><strong>Tesu ergo pilo(gi) te.</strong><br /> Работата ѝ я уморява.</p>
+<p><strong>Te pilocu dur na ergo.</strong><br /> Тя се умори докато работеше.</p>
+<p><em>Безагентни глаголи</em></p>
+<p>В непреходното значение на безагентните двупреходни глаголи действието е нещо, което се случва на подлога, а не нещо,
+	което подлогът извършва. </p>
 <ul>
-	<li><strong>kasiru(cu)</strong> - чупя се (<em>счупвам се</em>)<br>
+	<li><strong>kasiru(cu)</strong> - чупя (<em>счупвам се</em>)<br />
 		<strong>kasiru(gi)</strong> - чупя (<em>карам да се счупи</em>)
 	</li>
 </ul>
-<p><strong>Janela le kasiru(cu).</strong><br> Прозорецът се счупи.</p>
-<p><strong>Mi le kasiru(gi) janela.</strong><br> Счупих прозореца.</p>
+<p><strong>Janela le kasiru(cu).</strong><br /> Прозорецът се счупи. </p>
+<p><strong>Mi le kasiru(gi) janela.</strong><br /> Аз счупих прозореца.</p>
 <ul>
-	<li><strong>buka(cu)</strong> - отварям се (<em>ставам отворен</em>)<br>
+	<li><strong>buka(cu)</strong> - отварям (<em>ставам отворен</em>)<br />
 		<strong>buka(gi)</strong> - отварям (<em>правя отворен</em>)
 	</li>
 </ul>
-<p><strong>Dwer le buka(cu).</strong><br> Вратата се отвори.</p>
-<p><strong>Mi le buka(gi) dwer.</strong><br> Отворих вратата.</p>
+<p><strong>Dwer le buka(cu).</strong><br /> Вратата се отвори.</p>
+<p><strong>Mi le buka(gi) dwer.</strong><br /> Аз отворих вратата.</p>
+<p><em>Глаголи за положение/местоположение или движение</em></p>
+<p>В непреходното значение на двупреходните глаголи за положение/местоположение или движение подлогът е едновременно
+	агент и пациент. </p>
 <ul>
-	<li><strong>sokutu(cu)</strong> - падам<br>
-		<strong>sokutu(gi)</strong> - пускам
+	<li><strong>esto(cu)</strong> - спирам (<em>идвам до спиране</em>)<br />
+		<strong>esto(gi)</strong> - спирам (<em>довеждам до спиране или карам да спре</em>)
 	</li>
 </ul>
-<p><strong>Kitabu le sokutu(cu).</strong><br> Книгата падна.</p>
-<p><strong>Mi le sokutu(gi) kitabu.</strong><br> Изпуснах книгата.</p>
+<p><strong>Am esto(cu)!</strong><br /> Спри!</p>
+<p><strong>Am esto(gi) mobil!</strong><br /> Спри колата!</p>
 <ul>
-	<li><strong>resta(cu)</strong> - оставам<br>
-		<strong>resta(gi)</strong> - оставям (зад себе си), запазвам (<em>карам да остане</em>)
+	<li><strong>harka(cu)</strong> - движа (<em>правя движение</em>)<br />
+		<strong>harka(gi)</strong> - движа (<em>карам да се движи</em>)
 	</li>
 </ul>
-<p><strong>Am resta(cu) in ogar.</strong><br> Остани вкъщи.</p>
-<p><strong>Am resta(gi) kamisa in bao.</strong><br> Остави/запази ризата в чантата.</p>
+<p><strong>Am no harka(cu)!</strong><br /> Не мърдай!</p>
+<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> Аз преместих стола ти. </p>
+<p>Има три глагола в тази подкатегория, при които се прави разлика в непреходното значение между самостоятелния коренен
+	глагол и [коренен глагол]<strong>-cu</strong>: <strong>side</strong>, <strong>estay</strong>, <strong>leta</strong>.
+</p>
+<ul>
+	<li><strong>side</strong> - седя (съм седнал/седя) или сядам<br />
+		<strong>sidegi</strong> - слагам да седне<br />
+		<strong>sidecu</strong> (или <strong>xorside</strong>) - сядам, заемам място
+	</li>
+</ul>
+<p><strong>Te side fe fronta de darsu-kamer.</strong><br /> Той седи отпред в класната стая.</p>
+<p><strong>Am side(gi) bebe per hin kursi.</strong><br /> Сложи бебето да седне на този стол.</p>
+<p><strong>Am sidecu per sofa.</strong><br /> Седни на дивана. </p>
+<ul>
+	<li>
+		<p><strong>estay</strong> - стоя или (карам да) стои<br />
+			<strong>estaygi</strong> - (карам да) стои<br />
+			<strong>estaycu</strong> (или <strong>xorestay</strong>) - ставам
+		</p>
+	</li>
+	<li>
+		<p><strong>leta</strong> - лежа или слагам да легне<br />
+			<strong>letagi</strong> - слагам да легне<br />
+			<strong>letacu</strong> (или <strong>xorleta</strong>) - лягам
+		</p>
+	</li>
+</ul>
 <h2>Прилагателни/Наречия</h2>
 <p>В глобаса прилагателните и <em>наречията, модифициращи глаголи</em>, имат идентична форма.</p>
 <ul>
@@ -466,8 +518,8 @@
 	<li><strong>dudanse</strong> - (действието) танцуване</li>
 	<li><strong>dulala</strong> - (действието) пеене</li>
 </ul>
-<p>Представката <strong>du-</strong> се използва също за <em>продължителен/обичаен глаголен аспект</em>. Вижте
-	<a href="./falelexili-morfo.html">Глаголни форми</a>.</p>
+<p>Представката <strong>du-</strong> се използва също за <em>продължителен/обичаен глаголен аспект</em>. Вижте <a
+		href="./falelexili-morfo.html">Глаголни форми</a>.</p>
 <p><em>Представката <strong>du-</strong> е съкратена от <strong>dure</strong> (продължителност).<br> Етимология на
 		<strong>dure</strong>: английски, френски, немски и испански</em></p>
 <h3>Наставка за съществително/глагол -gi <a id="xafefikso_-gi"></a></h3>
@@ -542,8 +594,8 @@
 </ul>
 <h4>Глаголи</h4>
 <p>Наставката <strong>-cu</strong> може също да се прилага по избор към пациентивни амбитранзитивни глаголи (както е
-	показано по-горе, под <a href="./inharelexi.html#falelexili_klase">Глаголни категории</a>), въпреки че в
-	определени случаи <strong>-cu</strong> е необходима за правене на разлика.</p>
+	показано по-горе, под <a href="./inharelexi.html#falelexili_klase">Глаголни категории</a>), въпреки че в определени
+	случаи <strong>-cu</strong> е необходима за правене на разлика.</p>
 <ul>
 	<li>
 		<p><strong>gami</strong> - съпруг/а (<em>съществително</em>); женя се, омъжвам се (<em>глагол</em>)<br>
@@ -598,8 +650,8 @@
 		</p>
 	</li>
 </ul>
-<p>Наставката <strong>-li</strong> се използва също за образуване на прилагателни/наречия от служебни думи. Вижте
-	<a href="./gramatilexi.html">Служебни думи</a>.</p>
+<p>Наставката <strong>-li</strong> се използва също за образуване на прилагателни/наречия от служебни думи. Вижте <a
+		href="./gramatilexi.html">Служебни думи</a>.</p>
 <p><em>Етимология на <strong>-li</strong>: френски (-el, -elle), испански (-al), английски (-al, -ly), немски (-lich),
 		руски (-ельный "-elni", -альный "-alni"), турски (-li)</em></p>
 <h3>Наставка за прилагателно/наречие -pul <a id="xafefikso_-pul"></a></h3>

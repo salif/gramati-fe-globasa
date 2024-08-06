@@ -209,30 +209,50 @@
 	<strong>doxo</strong> (read), <strong>yam</strong> (eat). </p>
 <h4>Intransitive Verbs</h4>
 <p>Intransitive verbs do not take a direct object: <strong>idi</strong> (go), <strong>konduta</strong> (behave),
-	<strong>loka</strong> (be located). However, certain verbs that are usually intransitive may become transitive. Most
-	of these cases are seen in sentences in which the same noun/verb word is used as the verb and repeated as the direct
-	object.</p>
+	<strong>loka</strong> (be located). However, certain verbs labeled as intransitive may be used as transitive verbs.
+	Most of these cases are seen in sentences in which the same noun/verb word is used as the verb and repeated as the
+	direct object, or likewise if a proper noun or category of said noun is used.</p>
 <p><strong>Mi le somno (lungo somno).</strong><br /> I slept (a long sleep).</p>
 <p><strong>Yu le haha (sotipul haha).</strong><br /> You laughed (a loud laugh). </p>
+<p><strong>Te xa lala (Hox Xencudin).</strong><br /> She will sing (Happy Birthday).</p>
+<p><strong>Te danse (tango).</strong><br /> He's dancing (tango).</p>
+<p>All intransitive verbs may in theory be used transitively with an optional use of <strong>-gi</strong>, although it
+	may be a better practice to apply <strong>-gi</strong> in most cases. </p>
+<p><strong>Kam yu fley(gi) hawanavi?</strong><br /> Do you fly aircraft?</p>
+<p><strong>Mi xa sampo(gi) bwaw fe axam.</strong><br /> I will walk the dog in the evening.</p>
 <h4>Ambitransitive Verbs</h4>
 <p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">Ambitransitive verbs</a> in Globasa are verbs
-	for which both the subject of the intransitive reading and the direct object of the transitive reading experience
-	the same action/state of the verb. The intransitive reading of these verbs may optionally take <strong>-cu</strong>
-	and the transitive reading may optionally take <strong>-gi</strong>. </p>
+	for which both the subject of the intransitive meaning and the direct object of the transitive meaning experience
+	the same action/state of the verb. Unless otherwise noted, the intransitive meaning of these verbs may optionally
+	apply <strong>-cu</strong> and the transitive meaning may optionally apply <strong>-gi</strong>. There are three
+	subcategories of ambitransitive verbs: verbs of feeling, agentless verbs, and verbs of position/location or
+	movement. </p>
+<p><em>Verbs of Feeling</em></p>
+<p>Ambitransitive verbs denoting a feeling mean <em>to feel [root noun] or cause to feel [root noun]</em>. The suffix
+	<strong>-gi</strong> may be optionally applied for the transitive meaning, while a distinction is made in the
+	intransitive meaning between the lone root verb and [root verb]<strong>-cu</strong>, as seen below. </p>
 <ul>
-	<li><strong>esto(cu)</strong> - stop (<em>come to a stop</em>)<br />
-		<strong>esto(gi)</strong> - stop (<em>bring to a stop or cause to stop</em>)
+	<li><strong>interes</strong> - interest or be/feel interested (feel interest)<br />
+		<strong>interesgi</strong> - interest<br />
+		<strong>interescu</strong> (or <strong>xorinteres</strong>) - become interested
 	</li>
 </ul>
-<p><strong>Am esto(cu)!</strong><br /> Stop!</p>
-<p><strong>Am esto(gi) mobil!</strong><br /> Stop the car!</p>
+<p><strong>Mi interes tem basalogi.</strong><br /> I'm interested in linguistics.</p>
+<p><strong>Basalogi interes(gi) mi.</strong><br /> Linguistics interests me.</p>
+<p><strong>Mi interescu tem basalogi lefe multi nyan.</strong><br /> I became interested in linguistics many years ago.
+</p>
 <ul>
-	<li><strong>harka(cu)</strong> - move (<em>make a movement</em>)<br />
-		<strong>harka(gi)</strong> - move (<em>cause to move</em>)
+	<li><strong>pilo</strong> - tire or be/feel tired (feel fatigue)<br />
+		<strong>pilogi</strong> - tire<br />
+		<strong>pilocu</strong> (or <strong>xorpilo</strong>) - become tired
 	</li>
 </ul>
-<p><strong>Am no harka(cu)!</strong><br /> Don't move!</p>
-<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> I moved your chair. </p>
+<p><strong>Te pilo.</strong><br /> She is/feels tired.</p>
+<p><strong>Tesu ergo pilo(gi) te.</strong><br /> Her work tires her.</p>
+<p><strong>Te pilocu dur na ergo.</strong><br /> She got/became tired while working.</p>
+<p><em>Agentless Verbs</em></p>
+<p>In the intransitive meaning of agentless ambitransitive verbs, the action is something that happens to the subject
+	rather than something the subject performs. </p>
 <ul>
 	<li><strong>kasiru(cu)</strong> - break (<em>get broken</em>)<br />
 		<strong>kasiru(gi)</strong> - break (<em>cause to break</em>)
@@ -247,20 +267,49 @@
 </ul>
 <p><strong>Dwer le buka(cu).</strong><br /> The door opened.</p>
 <p><strong>Mi le buka(gi) dwer.</strong><br /> I opened the door.</p>
+<p><em>Verbs of Position/Location or Movement</em></p>
+<p>In the intransitive meaning of ambitransitive verbs of position/location or movement the subject is both agent and
+	patient. </p>
 <ul>
-	<li><strong>sokutu(cu)</strong> - fall<br />
-		<strong>sokutu(gi)</strong> - drop
+	<li><strong>esto(cu)</strong> - stop (<em>come to a stop</em>)<br />
+		<strong>esto(gi)</strong> - stop (<em>bring to a stop or cause to stop</em>)
 	</li>
 </ul>
-<p><strong>Kitabu le sokutu(cu).</strong><br /> The book fell. </p>
-<p><strong>Mi le sokutu(gi) kitabu.</strong><br /> I dropped the book.</p>
+<p><strong>Am esto(cu)!</strong><br /> Stop!</p>
+<p><strong>Am esto(gi) mobil!</strong><br /> Stop the car!</p>
 <ul>
-	<li><strong>resta(cu)</strong> - stay, remain<br />
-		<strong>resta(gi)</strong> - leave (behind), keep (<em>cause to stay, remain</em>)
+	<li><strong>harka(cu)</strong> - move (<em>make a movement</em>)<br />
+		<strong>harka(gi)</strong> - move (<em>cause to move</em>)
 	</li>
 </ul>
-<p><strong>Am resta(cu) in ogar.</strong><br /> Stay home. </p>
-<p><strong>Am resta(gi) kamisa in bao.</strong><br /> Leave/keep the shirt in the bag. </p>
+<p><strong>Am no harka(cu)!</strong><br /> Don't move!</p>
+<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> I moved your chair. </p>
+<p>There are three verbs in this subcategory in which a distinction is made in the intransitive meaning between the lone
+	root verb and [root verb]<strong>-cu</strong>: <strong>side</strong>, <strong>estay</strong>, <strong>leta</strong>.
+</p>
+<ul>
+	<li><strong>side</strong> - sit (be seated/sitting) or seat<br />
+		<strong>sidegi</strong> - seat<br />
+		<strong>sidecu</strong> (or <strong>xorside</strong>) - sit down, have a seat
+	</li>
+</ul>
+<p><strong>Te side fe fronta de darsu-kamer.</strong><br /> He's sitting at the front of the class.</p>
+<p><strong>Am side(gi) bebe per hin kursi.</strong><br /> Seat the baby on this chair.</p>
+<p><strong>Am sidecu per sofa.</strong><br /> Sit down on the sofa. </p>
+<ul>
+	<li>
+		<p><strong>estay</strong> - stand or (cause to) stand<br />
+			<strong>estaygi</strong> - (cause to) stand<br />
+			<strong>estaycu</strong> (or <strong>xorestay</strong>) - stand up
+		</p>
+	</li>
+	<li>
+		<p><strong>leta</strong> - lie or lay<br />
+			<strong>letagi</strong> - lay<br />
+			<strong>letacu</strong> (or <strong>xorleta</strong>) - lie down
+		</p>
+	</li>
+</ul>
 <h2>Adjective/Adverbs</h2>
 <p>In Globasa, adjectives and <em>verb-modifying adverbs</em> have identical form.</p>
 <ul>
