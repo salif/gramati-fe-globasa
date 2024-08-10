@@ -1,6 +1,0 @@
-/_site/
-/.bundle/*
-!/.bundle/config
-/.jekyll-cache/
-.jekyll-metadata
-/Gemfile.lock

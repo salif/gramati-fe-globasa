@@ -1,0 +1,9 @@
+/books/*/book
+/books/*/theme
+
+/docs/_site/
+/docs/.bundle/*
+!/docs/.bundle/config
+/docs/Gemfile.lock
+.jekyll-cache
+.jekyll-metadata

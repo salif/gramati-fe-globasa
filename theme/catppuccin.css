@@ -1,3 +1,4 @@
+/* beautify ignore:start */
 .mocha.hljs {
   color: #cdd6f4;
   background: #1e1e2e;
@@ -785,3 +786,4 @@
   --search-mark-bg: #fe640b;
   --warning-border: #fe640b;
 }
+/* beautify ignore:end */

@@ -1,13 +1,13 @@
 # Gramati fe Globasa
 
-- 🏴󠁧󠁢󠁥󠁮󠁧󠁿 *English:*
+- 🏴󠁧󠁢󠁥󠁮󠁧󠁿 _English:_
   - [Complete Globasa Grammar](./eng/)
 
-- 🇧🇬 *български:*
+- 🇧🇬 _български:_
   - [Граматика на глобаса (Gemini)](./bg-gemini/)
   - [Граматика на глобаса (Claude)](./bg-claude/)
 
-- 🇹🇷 *Türkçe*:
+- 🇹🇷 _Türkçe_:
   - [Globasa dilbilgisi (Gemini)](./tr-gemini/)
 
 <!--
