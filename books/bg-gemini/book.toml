@@ -4,7 +4,7 @@ language = "bg"
 multilingual = false
 src = "src"
 title = "Граматика на глобаса"
-description = "Български превод на граматиката на глобаса с помощта на Google Gemini"
+description = "Български превод на граматиката на езика глобаса, направен с помощта на езиковия модел Джемини"
 
 [output.html]
 additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]

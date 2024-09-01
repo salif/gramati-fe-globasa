@@ -1,6 +1,6 @@
 # Summary
 
-- [Globasa Grammar](./gramati.md)
+- [Introduction](./gramati.md)
 - [Summary](./SUMMARY.md)
 - [Alphabet and Pronunciation](./abece-ji-lafuzu.md)
 - [Content Words: Nouns, Verbs, Adjectives and Adverbs](./inharelexi.md)

@@ -4,11 +4,14 @@
   - [Complete Globasa Grammar](./eng/)
 
 - 🇧🇬 _български:_
-  - [Граматика на глобаса (Gemini)](./bg-gemini/)
-  - [Граматика на глобаса (Claude)](./bg-claude/)
+  - [Граматика на глобаса (Джемини)](./bg-gemini/)
+  - [Граматика на глобаса (Клод)](./bg-claude/)
 
 - 🇹🇷 _Türkçe_:
-  - [Globasa dilbilgisi (Gemini)](./tr-gemini/)
+  - [Globasa dilbilgisi](./tr-gemini/)
+
+- 🇫🇷 _français_:
+  - [Grammaire de la globasa](./fr-gemini/)
 
 <!--
 - *español:*

@@ -1,7 +1,7 @@
-# Özet
+# İçindekiler
 
-- [Globasa Dilbilgisi](./gramati.md)
-- [Özet](./SUMMARY.md)
+- [Giriş](./gramati.md)
+- [İçindekiler](./SUMMARY.md)
 - [Alfabe ve Telaffuz](./abece-ji-lafuzu.md)
 - [İçerik Sözcükleri: İsimler, Fiiller, Sıfatlar ve Zarflar](./inharelexi.md)
 - [İşlev Sözcükleri: Bağlaçlar, Edatlar ve İşlev Zarfları](./gramatilexi.md)

@@ -4,11 +4,14 @@
   - [Complete Globasa Grammar](https://salif.github.io/gramati-fe-globasa/eng/)
 
 - 🇧🇬 _български:_
-  - [Граматика на глобаса (Gemini)](https://salif.github.io/gramati-fe-globasa/bg-gemini/)
-  - [Граматика на глобаса (Claude)](https://salif.github.io/gramati-fe-globasa/bg-claude/)
+  - [Граматика на глобаса (Джемини)](https://salif.github.io/gramati-fe-globasa/bg-gemini/)
+  - [Граматика на глобаса (Клод)](https://salif.github.io/gramati-fe-globasa/bg-claude/)
 
 - 🇹🇷 _Türkçe_:
-  - [Globasa dilbilgisi (Gemini)](https://salif.github.io/gramati-fe-globasa/tr-gemini/)
+  - [Globasa dilbilgisi](https://salif.github.io/gramati-fe-globasa/tr-gemini/)
+
+- 🇫🇷 _français_:
+  - [Grammaire de la globasa](https://salif.github.io/gramati-fe-globasa/fr-gemini/)
 
 <!--
 - *español:*

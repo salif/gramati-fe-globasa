@@ -1,0 +1,16 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "fr"
+multilingual = false
+src = "src"
+title = "Grammaire de la globasa"
+description = "Traduction française de la grammaire de la globasa (via Google Gemini)"
+
+[output.html]
+additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/fr-gemini/{path}"
+site-url = "/gramati-fe-globasa/fr-gemini/"

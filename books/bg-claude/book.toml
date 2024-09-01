@@ -4,7 +4,7 @@ language = "bg"
 multilingual = false
 src = "src"
 title = "Граматика на глобаса"
-description = "Български превод на граматиката на глобаса с помощта на Claude"
+description = "Български превод на граматиката на езика глобаса, направен с помощта на езиковия модел Клод"
 
 [output.html]
 additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]
