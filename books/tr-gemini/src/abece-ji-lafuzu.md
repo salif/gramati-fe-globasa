@@ -714,7 +714,7 @@
 	<em>e-u-r<u><strong>o</strong></u>-pa</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/e.u.ro.pa.mp3">[e.u.'ɾo.pa]</a> olarak telaffuz
 	edilir</p>
-<h3>Yazım Kuralı <a id="regula_fe_harufiya"></a></h3>
+<h3>Yazım Kuralı <span id="regula_fe_harufiya"></span></h3>
 <p>Aşağıdaki yazım kuralı yalnızca kök sözcükler için geçerlidir, türetilmiş sözcükler için geçerli değildir. Diğer
 	ünlülerin yanında, Globasa <em>i</em> ve <em>u</em>'yu yalnızca bunlar vurguluysa veya fonotaktik kurallar
 	<em>y</em> ve <em>w</em>'ye izin vermiyorsa kullanır. Diğer tüm durumlarda, Globasa <em>i</em> ve <em>u</em> yerine

@@ -348,7 +348,7 @@
 <p><strong><em>Daydenpul</em> din!</strong><br>
 	<em>Какъв</em> ден!
 </p>
-<h2>daydenmo <a id="daydenmmo"></a></h2>
+<h2>daydenmo <span id="daydenmmo"></span></h2>
 <p>Думата <strong>daydenmo</strong> е производна дума, съставена от <strong>day-</strong> (<em>усилвателна
 		представка</em>) и съотношението <strong>denmo</strong>. Тя е наречие за степен, означаващо <em>толкова</em>,
 	когато е последвано от прилагателно/наречие, или <em>такъв/такава/такова/такива</em>, когато е последвано от

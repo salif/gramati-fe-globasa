@@ -3,7 +3,7 @@
 </p>
 <h2>Strict Word Order</h2>
 <p>In Globasa, a relatively strict word order is applied within phrases.</p>
-<h2>Noun Phrases <a id="namelexili_jumlemon"></a></h2>
+<h2>Noun Phrases <span id="namelexili_jumlemon"></span></h2>
 <p>Noun phrases consist of the following structure, as illustrated in the table below:</p>
 <p>(Specifier) + (Complement) + Head</p>
 <table style="width:100%">
@@ -72,7 +72,7 @@
 </table>
 <p>Since specifiers and complements are optional, a noun phrase may consist of a single noun, for example,
 	<strong>kitabu</strong>.</p>
-<h3>Third-Person Pronouns at End of Noun Phrases <a id="pornamelexi_in_namelexili_jumlemon"></a></h3>
+<h3>Third-Person Pronouns at End of Noun Phrases <span id="pornamelexi_in_namelexili_jumlemon"></span></h3>
 <p>Noun phrases must always end in either a noun or a pronoun. Whenever a noun is understood and omitted, a pronoun must
 	replace it, rather than leaving a specifier or complement hanging. Without the use of pronouns to complete noun
 	phrases, such phrases would have different meanings or create incomplete and therefore ungrammatical sentences.</p>
@@ -246,7 +246,7 @@
 <p><strong>alimyen hox kos&nbsp;yusu sukses</strong><br /> the teacher happy for your success</p>
 <p><strong>Comparative Adj/Adv Phrases</strong></p>
 <p><strong>nini maxmo&nbsp;lao kom misu sodar</strong><br /> the kid older than my brother</p>
-<h2>Relative Clauses <a id="relativo_baxjumle"></a></h2>
+<h2>Relative Clauses <span id="relativo_baxjumle"></span></h2>
 <p>In Globasa, relative clauses are introduced with the <em>modifying clause marker</em> <strong>hu</strong> and retain
 	typical word order. It is worth noting that the conjunction <strong>hu</strong> doesn't have an exact equivalent in
 	English but is typically translated as <em>who</em>, <em>which</em>, or <em>that</em>. </p>

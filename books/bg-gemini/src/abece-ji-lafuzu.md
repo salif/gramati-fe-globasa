@@ -188,121 +188,142 @@
 			<td><strong>b</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/b.mp3">/b/</a></td>
 			<td>както в <em>boy</em> (момче)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/baytu.mp3"><strong>baytu</strong></a> къща</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/baytu.mp3"><strong>baytu</strong></a>
+				къща</td>
 		</tr>
 		<tr>
 			<td><strong>c</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/c_aspirated.mp3">/t͡ʃʰ/</a></td>
 			<td>както <em>ch</em> в <em>chair</em> (стол)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/cokolate.mp3"><strong>cokolate</strong></a> шоколад</td>
+			<td><a
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/cokolate.mp3"><strong>cokolate</strong></a>
+				шоколад</td>
 		</tr>
 		<tr>
 			<td><strong>d</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/d.mp3">/d/</a></td>
 			<td>както в <em>dip</em> (потапям)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/doste.mp3"><strong>doste</strong></a> приятел</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/doste.mp3"><strong>doste</strong></a>
+				приятел</td>
 		</tr>
 		<tr>
 			<td><strong>f</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/f.mp3">/f/</a></td>
 			<td>както в <em>fun</em> (забава)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/fasul.mp3"><strong>fasul</strong></a> боб</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/fasul.mp3"><strong>fasul</strong></a> боб
+			</td>
 		</tr>
 		<tr>
 			<td><strong>g</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/g.mp3">/g/</a></td>
 			<td>както в <em>good</em> (добър)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/globa.mp3"><strong>globa</strong></a> свят</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/globa.mp3"><strong>globa</strong></a>
+				свят</td>
 		</tr>
 		<tr>
 			<td><strong>h</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">/x/</a></td>
 			<td>както <em>ch</em> в немската дума <em>Bach</em></td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/hawa.mp3"><strong>hawa</strong></a> въздух</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/hawa.mp3"><strong>hawa</strong></a>
+				въздух</td>
 		</tr>
 		<tr>
 			<td><strong>j</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/j.mp3">/d͡ʒ/</a></td>
 			<td>както в <em>jazz</em> (джаз)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/juni.mp3"><strong>juni</strong></a> млад</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/juni.mp3"><strong>juni</strong></a> млад
+			</td>
 		</tr>
 		<tr>
 			<td><strong>k</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/k_aspirated.mp3">/kʰ/</a></td>
 			<td>както в <em>kite</em> (хвърчило)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/kitabu.mp3"><strong>kitabu</strong></a> книга</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/kitabu.mp3"><strong>kitabu</strong></a>
+				книга</td>
 		</tr>
 		<tr>
 			<td><strong>l</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/l.mp3">/l/</a></td>
 			<td>както в <em>log</em> (дърво)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/lala.mp3"><strong>lala</strong></a> пея, песен</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/lala.mp3"><strong>lala</strong></a> пея,
+				песен</td>
 		</tr>
 		<tr>
 			<td><strong>m</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/m.mp3">/m/</a></td>
 			<td>както в <em>map</em> (карта)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/multi.mp3"><strong>multi</strong></a> много</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/multi.mp3"><strong>multi</strong></a>
+				много</td>
 		</tr>
 		<tr>
 			<td><strong>n</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/n.mp3">/n/</a></td>
 			<td>както в <em>nine</em> (девет)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/neo.mp3"><strong>neo</strong></a> нов</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/neo.mp3"><strong>neo</strong></a> нов
+			</td>
 		</tr>
 		<tr>
 			<td><strong>p</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/p_aspirated.mp3">/pʰ/</a></td>
 			<td>както в <em>peace</em> (мир)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pingo.mp3"><strong>pingo</strong></a> ябълка</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pingo.mp3"><strong>pingo</strong></a>
+				ябълка</td>
 		</tr>
 		<tr>
 			<td><strong>r</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">/ɾ/</a></td>
 			<td>както <em>r</em> в испански или италиански</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/risi.mp3"><strong>risi</strong></a> ориз</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/risi.mp3"><strong>risi</strong></a> ориз
+			</td>
 		</tr>
 		<tr>
 			<td><strong>s</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/s.mp3">/s/</a></td>
 			<td>както в <em>sit</em> (седя)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/sui.mp3"><strong>sui</strong></a> вода</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/sui.mp3"><strong>sui</strong></a> вода
+			</td>
 		</tr>
 		<tr>
 			<td><strong>t</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/t_aspirated.mp3">/tʰ/</a></td>
 			<td>както в <em>time</em> (време)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/teatro.mp3"><strong>teatro</strong></a> театър</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/teatro.mp3"><strong>teatro</strong></a>
+				театър</td>
 		</tr>
 		<tr>
 			<td><strong>v</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/v.mp3">/v/</a></td>
 			<td>както в <em>vest</em> (жилетка)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/visita.mp3"><strong>visita</strong></a> посещение</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/visita.mp3"><strong>visita</strong></a>
+				посещение</td>
 		</tr>
 		<tr>
 			<td><strong>w</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/w.mp3">/w/</a></td>
 			<td>както в <em>win</em> (печеля)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/watu.mp3"><strong>watu</strong></a> време</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/watu.mp3"><strong>watu</strong></a> време
+			</td>
 		</tr>
 		<tr>
 			<td><strong>x</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/x.mp3">/ʃ/</a></td>
 			<td>както <em>sh</em> в <em>shop</em> (магазин)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/xugwan.mp3"><strong>xugwan</strong></a> навик</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/xugwan.mp3"><strong>xugwan</strong></a>
+				навик</td>
 		</tr>
 		<tr>
 			<td><strong>y</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/y.mp3">/j/</a></td>
 			<td>както в <em>yes</em> (да)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/yuxi.mp3"><strong>yuxi</strong></a> игра</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/yuxi.mp3"><strong>yuxi</strong></a> игра
+			</td>
 		</tr>
 		<tr>
 			<td><strong>z</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/z.mp3">/z/</a></td>
 			<td>както в <em>zen</em> (дзен)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/zebra.mp3"><strong>zebra</strong></a> зебра</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/zebra.mp3"><strong>zebra</strong></a>
+				зебра</td>
 		</tr>
 	</tbody>
 </table>
@@ -314,15 +335,16 @@
 <p><strong>d</strong>, <strong>t</strong> - никога като американското английско произношение на <em>d</em> и <em>t</em>
 	между гласни, както в <em>lady</em> (дама) и <em>meter</em> (метър)</p>
 <p>В американския английски <em>d</em> и <em>t</em> са склонни да се произнасят като <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">[ɾ]</a>, когато се появяват между гласни (leader, liter и т.н.).
-	Фонемата [ɾ], или така нареченият <em>tap</em>, е практически идентична с испанското (и глобаса) <em>r</em>.
-	Говорещите английски с американски акцент трябва да внимават винаги да произнасят истинско <em>d</em> (<em>d</em> в
-	<em>done</em>, а не в <em>leader</em>) и истинско <em>t</em> (<em>t</em> в <em>talk</em>, а не в <em>liter</em>) в
-	глобаса.</p>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">[ɾ]</a>, когато се появяват между гласни
+	(leader, liter и т.н.). Фонемата [ɾ], или така нареченият <em>tap</em>, е практически идентична с испанското (и
+	глобаса) <em>r</em>. Говорещите английски с американски акцент трябва да внимават винаги да произнасят истинско
+	<em>d</em> (<em>d</em> в <em>done</em>, а не в <em>leader</em>) и истинско <em>t</em> (<em>t</em> в <em>talk</em>, а
+	не в <em>liter</em>) в глобаса.</p>
 <p><strong>g</strong> - никога [dʒ] както в <em>gym</em> (фитнес)</p>
-<p><strong>h</strong> - в идеалния случай се произнася като <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">беззвучна задна
-		езична проходна съгласна</a>, да не се бърка с [χ], <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/uvular.mp3">беззвучна
-		задна мъжечна проходна съгласна</a></p>
+<p><strong>h</strong> - в идеалния случай се произнася като <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">беззвучна задна езична проходна съгласна</a>,
+	да не се бърка с [χ], <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/uvular.mp3">беззвучна задна
+		мъжечна проходна съгласна</a></p>
 <p><em>Задната езична</em> проходна съгласна се произнася в същата точка на артикулация като [k] и е подобна на
 	съскането на котка. За разлика от нея, <em>задната мъжечна</em> проходна съгласна е по-гърлен звук, произнасян
 	по-назад в гърлото, при който се забелязва вибрация на мъжеца. Допустим вариант: [h], както в <em>hotel</em>
@@ -330,11 +352,12 @@
 <p><strong>l</strong> - в идеалния случай се произнася като ясно или светло [l] във всяка позиция, а не като [ɫ],
 	веларизирано или така нареченото тъмно <em>l</em>, произнасяно на английски в края на сричката, както в
 	<em>bell</em> (камбана); сравнете с френското произношение на <em>belle</em> (красива).</p>
-<p><strong>ng</strong> - може да се произнася като <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ng.mp3">[ŋ]</a> в края на
-	сричката (както се среща само в собствени имена); навсякъде другаде като [ŋg]</p>
+<p><strong>ng</strong> - може да се произнася като <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ng.mp3">[ŋ]</a> в края на сричката (както се среща
+	само в собствени имена); навсякъде другаде като [ŋg]</p>
 <p><strong>r</strong> - в идеалния случай се произнася като единичен <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3"><em>flap</em> или <em>tap</em></a>, а не като <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/rr.mp3"><em>trill</em></a></p>
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3"><em>flap</em> или <em>tap</em></a>, а не като
+	<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/rr.mp3"><em>trill</em></a></p>
 <p><strong>s</strong> - винаги като беззвучно [s]; никога [z] както в <em>visit</em> (посещение)</p>
 <p>В английския език <em>s</em> е склонно да се произнася като [z] между гласни или в края на думата. В глобаса
 	<em>s</em> винаги остава беззвучно.</p>
@@ -345,13 +368,17 @@
 <p><strong>z</strong> - винаги като единична звучна съскаща съгласна; никога [ts] както в <em>pizza</em> (пица)</p>
 <h3>Други варианти на съгласни</h3>
 <p>В зависимост от родния език на говорещия са допустими и други варианти на съгласни. Например, някои испаноговорящи
-	може да са склонни да произнасят <em>h</em> като <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/uvular.mp3">[χ]</a>, а не
-	като <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">[x]</a>. Френскоговорящите може да са склонни да произнасят
-	<em>r</em> като <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_uvular_fricative.ogg">[ʁ]</a>, а не като <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">[ɾ]</a>. Говорещите мандарин може да са склонни да произнасят
-	<em>x</em> като <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_alveolo-palatal_sibilant.ogg">[ʂ]</a> или <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_retroflex_sibilant.ogg">[ɕ]</a>, а не като <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/x.mp3">[ʃ]</a>. Тези и други подобни варианти също са допустими.</p>
+	може да са склонни да произнасят <em>h</em> като <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/uvular.mp3">[χ]</a>, а не като <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">[x]</a>. Френскоговорящите може да са склонни
+	да произнасят <em>r</em> като <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_uvular_fricative.ogg">[ʁ]</a>, а не като <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">[ɾ]</a>. Говорещите мандарин може да са
+	склонни да произнасят <em>x</em> като <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_alveolo-palatal_sibilant.ogg">[ʂ]</a> или
+	<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_retroflex_sibilant.ogg">[ɕ]</a>, а не като
+	<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/x.mp3">[ʃ]</a>. Тези и други подобни варианти също са
+	допустими.</p>
 <p>Следващата таблица изброява всички свободни варианти на алофони на съгласни. Първият алофон, посочен за всяка фонема,
 	е идеалното произношение на глобаса. Десетки други алофони с допълнително разпределение (алофони, които зависят от
 	фонетичната среда) вероятно ще се чуят сред много говорещи, но всеки трябва да се стреми да не се отклонява твърде
@@ -382,7 +409,8 @@
 		<tr>
 			<td><strong>f</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/f.mp3">f</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_bilabial_fricative.ogg">ɸ</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_bilabial_fricative.ogg">ɸ</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>g</strong></td>
@@ -392,26 +420,31 @@
 			<td><strong>h</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/h.mp3">x</a> ~ <a
 					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/uvular.mp3">χ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_pharyngeal_fricative.ogg">ħ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_glottal_fricative.ogg">h</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_pharyngeal_fricative.ogg">ħ</a>
+				~ <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_glottal_fricative.ogg">h</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>j</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/j.mp3">d͡ʒ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palato-alveolar_sibilant.ogg">ʒ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_alveolo-palatal_affricate.ogg">d͡ʑ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palatal_affricate.ogg">ɟ͡ʝ</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palato-alveolar_sibilant.ogg">ʒ</a>
+				~ <a
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_alveolo-palatal_affricate.ogg">d͡ʑ</a>
+				~ <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palatal_affricate.ogg">ɟ͡ʝ</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>k</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/k_aspirated.mp3">kʰ</a> ~ <a
 					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/k_unaspirated.mp3">k</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_uvular_plosive.ogg">q</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_uvular_plosive.ogg">q</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>l</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/l.mp3">l</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Velarized_alveolar_lateral_approximant.ogg">ɫ</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Velarized_alveolar_lateral_approximant.ogg">ɫ</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>m</strong></td>
@@ -431,8 +464,8 @@
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/r.mp3">ɾ</a> ~ <a
 					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Alveolar_trill.ogg">r</a> ~ <a
 					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Alveolar_approximant.ogg">ɹ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Postalveolar_approximant.ogg">ɹ̠</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Retroflex_Approximant2.mp3">ɻ</a> ~ <a
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Postalveolar_approximant.ogg">ɹ̠</a> ~
+				<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Retroflex_Approximant2.mp3">ɻ</a> ~ <a
 					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_uvular_fricative.ogg">ʁ</a>]</td>
 		</tr>
 		<tr>
@@ -457,13 +490,16 @@
 		<tr>
 			<td><strong>x</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/x.mp3">ʃ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_retroflex_sibilant.ogg">ʂ</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_alveolo-palatal_sibilant.ogg">ɕ</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_retroflex_sibilant.ogg">ʂ</a>
+				~ <a
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiceless_alveolo-palatal_sibilant.ogg">ɕ</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>y</strong></td>
 			<td>[<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/y.mp3">j</a> ~ <a
-					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palatal_fricative.ogg">ʝ</a>]</td>
+					href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/Voiced_palatal_fricative.ogg">ʝ</a>]
+			</td>
 		</tr>
 		<tr>
 			<td><strong>z</strong></td>
@@ -488,31 +524,36 @@
 			<td><strong>a</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/a.ogg">/ä/</a></td>
 			<td>както <em>a</em> в <em>car</em> (кола)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/basa.mp3"><strong>basa</strong></a> език</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/basa.mp3"><strong>basa</strong></a> език
+			</td>
 		</tr>
 		<tr>
 			<td><strong>e</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/e.ogg">/e̞/</a></td>
 			<td>както в <em>let</em> (нека)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/bete.mp3"><strong>bete</strong></a> дете (дъщеря/син)</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/bete.mp3"><strong>bete</strong></a> дете
+				(дъщеря/син)</td>
 		</tr>
 		<tr>
 			<td><strong>i</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/i.ogg">/i/</a></td>
 			<td>както в <em>ski</em> (ски)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/idi.mp3"><strong>idi</strong></a> отивам</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/idi.mp3"><strong>idi</strong></a> отивам
+			</td>
 		</tr>
 		<tr>
 			<td><strong>o</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/o.ogg">/o̞/</a></td>
 			<td>както в <em>more</em> (повече)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/oko.mp3"><strong>oko</strong></a> око</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/oko.mp3"><strong>oko</strong></a> око
+			</td>
 		</tr>
 		<tr>
 			<td><strong>u</strong></td>
 			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/u.ogg">/u/</a></td>
 			<td>както в <em>flu</em> (грип)</td>
-			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/mumu.mp3"><strong>mumu</strong></a> говедо (бик/крава)</td>
+			<td><a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/mumu.mp3"><strong>mumu</strong></a>
+				говедо (бик/крава)</td>
 		</tr>
 	</tbody>
 </table>
@@ -539,8 +580,8 @@
 	допустими варианти</p>
 <p><strong>u</strong> - в идеалния случай се произнася <a
 		href="https://bg.wikipedia.org/wiki/Затворена_задна_закръглена_гласна">[u]</a>, затворена задна закръглена
-	гласна; затворената задна компресирана <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/compressed_u.mp3">[ɯᵝ]</a> е допустим
-	вариант</p>
+	гласна; затворената задна компресирана <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/compressed_u.mp3">[ɯᵝ]</a> е допустим вариант</p>
 <h3>Елизия</h3>
 <p>В определени случаи, предимно в поезията и текстовете на песни, <em>e</em> в началото на думата (когато е последвано
 	от <em>-s-</em> и друга съгласна) може да се произнася без звук и да се заменя с апостроф.</p>
@@ -590,16 +631,19 @@
 <h3>Епентеза на съгласни</h3>
 <p>Макар и да не е идеално и е малко вероятно да се използва от англоговорящите в повечето случаи, може по желание да се
 	вмъкне неписан гърлен преграден звук между две гласни, независимо дали в рамките на думата, или между думи.</p>
-<p><strong>poema</strong> (стихотворение), произнася се <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/poema.mp3">[po'ema]</a>
-	или <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/po_ema.mp3">[poʔ'ema]</a></p>
+<p><strong>poema</strong> (стихотворение), произнася се <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/poema.mp3">[po'ema]</a> или <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/po_ema.mp3">[poʔ'ema]</a></p>
 <h3>Епентеза на гласни</h3>
 <p>Макар и да не е идеално и е малко вероятно да се използва от англоговорящите в повечето случаи, може по желание да се
 	вмъкне всяка незакръглена средна гласна, като например [ə], между две съгласни или в края на думата. Като средна
 	гласна, кардиналната [ä] също е разрешена като неписана епентеза, макар че това е най-малко препоръчителният
 	вариант, тъй като е по-вероятно да намали разбираемостта.</p>
-<p><strong>magneto</strong> (магнит), произнася се <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/magneto.mp3">[mag'neto]</a> или
-	<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/mag_neto.mp3">[magə'neto]</a></p>
-<p><strong>asif</strong> (съжалявам), произнася се <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/asif.mp3">[a'sif]</a> или <a
+<p><strong>magneto</strong> (магнит), произнася се <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/magneto.mp3">[mag'neto]</a> или <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/mag_neto.mp3">[magə'neto]</a></p>
+<p><strong>asif</strong> (съжалявам), произнася се <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/asif.mp3">[a'sif]</a> или <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/asif_.mp3">[a'sifə]</a></p>
 <h2>Двойни гласни и съгласни</h2>
 <p>Двойните гласни и съгласни, независимо дали в рамките на думите в резултат на деривация, или между думи, обикновено
@@ -614,10 +658,12 @@
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/semiisula.mp3">[semi:'sula]</a> или <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/semi_isula.mp3">[semiʔi'sula]</a></p>
 <h3>Двойни съгласни</h3>
-<p><strong>possahay</strong> (преча), произнася се <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/possahay.mp3">[pos:a'xaj]</a>
-	или <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pos_sahay.mp3">[posəsa'xaj]</a></p>
-<p><strong>aselli</strong> (оригинален), произнася се <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/aselli.mp3">[a'sel:i]</a>
-	или <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/asel_li.mp3">[a'seləli]</a></p>
+<p><strong>possahay</strong> (преча), произнася се <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/possahay.mp3">[pos:a'xaj]</a> или <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pos_sahay.mp3">[posəsa'xaj]</a></p>
+<p><strong>aselli</strong> (оригинален), произнася се <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/aselli.mp3">[a'sel:i]</a> или <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/asel_li.mp3">[a'seləli]</a></p>
 <h3>Двойно r</h3>
 <p>Макар че <em>r</em> не може да се удължава по същия начин, както другите съгласни, двойно <em>r</em> може да се
 	удължи като трел или алтернативно да се произнася като единично <em>r</em>. Тъй като трелът е вариант на единично
@@ -625,8 +671,9 @@
 	произнасят и двете като <em>flap/tap</em>, а трети ще разграничават единично <em>r</em> като <em>flap/tap</em>, а
 	двойно <em>r</em> като трел. Както беше посочено по-горе за всякакви две последователни съгласни, трети вариант в
 	този случай е да се добави епентетична гласна между два <em>flap/tap</em> звука.</p>
-<p><strong>burroya</strong> (кошмар), произнася се <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/burroya.mp3">[bu'roja]</a> или
-	<a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/burroya_single_r.mp3">[bu'ɾoja]</a> или <a
+<p><strong>burroya</strong> (кошмар), произнася се <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/burroya.mp3">[bu'roja]</a> или <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/burroya_single_r.mp3">[bu'ɾoja]</a> или <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/bur_roya.mp3">[buɾə'ɾoja]</a></p>
 <h2>W и Y</h2>
 <p><strong>Забележка:</strong> Като изучаващ глобаса, можете да пропуснете следващата част, която е просто дискусия за
@@ -638,7 +685,8 @@
 <p><strong><em>Maria</em></strong>, произнася се <em>ma-r<u><strong>i</strong></u>-a</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maria.mp3">[ma.'ɾi.a]</a><br>
 	<strong><em>Maryo</em></strong>, произнася се <em>m<u><strong>a</strong></u>-ryo</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maryo.mp3">['ma.ɾjo]</a> или <em>m<u><strong>a</strong></u>-ri-o</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maryo.mp3">['ma.ɾjo]</a> или
+	<em>m<u><strong>a</strong></u>-ri-o</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ma.ri.o.mp3">['ma.ɾi.o]</a>
 </p>
 <p>Изписването на <strong>Maryo</strong> с <em>y</em>, а не с <em>i</em>, позволява ударението да се измести върху
@@ -657,8 +705,9 @@
 	независими, неударени гласни.</p>
 <p><strong>Ewropa</strong> (Европа), произнася се <em>ew-r<u><strong>o</strong></u>-pa</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ewropa.mp3">[ew.'ɾo.pa]/[eu̯.'ɾo.pa]</a> или дори
-	<em>e-u-r<u><strong>o</strong></u>-pa</em> <a href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/e.u.ro.pa.mp3">[e.u.'ɾo.pa]</a></p>
-<h3>Правописна конвенция <a id="regula_fe_harufiya"></a></h3>
+	<em>e-u-r<u><strong>o</strong></u>-pa</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/e.u.ro.pa.mp3">[e.u.'ɾo.pa]</a></p>
+<h3>Правописна конвенция <span id="regula_fe_harufiya"></span></h3>
 <p>Следната правописна конвенция се прилага само за коренови думи, а не за производни думи. До други гласни, глобаса
 	използва <em>i</em> и <em>u</em> само ако са ударени или ако <em>y</em> и <em>w</em> не са разрешени от
 	фонотактичните правила. Във всички останали случаи глобаса използва <em>y</em> и <em>w</em> вместо <em>i</em> и
@@ -678,16 +727,20 @@
 <p>В следните коренови думи конвенционално се използват <em>y</em> и <em>w</em>, които могат по желание да се произнасят
 	като гласни:</p>
 <p><strong>pyano</strong> (пиано), произнася се <em>py<u><strong>a</strong></u>-no</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pyano.mp3">['pja.no]</a> или <em>pi-<u><strong>a</strong></u>-no</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pyano.mp3">['pja.no]</a> или
+	<em>pi-<u><strong>a</strong></u>-no</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/pi.a.no.mp3">[pi.'a.no]</a><br>
 	<strong>cyan</strong> (циан), произнася се <em>cy<u><strong>a</strong></u>n</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/cyan.mp3">[t͡ʃjan]</a> или <em>ci-<u><strong>a</strong></u>n</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/cyan.mp3">[t͡ʃjan]</a> или
+	<em>ci-<u><strong>a</strong></u>n</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ci.an.mp3">[t͡ʃi.'an]</a><br>
 	<strong>swini</strong> (свиня), произнася се <em>sw<u><strong>i</strong></u>-ni</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/swini.mp3">['swi.ni]</a> или <em>su-<u><strong>i</strong></u>-ni</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/swini.mp3">['swi.ni]</a> или
+	<em>su-<u><strong>i</strong></u>-ni</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/su.i.ni.mp3">[su.'i.ni]</a><br>
 	<strong>trawma</strong> (травма), произнася се <em>tr<u><strong>a</strong></u>w-ma</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/trawma.mp3">['traw.ma]</a> или <em>tr<u><strong>a</strong></u>-u-ma</em> <a
+		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/trawma.mp3">['traw.ma]</a> или
+	<em>tr<u><strong>a</strong></u>-u-ma</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/tra.u.ma.mp3">['tra.u.ma]</a>
 </p>
 <h2>Фонотактика за обикновени думи</h2>

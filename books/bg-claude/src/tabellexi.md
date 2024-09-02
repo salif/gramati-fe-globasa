@@ -199,8 +199,7 @@
 	<em>местоимение</em>. Те никога не трябва да стоят сами, защото чрез пропускането на <em>(место)името</em>
 	съотносителната дума може лесно да бъде сбъркана като определител на съществителното/глагола, който следва. При
 	липса на конкретно съществително, местоименията <strong>te</strong> или <strong>to</strong> маркират края на
-	именната фраза. Вижте <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Именни
-		фрази</a>.</p>
+	именната фраза. Вижте <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Именни фрази</a>.</p>
 <p>Сравнете следните изречения:</p>
 <p><strong>Hinto bon nasacu.</strong><br> Това (нещо) мирише хубаво.</p>
 <p>В горното изречение <strong>-to</strong> маркира края на именната фраза.</p>
@@ -345,7 +344,7 @@
 <p><strong><em>Daydenpul</em> din!</strong><br>
 	<em>Какъв</em> ден!
 </p>
-<h2>daydenmo <a id="daydenmmo"></a></h2>
+<h2>daydenmo <span id="daydenmmo"></span></h2>
 <p>Думата <strong>daydenmo</strong> е производна дума, съставена от <strong>day-</strong> (<em>увеличителна
 		представка</em>) и съотносителната дума <strong>denmo</strong>. Това е наречие за степен, означаващо
 	<em>толкова</em>, когато е последвано от прилагателно/наречие, или <em>такъв</em>, когато е последвано от

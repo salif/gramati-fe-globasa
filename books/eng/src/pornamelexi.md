@@ -57,7 +57,7 @@
 <p><strong>seli mi</strong> - I myself<br />
 	<strong>seli yu</strong> - you yourself<br /> etc.
 </p>
-<h2>Possessive Adjectives <a id="suyali_sifalexi"></a></h2>
+<h2>Possessive Adjectives <span id="suyali_sifalexi"></span></h2>
 <p>The possessive adjectives are derived from the pronouns by adding the suffix <strong>-su</strong>:</p>
 <table style="width:100%">
 	<tbody>

@@ -343,7 +343,7 @@
 		aumentativo</em>) y el correlativo <strong>denpul</strong>. Se traduce como <em>qué</em> seguido de un
 	sustantivo en exclamaciones como las siguientes:</p>
 <p><strong><em>Daydenpul</em> din!</strong><br /> _¡Qué día!</p>
-<h2>daydenmo <a id="daydenmmo"></a></h2>
+<h2>daydenmo <span id="daydenmmo"></span></h2>
 <p>La palabra <strong>daydenmo</strong> es una palabra derivada compuesta por <strong>day-</strong> (<em>prefijo
 		aumentativo</em>) y el correlativo <strong>denmo</strong>. Es un adverbio de grado que significa <em>tan</em>, y
 	es seguido de un adjetivo/adverbio, o de un sustantivo modificado.</p>

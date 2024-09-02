@@ -2,7 +2,7 @@
 <p></p>
 <h2>Katı Kelime Sırası</h2>
 <p>Globasa'da, öbekler içinde nispeten katı bir kelime sırası uygulanır.</p>
-<h2>İsim Tamlamaları <a id="namelexili_jumlemon"></a></h2>
+<h2>İsim Tamlamaları <span id="namelexili_jumlemon"></span></h2>
 <p>İsim tamlamaları, aşağıdaki tabloda gösterildiği gibi şu yapıdan oluşur:</p>
 <p>(Belirteç) + (Tümleç) + Baş</p>
 <table style="width:100%">
@@ -71,7 +71,7 @@
 </table>
 <p>Belirteçler ve tümleçler isteğe bağlı olduğundan, bir isim tamlaması tek bir isimden oluşabilir, örneğin,
 	<strong>kitabu</strong>.</p>
-<h3>İsim Tamlamalarının Sonunda Üçüncü Tekil Şahıs Zamirleri <a id="pornamelexi_in_namelexili_jumlemon"></a></h3>
+<h3>İsim Tamlamalarının Sonunda Üçüncü Tekil Şahıs Zamirleri <span id="pornamelexi_in_namelexili_jumlemon"></span></h3>
 <p>İsim tamlamaları her zaman bir isim veya zamirle bitmelidir. Bir isim anlaşıldığında ve çıkarıldığında, bir belirteç
 	veya tümleci eksik bırakmak yerine, onun yerine bir zamir kullanılmalıdır. İsim tamlamalarını tamamlamak için
 	zamirlerin kullanılmaması, bu tür tamlamaların farklı anlamlara sahip olmasına veya eksik ve dolayısıyla dilbilgisi
@@ -241,7 +241,7 @@
 <p><strong>alimyen hox kos yusu sukses</strong><br /> başarınız için mutlu olan öğretmen</p>
 <p><strong>Karşılaştırmalı Sıfat/Zarf Tamlamaları</strong></p>
 <p><strong>nini maxmo lao kom misu sodar</strong><br /> kardeşimden büyük çocuk</p>
-<h2>İlgi Cümlecikleri <a id="relativo_baxjumle"></a></h2>
+<h2>İlgi Cümlecikleri <span id="relativo_baxjumle"></span></h2>
 <p>Globasa'da, ilgi cümlecikleri <em>niteleyici cümlecik belirteci</em> <strong>hu</strong> ile başlar ve tipik kelime
 	sırasını korur. <strong>hu</strong> bağlacının İngilizce'de tam bir karşılığı olmadığını, ancak genellikle
 	<em>who</em>, <em>which</em> veya <em>that</em> olarak çevrildiğini belirtmekte fayda var. </p>

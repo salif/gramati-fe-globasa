@@ -708,7 +708,7 @@
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ewropa.mp3">[ew.'ɾo.pa]/[eu̯.'ɾo.pa]</a> или дори
 	<em>e-u-r<u><strong>o</strong></u>-pa</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/e.u.ro.pa.mp3">[e.u.'ɾo.pa]</a></p>
-<h3>Правописна конвенция <a id="regula_fe_harufiya"></a></h3>
+<h3>Правописна конвенция <span id="regula_fe_harufiya"></span></h3>
 <p>Следната правописна конвенция се прилага само за коренни думи, а не за производни думи. До други гласни, глобаса
 	използва <em>i</em> и <em>u</em> само ако те са ударени или ако <em>y</em> и <em>w</em> не са разрешени от
 	фонотактичните правила. Във всички други случаи глобаса използва <em>y</em> и <em>w</em> вместо <em>i</em> и

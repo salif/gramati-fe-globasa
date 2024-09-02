@@ -120,7 +120,7 @@
 <p><strong>Filme sen kewatu?</strong><br /> ¿Cuándo es la película?</p>
 <p>En el lenguaje informal, la cópula puede omitirse al vincular sintagmas adjetivos.</p>
 <p><strong>Uma (sen) perfetomo syahe.</strong><br /> El caballo es perfectamente negro.</p>
-<h2>Sintagmas verbales en infinitivo <a id="nafalelexili_jumlemon"></a></h2>
+<h2>Sintagmas verbales en infinitivo <span id="nafalelexili_jumlemon"></span></h2>
 <p>Los sintagmas verbales en infinitivo van marcados con la partícula <strong>na</strong> seguida del verbo. Éstas se
 	utilizan en las siguientes estructuras de oraciones.</p>
 <h3>Complementos de sustantivo y verbo</h3>
@@ -166,7 +166,7 @@
 <p><strong>fe tayti fe na danse</strong> - en lugar de bailar</p>
 <p><strong>Te le sokutu dur na danse.</strong><br /> Se cayó mientras bailaba. </p>
 <p><strong>Fe na doxo, nini le xorsomno.</strong><br /> Leyendo/Al leer, el niño se quedó dormido. </p>
-<h2>Sintagmas preposicionales <a id="plasilexili_jumlemon"></a></h2>
+<h2>Sintagmas preposicionales <span id="plasilexili_jumlemon"></span></h2>
 <p>Globasa, como la mayoría de los lenguajes SVO, utiliza preposiciones en lugar de <a
 		href="https://es.wikipedia.org/wiki/Adposición">postposiciones</a>. Las frases preposicionales siempre siguen
 	inmediatamente a las frases nominales que modifican.</p>
@@ -214,7 +214,7 @@
 	<em>Arriba</em>, las casas son caras.
 </p>
 <p><strong>Kimapul baytu sen <em>fe kapi</em>.</strong><br /> Las casas caras están <em>arriba</em>.</p>
-<h2>Verbos preposicionales <a id="plasilexili_falelexi"></a></h2>
+<h2>Verbos preposicionales <span id="plasilexili_falelexi"></span></h2>
 <p>En Globasa, las preposiciones se pueden convertir en verbos mediante el sufijo <strong>-ya</strong> como alternativa
 	a vincular sintagmas preposicionales con sujetos mediante el uso de la cópula, como se explicó anteriormente. </p>
 <table style="width:100%">
@@ -325,7 +325,7 @@
 <p>(2) <strong>Kam yu sen yamkal?</strong><br /> ¿Tienes hambre?</p>
 <p>(1) <strong>Yu yam mahimaso.</strong><br /> Comes pescado.</p>
 <p>(2) <strong>Kam yu yam mahimaso?</strong><br /> ¿Comes pescado?</p>
-<h3>Preguntas <em>qu-</em> <a id="swal_yon_ke-"></a></h3>
+<h3>Preguntas <em>qu-</em> <span id="swal_yon_ke-"></span></h3>
 <p>Del mismo modo, las preguntas qu- conservan el orden típico de las palabras. El siguiente par de ejemplos de
 	oraciones lo ilustra con (1) una pregunta cuyo orden de palabras refleja el mismo orden de palabras de (2) una
 	posible respuesta.</p>

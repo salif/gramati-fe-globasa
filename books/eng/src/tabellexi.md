@@ -347,7 +347,7 @@
 <p><strong><em>Daydenpul</em> din!</strong><br />
 	<em>What</em> a day!
 </p>
-<h2>daydenmo <a id="daydenmmo"></a></h2>
+<h2>daydenmo <span id="daydenmmo"></span></h2>
 <p>The word <strong>daydenmo</strong> is an derived word composed of <strong>day-</strong> (<em>augmentative
 		prefix</em>) and the correlative <strong>denmo</strong>. It is an adverb of degree meaning <em>so</em>, when
 	followed by an adjective/adverb, or <em>such</em>, when followed by a modified noun. </p>

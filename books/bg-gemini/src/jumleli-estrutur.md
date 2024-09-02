@@ -117,7 +117,7 @@
 <p><strong>Filme sen kewatu?</strong><br> Кога е филмът?</p>
 <p>В неформалния език спомагателният глагол може да бъде пропуснат, когато се свързват прилагателни фрази.</p>
 <p><strong>Uma (sen) perfetomo syahe.</strong><br> Конят е идеално черен. </p>
-<h2>Инфинитивни глаголни фрази <a id="nafalelexili_jumlemon"></a></h2>
+<h2>Инфинитивни глаголни фрази <span id="nafalelexili_jumlemon"></span></h2>
 <p>Инфинитивните глаголни фрази се маркират с частицата <strong>na</strong>, последвана от глагола. Те се използват в
 	следните структури на изреченията.</p>
 <h3>Допълнения към съществително/глагол</h3>
@@ -163,7 +163,7 @@
 <p><strong>fe tayti fe na danse</strong> - Вместо да танцува</p>
 <p><strong>Te le sokutu dur na danse.</strong><br> Той падна, докато танцуваше.</p>
 <p><strong>Fe na doxo, nini le xorsomno.</strong><br> Докато четеше, момчето заспа.</p>
-<h2>Предложни фрази <a id="plasilexili_jumlemon"></a></h2>
+<h2>Предложни фрази <span id="plasilexili_jumlemon"></span></h2>
 <p>Глобаса, подобно на повечето SVO езици, използва предлози, а не <a
 		href="https://en.wikipedia.org/wiki/Preposition_and_postposition">следлози</a>. Предложните фрази винаги следват
 	непосредствено именните фрази, които поясняват.</p>
@@ -208,7 +208,7 @@
 	<em>На върха</em>, къщите са скъпи.
 </p>
 <p><strong>Kimapul baytu sen <em>fe kapi</em>.</strong><br> Скъпите къщи са <em>на върха</em>.</p>
-<h2>Предложни глаголи <a id="plasilexili_falelexi"></a></h2>
+<h2>Предложни глаголи <span id="plasilexili_falelexi"></span></h2>
 <p>В глобаса предлозите могат да се превърнат в глаголи, като се използва наставката <strong>-ya</strong> като
 	алтернатива на свързването на предложни фрази с подлози, използвайки спомагателния глагол, както е показано по-горе.
 </p>
@@ -318,7 +318,7 @@
 <p>(2) <strong>Kam yu sen yamkal?</strong><br> Гладен ли си?</p>
 <p>(1) <strong>Yu yam mahimaso.</strong><br> Ядеш риба.</p>
 <p>(2) <strong>Kam yu yam mahimaso?</strong><br> Ядеш ли риба?</p>
-<h3>Въпроси с въпросителна дума <a id="swal_yon_ke-"></a></h3>
+<h3>Въпроси с въпросителна дума <span id="swal_yon_ke-"></span></h3>
 <p>По подобен начин въпросите с въпросителна дума запазват типичния словоред. Това е илюстрирано в следващата двойка
 	примерни изречения с (1) въпрос, чийто словоред е огледален на този на (2) възможен отговор.<br> (1) <strong>Yusu
 		name sen keto?</strong><br> "Твоето име е какво?"<br> Как се казваш?</p>

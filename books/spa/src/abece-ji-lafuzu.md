@@ -697,7 +697,7 @@
 		href="https://xwexi.globasa.net/spa/gramati/abece-ji-lafuzu/ewropa.mp3">[ew.'ɾo.pa]/[eu̯.'ɾo.pa]</a> o incluso
 	<em>e-u-r<u><strong>o</strong></u>-pa</em> <a
 		href="https://xwexi.globasa.net/spa/gramati/abece-ji-lafuzu/e.u.ro.pa.mp3">[e.u.'ɾo.pa]</a></p>
-<h3>Convención ortográfica <a id="regula_fe_harufiya"></a></h3>
+<h3>Convención ortográfica <span id="regula_fe_harufiya"></span></h3>
 <p>La siguiente convención ortográfica se aplica sólo a lexemas y no a las palabras derivadas. Junto a otras vocales,
 	Globasa usa <em>i</em> y <em>u</em> sólo si son vocales tónicas o si <em>y</em> y <em>w</em> no están permitidas
 	según las reglas fonotácticas. En todos los demás casos, Globasa usa <em>y</em> y <em>w</em> en lugar de <em>i</em>

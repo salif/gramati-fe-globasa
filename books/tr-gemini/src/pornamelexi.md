@@ -56,7 +56,7 @@
 <p><strong>seli mi</strong> - bizzat ben<br />
 	<strong>seli yu</strong> - bizzat sen<br /> vb.
 </p>
-<h2>İyelik Sıfatları <a id="suyali_sifalexi"></a></h2>
+<h2>İyelik Sıfatları <span id="suyali_sifalexi"></span></h2>
 <p>İyelik sıfatları, zamirlere <strong>-su</strong> soneki eklenerek türetilir:</p>
 <table style="width:100%">
 	<tbody>

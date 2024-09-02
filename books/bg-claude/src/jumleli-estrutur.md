@@ -116,7 +116,7 @@
 <p><strong>Filme sen kewatu?</strong><br>Кога е филмът?</p>
 <p>В неформалния език копулата може да бъде пропусната при свързване на прилагателни фрази.</p>
 <p><strong>Uma (sen) perfetomo syahe.</strong><br>Конят е перфектно черен.</p>
-<h2>Инфинитивни глаголни фрази <a id="nafalelexili_jumlemon"></a></h2>
+<h2>Инфинитивни глаголни фрази <span id="nafalelexili_jumlemon"></span></h2>
 <p>Инфинитивните глаголни фрази се маркират с частицата <strong>na</strong>, последвана от глагола. Те се използват в
 	следните структури на изречението.</p>
 <h3>Допълнения към съществителни/глаголи</h3>
@@ -164,7 +164,7 @@
 <p><strong>fe tayti fe na danse</strong> - Вместо да танцувам</p>
 <p><strong>Te le sokutu dur na danse.</strong><br>Той/тя падна докато танцуваше.</p>
 <p><strong>Fe na doxo, nini le xorsomno.</strong><br>Четейки, момчето заспа.</p>
-<h2>Предложни фрази <a id="plasilexili_jumlemon"></a></h2>
+<h2>Предложни фрази <span id="plasilexili_jumlemon"></span></h2>
 <p>Глобаса, подобно на повечето езици със структура СПО, използва предлози вместо <a
 		href="https://en.wikipedia.org/wiki/Preposition_and_postposition">следлози</a>. Предложните фрази винаги следват
 	непосредствено съществителните фрази, които модифицират.</p>
@@ -203,7 +203,7 @@
 <p><strong>Baytu <em>fe kapi</em> sen kimapul.</strong><br>Къщите <em>на върха</em> са скъпи.</p>
 <p><strong><em>Fe kapi</em>, baytu sen kimapul.</strong><br><em>На върха</em>, къщите са скъпи.</p>
 <p><strong>Kimapul baytu sen <em>fe kapi</em>.</strong><br>Скъпите къщи са <em>на върха</em>.</p>
-<h2>Предложни глаголи <a id="plasilexili_falelexi"></a></h2>
+<h2>Предложни глаголи <span id="plasilexili_falelexi"></span></h2>
 <p>В глобаса предлозите могат да се превърнат в глаголи, използвайки наставката <strong>-ya</strong>, като алтернатива
 	на свързването на предложни фрази със субекти, използвайки копулата, както беше показано по-горе. </p>
 <table style="width:100%">
@@ -315,7 +315,7 @@
 <p>(2) <strong>Kam yu sen yamkal?</strong><br>Гладен ли си?</p>
 <p>(1) <strong>Yu yam mahimaso.</strong><br>Ти ядеш риба.</p>
 <p>(2) <strong>Kam yu yam mahimaso?</strong><br>Ядеш ли риба?</p>
-<h3>Въпросителни думи <a id="swal_yon_ke-"></a></h3>
+<h3>Въпросителни думи <span id="swal_yon_ke-"></span></h3>
 <p>По същия начин, въпросите с въпросителни думи запазват типичния словоред. Това е илюстрирано в следната двойка
 	примерни изречения с (1) въпрос, чийто словоред отразява този на (2) възможен отговор.<br> (1) <strong>Yusu name sen
 		keto?</strong><br>"Твоето име е какво?"<br>Как се казваш?</p>

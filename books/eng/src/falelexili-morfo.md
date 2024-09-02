@@ -302,7 +302,7 @@
 </table>
 <p>The subordinate clause (if...) uses the dictionary form of the verb.</p>
 <p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> I would eat the apple if I were hungry.</p>
-<h2>Passive Voice <a id="be-"></a></h2>
+<h2>Passive Voice <span id="be-"></span></h2>
 <p>The passive voice is expressed using the prefix <strong>be-</strong>.</p>
 <p><em>Etymology of <strong>be-</strong>: Mandarin (被 “bèi”), English (be), Norwegian (ble)</em></p>
 <table>

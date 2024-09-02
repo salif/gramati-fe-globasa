@@ -3,7 +3,7 @@
 </p>
 <h2>Orden estricto de palabras</h2>
 <p>En Globasa, se aplica un orden de palabras relativamente estricto para los sintagmas.</p>
-<h2>Sintagmas nominales <a id="namelexili_jumlemon"></a></h2>
+<h2>Sintagmas nominales <span id="namelexili_jumlemon"></span></h2>
 <p>Los sintagmas nominales constan de la siguiente estructura, como se ilustra en la siguiente tabla:</p>
 <p>(Especificador) + (Complemento) + Cabeza</p>
 <table style="width:100%">
@@ -72,7 +72,8 @@
 </table>
 <p>Dado que los especificadores y los complementos son opcionales, un sintagma nominal puede constar de un solo
 	sustantivo, por ejemplo, <strong>kitabu</strong>.</p>
-<h3>Pronombres en tercera persona al final de frases nominales <a id="pornamelexi_in_namelexili_jumlemon"></a></h3>
+<h3>Pronombres en tercera persona al final de frases nominales <span id="pornamelexi_in_namelexili_jumlemon"></span>
+</h3>
 <p>Las frases nominales siempre deben terminar en un sustantivo o en un pronombre. Cada vez que se omite un sustantivo
 	implícito, un pronombre debe reemplazarlo, en lugar de dejar un especificador o un complemento colgando. Sin el uso
 	de pronombres para completar frases nominales, dichas frases tendrían significados diferentes o crearían oraciones
@@ -251,7 +252,7 @@
 <p><strong>alimyen hox kos&nbsp;yusu sukses</strong><br /> el maestro feliz por tu exito</p>
 <p><strong>Frases comparativas con adj/advs</strong> </p>
 <p><strong>nini maxmo&nbsp;lao kom misu sodar</strong><br /> el niño mayor que mi hermano </p>
-<h2>Cláusulas relativas <a id="relativo_baxjumle"></a></h2>
+<h2>Cláusulas relativas <span id="relativo_baxjumle"></span></h2>
 <p>En Globasa, las cláusulas relativas se introducen con el <em>marcador de cláusula modificadora</em>
 	<strong>hu</strong> y conservan el orden típico de las palabras. Vale la pena señalar que la conjunción
 	<strong>hu</strong> no tiene un equivalente exacto en español, pero normalmente se traduce como <em>que</em>,

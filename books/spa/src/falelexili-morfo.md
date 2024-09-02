@@ -307,7 +307,7 @@
 </table>
 <p>La cláusula subordinada (si...) se expresa con la forma lexicográfica del verbo.</p>
 <p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> Yo comería la manzana si tuviera hambre.</p>
-<h2>Voz pasiva <a id="be-"></a></h2>
+<h2>Voz pasiva <span id="be-"></span></h2>
 <p>La voz pasiva se expresa con el prefijo <strong>be-</strong>.</p>
 <p><em>Etimología de <strong>be-</strong>: mandarín (被 “bèi”), inglés (be), noruego (ble)</em></p>
 <table>

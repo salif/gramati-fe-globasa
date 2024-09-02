@@ -190,7 +190,7 @@
 <p><strong>Folki mi max doxo, mi max jixi.</strong><br /> Cuanto/Entre más leo, más sé.</p>
 <p>El orden de estas frases puede cambiar de lugar:</p>
 <p><strong>Mi max jixi, folki mi max doxo.</strong><br /> Sé más, cuanto/entre más leo.</p>
-<h3>Categorías de verbos <a id="falelexili_klase"></a></h3>
+<h3>Categorías de verbos <span id="falelexili_klase"></span></h3>
 <p>Los verbos se definen en el diccionario como <em>auxiliares</em>, <em>copulativos</em>, <em>transitivos</em>,
 	<em>intransitivos</em> o <em>ambitransitivos</em>.</p>
 <h4>Verbos auxiliares</h4>
@@ -392,7 +392,7 @@
 	<li><strong>ingay</strong>: (verbo) debería; (adj/adv) que debería</li>
 </ul>
 <h2>Afijos comunes</h2>
-<h3>Sufijo nominal -ya <a id="xafefikso_-ya"></a></h3>
+<h3>Sufijo nominal -ya <span id="xafefikso_-ya"></span></h3>
 <p>El sufijo <strong>-ya</strong> tiene una variedad de funciones útiles y es equivalente al sufijo <em>-dad</em> en
 	español.</p>
 <ol>
@@ -505,7 +505,7 @@
 	</li>
 </ol>
 <p><em>Etimología de <strong>-ya</strong>: hindi (सत्य "satya" - verdad), español (alegría)</em></p>
-<h3>Prefijo du- <a id="lefefikso_du-"></a></h3>
+<h3>Prefijo du- <span id="lefefikso_du-"></span></h3>
 <p>Globasa usa el prefijo <strong>du-</strong> para expresar <em>la acción del verbo</em>. </p>
 <ul>
 	<li><strong>dudanse</strong> - la acción de bailar, la bailada</li>
@@ -515,7 +515,7 @@
 		href="./falelexili-morfo.html">Formas verbales</a>.</p>
 <p><em>El prefijo <strong>du-</strong> se trunca de <strong>dure</strong> (duración).<br /> Etimología de
 		<strong>dure</strong>: inglés, francés, alemán y español</em></p>
-<h3>Sufijo nominal/verbal -gi <a id="xafefikso_-gi"></a></h3>
+<h3>Sufijo nominal/verbal -gi <span id="xafefikso_-gi"></span></h3>
 <p>El sufijo <strong>-gi</strong> puede aplicarse a adjetivos, verbos y sustantivos.</p>
 <h4>Adjetivos</h4>
 <p>El sufijo <strong>-gi</strong> convierte los adjetivos en verbos transitivos.</p>
@@ -569,7 +569,7 @@
 </ul>
 <p><em>El sufijo <strong>-gi</strong> se trunca de <strong>gibe</strong> (dar).<br /> Etimología de
 		<strong>gibe</strong>: inglés (give), alemán (geben, gibt) y mandarín (给 “gěi”)</em></p>
-<h3>Sufijo nominal/verbal -cu <a id="xafefikso_-cu"></a></h3>
+<h3>Sufijo nominal/verbal -cu <span id="xafefikso_-cu"></span></h3>
 <p>El sufijo <strong>-cu</strong> se puede aplicar a adjetivos, verbos y sustantivos.</p>
 <h4>Adjetivos</h4>
 <p>El sufijo <strong>-cu</strong> (volverse, convertirse, ponerse) convierte adjetivos en verbos intransitivos.</p>
@@ -617,7 +617,7 @@
 </ul>
 <p><em>El sufijo <strong>-cu</strong> se trunca de <strong>cudu</strong> (tomar, obtener, adquirir, ganar)<br />
 		Etimología of <strong>cudu</strong>: mandarín (取得 "qǔdé"), coreano (취득 “chwideug”)</em></p>
-<h3>Sufijo de adjetivos/adverbios -li <a id="xafefikso_-li"></a></h3>
+<h3>Sufijo de adjetivos/adverbios -li <span id="xafefikso_-li"></span></h3>
 <p>En Globasa, los adjetivos/adverbios se derivan de sustantivos por medio de varios sufijos. Ver la lista completa de
 	sufijos en <a href="./lexikostrui.html">Formación de palabras</a>. Uno de los más comunes es el sufijo
 	<strong>-li</strong> (<em>de, relacionado con</em>).</p>
@@ -647,7 +647,7 @@
 		href="./gramatilexi.html">Palabras de función</a>.</p>
 <p><em>Etimología of <strong>-li</strong>: francés (-el, -elle), español (-al), inglés (-al, -ly), alemán (-lich), ruso
 		(-ельный “-elni”, -альный “-alni”), turco (-li)</em></p>
-<h3>Sufijo de adjetivos/adverbios -pul <a id="xafefikso_-pul"></a></h3>
+<h3>Sufijo de adjetivos/adverbios -pul <span id="xafefikso_-pul"></span></h3>
 <p>La palabra <strong>pul</strong> significa <em>lleno</em>. Sin embargo, como sufijo <strong>-pul</strong> significa
 	<em>con suficiente o más que suficiente</em>.</p>
 <ul>
@@ -663,7 +663,7 @@
 	</li>
 </ul>
 <p><em>Etimología de <strong>pul</strong>: inglés (full), hindi (पूर्ण “purn”), ruso (полный “poln-”)</em></p>
-<h3>Adjetivos activos: sufijo -ne <a id="xafefikso_-ne"></a></h3>
+<h3>Adjetivos activos: sufijo -ne <span id="xafefikso_-ne"></span></h3>
 <p>El sufijo <strong>-ne</strong> significa <em>en estado o proceso activo de</em> y se usa para derivar lo que se
 	conoce en Globasa como <em>adjetivos activos</em>.</p>
 <ul>
@@ -728,7 +728,7 @@
 	<li><strong>belalane melodi</strong> - melodía que se canta o se está cantando </li>
 	<li><strong>belubine doste</strong> - amigo querido o amigo que se quiere</li>
 </ul>
-<h3>Adjetivos inactivos: sufijo -do <a id="xafefikso_-do"></a></h3>
+<h3>Adjetivos inactivos: sufijo -do <span id="xafefikso_-do"></span></h3>
 <p>El sufijo <strong>-do</strong> significa <em>en estado inactivo de</em>. Las palabras con este sufijo se conocen en
 	Globasa como <em>adjetivos inactivos</em> y suelen traducirse como el <em>participio pasado</em> en español. Sin
 	embargo, a diferencia del español, los adjetivos inactivos no se utilizan para generar formas verbales
@@ -753,7 +753,7 @@
 	<li><strong>klosido dwer</strong> - puerta cerrada (<em>en estado de cierre</em>) </li>
 </ul>
 <p><em>Etimología de <strong>-do</strong>: inglés (-ed), español (-ado, -ido)</em></p>
-<h3>Sufijo de adverbios -mo <a id="xafefikso_-mo"></a></h3>
+<h3>Sufijo de adverbios -mo <span id="xafefikso_-mo"></span></h3>
 <p>Los adjetivos/adverbios que modifican a otros adjetivos/adverbios añaden el sufijo <strong>-mo</strong>. Comparar los
 	siguientes pares de frases.</p>
 <ul>

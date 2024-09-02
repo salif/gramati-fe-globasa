@@ -190,7 +190,7 @@
 <p><strong>Folki mi max doxo, mi max jixi.</strong><br /> The more I read, the more I know.</p>
 <p>The order of these phrases may switch places:</p>
 <p><strong>Mi max jixi, folki mi max doxo.</strong><br /> I know more, the more I read.</p>
-<h3>Verb Categories <a id="falelexili_klase"></a></h3>
+<h3>Verb Categories <span id="falelexili_klase"></span></h3>
 <p>Verbs are defined in the dictionary as <em>auxiliary</em>, <em>copula</em>, <em>transitive</em>,
 	<em>intransitive</em>, or <em>ambitransitive</em>.</p>
 <h4>Auxiliary Verbs</h4>
@@ -391,7 +391,7 @@
 	<li><strong>ingay</strong>: (verb) should, ought to; (adj/adv) which should, which ought to </li>
 </ul>
 <h2>Common Affixes</h2>
-<h3>Noun Suffix -ya <a id="xafefikso_-ya"></a></h3>
+<h3>Noun Suffix -ya <span id="xafefikso_-ya"></span></h3>
 <p>The suffix <strong>-ya</strong> has a variety of useful functions and is equivalent to several English suffixes:
 	<em>-ity</em>, <em>-ness</em>, <em>-dom</em>, <em>-hood</em>, <em>-ship</em>.</p>
 <ol>
@@ -505,7 +505,7 @@
 	</li>
 </ol>
 <p><em>Etymology of <strong>-ya</strong>: Hindi (सत्य "satya" - truth), Spanish (alegría - joy)</em></p>
-<h3>Prefix du- <a id="lefefikso_du-"></a></h3>
+<h3>Prefix du- <span id="lefefikso_du-"></span></h3>
 <p>Globasa uses the prefix <strong>du-</strong> to express the gerund.</p>
 <ul>
 	<li><strong>dudanse</strong> - (the act of) dancing</li>
@@ -515,7 +515,7 @@
 		href="./falelexili-morfo.html">Verb Forms</a>.</p>
 <p><em>The prefix <strong>du-</strong> is truncated from <strong>dure</strong> (duration).<br /> Etymology of
 		<strong>dure</strong>: English, French, German and Spanish</em></p>
-<h3>Noun/Verb Suffix -gi <a id="xafefikso_-gi"></a></h3>
+<h3>Noun/Verb Suffix -gi <span id="xafefikso_-gi"></span></h3>
 <p>The suffix <strong>-gi</strong> may be applied to adjectives, verbs and nouns.</p>
 <h4>Adjectives</h4>
 <p>The suffix <strong>-gi</strong> turns adjectives into transitive verbs.</p>
@@ -568,7 +568,7 @@
 </ul>
 <p><em>The suffix <strong>-gi</strong> is truncated from <strong>gibe</strong> (give).<br /> Etymology of
 		<strong>gibe</strong>: English (give), German (geben, gibt) and Mandarin (给 “gěi”)</em></p>
-<h3>Noun/Verb Suffix -cu <a id="xafefikso_-cu"></a></h3>
+<h3>Noun/Verb Suffix -cu <span id="xafefikso_-cu"></span></h3>
 <p>The suffix <strong>-cu</strong> may be applied to adjectives, verbs and nouns.</p>
 <h4>Adjectives</h4>
 <p>The suffix <strong>-cu</strong> (get/become) turns adjectives into intransitive verbs.</p>
@@ -616,7 +616,7 @@
 </ul>
 <p><em>The suffix <strong>-cu</strong> is truncated from <strong>cudu</strong> (take, obtain, acquire, gain)<br />
 		Etymology of <strong>cudu</strong>: Mandarin (取得 "qǔdé"), Korean (취득 “chwideug”)</em></p>
-<h3>Adjective/Adverb Suffix -li <a id="xafefikso_-li"></a></h3>
+<h3>Adjective/Adverb Suffix -li <span id="xafefikso_-li"></span></h3>
 <p>In Globasa, adjective/adverbs are derived from nouns by means of various suffixes. See full list of suffixes under <a
 		href="./lexikostrui.html">Word Formation</a>. One of the most common is the suffix <strong>-li</strong> (<em>of,
 		relating to</em>).</p>
@@ -646,7 +646,7 @@
 		href="./gramatilexi.html">Function Words</a>.</p>
 <p><em>Etymology of <strong>-li</strong>: French (-el, -elle), Spanish (-al), English (-al, -ly), German (-lich),
 		Russian (-ельный “-elni”, -альный “-alni”), Turkish (-li)</em></p>
-<h3>Adjective/Adverb Suffix -pul <a id="xafefikso_-pul"></a></h3>
+<h3>Adjective/Adverb Suffix -pul <span id="xafefikso_-pul"></span></h3>
 <p>The word <strong>pul</strong> means <em>full</em>. However, as a suffix <strong>-pul</strong> means <em>with enough
 		or more than enough</em>.</p>
 <ul>
@@ -662,7 +662,7 @@
 	</li>
 </ul>
 <p><em>Etymology of <strong>pul</strong>: English (full), Hindi (पूर्ण “purn”), Russian (полный “poln-”)</em></p>
-<h3>Active Adjectives: Suffix -ne <a id="xafefikso_-ne"></a></h3>
+<h3>Active Adjectives: Suffix -ne <span id="xafefikso_-ne"></span></h3>
 <p>The suffix <strong>-ne</strong> means <em>in an active state or process of</em> and is used to derive what are known
 	in Globasa as <em>active adjectives</em>.</p>
 <p><em>Active adjectives</em> are in most cases equivalent to <em>present participles</em> in English (adjectives ending
@@ -729,7 +729,7 @@
 	<li><strong>belalane melodi</strong> - melody that is sung or being sung </li>
 	<li><strong>belubine doste</strong> - beloved friend or friend that is loved</li>
 </ul>
-<h3>Inactive Adjectives: Suffix -do <a id="xafefikso_-do"></a></h3>
+<h3>Inactive Adjectives: Suffix -do <span id="xafefikso_-do"></span></h3>
 <p>The suffix <strong>-do</strong> means <em>in an inactive state of</em>. Words with this suffix are known in Globasa
 	as <em>inactive adjectives</em> and are typically translated as the <em>past participle</em> in English. However,
 	unlike in English, <em>inactive adjectives</em> are not used to generate <em>perfect</em> or <em>passive verb</em>
@@ -753,7 +753,7 @@
 	<li><strong>klosido dwer</strong> - closed door (<em>in a state of closure</em>) </li>
 </ul>
 <p><em>Etymology of <strong>-do</strong>: English (-ed), Spanish (-ado, -ido)</em></p>
-<h3>Adverb Suffix -mo <a id="xafefikso_-mo"></a></h3>
+<h3>Adverb Suffix -mo <span id="xafefikso_-mo"></span></h3>
 <p>Adjective/adverbs that modify other adjective/adverbs, known as <em>adj/adv-modifying adverbs</em>, add the suffix
 	<strong>-mo</strong>. Compare the following pairs of phrases.</p>
 <ul>

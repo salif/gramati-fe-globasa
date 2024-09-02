@@ -190,7 +190,7 @@
 <p><strong>Folki mi max doxo, mi max jixi.</strong><br /> Ne kadar çok okursam, o kadar çok bilirim.</p>
 <p>Bu ifadelerin sırası yer değiştirebilir:</p>
 <p><strong>Mi max jixi, folki mi max doxo.</strong><br /> Ne kadar çok okursam, o kadar çok bilirim.</p>
-<h3>Fiil Kategorileri <a id="falelexili_klase"></a></h3>
+<h3>Fiil Kategorileri <span id="falelexili_klase"></span></h3>
 <p>Fiiller sözlükte <em>yardımcı</em>, <em>bağlaç</em>, <em>geçişli</em>, <em>geçişsiz</em> veya
 	<em>geçişli/geçişsiz</em> olarak tanımlanır.</p>
 <h4>Yardımcı Fiiller</h4>
@@ -389,7 +389,7 @@
 	<li><strong>ingay</strong>: (fiil) gerekir, gerekir; (sıfat/zarf) gereken, gerekli olan </li>
 </ul>
 <h2>Ortak Ekler</h2>
-<h3>İsim Eki -ya <a id="xafefikso_-ya"></a></h3>
+<h3>İsim Eki -ya <span id="xafefikso_-ya"></span></h3>
 <p><strong>-ya</strong> eki çeşitli yararlı işlevlere sahiptir ve birkaç İngilizce eke eşdeğerdir: <em>-ity</em>,
 	<em>-ness</em>, <em>-dom</em>, <em>-hood</em>, <em>-ship</em>.</p>
 <ol>
@@ -503,7 +503,7 @@
 	</li>
 </ol>
 <p><em><strong>-ya</strong> ekinin etimolojisi: Hintçe (सत्य "satya" - gerçek), İspanyolca (alegría - sevinç)</em></p>
-<h3>Önek du- <a id="lefefikso_du-"></a></h3>
+<h3>Önek du- <span id="lefefikso_du-"></span></h3>
 <p>Globasa, ulaçları ifade etmek için <strong>du-</strong> ön ekini kullanır.</p>
 <ul>
 	<li><strong>dudanse</strong> - (dans etme eylemi)</li>
@@ -513,7 +513,7 @@
 		href="./falelexili-morfo.html">Fiil Çekimleri</a>.</p>
 <p><em><strong>du-</strong> öneki <strong>dure</strong> (süre) kelimesinden kısaltılmıştır.<br />
 		<strong>dure</strong> etimolojisi: İngilizce, Fransızca, Almanca ve İspanyolca</em></p>
-<h3>İsim/Fiil Eki -gi <a id="xafefikso_-gi"></a></h3>
+<h3>İsim/Fiil Eki -gi <span id="xafefikso_-gi"></span></h3>
 <p><strong>-gi</strong> eki sıfatlara, fiillere ve isimlere uygulanabilir.</p>
 <h4>Sıfatlar</h4>
 <p><strong>-gi</strong> eki sıfatları geçişli fiillere dönüştürür.</p>
@@ -566,7 +566,7 @@
 </ul>
 <p><em><strong>-gi</strong> eki <strong>gibe</strong> (vermek) kelimesinden kısaltılmıştır.<br />
 		<strong>gibe</strong> etimolojisi: İngilizce (give), Almanca (geben, gibt) ve Mandarin (给 “gěi”)</em></p>
-<h3>İsim/Fiil Eki -cu <a id="xafefikso_-cu"></a></h3>
+<h3>İsim/Fiil Eki -cu <span id="xafefikso_-cu"></span></h3>
 <p><strong>-cu</strong> eki sıfatlara, fiillere ve isimlere uygulanabilir.</p>
 <h4>Sıfatlar</h4>
 <p><strong>-cu</strong> eki (olmak/olmak) sıfatları geçişsiz fiillere dönüştürür.</p>
@@ -614,7 +614,7 @@
 </ul>
 <p><em><strong>-cu</strong> eki <strong>cudu</strong> (almak, edinmek, kazanmak) kelimesinden kısaltılmıştır.<br />
 		<strong>cudu</strong> etimolojisi: Mandarin (取得 "qǔdé"), Korece (취득 “chwideug”)</em></p>
-<h3>Sıfat/Zarf Eki -li <a id="xafefikso_-li"></a></h3>
+<h3>Sıfat/Zarf Eki -li <span id="xafefikso_-li"></span></h3>
 <p>Globasa'da, sıfat/zarflar çeşitli ekler aracılığıyla isimlerden türetilir. Eklerin tam listesini <a
 		href="./lexikostrui.html">Kelime Oluşumu</a> altında bulabilirsiniz. En yaygın olanlardan biri
 	<strong>-li</strong> (<em>-li, -lı, -lu, -lü, ile ilgili</em>) ekidir.</p>
@@ -644,7 +644,7 @@
 		href="./gramatilexi.html">İşlev Kelimeleri</a>.</p>
 <p><em><strong>-li</strong> ekinin etimolojisi: Fransızca (-el, -elle), İspanyolca (-al), İngilizce (-al, -ly), Almanca
 		(-lich), Rusça (-ельный “-elni”, -альный “-alni”), Türkçe (-li)</em></p>
-<h3>Sıfat/Zarf Eki -pul <a id="xafefikso_-pul"></a></h3>
+<h3>Sıfat/Zarf Eki -pul <span id="xafefikso_-pul"></span></h3>
 <p><strong>pul</strong> kelimesi <em>dolu</em> anlamına gelir. Ancak, <strong>-pul</strong> eki olarak <em>yeterince
 		veya yeterinden fazla</em> anlamına gelir.</p>
 <ul>
@@ -660,7 +660,7 @@
 	</li>
 </ul>
 <p><em><strong>pul</strong> etimolojisi: İngilizce (full), Hintçe (पूर्ण “purn”), Rusça (полный “poln-”)</em></p>
-<h3>Etken Sıfatlar: Ek -ne <a id="xafefikso_-ne"></a></h3>
+<h3>Etken Sıfatlar: Ek -ne <span id="xafefikso_-ne"></span></h3>
 <p><strong>-ne</strong> eki <em>etken bir durumda veya sürecinde</em> anlamına gelir ve Globasa'da <em>etken
 		sıfatlar</em> olarak bilinenleri türetmek için kullanılır.</p>
 <p><em>Etken sıfatlar</em> çoğu durumda İngilizcedeki <em>şimdiki zaman ortaçlarına</em> (<em>-ing</em> ile biten
@@ -728,7 +728,7 @@
 	<li><strong>belalane melodi</strong> - söylenen veya söylenmekte olan melodi </li>
 	<li><strong>belubine doste</strong> - sevilen arkadaş veya sevilen arkadaş</li>
 </ul>
-<h3>Etkin Olmayan Sıfatlar: Ek -do <a id="xafefikso_-do"></a></h3>
+<h3>Etkin Olmayan Sıfatlar: Ek -do <span id="xafefikso_-do"></span></h3>
 <p><strong>-do</strong> eki <em>etkin olmayan bir durumda</em> anlamına gelir. Bu eke sahip kelimeler Globasa'da
 	<em>etkin olmayan sıfatlar</em> olarak bilinir ve genellikle İngilizcedeki <em>geçmiş zaman ortacı</em> olarak
 	çevrilir. Ancak, İngilizceden farklı olarak, <em>etkin olmayan sıfatlar</em>
@@ -754,7 +754,7 @@
 	<li><strong>klosido dwer</strong> - kapalı kapı (<em>kapanma durumunda</em>) </li>
 </ul>
 <p><em><strong>-do</strong> ekinin etimolojisi: İngilizce (-ed), İspanyolca (-ado, -ido)</em></p>
-<h3>Zarf Eki -mo <a id="xafefikso_-mo"></a></h3>
+<h3>Zarf Eki -mo <span id="xafefikso_-mo"></span></h3>
 <p>Diğer sıfat/zarfları değiştiren, <em>sıfat/zarf değiştiren zarflar</em> olarak bilinen sıfat/zarflar,
 	<strong>-mo</strong> ekini alır. Aşağıdaki cümle çiftlerini karşılaştırın.</p>
 <ul>

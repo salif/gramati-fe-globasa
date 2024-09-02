@@ -55,7 +55,7 @@
 <h3>seli</h3>
 <p>El adjetivo <strong>seli</strong> se utiliza con pronombres de sujeto para expresar énfasis en uno mismo.</p>
 <p><strong>seli mi</strong> - yo mismo <strong>seli yu</strong> - tú mismo etc.</p>
-<h2>Adjetivos posesivos <a id="suyali_sifalexi"></a></h2>
+<h2>Adjetivos posesivos <span id="suyali_sifalexi"></span></h2>
 <p>Los adjetivos posesivos se derivan de los pronombres añadiendo el sufijo <strong>-su</strong>:</p>
 <table style="width:100%">
 	<tbody>

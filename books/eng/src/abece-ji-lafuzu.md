@@ -699,7 +699,7 @@
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/ewropa.mp3">[ew.'ɾo.pa]/[eu̯.'ɾo.pa]</a> or even
 	<em>e-u-r<u><strong>o</strong></u>-pa</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/e.u.ro.pa.mp3">[e.u.'ɾo.pa]</a></p>
-<h3>Spelling Convention <a id="regula_fe_harufiya"></a></h3>
+<h3>Spelling Convention <span id="regula_fe_harufiya"></span></h3>
 <p>The following spelling convention applies only to root words and not to derived words. Next to other vowels, Globasa
 	uses <em>i</em> and <em>u</em> only if these are stressed or if <em>y</em> and <em>w</em> are not permitted by
 	phonotactic rules. In all other cases, Globasa uses <em>y</em> and <em>w</em> instead of <em>i</em> and <em>u</em>.

@@ -300,7 +300,7 @@
 </table>
 <p>Yan cümlecik (eğer...) fiilin sözlük biçimini kullanır.</p>
 <p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> Aç olsaydım elmayı yerdim.</p>
-<h2>Edilgen Çatı <a id="be-"></a></h2>
+<h2>Edilgen Çatı <span id="be-"></span></h2>
 <p>Edilgen çatı <strong>be-</strong> öneki kullanılarak ifade edilir.</p>
 <p><em><strong>be-</strong>'nin etimolojisi: Mandarin (被 “bèi”), İngilizce (be), Norveççe (ble)</em></p>
 <table>

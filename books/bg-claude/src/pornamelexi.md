@@ -56,7 +56,7 @@
 <p><strong>seli mi</strong> - аз самият<br>
 	<strong>seli yu</strong> - ти самият<br> и т.н.
 </p>
-<h2>Притежателни прилагателни <a id="suyali_sifalexi"></a></h2>
+<h2>Притежателни прилагателни <span id="suyali_sifalexi"></span></h2>
 <p>Притежателните прилагателни са производни от местоименията чрез добавяне на наставката <strong>-su</strong>:</p>
 <table style="width:100%">
 	<tbody>
@@ -150,8 +150,7 @@
 <p>Както се вижда в Съотносителните думи, местоименията за трето лице (<strong>te</strong>/<strong>to</strong> и
 	<strong>ete</strong>/<strong>oto</strong>) се използват за съотносителни местоимения, тъй като детерминаторите
 	(<strong>ke</strong>, <strong>hin</strong>, <strong>den</strong> и т.н.) винаги трябва да бъдат последвани от
-	(место)име. Вижте <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Именни фрази</a>.
-</p>
+	(место)име. Вижте <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Именни фрази</a>. </p>
 <p>По същия начин <strong>(e)te</strong>/<strong>(o)to</strong> се използват в края на именните фрази, когато
 	съществителното се подразбира. </p>
 <p><em>Една от причините за това правило, както е илюстрирано по-долу, е, че тъй като съществителните и глаголите имат

@@ -353,7 +353,7 @@
 <p><strong><em>Daydenpul</em> din!</strong><br />
 	<em>Ne</em> gün ama!
 </p>
-<h2>daydenmo <a id="daydenmmo"></a></h2>
+<h2>daydenmo <span id="daydenmmo"></span></h2>
 <p><strong>daydenmo</strong> kelimesi, <strong>day-</strong> (<em>büyütme öneki</em>) ve <strong>denmo</strong> ilişki
 	zamiriyle oluşan türetilmiş bir kelimedir. Bir sıfat/zarf takip ettiğinde <em>çok</em>, değiştirilmiş bir isim takip
 	ettiğinde ise <em>böyle bir</em> anlamına gelen bir derece zarfıdır. </p>

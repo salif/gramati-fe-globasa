@@ -118,7 +118,7 @@
 <p><strong>Filme sen kewatu?</strong><br /> When is the movie?</p>
 <p>In informal language, the copula may be omitted when linking adjective phrases.</p>
 <p><strong>Uma (sen) perfetomo syahe.</strong><br /> The horse is perfectly black. </p>
-<h2>Infinitive Verb Phrases <a id="nafalelexili_jumlemon"></a></h2>
+<h2>Infinitive Verb Phrases <span id="nafalelexili_jumlemon"></span></h2>
 <p>Infinitive verb phrases are marked by the particle <strong>na</strong> followed by the verb. They are used in the
 	following sentence structures.</p>
 <h3>Noun/Verb Complements</h3>
@@ -166,7 +166,7 @@
 <p><strong>fe tayti fe na danse</strong> - Instead of dancing</p>
 <p><strong>Te le sokutu dur na danse.</strong><br /> He fell while dancing.</p>
 <p><strong>Fe na doxo, nini le xorsomno.</strong><br /> Reading, the boy fell asleep.</p>
-<h2>Prepositional Phrases <a id="plasilexili_jumlemon"></a></h2>
+<h2>Prepositional Phrases <span id="plasilexili_jumlemon"></span></h2>
 <p>Globasa, like most SVO languages, uses prepositions rather <a
 		href="https://en.wikipedia.org/wiki/Preposition_and_postposition">postpositions</a>. Prepositional phrases
 	always immediately follow the noun phrases they modify.</p>
@@ -213,7 +213,7 @@
 	<em>On top</em>, the houses are expensive.
 </p>
 <p><strong>Kimapul baytu sen <em>fe kapi</em>.</strong><br /> The expensive houses are <em>on top</em>.</p>
-<h2>Prepositional Verbs <a id="plasilexili_falelexi"></a></h2>
+<h2>Prepositional Verbs <span id="plasilexili_falelexi"></span></h2>
 <p>In Globasa, prepositions may be turned into verbs using the suffix <strong>-ya</strong> as an alternative to linking
 	prepositional phrases to subjects using the copula, as seen above. </p>
 <table style="width:100%">
@@ -323,7 +323,7 @@
 <p>(2) <strong>Kam yu sen yamkal?</strong><br /> Are you hungry?</p>
 <p>(1) <strong>Yu yam mahimaso.</strong><br /> You eat fish.</p>
 <p>(2) <strong>Kam yu yam mahimaso?</strong><br /> Do you eat fish?</p>
-<h3>Wh- Questions <a id="swal_yon_ke-"></a></h3>
+<h3>Wh- Questions <span id="swal_yon_ke-"></span></h3>
 <p>Likewise, wh- questions preserve typical word order. This is illustrated in the following pair of example sentences
 	with (1) a question whose word order mirrors that of (2) a possible answer.<br /> (1) <strong>Yusu name sen
 		keto?</strong><br /> "Your name is what?"<br /> What is your name?</p>

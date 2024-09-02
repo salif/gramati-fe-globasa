@@ -117,7 +117,7 @@
 <p><strong>Filme sen kewatu?</strong><br /> Film ne zaman?</p>
 <p>Resmi olmayan dilde, sıfat öbeklerini bağlarken bağlaç atlanabilir.</p>
 <p><strong>Uma (sen) perfetomo syahe.</strong><br /> At tamamen siyahtır. </p>
-<h2>Mastar Fiil Öbekleri <a id="nafalelexili_jumlemon"></a></h2>
+<h2>Mastar Fiil Öbekleri <span id="nafalelexili_jumlemon"></span></h2>
 <p>Mastar fiil öbekleri, fiilden önce gelen <strong>na</strong> parçacığı ile işaretlenir. Aşağıdaki cümle yapılarında
 	kullanılırlar.</p>
 <h3>İsim/Fiil Tümleçleri</h3>
@@ -162,7 +162,7 @@
 <p><strong>fe tayti fe na danse</strong> - Dans etmek yerine</p>
 <p><strong>Te le sokutu dur na danse.</strong><br /> Dans ederken düştü.</p>
 <p><strong>Fe na doxo, nini le xorsomno.</strong><br /> Okurken, çocuk uyuyakaldı.</p>
-<h2>Edat Öbekleri <a id="plasilexili_jumlemon"></a></h2>
+<h2>Edat Öbekleri <span id="plasilexili_jumlemon"></span></h2>
 <p>Çoğu SVO dili gibi Globasa, <a href="https://tr.wikipedia.org/wiki/Edat_ve_bağlaç">bağlaçlar</a> yerine edatlar
 	kullanır. Edat öbekleri her zaman değiştirdikleri isim öbeklerini hemen takip eder.</p>
 <p><strong>Myaw <em>in sanduku</em> somno.</strong><br /> <em>Kutudaki</em> kedi uyuyor. </p>
@@ -207,7 +207,7 @@
 	<em>Üstte</em>, evler pahalıdır.
 </p>
 <p><strong>Kimapul baytu sen <em>fe kapi</em>.</strong><br /> Pahalı evler <em>üstte</em>.</p>
-<h2>Edat Fiilleri <a id="plasilexili_falelexi"></a></h2>
+<h2>Edat Fiilleri <span id="plasilexili_falelexi"></span></h2>
 <p>Globasa'da, yukarıda görüldüğü gibi, edat öbeklerini bağlaç kullanarak öznelere bağlamaya alternatif olarak,
 	<strong>-ya</strong> eki kullanılarak edatlar fiillere dönüştürülebilir. </p>
 <table style="width:100%">
@@ -318,7 +318,7 @@
 <p>(2) <strong>Kam yu sen yamkal?</strong><br /> Aç mısın?</p>
 <p>(1) <strong>Yu yam mahimaso.</strong><br /> Balık yiyorsun.</p>
 <p>(2) <strong>Kam yu yam mahimaso?</strong><br /> Balık yer misin?</p>
-<h3>Soru Kelimeli Sorular <a id="swal_yon_ke-"></a></h3>
+<h3>Soru Kelimeli Sorular <span id="swal_yon_ke-"></span></h3>
 <p>Benzer şekilde, soru kelimeli sorular tipik kelime sırasını korur. Bu, (1) kelime sırası (2) olası bir cevabın kelime
 	sırasını yansıtan bir soru ile aşağıdaki örnek cümle çiftlerinde gösterilmiştir.<br /> (1) <strong>Yusu name sen
 		keto?</strong><br /> "Adınız nedir?"<br /> Adınız nedir?</p>
