@@ -3,8 +3,5 @@
 		"**/books/**/*.md": "html",
 		"**/books/**/{SUMMARY,gramati}.md": "markdown"
 	},
-	"htmlhint.options": {
-		"doctype-first": false
-	},
 	"css.format.newlineBetweenSelectors": false
 }

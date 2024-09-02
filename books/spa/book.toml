@@ -1,10 +1,10 @@
 [book]
 authors = ["The Globasa Team", "Salif Mehmed"]
-language = "en"
+language = "es"
 multilingual = false
 src = "src"
-title = "Complete Globasa Grammar"
-description = "A copy of the Complete Globasa Grammar and the source for the translated books"
+title = "Gramática completa de Globasa"
+description = "Una copia de la gramática completa de Globasa"
 
 [output.html]
 additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]
@@ -12,5 +12,5 @@ default-theme = "rust-clr"
 preferred-dark-theme = "mocha-clr"
 smart-punctuation = false
 git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
-edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/eng/{path}"
-site-url = "/gramati-fe-globasa/eng/"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/spa/{path}"
+site-url = "/gramati-fe-globasa/spa/"

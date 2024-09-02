@@ -1,0 +1,1 @@
+# Gramática completa de Globasa

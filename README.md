@@ -3,6 +3,9 @@
 - 🏴󠁧󠁢󠁥󠁮󠁧󠁿 _English:_
   - [Complete Globasa Grammar](https://salif.github.io/gramati-fe-globasa/eng/)
 
+- 🇪🇸 _español_:
+  - [Gramática completa de Globasa](https://salif.github.io/gramati-fe-globasa/spa/)
+
 - 🇧🇬 _български:_
   - [Граматика на глобаса (Джемини)](https://salif.github.io/gramati-fe-globasa/bg-gemini/)
   - [Граматика на глобаса (Клод)](https://salif.github.io/gramati-fe-globasa/bg-claude/)
@@ -13,15 +16,10 @@
 - 🇫🇷 _français_:
   - [Grammaire de la globasa](https://salif.github.io/gramati-fe-globasa/fr-gemini/)
 
-<!--
-- *español:*
-  - [Gramática completa de Globasa](https://salif.github.io/gramati-fe-globasa/spa/)
--->
-
 
 ## Contributing
 
-Do not edit the root `README.md` file, edit `docs/README.md` instead
+Do not edit the root `README.md` file, edit [docs/README.md](docs/README.md) instead
 
 ### Add new book
 

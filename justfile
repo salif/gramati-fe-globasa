@@ -29,8 +29,10 @@ sync-theme:
 
 [doc('Apply docs/README.md changes to README.md')]
 sync-readme:
+	-chmod +w ./README.md
 	cp -f ./docs/README.md ./README.md
 	sed -i -e 's/(.\//(https:\/\/salif.github.io\/gramati-fe-globasa\//g' -e 's/<\!---//g' -e 's/--->//g' ./README.md
+	-chmod -w ./README.md
 
 [private]
 serve-init:
