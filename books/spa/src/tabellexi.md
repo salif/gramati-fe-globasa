@@ -342,7 +342,7 @@
 <p>La palabra <strong>daydenpul</strong> es una palabra derivada compuesta por <strong>day-</strong> (<em>prefijo
 		aumentativo</em>) y el correlativo <strong>denpul</strong>. Se traduce como <em>qué</em> seguido de un
 	sustantivo en exclamaciones como las siguientes:</p>
-<p><strong><em>Daydenpul</em> din!</strong><br /> _¡Qué día!</p>
+<p><strong><em>Daydenpul</em> din!</strong><br /> ¡<em>Qué</em> día!</p>
 <h2>daydenmo <span id="daydenmmo"></span></h2>
 <p>La palabra <strong>daydenmo</strong> es una palabra derivada compuesta por <strong>day-</strong> (<em>prefijo
 		aumentativo</em>) y el correlativo <strong>denmo</strong>. Es un adverbio de grado que significa <em>tan</em>, y
@@ -351,8 +351,8 @@
 <p><strong>Yu hare <em>daydenmo</em> day oko.</strong><br /> Tienes unos ojos tan grandes.</p>
 <p>La palabra <strong>daydenmo</strong> también se usa como <strong>daydenpul</strong>. Significa <em>qué</em>, y va
 	seguido de un adjetivo/adverbio, o de un sustantivo modificado.</p>
-<p><strong><em>Daydenmo</em> meli!</strong><br /> _¡Qué hermoso!</p>
-<p><strong><em>Daydenmo</em> meli din!</strong><br /> _¡Qué hermoso día!</p>
+<p><strong><em>Daydenmo</em> meli!</strong><br /> ¡<em>Qué</em> hermoso!</p>
+<p><strong><em>Daydenmo</em> meli din!</strong><br /> ¡<em>Qué</em> hermoso día!</p>
 <h2>daydenkwanti, daydennumer, denmo multi</h2>
 <p>De manera similar, las palabras <strong>daydenkwanti</strong> y <strong>daydennumer</strong> pueden usarse para
 	expresar <em>tanto</em> y <em>tantos</em>, respectivamente. Alternativamente, la expresión <strong>denmo

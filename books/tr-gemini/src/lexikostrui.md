@@ -658,8 +658,8 @@
 	</li>
 </ul>
 <h2>İçerik Kelimeleri ile Diğer Bileşikler</h2>
-<p>Yukarıda _yarı ek_ olarak listelenen isimler ve sıfatlar, bileşik kelimelerde en sık kullanılan içerik kelimeleridir.
-	Bununla birlikte, liste kapsamlı değildir, çünkü _herhangi bir_ içerik kelimesi, bileşik kelimeler türetmek için
+<p>Yukarıda <em>yarı ek</em> olarak listelenen isimler ve sıfatlar, bileşik kelimelerde en sık kullanılan içerik kelimeleridir.
+	Bununla birlikte, liste kapsamlı değildir, çünkü <em>herhangi bir</em> içerik kelimesi, bileşik kelimeler türetmek için
 	serbestçe kullanılabilir. Herhangi bir bileşik kelime içindeki iki morfemi ayırmak için isteğe bağlı olarak bir tire
 	eklenebilir. Bununla birlikte, bir pratik kural olarak, tirelerin yalnızca aşağıdaki kelimelerde olduğu gibi
 	bileşiklerde daha az kullanılan morfemleri ayırmak için kullanılması önerilir.</p>
