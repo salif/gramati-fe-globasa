@@ -1,0 +1,17 @@
+# Sumário
+
+- [Introdução](./gramati.md)
+- [Sumário](./SUMMARY.md)
+- [Alfabeto e pronúncia](./abece-ji-lafuzu.md)
+- [Palavras de conteúdo: Substantivos, verbos, adjetivos e advérbios](./inharelexi.md)
+- [Palavras de função: Conjunções, preposições e advérbios de função](./gramatilexi.md)
+- [Pronomes](./pornamelexi.md)
+- [Correlativos](./tabellexi.md)
+- [Números e meses do ano](./numer-ji-mesi.md)
+- [Formas verbais](./falelexili-morfo.md)
+- [Ordem das palavras: Estrutura do sintagma](./jumlemonli-estrutur.md)
+- [Ordem das palavras: Estrutura da oração](./jumleli-estrutur.md)
+- [Formação de palavras](./lexikostrui.md)
+- [Morfemas truncados](./ofkatado-morfomon.md)
+- [Classes de palavras](./lexiklase.md)
+- [Frases e expressões comuns](./pimpan-logaxey.md)
