@@ -22,7 +22,7 @@
   - [Граматика на глобаса (Джемини)](https://salif.github.io/gramati-fe-globasa/bg-gemini/)
   - [Граматика на глобаса (Клод)](https://salif.github.io/gramati-fe-globasa/bg-claude/)
 
-- _Esperanto:_
+- 🟢 _Esperanto:_
   - [Gramatiko de Globaso](https://salif.github.io/gramati-fe-globasa/eo-gemini/)
 
 
