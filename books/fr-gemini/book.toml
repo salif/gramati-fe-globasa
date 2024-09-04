@@ -3,8 +3,8 @@ authors = ["Salif Mehmed"]
 language = "fr"
 multilingual = false
 src = "src"
-title = "Grammaire de la globasa"
-description = "Traduction française de la grammaire de la globasa (via Google Gemini)"
+title = "Grammaire de globasa"
+description = "Traduction française de la grammaire de globasa (via Google Gemini)"
 
 [output.html]
 additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]

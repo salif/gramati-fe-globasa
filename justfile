@@ -5,22 +5,31 @@ args := ""
 _:
 	@just --list
 
-[doc('Build all books')]
-build: clean
-	cd books && \
-	for d in */; do \
-		(cd "$d" && mdbook build && mv book "../../docs/$d"); \
+[doc('Build books')]
+build:
+	@cd books && \
+	for d in *; do \
+		if ! test -d "../docs/$d"; then \
+			echo "Building $d"; \
+			(cd "$d" && mdbook build && mv book "../../docs/$d"); \
+		else echo "Skipping $d"; fi; \
 	done
 
 [doc('Delete built books')]
-clean:
-	cd books && find . -maxdepth 1 -mindepth 1 -type d -exec \
+clean-all:
+	@cd books && find . -maxdepth 1 -mindepth 1 -type d -exec \
 		rm -rf "../docs/{}" \;
+
+[doc('Delete a built book')]
+clean book:
+	@if ! test -d "./docs/{{book}}"; then \
+		echo "Skipping docs/{{book}}; not a directory."; \
+	else rm -r "./docs/{{book}}"; fi
 
 [confirm]
 [doc('Apply theme changes to all books')]
 sync-theme:
-	cd books && \
+	@cd books && \
 	for d in */; do \
 		rm -rf "./${d}theme"; \
 		mkdir -p "./${d}theme"; \
@@ -40,14 +49,15 @@ serve-init:
 
 [doc('Jekyll serve')]
 serve:
-	cd docs && if ! bundle check; then just serve-init; fi && bundle exec jekyll serve {{args}}
+	cd docs && if ! bundle check; then just serve-init; fi && \
+		bundle exec jekyll serve {{args}}
 
 [confirm]
 [doc('Publish to GitHub Pages')]
 gh-pages:
 	git switch gh-pages
 	git rebase main
-	just build
+	just clean-all build
 	git add ./docs
 	git commit -m "Sync"
 	git push --force-with-lease

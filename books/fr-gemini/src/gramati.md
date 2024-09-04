@@ -1,4 +1,4 @@
-# Grammaire de la globasa
+# Grammaire de globasa
 
 Ce livre contient une traduction française de [Complete Globasa Grammar](/gramati-fe-globasa/spa/).
 
