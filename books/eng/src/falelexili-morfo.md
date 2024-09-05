@@ -410,7 +410,7 @@
 <h2>Infinitive Mood</h2>
 <p>In Globasa, the infinitive verb form is marked with the particle <strong>na</strong> and is typically omitted within
 	a clause once it has been established with the first verb. See <a
-		href="./jumleli-estrutur.html#nafalelexili_jumlemon">Infinitive Verb Phrases</a> under Sentence Structure. </p>
+		href="./jumleli-estrutur.html#nafalelexili_jumlemon">Infinitive Verb Phrases</a> under Sentence Structure.</p>
 <p><em>Etymology of <strong>na</strong>: Greek (να “na”), Hindi (-ना “-na”)</em></p>
 <h2>Subordinate Clauses</h2>
 <p>As seen above, <em>if</em> clauses in conditional sentences use the dictionary verb form. However, not every sentence

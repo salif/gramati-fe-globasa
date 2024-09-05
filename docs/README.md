@@ -47,4 +47,18 @@ just --yes sync-theme
 just clean-all build
 # just serve
 ```
+
+### Rebuild a book
+
+```sh
+just clean eng build
+```
+
+### Fetch upstream
+
+```sh
+just update-books eng update
+just update-books-diff eng > new.diff
+just update-books eng remove
+```
 --->

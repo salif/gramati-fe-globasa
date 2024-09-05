@@ -11,7 +11,7 @@
 			relating to</em>)</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-mo">-mo</a>:</strong> turns adjectives into
 		<em>adjective/adverb-modifying adverbs</em></li>
-	<li><strong><a href="./inharelexi.html#xafefikso_-ya">-ya</a>:</strong> turns adjectives into abstract nouns </li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-ya">-ya</a>:</strong> turns adjectives into abstract nouns</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a>:</strong> transitivity marker</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a>:</strong> intransitivity marker</li>
 	<li><strong><a href="./falelexili-morfo.html#be-">be-</a>:</strong> passive voice</li>
