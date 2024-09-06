@@ -11,3 +11,9 @@ lang: glb
 author:
   name: "Salif Mehmed"
   url: "https://salif.eu"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "assets/favicon.png"

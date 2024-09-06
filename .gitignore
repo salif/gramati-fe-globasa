@@ -2,8 +2,7 @@
 /books/*/theme
 
 /docs/_site/
-/docs/.bundle/*
-!/docs/.bundle/config
+/docs/.bundle/
+/docs/.jekyll-cache/
+/docs/.jekyll-metadata
 /docs/Gemfile.lock
-.jekyll-cache
-.jekyll-metadata

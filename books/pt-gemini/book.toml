@@ -14,3 +14,8 @@ smart-punctuation = false
 git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
 edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/pt-gemini/{path}"
 site-url = "/gramati-fe-globasa/pt-gemini/"
+
+[output.epub]
+use-default-css = true
+no-section-label = false
+curly-quotes = false

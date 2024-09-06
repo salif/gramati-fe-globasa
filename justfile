@@ -11,9 +11,15 @@ build:
 	for d in *; do \
 		if ! test -d "../docs/$d"; then \
 			echo "Building $d"; \
-			(cd "$d" && mdbook build && mv book "../../docs/$d"); \
+			(cd "$d" && mdbook build && mv book/html "../../docs/$d" && mv book/epub/* "../../docs/$d/" \
+				&& rm -r ./book && printf "*\n" > "../../docs/$d/.gitignore"); \
 		else echo "Skipping $d"; fi; \
 	done
+
+[private]
+clean-gitignore:
+	@cd books && find . -maxdepth 1 -mindepth 1 -type d -exec \
+		rm -rf "../docs/{}/.gitignore" \;
 
 [doc('Delete built books')]
 clean-all:
@@ -36,13 +42,6 @@ sync-theme:
 		cp -ft "./${d}theme/" ../theme/*; \
 	done
 
-[doc('Apply docs/README.md changes to README.md')]
-sync-readme:
-	-chmod +w ./README.md
-	cp -f ./docs/README.md ./README.md
-	sed -i -e 's/(.\//(https:\/\/salif.github.io\/gramati-fe-globasa\//g' -e 's/<\!---//g' -e 's/--->//g' ./README.md
-	-chmod -w ./README.md
-
 [private]
 serve-init:
 	cd docs && bundle install
@@ -56,20 +55,20 @@ serve:
 [doc('Publish to GitHub Pages')]
 gh-pages:
 	git switch gh-pages
-	git rebase main
-	just clean-all build
+	git merge main --strategy-option theirs --no-commit
+	just clean-all build clean-gitignore
 	git add ./docs
-	git commit -m "Sync"
-	git push --force-with-lease
+	git merge --continue
+	git push
 	git switch -
 
 [private]
-update-books-diff lang="eng":
+update-book-diff lang="eng":
 	@cd "books/{{lang}}/src" && ls *_new.md | xargs -I {} sh -c \
 		"diff --unified \$(basename --suffix _new.md {}).md {}"
 
 [private]
-update-books lang="eng" action="update":
+update-book lang="eng" action="update":
 	#!/usr/bin/env node
 	const fs = require("fs")
 	const os = require("os")
