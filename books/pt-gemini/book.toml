@@ -19,3 +19,6 @@ site-url = "/gramati-fe-globasa/pt-gemini/"
 use-default-css = true
 no-section-label = false
 curly-quotes = false
+
+[output.ze]
+command = "just build-ze Gramati_fe_Globasa_Mesi_08_2024_pt_gemini build-ze-ignore"

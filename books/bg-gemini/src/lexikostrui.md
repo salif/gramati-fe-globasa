@@ -9,15 +9,15 @@
 	<li><strong><a href="./pornamelexi.html#suyali_sifalexi">-su</a>:</strong> притежателни прилагателни</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-li">-li</a>:</strong> превръща съществителните имена в
 		прилагателни/наречия (<em>от, свързан с</em>)</li>
-	<li><strong><a href="./inharelexi.html#xafefikso_-mo">-mo</a>:</strong> превръща прилагателните в
-		<em>модифициращи наречия</em></li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-mo">-mo</a>:</strong> превръща прилагателните в <em>модифициращи
+			наречия</em></li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-ya">-ya</a>:</strong> превръща прилагателните в абстрактни
 		съществителни </li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a>:</strong> маркер за преходност</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a>:</strong> маркер за непреходност</li>
 	<li><strong><a href="./falelexili-morfo.html#be-">be-</a>:</strong> пасивен залог</li>
-	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> герундий; <em>обичаен/продължителен
-			глаголен аспект</em></li>
+	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> герундий; <em>обичаен/продължителен глаголен
+			аспект</em></li>
 </ul>
 <h2>Префикси</h2>
 <ul>
@@ -670,18 +670,18 @@
 	се използва свободно за образуване на сложни думи. Тире може да се добави по желание, за да се разделят два морфема
 	в рамките на всяка сложна дума. Препоръчва се обаче, като правило, тиретата да се използват само за разделяне на
 	морфеми, които се използват по-рядко в сложни думи, като тези в думите по-долу.</p>
-<p><strong>rukebao</strong> или <strong>ruke-bao</strong> - раница<br>
-	<strong>familname</strong> или <strong>famil-name</strong> - фамилно име<br>
-	<strong>kosmonaviyen</strong> или <strong>kosmo-naviyen</strong> - астронавт<br>
+<p><strong>rukebao</strong> или <strong>ruke-bao</strong> - раница<br />
+	<strong>familname</strong> или <strong>famil-name</strong> - фамилно име<br />
+	<strong>kosmonaviyen</strong> или <strong>kosmo-naviyen</strong> - астронавт<br />
 	<strong>mobilxuliyen</strong> или <strong>mobil-xuliyen</strong> - механик
 </p>
 <h2>Сложни собствени имена</h2>
 <p>Собствените имена също могат да се съединяват, за да се образуват сложни думи. Те могат да се изписват по един от
 	трите начина, показани по-долу.</p>
 <p><strong>Ceskieslovaki</strong> или <strong>CeskiEslovaki</strong> или <strong>Ceski-Eslovaki</strong> -
-	Чехословакия<br>
+	Чехословакия<br />
 	<strong>Serbihervatskasa</strong> или <strong>SerbiHervatskasa</strong> или <strong>Serbi-Hervatskasa</strong> -
-	сърбохърватски<br>
+	сърбохърватски<br />
 	<strong>Kinsasakongo</strong> или <strong>KinsasaKongo</strong> или <strong>Kinsasa-Kongo</strong> - Конго-Киншаса
 </p>
 <p>По същия начин собствените имена с <strong>utara</strong>, <strong>sude</strong>, <strong>dongu</strong>,
@@ -706,7 +706,7 @@
 <h2>Обектно-глаголни прилагателни</h2>
 <p>Обектно-глаголните прилагателни са прилагателни, които се състоят от две съществителни имена (обект и глагол) плюс
 	наставка за прилагателно. </p>
-<p><strong>mogeyamne ameba</strong> - амеба, хранеща се с мозък<br>
+<p><strong>mogeyamne ameba</strong> - амеба, хранеща се с мозък<br />
 	<strong>fikirprovokane idey</strong> - провокираща мисълта идея
 </p>
 <p></p>

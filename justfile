@@ -7,24 +7,51 @@ _:
 
 [doc('Build books')]
 build:
-	@cd books && \
-	for d in *; do \
-		if ! test -d "../docs/$d"; then \
-			echo "Building $d"; \
-			(cd "$d" && mdbook build && mv book/html "../../docs/$d" && mv book/epub/* "../../docs/$d/" \
-				&& rm -r ./book && printf "*\n" > "../../docs/$d/.gitignore"); \
-		else echo "Skipping $d"; fi; \
+	#!/usr/bin/env bash
+	set -euo pipefail
+	cd books
+	for d in *; do
+		if ! test -d "../docs/$d"; then
+			echo "Building $d"
+			(cd "$d" && {
+				mdbook build
+				mv book/html "../../docs/$d"
+				if test -d book/ze; then
+					mv book/ze/* "../../docs/$d/"; fi
+				rm -r ./book
+				printf "*\n" > "../../docs/$d/.gitignore"
+			})
+		else
+			echo "Skipping $d"; fi
 	done
+
+[no-cd]
+[private]
+build-ze f:
+	@if test -d ../epub; then \
+		cp ../epub/* ./{{f}}.epub; fi
+	@if test -d ../pdf; then \
+		cp ../pdf/* ./{{f}}.pdf; fi
+
+# Prevents mdbook warning
+[no-cd]
+[private]
+build-ze-ignore:
+	@while read -r _ ; do :; done
 
 [private]
 clean-gitignore:
-	@cd books && find . -maxdepth 1 -mindepth 1 -type d -exec \
-		rm -rf "../docs/{}/.gitignore" \;
+	@cd books && { \
+		find . -maxdepth 1 -mindepth 1 -type d -exec \
+			rm -rf "../docs/{}/.gitignore" \; ; \
+	}
 
 [doc('Delete built books')]
 clean-all:
-	@cd books && find . -maxdepth 1 -mindepth 1 -type d -exec \
-		rm -rf "../docs/{}" \;
+	@cd books && { \
+		find . -maxdepth 1 -mindepth 1 -type d -exec \
+			rm -rf "../docs/{}" \; ; \
+	}
 
 [doc('Delete a built book')]
 clean book:
@@ -35,21 +62,27 @@ clean book:
 [confirm]
 [doc('Apply theme changes to all books')]
 sync-theme:
-	@cd books && \
-	for d in */; do \
-		rm -rf "./${d}theme"; \
-		mkdir -p "./${d}theme"; \
-		cp -ft "./${d}theme/" ../theme/*; \
-	done
+	@cd books && { \
+		for d in */; do \
+			rm -rf "./${d}theme"; \
+			mkdir -p "./${d}theme"; \
+			cp -ft "./${d}theme/" ../theme/*; \
+		done; \
+	}
 
 [private]
 serve-init:
-	cd docs && bundle install
+	cd docs && { \
+		bundle install; \
+	}
 
 [doc('Jekyll serve')]
 serve:
-	cd docs && if ! bundle check; then just serve-init; fi && \
-		bundle exec jekyll serve {{args}}
+	cd docs && { \
+		if ! bundle check; then \
+			just serve-init; fi; \
+		bundle exec jekyll serve {{args}}; \
+	}
 
 [confirm]
 [doc('Publish to GitHub Pages')]
@@ -64,8 +97,10 @@ gh-pages:
 
 [private]
 update-book-diff lang="eng":
-	@cd "books/{{lang}}/src" && ls *_new.md | xargs -I {} sh -c \
-		"diff --unified \$(basename --suffix _new.md {}).md {}"
+	@cd "books/{{lang}}/src" && { \
+		ls *_new.md | xargs -I {} sh -c \
+			"diff --unified \$(basename --suffix _new.md {}).md {}"; \
+	}
 
 [private]
 update-book lang="eng" action="update":

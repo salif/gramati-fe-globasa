@@ -142,57 +142,57 @@
 	<li><strong>max... kom...</strong> - повече... отколкото...</li>
 	<li><strong>min... kom...</strong> - по-малко... отколкото...</li>
 </ul>
-<p><strong>Mi hare max kitabu kom yu.</strong><br> Имам повече книги от теб.</p>
-<p><strong>Yu hare min kitabu kom mi.</strong><br> Имаш по-малко книги от мен.</p>
+<p><strong>Mi hare max kitabu kom yu.</strong><br /> Имам повече книги от теб.</p>
+<p><strong>Yu hare min kitabu kom mi.</strong><br /> Имаш по-малко книги от мен.</p>
 <ul>
 	<li><strong>max te/to kom...</strong> - повече (от тях) отколкото...</li>
 	<li><strong>min te/to kom...</strong> - по-малко (от тях) отколкото...</li>
 </ul>
-<p><strong>Mi hare max to kom yu.</strong><br> Имам повече (от тях) от теб.</p>
-<p><strong>Yu hare min to kom mi.</strong><br> Имаш по-малко (от тях) от мен.</p>
+<p><strong>Mi hare max to kom yu.</strong><br /> Имам повече (от тях) от теб.</p>
+<p><strong>Yu hare min to kom mi.</strong><br /> Имаш по-малко (от тях) от мен.</p>
 <ul>
 	<li><strong>max kom</strong> - повече от</li>
 	<li><strong>min kom</strong> - по-малко от</li>
 </ul>
-<p><strong>Mi hare max kom cen kitabu.</strong><br> Имам повече от сто книги.</p>
-<p><strong>Yu hare min kom cen kitabu.</strong><br> Имаш по-малко от сто книги.</p>
+<p><strong>Mi hare max kom cen kitabu.</strong><br /> Имам повече от сто книги.</p>
+<p><strong>Yu hare min kom cen kitabu.</strong><br /> Имаш по-малко от сто книги.</p>
 <ul>
 	<li><strong>dennumer... kom...</strong> - толкова... колкото...</li>
 </ul>
-<p><strong>Te hare dennumer kitabu kom mi.</strong><br> Тя има толкова книги, колкото мен.</p>
+<p><strong>Te hare dennumer kitabu kom mi.</strong><br /> Тя има толкова книги, колкото мен.</p>
 <ul>
 	<li><strong>dennumer te/to kom...</strong> толкова (от тях) колкото...</li>
 </ul>
-<p><strong>Te hare dennumer to kom mi.</strong><br> Тя има толкова, колкото мен.</p>
+<p><strong>Te hare dennumer to kom mi.</strong><br /> Тя има толкова, колкото мен.</p>
 <ul>
 	<li><strong>denkwanti... kom...</strong> толкова... колкото...</li>
 </ul>
-<p><strong>Yu yam denkwanti risi kom mi.</strong><br> Ти ядеш толкова ориз, колкото мен.</p>
+<p><strong>Yu yam denkwanti risi kom mi.</strong><br /> Ти ядеш толкова ориз, колкото мен.</p>
 <ul>
 	<li><strong>denkwanti to kom...</strong> толкова (от него) колкото...</li>
 </ul>
-<p><strong>Yu yam denkwanti to kom mi.</strong><br> Ти ядеш толкова (от него), колкото мен.</p>
+<p><strong>Yu yam denkwanti to kom mi.</strong><br /> Ти ядеш толкова (от него), колкото мен.</p>
 <p>С глаголи:</p>
 <ul>
 	<li><strong>max... kom....</strong> или <strong>max kom...</strong> - повече от</li>
 </ul>
-<p><strong>Myaw max somno kom bwaw.</strong><br> или: <strong>Myaw somno max kom bwaw.</strong><br> Котката спи повече
-	от кучето.</p>
+<p><strong>Myaw max somno kom bwaw.</strong><br /> или: <strong>Myaw somno max kom bwaw.</strong><br /> Котката спи
+	повече от кучето.</p>
 <ul>
 	<li><strong>min... kom....</strong> или <strong>min kom...</strong> - по-малко от</li>
 </ul>
-<p><strong>Bwaw min somno kom myaw.</strong><br> или: <strong>Bwaw somno min kom myaw.</strong><br> Кучето спи по-малко
-	от котката.</p>
+<p><strong>Bwaw min somno kom myaw.</strong><br /> или: <strong>Bwaw somno min kom myaw.</strong><br /> Кучето спи
+	по-малко от котката.</p>
 <ul>
 	<li><strong>denkwanti... kom...</strong> или <strong>denkwanti kom...</strong> - толкова, колкото</li>
 </ul>
-<p><strong>Bebe denkwanti somno kom myaw.</strong><br> или: <strong>Bebe somno denkwanti kom myaw.</strong><br> Бебето
-	спи толкова, колкото котката.</p>
+<p><strong>Bebe denkwanti somno kom myaw.</strong><br /> или: <strong>Bebe somno denkwanti kom myaw.</strong><br />
+	Бебето спи толкова, колкото котката.</p>
 <p>За да изрази <em>колкото повече/по-малко..., толкова повече/по-малко...</em>, глобаса използва <strong>folki...
 		max/min, max/min</strong>.</p>
-<p><strong>Folki mi max doxo, mi max jixi.</strong><br> Колкото повече чета, толкова повече знам.</p>
+<p><strong>Folki mi max doxo, mi max jixi.</strong><br /> Колкото повече чета, толкова повече знам.</p>
 <p>Редът на тези фрази може да се сменя:</p>
-<p><strong>Mi max jixi, folki mi max doxo.</strong><br> Знам повече, колкото повече чета.</p>
+<p><strong>Mi max jixi, folki mi max doxo.</strong><br /> Знам повече, колкото повече чета.</p>
 <h3>Категории глаголи <span id="falelexili_klase"></span></h3>
 <p>Глаголите се дефинират в речника като <em>спомагателни</em>, <em>свързващи</em>, <em>преходни</em>,
 	<em>непреходни</em> или <em>амбитранзитивни</em>.</p>
@@ -324,20 +324,20 @@
 	<li><strong>multi</strong> - много</li>
 </ul>
 <p>Прилагателното/наречието предхожда съществителното/глагола, който модифицира.</p>
-<p><strong>Hinto sen <em>bon yam</em>.</strong><br> Това е <em>добра храна</em>.</p>
-<p><strong>Bebe <em>bon yam</em>.</strong><br> Бебето <em>яде добре</em>.</p>
-<p><strong>Uma <em>velosi pawbu</em>.</strong><br> Конят <em>бяга бързо</em>.</p>
+<p><strong>Hinto sen <em>bon yam</em>.</strong><br /> Това е <em>добра храна</em>.</p>
+<p><strong>Bebe <em>bon yam</em>.</strong><br /> Бебето <em>яде добре</em>.</p>
+<p><strong>Uma <em>velosi pawbu</em>.</strong><br /> Конят <em>бяга бързо</em>.</p>
 <p>Алтернативно, наречията могат да се появяват след глагола, но предхождани от прякото и непрякото допълнение, ако има
 	такива: Подлог - Глагол - (Пряко и непряко допълнение) - Наречие.</p>
-<p><strong>Bebe yam <em>bon</em>.</strong><br> Бебето яде <em>добре</em>.</p>
-<p><strong>Bwaw glu sui <em>velosi</em>.</strong><br> Кучето пие водата <em>бързо</em>.</p>
+<p><strong>Bebe yam <em>bon</em>.</strong><br /> Бебето яде <em>добре</em>.</p>
+<p><strong>Bwaw glu sui <em>velosi</em>.</strong><br /> Кучето пие водата <em>бързо</em>.</p>
 <p>Наречията могат да бъдат преместени и в началото на изречението, стига да има ясна пауза със запетая, за да се отдели
 	фразата от останалата част от изречението. Без паузата прилагателното/наречието може да бъде погрешно интерпретирано
 	като модифициращо подлога. </p>
-<p><strong><em>Velosi</em>, bwaw glu sui.</strong><br>
+<p><strong><em>Velosi</em>, bwaw glu sui.</strong><br />
 	<em>Бързо</em>, кучето пие водата.
 </p>
-<p><strong><em>Unyum</em>, te le idi cel banko.</strong><br>
+<p><strong><em>Unyum</em>, te le idi cel banko.</strong><br />
 	<em>Първо</em>, тя отиде до банката.
 </p>
 <h3>Прилагателно/наречие във фрази в началото на изречение</h3>
@@ -405,22 +405,22 @@
 </ol>
 <ul>
 	<li>
-		<p><strong>real</strong> - реален (<em>прил.</em>)<br>
+		<p><strong>real</strong> - реален (<em>прил.</em>)<br />
 			<strong>realya</strong> - реалност (<em>същ.</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>bimar</strong> - болен (<em>прил.</em>)<br>
+		<p><strong>bimar</strong> - болен (<em>прил.</em>)<br />
 			<strong>bimarya</strong> - болест (<em>същ.</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>huru</strong> - свободен (<em>прил.</em>)<br>
+		<p><strong>huru</strong> - свободен (<em>прил.</em>)<br />
 			<strong>huruya</strong> - свобода (<em>същ.</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>solo</strong> - сам (<em>прил.</em>)<br>
+		<p><strong>solo</strong> - сам (<em>прил.</em>)<br />
 			<strong>soloya</strong> - самота (<em>същ.</em>)
 		</p>
 	</li>
@@ -437,17 +437,17 @@
 	обозначаващи роднински връзки. </p>
 <ul>
 	<li>
-		<p><strong>matre</strong> - майка (<em>конкретно съществително</em>)<br>
+		<p><strong>matre</strong> - майка (<em>конкретно съществително</em>)<br />
 			<strong>matreya</strong> - майчинство (<em>абстрактно съществително</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>patre</strong> - баща (<em>конкретно съществително</em>)<br>
+		<p><strong>patre</strong> - баща (<em>конкретно съществително</em>)<br />
 			<strong>patreya</strong> - бащинство (<em>абстрактно съществително</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>doste</strong> - приятел (<em>конкретно съществително</em>)<br>
+		<p><strong>doste</strong> - приятел (<em>конкретно съществително</em>)<br />
 			<strong>dosteya</strong> - приятелство (<em>абстрактно съществително</em>)
 		</p>
 	</li>
@@ -457,17 +457,17 @@
 <ul>
 	<li>
 		<p><strong>imaje</strong> - образ/картина (<em>конкретно съществително</em>), представям си
-			(<em>глагол</em>)<br>
+			(<em>глагол</em>)<br />
 			<strong>imajeya</strong> - въображение (<em>абстрактно съществително</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>magneto</strong> - магнит (<em>конкретно съществително</em>), привличам (<em>глагол</em>)<br>
+		<p><strong>magneto</strong> - магнит (<em>конкретно съществително</em>), привличам (<em>глагол</em>)<br />
 			<strong>magnetoya</strong> - привличане (<em>абстрактно съществително</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>turi</strong> - пътуване (<em>броимо съществително</em>), пътувам (<em>глагол</em>)<br>
+		<p><strong>turi</strong> - пътуване (<em>броимо съществително</em>), пътувам (<em>глагол</em>)<br />
 			<strong>turiya</strong> - туризъм (<em>неброимо съществително</em>)
 		</p>
 	</li>
@@ -476,27 +476,27 @@
 	<strong>-ya</strong> се използва за образуване на абстрактното съществително.</p>
 <ul>
 	<li>
-		<p><strong>oko</strong> - око (<em>конкретно съществително</em>), виждам, гледам (<em>глагол</em>)<br>
+		<p><strong>oko</strong> - око (<em>конкретно съществително</em>), виждам, гледам (<em>глагол</em>)<br />
 			<strong>okoya</strong> - зрение (<em>абстрактно съществително</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>ore</strong> - ухо (<em>конкретно съществително</em>), чувам, слушам (<em>глагол</em>)<br>
+		<p><strong>ore</strong> - ухо (<em>конкретно съществително</em>), чувам, слушам (<em>глагол</em>)<br />
 			<strong>oreya</strong> - слух (<em>абстрактно съществително</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>nasa</strong> - нос (<em>конкретно съществително</em>), мириша (<em>глагол</em>)<br>
+		<p><strong>nasa</strong> - нос (<em>конкретно съществително</em>), мириша (<em>глагол</em>)<br />
 			<strong>nasaya</strong> - обоняние (<em>абстрактно съществително</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>xeto</strong> - език (<em>конкретно съществително</em>), вкусвам (<em>глагол</em>)<br>
+		<p><strong>xeto</strong> - език (<em>конкретно съществително</em>), вкусвам (<em>глагол</em>)<br />
 			<strong>xetoya</strong> - вкус (<em>абстрактно съществително</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>pifu</strong> - кожа (<em>конкретно съществително</em>), докосвам (<em>глагол</em>)<br>
+		<p><strong>pifu</strong> - кожа (<em>конкретно съществително</em>), докосвам (<em>глагол</em>)<br />
 			<strong>pifuya</strong> - допир (<em>абстрактно съществително</em>)
 		</p>
 	</li>
@@ -520,7 +520,7 @@
 </ul>
 <p>Представката <strong>du-</strong> се използва и за <em>продължително/обичайно глаголно действие</em>. Вижте <a
 		href="./falelexili-morfo.html">Глаголни форми</a>.</p>
-<p><em>Представката <strong>du-</strong> е съкратена от <strong>dure</strong> (продължителност).<br> Етимология на
+<p><em>Представката <strong>du-</strong> е съкратена от <strong>dure</strong> (продължителност).<br /> Етимология на
 		<strong>dure</strong>: английски, френски, немски и испански</em></p>
 <h3>Наставка за съществително/глагол -gi <span id="xafefikso_-gi"></span></h3>
 <p>Наставката <strong>-gi</strong> може да се прилага към прилагателни, глаголи и съществителни.</p>
@@ -528,17 +528,17 @@
 <p>Наставката <strong>-gi</strong> превръща прилагателните в преходни глаголи.</p>
 <ul>
 	<li>
-		<p><strong>bala</strong> - силен<br>
+		<p><strong>bala</strong> - силен<br />
 			<strong>balagi</strong> - усилвам
 		</p>
 	</li>
 	<li>
-		<p><strong>pul</strong> - пълен<br>
+		<p><strong>pul</strong> - пълен<br />
 			<strong>pulgi</strong> - пълня
 		</p>
 	</li>
 	<li>
-		<p><strong>mor</strong> - мъртъв<br>
+		<p><strong>mor</strong> - мъртъв<br />
 			<strong>morgi</strong> - убивам
 		</p>
 	</li>
@@ -549,12 +549,12 @@
 	(както е показано по-горе, под <a href="./inharelexi.html#falelexili_klase">Категории глаголи</a>).</p>
 <ul>
 	<li>
-		<p><strong>haha</strong> - смея се<br>
+		<p><strong>haha</strong> - смея се<br />
 			<strong>hahagi</strong> - разсмивам (<em>карам да се смее</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>yam</strong> - ям<br>
+		<p><strong>yam</strong> - ям<br />
 			<strong>yamgi</strong> - храня (<em>карам да яде</em>)
 		</p>
 	</li>
@@ -563,17 +563,17 @@
 <p>Наставката <strong>-gi</strong> означава <em>карам да стана</em>, когато се добави към съществителни. </p>
 <ul>
 	<li>
-		<p><strong>zombi</strong> - зомби<br>
+		<p><strong>zombi</strong> - зомби<br />
 			<strong>zombigi</strong> - превръщам в зомби
 		</p>
 	</li>
 	<li>
-		<p><strong>korbani</strong> - жертва<br>
+		<p><strong>korbani</strong> - жертва<br />
 			<strong>korbanigi</strong> - превръщам в жертва
 		</p>
 	</li>
 </ul>
-<p><em>Наставката <strong>-gi</strong> е съкратена от <strong>gibe</strong> (давам).<br> Етимология на
+<p><em>Наставката <strong>-gi</strong> е съкратена от <strong>gibe</strong> (давам).<br /> Етимология на
 		<strong>gibe</strong>: английски (give), немски (geben, gibt) и мандарин (给 “gěi”)</em></p>
 <h3>Наставка за съществително/глагол -cu <span id="xafefikso_-cu"></span></h3>
 <p>Наставката <strong>-cu</strong> може да се прилага към прилагателни, глаголи и съществителни.</p>
@@ -581,12 +581,12 @@
 <p>Наставката <strong>-cu</strong> (ставам) превръща прилагателните в непреходни глаголи.</p>
 <ul>
 	<li>
-		<p><strong>roso</strong> - червен<br>
+		<p><strong>roso</strong> - червен<br />
 			<strong>rosocu</strong> - изчервявам се (<em>ставам червен</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>mor</strong> - мъртъв<br>
+		<p><strong>mor</strong> - мъртъв<br />
 			<strong>morcu</strong> - умирам (<em>ставам мъртъв</em>)
 		</p>
 	</li>
@@ -597,12 +597,12 @@
 	<strong>-cu</strong> е необходима, за да се направи разлика. </p>
 <ul>
 	<li>
-		<p><strong>gami</strong> - съпруг/а (<em>съществително</em>); женя се (<em>глагол</em>)<br>
+		<p><strong>gami</strong> - съпруг/а (<em>съществително</em>); женя се (<em>глагол</em>)<br />
 			<strong>gamicu</strong> - сватба (<em>съществително</em>); женя се (<em>глагол</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>side</strong> - сядам (<em>седя или карам да седне</em>)<br>
+		<p><strong>side</strong> - сядам (<em>седя или карам да седне</em>)<br />
 			<strong>sidecu</strong> - сядам (<em>заемам седнало положение</em>)
 		</p>
 	</li>
@@ -611,17 +611,17 @@
 <p>Наставката <strong>-cu</strong> означава <em>ставам</em>, когато се добави към съществителни. </p>
 <ul>
 	<li>
-		<p><strong>zombi</strong> - зомби<br>
+		<p><strong>zombi</strong> - зомби<br />
 			<strong>zombicu</strong> - превръщам се в зомби
 		</p>
 	</li>
 	<li>
-		<p><strong>ixu</strong> - (човешки) възрастен<br>
+		<p><strong>ixu</strong> - (човешки) възрастен<br />
 			<strong>ixucu</strong> - ставам възрастен, навършвам пълнолетие
 		</p>
 	</li>
 </ul>
-<p><em>Наставката <strong>-cu</strong> е съкратена от <strong>cudu</strong> (вземам, получавам, придобивам)<br>
+<p><em>Наставката <strong>-cu</strong> е съкратена от <strong>cudu</strong> (вземам, получавам, придобивам)<br />
 		Етимология на <strong>cudu</strong>: мандарин (取得 "qǔdé"), корейски (취득 “chwideug”)</em></p>
 <h3>Наставка за прилагателно/наречие -li <span id="xafefikso_-li"></span></h3>
 <p>В глобаса прилагателните/наречията се образуват от съществителни с помощта на различни наставки. Вижте пълния списък
@@ -629,22 +629,22 @@
 	<strong>-li</strong> (<em>-ски, -ен, -ов</em>).</p>
 <ul>
 	<li>
-		<p><strong>musika</strong> - музика<br>
+		<p><strong>musika</strong> - музика<br />
 			<strong>musikali</strong> - музикален
 		</p>
 	</li>
 	<li>
-		<p><strong>denta</strong> - зъб<br>
+		<p><strong>denta</strong> - зъб<br />
 			<strong>dentali</strong> - зъбен
 		</p>
 	</li>
 	<li>
-		<p><strong>dongu</strong> - изток<br>
+		<p><strong>dongu</strong> - изток<br />
 			<strong>donguli</strong> - източен
 		</p>
 	</li>
 	<li>
-		<p><strong>Franse</strong> - Франция<br>
+		<p><strong>Franse</strong> - Франция<br />
 			<strong>Franseli</strong> - френски
 		</p>
 	</li>
@@ -658,12 +658,12 @@
 		достатъчно или повече от достатъчно</em>.</p>
 <ul>
 	<li>
-		<p><strong>jawgu</strong> - грижа, грижа се<br>
+		<p><strong>jawgu</strong> - грижа, грижа се<br />
 			<strong>jawgupul</strong> - внимателен
 		</p>
 	</li>
 	<li>
-		<p><strong>hatari</strong> - опасност<br>
+		<p><strong>hatari</strong> - опасност<br />
 			<strong>hataripul</strong> - опасен
 		</p>
 	</li>
@@ -678,27 +678,27 @@
 	Вместо това те функционират само като прилагателни.</p>
 <ul>
 	<li>
-		<p><strong>somno</strong> - сън<br>
+		<p><strong>somno</strong> - сън<br />
 			<strong><em>somnone</em> meliyen</strong> - <em>спящата</em> красавица
 		</p>
 	</li>
 	<li>
-		<p><strong>anda</strong> - ходя<br>
+		<p><strong>anda</strong> - ходя<br />
 			<strong><em>andane</em> moryen</strong> - <em>ходещите</em> мъртви
 		</p>
 	</li>
 	<li>
-		<p><strong>danse</strong> - танцувам<br>
+		<p><strong>danse</strong> - танцувам<br />
 			<strong><em>dansene</em> uma</strong> - <em>танцуващият</em> кон
 		</p>
 	</li>
 	<li>
-		<p><strong>interes</strong> - интерес<br>
+		<p><strong>interes</strong> - интерес<br />
 			<strong><em>interesne</em> kitabu</strong> - <em>интересна</em> книга
 		</p>
 	</li>
 	<li>
-		<p><strong>amusa</strong> - забавлявам, забавен<br>
+		<p><strong>amusa</strong> - забавлявам, забавен<br />
 			<strong><em>amusane</em> filme</strong> - <em>забавен</em> филм
 		</p>
 	</li>
@@ -708,24 +708,24 @@
 <h3>Активни прилагателни в началото на изречение</h3>
 <p>Активните прилагателни, които се появяват в началото на изречение, могат алтернативно да бъдат изразени като
 	предложни фрази, използващи инфинитивната форма на глагола.</p>
-<p><strong><em>Doxone,</em> nini le xorsomno.</strong><br>
+<p><strong><em>Doxone,</em> nini le xorsomno.</strong><br />
 	<em>Четейки,</em> детето заспа.
 </p>
 <p><em>или</em></p>
-<p><strong><em>Fe na doxo,</em> nini le xorsomno.</strong><br>
-	<em>Четейки,</em> детето заспа.<br>
-	<em>или</em><br>
-	<strong><em>Dur na doxo,</em> nini le xorsomno.</strong><br>
+<p><strong><em>Fe na doxo,</em> nini le xorsomno.</strong><br />
+	<em>Четейки,</em> детето заспа.<br />
+	<em>или</em><br />
+	<strong><em>Dur na doxo,</em> nini le xorsomno.</strong><br />
 	<em>Докато четеше,</em> детето заспа.
 </p>
 <p>Тази конструкция е полезна особено когато фразата включва пряко допълнение, тъй като, за разлика от <em>сегашното
 		деятелно причастие</em> в българския език, <em>активните прилагателни</em> в глобаса не могат да функционират
 	като глаголи.</p>
-<p><strong><em>Dur na doxo sesu preferido kitabu,</em> nini le xorsomno.</strong><br>
+<p><strong><em>Dur na doxo sesu preferido kitabu,</em> nini le xorsomno.</strong><br />
 	<em>Докато четеше любимата си книга,</em> детето заспа.
 </p>
 <p>Естествено, тези фрази могат да бъдат изразени и като пълни подчинени изречения, а не като предложни фрази.</p>
-<p><strong><em>Dur te le doxo (sesu preferido kitabu),</em> nini le xorsomno.</strong><br>
+<p><strong><em>Dur te le doxo (sesu preferido kitabu),</em> nini le xorsomno.</strong><br />
 	<em>Докато той четеше (любимата си книга),</em> детето заспа.
 </p>
 <h3>Пасивни прилагателни</h3>
@@ -768,17 +768,17 @@
 	добавят наставката <strong>-mo</strong>. Сравнете следните двойки фрази.</p>
 <ul>
 	<li>
-		<p><strong>perfeto blue oko</strong> - перфектни сини очи (<em>сини очи, които са перфектни</em>)<br>
+		<p><strong>perfeto blue oko</strong> - перфектни сини очи (<em>сини очи, които са перфектни</em>)<br />
 			<strong>perfetomo blue oko</strong> - съвършено сини очи (<em>очи, които са съвършено сини</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>naturali syahe tofa</strong> - естествена черна коса (<em>не перука</em>)<br>
+		<p><strong>naturali syahe tofa</strong> - естествена черна коса (<em>не перука</em>)<br />
 			<strong>naturalimo syahe tofa</strong> - естествено черна коса (<em>не боядисана</em>)
 		</p>
 	</li>
 	<li>
-		<p><strong>sotikal doxone nini</strong> - тихо четящо дете<br>
+		<p><strong>sotikal doxone nini</strong> - тихо четящо дете<br />
 			<strong>sotikalmo doxone nini</strong> - дете, четящо тихо
 		</p>
 	</li>
