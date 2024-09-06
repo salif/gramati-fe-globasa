@@ -1,0 +1,576 @@
+<!DOCTYPE HTML>
+<html lang="bg" class="rust-clr" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Словоред: Структура на изречението - Граматика на глобаса</title>
+
+        <!-- Custom HTML head -->
+        
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="Български превод на граматиката на езика глобаса, направен с помощта на езиковия модел Клод: Словоред: Структура на изречението">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="gramati.html"><strong aria-hidden="true">1.</strong> Въведение</a></li><li class="chapter-item expanded "><a href="SUMMARY.html"><strong aria-hidden="true">2.</strong> Съдържание</a></li><li class="chapter-item expanded "><a href="abece-ji-lafuzu.html"><strong aria-hidden="true">3.</strong> Азбука и произношение</a></li><li class="chapter-item expanded "><a href="inharelexi.html"><strong aria-hidden="true">4.</strong> Смислови думи: Съществителни, глаголи, прилагателни и наречия</a></li><li class="chapter-item expanded "><a href="gramatilexi.html"><strong aria-hidden="true">5.</strong> Служебни думи: Съюзи, предлози и функционални наречия</a></li><li class="chapter-item expanded "><a href="pornamelexi.html"><strong aria-hidden="true">6.</strong> Местоимения</a></li><li class="chapter-item expanded "><a href="tabellexi.html"><strong aria-hidden="true">7.</strong> Съотносителни думи</a></li><li class="chapter-item expanded "><a href="numer-ji-mesi.html"><strong aria-hidden="true">8.</strong> Числа и месеци на годината</a></li><li class="chapter-item expanded "><a href="falelexili-morfo.html"><strong aria-hidden="true">9.</strong> Глаголни форми</a></li><li class="chapter-item expanded "><a href="jumlemonli-estrutur.html"><strong aria-hidden="true">10.</strong> Словоред: Структура на фразата</a></li><li class="chapter-item expanded "><a href="jumleli-estrutur.html" class="active"><strong aria-hidden="true">11.</strong> Словоред: Структура на изречението</a></li><li class="chapter-item expanded "><a href="lexikostrui.html"><strong aria-hidden="true">12.</strong> Словообразуване</a></li><li class="chapter-item expanded "><a href="ofkatado-morfomon.html"><strong aria-hidden="true">13.</strong> Съкратени морфеми</a></li><li class="chapter-item expanded "><a href="lexiklase.html"><strong aria-hidden="true">14.</strong> Класове думи</a></li><li class="chapter-item expanded "><a href="pimpan-logaxey.html"><strong aria-hidden="true">15.</strong> Често използвани фрази и изрази</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust clr</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha clr</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Граматика на глобаса</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/bg-claude/src/jumleli-estrutur.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="Словоред-Структура-на-изречението"><a class="header" href="#Словоред-Структура-на-изречението">Словоред: Структура на изречението</a></h1>
+<p></p>
+<h2 id="СПО"><a class="header" href="#СПО">СПО</a></h2>
+<p>Типичният словоред във фразите в глобаса е <em>Субект-Предикат-Обект</em>.</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td colspan="3"><b>Структура на изречението СПО</b></td>
+		</tr>
+		<tr>
+			<th>Субект</th>
+			<th>Предикат</th>
+			<th>Обект</th>
+		</tr>
+		<tr>
+			<td><b>patre</b><br>баща</td>
+			<td><b>mwa</b><br>целува</td>
+			<td><b>matre</b><br>майка</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="font-size:125%;"><b>Patre mwa matre.</b><br>Бащата целува майката.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="Маркер-за-пряко-допълнение"><a class="header" href="#Маркер-за-пряко-допълнение">Маркер за пряко допълнение</a></h2>
+<p>Освен С-П-О, глобаса позволява още две опции, като субектът винаги предхожда глагола: С-О-П и О-С-П. Този гъвкав
+	словоред е възможен благодарение на маркера за пряко допълнение <strong>el</strong>, който по същество функционира
+	като предлог. Както е илюстрирано по-долу, <strong>el</strong> се използва при С-О-П и О-С-П, които обикновено се
+	използват само в поезията и текстовете на песни.</p>
+<ul>
+	<li><strong>Patre mwa matre.</strong> - (С-П-О) Бащата целува майката.</li>
+	<li><strong>Patre el matre mwa.</strong> - (С-О-П) Бащата целува майката.</li>
+	<li><strong>El matre patre mwa.</strong> - (О-С-П) Бащата целува майката.</li>
+</ul>
+<p><em>Етимология на <strong>el</strong>: корейски (을 "eul")</em></p>
+<h2 id="Копула"><a class="header" href="#Копула">Копула</a></h2>
+<p>Глаголът <strong>sen</strong> (<em>съм</em>), известен като <em>копула</em>, функционира като маркер за предикат с
+	фрази, различни от предикативни глаголни фрази, свързвайки субекта със съществителни фрази, номинални (инфинитивни)
+	глаголни фрази, прилагателни фрази, предложни фрази и подчинени изречения.</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td colspan="3"><b>Структури на изречения с копула</b></td>
+		</tr>
+		<tr>
+			<th>Субект</th>
+			<th>Копула</th>
+			<th>Съществителна фраза</th>
+		</tr>
+		<tr>
+			<td><b>nini</b><br>дете (момче или момиче)</td>
+			<td><b>sen </b><br>е</td>
+			<td><b>misu bete</b><br>моето дете</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="font-size:125%;"><b>Nini sen misu bete.</b><br>Детето е моето дете.</td>
+		</tr>
+		<tr>
+			<th>Субект</th>
+			<th>Копула</th>
+			<th>Инфинитивна глаголна фраза</th>
+		</tr>
+		<tr>
+			<td><b>cele</b><br>цел</td>
+			<td><b>sen</b><br>е</td>
+			<td><b>na triunfa</b><br>да победя<br></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="font-size:125%;"><b>Cele sen na triunfa.</b><br>Целта е да победя.</td>
+		</tr>
+		<tr>
+			<th>Субект</th>
+			<th>Копула</th>
+			<th>Прилагателна фраза</th>
+		</tr>
+		<tr>
+			<td><b>uma</b><br>кон</td>
+			<td><b>sen </b><br>е</td>
+			<td><b>perfetomo syahe</b><br>перфектно черен<br></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="font-size:125%;"><b>Uma sen perfetomo syahe.</b><br>Конят е перфектно черен.</td>
+		</tr>
+		<tr>
+			<th>Субект</th>
+			<th>Копула</th>
+			<th>Предложна фраза</th>
+		</tr>
+		<tr>
+			<td><b>myaw</b><br>котка</td>
+			<td><b>sen</b><br>е</td>
+			<td><b>in sanduku</b><br>в кутията</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="font-size:125%;"><b>Myaw sen in sanduku.</b><br>Котката е в кутията.</td>
+		</tr>
+		<tr>
+			<th>Субект</th>
+			<th>Копула</th>
+			<th>Подчинено изречение</th>
+		</tr>
+		<tr>
+			<td><b>yusu problema</b><br>твоят проблем</td>
+			<td><b>sen </b><br>е</td>
+			<td><b>ki yu godo fikir</b><br>че мислиш твърде много<br></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="font-size:125%;"><b>Yusu problema sen ki yu godo fikir.</b><br>Твоят проблем е, че
+				мислиш твърде много.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Въпросителните думи <strong>keloka</strong> и <strong>kewatu</strong>, както и всички техни корелати също се свързват
+	със субектите, използвайки <em>копулата</em>.</p>
+<p><strong>Myaw sen keloka?</strong><br>Къде е котката?</p>
+<p><strong>Filme sen kewatu?</strong><br>Кога е филмът?</p>
+<p>В неформалния език копулата може да бъде пропусната при свързване на прилагателни фрази.</p>
+<p><strong>Uma (sen) perfetomo syahe.</strong><br>Конят е перфектно черен.</p>
+<h2 id="Инфинитивни-глаголни-фрази"><a class="header" href="#Инфинитивни-глаголни-фрази">Инфинитивни глаголни фрази <span id="nafalelexili_jumlemon"></span></a></h2>
+<p>Инфинитивните глаголни фрази се маркират с частицата <strong>na</strong>, последвана от глагола. Те се използват в
+	следните структури на изречението.</p>
+<h3 id="Допълнения-към-съществителниглаголи"><a class="header" href="#Допълнения-към-съществителниглаголи">Допълнения към съществителни/глаголи</a></h3>
+<p>Инфинитивната форма на глагола трябва да се използва в допълнения към съществителни и глаголи (преходни, непреходни
+	или <em>статични</em>).</p>
+<ul>
+	<li>Допълнения към глаголи</li>
+</ul>
+<p><strong>Mi suki na lala.</strong><br>Обичам да пея.</p>
+<p><strong>Mi musi na ergo.</strong><br>Трябва да работя. <em>или</em> Налага ми се да работя.</p>
+<p><strong>Mi no abil na danse.</strong><br>Не мога да танцувам.</p>
+<p><strong>Gitara sen asan na soti.</strong><br>Китарата е лесна за свирене.</p>
+<p><strong>Mi sen jumbi na idi.</strong><br>Готов съм да тръгвам.</p>
+<ul>
+	<li>Допълнения към съществителни</li>
+</ul>
+<p><strong>misu xiwon na oko yu</strong> - моето желание да те видя</p>
+<h3 id="Номинални-глаголни-фрази"><a class="header" href="#Номинални-глаголни-фрази">Номинални глаголни фрази</a></h3>
+<p>Глаголните фрази, функциониращи на мястото на съществителни фрази, са известни като <em>номинални глаголни фрази</em>
+	и изискват инфинитивната форма на глагола.</p>
+<ul>
+	<li>С изречения с <em>копула</em> (<strong>sen</strong>), както е показано по-горе:</li>
+</ul>
+<p><strong>Cele sen na triunfa.</strong><br>Целта е да победя.</p>
+<p>В тези изречения инфинитивните глаголни фрази в ролята на субект могат да бъдат преместени в края на изречението.
+	Въпреки това, местоимението <strong>to</strong> трябва да заеме мястото на инфинитивната глаголна фраза и трябва да
+	се добави запетая преди преместената фраза.</p>
+<p><strong>Na sen nensabar sen problem.</strong><br>Да бъдеш нетърпелив е проблем.<br>
+	<em>или</em><br>
+	<strong>To sen problem, na sen nensabar.</strong><br>Проблем е да бъдеш нетърпелив.
+</p>
+<p><strong>Na soti gitara sen asan.</strong><br>Да свириш на китара е лесно. <em>или</em> Свиренето на китара е
+	лесно.<br>
+	<em>или</em><br>
+	<strong>To sen asan, na soti gitara.</strong><br>Лесно е да свириш на китара.
+</p>
+<p><strong>Na suyon in bahari sen amusane.</strong><br>Да плуваш в морето е забавно. <em>или</em> Плуването в морето е
+	забавно.<br>
+	<em>или</em><br>
+	<strong>To sen amusane, na suyon in bahari.</strong><br>Забавно е да плуваш в морето.
+</p>
+<ul>
+	<li>Като допълнение към предлог:</li>
+</ul>
+<p><strong>fe tayti fe na danse</strong> - Вместо да танцувам</p>
+<p><strong>Te le sokutu dur na danse.</strong><br>Той/тя падна докато танцуваше.</p>
+<p><strong>Fe na doxo, nini le xorsomno.</strong><br>Четейки, момчето заспа.</p>
+<h2 id="Предложни-фрази"><a class="header" href="#Предложни-фрази">Предложни фрази <span id="plasilexili_jumlemon"></span></a></h2>
+<p>Глобаса, подобно на повечето езици със структура СПО, използва предлози вместо <a
+		href="https://en.wikipedia.org/wiki/Preposition_and_postposition">следлози</a>. Предложните фрази винаги следват
+	непосредствено съществителните фрази, които модифицират.</p>
+<p><strong>Myaw <em>in sanduku</em> somno.</strong><br>Котката <em>в кутията</em> спи.</p>
+<p>Предложните фрази, които модифицират глаголи, се радват на относително свободен словоред и могат да бъдат преместени
+	навсякъде в изречението. Когато се преместят преди глагола, се използват запетаи, както се вижда по-долу.</p>
+<p><strong>Myaw yam <em>in sanduku</em> maux.</strong><br>
+	<strong>Myaw yam maux <em>in sanduku</em>.</strong><br>
+	<strong>Myaw, <em>in sanduku</em>, yam maux.</strong><br>
+	<strong><em>In sanduku,</em> myaw yam maux.</strong><br>Котката яде мишката <em>в кутията</em>.
+</p>
+<p>За да се укаже позиция без да се посочва местоположение, предлозите се превръщат в съществителни чрез добавяне на
+	<strong>-ya</strong>, за да се образуват предложни фрази с <strong>fe</strong>.</p>
+<p><strong>Myaw sen <em>fe inya.</em></strong><br>Котката е <em>вътре</em>.</p>
+<p><strong>Myaw <em>fe inya</em> somno.</strong><br>Котката <em>вътре</em> спи.</p>
+<p><strong><em>Fe inya</em>, myaw somno.</strong><br>
+	<em>Вътре</em>, котката спи.
+</p>
+<h3 id="Непряко-допълнение"><a class="header" href="#Непряко-допълнение">Непряко допълнение</a></h3>
+<p>Непрякото допълнение винаги се маркира с предлога <strong>tas</strong> (на, за). Фразите с непряко допълнение,
+	подобно на фразите с пряко допълнение, маркирани с <strong>el</strong>, могат да бъдат премествани без необходимост
+	от указване на движението с помощта на запетаи.</p>
+<p><strong>Mi gibe kitabu <em>tas nini</em>.</strong><br>Давам книгата <em>на детето</em>.</p>
+<p><strong>Mi gibe <em>tas nini</em> kitabu.</strong><br>Давам <em>на детето</em> книгата.</p>
+<p><strong>Mi gibe kitabu <em>tas te</em>.</strong><br>Давам книгата <em>на него/нея</em>.</p>
+<p><strong>Mi gibe <em>tas te</em> kitabu.</strong><br>Давам <em>на него/нея</em> книгата.</p>
+<p><strong>Mi gibe to <em>tas nini</em>.</strong><br>Давам я <em>на детето</em>.</p>
+<p><strong>Mi gibe to <em>tas te</em>.</strong><br>Давам я <em>на него/нея</em>.</p>
+<p><strong><em>Tas nini</em> mi gibe kitabu.</strong><br><em>На детето</em> давам книга.</p>
+<p><strong><em>Tas te</em> mi gibe to.</strong><br><em>На него/нея</em> я давам.</p>
+<h3 id="Фразови-предлози"><a class="header" href="#Фразови-предлози">Фразови предлози</a></h3>
+<p>Глобаса използва редица фразови предлози, използвайки <strong>fe</strong>, последвано от съществително, последвано от
+	<strong>de</strong>.</p>
+<p><strong>Baytu <em>fe kapi de</em> liljabal sen kimapul.</strong><br>Къщите <em>на върха на</em> хълма са скъпи. </p>
+<p>За да се укаже позиция без препратка към местоположение, фразовите предлози просто изпускат <strong>de</strong>. </p>
+<p><strong>Baytu <em>fe kapi</em> sen kimapul.</strong><br>Къщите <em>на върха</em> са скъпи.</p>
+<p><strong><em>Fe kapi</em>, baytu sen kimapul.</strong><br><em>На върха</em>, къщите са скъпи.</p>
+<p><strong>Kimapul baytu sen <em>fe kapi</em>.</strong><br>Скъпите къщи са <em>на върха</em>.</p>
+<h2 id="Предложни-глаголи"><a class="header" href="#Предложни-глаголи">Предложни глаголи <span id="plasilexili_falelexi"></span></a></h2>
+<p>В глобаса предлозите могат да се превърнат в глаголи, използвайки наставката <strong>-ya</strong>, като алтернатива
+	на свързването на предложни фрази със субекти, използвайки копулата, както беше показано по-горе. </p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td colspan="3"><b>Структура на изречението с предложен глагол</b></td>
+		</tr>
+		<tr>
+			<th>Субект</th>
+			<th>Предложен глагол</th>
+			<th>Съществителна фраза</th>
+		</tr>
+		<tr>
+			<td><b>myaw</b><br>котка</td>
+			<td><b>inya</b><br>е вътре</td>
+			<td><b>sanduku</b><br>кутия</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="font-size:125%;"><b>Myaw inya sanduku.</b><br>Котката е вътре в кутията.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Предложните глаголи може да бъдат или да не бъдат последвани от съществителна фраза.</p>
+<p><strong>Myaw inya.</strong><br>Котката е вътре.</p>
+<p>Съществителните, използвани във фразови предлози, могат също да се използват като глаголи по същия начин като
+	предложните глаголи.</p>
+<p><strong>Myaw ruke sanduku.</strong><br>Котката е зад кутията.</p>
+<p><strong>Myaw ruke.</strong><br>Котката е отзад.</p>
+<h3 id="leya-и-xaya"><a class="header" href="#leya-и-xaya">leya и xaya</a></h3>
+<p>Съществителните <strong>leya</strong> и <strong>xaya</strong> също функционират като глаголни съответствия на
+	предлозите <strong>lefe</strong> и <strong>xafe</strong>. С други думи, <em>lefeya</em> и <em>xafeya</em> не се
+	използват, точно както <strong>leli</strong> и <strong>xali</strong> се използват вместо <em>lefeli</em> и
+	<em>xafeli</em>.</p>
+<ul>
+	<li><strong>leya</strong> - (с) миналото; (г) бъда преди, идвам преди, предшествам</li>
+	<li><strong>xaya</strong> - (с) бъдещето; (г) бъда след, идвам след, следвам</li>
+</ul>
+<h3 id="feya"><a class="header" href="#feya">feya</a></h3>
+<p>Предложният глагол <strong>feya</strong> (бъда в/на) може да се използва по избор като <em>копула</em> с корелатите
+	<strong>-loka</strong> и <strong>-watu</strong>.</p>
+<p><strong>Kastilo feya keloka?</strong><br>Къде се намира замъкът?</p>
+<h2 id="hay"><a class="header" href="#hay">hay</a></h2>
+<p>Глаголът <strong>hay</strong> се използва за изразяване на <em>има</em>. Това е единственият глагол в глобаса, който
+	позволява субектът да дойде или преди, или след глагола. В различните езици субектът на еквивалента на
+	<strong>hay</strong> обикновено идва след глагола.</p>
+<p><strong>Multi kitabu hay in kitabudom.</strong><br>
+	<em>или</em><br>
+	<strong>Hay multi kitabu in kitabudom.</strong><br>Има много книги в библиотеката.
+</p>
+<p>Глаголът <strong>hay</strong> се използва също в изречения, свързани с атмосферни условия, като следните:</p>
+<p><strong>Hay barix.</strong> или <strong>To barix.</strong><br>"Има дъжд." или "То вали."<br>Вали.</p>
+<p><strong>Hay termo.</strong> или <strong>To sen termopul.</strong><br>"Има топлина." или "То е топло."<br>Топло е.
+</p>
+<h2 id="Съюз-ki"><a class="header" href="#Съюз-ki">Съюз ki</a></h2>
+<p>Съюзът <strong>ki</strong> се използва, когато подчинено изречение (<em>изречение, вградено в главното
+		изречение</em>) функционира на мястото на пряко допълнение или подлог.</p>
+<h3 id="Подчинено-изречение-на-мястото-на-пряко-допълнение"><a class="header" href="#Подчинено-изречение-на-мястото-на-пряко-допълнение">Подчинено изречение на мястото на пряко допълнение</a></h3>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td colspan="2"><b>Структура на изречението с подчинено изречение на мястото на пряко допълнение</b>
+			</td>
+		</tr>
+		<tr>
+			<th>Подлог и сказуемо</th>
+			<th>Подчинено изречение на мястото на пряко допълнение</th>
+		</tr>
+		<tr>
+			<td><b>mi jixi</b><br>Аз знам</td>
+			<td><b>ki yu le xuli mobil</b><br>(че) ти поправи кола</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.</b><br>Знам, (че) ти поправи колата.
+			</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="Подчинено-изречение-на-мястото-на-подлог"><a class="header" href="#Подчинено-изречение-на-мястото-на-подлог">Подчинено изречение на мястото на подлог</a></h3>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td colspan="2"><b>Структура на изречението с подчинено изречение на мястото на подлог</b></td>
+		</tr>
+		<tr>
+			<th>Подчинено изречение на мястото на подлог</th>
+			<th>Сказуемо</th>
+		</tr>
+		<tr>
+			<td><b>ki yu le xuli mobil </b><br>Че ти поправи колата</td>
+			<td><b>no surprisa mi</b><br>не ме изненадва</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.</b><br>Че ти поправи колата
+				не ме изненадва.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Подчинените изречения с <strong>ki</strong> в ролята на подлог могат да бъдат преместени в края на изречението.
+	Въпреки това, местоимението <strong>to</strong> трябва да заеме мястото на подчиненото изречение с
+	<strong>ki</strong> и трябва да се добави запетая преди споменатата фраза.</p>
+<p><strong>To no surprisa mi, ki yu le xuli mobil.</strong><br>Не ме изненадва, че ти поправи колата.</p>
+<h2 id="Въпроси"><a class="header" href="#Въпроси">Въпроси</a></h2>
+<p>В глобаса словоредът на въпросителните изречения е същият като този на техните съответни съобщителни изречения. </p>
+<h3 id="Въпроси-с-отговор-дане"><a class="header" href="#Въпроси-с-отговор-дане">Въпроси с отговор да/не</a></h3>
+<p>Въпросите с отговор да/не се образуват чрез добавяне на частицата <strong>kam</strong> в началото на съответното
+	съобщително изречение. Това е илюстрирано в следните двойки изречения с (1) съобщително изречение и (2) съответния
+	въпрос с отговор да/не.</p>
+<p>(1) <strong>Yu sen yamkal.</strong><br>Ти си гладен.</p>
+<p>(2) <strong>Kam yu sen yamkal?</strong><br>Гладен ли си?</p>
+<p>(1) <strong>Yu yam mahimaso.</strong><br>Ти ядеш риба.</p>
+<p>(2) <strong>Kam yu yam mahimaso?</strong><br>Ядеш ли риба?</p>
+<h3 id="Въпросителни-думи"><a class="header" href="#Въпросителни-думи">Въпросителни думи <span id="swal_yon_ke-"></span></a></h3>
+<p>По същия начин, въпросите с въпросителни думи запазват типичния словоред. Това е илюстрирано в следната двойка
+	примерни изречения с (1) въпрос, чийто словоред отразява този на (2) възможен отговор.<br> (1) <strong>Yusu name sen
+		keto?</strong><br>"Твоето име е какво?"<br>Как се казваш?</p>
+<p>(2) <strong>Misu name sen Robert.</strong><br>Казвам се Роберт.</p>
+<p>(1) <strong>Yu sen kepul?</strong><br>"Ти си как?"<br>Как си?</p>
+<p>(2) <strong>Mi sen bon.</strong><br>Добре съм.</p>
+<p>(1) <strong>Parti xa okur keloka?</strong><br>"Партито ще се случи къде?"<br>Къде ще се проведе партито?</p>
+<p>(2) <strong>Parti xa okur in misu preferido restoran.</strong><br>Партито ще се проведе в моя любим ресторант. </p>
+<h3 id="Въпроси-с-двоеточие"><a class="header" href="#Въпроси-с-двоеточие">Въпроси с двоеточие</a></h3>
+<p>Въпросите с двоеточие в глобаса са както следва.</p>
+<p><strong>Yu suki keto: kafe or cay?</strong><br>"Ти харесваш какво: кафе или чай?"<br>Харесваш ли кафе или чай? </p>
+<p><strong>Yu ogar keloka: in Barati or Indonesi?</strong><br>"Ти живееш къде: в Индия или Индонезия?"<br>Живееш ли в
+	Индия или Индонезия?</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="jumlemonli-estrutur.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="lexikostrui.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="jumlemonli-estrutur.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="lexikostrui.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+        <script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

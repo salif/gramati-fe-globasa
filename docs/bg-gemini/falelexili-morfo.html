@@ -1,0 +1,675 @@
+<!DOCTYPE HTML>
+<html lang="bg" class="rust-clr" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Глаголни форми - Граматика на глобаса</title>
+
+        <!-- Custom HTML head -->
+        
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="Български превод на граматиката на езика глобаса, направен с помощта на езиковия модел Джемини: Глаголни форми">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="gramati.html"><strong aria-hidden="true">1.</strong> Въведение</a></li><li class="chapter-item expanded "><a href="SUMMARY.html"><strong aria-hidden="true">2.</strong> Съдържание</a></li><li class="chapter-item expanded "><a href="abece-ji-lafuzu.html"><strong aria-hidden="true">3.</strong> Азбука и произношение</a></li><li class="chapter-item expanded "><a href="inharelexi.html"><strong aria-hidden="true">4.</strong> Съдържателни думи: Съществителни, глаголи, прилагателни и наречия</a></li><li class="chapter-item expanded "><a href="gramatilexi.html"><strong aria-hidden="true">5.</strong> Функционални думи: Съюзи, предлози и функционални наречия</a></li><li class="chapter-item expanded "><a href="pornamelexi.html"><strong aria-hidden="true">6.</strong> Местоимения</a></li><li class="chapter-item expanded "><a href="tabellexi.html"><strong aria-hidden="true">7.</strong> Съотносителни думи</a></li><li class="chapter-item expanded "><a href="numer-ji-mesi.html"><strong aria-hidden="true">8.</strong> Числа и месеци в годината</a></li><li class="chapter-item expanded "><a href="falelexili-morfo.html" class="active"><strong aria-hidden="true">9.</strong> Глаголни форми</a></li><li class="chapter-item expanded "><a href="jumlemonli-estrutur.html"><strong aria-hidden="true">10.</strong> Словоред: Структура на фразата</a></li><li class="chapter-item expanded "><a href="jumleli-estrutur.html"><strong aria-hidden="true">11.</strong> Словоред: Структура на изречението</a></li><li class="chapter-item expanded "><a href="lexikostrui.html"><strong aria-hidden="true">12.</strong> Образуване на думи</a></li><li class="chapter-item expanded "><a href="ofkatado-morfomon.html"><strong aria-hidden="true">13.</strong> Съкратени морфеми</a></li><li class="chapter-item expanded "><a href="lexiklase.html"><strong aria-hidden="true">14.</strong> Части на речта</a></li><li class="chapter-item expanded "><a href="pimpan-logaxey.html"><strong aria-hidden="true">15.</strong> Често срещани фрази и изрази</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust clr</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha clr</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Граматика на глобаса</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/bg-gemini/src/falelexili-morfo.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="Глаголни-форми"><a class="header" href="#Глаголни-форми">Глаголни форми</a></h1>
+<p>
+</p>
+<h2 id="Пропускане-на-глаголни-частици"><a class="header" href="#Пропускане-на-глаголни-частици">Пропускане на глаголни частици</a></h2>
+<p>Глаголните частици могат да бъдат пропускани по преценка на говорещия, или, ако е за предпочитане, говорещият може да
+	се ръководи от следните насоки:</p>
+<ul>
+	<li>
+		<p>Речниковата форма на глагола може да изразява просто сегашно време, което позволява пропускане на маркерите
+			<strong>nun</strong>, <strong>du-</strong> и <strong>u</strong>.</p>
+	</li>
+	<li>
+		<p>В разказването на истории също може да се използва само речниковата форма на глагола за описване на събития.
+			Технически погледнато, не е така, че частицата за минало просто време <strong>le</strong> се пропуска в този
+			случай, а по-скоро историята се разказва, сякаш се описва сцена от филм, в сегашно време, с пропускане на
+			<strong>nun</strong>, <strong>du-</strong> или <strong>u</strong>. </p>
+	</li>
+	<li>
+		<p>Освен в описаните по-горе случаи, времето/наклонението може да се установява отново с всяка фраза за подлог и
+			да се поддържа без повторение за други глаголи или докато времето/наклонението се промени в рамките на това
+			изречение. С други думи, частицата за <em>всяко</em> време/наклонение може да бъде пропусната в следващи
+			глаголи в рамките на изречение, след като времето/наклонението е установено с първия глагол на всеки
+			сказуем. </p>
+	</li>
+</ul>
+<h2 id="Просто-сегашно-време"><a class="header" href="#Просто-сегашно-време">Просто сегашно време</a></h2>
+<p>Простите сегашни времена в глобаса се изразяват по следния начин.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Просто сегашно време</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Глаголна форма</td>
+			<td>Маркери</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td>Общо сегашно време<br><br><br></td>
+			<td><strong>(nun)</strong><br><br><br></td>
+			<td><strong>Mi (nun) yam pingo.</strong><br>Аз ям ябълката.<br>Аз ям ябълката в момента.</td>
+		</tr>
+		<tr>
+			<td>Продължително/обичайно сегашно време<br><br><br></td>
+			<td><strong>(nun) (du-)</strong><br><br><br></td>
+			<td><strong>Mi (nun) (du)yam pingo.</strong><br>Аз (продължително/обичайно) ям ябълки.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="Речникова-глаголна-форма"><a class="header" href="#Речникова-глаголна-форма">Речникова глаголна форма</a></h3>
+<p>По подразбиране речниковата форма на глагола изразява общото сегашно време, което е еквивалентно на простото сегашно
+	време в българския език. Освен това, само речниковата форма може да изразява и сегашно продължително време, което е
+	еквивалентно на сегашно деятелно причастие в българския език. С други думи, само речниковата форма на глагола е
+	двусмислена и предполага пропускане на <strong>nun</strong> или <strong>du-</strong>. </p>
+<h3 id="Частицата-u"><a class="header" href="#Частицата-u">Частицата u</a></h3>
+<p>Като алтернатива на използването само на речниковата форма на глагола, частицата <strong>u</strong> може да се
+	използва вместо <strong>nun</strong> или <strong>du-</strong>. Тази частица обикновено се използва само във формални
+	текстове или реч като прост начин за маркиране на сказуемото, където не се използва друг маркер за време/наклонение.
+</p>
+<h3 id="Префикс-du-"><a class="header" href="#Префикс-du-">Префикс du-</a></h3>
+<p>Като глаголен префикс, <strong>du-</strong> изразява продължителен/обичаен аспект, който описва действие или
+	състояние за неопределен период от време, а не случващо се в един единствен момент или за определен период от време.
+	Префиксът <strong>du-</strong> обикновено се пропуска в сегашно време.</p>
+<p>Като съществителни, думите с префикса <strong>du-</strong> са еквивалентни на деепричастието в българския език.</p>
+<p><strong>dulala</strong> - (действието) пеене<br>
+	<strong>dudanse</strong> - (действието) танцуване
+</p>
+<p><em>Префиксът <strong>du-</strong> е съкратен от <strong>dure</strong> (продължителност).<br> Етимология на
+		<strong>dure</strong>: английски, френски, немски, испански</em></p>
+<h2 id="Минало-просто-време"><a class="header" href="#Минало-просто-време">Минало просто време</a></h2>
+<p>Миналото просто време се изразява с помощта на частицата <strong>le</strong>.</p>
+<p><em>Етимология на <strong>le</strong>: мандарин (了 “le”), суахили (-li-), руски (-л “-l”)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Минало просто време</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Глаголна форма</td>
+			<td>Маркери</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td>Общо минало време<br><br></td>
+			<td><strong>le</strong><br><br></td>
+			<td><strong>Mi le yam pingo.</strong><br>Аз ядох ябълката.</td>
+		</tr>
+		<tr>
+			<td>Продължително/обичайно минало време<br><br></td>
+			<td><strong>le du-</strong><br><br></td>
+			<td><strong>Mi le duyam pingo.</strong><br>Аз ядях ябълки (обичайно/продължително).</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="Просто-бъдеще-време"><a class="header" href="#Просто-бъдеще-време">Просто бъдеще време</a></h2>
+<p>Простото бъдеще време се изразява с помощта на частицата <strong>xa</strong>.</p>
+<p><em>Етимология на <strong>xa</strong>: арабски (سوف “sawf”, سا “sa”), английски (shall), холандски (zal)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Просто бъдеще време</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Глаголна форма</td>
+			<td>Маркери</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td>Общо бъдеще време<br><br></td>
+			<td><strong>xa</strong><br><br></td>
+			<td><strong>Mi xa yam pingo.</strong><br>Аз ще ям ябълката.</td>
+		</tr>
+		<tr>
+			<td>Продължително/обичайно бъдеще време<br><br></td>
+			<td><strong>xa du-</strong><br><br></td>
+			<td><strong>Mi xa duyam pingo.</strong><br>Аз ще ям ябълки (продължително/обичайно).</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="Непосредствено-минало-и-бъдеще-време"><a class="header" href="#Непосредствено-минало-и-бъдеще-време">Непосредствено минало и бъдеще време</a></h2>
+<p>Непосредственото минало и бъдеще време се изразяват по следния начин, като се използва префиксът
+	<strong>ja-</strong>. </p>
+<table>
+	<thead>
+		<tr>
+			<th>Непосредствено минало и бъдеще време</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Глаголна форма</td>
+			<td>Маркери</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td>Непосредствено минало време<br><br></td>
+			<td><strong>jale</strong><br><br></td>
+			<td><strong>Mi jale yam pingo.</strong><br>Току що ядох ябълката.</td>
+		</tr>
+		<tr>
+			<td>Непосредствено бъдеще време<br><br></td>
+			<td><strong>jaxa</strong><br><br></td>
+			<td><strong>Mi jaxa yam pingo.</strong><br>Ще ям ябълката ей сега.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="Префикс-ja-"><a class="header" href="#Префикс-ja-">Префикс ja-</a></h3>
+<p>Префиксът <strong>ja-</strong> означава <em>непосредствено съседен</em> и е съкратен от <strong>jara</strong>
+	(<em>съсед</em>).</p>
+<p><em>Етимология на <strong>jara</strong>: арабски (جارة “jara”), суахили (jirani), индонезийски (jiran)</em></p>
+<h2 id="Сложни-времена"><a class="header" href="#Сложни-времена">Сложни времена</a></h2>
+<p>Сложните времена се образуват чрез комбиниране на две от общите частици за време (<strong>nun</strong>,
+	<strong>le</strong>, <strong>xa</strong>).</p>
+<p>От лингвистична гледна точка, сложните времена се използват за изразяване на различни граматически аспекти в детайли.
+	Има три аспекта, изразени чрез сложните времена, които корелират с трите реда във всяка от таблиците по-долу:
+	продължително (незавършено), свършено (завършено) и предстоящо.</p>
+<p>Докато простите времена съобщават събития само от гледна точка на настоящия момент, сложните времена се използват за
+	съобщаване на времевия статус и аспект на събитие от гледна точка на настоящето, миналото или бъдещето.</p>
+<p>Някои сложни времена се използват рядко и често е най-добре да се изразят с просто време. Други са по- полезни и
+	могат да бъдат доста често срещани в речта, особено следните времена: минало продължително време (<strong>le
+		nun</strong>), сегашно свършено време (<strong>nun le</strong>), бъдеще свършено време (<strong>xa le</strong>),
+	минало предстоящо време (<strong>le xa</strong>).</p>
+<h2 id="Сложни-сегашни-времена"><a class="header" href="#Сложни-сегашни-времена">Сложни сегашни времена</a></h2>
+<p>Сложните сегашни времена се изразяват по следния начин:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Сложни сегашни времена</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Глаголна форма</td>
+			<td>Маркери</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td>Сегашно продължително време<br><br></td>
+			<td><strong>(nun) nun</strong><br><br></td>
+			<td><strong>Mi (nun) nun yam pingo.</strong><br>Аз ям ябълката (в момента).</td>
+		</tr>
+		<tr>
+			<td>Сегашно свършено време<br><br></td>
+			<td><strong>nun le</strong><br><br></td>
+			<td><strong>Mi nun le yam pingo.</strong><br>Аз съм ял/а ябълката.</td>
+		</tr>
+		<tr>
+			<td>Сегашно предстоящо време<br><br></td>
+			<td><strong>nun xa</strong><br><br></td>
+			<td><strong>Mi nun xa yam pingo.</strong><br>Аз ще ям ябълката (скоро).</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="Сложни-минали-времена"><a class="header" href="#Сложни-минали-времена">Сложни минали времена</a></h2>
+<p>Сложните минали времена се изразяват по следния начин:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Сложни минали времена</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Глаголна форма</td>
+			<td>Маркери</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td>Минало продължително време<br><br></td>
+			<td><strong>le nun</strong><br><br></td>
+			<td><strong>Mi le nun yam pingo.</strong><br>Аз ядях ябълката (в миналото).</td>
+		</tr>
+		<tr>
+			<td>Минало свършено време<br><br></td>
+			<td><strong>le le</strong><br><br></td>
+			<td><strong>Mi le le yam pingo.</strong><br>Аз бях ял/а ябълката.</td>
+		</tr>
+		<tr>
+			<td>Минало предстоящо време<br><br></td>
+			<td><strong>le xa</strong><br><br></td>
+			<td><strong>Mi le xa yam pingo.</strong><br>Аз щях да ям ябълката.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="Сложни-бъдещи-времена"><a class="header" href="#Сложни-бъдещи-времена">Сложни бъдещи времена</a></h2>
+<p>Сложните бъдещи времена се изразяват по следния начин:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Сложни бъдещи времена</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Глаголна форма</td>
+			<td>Маркери</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td>Бъдеще продължително време<br><br></td>
+			<td><strong>xa nun</strong><br><br></td>
+			<td><strong>Mi xa nun yam pingo.</strong><br>Аз ще ям ябълката (в бъдеще).</td>
+		</tr>
+		<tr>
+			<td>Бъдеще свършено време<br><br></td>
+			<td><strong>xa le</strong><br><br></td>
+			<td><strong>Mi xa le yam pingo.</strong><br>Аз ще съм ял/а ябълката.</td>
+		</tr>
+		<tr>
+			<td>Бъдеще предстоящо време<br><br></td>
+			<td><strong>xa xa</strong><br><br></td>
+			<td><strong>Mi xa xa yam pingo.</strong><br>Аз ще ще ям ябълката.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Струва си да се отбележи, че докато <em>перфектните</em> времена в английския език не винаги изразяват завършено
+	действие, <em>свършените</em> времена в глобаса винаги го правят.</p>
+<h2 id="Продължителен-аспект"><a class="header" href="#Продължителен-аспект">Продължителен аспект</a></h2>
+<p>Наречието за <em>продължителен аспект</em> <strong>dupul</strong> се използва, когато действие или състояние е
+	започнало в миналото и продължава в настоящето. В английския език това се изразява или с <em>present perfect</em>,
+	или с <em>perfect progressive</em>.</p>
+<h3 id="Примерни-изречения-с-present-perfect-на-английски"><a class="header" href="#Примерни-изречения-с-present-perfect-на-английски">Примерни изречения с Present Perfect на английски</a></h3>
+<p><strong>Mi no dupul oko te xorfe mesi tiga.</strong><br> Не съм я виждал от март.</p>
+<p><strong>Mi dupul kone te dur 30 nyan.</strong><br> Познавам го от 30 години.</p>
+<p><strong>Mi dupul sen gadibu.</strong><br> Бях ядосан.</p>
+<p><strong>Yu dupul sen kepul?</strong><br> Как си?</p>
+<h3 id="Примерни-изречения-с-perfect-progressive-на-английски"><a class="header" href="#Примерни-изречения-с-perfect-progressive-на-английски">Примерни изречения с Perfect Progressive на английски</a></h3>
+<p><strong>Mi dupul yam hin pingo dur un satu.</strong><br> Ям тази ябълка от един час.</p>
+<p><strong>Yu dupul fale keto?</strong><br> Какво правиш?</p>
+<p><strong>Mi dupul doxo hin kitabu xorfe jaleli sabedin.</strong><br> Четя тази книга от миналата седмица. </p>
+<h2 id="Условно-наклонение"><a class="header" href="#Условно-наклонение">Условно наклонение</a></h2>
+<p>Условното наклонение се изразява с помощта на частицата <strong>ger</strong>. </p>
+<p><em>Частицата <strong>ger</strong> е съкратена от <strong>eger</strong> (ако).<br> Етимология на
+		<strong>eger</strong>: хинди (अगर “agar”), персийски (اگر “agar”), турски (eğer)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Условно наклонение</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Глаголна форма</td>
+			<td>Маркери</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td>Условно наклонение<br><br></td>
+			<td><strong>ger</strong><br><br></td>
+			<td><strong>Mi ger yam pingo.</strong><br>Бих ял ябълката.</td>
+		</tr>
+		<tr>
+			<td>Условно минало време<br><br></td>
+			<td><strong>ger le</strong><br><br></td>
+			<td><strong>Mi ger le yam pingo.</strong><br>Бих ял ябълката (ако...).</td>
+		</tr>
+	</tbody>
+</table>
+<p>Подчиненото изречение (ако...) използва речниковата форма на глагола.</p>
+<p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br> Бих ял ябълката, ако бях гладен.</p>
+<h2 id="Страдателен-залог"><a class="header" href="#Страдателен-залог">Страдателен залог <span id="be-"></span></a></h2>
+<p>Страдателният залог се изразява с помощта на префикса <strong>be-</strong>.</p>
+<p><em>Етимология на <strong>be-</strong>: мандарин (被 “bèi”), английски (be), норвежки (ble)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Страдателен залог</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Глаголна форма</td>
+			<td>Маркери</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td>Сегашно страдателно време<br><br></td>
+			<td><strong>(nun) be-</strong><br><br></td>
+			<td><strong>Pingo beyam mi.</strong><br>Ябълката се яде от мен.</td>
+		</tr>
+		<tr>
+			<td>Минало страдателно време<br><br></td>
+			<td><strong>le be-</strong><br><br></td>
+			<td><strong>Pingo le beyam mi.</strong><br>Ябълката беше изядена от мен.</td>
+		</tr>
+		<tr>
+			<td>Бъдеще страдателно време<br><br></td>
+			<td><strong>xa be-</strong><br><br></td>
+			<td><strong>Pingo xa beyam mi.</strong><br>Ябълката ще бъде изядена от мен.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Въпреки че страдателното наклонение технически може да се използва и с всички сложни времена, на практика то
+	най-често се използва с общото сегашно, минало и бъдеще време, както е показано по-горе.</p>
+<p>Забележка: В глобаса, агенсът в изреченията в страдателен залог се изразява като пряко допълнение, без да е необходим
+	предлог, за да се маркира агенсът. За разлика от това, английският език маркира агенса с <em>by</em>.</p>
+<p><strong>Myaw le no velosi yam piu.</strong><br> Котката не изяде птицата бързо.</p>
+<p><strong>Piu le no velosi beyam myaw.</strong><br> Птицата не беше изядена бързо от котката.</p>
+<h2 id="Повелително-и-желателно-наклонение"><a class="header" href="#Повелително-и-желателно-наклонение">Повелително и желателно наклонение</a></h2>
+<p>В глобаса, заповедите (<em>повелително наклонение</em>) и увещанията (<em>желателно наклонение</em>) се изразяват с
+	частицата <strong>am</strong>.</p>
+<p><em>Частицата <strong>am</strong> е съкратена от <strong>amiru</strong> (заповед)<br> Етимология на
+		<strong>amiru</strong>: арабски (أمر “amr”), турски (emir), суахили (amri, -amuru)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Повелително и желателно наклонение</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Глаголна форма</td>
+			<td>Маркери</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td>Повелително наклонение<br><br><br><br><br><br><br><br></td>
+			<td><strong>am</strong><br><br><br><br><br><br><br><br></td>
+			<td><strong>(Yu) Am yam!</strong><br>Яж!<br><br><strong>(Uyu) Am yam!</strong><br>(Вие)
+				яжте!<br><br><strong>Imi am yam!</strong><br>Хайде да ядем!</td>
+		</tr>
+		<tr>
+			<td>Желателно наклонение<br><br><br><br><br><br><br><br></td>
+			<td><strong>am</strong><br><br><br><br><br><br><br><br></td>
+			<td><strong>Te am yam.</strong><br>Нека тя/той яде.<br><br><strong>Mi am yam.</strong><br>Нека аз ям.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="Повелително-наклонение"><a class="header" href="#Повелително-наклонение">Повелително наклонение</a></h3>
+<p>Местоименията <strong>yu</strong> и <strong>uyu</strong> могат да бъдат пропускани, когато се изразява
+	<em>повелително наклонение</em>.</p>
+<h3 id="Желателно-наклонение"><a class="header" href="#Желателно-наклонение">Желателно наклонение</a></h3>
+<p><em>Желателното наклонение</em> е подобно по значение на <em>повелителното наклонение</em>, но се използва за 3-то
+	лице (<strong>te</strong>/<strong>to</strong>, <strong>ete</strong>/<strong>oto</strong>), както и за 1-во лице
+	единствено число (<strong>mi</strong>).</p>
+<p>Желателното наклонение може да функционира и като <em>мандатно подчинително наклонение</em> в подчинени изречения.
+	<em>Мандатното подчинително наклонение</em> изразява искане, изискване, молба, препоръка или предложение.</p>
+<p><strong>Mi vole ki te am safegi sesu kamer.</strong><br> Искам той да си оправи стаята.</p>
+<p><strong>Mi peti ki imi am xorata jaldi.</strong><br> Моля да пристигнем рано.</p>
+<p><strong>Kitabu hu xwexiyen am doxo da no sen daymo lungo.</strong><br> Книгата, която учениците трябва да прочетат,
+	не е много дълга.</p>
+<h2 id="Отрицание"><a class="header" href="#Отрицание">Отрицание</a></h2>
+<p>Отрицанието за всички глаголни форми се изразява с думата <strong>no</strong> и, като наречие, тя стои непосредствено
+	преди глагола и всички други модифициращи наречия.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Отрицание</th>
+			<th>&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Маркер</td>
+			<td>Примерни изречения</td>
+		</tr>
+		<tr>
+			<td><strong>no</strong><br><br><br><br><br><br><br><br></td>
+			<td><strong>Mi no sen lao.</strong><br>Аз не съм стар/а.<br><br><strong>Te no yam pingo.</strong><br>Той/тя
+				не яде ябълката.<br><br><strong>Am no yam pingo.</strong><br>Не яж ябълката.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="Инфинитив"><a class="header" href="#Инфинитив">Инфинитив</a></h2>
+<p>В глобаса, инфинитивната глаголна форма се маркира с частицата <strong>na</strong> и обикновено се пропуска в рамките
+	на изречение, след като е установена с първия глагол. Вижте <a
+		href="./jumleli-estrutur.html#nafalelexili_jumlemon">Инфинитивни глаголни фрази</a> в раздел „Структура на
+	изречението“. </p>
+<p><em>Етимология на <strong>na</strong>: гръцки (να “na”), хинди (-ना “-na”)</em></p>
+<h2 id="Подчинени-изречения"><a class="header" href="#Подчинени-изречения">Подчинени изречения</a></h2>
+<p>Както беше показано по-горе, <em>ако</em>-изреченията в условните изречения използват речниковата форма на глагола.
+	Не всяко изречение с <em>ако</em>-изречение обаче е условно изречение. Освен ако изречението не е условно,
+	<em>ако</em>-изреченията се маркират за време. </p>
+<p><strong>Eger mi xa yam pingo, mi xa no haji sen yamkal.</strong><br> Ако ям ябълката (<em>в бъдеще</em>), вече няма
+	да съм гладен.</p>
+<p><strong>Eger te le yam yusu pingo, kam yu xa sen gadibu?</strong><br> Ако той е ял твоята ябълка (<em>в
+		миналото</em>), ще се ядосваш ли?</p>
+<p><strong>Eger te yam yusu pingo, kam yu gadibucu?</strong><br> Ако той яде твоите ябълки (<em>обикновено</em>),
+	ядосваш ли се?</p>
+<h3 id="Изречения-с-други-подчинени-изречения"><a class="header" href="#Изречения-с-други-подчинени-изречения">Изречения с други подчинени изречения</a></h3>
+<p>Освен <strong>eger</strong> (<em>ако</em>), подчинените изречения могат да започват с други съюзи, като
+	<strong>denwatu hu</strong> (<em>когато</em>), <strong>denloka hu</strong> (<em>където</em>), <strong>koski</strong>
+	(<em>защото</em>) и др. Маркерите за време са задължителни във всички тези подчинени изречения.</p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="numer-ji-mesi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="jumlemonli-estrutur.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="numer-ji-mesi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="jumlemonli-estrutur.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+        <script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

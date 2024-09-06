@@ -1,0 +1,670 @@
+<!DOCTYPE HTML>
+<html lang="tr" class="rust-clr" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Fiil Çekimleri - Globasa dilbilgisi</title>
+
+        <!-- Custom HTML head -->
+        
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="Globasa dilbilgisinin Türkçe çevirisi (Google Gemini ile): Fiil Çekimleri">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="gramati.html"><strong aria-hidden="true">1.</strong> Giriş</a></li><li class="chapter-item expanded "><a href="SUMMARY.html"><strong aria-hidden="true">2.</strong> İçindekiler</a></li><li class="chapter-item expanded "><a href="abece-ji-lafuzu.html"><strong aria-hidden="true">3.</strong> Alfabe ve Telaffuz</a></li><li class="chapter-item expanded "><a href="inharelexi.html"><strong aria-hidden="true">4.</strong> İçerik Sözcükleri: İsimler, Fiiller, Sıfatlar ve Zarflar</a></li><li class="chapter-item expanded "><a href="gramatilexi.html"><strong aria-hidden="true">5.</strong> İşlev Sözcükleri: Bağlaçlar, Edatlar ve İşlev Zarfları</a></li><li class="chapter-item expanded "><a href="pornamelexi.html"><strong aria-hidden="true">6.</strong> Zamirler</a></li><li class="chapter-item expanded "><a href="tabellexi.html"><strong aria-hidden="true">7.</strong> İlişki Zamirleri</a></li><li class="chapter-item expanded "><a href="numer-ji-mesi.html"><strong aria-hidden="true">8.</strong> Sayılar ve Yılın Ayları</a></li><li class="chapter-item expanded "><a href="falelexili-morfo.html" class="active"><strong aria-hidden="true">9.</strong> Fiil Çekimleri</a></li><li class="chapter-item expanded "><a href="jumlemonli-estrutur.html"><strong aria-hidden="true">10.</strong> Sözcük Sırası: Öbek Yapısı</a></li><li class="chapter-item expanded "><a href="jumleli-estrutur.html"><strong aria-hidden="true">11.</strong> Sözcük Sırası: Cümle Yapısı</a></li><li class="chapter-item expanded "><a href="lexikostrui.html"><strong aria-hidden="true">12.</strong> Kelime Oluşturma</a></li><li class="chapter-item expanded "><a href="ofkatado-morfomon.html"><strong aria-hidden="true">13.</strong> Kısaltılmış Morfemler</a></li><li class="chapter-item expanded "><a href="lexiklase.html"><strong aria-hidden="true">14.</strong> Sözcük Türleri</a></li><li class="chapter-item expanded "><a href="pimpan-logaxey.html"><strong aria-hidden="true">15.</strong> Yaygın Deyimler ve İfadeler</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust clr</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha clr</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Globasa dilbilgisi</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/tr-gemini/src/falelexili-morfo.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="fiil-Çekimleri"><a class="header" href="#fiil-Çekimleri">Fiil Çekimleri</a></h1>
+<p></p>
+<h2 id="fiil-parçacıklarının-İhmal-edilmesi"><a class="header" href="#fiil-parçacıklarının-İhmal-edilmesi">Fiil Parçacıklarının İhmal Edilmesi</a></h2>
+<p>Fiil parçacıkları konuşmacının takdirine bağlı olarak ihmal edilebilir veya tercih edilirse konuşmacı aşağıdaki
+	yönergeleri uygulayabilir:</p>
+<ul>
+	<li>
+		<p>Fiilin sözlük biçimi, <strong>nun</strong>, <strong>du-</strong> ve <strong>u</strong> işaretçilerinin
+			ihmaline izin vererek geniş zamanı ifade edebilir.</p>
+	</li>
+	<li>
+		<p>Hikaye anlatımında da olayları anlatmak için yalnızca fiilin sözlük biçimi kullanılabilir. Teknik olarak
+			konuşursak, bu durumda basit geçmiş zaman parçacığı <strong>le</strong> ihmal edilmez, aksine bir hikaye,
+			<strong>nun</strong>, <strong>du-</strong> veya <strong>u</strong>'nun ihmal edildiği geniş zamanda bir film
+			sahnesi anlatılıyormuş gibi anlatılır.</p>
+	</li>
+	<li>
+		<p>Yukarıda açıklanan durumlar dışında, zaman/kip her özne öbeğiyle yeniden kurulabilir ve tekrar olmaksızın
+			diğer fiiller için veya zaman/kip o cümlecik içinde değiştirilene kadar korunabilir. Başka bir deyişle,
+			<em>herhangi bir</em> zaman/kip parçacığı, bir cümlenin içindeki sonraki fiillerde, her yüklemin ilk
+			fiiliyle zaman/kip kurulduktan sonra ihmal edilebilir.</p>
+	</li>
+</ul>
+<h2 id="geniş-zamanlar"><a class="header" href="#geniş-zamanlar">Geniş Zamanlar</a></h2>
+<p>Globasa'nın geniş zamanları aşağıdaki gibi ifade edilir.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Geniş Zamanlar</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Fiil Çekimi</td>
+			<td>İşaretçiler</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td>Genel Geniş Zaman<br /><br /><br /></td>
+			<td><strong>(nun)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) yam pingo.</strong><br />Elmayı yiyorum.<br />Elmayı yiyorum (şu anda).</td>
+		</tr>
+		<tr>
+			<td>Süreğen/Alışkanlık Geniş Zaman<br /><br /><br /></td>
+			<td><strong>(nun) (du-)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) (du)yam pingo.</strong><br />(Sürekli olarak/alışkanlıkla) elma yerim.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="sözlük-fiil-biçimi"><a class="header" href="#sözlük-fiil-biçimi">Sözlük Fiil Biçimi</a></h3>
+<p>Varsayılan olarak, sözlük fiil biçimi, İngilizcedeki geniş zaman ile eşdeğer olan genel geniş zamanı ifade eder. Ek
+	olarak, yalnızca sözlük biçimi, İngilizcedeki şimdiki zaman sürekli zaman ile eşdeğer olan şimdiki zaman etken
+	zamanını da ifade edebilir. Başka bir deyişle, yalnızca sözlük fiil biçimi belirsizdir ve <strong>nun</strong> veya
+	<strong>du-</strong>'nun ihmal edildiğini ima eder.</p>
+<h3 id="u-parçacığı"><a class="header" href="#u-parçacığı">u Parçacığı</a></h3>
+<p>Yalnızca sözlük fiil biçimini kullanmaya alternatif olarak, <strong>nun</strong> veya <strong>du-</strong> yerine
+	<strong>u</strong> parçacığı kullanılabilir. Bu parçacık genellikle yalnızca resmi metinlerde veya konuşmalarda,
+	başka bir zaman/kip işaretçisinin kullanılmadığı yüklemi işaretlemenin basit bir yolu olarak kullanılır.</p>
+<h3 id="du--Öneki"><a class="header" href="#du--Öneki">du- Öneki</a></h3>
+<p>Fiil öneki olarak <strong>du-</strong>, belirli bir zaman dilimi içinde olmak yerine belirsiz bir zaman dilimi içinde
+	bir aktiviteyi veya durumu tasvir eden sürekli/alışkanlık görünümünü ifade eder. <strong>du-</strong> öneki
+	genellikle geniş zaman ile ihmal edilir.</p>
+<p>İsim olarak <strong>du-</strong> önekiyle başlayan kelimeler İngilizcedeki ulaç ile eşdeğerdir.</p>
+<p><strong>dulala</strong> - şarkı söylemek (eylemi)<br />
+	<strong>dudanse</strong> - dans etmek (eylemi)
+</p>
+<p><em><strong>du-</strong> öneki <strong>dure</strong> (süre) kelimesinden kısaltılmıştır.<br />
+		<strong>dure</strong>'nin etimolojisi: İngilizce, Fransızca, Almanca, İspanyolca</em></p>
+<h2 id="basit-geçmiş-zaman"><a class="header" href="#basit-geçmiş-zaman">Basit Geçmiş Zaman</a></h2>
+<p>Basit geçmiş zamanlar <strong>le</strong> parçacığı kullanılarak ifade edilir.</p>
+<p><em><strong>le</strong>'nin etimolojisi: Mandarin (了 “le”), Swahili (-li-), Rusça (-л “-l”)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Basit Geçmiş Zamanlar</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Fiil Çekimi</td>
+			<td>İşaretçiler</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td>Genel Geçmiş Zaman<br /><br /></td>
+			<td><strong>le</strong><br /><br /></td>
+			<td><strong>Mi le yam pingo.</strong><br />Elmayı yedim.</td>
+		</tr>
+		<tr>
+			<td>Süreğen/Alışkanlık Geçmiş Zaman<br /><br /></td>
+			<td><strong>le du-</strong><br /><br /></td>
+			<td><strong>Mi le duyam pingo.</strong><br />Eskiden elma yerdim.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="basit-gelecek-zamanlar"><a class="header" href="#basit-gelecek-zamanlar">Basit Gelecek Zamanlar</a></h2>
+<p>Basit gelecek zamanlar <strong>xa</strong> parçacığı kullanılarak ifade edilir.</p>
+<p><em><strong>xa</strong>'nın etimolojisi: Arapça (سوف “sawf”, سا “sa”), İngilizce (shall), Hollandaca (zal)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Basit Gelecek Zamanlar</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Fiil Çekimi</td>
+			<td>İşaretçiler</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td>Genel Gelecek Zaman<br /><br /></td>
+			<td><strong>xa</strong><br /><br /></td>
+			<td><strong>Mi xa yam pingo.</strong><br />Elmayı yiyeceğim.</td>
+		</tr>
+		<tr>
+			<td>Süreğen/Alışkanlık Gelecek Zaman<br /><br /></td>
+			<td><strong>xa du-</strong><br /><br /></td>
+			<td><strong>Mi xa duyam pingo.</strong><br />(Sürekli olarak/alışkanlıkla) elma yiyeceğim.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="yakın-geçmiş-ve-gelecek-zamanlar"><a class="header" href="#yakın-geçmiş-ve-gelecek-zamanlar">Yakın Geçmiş ve Gelecek Zamanlar</a></h2>
+<p><em>Yakın</em> geçmiş ve gelecek zamanlar <strong>ja-</strong> öneki kullanılarak aşağıdaki gibi ifade edilir.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Yakın Geçmiş ve Gelecek Zamanlar</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Fiil Çekimi</td>
+			<td>İşaretçiler</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td>Yakın Geçmiş Zaman<br /><br /></td>
+			<td><strong>jale</strong><br /><br /></td>
+			<td><strong>Mi jale yam pingo.</strong><br />Elmayı az önce yedim.</td>
+		</tr>
+		<tr>
+			<td>Yakın Gelecek Zaman<br /><br /></td>
+			<td><strong>jaxa</strong><br /><br /></td>
+			<td><strong>Mi jaxa yam pingo.</strong><br />Elmayı yemek üzereyim.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="ja--Öneki"><a class="header" href="#ja--Öneki">ja- Öneki</a></h3>
+<p><strong>ja-</strong> öneki <em>hemen bitişik</em> anlamına gelir ve <strong>jara</strong> (<em>komşu</em>)
+	kelimesinden kısaltılmıştır.</p>
+<p><em><strong>jara</strong>'nın etimolojisi: Arapça (جارة “jara”), Swahili (jirani), Endonezyaca (jiran)</em></p>
+<h2 id="bileşik-zamanlar"><a class="header" href="#bileşik-zamanlar">Bileşik Zamanlar</a></h2>
+<p>Bileşik zamanlar, genel zaman parçacıklarından (<strong>nun</strong>, <strong>le</strong>, <strong>xa</strong>)
+	herhangi ikisinin birleştirilmesiyle oluşturulur.</p>
+<p>Dilbilimsel olarak konuşursak, bileşik zamanlar farklı gramer görünümlerini ayrıntılı olarak ifade etmek için
+	kullanılır. Bileşik zamanlar aracılığıyla ifade edilen üç görünüm vardır ve bunlar aşağıdaki tablolardaki her bir
+	satırla ilişkilendirilir: sürekli (etken), tamamlanmış (bitmiş) ve ileriye dönük.</p>
+<p>Basit zamanlar olayları yalnızca şimdiki zaman açısından bildirirken, bileşik zamanlar bir olayın zamansal durumunu
+	ve görünümünü şimdiki, geçmiş veya gelecek zaman açısından bildirmek için kullanılır.</p>
+<p>Bazı bileşik zamanlar nadiren kullanılır ve çoğu zaman bunun yerine basit bir zaman kullanılarak en iyi şekilde ifade
+	edilir. Diğerleri daha kullanışlıdır ve konuşmada, özellikle şu zamanlarda oldukça yaygın olabilir: geçmiş etken
+	zaman (<strong>le nun</strong>), şimdiki zaman bitmiş zaman (<strong>nun le</strong>), gelecek zaman bitmiş zaman
+	(<strong>xa le</strong>), geçmiş zaman ileriye dönük zaman (<strong>le xa</strong>).</p>
+<h2 id="bileşik-geniş-zamanlar"><a class="header" href="#bileşik-geniş-zamanlar">Bileşik Geniş Zamanlar</a></h2>
+<p>Bileşik geniş zamanlar aşağıdaki gibi ifade edilir:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Bileşik Geniş Zamanlar</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Fiil Çekimi</td>
+			<td>İşaretçiler</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td>Geniş Zaman Etken<br /><br /></td>
+			<td><strong>(nun) nun</strong><br /><br /></td>
+			<td><strong>Mi (nun) nun yam pingo.</strong><br />Elmayı yiyorum (şu anda).</td>
+		</tr>
+		<tr>
+			<td>Geniş Zaman Bitmiş<br /><br /></td>
+			<td><strong>nun le</strong><br /><br /></td>
+			<td><strong>Mi nun le yam pingo.</strong><br />Elmayı yedim (ve etkisi hala sürüyor).</td>
+		</tr>
+		<tr>
+			<td>Geniş Zaman İleriye Dönük<br /><br /></td>
+			<td><strong>nun xa</strong><br /><br /></td>
+			<td><strong>Mi nun xa yam pingo.</strong><br />Elmayı yemeye niyetleniyorum.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="bileşik-geçmiş-zamanlar"><a class="header" href="#bileşik-geçmiş-zamanlar">Bileşik Geçmiş Zamanlar</a></h2>
+<p>Bileşik geçmiş zamanlar aşağıdaki gibi ifade edilir:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Bileşik Geçmiş Zamanlar</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Fiil Çekimi</td>
+			<td>İşaretçiler</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td>Geçmiş Zaman Etken<br /><br /></td>
+			<td><strong>le nun</strong><br /><br /></td>
+			<td><strong>Mi le nun yam pingo.</strong><br />Elmayı yiyor idim.</td>
+		</tr>
+		<tr>
+			<td>Geçmiş Zaman Bitmiş<br /><br /></td>
+			<td><strong>le le</strong><br /><br /></td>
+			<td><strong>Mi le le yam pingo.</strong><br />Elmayı yemiştim.</td>
+		</tr>
+		<tr>
+			<td>Geçmiş Zaman İleriye Dönük<br /><br /></td>
+			<td><strong>le xa</strong><br /><br /></td>
+			<td><strong>Mi le xa yam pingo.</strong><br />Elmayı yemeyi planlıyordum.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="bileşik-gelecek-zamanlar"><a class="header" href="#bileşik-gelecek-zamanlar">Bileşik Gelecek Zamanlar</a></h2>
+<p>Bileşik gelecek zamanlar aşağıdaki gibi ifade edilir:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Bileşik Gelecek Zamanlar</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Fiil Çekimi</td>
+			<td>İşaretçiler</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td>Gelecek Zaman Etken<br /><br /></td>
+			<td><strong>xa nun</strong><br /><br /></td>
+			<td><strong>Mi xa nun yam pingo.</strong><br />Elmayı yiyor olacağım.</td>
+		</tr>
+		<tr>
+			<td>Gelecek Zaman Bitmiş<br /><br /></td>
+			<td><strong>xa le</strong><br /><br /></td>
+			<td><strong>Mi xa le yam pingo.</strong><br />Elmayı yemiş olacağım.</td>
+		</tr>
+		<tr>
+			<td>Gelecek Zaman İleriye Dönük<br /><br /></td>
+			<td><strong>xa xa</strong><br /><br /></td>
+			<td><strong>Mi xa xa yam pingo.</strong><br />Elmayı yemeyi planlıyor olacağım.</td>
+		</tr>
+	</tbody>
+</table>
+<p>İngilizcedeki <em>perfect</em> zamanlarının her zaman tamamlanmış bir eylemi ifade etmediği, ancak Globasa'daki
+	<em>bitmiş</em> zamanlarının her zaman ifade ettiği unutulmamalıdır.</p>
+<h2 id="sürdürücü-görünüm"><a class="header" href="#sürdürücü-görünüm">Sürdürücü Görünüm</a></h2>
+<p><em>Sürdürücü görünüm</em> zarfı <strong>dupul</strong>, geçmişte başlayan ve şimdiki zamana kadar devam eden bir
+	eylem veya durum olduğunda kullanılır. İngilizcede bu, <em>present perfect</em> veya <em>perfect progressive</em>
+	ile ifade edilir.</p>
+<h3 id="İngilizcede-present-perfect-ile-Örnek-cümleler"><a class="header" href="#İngilizcede-present-perfect-ile-Örnek-cümleler">İngilizcede Present Perfect ile Örnek Cümleler</a></h3>
+<p><strong>Mi no dupul oko te xorfe mesi tiga.</strong><br /> Mart ayından beri onu görmedim.</p>
+<p><strong>Mi dupul kone te dur 30 nyan.</strong><br /> Onu 30 yıldır tanıyorum.</p>
+<p><strong>Mi dupul sen gadibu.</strong><br /> Kızgındım.</p>
+<p><strong>Yu dupul sen kepul?</strong><br /> Nasılsın?</p>
+<h3 id="İngilizcede-perfect-progressive-ile-Örnek-cümleler"><a class="header" href="#İngilizcede-perfect-progressive-ile-Örnek-cümleler">İngilizcede Perfect Progressive ile Örnek Cümleler</a></h3>
+<p><strong>Mi dupul yam hin pingo dur un satu.</strong><br /> Bir saattir bu elmayı yiyorum.</p>
+<p><strong>Yu dupul fale keto?</strong><br /> Ne yapıyordun?</p>
+<p><strong>Mi dupul doxo hin kitabu xorfe jaleli sabedin.</strong><br /> Geçen haftadan beri bu kitabı okuyorum.</p>
+<h2 id="koşul-kipi"><a class="header" href="#koşul-kipi">Koşul Kipi</a></h2>
+<p>Koşul kipi <strong>ger</strong> parçacığı kullanılarak ifade edilir.</p>
+<p><em><strong>ger</strong> parçacığı <strong>eger</strong> (eğer) kelimesinden kısaltılmıştır.<br />
+		<strong>eger</strong>'in etimolojisi: Hintçe (अगर “agar”), Farsça (اگر “agar”), Türkçe (eğer)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Koşul Kipi</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Fiil Çekimi</td>
+			<td>İşaretçiler</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td>Koşul<br /><br /></td>
+			<td><strong>ger</strong><br /><br /></td>
+			<td><strong>Mi ger yam pingo.</strong><br />Elmayı yerdim.</td>
+		</tr>
+		<tr>
+			<td>Koşul Geçmiş Zaman<br /><br /></td>
+			<td><strong>ger le</strong><br /><br /></td>
+			<td><strong>Mi ger le yam pingo.</strong><br />Elmayı yemiş olurdum.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Yan cümlecik (eğer...) fiilin sözlük biçimini kullanır.</p>
+<p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> Aç olsaydım elmayı yerdim.</p>
+<h2 id="edilgen-Çatı"><a class="header" href="#edilgen-Çatı">Edilgen Çatı <span id="be-"></span></a></h2>
+<p>Edilgen çatı <strong>be-</strong> öneki kullanılarak ifade edilir.</p>
+<p><em><strong>be-</strong>'nin etimolojisi: Mandarin (被 “bèi”), İngilizce (be), Norveççe (ble)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Edilgen Çatı</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Fiil Çekimi</td>
+			<td>İşaretçiler</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td>Geniş Zaman Edilgen<br /><br /></td>
+			<td><strong>(nun) be-</strong><br /><br /></td>
+			<td><strong>Pingo beyam mi.</strong><br />Elma benim tarafımdan yenir.</td>
+		</tr>
+		<tr>
+			<td>Geçmiş Zaman Edilgen<br /><br /></td>
+			<td><strong>le be-</strong><br /><br /></td>
+			<td><strong>Pingo le beyam mi.</strong><br />Elma benim tarafımdan yendi.</td>
+		</tr>
+		<tr>
+			<td>Gelecek Zaman Edilgen<br /><br /></td>
+			<td><strong>xa be-</strong><br /><br /></td>
+			<td><strong>Pingo xa beyam mi.</strong><br />Elma benim tarafımdan yenecek.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Edilgen kip teknik olarak tüm bileşik zamanlarla da kullanılabilirken, pratikte yukarıda gösterildiği gibi en çok
+	genel geniş, geçmiş ve gelecek zamanlarla kullanılır.</p>
+<p>Not: Globasa'da, edilgen çatılı cümlelerdeki özne, özneye işaret eden bir edata gerek kalmadan doğrudan nesne olarak
+	ifade edilir. Buna karşılık, İngilizce özneyi <em>by</em> kullanarak işaretler.</p>
+<p><strong>Myaw le no velosi yam piu.</strong><br /> Kedi kuşu hızlı bir şekilde yemedi.</p>
+<p><strong>Piu le no velosi beyam myaw.</strong><br /> Kuş kedi tarafından hızlı bir şekilde yenmedi.</p>
+<h2 id="emir-ve-rica-kipleri"><a class="header" href="#emir-ve-rica-kipleri">Emir ve Rica Kipleri</a></h2>
+<p>Globasa'da, emirler (<em>emir kipi</em>) ve istekler (<em>rica kipi</em>) her ikisi de <strong>am</strong> parçacığı
+	kullanılarak ifade edilir.</p>
+<p><em><strong>am</strong> parçacığı <strong>amiru</strong> (emir) kelimesinden kısaltılmıştır.<br />
+		<strong>amiru</strong>'nun etimolojisi: Arapça (أمر “amr”), Türkçe (emir), Swahili (amri, -amuru)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Emir ve Rica Kipleri</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Fiil Çekimi</td>
+			<td>İşaretçiler</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td>Emir Kipi<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>(Yu) Am yam!</strong><br />Ye!<br /><br /><strong>(Uyu) Am yam!</strong><br />(Hepiniz)
+				yiyin!<br /><br /><strong>Imi am yam!</strong><br />Hadi yiyelim!</td>
+		</tr>
+		<tr>
+			<td>Rica Kipi<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Te am yam.</strong><br />Yesin.<br /><br /><strong>Mi am yam.</strong><br />Yiyebileyim.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="emir-kipi"><a class="header" href="#emir-kipi">Emir Kipi</a></h3>
+<p><em>Emir kipi</em> ifade edilirken <strong>yu</strong> ve <strong>uyu</strong> zamirleri ihmal edilebilir.</p>
+<h3 id="rica-kipi"><a class="header" href="#rica-kipi">Rica Kipi</a></h3>
+<p><em>Rica kipi</em>, <em>emir kipi</em> ile anlam bakımından benzerdir, ancak 3. tekil şahıs
+	(<strong>te</strong>/<strong>to</strong>, <strong>ete</strong>/<strong>oto</strong>) ve 1. tekil şahıs
+	(<strong>mi</strong>) için kullanılır.</p>
+<p>Rica kipi ayrıca yan cümlecikler içinde <em>zorunlu dilek kipi</em> olarak da işlev görebilir. <em>Zorunlu dilek
+		kipi</em> bir talep, gereklilik, rica, tavsiye veya önermeyi ifade eder.</p>
+<p><strong>Mi vole ki te am safegi sesu kamer.</strong><br /> Odasını temizlemesini istiyorum.</p>
+<p><strong>Mi peti ki imi am xorata jaldi.</strong><br /> Erken varmamızı rica ediyorum.</p>
+<p><strong>Kitabu hu xwexiyen am doxo da no sen daymo lungo.</strong><br /> Öğrencilerin okuması gereken kitap çok uzun
+	değil.</p>
+<h2 id="olumsuzluk"><a class="header" href="#olumsuzluk">Olumsuzluk</a></h2>
+<p>Tüm fiil çekimleri için olumsuzluk <strong>no</strong> kelimesiyle ifade edilir ve bir zarf olarak, fiilden ve onu
+	değiştiren diğer zarflardan hemen önce gelir.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Olumsuzluk</th>
+			<th> </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>İşaretçi</td>
+			<td>Örnek Cümleler</td>
+		</tr>
+		<tr>
+			<td><strong>no</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Mi no sen lao.</strong><br />Yaşlı değilim.<br /><br /><strong>Te no yam
+					pingo.</strong><br />Elmayı yemiyor.<br /><br /><strong>Am no yam pingo.</strong><br />Elmayı yeme.
+			</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="mastar-kipi"><a class="header" href="#mastar-kipi">Mastar Kipi</a></h2>
+<p>Globasa'da, mastar fiil biçimi <strong>na</strong> parçacığı ile işaretlenir ve genellikle cümle içinde ilk fiille
+	kurulduktan sonra ihmal edilir. Cümle Yapısı altında <a href="./jumleli-estrutur.html#nafalelexili_jumlemon">Mastar
+		Fiil Öbekleri</a>'ne bakın.</p>
+<p><em><strong>na</strong>'nın etimolojisi: Yunanca (να “na”), Hintçe (-ना “-na”)</em></p>
+<h2 id="yan-cümlecikler"><a class="header" href="#yan-cümlecikler">Yan Cümlecikler</a></h2>
+<p>Yukarıda görüldüğü gibi, koşul cümlelerindeki <em>eğer</em> cümlecikleri fiilin sözlük biçimini kullanır. Ancak,
+	<em>eğer</em> cümleciği olan her cümle bir koşul cümlesi değildir. Cümle koşullu değilse, <em>eğer</em> cümlecikleri
+	zaman için işaretlenir.</p>
+<p><strong>Eger mi xa yam pingo, mi xa no haji sen yamkal.</strong><br /> Elmayı yersem (<em>gelecekte</em>), artık aç
+	olmayacağım.</p>
+<p><strong>Eger te le yam yusu pingo, kam yu xa sen gadibu?</strong><br /> Elmanızı yediyse (<em>geçmişte</em>), kızgın
+	olacak mısınız?</p>
+<p><strong>Eger te yam yusu pingo, kam yu gadibucu?</strong><br /> Elmalarınızı yerse (<em>genel olarak</em>), kızıyor
+	musunuz?</p>
+<h3 id="diğer-yan-cümleciklerle-cümleler"><a class="header" href="#diğer-yan-cümleciklerle-cümleler">Diğer Yan Cümleciklerle Cümleler</a></h3>
+<p><strong>eger</strong> (<em>eğer</em>) dışında, yan cümlecikler <strong>denwatu hu</strong> (<em>ne zaman</em>),
+	<strong>denloka hu</strong> (<em>nerede</em>), <strong>koski</strong> (<em>çünkü</em>) vb. gibi diğer bağlaçlarla
+	başlayabilir. Zaman işaretleyicileri tüm bu yan cümleciklerde zorunludur.</p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="numer-ji-mesi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="jumlemonli-estrutur.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="numer-ji-mesi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="jumlemonli-estrutur.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+        <script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

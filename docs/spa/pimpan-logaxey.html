@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+<html lang="es" class="rust-clr" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Frases y expresiones comunes - Gramática completa de Globasa</title>
+
+        <!-- Custom HTML head -->
+        
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="Una copia de la gramática completa de Globasa: Frases y expresiones comunes">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="gramati.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="SUMMARY.html"><strong aria-hidden="true">2.</strong> Sumario</a></li><li class="chapter-item expanded "><a href="abece-ji-lafuzu.html"><strong aria-hidden="true">3.</strong> Alfabeto y pronunciación</a></li><li class="chapter-item expanded "><a href="inharelexi.html"><strong aria-hidden="true">4.</strong> Palabras de contenido: Sustantivos, verbos, adjetivos y adverbios</a></li><li class="chapter-item expanded "><a href="gramatilexi.html"><strong aria-hidden="true">5.</strong> Palabras de función: Conjunciones, preposiciones y adverbios de función</a></li><li class="chapter-item expanded "><a href="pornamelexi.html"><strong aria-hidden="true">6.</strong> Pronombres</a></li><li class="chapter-item expanded "><a href="tabellexi.html"><strong aria-hidden="true">7.</strong> Correlativos</a></li><li class="chapter-item expanded "><a href="numer-ji-mesi.html"><strong aria-hidden="true">8.</strong> Números y meses del año</a></li><li class="chapter-item expanded "><a href="falelexili-morfo.html"><strong aria-hidden="true">9.</strong> Formas verbales</a></li><li class="chapter-item expanded "><a href="jumlemonli-estrutur.html"><strong aria-hidden="true">10.</strong> Orden de palabras: Estructura del sintagma</a></li><li class="chapter-item expanded "><a href="jumleli-estrutur.html"><strong aria-hidden="true">11.</strong> Orden de palabras: Estructura de la oración</a></li><li class="chapter-item expanded "><a href="lexikostrui.html"><strong aria-hidden="true">12.</strong> Formación de palabras</a></li><li class="chapter-item expanded "><a href="ofkatado-morfomon.html"><strong aria-hidden="true">13.</strong> Morfemas truncados</a></li><li class="chapter-item expanded "><a href="lexiklase.html"><strong aria-hidden="true">14.</strong> Clases de palabras</a></li><li class="chapter-item expanded "><a href="pimpan-logaxey.html" class="active"><strong aria-hidden="true">15.</strong> Frases y expresiones comunes</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust clr</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha clr</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Gramática completa de Globasa</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/spa/src/pimpan-logaxey.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="frases-y-expresiones-comunes"><a class="header" href="#frases-y-expresiones-comunes">Frases y expresiones comunes</a></h1>
+<p>
+</p>
+<h2 id="saludos"><a class="header" href="#saludos">Saludos</a></h2>
+<p><strong>salom</strong> - hola</p>
+<p><strong>xanti</strong> - hola ("paz")</p>
+<p><strong>bonsoba</strong> - buenos días</p>
+<p><strong>bonnuru</strong> - buenos días/tardes</p>
+<p><strong>bonaxam</strong> - buenas tardes/noches</p>
+<p><strong>bonnoce</strong> - buenas noches</p>
+<h2 id="despedidas"><a class="header" href="#despedidas">Despedidas</a></h2>
+<p><strong>weda</strong> - adiós</p>
+<p><strong>xanti</strong> - adiós ("paz")</p>
+<p><strong>finfe (rioko)</strong> - nos vemos</p>
+<p><strong>finfe xaya</strong> - hasta luego</p>
+<p><strong>finfe ner xaya</strong> - hasta pronto</p>
+<p><strong>bon soba</strong> - buenos días</p>
+<p><strong>bon nuru</strong> - buenos días/tardes</p>
+<p><strong>bon axam</strong> - buenas tardes/noches</p>
+<p><strong>bon noce</strong> - buenas noches</p>
+<h2 id="otros-buenos-deseos"><a class="header" href="#otros-buenos-deseos">Otros buenos deseos</a></h2>
+<p>Nota: Como se vio anteriormente, los saludos con <strong>bon</strong> (buen) se expresan como palabras compuestos,
+	mientras que las despedidas se expresan como frases de dos palabras. En las siguientes expresiones, las palabras
+	compuestas se usan cuando el hablante y el oyente permanecen juntos. Es por eso que las dos palabras raíz están
+	juntas, combinadas en una sola palabra. Por el contrario, las frases de dos palabras se utilizan si el hablante o el
+	oyente se apartan. Es por eso que las palabras raíz están separadas.</p>
+<p><strong>bonata</strong> <em>o</em> <strong>bon ata</strong> - bienvenido</p>
+<p><strong>bonxanse</strong> <em>o</em> <strong>bonxanse</strong> - buena suerte</p>
+<p><strong>bonyam</strong> <em>o</em> <strong>bon yam</strong> - buen provecho ("buena comida")</p>
+<p><strong>bonglu</strong> <em>o</em> <strong>bon glu</strong> - salud ("buen trago")</p>
+<p><strong>bonturi</strong> <em>o</em> <strong>bon turi</strong> - buen viaje</p>
+<h2 id="expresiones-de-cortesía"><a class="header" href="#expresiones-de-cortesía">Expresiones de cortesía</a></h2>
+<p><strong>fe lutuf</strong> - por favor</p>
+<p><strong>xukra</strong> - gracias</p>
+<p><strong>multi xukra</strong> - muchas gracias</p>
+<p><strong>no hay seba</strong> - de nada, no hay de qué ("no hay razón")</p>
+<p><strong>asif</strong> - lo siento</p>
+<p><strong>mafu</strong> - perdón, disculpe</p>
+<h2 id="otras-interjecciones"><a class="header" href="#otras-interjecciones">Otras interjecciones</a></h2>
+<p><strong>daybon</strong> - grandioso</p>
+<p><strong>melibon</strong> - genial</p>
+<p><strong>suprem</strong> - súper</p>
+<p><strong>otima</strong> - excelente</p>
+<p><strong>afarin</strong> - bien hecho, buen trabajo ("aplausos")</p>
+<p><strong>hura</strong> - hurra</p>
+<p><strong>ay</strong> - ay</p>
+<p><strong>wao</strong> - guau</p>
+<h2 id="interjecciones-de-diálogo"><a class="header" href="#interjecciones-de-diálogo">Interjecciones de diálogo</a></h2>
+<p><strong>o</strong> - oh</p>
+<p><strong>a</strong> - ah</p>
+<p><strong>nun</strong> - bueno (entonces), ahora (bien)</p>
+<p><strong>fe folo</strong> - entonces, por lo tanto, en consecuencia</p>
+<p><strong>fe fato</strong> - de hecho, en realidad</p>
+<p><strong>fe fini</strong> - finalmente</p>
+<p><strong>fe bonxanse</strong> - afortunadamente, por fortuna</p>
+<p><strong>fe asif</strong> - lamentablemente, desafortunadamente</p>
+<p><strong>fe onxala</strong> - ojalá</p>
+<p><strong>fe misal</strong> - por ejemplo</p>
+<p><strong>fe xugwan</strong> - por lo general</p>
+<p><strong>fe benji</strong> - en esencia, básicamente</p>
+<p><strong>fe moy kaso</strong> - en cualquier caso, de todos modos</p>
+<p><strong>fe alo kaso</strong> - de lo contrario</p>
+<p><strong>maxpul</strong> - además</p>
+<p><strong>pia</strong> - también</p>
+<p><strong>abruto</strong> - de repente</p>
+<p><strong>e</strong> <em>o</em> <strong>em</strong> - eh</p>
+<p><strong>aham</strong> - Ya veo, entendido ("entender")</p>
+<p><strong>yakin</strong> - ciertamente, seguramente</p>
+<p><strong>totalyakin</strong> <em>o</em> <strong>pulyakin</strong> - absolutamente, totalmente</p>
+<p><strong>mimbay</strong> - obviamente, por supuesto</p>
+<p><strong>sipul</strong> - en efecto</p>
+<p><strong>okey</strong> - okey, está bien</p>
+<p><strong>ible</strong> - tal vez, posiblemente</p>
+<p><strong>dayible</strong> - probablemente</p>
+<p><strong>sahi</strong> - correcto</p>
+<p><strong>mal</strong> - incorrecto</p>
+<p><strong>sati</strong> - cierto</p>
+<p><strong>falso</strong> - falso, no es cierto</p>
+<p><strong>samaijen</strong> - de acuerdo ("misma opinión")</p>
+<p><strong>Kam sati?</strong> - ¿De verdad? </p>
+<p><strong>Kam jidi?</strong> - ¿En serio? ¿Hablas en serio?</p>
+<p><strong>Kam yakin?</strong> - ¿Estás seguro?</p>
+<p><strong>Kam bon?</strong> - ¿Estás bien?, ¿Está bien?</p>
+<p><strong>Kam okey?</strong> - ¿Está bien? ¿Todo bien?</p>
+<h2 id="preguntasrespuestas-comunes"><a class="header" href="#preguntasrespuestas-comunes">Preguntas/Respuestas comunes</a></h2>
+<ul>
+	<li><strong>Yu sen kepul?</strong> <em>o</em> <strong>Yu kepul?</strong><br /> ¿Cómo estás?</li>
+</ul>
+<p><strong>Daymo bon, ji yu?</strong><br /> Muy bien, ¿y tú?</p>
+<p><strong>semibon</strong><br /> más o menos</p>
+<p><strong>semi semi</strong><br /> regular</p>
+<ul>
+	<li><strong>Yu name keto?</strong> <em>o</em> <strong>Yusu name sen keto?</strong><br /> ¿Cómo te llamas? <em>o</em>
+		¿Cuál es tu nombre?</li>
+</ul>
+<p><strong>Mi name...</strong> <em>o</em> <strong>Misu name sen...</strong><br /> Me llamo... <em>o</em> Mi nombre es...
+</p>
+<p><strong>(To sen) yukwe, na xorkone yu.</strong> <em>o</em> <strong>Yukwe.</strong><br /> "Es agradable conocerte."
+	<em>o</em> "Es agradable."</p>
+<p><strong>(To sen) furaha, na xorkone yu.</strong> <em>o</em> <strong>Furaha.</strong><br /> Es un placer conocerte.
+	<em>o</em> Es un placer.</p>
+<p><strong>(Mi sen) hox na xorkone yu.</strong> <em>o</em> <strong>Mi sen hox.</strong><br /> "(Estoy) feliz de
+	conocerte." <em>o</em> "Estoy feliz."</p>
+<ul>
+	<li><strong>Yu ogar keloka?</strong><br /> ¿Dónde vives?</li>
+</ul>
+<p><strong>Mi ogar en...</strong><br /> Vivo en...</p>
+<ul>
+	<li><strong>Yu sen of keloka?</strong><br /> ¿De dónde eres?</li>
+</ul>
+<p><strong>Mi sen of...</strong><br /> Soy de...</p>
+<ul>
+	<li><strong>Yu sen kemo lao?</strong> <em>o</em> <strong>Yu sen fe ke nyan?</strong><br /> ¿Cuantos años tienes?
+	</li>
+</ul>
+<p><strong>Mi sen lao fe... (nyan).</strong> <em>o</em> <strong>Mi sen fe... (nyan).</strong><br /> Tengo... años.</p>
+<ul>
+	<li><strong>Kam yu (pala) Globasa?</strong><br /> ¿Hablas Globasa?</li>
+</ul>
+<p><strong>Sí, xosu.</strong><br /> Sí, un poco.</p>
+<ul>
+	<li><strong>Yu pala ke basa?</strong><br /> ¿Qué idiomas hablas?</li>
+</ul>
+<p><strong>Mi pala...</strong><br /> Yo hablo...</p>
+<ul>
+	<li><strong>Kam yu aham?</strong><br /> ¿Comprendes?</li>
+</ul>
+<p><strong>(Si,) mi aham.</strong><br /> (Sí,) comprendo.</p>
+<p><strong>(No,) mi no aham.</strong><br /> (No,) no comprendo.</p>
+<ul>
+	<li><strong>Ren loga... kemaner (in Globasa)?</strong><br /> ¿Cómo se dice... (en Globasa)?</li>
+</ul>
+<p><strong>In Globasa, ren loga...</strong><br /> (En Globasa), se dice...</p>
+<h2 id="declaraciones-comunes"><a class="header" href="#declaraciones-comunes">Declaraciones comunes</a></h2>
+<p><strong>Mi jixi.</strong><br /> Lo sé.</p>
+<p><strong>Mi no jixi.</strong><br /> No sé.</p>
+<p><strong>Mi lubi yu.</strong><br /> Te quiero. <em>o</em> Te amo. </p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="lexiklase.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="lexiklase.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+        <script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

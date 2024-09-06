@@ -1,0 +1,679 @@
+<!DOCTYPE HTML>
+<html lang="pt" class="rust-clr" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Formas verbais - Gramática da globasa</title>
+
+        <!-- Custom HTML head -->
+        
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="Tradução portuguesa da gramática da globasa (via Google Gemini): Formas verbais">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="gramati.html"><strong aria-hidden="true">1.</strong> Introdução</a></li><li class="chapter-item expanded "><a href="SUMMARY.html"><strong aria-hidden="true">2.</strong> Sumário</a></li><li class="chapter-item expanded "><a href="abece-ji-lafuzu.html"><strong aria-hidden="true">3.</strong> Alfabeto e pronúncia</a></li><li class="chapter-item expanded "><a href="inharelexi.html"><strong aria-hidden="true">4.</strong> Palavras de conteúdo: Substantivos, verbos, adjetivos e advérbios</a></li><li class="chapter-item expanded "><a href="gramatilexi.html"><strong aria-hidden="true">5.</strong> Palavras de função: Conjunções, preposições e advérbios de função</a></li><li class="chapter-item expanded "><a href="pornamelexi.html"><strong aria-hidden="true">6.</strong> Pronomes</a></li><li class="chapter-item expanded "><a href="tabellexi.html"><strong aria-hidden="true">7.</strong> Correlativos</a></li><li class="chapter-item expanded "><a href="numer-ji-mesi.html"><strong aria-hidden="true">8.</strong> Números e meses do ano</a></li><li class="chapter-item expanded "><a href="falelexili-morfo.html" class="active"><strong aria-hidden="true">9.</strong> Formas verbais</a></li><li class="chapter-item expanded "><a href="jumlemonli-estrutur.html"><strong aria-hidden="true">10.</strong> Ordem das palavras: Estrutura do sintagma</a></li><li class="chapter-item expanded "><a href="jumleli-estrutur.html"><strong aria-hidden="true">11.</strong> Ordem das palavras: Estrutura da oração</a></li><li class="chapter-item expanded "><a href="lexikostrui.html"><strong aria-hidden="true">12.</strong> Formação de palavras</a></li><li class="chapter-item expanded "><a href="ofkatado-morfomon.html"><strong aria-hidden="true">13.</strong> Morfemas truncados</a></li><li class="chapter-item expanded "><a href="lexiklase.html"><strong aria-hidden="true">14.</strong> Classes de palavras</a></li><li class="chapter-item expanded "><a href="pimpan-logaxey.html"><strong aria-hidden="true">15.</strong> Frases e expressões comuns</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust clr</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha clr</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Gramática da globasa</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/pt-gemini/src/falelexili-morfo.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="formas-verbais"><a class="header" href="#formas-verbais">Formas verbais</a></h1>
+<p>
+</p>
+<h2 id="omissão-de-partículas-verbais"><a class="header" href="#omissão-de-partículas-verbais">Omissão de partículas verbais</a></h2>
+<p>As partículas verbais podem ser omitidas a critério do falante ou, se preferir, o falante pode aplicar as seguintes
+	diretrizes:</p>
+<ul>
+	<li>
+		<p>A forma lexicográfica do verbo pode expressar o presente simples, o que permite a omissão dos marcadores
+			<strong>nun</strong>, <strong>du-</strong> e <strong>u</strong>.</p>
+	</li>
+	<li>
+		<p>Na narração de histórias, também, a forma verbal do dicionário só pode ser usada para narrar eventos.
+			Tecnicamente falando, não é que neste caso se omita a partícula do passado simples <strong>le</strong>, mas
+			sim que se conta uma história como se estivesse descrevendo a cena de um filme, em tempo presente, com a
+			omissão de <strong>nun </strong>, <strong>du-</strong> ou <strong>u</strong>.</p>
+	</li>
+	<li>
+		<p>Exceto nos casos descritos anteriormente, o tempo/modo pode ser estabelecido novamente com cada sintagma do
+			sujeito e mantido sem repetição para outros verbos ou até que o tempo/modo seja alterado dentro dessa
+			cláusula. Em outras palavras, a partícula para <em>qualquer</em> tempo/modo pode ser omitida nos verbos
+			subsequentes dentro de uma mesma cláusula, uma vez que o tempo/modo tenha sido estabelecido com o primeiro
+			verbo de cada predicado.</p>
+	</li>
+</ul>
+<h2 id="tempos-do-presente-simples"><a class="header" href="#tempos-do-presente-simples">Tempos do presente simples</a></h2>
+<p>Em Globasa, os tempos do presente são expressos da seguinte maneira.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Tempos do presente simples</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Forma verbal</td>
+			<td>Marcadores</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td>Presente Geral<br /><br /><br /></td>
+			<td><strong>(nun)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) yam pingo.</strong><br />Como a maçã.<br />Eu como a maçã.</td>
+		</tr>
+		<tr>
+			<td>Presente contínuo/habitual<br /><br /><br /></td>
+			<td><strong>(nun) (du-)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) (du)yam pingo.</strong><br /> Como (continuamente/habitualmente) maçãs.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="forma-lexicográfica-do-verbo"><a class="header" href="#forma-lexicográfica-do-verbo">Forma lexicográfica do verbo</a></h3>
+<p>Por padrão, a forma lexicográfica do verbo expressa o tempo presente geral, que é equivalente ao presente simples em
+	português. Além disso, a forma lexicográfica do verbo por si só também pode expressar o tempo presente ativo, que é
+	equivalente ao presente contínuo em português. Em outras palavras, a forma lexicográfica do verbo por si só é
+	ambígua e implica a omissão de <strong>nun</strong> ou de <strong>du-</strong>.</p>
+<h3 id="a-partícula-u"><a class="header" href="#a-partícula-u">A partícula u</a></h3>
+<p>Como alternativa ao uso exclusivo da forma lexicográfica do verbo, pode-se usar a partícula <strong>u</strong> em vez
+	de <strong>nun</strong> ou <strong>du-</strong>. Esta partícula geralmente só é usada em textos ou discursos formais
+	como uma forma simples de marcar o predicado em frases nas quais não há nenhum outro marcador de tempo/modo.</p>
+<h3 id="prefixo-du-"><a class="header" href="#prefixo-du-">Prefixo du-</a></h3>
+<p>Como prefixo verbal, <strong>du-</strong> expressa o aspecto contínuo/habitual, que representa uma atividade ou um
+	estado durante um período de tempo indefinido, em vez de ocorrer em um único momento ou durante um período de tempo
+	específico. O prefixo <strong>du-</strong> geralmente é omitido com o tempo presente.</p>
+<p>Nos substantivos, o prefixo <strong>du-</strong> significa "a ação de".</p>
+<p><strong>dulala</strong> - (a ação de) cantar, o canto<br />
+	<strong>dudanse</strong> - (a ação de) dançar, a dança
+</p>
+<p><em>O prefixo <strong>du-</strong> é truncado de <strong>dure</strong> (duração).<br /> Etimologia de
+		<strong>dure</strong>: inglês, francês, alemão, espanhol</em></p>
+<h2 id="tempos-do-passado-simples"><a class="header" href="#tempos-do-passado-simples">Tempos do passado simples</a></h2>
+<p>Os tempos do passado simples são expressos com a partícula <strong>le</strong>.</p>
+<p><em>Etimologia de <strong>le</strong>: mandarim (了 “le”), suaíli (-li-), russo (-л “-l”)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Tempos do passado simples</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Forma verbal</td>
+			<td>Marcadores</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td>Passado Geral<br /><br /></td>
+			<td><strong>le</strong><br /><br /></td>
+			<td><strong>Mi le yam pingo.</strong><br />Comi a maçã.</td>
+		</tr>
+		<tr>
+			<td>Passado contínuo/habitual<br /><br /></td>
+			<td><strong>le du-</strong><br /><br /></td>
+			<td><strong>Mi le duyam pingo.</strong><br />Costumava comer maçãs.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="tempos-do-futuro-simples"><a class="header" href="#tempos-do-futuro-simples">Tempos do futuro simples</a></h2>
+<p>Os tempos do futuro simples são expressos com a partícula <strong>xa</strong>.</p>
+<p><em>Etimologia de <strong>xa</strong>: árabe (سوف “sawf”, سا “sa”), inglês (shall), holandês (zal)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Tempos do futuro simples</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Forma verbal</td>
+			<td>Marcadores</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td>Futuro Geral<br /><br /></td>
+			<td><strong>xa</strong><br /><br /></td>
+			<td><strong>Mi xa yam pingo.</strong><br />Comerei a maçã.</td>
+		</tr>
+		<tr>
+			<td>Futuro contínuo/habitual<br /><br /></td>
+			<td><strong>xa du-</strong><br /><br /></td>
+			<td><strong>Mi xa duyam pingo.</strong><br />Comerei (continuamente/habitualmente) maçãs.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="tempos-do-passado-e-futuro-imediato"><a class="header" href="#tempos-do-passado-e-futuro-imediato">Tempos do passado e futuro imediato</a></h2>
+<p>Os tempos do passado e futuro <em>imediato</em> são expressos da seguinte maneira utilizando o prefixo
+	<strong>ja-</strong>.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Tempos do passado e futuro imediato</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Forma verbal</td>
+			<td>Marcadores</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td>Passado Imediato<br /><br /></td>
+			<td><strong>jale</strong><br /><br /></td>
+			<td><strong>Mi jale yam pingo.</strong><br />Acabei de comer a maçã.</td>
+		</tr>
+		<tr>
+			<td>Futuro Imediato<br /><br /></td>
+			<td><strong>jaxa</strong><br /><br /></td>
+			<td><strong>Mi jaxa yam pingo.</strong><br />Estou prestes a comer a maçã.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="prefixo-ja-"><a class="header" href="#prefixo-ja-">Prefixo ja-</a></h3>
+<p>O prefixo <strong>ja-</strong> significa <em>imediatamente adjacente</em> e é truncado de <strong>jara</strong>
+	(<em>vizinho</em>).</p>
+<p><em>Etimologia de <strong>jara</strong>: árabe (جارة “jara”), suaíli (jirani), indonésio (jiran)</em></p>
+<h2 id="tempos-compostos"><a class="header" href="#tempos-compostos">Tempos compostos</a></h2>
+<p>Os tempos compostos são formados combinando duas das partículas dos tempos gerais (<strong>nun</strong>,
+	<strong>le</strong>, <strong>xa</strong>).</p>
+<p>Linguisticamente falando, os tempos compostos são utilizados para expressar em detalhe diferentes aspectos
+	gramaticais. Há três aspectos expressos pelos tempos compostos, que se correlacionam com as três linhas em cada uma
+	das tabelas abaixo: progressivo (ativo), perfectivo (completo) e prospectivo.</p>
+<p>Enquanto os tempos simples descrevem eventos apenas do ponto de vista do momento presente, os tempos compostos são
+	utilizados para sinalizar o estado temporal e o aspecto de um evento do ponto de vista do presente, passado ou
+	futuro.</p>
+<p>Alguns tempos compostos raramente são usados e, muitas vezes, são melhor expressos pelos tempos simples. Outros são
+	mais úteis e podem ser bastante comuns na fala, particularmente os seguintes tempos: passado ativo (<strong>le
+		nun</strong>), presente completo (<strong>nun le</strong>), futuro completo (<strong>xa le</strong>), passado
+	prospectivo (<strong>le xa</strong>).</p>
+<h2 id="tempos-presentes-compostos"><a class="header" href="#tempos-presentes-compostos">Tempos presentes compostos</a></h2>
+<p>Os tempos presentes compostos são expressos da seguinte maneira:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Tempos presentes compostos</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Forma verbal</td>
+			<td>Marcadores</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td>Presente Ativo<br /><br /></td>
+			<td><strong>(nun) nun</strong><br /><br /></td>
+			<td><strong>Mi (nun) nun yam pingo.</strong><br />Estou comendo a maçã.</td>
+		</tr>
+		<tr>
+			<td>Presente Completo<br /><br /></td>
+			<td><strong>nun le</strong><br /><br /></td>
+			<td><strong>Mi nun le yam pingo.</strong><br />Comi a maçã. (ação completa)</td>
+		</tr>
+		<tr>
+			<td>Presente Prospectivo<br /><br /></td>
+			<td><strong>nun xa</strong><br /><br /></td>
+			<td><strong>Mi nun xa yam pingo.</strong><br />Vou comer a maçã.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="tempos-passados-compostos"><a class="header" href="#tempos-passados-compostos">Tempos Passados Compostos</a></h2>
+<p>Os tempos passados compostos são expressos da seguinte maneira:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Tempos Passados Compostos</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Forma verbal</td>
+			<td>Marcadores</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td>Passado Ativo<br /><br /></td>
+			<td><strong>le nun</strong><br /><br /></td>
+			<td><strong>Mi le nun yam pingo.</strong><br />Estava comendo a maçã.</td>
+		</tr>
+		<tr>
+			<td>Passado Completo<br /><br /></td>
+			<td><strong>le le</strong><br /><br /></td>
+			<td><strong>Mi le le yam pingo.</strong><br />Tinha comido a maçã. (ação completa)</td>
+		</tr>
+		<tr>
+			<td>Passado Prospectivo<br /><br /></td>
+			<td><strong>le xa</strong><br /><br /></td>
+			<td><strong>Mi le xa yam pingo.</strong><br />Ia comer a maçã.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="tempos-futuros-compostos"><a class="header" href="#tempos-futuros-compostos">Tempos futuros compostos</a></h2>
+<p>Os tempos futuros compostos são expressos da seguinte maneira:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Tempos futuros compostos</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Forma verbal</td>
+			<td>Marcadores</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td>Futuro Ativo<br /><br /></td>
+			<td><strong>xa nun</strong><br /><br /></td>
+			<td><strong>Mi xa nun yam pingo.</strong><br />Estarei comendo a maçã.</td>
+		</tr>
+		<tr>
+			<td>Futuro Completo<br /><br /></td>
+			<td><strong>xa le</strong><br /><br /></td>
+			<td><strong>Mi xa le yam pingo.</strong><br />Terei comido a maçã. (ação completa)</td>
+		</tr>
+		<tr>
+			<td>Futuro Prospectivo<br /><br /></td>
+			<td><strong>xa xa</strong><br /><br /></td>
+			<td><strong>Mi xa xa yam pingo.</strong><br />Irei comer a maçã.</td>
+		</tr>
+	</tbody>
+</table>
+<p>É importante notar que, enquanto os tempos <em>perfeitos</em> em português nem sempre expressam uma ação completa, os
+	tempos <em>completos</em> em Globasa sempre o fazem.</p>
+<h2 id="aspecto-continuativo"><a class="header" href="#aspecto-continuativo">Aspecto continuativo</a></h2>
+<p>O advérbio de aspecto continuativo <strong>dupul</strong> é utilizado quando uma ação ou estado começou no passado e
+	continua no presente. Em português, isso é expresso com o <em>presente</em>, o <em>presente perfeito</em> ou o
+	<em>pretérito perfeito composto</em>. </p>
+<h3 id="exemplo-de-frase-com-o-presente-em-português"><a class="header" href="#exemplo-de-frase-com-o-presente-em-português">Exemplo de frase com o presente em português</a></h3>
+<p><strong>Mi dupul kone te dur 30 nyan.</strong><br /> O conheço há 30 anos.</p>
+<h3 id="exemplos-de-frases-com-o-presente-perfeito-em-português"><a class="header" href="#exemplos-de-frases-com-o-presente-perfeito-em-português">Exemplos de frases com o presente perfeito em português</a></h3>
+<p><strong>Mi no dupul oko te xorfe mesi tiga.</strong><br /> Não a vejo desde março.</p>
+<p><strong>Mi dupul sen gadibu.</strong><br /> Estou com raiva. (desde algum tempo atrás)</p>
+<p><strong>Yu dupul sen kepul?</strong><br /> Como você tem passado? (desde algum tempo atrás)</p>
+<h3 id="exemplos-de-frases-com-o-pretérito-perfeito-composto-em-português"><a class="header" href="#exemplos-de-frases-com-o-pretérito-perfeito-composto-em-português">Exemplos de frases com o pretérito perfeito composto em português</a></h3>
+<p><strong>Mi dupul yam hin pingo dur un satu.</strong><br /> Estou comendo esta maçã há uma hora.</p>
+<p><strong>Yu dupul fale keto?</strong><br /> O que você tem feito? (desde algum tempo atrás)</p>
+<p><strong>Mi dupul doxo hin kitabu xorfe jaleli sabedin.</strong><br /> Estou lendo este livro desde a semana passada.
+</p>
+<h2 id="modo-condicional"><a class="header" href="#modo-condicional">Modo condicional</a></h2>
+<p>O modo condicional é expresso com a partícula <strong>ger</strong>.</p>
+<p><em>A partícula <strong>ger</strong> é truncada de <strong>eger</strong> (se).<br /> Etimologia de
+		<strong>eger</strong>: hindi (अगर “agar”), persa (اگر “agar”), turco (eğer)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Modo condicional</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Forma verbal</td>
+			<td>Marcadores</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td>Condicional<br /><br /></td>
+			<td><strong>ger</strong><br /><br /></td>
+			<td><strong>Mi ger yam pingo.</strong><br />Comeria a maçã.</td>
+		</tr>
+		<tr>
+			<td>Passado condicional<br /><br /></td>
+			<td><strong>ger le</strong><br /><br /></td>
+			<td><strong>Mi ger le yam pingo.</strong><br />Teria comido a maçã.</td>
+		</tr>
+	</tbody>
+</table>
+<p>A cláusula subordinada (se...) é expressa com a forma lexicográfica do verbo.</p>
+<p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> Eu comeria a maçã se estivesse com fome.</p>
+<h2 id="voz-passiva"><a class="header" href="#voz-passiva">Voz passiva <span id="be-"></span></a></h2>
+<p>A voz passiva é expressa com o prefixo <strong>be-</strong>.</p>
+<p><em>Etimologia de <strong>be-</strong>: mandarim (被 “bèi”), inglês (be), norueguês (ble)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Voz passiva</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Forma verbal</td>
+			<td>Marcadores</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td>Presente Passivo<br /><br /></td>
+			<td><strong>(nun) be-</strong><br /><br /></td>
+			<td><strong>Pingo beyam mi.</strong><br />A maçã é comida por mim.</td>
+		</tr>
+		<tr>
+			<td>Passado Passivo<br /><br /></td>
+			<td><strong>le be-</strong><br /><br /></td>
+			<td><strong>Pingo le beyam mi.</strong><br />A maçã foi comida por mim.</td>
+		</tr>
+		<tr>
+			<td>Futuro Passivo<br /><br /></td>
+			<td><strong>xa be-</strong><br /><br /></td>
+			<td><strong>Pingo xa beyam mi.</strong><br />A maçã será comida por mim.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Embora tecnicamente o modo passivo também possa ser expresso com todos os tempos compostos, na prática é usado mais
+	frequentemente com os tempos gerais presente, passado e futuro, como mostrado acima.</p>
+<p>Nota: Em Globasa, o agente em frases passivas é expresso como o objeto direto sem necessidade de uma preposição para
+	marcar o agente. Em contraste, em português, o agente é sinalizado com a preposição <em>por</em>. </p>
+<p><strong>Myaw le no velosi yam piu.</strong><br /> O gato não comeu o pássaro rapidamente.</p>
+<p><strong>Piu le no velosi beyam myaw.</strong><br /> O pássaro não foi comido rapidamente pelo gato.</p>
+<h2 id="modos-imperativo-e-jussivo"><a class="header" href="#modos-imperativo-e-jussivo">Modos Imperativo e Jussivo</a></h2>
+<p>Em Globasa, as ordens (<em>modo imperativo</em>) e as exortações (<em>modo jussivo</em>) são expressas com a
+	partícula <strong>am</strong>.</p>
+<p><em>A partícula <strong>am</strong> é truncada de <strong>amiru</strong> (ordenar)<br /> Etimologia de
+		<strong>amiru</strong>: árabe (أمر “amr”), turco (emir), suaíli (amri, -amuru)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Modos Imperativo e Jussivo</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Forma verbal</td>
+			<td>Marcador</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td>Imperativo<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>(Yu) Am yam!</strong><br />¡Coma!, ¡Come!<br /><br /><strong>(Uyu) Am
+					yam!</strong><br />¡Comam!, ¡Comam!<br /><br /><strong>Imi am yam!</strong><br />¡Comamos!</td>
+		</tr>
+		<tr>
+			<td>Jussivo<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Te am yam.</strong><br />Que ele/ela coma.<br /><br /><strong>Mi am yam.</strong><br />Que eu
+				coma.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="modo-imperativo"><a class="header" href="#modo-imperativo">Modo imperativo</a></h3>
+<p>Os pronomes <strong>yu</strong> e <strong>uyu</strong> podem ser omitidos ao expressar o modo <em>imperativo</em>.
+</p>
+<h3 id="modo-jussivo"><a class="header" href="#modo-jussivo">Modo jussivo</a></h3>
+<p>O <em>modo jussivo</em> tem um significado similar ao <em>modo imperativo</em>, mas é usado para a 3ª pessoa
+	(<strong>te</strong>/<strong>to</strong>, <strong>ete</strong>/<strong>oto</strong>), bem como para a 1ª pessoa
+	singular (<strong>mi</strong>).</p>
+<p>O modo jussivo também pode funcionar como um <em>subjuntivo mandativo</em> dentro de frases subordinadas. O
+	<em>subjuntivo mandativo</em> expressa uma demanda, requerimento, petição, recomendação ou sugestão.</p>
+<p><strong>Mi vole ki te am safegi sesu kamer.</strong><br /> Quero que ele/ela limpe seu quarto.</p>
+<p><strong>Mi peti ki imi am xorata jaldi.</strong><br /> Peço que cheguemos cedo.</p>
+<p><strong>Kitabu hu xwexiyen am doxo da no sen daymo lungo.</strong><br /> O livro que os alunos devem ler não é muito
+	longo.</p>
+<h2 id="negação"><a class="header" href="#negação">Negação</a></h2>
+<p>A negação para todas as formas verbais é expressa com a palavra <strong>no</strong> e, como advérbio, precede
+	imediatamente o verbo e qualquer outro advérbio modificativo.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Negação</th>
+			<th> </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Marcador</td>
+			<td>Exemplos de frases</td>
+		</tr>
+		<tr>
+			<td><strong>no</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Mi no sen lao.</strong><br />Não sou velho.<br /><br /><strong>Te no yam
+					pingo.</strong><br />Ele/ela não come a maçã.<br /><br /><strong>Am no yam pingo.</strong><br />Não
+				coma a maçã.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="modo-infinitivo"><a class="header" href="#modo-infinitivo">Modo infinitivo</a></h2>
+<p>Em Globasa, a forma verbal no infinitivo é sinalizada com a partícula <strong>na</strong> e geralmente é omitida
+	dentro de uma cláusula, uma vez que tenha sido estabelecida com o primeiro verbo. Consulte <a
+		href="./jumleli-estrutur.html#nafalelexili_jumlemon">Sintagmas verbais no infinitivo</a> em Estrutura da frase.
+</p>
+<p><em>Etimologia de <strong>na</strong>: grego (να “na”), hindi (-ना “-na”)</em></p>
+<h2 id="orações-subordinadas"><a class="header" href="#orações-subordinadas">Orações subordinadas</a></h2>
+<p>Como mostrado anteriormente, as cláusulas com <em>se</em> em frases condicionais usam a forma lexicográfica do verbo.
+	No entanto, nem todas as frases que levam uma cláusula com <em>se</em> são frases condicionais. A menos que a frase
+	seja condicional, as cláusulas com <em>se</em> são marcadas com seu tempo verbal correspondente.</p>
+<p><strong>Eger mi xa yam pingo, mi xa no haji sen yamkal.</strong><br /> Se eu comer a maçã (<em>no futuro</em>), não
+	terei mais fome.</p>
+<p><strong>Eger te le yam yusu pingo, kam yu xa sen gadibu?</strong><br /> Se ele/ela comeu sua maçã (<em>no
+		passado</em>), você ficará com raiva?</p>
+<p><strong>Eger te yam yusu pingo, kam yu gadibucu?</strong><br /> Se ele/ela come suas maçãs (<em>em geral</em>), você
+	fica com raiva?</p>
+<h3 id="orações-com-outras-cláusulas-subordinadas"><a class="header" href="#orações-com-outras-cláusulas-subordinadas">Orações com outras cláusulas subordinadas</a></h3>
+<p>Além de <strong>eger</strong> (<em>se</em>), as cláusulas subordinadas podem começar com outras conjunções, como
+	<strong>denwatu hu</strong> (<em>quando</em>), <strong>denloka hu</strong> (<em>onde</em>), <strong>koski</strong>
+	(<em>porque</em>), etc. Os marcadores de tempo são obrigatórios em todas essas cláusulas subordinadas.</p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="numer-ji-mesi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="jumlemonli-estrutur.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="numer-ji-mesi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="jumlemonli-estrutur.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+        <script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

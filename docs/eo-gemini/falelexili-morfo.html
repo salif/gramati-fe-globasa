@@ -1,0 +1,674 @@
+<!DOCTYPE HTML>
+<html lang="eo" class="rust-clr" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Verbformoj - Gramatiko de Globaso</title>
+
+        <!-- Custom HTML head -->
+        
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="Esperanta traduko de gramatiko de Globaso (per Google Gemini): Verbformoj">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="gramati.html"><strong aria-hidden="true">1.</strong> Enkonduko</a></li><li class="chapter-item expanded "><a href="SUMMARY.html"><strong aria-hidden="true">2.</strong> Enhavtabelo</a></li><li class="chapter-item expanded "><a href="abece-ji-lafuzu.html"><strong aria-hidden="true">3.</strong> Alfabeto kaj Prononco</a></li><li class="chapter-item expanded "><a href="inharelexi.html"><strong aria-hidden="true">4.</strong> Enhavaj Vortoj: Substantivoj, Verboj, Adjektivoj kaj Adverboj</a></li><li class="chapter-item expanded "><a href="gramatilexi.html"><strong aria-hidden="true">5.</strong> Funkciaj Vortoj: Konjunkcioj, Prepozicioj kaj Funkciaj Adverboj</a></li><li class="chapter-item expanded "><a href="pornamelexi.html"><strong aria-hidden="true">6.</strong> Pronomoj</a></li><li class="chapter-item expanded "><a href="tabellexi.html"><strong aria-hidden="true">7.</strong> Korelativoj</a></li><li class="chapter-item expanded "><a href="numer-ji-mesi.html"><strong aria-hidden="true">8.</strong> Nombroj kaj Monatoj de la Jaro</a></li><li class="chapter-item expanded "><a href="falelexili-morfo.html" class="active"><strong aria-hidden="true">9.</strong> Verbformoj</a></li><li class="chapter-item expanded "><a href="jumlemonli-estrutur.html"><strong aria-hidden="true">10.</strong> Vortordo: Frazstrukturo</a></li><li class="chapter-item expanded "><a href="jumleli-estrutur.html"><strong aria-hidden="true">11.</strong> Vortordo: Frazstrukturo</a></li><li class="chapter-item expanded "><a href="lexikostrui.html"><strong aria-hidden="true">12.</strong> Vortfarado</a></li><li class="chapter-item expanded "><a href="ofkatado-morfomon.html"><strong aria-hidden="true">13.</strong> Mallongigitaj Morfemoj</a></li><li class="chapter-item expanded "><a href="lexiklase.html"><strong aria-hidden="true">14.</strong> Vortklasoj</a></li><li class="chapter-item expanded "><a href="pimpan-logaxey.html"><strong aria-hidden="true">15.</strong> Oftaj Frazoj kaj Esprimoj</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust clr</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha clr</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Gramatiko de Globaso</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/eo-gemini/src/falelexili-morfo.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="verboformoj"><a class="header" href="#verboformoj">Verboformoj</a></h1>
+<p>
+</p>
+<h2 id="preterlaso-de-verbopartikuloj"><a class="header" href="#preterlaso-de-verbopartikuloj">Preterlaso de Verbopartikuloj</a></h2>
+<p>Verbopartikuloj povas esti preterlasitaj laŭ la bontrovo de la parolanto, aŭ, se preferate, la parolanto povas apliki
+	la jenajn gvidliniojn:</p>
+<ul>
+	<li>
+		<p>La vortara formo de la verbo povas esprimi la simplan prezencon, permesante la preterlason de la markiloj
+			<strong>nun</strong>, <strong>du-</strong> kaj <strong>u</strong>.</p>
+	</li>
+	<li>
+		<p>En rakontado, ankaŭ, la vortara verboformo sole povas esti uzata por rakonti eventojn. Teknike parolante, ne
+			estas ke la simpla preterita partikulo <strong>le</strong> estas preterlasita en ĉi tiu kazo, sed prefere
+			rakonto estas rakontata kvazaŭ la sceno de filmo estus priskribata, en la prezenco, kun la preterlaso de
+			<strong>nun</strong>, <strong>du-</strong> aŭ <strong>u</strong>. </p>
+	</li>
+	<li>
+		<p>Krom en la kazoj priskribitaj supre, tempo/modo povas esti establita denove kun ĉiu subjekta frazo kaj
+			konservita sen ripeto por aliaj verboj aŭ ĝis la tempo/modo estas ŝanĝita ene de tiu frazo. Alivorte, la
+			partikulo por <em>ĉiu</em> tempo/modo povas esti preterlasita en postaj verboj ene de frazo post kiam la
+			tempo/modo estis establita kun la unua verbo de ĉiu predikato. </p>
+	</li>
+</ul>
+<h2 id="simplaj-presencaj-tempoj"><a class="header" href="#simplaj-presencaj-tempoj">Simplaj Presencaj Tempoj</a></h2>
+<p>La simplaj prezencaj tempoj de Globasa estas esprimitaj jene.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Simplaj Presencaj Tempoj</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Verboformo</td>
+			<td>Markiloj</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td>Ĝenerala Prezenco<br /><br /><br /></td>
+			<td><strong>(nun)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) yam pingo.</strong><br />Mi manĝas la pomon.<br />Mi estas manĝanta la pomon.</td>
+		</tr>
+		<tr>
+			<td>Daŭra/Kutima Prezenco<br /><br /><br /></td>
+			<td><strong>(nun) (du-)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) (du)yam pingo.</strong><br />Mi (daŭre/kutime) manĝas pomojn.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="vortara-verboformo"><a class="header" href="#vortara-verboformo">Vortara Verboformo</a></h3>
+<p>Defaŭlte, la vortara verboformo esprimas la ĝeneralan prezencan tempon, kiu estas ekvivalenta al la angla simpla
+	prezenco. Krome, la vortara formo sole povas ankaŭ esprimi la prezencan aktivan tempon, kiu estas ekvivalenta al la
+	prezenca daŭra en la angla. Alivorte, la vortara verboformo sole estas ambigua kaj implicas la preterlason de aŭ
+	<strong>nun</strong> aŭ <strong>du-</strong>. </p>
+<h3 id="la-partikulo-u"><a class="header" href="#la-partikulo-u">La Partikulo u</a></h3>
+<p>Kiel alternativo al uzado de la vortara verboformo sole, la partikulo <strong>u</strong> povas esti uzata anstataŭ aŭ
+	<strong>nun</strong> aŭ <strong>du-</strong>. Ĉi tiu partikulo estas tipe uzata nur en formalaj tekstoj aŭ parolado
+	kiel simpla maniero marki la predikaton kie neniu alia tempo/moda markilo estas uzata.</p>
+<h3 id="prefikso-du-"><a class="header" href="#prefikso-du-">Prefikso du-</a></h3>
+<p>Kiel verboprefikso, <strong>du-</strong> esprimas la daŭran/kutiman aspekton, kiu prezentas agadon aŭ staton dum
+	nedifinita tempodaŭro, anstataŭ okazanta en ununura momento aŭ dum specifa tempodaŭro. La prefikso
+	<strong>du-</strong> estas tipe preterlasita kun la prezenca tempo.</p>
+<p>Kiel substantivoj, vortoj kun la prefikso <strong>du-</strong> estas ekvivalentaj al la gerundio en la angla.</p>
+<p><strong>dulala</strong> - (la ago de) kantado<br />
+	<strong>dudanse</strong> - (la ago de) dancado
+</p>
+<p><em>La prefikso <strong>du-</strong> estas stumpigita de <strong>dure</strong> (daŭro).<br /> Etimologio de
+		<strong>dure</strong>: angla, franca, germana, hispana</em></p>
+<h2 id="simpla-preterito"><a class="header" href="#simpla-preterito">Simpla Preterito</a></h2>
+<p>La simplaj preteritaj tempoj estas esprimitaj uzante la partikulon <strong>le</strong>.</p>
+<p><em>Etimologio de <strong>le</strong>: mandarina (了 “le”), svahila (-li-), rusa (-л “-l”)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Simplaj Preteritaj Tempoj</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Verboformo</td>
+			<td>Markiloj</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td>Ĝenerala Preterito<br /><br /></td>
+			<td><strong>le</strong><br /><br /></td>
+			<td><strong>Mi le yam pingo.</strong><br />Mi manĝis la pomon.</td>
+		</tr>
+		<tr>
+			<td>Daŭra/Kutima Preterito<br /><br /></td>
+			<td><strong>le du-</strong><br /><br /></td>
+			<td><strong>Mi le duyam pingo.</strong><br />Mi kutimis manĝi pomojn.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="simplaj-estontaj-tempoj"><a class="header" href="#simplaj-estontaj-tempoj">Simplaj Estontaj Tempoj</a></h2>
+<p>La simplaj estontaj tempoj estas esprimitaj uzante la partikulon <strong>xa</strong>.</p>
+<p><em>Etimologio de <strong>xa</strong>: araba (سوف “sawf”, سا “sa”), angla (shall), nederlanda (zal)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Simplaj Estontaj Tempoj</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Verboformo</td>
+			<td>Markiloj</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td>Ĝenerala Estonto<br /><br /></td>
+			<td><strong>xa</strong><br /><br /></td>
+			<td><strong>Mi xa yam pingo.</strong><br />Mi manĝos la pomon.</td>
+		</tr>
+		<tr>
+			<td>Daŭra/Kutima Estonto<br /><br /></td>
+			<td><strong>xa du-</strong><br /><br /></td>
+			<td><strong>Mi xa duyam pingo.</strong><br />Mi (daŭre/kutime) manĝos pomojn.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="tujaj-preteritaj-kaj-estontaj-tempoj"><a class="header" href="#tujaj-preteritaj-kaj-estontaj-tempoj">Tujaj Preteritaj kaj Estontaj Tempoj</a></h2>
+<p>La <em>tujaj</em> preteritaj kaj estontaj tempoj estas esprimitaj jene uzante la prefikson <strong>ja-</strong>. </p>
+<table>
+	<thead>
+		<tr>
+			<th>Tujaj Preteritaj kaj Estontaj Tempoj</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Verboformo</td>
+			<td>Markiloj</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td>Tuja Preterito<br /><br /></td>
+			<td><strong>jale</strong><br /><br /></td>
+			<td><strong>Mi jale yam pingo.</strong><br />Mi ĵus manĝis la pomon.</td>
+		</tr>
+		<tr>
+			<td>Tuja Estonto<br /><br /></td>
+			<td><strong>jaxa</strong><br /><br /></td>
+			<td><strong>Mi jaxa yam pingo.</strong><br />Mi tuj manĝos la pomon.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="prefikso-ja-"><a class="header" href="#prefikso-ja-">Prefikso ja-</a></h3>
+<p>La prefikso <strong>ja-</strong> signifas <em>tuj apuda</em> kaj estas stumpigita de <strong>jara</strong>
+	(<em>najbaro</em>).</p>
+<p><em>Etimologio de <strong>jara</strong>: araba (جارة “jara”), svahila (jirani), indonezia (jiran)</em></p>
+<h2 id="kunmetitaj-tempoj"><a class="header" href="#kunmetitaj-tempoj">Kunmetitaj Tempoj</a></h2>
+<p>La kunmetitaj tempoj estas formitaj per kombinado de iuj du el la ĝeneralaj tempaj partikuloj (<strong>nun</strong>,
+	<strong>le</strong>, <strong>xa</strong>).</p>
+<p>Lingvistike parolante, la kunmetitaj tempoj estas uzataj por esprimi diversajn gramatikajn aspektojn detale. Estas
+	tri aspektoj esprimitaj per la kunmetitaj tempoj, kiuj korelacias kun la tri vicoj en ĉiu el la tabeloj sube: daŭra
+	(aktiva), perfekta (finita) kaj perspektiva.</p>
+<p>Dum la simplaj tempoj raportas eventojn nur el la vidpunkto de la nuna momento, la kunmetitaj tempoj estas uzataj por
+	raporti la tempan staton kaj aspekton de evento el la vidpunkto de la prezenco, preterito aŭ estonto.</p>
+<p>Iuj kunmetitaj tempoj estas malofte uzataj kaj ofte estas plej bone esprimitaj uzante simplan tempon anstataŭe. Aliaj
+	estas pli utilaj kaj povas esti sufiĉe oftaj en parolado, precipe la jenaj tempoj: preterita aktiva (<strong>le
+		nun</strong>), prezenta perfekta (<strong>nun le</strong>), estonta perfekta (<strong>xa le</strong>), preterita
+	perspektiva (<strong>le xa</strong>).</p>
+<h2 id="kunmetitaj-presencaj-tempoj"><a class="header" href="#kunmetitaj-presencaj-tempoj">Kunmetitaj Presencaj Tempoj</a></h2>
+<p>La kunmetitaj prezencaj tempoj estas esprimitaj jene:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Kunmetitaj Presencaj Tempoj</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Verboformo</td>
+			<td>Markiloj</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td>Prezenta Aktiva<br /><br /></td>
+			<td><strong>(nun) nun</strong><br /><br /></td>
+			<td><strong>Mi (nun) nun yam pingo.</strong><br />Mi estas manĝanta la pomon.</td>
+		</tr>
+		<tr>
+			<td>Prezenta Perfekta<br /><br /></td>
+			<td><strong>nun le</strong><br /><br /></td>
+			<td><strong>Mi nun le yam pingo.</strong><br />Mi jam manĝis la pomon.</td>
+		</tr>
+		<tr>
+			<td>Prezenta Perspektiva<br /><br /></td>
+			<td><strong>nun xa</strong><br /><br /></td>
+			<td><strong>Mi nun xa yam pingo.</strong><br />Mi tuj manĝos la pomon.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="kunmetitaj-preteritaj-tempoj"><a class="header" href="#kunmetitaj-preteritaj-tempoj">Kunmetitaj Preteritaj Tempoj</a></h2>
+<p>La kunmetitaj preteritaj tempoj estas esprimitaj jene:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Kunmetitaj Preteritaj Tempoj</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Verboformo</td>
+			<td>Markiloj</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td>Preterita Aktiva<br /><br /></td>
+			<td><strong>le nun</strong><br /><br /></td>
+			<td><strong>Mi le nun yam pingo.</strong><br />Mi estis manĝanta la pomon.</td>
+		</tr>
+		<tr>
+			<td>Preterita Perfekta<br /><br /></td>
+			<td><strong>le le</strong><br /><br /></td>
+			<td><strong>Mi le le yam pingo.</strong><br />Mi jam estis manĝinta la pomon.</td>
+		</tr>
+		<tr>
+			<td>Preterita Perspektiva<br /><br /></td>
+			<td><strong>le xa</strong><br /><br /></td>
+			<td><strong>Mi le xa yam pingo.</strong><br />Mi estis tuj manĝonta la pomon.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="kunmetitaj-estontaj-tempoj"><a class="header" href="#kunmetitaj-estontaj-tempoj">Kunmetitaj Estontaj Tempoj</a></h2>
+<p>La kunmetitaj estontaj tempoj estas esprimitaj jene:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Kunmetitaj Estontaj Tempoj</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Verboformo</td>
+			<td>Markiloj</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td>Estonta Aktiva<br /><br /></td>
+			<td><strong>xa nun</strong><br /><br /></td>
+			<td><strong>Mi xa nun yam pingo.</strong><br />Mi estos manĝanta la pomon.</td>
+		</tr>
+		<tr>
+			<td>Estonta Perfekta<br /><br /></td>
+			<td><strong>xa le</strong><br /><br /></td>
+			<td><strong>Mi xa le yam pingo.</strong><br />Mi jam estos manĝinta la pomon.</td>
+		</tr>
+		<tr>
+			<td>Estonta Perspektiva<br /><br /></td>
+			<td><strong>xa xa</strong><br /><br /></td>
+			<td><strong>Mi xa xa yam pingo.</strong><br />Mi estos tuj manĝonta la pomon.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Indas rimarki, ke dum la <em>perfektaj</em> tempoj en la angla ne ĉiam esprimas finitan agon, la <em>perfektaj</em>
+	tempoj en Globasa ĉiam faras tion.</p>
+<h2 id="daŭra-aspekto"><a class="header" href="#daŭra-aspekto">Daŭra Aspekto</a></h2>
+<p>La <em>daŭra aspekta</em> adverbo <strong>dupul</strong> estas uzata kiam ago aŭ stato komenciĝis en la preterito kaj
+	daŭras en la prezencon. En la angla, tio estas esprimita aŭ per la <em>prezenta perfekta</em> aŭ la <em>perfekta
+		daŭra</em>.</p>
+<h3 id="ekzemplaj-frazoj-kun-la-prezenta-perfekta-en-la-angla"><a class="header" href="#ekzemplaj-frazoj-kun-la-prezenta-perfekta-en-la-angla">Ekzemplaj Frazoj kun la Prezenta Perfekta en la Angla</a></h3>
+<p><strong>Mi no dupul oko te xorfe mesi tiga.</strong><br /> Mi ne vidis ŝin ekde marto.</p>
+<p><strong>Mi dupul kone te dur 30 nyan.</strong><br /> Mi konas lin dum 30 jaroj.</p>
+<p><strong>Mi dupul sen gadibu.</strong><br /> Mi estis kolera.</p>
+<p><strong>Yu dupul sen kepul?</strong><br /> Kiel vi estis?</p>
+<h3 id="ekzemplaj-frazoj-kun-la-perfekta-daŭra-en-la-angla"><a class="header" href="#ekzemplaj-frazoj-kun-la-perfekta-daŭra-en-la-angla">Ekzemplaj Frazoj kun la Perfekta Daŭra en la Angla</a></h3>
+<p><strong>Mi dupul yam hin pingo dur un satu.</strong><br /> Mi estis manĝanta ĉi tiun pomon dum unu horo.</p>
+<p><strong>Yu dupul fale keto?</strong><br /> Kion vi faris?</p>
+<p><strong>Mi dupul doxo hin kitabu xorfe jaleli sabedin.</strong><br /> Mi estis leganta ĉi tiun libron ekde la pasinta
+	semajno. </p>
+<h2 id="kondiĉa-modo"><a class="header" href="#kondiĉa-modo">Kondiĉa Modo</a></h2>
+<p>La kondiĉa modo estas esprimita uzante la partikulon <strong>ger</strong>. </p>
+<p><em>La partikulo <strong>ger</strong> estas stumpigita de <strong>eger</strong> (se).<br /> Etimologio de
+		<strong>eger</strong>: hinda (अगर “agar”), persa (اگر “agar”), turka (eğer)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Kondiĉa Modo</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Verboformo</td>
+			<td>Markiloj</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td>Kondiĉa<br /><br /></td>
+			<td><strong>ger</strong><br /><br /></td>
+			<td><strong>Mi ger yam pingo.</strong><br />Mi manĝus la pomon.</td>
+		</tr>
+		<tr>
+			<td>Kondiĉa Preterito<br /><br /></td>
+			<td><strong>ger le</strong><br /><br /></td>
+			<td><strong>Mi ger le yam pingo.</strong><br />Mi estus manĝinta la pomon.</td>
+		</tr>
+	</tbody>
+</table>
+<p>La subpropozicio (se...) uzas la vortaran formon de la verbo.</p>
+<p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> Mi manĝus la pomon se mi estus malsata.</p>
+<h2 id="pasiva-voĉo"><a class="header" href="#pasiva-voĉo">Pasiva Voĉo <span id="be-"></span></a></h2>
+<p>La pasiva voĉo estas esprimita uzante la prefikson <strong>be-</strong>.</p>
+<p><em>Etimologio de <strong>be-</strong>: mandarina (被 “bèi”), angla (be), norvega (ble)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Pasiva Voĉo</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Verboformo</td>
+			<td>Markiloj</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td>Prezenta Pasiva<br /><br /></td>
+			<td><strong>(nun) be-</strong><br /><br /></td>
+			<td><strong>Pingo beyam mi.</strong><br />La pomo estas manĝata de mi.</td>
+		</tr>
+		<tr>
+			<td>Preterita Pasiva<br /><br /></td>
+			<td><strong>le be-</strong><br /><br /></td>
+			<td><strong>Pingo le beyam mi.</strong><br />La pomo estis manĝata de mi.</td>
+		</tr>
+		<tr>
+			<td>Estonta Pasiva<br /><br /></td>
+			<td><strong>xa be-</strong><br /><br /></td>
+			<td><strong>Pingo xa beyam mi.</strong><br />La pomo estos manĝata de mi.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Kvankam la pasiva modo povas teknike ankaŭ esti uzata kun ĉiuj kunmetitaj tempoj, praktike ĝi estas plej ofte uzata
+	kun la ĝeneralaj prezencaj, preteritaj kaj estontaj tempoj, kiel ilustrite supre.</p>
+<p>Noto: En Globasa, la aganto en pasivaj frazoj estas esprimita kiel la rekta objekto sen la bezono de prepozicio por
+	marki la aganton. Kontraste, la angla markas la aganton uzante <em>by</em>.</p>
+<p><strong>Myaw le no velosi yam piu.</strong><br /> La kato ne manĝis la birdon rapide.</p>
+<p><strong>Piu le no velosi beyam myaw.</strong><br /> La birdo ne estis rapide manĝita de la kato.</p>
+<h2 id="imperativa-kaj-jussiva-modoj"><a class="header" href="#imperativa-kaj-jussiva-modoj">Imperativa kaj Jussiva Modoj</a></h2>
+<p>En Globasa, ordonoj (<em>imperativa modo</em>) kaj admonoj (<em>jussiva modo</em>) estas ambaŭ esprimitaj uzante la
+	partikulon <strong>am</strong>.</p>
+<p><em>La partikulo <strong>am</strong> estas stumpigita de <strong>amiru</strong> (ordono)<br /> Etimologio de
+		<strong>amiru</strong>: araba (أمر “amr”), turka (emir), svahila (amri, -amuru)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Imperativa kaj Jussiva Modoj</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Verboformo</td>
+			<td>Markiloj</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td>Imperativa Modo<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>(Yu) Am yam!</strong><br />Manĝu!<br /><br /><strong>(Uyu) Am yam!</strong><br />(Vi ĉiuj)
+				manĝu!<br /><br /><strong>Imi am yam!</strong><br />Ni manĝu!</td>
+		</tr>
+		<tr>
+			<td>Jussiva Modo<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Te am yam.</strong><br />Li/ŝi manĝu.<br /><br /><strong>Mi am yam.</strong><br />Mi manĝu.
+			</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="imperativa-modo"><a class="header" href="#imperativa-modo">Imperativa Modo</a></h3>
+<p>La pronomoj <strong>yu</strong> kaj <strong>uyu</strong> povas esti preterlasitaj kiam esprimas la <em>imperativan
+		modon</em>.</p>
+<h3 id="jussiva-modo"><a class="header" href="#jussiva-modo">Jussiva Modo</a></h3>
+<p>La <em>jussiva modo</em> estas simila en signifo al la <em>imperativa modo</em> sed estas uzata por la tria persono
+	(<strong>te</strong>/<strong>to</strong>, <strong>ete</strong>/<strong>oto</strong>), same kiel la unua persono
+	singulara (<strong>mi</strong>).</p>
+<p>La jussiva modo povas ankaŭ funkcii kiel <em>manda subjunktivo</em> ene de subpropozicioj. La <em>manda
+		subjunktivo</em> esprimas postulon, devontigon, peton, rekomendon aŭ sugeston.</p>
+<p><strong>Mi vole ki te am safegi sesu kamer.</strong><br /> Mi volas ke li purigu sian ĉambron.</p>
+<p><strong>Mi peti ki imi am xorata jaldi.</strong><br /> Mi petas ke ni alvenu frue.</p>
+<p><strong>Kitabu hu xwexiyen am doxo da no sen daymo lungo.</strong><br /> La libro, kiun la lernantoj legu, ne estas
+	tre longa.</p>
+<h2 id="nego"><a class="header" href="#nego">Nego</a></h2>
+<p>Nego por ĉiuj verboformoj estas esprimita per la vorto <strong>no</strong> kaj, kiel adverbo, ĝi tuj antaŭas la
+	verbon kaj iujn ajn aliajn modifantajn adverbojn.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Nego</th>
+			<th> </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Markilo</td>
+			<td>Ekzemplaj Frazoj</td>
+		</tr>
+		<tr>
+			<td><strong>no</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Mi no sen lao.</strong><br />Mi ne estas maljuna.<br /><br /><strong>Te no yam
+					pingo.</strong><br />Li/ŝi ne manĝas la pomon.<br /><br /><strong>Am no yam pingo.</strong><br />Ne
+				manĝu la pomon.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="infinitiva-modo"><a class="header" href="#infinitiva-modo">Infinitiva Modo</a></h2>
+<p>En Globasa, la infinitiva verboformo estas markita per la partikulo <strong>na</strong> kaj estas tipe preterlasita
+	ene de frazo post kiam ĝi estis establita kun la unua verbo. Vidu <a
+		href="./jumleli-estrutur.html#nafalelexili_jumlemon">Infinitivaj Verbaj Frazoj</a> sub Frazaranĝo. </p>
+<p><em>Etimologio de <strong>na</strong>: greka (να “na”), hinda (-ना “-na”)</em></p>
+<h2 id="subpropozicioj"><a class="header" href="#subpropozicioj">Subpropozicioj</a></h2>
+<p>Kiel vidite supre, <em>se</em>-frazoj en kondiĉaj frazoj uzas la vortaran verboformon. Tamen, ne ĉiu frazo kiu havas
+	<em>se</em>-frazon estas kondiĉa frazo. Krom se la frazo estas kondiĉa, <em>se</em>-frazoj estas markitaj por tempo.
+</p>
+<p><strong>Eger mi xa yam pingo, mi xa no haji sen yamkal.</strong><br /> Se mi manĝos la pomon (<em>en la
+		estonto</em>), mi ne plu estos malsata.</p>
+<p><strong>Eger te le yam yusu pingo, kam yu xa sen gadibu?</strong><br /> Se li manĝis vian pomon (<em>en la
+		preterito</em>), ĉu vi estos kolera?</p>
+<p><strong>Eger te yam yusu pingo, kam yu gadibucu?</strong><br /> Se li manĝas viajn pomojn (<em>ĝenerale</em>), ĉu vi
+	koleras?</p>
+<h3 id="frazoj-kun-aliaj-subpropozicioj"><a class="header" href="#frazoj-kun-aliaj-subpropozicioj">Frazoj kun aliaj subpropozicioj</a></h3>
+<p>Krom <strong>eger</strong> (<em>se</em>), subpropozicioj povas komenciĝi per aliaj konjunkcioj, kiel <strong>denwatu
+		hu</strong> (<em>kiam</em>), <strong>denloka hu</strong> (<em>kie</em>), <strong>koski</strong> (<em>ĉar</em>),
+	ktp. Tempaj markiloj estas devigaj en ĉiuj ĉi tiuj subpropozicioj.</p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="numer-ji-mesi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="jumlemonli-estrutur.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="numer-ji-mesi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="jumlemonli-estrutur.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+        <script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
