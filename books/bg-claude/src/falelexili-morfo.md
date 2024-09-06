@@ -37,14 +37,14 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td>Общо сегашно<br><br><br></td>
-			<td><strong>(nun)</strong><br><br><br></td>
-			<td><strong>Mi (nun) yam pingo.</strong><br>Аз ям ябълката.<br>Аз ям ябълката (в момента).</td>
+			<td>Общо сегашно<br /><br /><br /></td>
+			<td><strong>(nun)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) yam pingo.</strong><br />Аз ям ябълката.<br />Аз ям ябълката (в момента).</td>
 		</tr>
 		<tr>
-			<td>Продължително/Обичайно сегашно<br><br><br></td>
-			<td><strong>(nun) (du-)</strong><br><br><br></td>
-			<td><strong>Mi (nun) (du)yam pingo.</strong><br>Аз (постоянно/обичайно) ям ябълки.</td>
+			<td>Продължително/Обичайно сегашно<br /><br /><br /></td>
+			<td><strong>(nun) (du-)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) (du)yam pingo.</strong><br />Аз (постоянно/обичайно) ям ябълки.</td>
 		</tr>
 	</tbody>
 </table>
@@ -63,10 +63,10 @@
 	състояние за неопределен период от време, а не случващо се в един момент или за определена продължителност.
 	Представката <strong>du-</strong> обикновено се пропуска в сегашно време.</p>
 <p>Като съществителни, думите с представката <strong>du-</strong> са еквивалентни на герундия в английския.</p>
-<p><strong>dulala</strong> - (действието) пеене<br>
+<p><strong>dulala</strong> - (действието) пеене<br />
 	<strong>dudanse</strong> - (действието) танцуване
 </p>
-<p><em>Представката <strong>du-</strong> е съкратена от <strong>dure</strong> (продължителност).<br> Етимология на
+<p><em>Представката <strong>du-</strong> е съкратена от <strong>dure</strong> (продължителност).<br /> Етимология на
 		<strong>dure</strong>: английски, френски, немски, испански</em></p>
 <h2>Просто минало време</h2>
 <p>Простите минали времена се изразяват с помощта на частицата <strong>le</strong>.</p>
@@ -84,14 +84,14 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td>Общо минало<br><br></td>
-			<td><strong>le</strong><br><br></td>
-			<td><strong>Mi le yam pingo.</strong><br>Аз изядох ябълката.</td>
+			<td>Общо минало<br /><br /></td>
+			<td><strong>le</strong><br /><br /></td>
+			<td><strong>Mi le yam pingo.</strong><br />Аз изядох ябълката.</td>
 		</tr>
 		<tr>
-			<td>Продължително/Обичайно минало<br><br></td>
-			<td><strong>le du-</strong><br><br></td>
-			<td><strong>Mi le duyam pingo.</strong><br>Аз имах навика да ям ябълки.</td>
+			<td>Продължително/Обичайно минало<br /><br /></td>
+			<td><strong>le du-</strong><br /><br /></td>
+			<td><strong>Mi le duyam pingo.</strong><br />Аз имах навика да ям ябълки.</td>
 		</tr>
 	</tbody>
 </table>
@@ -111,14 +111,14 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td>Общо бъдеще<br><br></td>
-			<td><strong>xa</strong><br><br></td>
-			<td><strong>Mi xa yam pingo.</strong><br>Аз ще изям ябълката.</td>
+			<td>Общо бъдеще<br /><br /></td>
+			<td><strong>xa</strong><br /><br /></td>
+			<td><strong>Mi xa yam pingo.</strong><br />Аз ще изям ябълката.</td>
 		</tr>
 		<tr>
-			<td>Продължително/Обичайно бъдеще<br><br></td>
-			<td><strong>xa du-</strong><br><br></td>
-			<td><strong>Mi xa duyam pingo.</strong><br>Аз ще (продължително/обичайно) ям ябълки.</td>
+			<td>Продължително/Обичайно бъдеще<br /><br /></td>
+			<td><strong>xa du-</strong><br /><br /></td>
+			<td><strong>Mi xa duyam pingo.</strong><br />Аз ще (продължително/обичайно) ям ябълки.</td>
 		</tr>
 	</tbody>
 </table>
@@ -138,14 +138,14 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td>Непосредствено минало<br><br></td>
-			<td><strong>jale</strong><br><br></td>
-			<td><strong>Mi jale yam pingo.</strong><br>Току-що изядох ябълката.</td>
+			<td>Непосредствено минало<br /><br /></td>
+			<td><strong>jale</strong><br /><br /></td>
+			<td><strong>Mi jale yam pingo.</strong><br />Току-що изядох ябълката.</td>
 		</tr>
 		<tr>
-			<td>Непосредствено бъдеще<br><br></td>
-			<td><strong>jaxa</strong><br><br></td>
-			<td><strong>Mi jaxa yam pingo.</strong><br>На път съм да изям ябълката.</td>
+			<td>Непосредствено бъдеще<br /><br /></td>
+			<td><strong>jaxa</strong><br /><br /></td>
+			<td><strong>Mi jaxa yam pingo.</strong><br />На път съм да изям ябълката.</td>
 		</tr>
 	</tbody>
 </table>
@@ -180,19 +180,19 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td>Сегашно деятелно<br><br></td>
-			<td><strong>(nun) nun</strong><br><br></td>
-			<td><strong>Mi (nun) nun yam pingo.</strong><br>Аз ям ябълката (в момента).</td>
+			<td>Сегашно деятелно<br /><br /></td>
+			<td><strong>(nun) nun</strong><br /><br /></td>
+			<td><strong>Mi (nun) nun yam pingo.</strong><br />Аз ям ябълката (в момента).</td>
 		</tr>
 		<tr>
-			<td>Сегашно завършено<br><br></td>
-			<td><strong>nun le</strong><br><br></td>
-			<td><strong>Mi nun le yam pingo.</strong><br>Аз съм изял ябълката.</td>
+			<td>Сегашно завършено<br /><br /></td>
+			<td><strong>nun le</strong><br /><br /></td>
+			<td><strong>Mi nun le yam pingo.</strong><br />Аз съм изял ябълката.</td>
 		</tr>
 		<tr>
-			<td>Сегашно проспективно<br><br></td>
-			<td><strong>nun xa</strong><br><br></td>
-			<td><strong>Mi nun xa yam pingo.</strong><br>Аз ще ям ябълката (в близко бъдеще).</td>
+			<td>Сегашно проспективно<br /><br /></td>
+			<td><strong>nun xa</strong><br /><br /></td>
+			<td><strong>Mi nun xa yam pingo.</strong><br />Аз ще ям ябълката (в близко бъдеще).</td>
 		</tr>
 	</tbody>
 </table>
@@ -211,19 +211,19 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td>Минало деятелно<br><br></td>
-			<td><strong>le nun</strong><br><br></td>
-			<td><strong>Mi le nun yam pingo.</strong><br>Аз ядях ябълката.</td>
+			<td>Минало деятелно<br /><br /></td>
+			<td><strong>le nun</strong><br /><br /></td>
+			<td><strong>Mi le nun yam pingo.</strong><br />Аз ядях ябълката.</td>
 		</tr>
 		<tr>
-			<td>Минало завършено<br><br></td>
-			<td><strong>le le</strong><br><br></td>
-			<td><strong>Mi le le yam pingo.</strong><br>Аз бях изял ябълката.</td>
+			<td>Минало завършено<br /><br /></td>
+			<td><strong>le le</strong><br /><br /></td>
+			<td><strong>Mi le le yam pingo.</strong><br />Аз бях изял ябълката.</td>
 		</tr>
 		<tr>
-			<td>Минало проспективно<br><br></td>
-			<td><strong>le xa</strong><br><br></td>
-			<td><strong>Mi le xa yam pingo.</strong><br>Аз щях да ям ябълката.</td>
+			<td>Минало проспективно<br /><br /></td>
+			<td><strong>le xa</strong><br /><br /></td>
+			<td><strong>Mi le xa yam pingo.</strong><br />Аз щях да ям ябълката.</td>
 		</tr>
 	</tbody>
 </table>
@@ -242,19 +242,19 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td>Бъдеще деятелно<br><br></td>
-			<td><strong>xa nun</strong><br><br></td>
-			<td><strong>Mi xa nun yam pingo.</strong><br>Аз ще ям ябълката (в процес).</td>
+			<td>Бъдеще деятелно<br /><br /></td>
+			<td><strong>xa nun</strong><br /><br /></td>
+			<td><strong>Mi xa nun yam pingo.</strong><br />Аз ще ям ябълката (в процес).</td>
 		</tr>
 		<tr>
-			<td>Бъдеще завършено<br><br></td>
-			<td><strong>xa le</strong><br><br></td>
-			<td><strong>Mi xa le yam pingo.</strong><br>Аз ще съм изял ябълката.</td>
+			<td>Бъдеще завършено<br /><br /></td>
+			<td><strong>xa le</strong><br /><br /></td>
+			<td><strong>Mi xa le yam pingo.</strong><br />Аз ще съм изял ябълката.</td>
 		</tr>
 		<tr>
-			<td>Бъдеще проспективно<br><br></td>
-			<td><strong>xa xa</strong><br><br></td>
-			<td><strong>Mi xa xa yam pingo.</strong><br>Аз ще се готвя да ям ябълката.</td>
+			<td>Бъдеще проспективно<br /><br /></td>
+			<td><strong>xa xa</strong><br /><br /></td>
+			<td><strong>Mi xa xa yam pingo.</strong><br />Аз ще се готвя да ям ябълката.</td>
 		</tr>
 	</tbody>
 </table>
@@ -265,17 +265,17 @@
 	започнало в миналото и продължава в настоящето. В английския това се изразява или с <em>сегашно перфектно</em> или с
 	<em>перфектно продължително</em>.</p>
 <h3>Примерни изречения със сегашно перфектно в английския</h3>
-<p><strong>Mi no dupul oko te xorfe mesi tiga.</strong><br> Не съм я виждал от март.</p>
-<p><strong>Mi dupul kone te dur 30 nyan.</strong><br> Познавам го от 30 години.</p>
-<p><strong>Mi dupul sen gadibu.</strong><br> Бил съм ядосан.</p>
-<p><strong>Yu dupul sen kepul?</strong><br> Как си бил?</p>
+<p><strong>Mi no dupul oko te xorfe mesi tiga.</strong><br /> Не съм я виждал от март.</p>
+<p><strong>Mi dupul kone te dur 30 nyan.</strong><br /> Познавам го от 30 години.</p>
+<p><strong>Mi dupul sen gadibu.</strong><br /> Бил съм ядосан.</p>
+<p><strong>Yu dupul sen kepul?</strong><br /> Как си бил?</p>
 <h3>Примерни изречения с перфектно продължително в английския</h3>
-<p><strong>Mi dupul yam hin pingo dur un satu.</strong><br> Ям тази ябълка от един час.</p>
-<p><strong>Yu dupul fale keto?</strong><br> Какво си правил?</p>
-<p><strong>Mi dupul doxo hin kitabu xorfe jaleli sabedin.</strong><br> Чета тази книга от миналата седмица. </p>
+<p><strong>Mi dupul yam hin pingo dur un satu.</strong><br /> Ям тази ябълка от един час.</p>
+<p><strong>Yu dupul fale keto?</strong><br /> Какво си правил?</p>
+<p><strong>Mi dupul doxo hin kitabu xorfe jaleli sabedin.</strong><br /> Чета тази книга от миналата седмица. </p>
 <h2>Условно наклонение</h2>
 <p>Условното наклонение се изразява с помощта на частицата <strong>ger</strong>. </p>
-<p><em>Частицата <strong>ger</strong> е съкратена от <strong>eger</strong> (ако).<br> Етимология на
+<p><em>Частицата <strong>ger</strong> е съкратена от <strong>eger</strong> (ако).<br /> Етимология на
 		<strong>eger</strong>: хинди (अगर "agar"), персийски (اگر "agar"), турски (eğer)</em></p>
 <table>
 	<thead>
@@ -290,19 +290,19 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td>Условно<br><br></td>
-			<td><strong>ger</strong><br><br></td>
-			<td><strong>Mi ger yam pingo.</strong><br>Аз бих изял ябълката.</td>
+			<td>Условно<br /><br /></td>
+			<td><strong>ger</strong><br /><br /></td>
+			<td><strong>Mi ger yam pingo.</strong><br />Аз бих изял ябълката.</td>
 		</tr>
 		<tr>
-			<td>Условно минало<br><br></td>
-			<td><strong>ger le</strong><br><br></td>
-			<td><strong>Mi ger le yam pingo.</strong><br>Аз бих изял ябълката (в миналото).</td>
+			<td>Условно минало<br /><br /></td>
+			<td><strong>ger le</strong><br /><br /></td>
+			<td><strong>Mi ger le yam pingo.</strong><br />Аз бих изял ябълката (в миналото).</td>
 		</tr>
 	</tbody>
 </table>
 <p>Подчиненото изречение (ако...) използва речниковата форма на глагола.</p>
-<p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br> Бих изял ябълката, ако бях гладен.</p>
+<p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> Бих изял ябълката, ако бях гладен.</p>
 <h2>Страдателен залог <span id="be-"></span></h2>
 <p>Страдателният залог се изразява с помощта на представката <strong>be-</strong>.</p>
 <p><em>Етимология на <strong>be-</strong>: мандарин (被 "bèi"), английски (be), норвежки (ble)</em></p>
@@ -319,19 +319,19 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td>Сегашно страдателно<br><br></td>
-			<td><strong>(nun) be-</strong><br><br></td>
-			<td><strong>Pingo beyam mi.</strong><br>Ябълката се яде от мен.</td>
+			<td>Сегашно страдателно<br /><br /></td>
+			<td><strong>(nun) be-</strong><br /><br /></td>
+			<td><strong>Pingo beyam mi.</strong><br />Ябълката се яде от мен.</td>
 		</tr>
 		<tr>
-			<td>Минало страдателно<br><br></td>
-			<td><strong>le be-</strong><br><br></td>
-			<td><strong>Pingo le beyam mi.</strong><br>Ябълката беше изядена от мен.</td>
+			<td>Минало страдателно<br /><br /></td>
+			<td><strong>le be-</strong><br /><br /></td>
+			<td><strong>Pingo le beyam mi.</strong><br />Ябълката беше изядена от мен.</td>
 		</tr>
 		<tr>
-			<td>Бъдеще страдателно<br><br></td>
-			<td><strong>xa be-</strong><br><br></td>
-			<td><strong>Pingo xa beyam mi.</strong><br>Ябълката ще бъде изядена от мен.</td>
+			<td>Бъдеще страдателно<br /><br /></td>
+			<td><strong>xa be-</strong><br /><br /></td>
+			<td><strong>Pingo xa beyam mi.</strong><br />Ябълката ще бъде изядена от мен.</td>
 		</tr>
 	</tbody>
 </table>
@@ -339,12 +339,12 @@
 	най-често се използва с общото сегашно, минало и бъдеще време, както е илюстрирано по-горе.</p>
 <p>Забележка: В глобаса деятелят в изречения в страдателен залог се изразява като пряко допълнение без нужда от предлог
 	за маркиране на деятеля. За разлика от това, в английския деятелят се маркира с помощта на <em>by</em>. </p>
-<p><strong>Myaw le no velosi yam piu.</strong><br> Котката не изяде бързо птицата.</p>
-<p><strong>Piu le no velosi beyam myaw.</strong><br> Птицата не беше бързо изядена от котката.</p>
+<p><strong>Myaw le no velosi yam piu.</strong><br /> Котката не изяде бързо птицата.</p>
+<p><strong>Piu le no velosi beyam myaw.</strong><br /> Птицата не беше бързо изядена от котката.</p>
 <h2>Повелително и подтикващо наклонение</h2>
 <p>В глобаса заповедите (<em>повелително наклонение</em>) и подбудата (<em>подтикващо наклонение</em>) се изразяват и
 	двете с помощта на частицата <strong>am</strong>.</p>
-<p><em>Частицата <strong>am</strong> е съкратена от <strong>amiru</strong> (заповед)<br> Етимология на
+<p><em>Частицата <strong>am</strong> е съкратена от <strong>amiru</strong> (заповед)<br /> Етимология на
 		<strong>amiru</strong>: арабски (أمر "amr"), турски (emir), суахили (amri, -amuru)</em></p>
 <table>
 	<thead>
@@ -359,15 +359,16 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td>Повелително наклонение<br><br><br><br><br><br><br><br></td>
-			<td><strong>am</strong><br><br><br><br><br><br><br><br></td>
-			<td><strong>(Yu) Am yam!</strong><br>Яж!<br><br><strong>(Uyu) Am yam!</strong><br>(Вие)
-				яжте!<br><br><strong>Imi am yam!</strong><br>Нека ядем!</td>
+			<td>Повелително наклонение<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>(Yu) Am yam!</strong><br />Яж!<br /><br /><strong>(Uyu) Am yam!</strong><br />(Вие)
+				яжте!<br /><br /><strong>Imi am yam!</strong><br />Нека ядем!</td>
 		</tr>
 		<tr>
-			<td>Подтикващо наклонение<br><br><br><br><br><br><br><br></td>
-			<td><strong>am</strong><br><br><br><br><br><br><br><br></td>
-			<td><strong>Te am yam.</strong><br>Нека тя яде.<br><br><strong>Mi am yam.</strong><br>Нека аз ям.</td>
+			<td>Подтикващо наклонение<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Te am yam.</strong><br />Нека тя яде.<br /><br /><strong>Mi am yam.</strong><br />Нека аз ям.
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -380,9 +381,9 @@
 	единствено число (<strong>mi</strong>).</p>
 <p>Подтикващото наклонение може също да функционира като <em>подчинително повелително</em> в подчинени изречения.
 	<em>Подчинителното повелително</em> изразява искане, изискване, молба, препоръка или предложение.</p>
-<p><strong>Mi vole ki te am safegi sesu kamer.</strong><br> Искам той да почисти стаята си.</p>
-<p><strong>Mi peti ki imi am xorata jaldi.</strong><br> Моля да пристигнем рано.</p>
-<p><strong>Kitabu hu xwexiyen am doxo da no sen daymo lungo.</strong><br> Книгата, която учениците трябва да прочетат,
+<p><strong>Mi vole ki te am safegi sesu kamer.</strong><br /> Искам той да почисти стаята си.</p>
+<p><strong>Mi peti ki imi am xorata jaldi.</strong><br /> Моля да пристигнем рано.</p>
+<p><strong>Kitabu hu xwexiyen am doxo da no sen daymo lungo.</strong><br /> Книгата, която учениците трябва да прочетат,
 	не е много дълга.</p>
 <h2>Отрицание</h2>
 <p>Отрицанието за всички глаголни форми се изразява с думата <strong>no</strong> и, като наречие, тя непосредствено
@@ -400,9 +401,10 @@
 			<td>Примерни изречения</td>
 		</tr>
 		<tr>
-			<td><strong>no</strong><br><br><br><br><br><br><br><br></td>
-			<td><strong>Mi no sen lao.</strong><br>Аз не съм стар.<br><br><strong>Te no yam pingo.</strong><br>Той/тя не
-				яде ябълката.<br><br><strong>Am no yam pingo.</strong><br>Не яж ябълката.</td>
+			<td><strong>no</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Mi no sen lao.</strong><br />Аз не съм стар.<br /><br /><strong>Te no yam
+					pingo.</strong><br />Той/тя не яде ябълката.<br /><br /><strong>Am no yam pingo.</strong><br />Не яж
+				ябълката.</td>
 		</tr>
 	</tbody>
 </table>
@@ -416,11 +418,11 @@
 <p>Както видяхме по-горе, изреченията с <em>ако</em> в условните изречения използват речниковата форма на глагола. Обаче
 	не всяко изречение, което има подчинено изречение с <em>ако</em>, е условно изречение. Освен ако изречението не е
 	условно, подчинените изречения с <em>ако</em> се маркират за време. </p>
-<p><strong>Eger mi xa yam pingo, mi xa no haji sen yamkal.</strong><br> Ако изям ябълката (<em>в бъдеще</em>), вече няма
-	да бъда гладен.</p>
-<p><strong>Eger te le yam yusu pingo, kam yu xa sen gadibu?</strong><br> Ако той е изял твоята ябълка (<em>в
+<p><strong>Eger mi xa yam pingo, mi xa no haji sen yamkal.</strong><br /> Ако изям ябълката (<em>в бъдеще</em>), вече
+	няма да бъда гладен.</p>
+<p><strong>Eger te le yam yusu pingo, kam yu xa sen gadibu?</strong><br /> Ако той е изял твоята ябълка (<em>в
 		миналото</em>), ще се ядосаш ли?</p>
-<p><strong>Eger te yam yusu pingo, kam yu gadibucu?</strong><br> Ако той яде твоите ябълки (<em>по принцип</em>),
+<p><strong>Eger te yam yusu pingo, kam yu gadibucu?</strong><br /> Ако той яде твоите ябълки (<em>по принцип</em>),
 	ядосваш ли се?</p>
 <h3>Изречения с други подчинени изречения</h3>
 <p>Освен <strong>eger</strong> (<em>ако</em>), подчинените изречения могат да започват с други съюзи, като

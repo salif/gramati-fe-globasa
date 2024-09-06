@@ -1,9 +1,8 @@
 <h1>Функционални думи: Съюзи, предлози и функционални наречия</h1>
 <p>
 </p>
-<p>Кликнете <a href="./pornamelexi.html">тук</a> за да видите Местоимения. Кликнете <a
-		href="./tabellexi.html">тук</a> за да видите Съотносителни думи. Кликнете <a
-		href="./numer-ji-mesi.html">тук</a> за да видите Числа.</p>
+<p>Кликнете <a href="./pornamelexi.html">тук</a> за да видите Местоимения. Кликнете <a href="./tabellexi.html">тук</a>
+	за да видите Съотносителни думи. Кликнете <a href="./numer-ji-mesi.html">тук</a> за да видите Числа.</p>
 <h2>Съюзи</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ji">ji</a></strong> - и <ul>
@@ -40,11 +39,11 @@
 	начални фрази на изречения, като алтернатива на прилагателните на <strong>-li</strong> и в случаите, когато не е
 	подходящ друг предлог.</p>
 <p><strong>Fe</strong> е опционален с повечето изрази за време, както е показано в следните примери:</p>
-<p>(<strong>fe</strong>) <strong>ban mara</strong> - веднъж, някога<br> (<strong>fe</strong>) <strong>duli mara</strong>
-	- понякога, от време на време<br> (<strong>fe</strong>) <strong>hin mara</strong> - този път<br>
-	(<strong>fe</strong>) <strong>hin momento</strong> - в този момент<br> (<strong>fe</strong>)
-	<strong>Lunadin</strong> - (в) понеделник<br> (<strong>fe</strong>) <strong>duli Lunadin</strong> - (всеки)
-	понеделник<br> (<strong>fe</strong>) <strong>nundin</strong> - днес (<em>използва се като наречие</em>)<br>
+<p>(<strong>fe</strong>) <strong>ban mara</strong> - веднъж, някога<br /> (<strong>fe</strong>) <strong>duli
+		mara</strong> - понякога, от време на време<br /> (<strong>fe</strong>) <strong>hin mara</strong> - този
+	път<br /> (<strong>fe</strong>) <strong>hin momento</strong> - в този момент<br /> (<strong>fe</strong>)
+	<strong>Lunadin</strong> - (в) понеделник<br /> (<strong>fe</strong>) <strong>duli Lunadin</strong> - (всеки)
+	понеделник<br /> (<strong>fe</strong>) <strong>nundin</strong> - днес (<em>използва се като наречие</em>)<br />
 	(<strong>fe</strong>) <strong>tiga din fe xaya</strong> - три дни по-късно</p>
 <p>Изразите <strong>fe nunya</strong> (в момента, понастоящем, сега), <strong>fe leya</strong> (в миналото, преди) и
 	<strong>fe xaya</strong> (в бъдеще, по-късно, след това) обикновено се оставят непроменени.</p>
@@ -52,18 +51,18 @@
 <p>Глобаса има два начина за изразяване на притежание. Предлогът <strong><a
 			href="https://menalari.globasa.net/eng/lexi/de">de</a></strong> (<em>на</em>, <em>принадлежащ на</em>) се
 	използва за изразяване на притежание от съществителни имена.</p>
-<p><strong>Baytu de Maria sen day.</strong><br> "Къщата на Мария е голяма."<br> Къщата на Мария е голяма.</p>
+<p><strong>Baytu de Maria sen day.</strong><br /> "Къщата на Мария е голяма."<br /> Къщата на Мария е голяма.</p>
 <p>Ако съществителното име е подразбиращо се, се използва местоимение (<strong>te</strong>/<strong>to</strong> или
 	<strong>ete</strong>/<strong>oto</strong>):</p>
-<p><strong>To de Maria sen day.</strong><br> Тази на Мария е голяма.</p>
+<p><strong>To de Maria sen day.</strong><br /> Тази на Мария е голяма.</p>
 <p>Суфиксът <strong>-su</strong> се добавя към местоименията, за да образува притежателни прилагателни. По подобен начин
 	частицата <strong><a href="https://menalari.globasa.net/eng/lexi/su">su</a></strong> се използва за изразяване на
 	притежание от съществителни имена и е еквивалентна на английския притежателен суфикс <em>'s</em>. За разлика от
 	английския език, обаче, <strong>su</strong> се използва като отделна дума.</p>
-<p><strong>Maria su baytu sen day.</strong><br> Къщата на Мария е голяма.</p>
+<p><strong>Maria su baytu sen day.</strong><br /> Къщата на Мария е голяма.</p>
 <p>Ако съществителното име е подразбиращо се, се използва местоимение (<strong>te</strong>/<strong>to</strong> или
 	<strong>ete</strong>/<strong>oto</strong>):</p>
-<p><strong>Maria su to sen day.</strong><br> Тази на Мария е голяма.</p>
+<p><strong>Maria su to sen day.</strong><br /> Тази на Мария е голяма.</p>
 <h2>Предлози за Място</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/in">in</a></strong> - в, вътре в <ul>

@@ -45,6 +45,32 @@
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
         </script>
 
+        <!-- Custom JS scripts for mdbook-pdf PDF generation -->
+        <script type='text/javascript'>
+            let markAllContentHasLoadedForPrinting = () =>
+                window.setTimeout(
+                    () => {
+                        let p = document.createElement('div');
+                        p.setAttribute('id', 'content-has-all-loaded-for-mdbook-pdf-generation');
+                        document.body.appendChild(p);
+                    }, 100
+                );
+
+            window.addEventListener('load', () => {
+                // Expand all the <details> elements for printing.
+                r = document.getElementsByTagName('details');
+                for (let i of r)
+                    i.open = true;
+
+                try {
+                    MathJax.Hub.Register.StartupHook('End', markAllContentHasLoadedForPrinting);
+                } catch (e) {
+                    markAllContentHasLoadedForPrinting();
+                }
+            });
+        </script>
+    <div style="display: none"><a href="#gramati">gramati</a><a href="#summary">summary</a><a href="#abece-ji-lafuzu">abece-ji-lafuzu</a><a href="#inharelexi">inharelexi</a><a href="#gramatilexi">gramatilexi</a><a href="#pornamelexi">pornamelexi</a><a href="#tabellexi">tabellexi</a><a href="#numer-ji-mesi">numer-ji-mesi</a><a href="#falelexili-morfo">falelexili-morfo</a><a href="#jumlemonli-estrutur">jumlemonli-estrutur</a><a href="#jumleli-estrutur">jumleli-estrutur</a><a href="#lexikostrui">lexikostrui</a><a href="#ofkatado-morfomon">ofkatado-morfomon</a><a href="#lexiklase">lexiklase</a><a href="#pimpan-logaxey">pimpan-logaxey</a></div>
+
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -187,7 +213,10 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="globasa-grammar"><a class="header" href="#globasa-grammar">Globasa Grammar</a></h1>
-<p>This is a copy of the <a href="https://xwexi.globasa.net/eng/gramati">Complete Globasa Grammar</a> and is the source for the <a href="/gramati-fe-globasa/">translated books</a>.</p>
+<p>This book contains a copy of the <a href="https://xwexi.globasa.net/eng/gramati">Complete Globasa Grammar</a>
+and is the source for the <a href="https://salif.github.io/gramati-fe-globasa/">translated books</a>.</p>
+<p>You can download it in <a href="Gramati_fe_Globasa_Mesi_08_2024_eng.epub">EPUB format</a>
+or read it <a href="https://salif.github.io/gramati-fe-globasa/eng/">online</a>.</p>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>To the extent possible under law, the authors has waived all copyright and related or neighboring rights to this site content.</p>
 </div>
