@@ -20,18 +20,16 @@ use-default-css = true
 no-section-label = false
 curly-quotes = false
 
-[output.pdf]
-browser-binary-path = "/usr/bin/brave"
-theme = "light"
-static_site_url = "https://salif.github.io/gramati-fe-globasa/eng"
-paper-width = 8.3
-paper-height = 11.7
-margin-top = 0.4
-margin-bottom = 0.4
-margin-left = 0.4
-margin-right = 0.4
-display-header-footer = false
-print-background = false
+# [output.pdf]
+# theme = "light"
+# paper-width = 8.3
+# paper-height = 11.7
+# margin-top = 0.4
+# margin-bottom = 0.4
+# margin-left = 0.4
+# margin-right = 0.4
+# display-header-footer = false
+# print-background = false
 
 [output.ze]
 command = "just build-ze Gramati_fe_Globasa_Mesi_08_2024_eng build-ze-ignore"

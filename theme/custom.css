@@ -13,9 +13,23 @@ body {
 	}
 }
 
+table {
+	display: block;
+	overflow-x: auto;
+}
+
 @media print {
+	table tbody th {
+		border: 1px var(--table-border-color) solid;
+	}
+
 	table {
+		display: table;
 		table-layout: fixed;
+	}
+
+	th, td {
+		display: inline-block;
 	}
 }
 
