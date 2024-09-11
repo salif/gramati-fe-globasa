@@ -5,7 +5,7 @@
 <h2>İsim Tamlamaları <span id="namelexili_jumlemon"></span></h2>
 <p>İsim tamlamaları, aşağıdaki tabloda gösterildiği gibi şu yapıdan oluşur:</p>
 <p>(Belirteç) + (Tümleç) + Baş</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="6"><b>İsim Tamlaması</b></td>
@@ -103,7 +103,7 @@
 </p>
 <h2>Fiil Tamlamaları</h2>
 <p>Fiil tamlamaları yapı olarak isim tamlamalarına benzer:</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="7"><b>Fiil Tamlaması</b></td>

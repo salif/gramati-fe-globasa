@@ -6,7 +6,7 @@
 <h2>Substantivaj Frazoj <span id="namelexili_jumlemon"></span></h2>
 <p>Substantivaj frazoj konsistas el la sekva strukturo, kiel ilustrita en la tabelo sube:</p>
 <p>(Specifigilo) + (Komplemento) + Kerno</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="6"><b>Substantiva Frazo</b></td>
@@ -105,7 +105,7 @@
 </p>
 <h2>Verbaj Frazoj</h2>
 <p>Verbaj frazoj estas similaj en strukturo al substantivaj frazoj:</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="7"><b>Verba Frazo</b></td>

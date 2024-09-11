@@ -94,7 +94,7 @@
 			<td><b>in sanduku</b><br />in the box</td>
 		</tr>
 		<tr>
-			<td colspan="2" style="font-size:125%;"><b>Myaw sen in sanduku.</b><br />The cat is in the box.</td>
+			<td colspan="3" style="font-size:125%;"><b>Myaw sen in sanduku.</b><br />The cat is in the box.</td>
 		</tr>
 		<tr>
 			<th>Subject</th>
@@ -284,7 +284,7 @@
 			<td><b>ki yu le xuli mobil</b><br />(that) you repaired car</td>
 		</tr>
 		<tr>
-			<td colspan="3" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.</b><br />I know (that) you repaired
+			<td colspan="2" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.</b><br />I know (that) you repaired
 				the car. </td>
 		</tr>
 	</tbody>
@@ -304,7 +304,7 @@
 			<td><b>no surprisa mi</b><br />doesn't surprise me</td>
 		</tr>
 		<tr>
-			<td colspan="3" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.</b><br />That you repaired
+			<td colspan="2" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.</b><br />That you repaired
 				the car doesn't surprise me. </td>
 		</tr>
 	</tbody>

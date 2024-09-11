@@ -6,7 +6,7 @@
 <h2>Syntagmes nominaux <span id="namelexili_jumlemon"></span></h2>
 <p>Les syntagmes nominaux sont constitués de la structure suivante, comme illustré dans le tableau suivant:</p>
 <p>(Spécificateur) + (Complément) + Tête</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="6"><b>Syntagme nominal</b></td>
@@ -105,7 +105,7 @@
 </p>
 <h2>Syntagmes verbaux</h2>
 <p>Les syntagmes verbaux sont similaires en structure aux syntagmes nominaux:</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="7"><b>Syntagme verbal</b></td>

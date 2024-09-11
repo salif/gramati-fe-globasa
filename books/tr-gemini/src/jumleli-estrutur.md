@@ -93,7 +93,7 @@
 			<td><b>in sanduku</b><br />kutuda</td>
 		</tr>
 		<tr>
-			<td colspan="2" style="font-size:125%;"><b>Myaw sen in sanduku.</b><br />Kedi kutudadır.</td>
+			<td colspan="3" style="font-size:125%;"><b>Myaw sen in sanduku.</b><br />Kedi kutudadır.</td>
 		</tr>
 		<tr>
 			<th>Özne</th>
@@ -279,7 +279,7 @@
 			<td><b>ki yu le xuli mobil</b><br />(ki) arabayı tamir ettin</td>
 		</tr>
 		<tr>
-			<td colspan="3" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.</b><br />Arabayı tamir ettiğini
+			<td colspan="2" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.</b><br />Arabayı tamir ettiğini
 				biliyorum. </td>
 		</tr>
 	</tbody>
@@ -299,7 +299,7 @@
 			<td><b>no surprisa mi</b><br />beni şaşırtmaz</td>
 		</tr>
 		<tr>
-			<td colspan="3" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.</b><br />Arabayı tamir etmen
+			<td colspan="2" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.</b><br />Arabayı tamir etmen
 				beni şaşırtmaz. </td>
 		</tr>
 	</tbody>

@@ -2,7 +2,7 @@
 <p>
 </p>
 <h2>Table of Correlatives</h2>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<th></th>

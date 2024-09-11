@@ -6,7 +6,7 @@
 <h2>Именни фрази <span id="namelexili_jumlemon"></span></h2>
 <p>Именните фрази се състоят от следната структура, както е показано в таблицата по-долу:</p>
 <p>(Определител) + (Допълнение) + Глава</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="6"><b>Именна фраза</b></td>
@@ -104,7 +104,7 @@
 </p>
 <h2>Глаголни фрази</h2>
 <p>Глаголните фрази са сходни по структура с именните фрази:</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="7"><b>Глаголна фраза</b></td>
