@@ -29,9 +29,9 @@ build:
 [private]
 build-ze f:
 	@if test -d ../epub; then \
-		cp ../epub/* ./{{f}}.epub; fi
+		cp ../epub/* ./{{ f }}.epub; fi
 	@if test -d ../pdf; then \
-		cp ../pdf/* ./{{f}}.pdf; fi
+		cp ../pdf/* ./{{ f }}.pdf; fi
 
 # Prevents mdbook warning
 [no-cd]
@@ -55,9 +55,9 @@ clean-all:
 
 [doc('Delete a built book')]
 clean book:
-	@if ! test -d "./docs/{{book}}"; then \
-		echo "Skipping docs/{{book}}; not a directory."; \
-	else rm -r "./docs/{{book}}"; fi
+	@if ! test -d "./docs/{{ book }}"; then \
+		echo "Skipping docs/{{ book }}; not a directory."; \
+	else rm -r "./docs/{{ book }}"; fi
 
 [confirm]
 [doc('Apply theme changes to all books')]
@@ -81,7 +81,7 @@ serve:
 	cd docs && { \
 		if ! bundle check; then \
 			just serve-init; fi; \
-		bundle exec jekyll serve {{args}}; \
+		bundle exec jekyll serve {{ args }}; \
 	}
 
 [confirm]
@@ -97,7 +97,7 @@ gh-pages:
 
 [private]
 update-book-diff lang="eng":
-	@cd "books/{{lang}}/src" && { \
+	@cd "books/{{ lang }}/src" && { \
 		ls *_new.md | xargs -I {} sh -c \
 			"diff --unified \$(basename --suffix _new.md {}).md {}"; \
 	}
@@ -138,17 +138,48 @@ update-book lang="eng" action="update":
 	function fix_content(content, page_name, lang) {
 		let new_content = content
 		new_content = new_content.replaceAll("<br>", "<br />").replaceAll("pronamelexi", "pornamelexi")
+		new_content = new_content.replaceAll('style="ancho:100%"', 'style="width:100%"')
 		if (page_name === "abece-ji-lafuzu") {
-			new_content = new_content.replaceAll("href=\"/" + lang + "/gramati/abece-ji-lafuzu#",
-				"href=\"./abece-ji-lafuzu.html#")
-			new_content = new_content.replaceAll("href=\"/" + lang + "/gramati/abece-ji-lafuzu",
-				"href=\"https://xwexi.globasa.net/" + lang + "/gramati/abece-ji-lafuzu")
+			if (lang === "spa") {
+				new_content = new_content.replaceAll(
+					'href="/' + lang + "/grammar/abece-ji-lafuzu#",
+					'href="./abece-ji-lafuzu.html#')
+			} else {
+				new_content = new_content.replaceAll(
+					'href="/' + lang + "/gramati/abece-ji-lafuzu#",
+					'href="./abece-ji-lafuzu.html#')
+			}
+			new_content = new_content.replaceAll(
+				'href="/' + lang + "/gramati/abece-ji-lafuzu",
+				'href="https://xwexi.globasa.net/' + lang + "/gramati/abece-ji-lafuzu")
 		}
 		else {
-		page_names.forEach(name => {
-			new_content = new_content.replaceAll("href=\"/" + lang + "/gramati/" + name,
-				"href=\"./" + name + ".html")
-		})
+			page_names.forEach(name => {
+				new_content = new_content.replaceAll(
+					'href="/' + lang + "/gramati/" + name,
+					'href="./' + name + ".html")
+			})
+		}
+		if (page_name === "tabellexi") {
+			new_content = new_content.replace(
+				'<table style="width:100%">',
+				'<table style="width:100%" class="large-table">')
+		}
+		if (page_name === "jumleli-estrutur") {
+			new_content = new_content.replace(
+				'<td colspan="2" style="font-size:125%;"><b>Myaw sen in sanduku.',
+				'<td colspan="3" style="font-size:125%;"><b>Myaw sen in sanduku.').replace(
+				'<td colspan="3" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.',
+				'<td colspan="2" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.').replace(
+				'<td colspan="3" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.',
+				'<td colspan="2" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.')
+		}
+		if (page_name === "jumlemonli-estrutur") {
+			new_content = new_content.replace(
+				'<table style="width:100%">',
+				'<table style="width:100%" class="large-table">').replace(
+					'<table style="width:100%">',
+					'<table style="width:100%" class="large-table">')
 		}
 		new_content = beautify_html(new_content, beautify_options)
 		return new_content
@@ -180,8 +211,8 @@ update-book lang="eng" action="update":
 			fs.rmSync(new_name)
 		}
 	}
-	switch ("{{action}}") {
-		case "update": main("{{lang}}"); break;
-		case "remove": rem("{{lang}}"); break;
-		default: console.error("Unknown action: {{action}}"); break;
+	switch ("{{ action }}") {
+		case "update": main("{{ lang }}"); break;
+		case "remove": rem("{{ lang }}"); break;
+		default: console.error("Unknown action: {{ action }}"); break;
 	}

@@ -5,7 +5,7 @@ Você pode baixá-lo em [formato EPUB](Gramati_fe_Globasa_Mesi_08_2024_pt_gemini
 ou lê-lo [online](https://salif.github.io/gramati-fe-globasa/pt-gemini/).
 
 O autor do conteúdo original é [the Globasa Team](https://globasa.net/).
-A tradução para português foi feita por [Salif Mehmed](https://salif.eu) com a ajuda do Google Gemini 1.5 Pro Experimental 0827.
+A tradução para português foi feita por [Salif Mehmed](https://salif.eu) com a ajuda do Google Gemini.
 Traduções também estão disponíveis em [outros idiomas](https://salif.github.io/gramati-fe-globasa/).
 
 Se você quiser melhorar a tradução, pode sugerir uma alteração usando o botão no canto superior direito da página.

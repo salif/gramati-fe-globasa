@@ -146,7 +146,7 @@
 <p>In these sentences, subject infinitive verb phrases may be moved to the end of the sentence. However, the pronoun
 	<strong>to</strong> must take the place of the infinitive verb phrase and a comma must be added before relocated
 	phrase.</p>
-<p><strong>Na sen nensabar sen problem.</strong><br /> To be impatient is a problem.<br />
+<p><strong>Na sen nensabar sen problema.</strong><br /> To be impatient is a problem.<br />
 	<em>or</em><br />
 	<strong>To sen problem, na sen nensabar.</strong><br /> It is a problem to be impatient.
 </p>

@@ -5,7 +5,7 @@ Kitabı [EPUB formatında indirebilir](Gramati_fe_Globasa_Mesi_08_2024_tr_gemini
 veya [çevrimiçi okuyabilirsiniz](https://salif.github.io/gramati-fe-globasa/tr-gemini/).
 
 Orijinal içeriğin yazarı [the Globasa Team](https://globasa.net/).
-Türkçe çeviri, Google Gemini 1.5 Pro Experimental 0801'nin yardımıyla [Salif Mehmed](https://salif.eu) tarafından yapılmıştır.
+Türkçe çeviri, Google Gemini'nin yardımıyla [Salif Mehmed](https://salif.eu) tarafından yapılmıştır.
 Çeviriler ayrıca [diğer dillerde](https://salif.github.io/gramati-fe-globasa/) de mevcuttur.
 
 Çeviriyi iyileştirmek istiyorsanız, sayfanın sağ üst köşesindeki düğmeyi kullanarak bir değişiklik önerebilirsiniz.
