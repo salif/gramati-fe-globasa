@@ -233,24 +233,28 @@
 <p>Los verbos ambitransitivos que denotan un sentimiento significan <em>sentir [sustantivo raíz] o hacer sentir
 		[sustantivo raíz]</em>. </p>
 <ul>
-	<li><strong>interes</strong> - interesar o estar/sentirse interesado (sentir interés)<br />
-		<strong>interesgi</strong> - interesar<br />
-		<strong>interescu</strong> (o <strong>xorinteres</strong>) - interesarse
+	<li><strong>interes(cu)</strong> - estar/sentirse interesado (sentir interés)<br />
+		<strong>interes(gi)</strong> - interesar (hacer sentir interés)
 	</li>
 </ul>
-<p><strong>Mi interes tem basalogi.</strong><br /> Me interesa la lingüística.</p>
+<p><strong>Mi interes(cu) tem basalogi.</strong><br /> Estoy interesado en la lingüística.</p>
 <p><strong>Basalogi interes(gi) mi.</strong><br /> La lingüística me interesa.</p>
-<p><strong>Mi le interescu tem basalogi lefe multi nyan.</strong><br /> Me interesé por la lingüística hace muchos años.
-</p>
 <ul>
-	<li><strong>pilo</strong> - cansarse o estar/sentirse cansado (sentir fatiga)<br />
-		<strong>pilogi</strong> - cansar<br />
-		<strong>pilocu</strong> (o <strong>xorpilo</strong>) - cansarse
+	<li><strong>pilo(cu)</strong> - estar/sentirse cansado (sentir fatiga)<br />
+		<strong>pilo(gi)</strong> - cansar (hacer sentir fatiga)
 	</li>
 </ul>
-<p><strong>Te pilo.</strong><br /> Ella está (o se siente) cansada.</p>
+<p><strong>Te pilo(cu).</strong><br /> Ella está (o se siente) cansada.</p>
 <p><strong>Tesu ergo pilo(gi) te.</strong><br /> Su trabajo la cansa.</p>
-<p><strong>Te pilocu dur na ergo.</strong><br /> Ella se cansó mientras trabajaba.</p>
+<p>El prefijo <strong>xor-</strong> puede utilizarse con verbos de sentimiento para expresar la siguiente distinción:
+</p>
+<p><strong>Mi le interes tem basalogi lefe multi nyan.</strong><br /> Estuve interesado en la lingüística hace muchos
+	años.</p>
+<p><strong>Te le pilo dur na ergo.</strong><br /> Ella estaba cansada mientras trabajaba.</p>
+<p>en comparación con:</p>
+<p><strong>Mi le xorinteres tem basalogi lefe multi nyan.</strong><br /> Me interesé por la lingüística hace muchos
+	años.</p>
+<p><strong>Te le xorpilo dur na ergo.</strong><br /> Ella se cansó mientras trabajaba.</p>
 <p><em>Verbos sin agente</em></p>
 <p>En el significado intransitivo de los verbos ambitransitivos sin agente, la acción es algo que le sucede al sujeto en
 	lugar de algo que el sujeto realiza.</p>
@@ -285,32 +289,41 @@
 </ul>
 <p><strong>Am no harka(cu)!</strong><br /> ¡No te muevas!</p>
 <p><strong>Mi le harka(gi) yusu kursi.</strong><br /> He movido tu silla.</p>
-<p>Hay tres verbos en esta subcategoría en los que se hace una distinción en el significado intransitivo entre el verbo
-	raíz y el [verbo raíz]<strong>-cu</strong>: <strong>side</strong>, <strong>estay</strong>, <strong>leta</strong>.
-</p>
+<p>Los tres verbos de esta subcategoría a continuación también utilizan <strong>xor-</strong> como se ha visto
+	anteriormente para hacer una distinción similar en el significado:</p>
 <ul>
-	<li><strong>side</strong> - sentarse (estar sentado) o sentar<br />
-		<strong>sidegi</strong> - sentar<br />
-		<strong>sidecu</strong> (o <strong>xorside</strong>) - sentarse, tomar asiento
+	<li><strong>side(cu)</strong> - estar sentado, sentarse<br />
+		<strong>side(gi)</strong> - sentar
 	</li>
 </ul>
-<p><strong>Te side fe fronta de darsu-kamer.</strong><br /> Está sentado al frente de la clase. </p>
+<p><strong>Te side(cu) fe fronta de darsu-kamer.</strong><br /> Está sentado al frente de la clase. </p>
 <p><strong>Am side(gi) bebe per hin kursi.</strong><br /> Sienta al bebé en esta silla.</p>
-<p><strong>Am sidecu per sofa.</strong><br /> Siéntate en el sofá.</p>
 <ul>
-	<li>
-		<p><strong>estay</strong> - estar de pie o poner de pie<br />
-			<strong>estaygi</strong> - poner de pie<br />
-			<strong>estaycu</strong> (o <strong>xorestay</strong>) - ponerse de pie
-		</p>
-	</li>
-	<li>
-		<p><strong>leta</strong> - acostarse (estar acostado) o acostar<br />
-			<strong>letagi</strong> - acostar<br />
-			<strong>letacu</strong> (o <strong>xorleta</strong>) - acostarse
-		</p>
+	<li><strong>xorside(cu)</strong> - sentarse (tomar asiento)</li>
+</ul>
+<p><strong>Am xorside per sofa.</strong><br /> Siéntate en el sofá.</p>
+<ul>
+	<li><strong>estay(cu)</strong> - estar de pie, estar parado<br />
+		<strong>estay(gi)</strong> - poner de pie, pararse, incorporarse
 	</li>
 </ul>
+<p><strong>Yu estay(cu) per misu kamisa.</strong><br /> Estás parado sobre mi camisa.</p>
+<p><strong>Am estay(gi) bebe.</strong><br /> Pon al bebé de pie.</p>
+<ul>
+	<li><strong>xorestay(cu)</strong> - ponerse de pie</li>
+</ul>
+<p><strong>Mi le xorestay denwatu hu te le inidi kamer.</strong><br /> Me puse de pie cuando ella entró al cuarto.</p>
+<ul>
+	<li><strong>leta(cu)</strong> - estar acostado, acostarse, yacer<br />
+		<strong>leta(gi)</strong> - acostar
+	</li>
+</ul>
+<p><strong>Myaw leta(cu) per dixan.</strong><br /> El gato yace en el piso.</p>
+<p><strong>Mi xa leta(gi) bwaw per bistar.</strong><br /> Voy a acostar al perro en la cama.</p>
+<ul>
+	<li><strong>xorleta(cu)</strong> - acostarse</li>
+</ul>
+<p><strong>Am no xorleta per sofa.</strong><br /> No te acuestes en el sofá. </p>
 <h2>Adjetivos/Adverbios</h2>
 <p>En Globasa, los adjetivos y <em>adverbios que modifican verbos</em> son de forma idéntica.</p>
 <ul>
@@ -455,11 +468,6 @@
 		</p>
 	</li>
 	<li>
-		<p><strong>magneto</strong> - imán (<em>sustantivo concreto</em>), atraer (<em>verbo</em>)<br />
-			<strong>magnetoya</strong> - atracción (<em>sustantivo abstracto</em>)
-		</p>
-	</li>
-	<li>
 		<p><strong>turi</strong> - viaje (<em>sustantivo contable</em>), viajar (<em>verbo</em>)<br />
 			<strong>turiya</strong> - turismo (<em>sustantivo no contable</em>)
 		</p>
@@ -516,7 +524,7 @@
 <p><em>El prefijo <strong>du-</strong> se trunca de <strong>dure</strong> (duración).<br /> Etimología de
 		<strong>dure</strong>: inglés, francés, alemán y español</em></p>
 <h3>Sufijo nominal/verbal -gi <span id="xafefikso_-gi"></span></h3>
-<p>El sufijo <strong>-gi</strong> puede aplicarse a adjetivos, verbos y sustantivos.</p>
+<p>El sufijo <strong>-gi</strong> puede aplicarse a adjetivos, sustantivos y verbos.</p>
 <h4>Adjetivos</h4>
 <p>El sufijo <strong>-gi</strong> convierte los adjetivos en verbos transitivos.</p>
 <ul>
@@ -536,6 +544,22 @@
 		</p>
 	</li>
 </ul>
+<h4>Sustantivos</h4>
+<p>El sufijo <strong>-gi</strong> significa <em>hacer, transformar en</em> cuando se añade a los sustantivos. </p>
+<ul>
+	<li>
+		<p><strong>zombi</strong> - zombi<br />
+			<strong>zombigi</strong> - zombificar
+		</p>
+	</li>
+	<li>
+		<p><strong>korbani</strong> - victima<br />
+			<strong>korbanigi</strong> - victimizar
+		</p>
+	</li>
+</ul>
+<p><em>El sufijo <strong>-gi</strong> se trunca de <strong>gibe</strong> (dar).<br /> Etimología de
+		<strong>gibe</strong>: inglés (give), alemán (geben, gibt) y mandarín (给 “gěi”)</em></p>
 <h4>Verbos</h4>
 <p>El sufijo <strong>-gi</strong> también se utiliza para convertir los verbos intransitivos, transitivos o
 	ambitransitivos agentivos en verbos causativos (como se ve abajo) o se utiliza opcionalmente en verbos
@@ -553,24 +577,9 @@
 		</p>
 	</li>
 </ul>
-<h4>Sustantivos</h4>
-<p>El sufijo <strong>-gi</strong> significa <em>hacer, transformar en</em> cuando se añade a los sustantivos. </p>
-<ul>
-	<li>
-		<p><strong>zombi</strong> - zombi<br />
-			<strong>zombigi</strong> - zombificar
-		</p>
-	</li>
-	<li>
-		<p><strong>korbani</strong> - victima<br />
-			<strong>korbanigi</strong> - victimizar
-		</p>
-	</li>
-</ul>
-<p><em>El sufijo <strong>-gi</strong> se trunca de <strong>gibe</strong> (dar).<br /> Etimología de
-		<strong>gibe</strong>: inglés (give), alemán (geben, gibt) y mandarín (给 “gěi”)</em></p>
 <h3>Sufijo nominal/verbal -cu <span id="xafefikso_-cu"></span></h3>
-<p>El sufijo <strong>-cu</strong> se puede aplicar a adjetivos, verbos y sustantivos.</p>
+<p>El sufijo <strong>-cu</strong> puede aplicarse a adjetivos y sustantivos, además de a verbos, como se ha visto
+	anteriormente en <a href="./inharelexi.html#falelexili_klase">Categorías de verbos</a>.</p>
 <h4>Adjetivos</h4>
 <p>El sufijo <strong>-cu</strong> (volverse, convertirse, ponerse) convierte adjetivos en verbos intransitivos.</p>
 <ul>
@@ -582,22 +591,6 @@
 	<li>
 		<p><strong>mor</strong> - muerto<br />
 			<strong>morcu</strong> - morir (<em>convertirse en un muerto</em>)
-		</p>
-	</li>
-</ul>
-<h4>Verbos</h4>
-<p>El sufijo <strong>-cu</strong> puede también ser opcionalmente aplicado a verbos ambitransitivos pacientes (como se
-	ve arriba, en <a href="./inharelexi.html#falelexili_klase">Categorías verbales</a>) aunque en ciertos casos
-	<strong>-cu</strong> se requiere para hacer una distinción.</p>
-<ul>
-	<li>
-		<p><strong>gami</strong> - esposo/a (<em>sustantivo</em>); casarse (con) (<em>verbo</em>)<br />
-			<strong>gamicu</strong> - boda (<em>sustantivo</em>); casarse (<em>verbo</em>)
-		</p>
-	</li>
-	<li>
-		<p><strong>side</strong> - sentarse (<em>estar sentado o hacer sentarse</em>), asiento<br />
-			<strong>sidecu</strong> - sentarse (<em>tomar asiento</em>)
 		</p>
 	</li>
 </ul>
@@ -652,9 +645,7 @@
 	<em>con suficiente o más que suficiente</em>.</p>
 <ul>
 	<li>
-		<p><strong>jawgu</strong> - cuidar, tener cuidado<br />
-			<strong>jawgupul</strong> - cuidadoso
-		</p>
+		<p><strong>humor</strong> - humor <strong>humorpul</strong> - chistoso, gracioso</p>
 	</li>
 	<li>
 		<p><strong>hatari</strong> - peligro<br />

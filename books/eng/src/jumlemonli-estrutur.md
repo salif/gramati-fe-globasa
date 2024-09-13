@@ -6,7 +6,7 @@
 <h2>Noun Phrases <span id="namelexili_jumlemon"></span></h2>
 <p>Noun phrases consist of the following structure, as illustrated in the table below:</p>
 <p>(Specifier) + (Complement) + Head</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="6"><b>Noun Phrase</b></td>
@@ -103,7 +103,7 @@
 </p>
 <h2>Verb Phrases</h2>
 <p>Verb phrases are similar in structure to noun phrases:</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="7"><b>Verb Phrase</b></td>

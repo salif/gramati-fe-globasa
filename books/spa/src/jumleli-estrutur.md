@@ -286,7 +286,7 @@
 			<td><b>ki yu le xuli mobil</b><br />que reparaste coche</td>
 		</tr>
 		<tr>
-			<td colspan="3" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.</b><br />Yo sé que reparaste el
+			<td colspan="2" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.</b><br />Yo sé que reparaste el
 				auto. </td>
 		</tr>
 	</tbody>
@@ -306,7 +306,7 @@
 			<td><b>no surprisa mi</b><br />no me sorprende</td>
 		</tr>
 		<tr>
-			<td colspan="3" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.</b><br />Que hayas reparado
+			<td colspan="2" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.</b><br />Que hayas reparado
 				el auto no me sorprende. </td>
 		</tr>
 	</tbody>

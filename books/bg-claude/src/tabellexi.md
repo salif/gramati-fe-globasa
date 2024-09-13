@@ -1,7 +1,7 @@
 <h1>Съотносителни думи</h1>
 <p></p>
 <h2>Таблица на съотносителните думи</h2>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<th></th>

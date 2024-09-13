@@ -5,7 +5,7 @@
 или читать [онлайн](https://salif.github.io/gramati-fe-globasa/ru-gemini/).
 
 Автор оригинального содержания — [the Globasa Team](https://globasa.net/).
-Русский перевод выполнен [Salif Mehmed](https://salif.eu) с помощью Google Gemini 1.5 Pro Experimental 0827.
+Русский перевод выполнен [Salif Mehmed](https://salif.eu) с помощью Google Gemini.
 Переводы также доступны на [других языках](https://salif.github.io/gramati-fe-globasa/).
 
 Если вы хотите улучшить перевод, вы можете предложить изменения, используя кнопку в правом верхнем углу страницы.

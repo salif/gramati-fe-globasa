@@ -26,9 +26,10 @@ table {
 	table {
 		display: table;
 		table-layout: fixed;
+		width: 100%;
 	}
 
-	th, td {
+	.large-table th, .large-table td {
 		display: inline-block;
 	}
 }

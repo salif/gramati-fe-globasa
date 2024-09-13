@@ -6,7 +6,7 @@
 <h2>Sintagmas nominales <span id="namelexili_jumlemon"></span></h2>
 <p>Los sintagmas nominales constan de la siguiente estructura, como se ilustra en la siguiente tabla:</p>
 <p>(Especificador) + (Complemento) + Cabeza</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="6"><b>Sintagma nominal</b></td>
@@ -105,7 +105,7 @@
 </p>
 <h2>Sintagmas verbales</h2>
 <p>Los sintagmas verbales son similares en estructura a los sintagmas nominales:</p>
-<table style="width:100%">
+<table style="width:100%" class="large-table">
 	<tbody>
 		<tr>
 			<td colspan="7"><b>Sintagma verbal</b></td>

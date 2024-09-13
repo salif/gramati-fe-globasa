@@ -260,19 +260,12 @@
 </ul>
 <h2>Function Words of Time</h2>
 <ul>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dure">dure</a></strong> - (<em>n</em>) duration;
-		(<em>v</em>) last, have a duration of <ul>
-			<li><strong>fe dure</strong> - in the meantime, meanwhile</li>
-			<li><strong>fe dure fe</strong>; <strong><a
-						href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - during, for <em>+ noun
-					phrase</em>
-				<ul>
-					<li><strong>dur</strong> (<strong>moyun</strong>) - per</li>
-					<li><strong>dur na</strong> - while <em>+ -ing verb phrase</em>
-					</li>
-				</ul>
-			</li>
-			<li><strong>fe dure ki</strong>; <strong>durki</strong> - while <em>+ sentence</em></li>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - during, for <em>+ noun
+			phrase</em>
+		<ul>
+			<li><strong>dur</strong> (<strong>moyun</strong>) - per</li>
+			<li><strong>dur na</strong> - while <em>+ -ing verb phrase</em></li>
+			<li><strong>durki</strong> - while <em>+ sentence</em></li>
 		</ul>
 	</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>prefix</em>) end, come to
@@ -399,7 +392,7 @@
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/hata">hata</a></strong> - even <ul>
 			<li><strong>no hata</strong> - not even</li>
 			<li><strong>fe hataya</strong> - even so, however, nevertheless, nonetheless, in spite of that</li>
-			<li><strong>fe hataya de</strong> - in spite of, despite <em>+ noun phrase</em></li>
+			<li><strong>fe hataya fe</strong> - in spite of, despite <em>+ noun phrase</em></li>
 			<li><strong>fe hataya na</strong> in spite of <em>+ -ing verb phrase</em></li>
 			<li><strong>fe hataya ki</strong> - even though, although, despite the fact that <em>+ sentence</em></li>
 		</ul>

@@ -93,7 +93,7 @@
 			<td><b>in sanduku</b><br />в коробке</td>
 		</tr>
 		<tr>
-			<td colspan="2" style="font-size:125%;"><b>Myaw sen in sanduku.</b><br />Кот в коробке.</td>
+			<td colspan="3" style="font-size:125%;"><b>Myaw sen in sanduku.</b><br />Кот в коробке.</td>
 		</tr>
 		<tr>
 			<th>Подлежащее</th>
@@ -280,7 +280,7 @@
 			<td><b>ki yu le xuli mobil</b><br />(что) ты починил машину</td>
 		</tr>
 		<tr>
-			<td colspan="3" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.</b><br />Я знаю (что) ты починил
+			<td colspan="2" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.</b><br />Я знаю (что) ты починил
 				машину. </td>
 		</tr>
 	</tbody>
@@ -300,7 +300,7 @@
 			<td><b>no surprisa mi</b><br />не удивляет меня</td>
 		</tr>
 		<tr>
-			<td colspan="3" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.</b><br />То, что ты починил
+			<td colspan="2" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.</b><br />То, что ты починил
 				машину, не удивляет меня. </td>
 		</tr>
 	</tbody>
