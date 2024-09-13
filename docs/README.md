@@ -1,3 +1,12 @@
+---
+permalink: /
+links:
+  - '<a href="https://codeberg.org/salif/gramati-fe-globasa">Tongibe</a>'
+  - '<a href="https://bsky.app/profile/globasa.salif.eu">Folo</a>'
+  - '<a href="https://salif.github.io/globasa-xwexi-pages/">Xwexi</a>'
+image: "assets/favicon.png"
+---
+
 # Gramati fe Globasa
 
 - 🏴󠁧󠁢󠁥󠁮󠁧󠁿 _English:_

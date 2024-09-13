@@ -29,65 +29,94 @@ table {
 		width: 100%;
 	}
 
-	.large-table th, .large-table td {
+	.large-table th,
+	.large-table td {
 		display: inline-block;
 	}
 }
 
-/* @media not print { } */
+html.rust-sans,
+html.mocha-sans {
+	font-family: "Open Sans", sans-serif !important;
+}
 
-.rust-clr body, .mocha-clr body {
+.rust-sans body,
+.mocha-sans body {
+	font-size: 1.6rem !important;
+}
+
+.rust-clr body,
+.mocha-clr body {
 	font-weight: 500;
 }
 
-.rust-clr .content strong a, .mocha-clr .content strong a {
+.rust-sans .content strong a,
+.mocha-sans .content strong a,
+.rust-clr .content strong a,
+.mocha-clr .content strong a {
 	text-decoration: underline;
 }
 
-.rust-clr .content strong a:hover, .mocha-clr .content strong a:hover {
+.rust-sans .content strong a:hover,
+.mocha-sans .content strong a:hover,
+.rust-clr .content strong a:hover,
+.mocha-clr .content strong a:hover {
 	text-decoration: none;
 }
 
-.rust-clr .content strong, .rust-clr .content td b {
+.rust-sans .content strong,
+.rust-sans .content td b,
+.rust-clr .content strong,
+.rust-clr .content td b {
 	color: orangered;
 	--links: orangered;
 }
 
-.mocha-clr .content strong, .mocha-clr .content td b {
+.mocha-sans .content strong,
+.mocha-sans .content td b,
+.mocha-clr .content strong,
+.mocha-clr .content td b {
 	color: coral;
 	--links: coral;
 }
 
 /* copied */
 
+.mocha-sans code,
 .mocha-clr code {
 	color: #cdd6f4;
 	background: #181825;
 }
 
+.mocha-sans blockquote blockquote,
 .mocha-clr blockquote blockquote {
 	border-top: 0.1em solid #585b70;
 	border-bottom: 0.1em solid #585b70;
 }
 
+.mocha-sans hr,
 .mocha-clr hr {
 	color: #585b70;
 }
 
+.mocha-sans del,
 .mocha-clr del {
 	color: #9399b2;
 }
 
+.mocha-sans .ace_gutter,
 .mocha-clr .ace_gutter {
 	color: #7f849c;
 	background: #181825;
 }
 
+.mocha-sans .ace_gutter-active-line.ace_gutter-cell,
 .mocha-clr .ace_gutter-active-line.ace_gutter-cell {
 	color: #f5c2e7;
 	background: #181825;
 }
 
+.mocha-sans,
 .mocha-clr {
 	--bg: #1e1e2e;
 	--fg: #cdd6f4;
@@ -121,6 +150,7 @@ table {
 	--color-scheme: dark;
 }
 
+.rust-sans,
 .rust-clr {
 	--bg: hsl(60, 9%, 87%);
 	--fg: #262625;

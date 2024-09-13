@@ -3,6 +3,5 @@
 		"**/books/**/*.md": "html",
 		"**/books/**/{SUMMARY,gramati}.md": "markdown"
 	},
-	"css.format.newlineBetweenSelectors": false,
 	"editor.unicodeHighlight.nonBasicASCII": false
 }
