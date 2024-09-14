@@ -1,6 +1,10 @@
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 title: "Gramati fe Globasa"
 description: "Kompleto Gramati fe Globasa"

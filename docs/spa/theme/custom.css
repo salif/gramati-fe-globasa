@@ -2,9 +2,24 @@ html {
 	font-family: "Alegreya", "Open Sans", sans-serif;
 }
 
+html.rust-sans,
+html.mocha-sans {
+	font-family: "Open Sans", sans-serif;
+}
+
 body {
 	font-size: 1.9rem;
 	font-weight: 400;
+}
+
+.rust-sans body,
+.mocha-sans body {
+	font-size: 1.6rem;
+}
+
+.rust-clr body,
+.mocha-clr body {
+	font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
@@ -35,45 +50,22 @@ table {
 	}
 }
 
-html.rust-sans,
-html.mocha-sans {
-	font-family: "Open Sans", sans-serif !important;
-}
-
-.rust-sans body,
-.mocha-sans body {
-	font-size: 1.6rem !important;
-}
-
-.rust-clr body,
-.mocha-clr body {
-	font-weight: 500;
-}
-
-.rust-sans .content strong a,
-.mocha-sans .content strong a,
 .rust-clr .content strong a,
 .mocha-clr .content strong a {
 	text-decoration: underline;
 }
 
-.rust-sans .content strong a:hover,
-.mocha-sans .content strong a:hover,
 .rust-clr .content strong a:hover,
 .mocha-clr .content strong a:hover {
 	text-decoration: none;
 }
 
-.rust-sans .content strong,
-.rust-sans .content td b,
 .rust-clr .content strong,
 .rust-clr .content td b {
 	color: orangered;
 	--links: orangered;
 }
 
-.mocha-sans .content strong,
-.mocha-sans .content td b,
 .mocha-clr .content strong,
 .mocha-clr .content td b {
 	color: coral;
