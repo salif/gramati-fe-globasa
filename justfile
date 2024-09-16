@@ -70,30 +70,41 @@ sync-theme:
 		done; \
 	}
 
-[private]
-serve-init:
-	cd docs && { \
-		bundle install; \
-	}
-
-[doc('Jekyll serve')]
-serve:
-	cd docs && { \
-		if ! bundle check; then \
-			just serve-init; fi; \
-		bundle exec jekyll serve {{ args }}; \
-	}
+[doc('Serve')]
+serve port='8080':
+	cd docs && python3 -m http.server {{ port }}
 
 [confirm]
 [doc('Publish to GitHub Pages')]
 gh-pages:
 	git switch gh-pages
 	git merge main --strategy-option theirs --no-commit
-	just clean-all build clean-gitignore
+	just clean-all build clean-gitignore update-sitemap
 	git add ./docs
 	git merge --continue
 	git push
 	git switch -
+
+[private]
+update-sitemap sitemap="sitemap.xml":
+	#!/usr/bin/env bash
+	set -euo pipefail
+	cd docs
+	URL='https://salif.github.io/gramati-fe-globasa/'
+	NOW=$(date +%F)
+	printf "%s\n%s\n" '<?xml version="1.0" encoding="UTF-8"?>' \
+	'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' > {{ sitemap }}
+	find * -type f -name '*.html' ! -name '404.html' | LC_COLLATE=C sort | \
+	while read -r line; do
+		LASTMOD=$(git log -1 --pretty="format:%cs" "${line}")
+		if [[ "${line}" == *index.html ]]; then
+			line="${line::-10}"
+		fi
+		printf "%s\n%s%s%s\n%s%s%s\n%s\n" '<url>' \
+		'<loc>' "${URL}${line}" '</loc>' \
+		'<lastmod>' "${LASTMOD:-${NOW}}" '</lastmod>' '</url>' >> {{ sitemap }}
+	done
+	printf "%s\n" '</urlset>' >> {{ sitemap }}
 
 [private]
 update-book-diff lang="eng":
