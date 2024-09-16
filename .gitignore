@@ -2,9 +2,3 @@
 /books/*/theme
 /books/eng/src/*_new.md
 /books/spa/src/*_new.md
-
-/docs/_site/
-/docs/.bundle/
-/docs/.jekyll-cache/
-/docs/.jekyll-metadata
-/docs/Gemfile.lock
