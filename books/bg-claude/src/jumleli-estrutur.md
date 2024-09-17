@@ -144,9 +144,9 @@
 <p>В тези изречения инфинитивните глаголни фрази в ролята на субект могат да бъдат преместени в края на изречението.
 	Въпреки това, местоимението <strong>to</strong> трябва да заеме мястото на инфинитивната глаголна фраза и трябва да
 	се добави запетая преди преместената фраза.</p>
-<p><strong>Na sen nensabar sen problem.</strong><br />Да бъдеш нетърпелив е проблем.<br />
+<p><strong>Na sen nensabar sen problema.</strong><br />Да бъдеш нетърпелив е проблем.<br />
 	<em>или</em><br />
-	<strong>To sen problem, na sen nensabar.</strong><br />Проблем е да бъдеш нетърпелив.
+	<strong>To sen problema, na sen nensabar.</strong><br />Проблем е да бъдеш нетърпелив.
 </p>
 <p><strong>Na soti gitara sen asan.</strong><br />Да свириш на китара е лесно. <em>или</em> Свиренето на китара е
 	лесно.<br />

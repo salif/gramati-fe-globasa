@@ -260,18 +260,12 @@
 </ul>
 <h2>Функционални думи за време</h2>
 <ul>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dure">dure</a></strong> - (<em>същ.</em>)
-		продължителност; (<em>гл.</em>) продължавам, имам продължителност от <ul>
-			<li><strong>fe dure</strong> - междувременно, в това време</li>
-			<li><strong>fe dure fe</strong>; <strong><a
-						href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - по време на, за <em>+ именна
-					фраза</em>
-				<ul>
-					<li><strong>dur</strong> (<strong>moyun</strong>) - за</li>
-					<li><strong>dur na</strong> - докато <em>+ глаголна фраза с -ing</em></li>
-				</ul>
-			</li>
-			<li><strong>fe dure ki</strong>; <strong>durki</strong> - докато <em>+ изречение</em></li>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - по време на, за <em>+ именна
+			фраза</em>
+		<ul>
+			<li><strong>dur</strong> (<strong>moyun</strong>) - за</li>
+			<li><strong>dur na</strong> - докато <em>+ глаголна фраза с -ing</em></li>
+			<li><strong>durki</strong> - докато <em>+ изречение</em></li>
 		</ul>
 	</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>представка</em>) край,
@@ -416,7 +410,7 @@
 		колкото...</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/max">max</a></strong> - повече <ul>
 			<li><strong>maxpul</strong> - допълнителен, допълнително, освен това, нещо повече</li>
-			<li><strong>ji max to</strong> - и така нататък</li>
+			<li><strong>ji max (o)to/(e)te</strong> - и така нататък</li>
 		</ul>
 	</li>
 	<li><strong>max... kom...</strong> - повече (<em>по-голям брой</em>, <em>по-голямо количество</em>)... +

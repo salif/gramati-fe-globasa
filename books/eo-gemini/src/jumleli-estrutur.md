@@ -146,9 +146,9 @@
 <p>En ĉi tiuj frazoj, subjektaj infinitivaj verbofrazoj povas esti movitaj al la fino de la frazo. Tamen, la pronomo
 	<strong>to</strong> devas anstataŭigi la infinitivan verbofrazon kaj komo devas esti aldonita antaŭ la translokigita
 	frazo.</p>
-<p><strong>Na sen nensabar sen problem.</strong><br /> Esti senpacienca estas problemo.<br />
+<p><strong>Na sen nensabar sen problema.</strong><br /> Esti senpacienca estas problemo.<br />
 	<em>aŭ</em><br />
-	<strong>To sen problem, na sen nensabar.</strong><br /> Estas problemo esti senpacienca.
+	<strong>To sen problema, na sen nensabar.</strong><br /> Estas problemo esti senpacienca.
 </p>
 <p><strong>Na soti gitara sen asan.</strong><br /> Ludi la gitaron estas facile. <em>aŭ</em> Gitarludado estas
 	facila.<br />

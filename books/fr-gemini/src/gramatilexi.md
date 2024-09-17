@@ -408,7 +408,7 @@
 	</li>
 	<li><strong><a href="https://menalari.globasa.net/fra/lexi/max">max</a></strong> - plus <ul>
 			<li><strong>maxpul</strong> - additionnel, supplémentaire, autre; de plus</li>
-			<li><strong>ji max to</strong> - etcetera</li>
+			<li><strong>ji max (o)to/(e)te</strong> - etcetera</li>
 		</ul>
 	</li>
 	<li><strong>max... kom...</strong> - plus (<em>un plus grand nombre de</em>, <em>une plus grande quantité</em>)... +

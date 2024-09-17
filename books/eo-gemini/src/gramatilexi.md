@@ -261,19 +261,12 @@
 </ul>
 <h2>Funkcivortoj de Tempo</h2>
 <ul>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dure">dure</a></strong> - (<em>n</em>) daŭro;
-		(<em>v</em>) daŭri <ul>
-			<li><strong>fe dure</strong> - dume</li>
-			<li><strong>fe dure fe</strong>; <strong><a
-						href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - dum, por + <em>substantiva
-					frazo</em>
-				<ul>
-					<li><strong>dur</strong> (<strong>moyun</strong>) - po</li>
-					<li><strong>dur na</strong> - dum + <em>-anta verbo</em>
-					</li>
-				</ul>
-			</li>
-			<li><strong>fe dure ki</strong>; <strong>durki</strong> - dum + <em>frazo</em></li>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - dum, por + <em>substantiva
+			frazo</em>
+		<ul>
+			<li><strong>dur</strong> (<strong>moyun</strong>) - po</li>
+			<li><strong>dur na</strong> - dum + <em>-anta verbo</em></li>
+			<li><strong>durki</strong> - dum + <em>frazo</em></li>
 		</ul>
 	</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>prefikso</em>) finiĝi
@@ -416,7 +409,7 @@
 	</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/max">max</a></strong> - pli <ul>
 			<li><strong>maxpul</strong> - plia, kroma; plie, krome</li>
-			<li><strong>ji max to</strong> - ktp.</li>
+			<li><strong>ji max (o)to/(e)te</strong> - ktp.</li>
 		</ul>
 	</li>
 	<li><strong>max... kom...</strong> - pli (<em>pli granda nombro da</em>, <em>pli granda kvanto da</em>)... +

@@ -149,8 +149,8 @@ update-book lang="eng" action="update":
 	}
 	function fix_content(content, page_name, lang) {
 		let new_content = content
-		new_content = new_content.replaceAll("<br>", "<br />").replaceAll("pronamelexi", "pornamelexi")
-		new_content = new_content.replaceAll('style="ancho:100%"', 'style="width:100%"')
+		new_content = new_content.replaceAll("<br>", "<br />").replaceAll("pronamelexi", "pornamelexi").
+		replaceAll('style="ancho:100%"', 'style="width:100%"').replace("Glosaba", "Globasa")
 		if (page_name === "abece-ji-lafuzu") {
 			if (lang === "spa") {
 				new_content = new_content.replaceAll(
@@ -184,7 +184,9 @@ update-book lang="eng" action="update":
 				'<td colspan="3" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.',
 				'<td colspan="2" style="font-size:125%;"><b>Mi jixi ki yu le xuli mobil.').replace(
 				'<td colspan="3" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.',
-				'<td colspan="2" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.')
+				'<td colspan="2" style="font-size:125%;"><b>Ki yu le xuli mobil no surprisa mi.').replace(
+				'<strong>To sen problem, na sen nensabar.',
+				'<strong>To sen problema, na sen nensabar.')
 		}
 		if (page_name === "jumlemonli-estrutur") {
 			new_content = new_content.replace(

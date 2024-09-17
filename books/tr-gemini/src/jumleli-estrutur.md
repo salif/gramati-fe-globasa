@@ -143,9 +143,9 @@
 <p><strong>Cele sen na triunfa.</strong><br /> Hedef kazanmaktır.</p>
 <p>Bu cümlelerde, özne mastar fiil öbekleri cümlenin sonuna taşınabilir. Ancak, zamir <strong>to</strong> mastar fiil
 	öbeğinin yerini almalı ve taşınan öbekten önce virgül eklenmelidir.</p>
-<p><strong>Na sen nensabar sen problem.</strong><br /> Sabırsız olmak bir problemdir.<br />
+<p><strong>Na sen nensabar sen problema.</strong><br /> Sabırsız olmak bir problemdir.<br />
 	<em>veya</em><br />
-	<strong>To sen problem, na sen nensabar.</strong><br /> Sabırsız olmak bir problemdir.
+	<strong>To sen problema, na sen nensabar.</strong><br /> Sabırsız olmak bir problemdir.
 </p>
 <p><strong>Na soti gitara sen asan.</strong><br /> Gitar çalmak kolaydır. <em>veya</em> Gitar çalmak kolaydır.<br />
 	<em>veya</em><br />

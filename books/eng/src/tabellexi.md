@@ -182,7 +182,7 @@
 		</tr>
 		<tr>
 			<th><b><i>emphatic</i></b><br /><br /><b>he</b> -<br />any, -ever</th>
-			<td><b>he keto</b><br />whatever, whichever</td>
+			<td><b>he keto</b><br />what ever</td>
 			<td><b>he hinto</b><br />this specific one</td>
 			<td><b>he dento</b><br />that specific one</td>
 			<td><b>he banto</b><br />anything</td>
