@@ -366,7 +366,7 @@
 	<li><strong>minmo kimapul kom...</strong> - malpli multekosta ol...</li>
 	<li><strong>denmo kimapul kom...</strong> - tiel multekosta kiel...</li>
 </ul>
-<p>Por esprimi <em>la plej (-a)</em> kaj <em>la malplej</em>, Glosaba uzas <strong>maxim... te/to</strong> kaj
+<p>Por esprimi <em>la plej (-a)</em> kaj <em>la malplej</em>, Globasa uzas <strong>maxim... te/to</strong> kaj
 	<strong>minim... te/to</strong>. La vorto <strong>of</strong> signifas <em>el</em> aŭ <em>de</em>. Notu ke la
 	pronomoj <strong>te</strong>/<strong>to</strong> devas tuj sekvi la adjektivon ĉar substantivaj frazoj devas ĉiam
 	finiĝi per substantivo aŭ pronomo. Vidu <a

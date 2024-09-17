@@ -369,7 +369,7 @@
 	<li><strong>minmo kimapul kom...</strong> - moins cher que...</li>
 	<li><strong>denmo kimapul kom...</strong> - aussi cher que...</li>
 </ul>
-<p>Pour exprimer <em>le plus</em> et <em>le moins</em>, Glosaba utilise <strong>maxim... te/to</strong> et
+<p>Pour exprimer <em>le plus</em> et <em>le moins</em>, Globasa utilise <strong>maxim... te/to</strong> et
 	<strong>minim... te/to</strong>. Le mot <strong>de</strong> signifie <em>de</em> . Notez que les pronoms
 	<strong>te</strong>/<strong>to</strong> doivent suivre immédiatement l'adjectif, car les syntagmes nominaux doivent
 	toujours se terminer par un nom ou un pronom. Voir <a

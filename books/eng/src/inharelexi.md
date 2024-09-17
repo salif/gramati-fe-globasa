@@ -376,7 +376,7 @@
 	<li><strong>minmo kimapul kom...</strong> - less expensive than...</li>
 	<li><strong>denmo kimapul kom...</strong> - as expensive as...</li>
 </ul>
-<p>To express <em>the most (-est)</em> and <em>the least</em>, Glosaba uses <strong>maxim... te/to</strong> and
+<p>To express <em>the most (-est)</em> and <em>the least</em>, Globasa uses <strong>maxim... te/to</strong> and
 	<strong>minim... te/to</strong>. The word <strong>of</strong> means <em>out of</em> or <em>off (of)</em>. Note that
 	the pronouns <strong>te</strong>/<strong>to</strong> must immediately follow the adjective since noun phrases must
 	always end in a noun or pronoun. See <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Noun

@@ -366,7 +366,7 @@
 	<li><strong>minmo kimapul kom...</strong> - menos caro que...</li>
 	<li><strong>denmo kimapul kom...</strong> - tão caro como...</li>
 </ul>
-<p>Para expressar <em>o/a mais</em> e <em>o/a menos</em>, Glosaba usa <strong>maxim... te/to</strong> e <strong>minim...
+<p>Para expressar <em>o/a mais</em> e <em>o/a menos</em>, Globasa usa <strong>maxim... te/to</strong> e <strong>minim...
 		te/to</strong>. A palavra <strong>de</strong> significa <em>de</em> . Note que os pronomes
 	<strong>te</strong>/<strong>to</strong> devem seguir imediatamente o adjetivo, pois os sintagmas nominais devem
 	sempre terminar em um substantivo ou pronome. Veja <a

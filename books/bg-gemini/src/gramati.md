@@ -1,7 +1,7 @@
 # Граматика на глобаса
 
 Тази книга съдържа български превод на [пълната граматика на глобаса](https://salif.github.io/gramati-fe-globasa/eng/).
-Можете да я изтеглите в [EPUB формат](Gramati_fe_Globasa_Mesi_08_2024_bg_gemini.epub)
+Можете да я изтеглите в [EPUB формат](Gramati_fe_Globasa_Mesi_09_2024_bg_gemini.epub)
 или да я прочетете [онлайн](https://salif.github.io/gramati-fe-globasa/bg-gemini/).
 
 Автор на оригиналното съдържание е [екипът на глобаса](https://globasa.net/).

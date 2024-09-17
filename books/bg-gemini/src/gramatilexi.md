@@ -260,19 +260,12 @@
 </ul>
 <h2>Служебни думи за Време</h2>
 <ul>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dure">dure</a></strong> - (<em>същ.</em>)
-		продължителност; (<em>гл.</em>) трая, имам продължителност <ul>
-			<li><strong>fe dure</strong> - междувременно</li>
-			<li><strong>fe dure fe</strong>; <strong><a
-						href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - по време на, за <em>+
-					съществително име</em>
-				<ul>
-					<li><strong>dur</strong> (<strong>moyun</strong>) - на</li>
-					<li><strong>dur na</strong> - докато <em>+ глаголно словосъчетание с -йки/-ейки</em>
-					</li>
-				</ul>
-			</li>
-			<li><strong>fe dure ki</strong>; <strong>durki</strong> - докато <em>+ изречение</em></li>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - по време на, за <em>+
+			съществително име</em>
+		<ul>
+			<li><strong>dur</strong> (<strong>moyun</strong>) - на</li>
+			<li><strong>dur na</strong> - докато <em>+ глаголно словосъчетание с -йки/-ейки</em></li>
+			<li><strong>durki</strong> - докато <em>+ изречение</em></li>
 		</ul>
 	</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>префикс</em>) край, стигам
@@ -398,7 +391,7 @@
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/hata">hata</a></strong> - дори <ul>
 			<li><strong>no hata</strong> - дори не</li>
 			<li><strong>fe hataya</strong> - въпреки това, въпреки всичко, все пак</li>
-			<li><strong>fe hataya de</strong> - въпреки <em>+ съществително име</em></li>
+			<li><strong>fe hataya fe</strong> - въпреки <em>+ съществително име</em></li>
 			<li><strong>fe hataya na</strong> въпреки <em>+ глаголно словосъчетание с -йки/-ейки</em></li>
 			<li><strong>fe hataya ki</strong> - въпреки че, макар че <em>+ изречение</em></li>
 		</ul>

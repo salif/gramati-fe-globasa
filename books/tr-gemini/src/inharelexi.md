@@ -365,7 +365,7 @@
 	<li><strong>minmo kimapul kom...</strong> - ...den daha ucuz</li>
 	<li><strong>denmo kimapul kom...</strong> - ...kadar pahalı</li>
 </ul>
-<p><em>En (en çok)</em> ve <em>en az</em> ifadesini belirtmek için Glosaba <strong>maxim... te/to</strong> ve
+<p><em>En (en çok)</em> ve <em>en az</em> ifadesini belirtmek için Globasa <strong>maxim... te/to</strong> ve
 	<strong>minim... te/to</strong> kullanır. <strong>of</strong> kelimesi <em>-den, -dan</em> anlamına gelir.
 	<strong>te</strong>/<strong>to</strong> zamirlerinin hemen sıfatı takip etmesi gerektiğini unutmayın, çünkü isim
 	öbekleri her zaman bir isim veya zamirle bitmelidir. Bkz. <a
