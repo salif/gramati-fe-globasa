@@ -7,7 +7,7 @@ title = "Грамматика глобаса"
 description = "Русский перевод грамматики языка глобаса, выполненный с использованием языковой модели Джемини"
 
 [output.html]
-additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]
+additional-css = ["./theme/custom.css", "./theme/catppuccin.css"]
 default-theme = "rust-clr"
 preferred-dark-theme = "mocha-clr"
 smart-punctuation = false

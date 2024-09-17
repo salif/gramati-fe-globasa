@@ -7,7 +7,7 @@ title = "Граматика на глобаса"
 description = "Български превод на граматиката на езика глобаса, направен с помощта на езиковия модел Джемини"
 
 [output.html]
-additional-css = ["./theme/catppuccin.css", "./theme/custom.css"]
+additional-css = ["./theme/custom.css", "./theme/catppuccin.css"]
 default-theme = "rust-clr"
 preferred-dark-theme = "mocha-clr"
 smart-punctuation = false
@@ -21,4 +21,4 @@ no-section-label = false
 curly-quotes = false
 
 [output.ze]
-command = "just build-ze Gramati_fe_Globasa_Mesi_08_2024_bg_gemini build-ze-ignore"
+command = "just build-ze Gramati_fe_Globasa_Mesi_09_2024_bg_gemini build-ze-ignore"

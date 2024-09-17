@@ -148,7 +148,7 @@
 	phrase.</p>
 <p><strong>Na sen nensabar sen problema.</strong><br /> To be impatient is a problem.<br />
 	<em>or</em><br />
-	<strong>To sen problem, na sen nensabar.</strong><br /> It is a problem to be impatient.
+	<strong>To sen problema, na sen nensabar.</strong><br /> It is a problem to be impatient.
 </p>
 <p><strong>Na soti gitara sen asan.</strong><br /> To play the guitar is easy. <em>or</em> Playing the guitar is
 	easy.<br />

@@ -145,9 +145,9 @@
 <p>В тези изречения инфинитивните глаголни фрази, действащи като подлог, могат да бъдат преместени в края на
 	изречението. Въпреки това, местоимението <strong>to</strong> трябва да заеме мястото на инфинитивната глаголна фраза
 	и трябва да се добави запетая преди преместената фраза.</p>
-<p><strong>Na sen nensabar sen problem.</strong><br /> Да си нетърпелив е проблем.<br />
+<p><strong>Na sen nensabar sen problema.</strong><br /> Да си нетърпелив е проблем.<br />
 	<em>или</em><br />
-	<strong>To sen problem, na sen nensabar.</strong><br /> Проблем е да си нетърпелив.
+	<strong>To sen problema, na sen nensabar.</strong><br /> Проблем е да си нетърпелив.
 </p>
 <p><strong>Na soti gitara sen asan.</strong><br /> Да свириш на китара е лесно.<br />
 	<em>или</em><br />

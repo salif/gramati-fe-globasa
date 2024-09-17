@@ -12,7 +12,7 @@ build:
 	cd books
 	for d in *; do
 		if ! test -d "../docs/$d"; then
-			echo "Building $d"
+			printf "Building %s\n" "$d"
 			(cd "$d" && {
 				mdbook build
 				mv book/html "../../docs/$d"
@@ -22,7 +22,7 @@ build:
 				printf "*\n" > "../../docs/$d/.gitignore"
 			})
 		else
-			echo "Skipping $d"; fi
+			printf "Skipping %s\n" "$d"; fi
 	done
 
 [no-cd]
@@ -56,7 +56,7 @@ clean-all:
 [doc('Delete a built book')]
 clean book:
 	@if ! test -d "./docs/{{ book }}"; then \
-		echo "Skipping docs/{{ book }}; not a directory."; \
+		printf "%s%s%s\n" "Skipping docs/" "{{ book }}" "; not a directory."; \
 	else rm -r "./docs/{{ book }}"; fi
 
 [confirm]
@@ -86,15 +86,16 @@ gh-pages:
 	git switch -
 
 [private]
-update-sitemap sitemap="sitemap.xml":
+update-sitemap:
 	#!/usr/bin/env bash
 	set -euo pipefail
 	cd docs
+	SITEMAP='sitemap.xml'
 	URL='https://salif.github.io/gramati-fe-globasa/'
 	NOW=$(date +%F)
 	printf "%s\n%s\n" '<?xml version="1.0" encoding="UTF-8"?>' \
-	'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' > {{ sitemap }}
-	find * -type f -name '*.html' ! -name '404.html' | LC_COLLATE=C sort | \
+	'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' > ${SITEMAP}
+	find * -type f -name '*.html' ! -name '404.html' ! -name 'print.html' | LC_COLLATE=C sort | \
 	while read -r line; do
 		LASTMOD=$(git log -1 --pretty="format:%cs" "${line}")
 		if [[ "${line}" == *index.html ]]; then
@@ -102,9 +103,9 @@ update-sitemap sitemap="sitemap.xml":
 		fi
 		printf "%s\n%s%s%s\n%s%s%s\n%s\n" '<url>' \
 		'<loc>' "${URL}${line}" '</loc>' \
-		'<lastmod>' "${LASTMOD:-${NOW}}" '</lastmod>' '</url>' >> {{ sitemap }}
+		'<lastmod>' "${LASTMOD:-${NOW}}" '</lastmod>' '</url>' >> ${SITEMAP}
 	done
-	printf "%s\n" '</urlset>' >> {{ sitemap }}
+	printf "%s\n" '</urlset>' >> ${SITEMAP}
 
 [private]
 update-book-diff lang="eng":
