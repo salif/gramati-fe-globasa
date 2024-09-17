@@ -262,19 +262,12 @@
 </ul>
 <h2>Zamanın İşlev Sözcükleri</h2>
 <ul>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dure">dure</a></strong> - (<em>isim</em>) süre;
-		(<em>fiil</em>) sürmek, süresi olmak <ul>
-			<li><strong>fe dure</strong> - bu arada, bu esnada</li>
-			<li><strong>fe dure fe</strong>; <strong><a
-						href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - süresince, boyunca <em>+
-					isim öbeği</em>
-				<ul>
-					<li><strong>dur</strong> (<strong>moyun</strong>) - başına</li>
-					<li><strong>dur na</strong> - -iken, -irken <em>+ fiil öbeği</em>
-					</li>
-				</ul>
-			</li>
-			<li><strong>fe dure ki</strong>; <strong>durki</strong> - -iken, -irken <em>+ cümle</em></li>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - süresince, boyunca <em>+ isim
+			öbeği</em>
+		<ul>
+			<li><strong>dur</strong> (<strong>moyun</strong>) - başına</li>
+			<li><strong>dur na</strong> - -iken, -irken <em>+ fiil öbeği</em></li>
+			<li><strong>durki</strong> - -iken, -irken <em>+ cümle</em></li>
 		</ul>
 	</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>önek</em>) son, gelmek
@@ -420,7 +413,7 @@
 	</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/max">max</a></strong> - daha fazla <ul>
 			<li><strong>maxpul</strong> - ek, ekstra, fazladan; ayrıca, üstelik, dahası</li>
-			<li><strong>ji max to</strong> - vesaire</li>
+			<li><strong>ji max (o)to/(e)te</strong> - vesaire</li>
 		</ul>
 	</li>
 	<li><strong>max... kom...</strong> - daha fazla (<em>sayıca daha fazla</em>, <em>miktar olarak daha fazla</em>)... +

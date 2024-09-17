@@ -145,9 +145,9 @@
 <p>В этих предложениях подлежащие инфинитивные глагольные группы могут быть перемещены в конец предложения. Однако
 	местоимение <strong>to</strong> должно занять место инфинитивной глагольной группы, и перед перемещенной группой
 	должна быть добавлена запятая.</p>
-<p><strong>Na sen nensabar sen problem.</strong><br /> Быть нетерпеливым - это проблема.<br />
+<p><strong>Na sen nensabar sen problema.</strong><br /> Быть нетерпеливым - это проблема.<br />
 	<em>или</em><br />
-	<strong>To sen problem, na sen nensabar.</strong><br /> Это проблема - быть нетерпеливым.
+	<strong>To sen problema, na sen nensabar.</strong><br /> Это проблема - быть нетерпеливым.
 </p>
 <p><strong>Na soti gitara sen asan.</strong><br /> Играть на гитаре легко. <em>или</em> Игра на гитаре легка.<br />
 	<em>или</em><br />

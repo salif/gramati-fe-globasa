@@ -407,7 +407,7 @@
 	<li><strong><a href="https://menalari.globasa.net/spa/lexi/denmo">denmo</a>... kom...</strong> - tan... como...</li>
 	<li><strong><a href="https://menalari.globasa.net/spa/lexi/max">max</a></strong> - más <ul>
 			<li><strong>maxpul</strong> - adicional, extra, otro; además</li>
-			<li><strong>ji max to</strong> - etcétera</li>
+			<li><strong>ji max (o)to/(e)te</strong> - etcétera</li>
 		</ul>
 	</li>
 	<li><strong>max... kom...</strong> - más (<em>un mayor número de</em>, <em>una mayor cantidad</em>)... +

@@ -408,7 +408,7 @@
 		колкото...</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/max">max</a></strong> - повече <ul>
 			<li><strong>maxpul</strong> - допълнителен(на), още, друг(а); допълнително, освен това</li>
-			<li><strong>ji max to</strong> - и така нататък</li>
+			<li><strong>ji max (o)to/(e)te</strong> - и така нататък</li>
 		</ul>
 	</li>
 	<li><strong>max... kom...</strong> - повече (<em>по-голям брой</em>, <em>по-голямо количество</em>)... +

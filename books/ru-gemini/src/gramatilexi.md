@@ -262,19 +262,12 @@
 </ul>
 <h2>Служебные слова времени</h2>
 <ul>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dure">dure</a></strong> - (<em>сущ.</em>)
-		продолжительность; (<em>гл.</em>) длиться, иметь продолжительность <ul>
-			<li><strong>fe dure</strong> - тем временем, между тем</li>
-			<li><strong>fe dure fe</strong>; <strong><a
-						href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - в течение, на протяжении
-				<em>+ существительное</em>
-				<ul>
-					<li><strong>dur</strong> (<strong>moyun</strong>) - за</li>
-					<li><strong>dur na</strong> - пока <em>+ деепричастный оборот</em>
-					</li>
-				</ul>
-			</li>
-			<li><strong>fe dure ki</strong>; <strong>durki</strong> - пока <em>+ предложение</em></li>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/dur">dur</a></strong> - в течение, на протяжении <em>+
+			существительное</em>
+		<ul>
+			<li><strong>dur</strong> (<strong>moyun</strong>) - за</li>
+			<li><strong>dur na</strong> - пока <em>+ деепричастный оборот</em></li>
+			<li><strong>durki</strong> - пока <em>+ предложение</em></li>
 		</ul>
 	</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>приставка</em>) конец,
@@ -417,7 +410,7 @@
 	</li>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/max">max</a></strong> - больше <ul>
 			<li><strong>maxpul</strong> - дополнительный, еще один; дополнительно, кроме того, далее</li>
-			<li><strong>ji max to</strong> - и так далее</li>
+			<li><strong>ji max (o)to/(e)te</strong> - и так далее</li>
 		</ul>
 	</li>
 	<li><strong>max... kom...</strong> - больше (<em>большее количество</em>, <em>больший объем</em>)... +

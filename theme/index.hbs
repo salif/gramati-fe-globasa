@@ -34,10 +34,7 @@
         {{/if}}
 
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="../fonts.css">
         <link rel="stylesheet" href="{{ path_to_root }}FontAwesome/css/font-awesome.css">
         {{#if copy_fonts}}
         <link rel="stylesheet" href="{{ path_to_root }}fonts/fonts.css">
@@ -55,7 +52,7 @@
 
         {{#if mathjax_support}}
         <!-- MathJax -->
-        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         {{/if}}
     </head>
     <body class="sidebar-visible no-js">
@@ -314,22 +311,22 @@
         {{/if}}
 
         {{#if playground_js}}
-        <script src="{{ path_to_root }}ace.js"></script>
-        <script src="{{ path_to_root }}editor.js"></script>
-        <script src="{{ path_to_root }}mode-rust.js"></script>
-        <script src="{{ path_to_root }}theme-dawn.js"></script>
-        <script src="{{ path_to_root }}theme-tomorrow_night.js"></script>
+        <script defer src="{{ path_to_root }}ace`"></script>
+        <script defer src="{{ path_to_root }}editor.js"></script>
+        <script defer src="{{ path_to_root }}mode-rust.js"></script>
+        <script defer src="{{ path_to_root }}theme-dawn.js"></script>
+        <script defer src="{{ path_to_root }}theme-tomorrow_night.js"></script>
         {{/if}}
 
         {{#if search_js}}
-        <script src="{{ path_to_root }}elasticlunr.min.js"></script>
-        <script src="{{ path_to_root }}mark.min.js"></script>
-        <script src="{{ path_to_root }}searcher.js"></script>
+        <script defer src="{{ path_to_root }}elasticlunr.min.js"></script>
+        <script defer src="{{ path_to_root }}mark.min.js"></script>
+        <script defer src="{{ path_to_root }}searcher.js"></script>
         {{/if}}
 
-        <script src="{{ path_to_root }}clipboard.min.js"></script>
-        <script src="{{ path_to_root }}highlight.js"></script>
-        <script src="{{ path_to_root }}book.js"></script>
+        <script defer src="{{ path_to_root }}clipboard.min.js"></script>
+        <script defer src="{{ path_to_root }}highlight.js"></script>
+        <script defer src="{{ path_to_root }}book.js"></script>
 
         <!-- Custom JS scripts -->
         {{#each additional_js}}
