@@ -1,5 +1,5 @@
 html {
-	font-family: "Alegreya", "Open Sans", sans-serif;
+	font-family: "Alegreya", serif;
 }
 
 html.rust-sans,
@@ -62,8 +62,8 @@ table {
 
 .rust-clr .content strong,
 .rust-clr .content td b {
-	color: orangered;
-	--links: orangered;
+	color: #b21e00;
+	--links: #b21e00;
 }
 
 .mocha-clr .content strong,

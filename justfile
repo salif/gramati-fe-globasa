@@ -66,7 +66,7 @@ sync-theme:
 		for d in */; do \
 			rm -rf "./${d}theme"; \
 			mkdir -p "./${d}theme"; \
-			cp -ft "./${d}theme/" ../theme/*; \
+			cp -rft "./${d}theme/" ../theme/*; \
 		done; \
 	}
 

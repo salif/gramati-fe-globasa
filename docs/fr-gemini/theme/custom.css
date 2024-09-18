@@ -62,8 +62,8 @@ table {
 
 .rust-clr .content strong,
 .rust-clr .content td b {
-	color: orangered;
-	--links: orangered;
+	color: #b21e00;
+	--links: #008200;
 }
 
 .mocha-clr .content strong,
