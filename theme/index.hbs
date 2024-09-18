@@ -4,18 +4,19 @@
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>{{ title }}</title>
-        {{#if base_url}}
-        <base href="{{ base_url }}">
-        {{/if}}
-
-        <!-- Custom HTML head -->
-        {{> head}}
-
         {{#if is_print }}
         <meta name="robots" content="noindex">
         {{else}}
         <meta name="robots" content="index, follow" />
         {{/if}}
+        {{#if base_url}}
+        <base href="{{ base_url }}">
+        {{/if}}
+
+
+        <!-- Custom HTML head -->
+        {{> head}}
+
         <meta name="description" content="{{ description }}: {{ chapter_title }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#e1e1db">
@@ -34,10 +35,10 @@
         {{/if}}
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="../fonts.css">
         <link rel="stylesheet" href="{{ path_to_root }}FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts.css">
         {{#if copy_fonts}}
-        <link rel="stylesheet" href="{{ path_to_root }}fonts/fonts.css">
+        <!-- <link rel="stylesheet" href="{{ path_to_root }}fonts/fonts.css"> -->
         {{/if}}
 
         <!-- Highlight.js Stylesheets -->
@@ -52,7 +53,7 @@
 
         {{#if mathjax_support}}
         <!-- MathJax -->
-        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         {{/if}}
     </head>
     <body class="sidebar-visible no-js">
@@ -277,8 +278,6 @@
         </script>
         {{/if}}
 
-        <script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
         {{#if google_analytics}}
         <!-- Google Analytics Tag -->
         <script>
@@ -311,22 +310,22 @@
         {{/if}}
 
         {{#if playground_js}}
-        <script defer src="{{ path_to_root }}ace`"></script>
-        <script defer src="{{ path_to_root }}editor.js"></script>
-        <script defer src="{{ path_to_root }}mode-rust.js"></script>
-        <script defer src="{{ path_to_root }}theme-dawn.js"></script>
-        <script defer src="{{ path_to_root }}theme-tomorrow_night.js"></script>
+        <script src="{{ path_to_root }}ace.js"></script>
+        <script src="{{ path_to_root }}editor.js"></script>
+        <script src="{{ path_to_root }}mode-rust.js"></script>
+        <script src="{{ path_to_root }}theme-dawn.js"></script>
+        <script src="{{ path_to_root }}theme-tomorrow_night.js"></script>
         {{/if}}
 
         {{#if search_js}}
-        <script defer src="{{ path_to_root }}elasticlunr.min.js"></script>
-        <script defer src="{{ path_to_root }}mark.min.js"></script>
-        <script defer src="{{ path_to_root }}searcher.js"></script>
+        <script src="{{ path_to_root }}elasticlunr.min.js"></script>
+        <script src="{{ path_to_root }}mark.min.js"></script>
+        <script src="{{ path_to_root }}searcher.js"></script>
         {{/if}}
 
-        <script defer src="{{ path_to_root }}clipboard.min.js"></script>
-        <script defer src="{{ path_to_root }}highlight.js"></script>
-        <script defer src="{{ path_to_root }}book.js"></script>
+        <script src="{{ path_to_root }}clipboard.min.js"></script>
+        <script src="{{ path_to_root }}highlight.js"></script>
+        <script src="{{ path_to_root }}book.js"></script>
 
         <!-- Custom JS scripts -->
         {{#each additional_js}}
@@ -350,6 +349,8 @@
         </script>
         {{/if}}
         {{/if}}
+
+        <script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
     </div>
     </body>
