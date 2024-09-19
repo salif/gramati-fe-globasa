@@ -13,14 +13,13 @@
         <base href="{{ base_url }}">
         {{/if}}
 
+        <meta name="description" content="{{ description }}: {{ chapter_title }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Custom HTML head -->
         {{> head}}
 
-        <meta name="description" content="{{ description }}: {{ chapter_title }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#e1e1db">
-
         {{#if favicon_svg}}
         <link rel="icon" href="{{ path_to_root }}favicon.svg">
         {{/if}}
@@ -37,7 +36,7 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="{{ path_to_root }}FontAwesome/css/font-awesome.css">
         {{#if copy_fonts}}
-        <!-- <link rel="stylesheet" href="{{ path_to_root }}fonts/fonts.css"> -->
+        <link rel="stylesheet" href="{{ path_to_root }}fonts/fonts.css">
         {{/if}}
 
         <!-- Highlight.js Stylesheets -->
