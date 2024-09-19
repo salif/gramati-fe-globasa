@@ -1,6 +1,9 @@
 #!/usr/bin/env -S just -f
 
 args := ""
+express_path := 'os.homedir()+"/.local/lib/node_modules/express"'
+jsdom_path := 'os.homedir()+"/.local/lib/node_modules/jsdom"'
+js_beautify_path := '/usr/lib/node_modules/js-beautify'
 
 _:
 	@just --list
@@ -72,7 +75,17 @@ sync-theme:
 
 [doc('Serve')]
 serve port='8080':
-	cd docs && python3 -m http.server {{ port }}
+	#!/usr/bin/env node
+	const os = require('os');
+	const express = require({{ express_path }});
+	const path = require('path');
+	const app = express();
+	const basePath = '/gramati-fe-globasa';
+	app.use(basePath, express.static(path.join('.', 'docs')));
+	const server = app.listen({{ port }}, () => {
+		const addr = server.address();
+	    console.log(`Server is listening on http://localhost:${addr.port}${basePath}`);
+	});
 
 [confirm]
 [doc('Publish to GitHub Pages')]
@@ -119,8 +132,8 @@ update-book lang="eng" action="update":
 	#!/usr/bin/env node
 	const fs = require("fs")
 	const os = require("os")
-	const jsdom = require(os.homedir()+"/.local/lib/node_modules/jsdom")
-	const beautify_html = require("/usr/lib/node_modules/js-beautify").html
+	const jsdom = require({{ jsdom_path }})
+	const beautify_html = require({{ js_beautify_path }}).html
 	const beautify_options = {
 		"indent_size": "1", "indent_char": "\t", "max_preserve_newlines": "-1", "preserve_newlines": false,
 		"end_with_newline": true, "wrap_line_length": 120}
