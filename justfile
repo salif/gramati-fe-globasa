@@ -3,7 +3,7 @@
 args := ""
 express_path := 'os.homedir()+"/.local/lib/node_modules/express"'
 jsdom_path := 'os.homedir()+"/.local/lib/node_modules/jsdom"'
-js_beautify_path := '/usr/lib/node_modules/js-beautify'
+js_beautify_path := '"/usr/lib/node_modules/js-beautify"'
 
 _:
 	@just --list
@@ -68,13 +68,14 @@ sync-theme:
 	@cd books && { \
 		for d in */; do \
 			rm -rf "./${d}theme"; \
-			mkdir -p "./${d}theme"; \
+			mkdir -p "./${d}theme/fonts/"; \
+			touch "./${d}theme/fonts/fonts.css"; \
 			cp -rft "./${d}theme/" ../theme/*; \
 		done; \
 	}
 
 [doc('Serve')]
-serve port='8080':
+serve port='4000':
 	#!/usr/bin/env node
 	const os = require('os');
 	const express = require({{ express_path }});
