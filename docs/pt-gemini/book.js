@@ -1,8 +1,5 @@
 "use strict";
 
-// Fix back button cache problem
-window.onunload = function () { };
-
 // Global variable, shared between modules
 function playground_text(playground, hidden = true) {
     let code_block = playground.querySelector("code");
@@ -151,10 +148,10 @@ function playground_text(playground, hidden = true) {
     }
 
     // Syntax highlighting Configuration
-    hljs.configure({
-        tabReplace: '    ', // 4 spaces
-        languages: [],      // Languages used for auto-detection
-    });
+    // hljs.configure({
+    //     tabReplace: '    ', // 4 spaces
+    //     languages: [],      // Languages used for auto-detection
+    // });
 
     let code_nodes = Array
         .from(document.querySelectorAll('code'))
@@ -289,11 +286,6 @@ function playground_text(playground, hidden = true) {
     var themeToggleButton = document.getElementById('theme-toggle');
     var themePopup = document.getElementById('theme-list');
     var themeColorMetaTag = document.querySelector('meta[name="theme-color"]');
-    var stylesheets = {
-        ayuHighlight: document.querySelector("[href$='ayu-highlight.css']"),
-        tomorrowNight: document.querySelector("[href$='tomorrow-night.css']"),
-        highlight: document.querySelector("[href$='highlight.css']"),
-    };
 
     function showThemes() {
         themePopup.style.display = 'block';
@@ -325,25 +317,7 @@ function playground_text(playground, hidden = true) {
     }
 
     function set_theme(theme, store = true) {
-        let ace_theme;
-
-        if (theme == 'coal' || theme == 'navy') {
-            stylesheets.ayuHighlight.disabled = true;
-            stylesheets.tomorrowNight.disabled = false;
-            stylesheets.highlight.disabled = true;
-
-            ace_theme = "ace/theme/tomorrow_night";
-        } else if (theme == 'ayu') {
-            stylesheets.ayuHighlight.disabled = false;
-            stylesheets.tomorrowNight.disabled = true;
-            stylesheets.highlight.disabled = true;
-            ace_theme = "ace/theme/tomorrow_night";
-        } else {
-            stylesheets.ayuHighlight.disabled = true;
-            stylesheets.tomorrowNight.disabled = true;
-            stylesheets.highlight.disabled = false;
-            ace_theme = "ace/theme/dawn";
-        }
+        let ace_theme = "ace/theme/dawn";
 
         setTimeout(function () {
             themeColorMetaTag.content = getComputedStyle(document.documentElement).backgroundColor;

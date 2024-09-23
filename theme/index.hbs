@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="{{ path_to_root }}css/variables.css">
         <link rel="stylesheet" href="{{ path_to_root }}css/general.css">
         <link rel="stylesheet" href="{{ path_to_root }}css/chrome.css">
+        <link rel="stylesheet" href="../custom.css">
         {{#if print_enable}}
         <link rel="stylesheet" href="{{ path_to_root }}css/print.css" media="print">
         {{/if}}
@@ -40,9 +41,11 @@
         {{/if}} -->
 
         <!-- Highlight.js Stylesheets -->
+        <!--
         <link rel="stylesheet" href="{{ path_to_root }}highlight.css">
         <link rel="stylesheet" href="{{ path_to_root }}tomorrow-night.css">
         <link rel="stylesheet" href="{{ path_to_root }}ayu-highlight.css">
+        -->
 
         <!-- Custom theme stylesheets -->
         {{#each additional_css}}
@@ -324,7 +327,7 @@
         {{/if}}
 
         <script src="{{ path_to_root }}clipboard.min.js"></script>
-        <script src="{{ path_to_root }}highlight.js"></script>
+        <!-- <script src="{{ path_to_root }}highlight.js"></script> -->
         <script src="{{ path_to_root }}book.js"></script>
 
         <!-- Custom JS scripts -->

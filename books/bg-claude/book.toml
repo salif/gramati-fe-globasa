@@ -7,7 +7,6 @@ title = "Граматика на глобаса"
 description = "Български превод на граматиката на езика глобаса, направен с помощта на езиковия модел Клод"
 
 [output.html]
-additional-css = ["./theme/custom.css", "./theme/catppuccin.css"]
 default-theme = "rust-clr"
 preferred-dark-theme = "mocha-clr"
 smart-punctuation = false

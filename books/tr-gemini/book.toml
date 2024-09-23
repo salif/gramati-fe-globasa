@@ -7,7 +7,6 @@ title = "Globasa dilbilgisi"
 description = "Globasa dilbilgisinin Türkçe çevirisi (Google Gemini ile)"
 
 [output.html]
-additional-css = ["./theme/custom.css", "./theme/catppuccin.css"]
 default-theme = "rust-clr"
 preferred-dark-theme = "mocha-clr"
 smart-punctuation = false
