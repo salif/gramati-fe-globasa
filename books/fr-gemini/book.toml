@@ -7,7 +7,6 @@ title = "Grammaire de globasa"
 description = "Traduction française de la grammaire de globasa (via Google Gemini)"
 
 [output.html]
-additional-css = ["./theme/custom.css", "./theme/catppuccin.css"]
 default-theme = "rust-clr"
 preferred-dark-theme = "mocha-clr"
 smart-punctuation = false

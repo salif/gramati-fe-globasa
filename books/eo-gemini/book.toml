@@ -7,7 +7,6 @@ title = "Gramatiko de Globaso"
 description = "Esperanta traduko de gramatiko de Globaso (per Google Gemini)"
 
 [output.html]
-additional-css = ["./theme/custom.css", "./theme/catppuccin.css"]
 default-theme = "rust-clr"
 preferred-dark-theme = "mocha-clr"
 smart-punctuation = false
