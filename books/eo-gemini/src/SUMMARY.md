@@ -1,4 +1,4 @@
-# Enhavtabelo
+# Enhavtabelo { #summary }
 
 - [Enkonduko](./gramati.md)
 - [Enhavtabelo](./SUMMARY.md)

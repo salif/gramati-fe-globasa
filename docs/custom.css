@@ -59,8 +59,14 @@ table {
 	text-decoration: none;
 }
 
-#summary+ul>li>a {
+#summary+ul>li>a:link,
+#summary+ul>li>a:visited {
 	text-decoration: none;
+}
+
+#summary+ul>li>a:hover,
+#summary+ul>li>a:active {
+	text-decoration: underline;
 }
 
 /* Contrast Ratio = 7.07 : 1

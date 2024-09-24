@@ -1,4 +1,4 @@
-# İçindekiler
+# İçindekiler { #summary }
 
 - [Giriş](./gramati.md)
 - [İçindekiler](./SUMMARY.md)
