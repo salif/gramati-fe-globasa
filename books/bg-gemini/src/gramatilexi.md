@@ -1,8 +1,9 @@
 <h1>Функционални думи: Съюзи, предлози и функционални наречия</h1>
 <p>
 </p>
-<p>Кликнете <a href="./pornamelexi.html">тук</a> за да видите Местоимения. Кликнете <a href="./tabellexi.html">тук</a>
-	за да видите Съотносителни думи. Кликнете <a href="./numer-ji-mesi.html">тук</a> за да видите Числа.</p>
+<p>Кликнете, за да видите <a href="./pornamelexi.html">Местоимения</a>. Кликнете, за да видите <a
+		href="./tabellexi.html">Съотносителни думи</a>. Кликнете, за да видите <a href="./numer-ji-mesi.html">Числа</a>.
+</p>
 <h2>Съюзи</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ji">ji</a></strong> - и <ul>
