@@ -1,8 +1,8 @@
 <h1>Function Words: Conjunctions, Prepositions and Function Adverbs</h1>
 <p>
 </p>
-<p>Click <a href="./pornamelexi.html">here</a> to see Pronouns. Click <a href="./tabellexi.html">here</a> to see
-	Correlatives. Click <a href="./numer-ji-mesi.html">here</a> to see Numbers.</p>
+<p>Click to see <a href="./pornamelexi.html">Pronouns</a>. Click to see <a href="./tabellexi.html">Correlatives</a>.
+	Click to see <a href="./numer-ji-mesi.html">Numbers</a>.</p>
 <h2>Conjunctions</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ji">ji</a></strong> - and <ul>

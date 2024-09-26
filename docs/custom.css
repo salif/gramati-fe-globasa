@@ -27,97 +27,109 @@ body {
 	font-weight: 500;
 }
 
-table {
+.content main table {
 	display: block;
 	overflow-x: auto;
 }
 
 @media print {
-	table tbody th {
+	.content main table tbody th {
 		border: 1px var(--table-border-color) solid;
 	}
 
-	table {
+	.content main table {
 		display: table;
 		table-layout: fixed;
 		width: 100%;
 	}
 
-	.large-table th,
-	.large-table td {
+	.content main .large-table th,
+	.content main .large-table td {
 		display: inline-block;
 	}
 }
 
-#summary+ul>li>a:link,
-#summary+ul>li>a:visited,
-.content a[href$=".mp3"]:link,
-.content a[href$=".ogg"]:link,
-.content a[href$=".wav"]:link,
-.content a[href$=".mp3"]:visited,
-.content a[href$=".ogg"]:visited,
-.content a[href$=".wav"]:visited {
+/* #summary+ul>li>a:link,
+#summary+ul>li>a:visited {} */
+
+.content main a[href$=".mp3"]:link,
+.content main a[href$=".ogg"]:link,
+.content main a[href$=".wav"]:link,
+.content main a[href$=".mp3"]:visited,
+.content main a[href$=".ogg"]:visited,
+.content main a[href$=".wav"]:visited {
+	--fg: var(--links);
 	text-decoration: none;
 }
 
-#summary+ul>li>a:hover,
-#summary+ul>li>a:active,
-.content a[href$=".mp3"]:hover,
-.content a[href$=".ogg"]:hover,
-.content a[href$=".wav"]:hover,
-.content a[href$=".mp3"]:active,
-.content a[href$=".ogg"]:active,
-.content a[href$=".wav"]:active {
+.content main a[href$=".mp3"]:hover,
+.content main a[href$=".ogg"]:hover,
+.content main a[href$=".wav"]:hover {
 	text-decoration: underline;
 }
 
-.light-clr .content a[href$=".mp3"]:link strong,
-.rust-clr .content a[href$=".mp3"]:link strong,
-.mocha-clr .content a[href$=".mp3"]:link strong,
-.light-clr .content a[href$=".mp3"]:visited strong,
-.rust-clr .content a[href$=".mp3"]:visited strong,
-.mocha-clr .content a[href$=".mp3"]:visited strong {
-	color: var(--links);
+.content main a[href$=".mp3"]:active,
+.content main a[href$=".ogg"]:active,
+.content main a[href$=".wav"]:active {
+	text-decoration: none;
 }
 
-.content a:link,
-.content a:visited {
+.light-clr .content main a[href$=".mp3"]:link strong,
+.rust-clr .content main a[href$=".mp3"]:link strong,
+.mocha-clr .content main a[href$=".mp3"]:link strong,
+.light-clr .content main a[href$=".mp3"]:visited strong,
+.rust-clr .content main a[href$=".mp3"]:visited strong,
+.mocha-clr .content main a[href$=".mp3"]:visited strong {
+	--fg: var(--links);
+}
+
+.content main a:link,
+.content main a:visited {
+	color: var(--fg);
 	text-decoration: underline;
 	text-underline-offset: 0.1em;
 }
 
-.content a:hover,
-.content a:active {
+
+.content main a:hover {
+	--fg: var(--links);
+}
+
+.content main a.header:hover {
+	--fg: var(--fg);
+}
+
+.content main a:active {
 	text-decoration: none;
 }
 
 /* Contrast Ratio = 7.07 : 1
 coral: #ff7f50, bg: #e1e1db */
-.light-clr .content strong,
-.light-clr .content td b,
-.rust-clr .content strong,
-.rust-clr .content td b {
-	color: #852500;
+.light-clr .content main strong,
+.light-clr .content main td b,
+.rust-clr .content main strong,
+.rust-clr .content main td b {
+	--fg: #852500;
+	color: var(--fg);
 }
 
-.light-clr .content strong a,
-.rust-clr .content strong a {
-	--links: #852500;
-}
-
-.rust-clr .content {
+.light-clr .content main,
+.rust-clr .content main {
 	--links: #1C4B64;
 }
 
 /* Contrast Ratio = 7.16 : 1
 coral: #ff7f50, bg: #1e1e2e */
-.mocha-clr .content strong,
-.mocha-clr .content td b {
-	color: #FF8C61;
+.mocha-clr .content main strong,
+.mocha-clr .content main td b {
+	--fg: #FF8C61;
+	color: var(--fg);
 }
 
-.mocha-clr .content strong a {
-	--links: #FF8C61;
+.light-clr .content main u strong,
+.rust-clr .content main u strong,
+.mocha-clr .content main u strong {
+	color: inherit;
 }
 
 .rust-sans,

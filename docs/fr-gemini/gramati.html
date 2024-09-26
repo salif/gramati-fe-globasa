@@ -35,8 +35,8 @@
         <link rel="stylesheet" href="css/variables.css">
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="../custom.css">
         <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
 
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
@@ -159,11 +159,8 @@
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
@@ -266,8 +263,15 @@ Des traductions sont également disponibles dans <a href="https://salif.github.i
         <!-- Custom JS scripts -->
 
 
-        <script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
+        <script>
+        (function (c_, o_, u_, n_, t_, e_, r_) {
+            var localAddrs = ["localhost", "127.0.0.1", ""];
+            if (localAddrs.indexOf(document.location.hostname) === -1) {
+                e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0];
+                e_.async = 1; e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+            }
+        })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+        </script>
     </div>
     </body>
 </html>
