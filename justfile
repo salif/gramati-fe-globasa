@@ -81,7 +81,7 @@ serve port='4000':
 	const express = require({{ express_path }});
 	const path = require('path');
 	const app = express();
-	const basePath = '/gramati-fe-globasa';
+	const basePath = '/gramati-fe-globasa/';
 	app.use(basePath, express.static(path.join('.', 'docs')));
 	const server = app.listen({{ port }}, () => {
 		const addr = server.address();
@@ -91,8 +91,9 @@ serve port='4000':
 [confirm]
 [doc('Publish to GitHub Pages')]
 gh-pages:
+	git diff --cached --quiet
 	git switch gh-pages
-	git merge main --strategy-option theirs --no-commit
+	git merge main -X theirs --no-commit
 	just clean-all build clean-gitignore update-sitemap
 	git add ./docs
 	git merge --continue
