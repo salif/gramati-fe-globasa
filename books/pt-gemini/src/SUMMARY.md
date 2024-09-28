@@ -1,4 +1,4 @@
-# Sumário { #summary }
+# Sumário
 
 - [Introdução](./gramati.md)
 - [Sumário](./SUMMARY.md)

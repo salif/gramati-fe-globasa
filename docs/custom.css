@@ -49,9 +49,6 @@ body {
 	}
 }
 
-/* #summary+ul>li>a:link,
-#summary+ul>li>a:visited {} */
-
 .content main a[href$=".mp3"]:link,
 .content main a[href$=".ogg"]:link,
 .content main a[href$=".wav"]:link,
