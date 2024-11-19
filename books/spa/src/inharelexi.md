@@ -194,70 +194,110 @@
 <p>Los verbos se definen en el diccionario como <em>auxiliares</em>, <em>copulativos</em>, <em>transitivos</em>,
 	<em>intransitivos</em> o <em>ambitransitivos</em>.</p>
 <h4>Verbos auxiliares</h4>
-<p>Los verbos auxiliares van seguidos inmediatamente de otro verbo, el cual puede omitirse. En Globasa sólo hay tres
-	verbos auxiliares: <strong>abil</strong> (poder), <strong>ingay</strong> (debería), <strong>musi</strong> (deber,
-	tener que).</p>
+<p>Los <em>verbos auxiliares</em> van seguidos inmediatamente de otro verbo, el cual puede omitirse. En Globasa sólo hay
+	tres verbos auxiliares: <strong>abil</strong> (poder), <strong>ingay</strong> (debería), <strong>musi</strong>
+	(deber, tener que).</p>
 <h4>Verbos copulativos</h4>
-<p>Los verbos copulativos vinculan el sujeto con su complemento. Actualmente hay 12 verbos copulativos:
+<p>Los <em>verbos copulativos</em> vinculan el sujeto con su complemento. Actualmente hay 12 verbos copulativos:
 	<strong>sen</strong> (ser), <strong>xorsen</strong> (convertirse, ponerse), <strong>sencu</strong> (convertirse,
 	ponerse), <strong>sengi</strong> (hacer que sea), <strong>kwasisen</strong> (parecer), <strong>okocu</strong>
 	(verse), <strong>orecu</strong> (oírse), <strong>nasacu</strong> (oler), <strong>xetocu</strong> (saber),
 	<strong>pifucu</strong> (sentirse al tacto), <strong>hisicu</strong> (sentirse físicamente),
 	<strong>ganjoncu</strong> (sentirse emocionalmente).</p>
 <h4>Verbos transitivos</h4>
-<p>Los verbos transitivos llevan complemento directo: <strong>haja</strong> (necesitar), <strong>bujo</strong> (atrapar,
-	capturar), <strong>gibe</strong> (dar). Sin embargo, ciertos verbos transitivos a veces o con frecuencia omiten el
-	complemento directo: <strong>doxo</strong> (leer), <strong>yam</strong> (comer).</p>
+<p>Los <em>verbos transitivos</em> llevan complemento directo: <strong>haja</strong> (necesitar), <strong>bujo</strong>
+	(atrapar, capturar), <strong>gibe</strong> (dar). Sin embargo, ciertos <em>verbos transitivos</em> a veces o con
+	frecuencia omiten el complemento directo: <strong>doxo</strong> (leer), <strong>yam</strong> (comer).</p>
 <h4>Verbos intransitivos</h4>
-<p>Los verbos intransitivos no llevan complemento directo: <strong>idi</strong> (ir), <strong>konduta</strong>
+<p>Los <em>verbos intransitivos</em> no llevan complemento directo: <strong>idi</strong> (ir), <strong>konduta</strong>
 	(comportarse), <strong>loka</strong> (estar situado). Sin embargo, ciertos verbos etiquetados como intransitivos
-	pueden utilizarse como verbos transitivos con la misma palabra sustantivo/verbo repetida como complemento directo, o
-	igualmente con un nombre propio o categoría de dicho sustantivo.</p>
+	pueden utilizarse como <em>verbos transitivos</em> con la misma palabra sustantivo/verbo repetida como complemento
+	directo, o igualmente con un nombre propio o categoría de dicho sustantivo.</p>
 <p><strong>Mi le somno (lungo somno).</strong><br /> Dormí (un largo sueño).</p>
 <p><strong>Yu le haha (sotipul haha).</strong><br /> Te reíste (una risa fuerte).</p>
 <p><strong>Te xa lala (Hox Xencudin).</strong><br /> Ella cantará (Feliz cumpleaños).</p>
 <p><strong>Te danse (tango).</strong><br /> Él baila (tango).</p>
-<p>En teoría, todos los verbos intransitivos pueden usarse de forma transitiva con el uso opcional de
-	<strong>-gi</strong>, aunque puede ser una mejor práctica aplicar <strong>-gi</strong> en la mayoría de los casos.
-</p>
+<p>En teoría, todos los demás <em>verbos intransitivos</em> pueden usarse de forma transitiva con el uso opcional de
+	<strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>, aunque puede ser una mejor práctica aplicar
+	<strong>-gi</strong> en la mayoría de los casos.</p>
 <p><strong>Kam yu fley(gi) hawanavi?</strong><br /> ¿Vuelas aviones?</p>
 <p><strong>Mi xa sampo(gi) bwaw fe axam.</strong><br /> Pasearé al perro por la noche.</p>
 <h4>Verbos ambitransitivos</h4>
-<p>Los <a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">verbos ambitransitivos</a> en Globasa son
-	verbos para los cuales tanto el sujeto del significado intransitivo como el complemento directo del significado
-	transitivo experimentan la misma acción o el mismo estado del verbo. Al significado intransitivo de estos verbos
-	puede aplicársele opcionalmente <strong>-cu</strong> y el significado transitivo puede aplicársele opcionalmente
-	<strong>-gi</strong>. Hay tres subcategorías de verbos ambitransitivos: verbos de sentimiento, verbos sin agente y
-	verbos de posición/ubicación o movimiento.</p>
+<p>Los <a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive"><em>verbos ambitransitivos</em></a> en
+	Globasa son verbos para los cuales tanto el sujeto del significado intransitivo como el complemento directo del
+	significado transitivo experimentan la misma acción o el mismo estado del verbo. Al significado intransitivo de
+	estos verbos puede aplicársele opcionalmente <strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a></strong> y el
+	significado transitivo puede aplicársele opcionalmente <strong><a
+			href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>. Véase <strong>-cu</strong> y <strong>-gi</strong>
+	bajo <em>Afijos comunes</em>. Hay cuatro subcategorías de <em>verbos ambitransitivos</em>: <em>verbos de
+		sentimiento</em>, <em>verbos de estado</em>, <em>verbos sin agente</em>, y <em>verbos de posición/ubicación o
+		movimiento</em>.</p>
 <p><em>Verbos de sentimiento</em></p>
-<p>Los verbos ambitransitivos que denotan un sentimiento significan <em>sentir [sustantivo raíz] o hacer sentir
-		[sustantivo raíz]</em>. </p>
+<p>Los <em>verbos ambitransitivos</em> que denotan un sentimiento significan <em>sentir [raíz sustantiva] o hacer sentir
+		[raíz sustantiva]</em>. Nótese que el significado intransitivo también puede expresarse mediante una frase de
+	cópula y adjectivo: <strong>sen</strong> <em>[raíz sustantiva]</em><strong>-do</strong>. Véase <strong><a
+			href="./inharelexi.html#xafefikso_-do">-do</a></strong> bajo <em>Afijos comunes</em>. </p>
 <ul>
-	<li><strong>interes(cu)</strong> - estar/sentirse interesado (sentir interés)<br />
-		<strong>interes(gi)</strong> - interesar (hacer sentir interés)
+	<li><strong>interes(cu)</strong> - estar/sentirse interesado (<em>sentir interés</em>)<br />
+		<strong>interes(gi)</strong> - interesar (<em>hacer sentir interés</em>)
 	</li>
 </ul>
 <p><strong>Mi interes(cu) tem basalogi.</strong><br /> Estoy interesado en la lingüística.</p>
 <p><strong>Basalogi interes(gi) mi.</strong><br /> La lingüística me interesa.</p>
 <ul>
-	<li><strong>pilo(cu)</strong> - estar/sentirse cansado (sentir fatiga)<br />
-		<strong>pilo(gi)</strong> - cansar (hacer sentir fatiga)
+	<li><strong>pilo(cu)</strong> - estar/sentirse cansado (<em>sentir fatiga</em>)<br />
+		<strong>pilo(gi)</strong> - cansar (<em>hacer sentir fatiga</em>)
 	</li>
 </ul>
 <p><strong>Te pilo(cu).</strong><br /> Ella está (o se siente) cansada.</p>
 <p><strong>Tesu ergo pilo(gi) te.</strong><br /> Su trabajo la cansa.</p>
-<p>El prefijo <strong>xor-</strong> puede utilizarse con verbos de sentimiento para expresar la siguiente distinción:
-</p>
+<p>El prefijo <strong>xor-</strong> puede utilizarse con <em>verbos de sentimiento</em> para expresar la siguiente
+	distinción:</p>
 <p><strong>Mi le interes tem basalogi lefe multi nyan.</strong><br /> Estuve interesado en la lingüística hace muchos
 	años.</p>
 <p><strong>Te le pilo dur na ergo.</strong><br /> Ella estaba cansada mientras trabajaba.</p>
-<p>en comparación con:</p>
+<p>Comparar con:</p>
 <p><strong>Mi le xorinteres tem basalogi lefe multi nyan.</strong><br /> Me interesé por la lingüística hace muchos
 	años.</p>
 <p><strong>Te le xorpilo dur na ergo.</strong><br /> Ella se cansó mientras trabajaba.</p>
+<p><em>Verbos de estado</em> </p>
+<p><em>Los verbos ambitransitivos de estado</em> son similares a los <em>verbos de sentimiento</em>. Éstos son
+	<em>sustantivos de estado</em> que pueden utilizarse como <em>verbos ambitransitivos</em> y que significan <em>tener
+		[raíz sustantiva] o hacer que tenga [raíz sustantiva]</em>. Nótese que el significado intransitivo también puede
+	expresarse mediante una frase de cópula y adjetivo: <strong>sen</strong> <em>[raíz
+		sustantiva]</em><strong>-pul</strong>. Véase <strong><a
+			href="./inharelexi.html#xafefikso_-pul">-pul</a></strong> bajo <em>Afijos comunes</em>.</p>
+<ul>
+	<li><strong>termo(cu)</strong> - estar caliente (<em>tener calor</em>)<br />
+		<strong>termo(gi)</strong> - calentar (<em>hacer que tenga calor</em>)
+	</li>
+</ul>
+<p><strong>Misu kafe no haji termo.</strong> = <strong>Misu kafe no haji sen termopul.</strong><br /> Mi café ya no está
+	caliente.</p>
+<p><strong>Kam yu le termo banyo-kamer?</strong><br /> ¿Calentaste el baño?</p>
+<ul>
+	<li><strong>cinon(cu)</strong> - ser inteligente (<em>tener inteligencia</em>)<br />
+		<strong>cinon(gi)</strong> - hacer inteligente (<em>hacer que tenga inteligencia</em>)
+	</li>
+</ul>
+<p><strong>Syensiyen cinon.</strong> = <strong>Syensiyen sen cinonpul.</strong><br /> El científico es inteligente. </p>
+<p><strong>Eskol le cinon te.</strong><br /> La escuela lo volvió inteligente. </p>
+<ul>
+	<li><strong>talento(cu)</strong> - ser talentoso (<em>tener talento</em>)<br />
+		<strong>talento(gi)</strong> - hacer talentoso (<em>hacer que tenga talento</em>)
+	</li>
+</ul>
+<p><strong>Lalayen talento.</strong> = <strong>Lalayen sen talentopul.</strong><br /> El cantante es talentoso.</p>
+<p><strong>Patre le talento lalayen.</strong><br /> El padre hizo que el cantante tuviera talento.</p>
+<p>El prefijo <strong>xor-</strong> puede utilizarse con <em>verbos de estado</em> para expresar la siguiente
+	distinción:</p>
+<p><strong>Jaledin le termo.</strong> = <strong>Jaledin le sen termopul.</strong> Ayer hizo calor.</p>
+<p>Comparar con:</p>
+<p><strong>To le xortermo fe midinuru. </strong> = <strong>To le xorsen/sencu termopul fe midinuru.</strong><br /> Se
+	puso caliente al mediodía.</p>
 <p><em>Verbos sin agente</em></p>
-<p>En el significado intransitivo de los verbos ambitransitivos sin agente, la acción es algo que le sucede al sujeto en
-	lugar de algo que el sujeto realiza.</p>
+<p>En el significado intransitivo de los <em>verbos ambitransitivos sin agente</em>, la acción es algo que le sucede al
+	sujeto en lugar de algo que el sujeto realiza.</p>
 <ul>
 	<li><strong>kasiru(cu)</strong> - romper (<em>romperse</em>)<br />
 		<strong>kasiru(gi)</strong> - romper (<em>causa de romper</em>)
@@ -273,8 +313,8 @@
 <p><strong>Dwer le buka(cu).</strong><br /> La puerta se abrió.</p>
 <p><strong>Mi le buka(gi) dwer.</strong><br /> Abrí la puerta.</p>
 <p><em>Verbos de posición/ubicación o movimiento</em></p>
-<p>En la significado intransitivo de los verbos ambitransitivos de posición/ubicación o movimiento, el sujeto es a la
-	vez agente y paciente.</p>
+<p>En la significado intransitivo de los <em>verbos ambitransitivos de posición/ubicación o movimiento</em>, el sujeto
+	es a la vez agente y paciente.</p>
 <ul>
 	<li><strong>esto(cu)</strong> - parar (<em>detenerse</em>)<br />
 		<strong>esto(gi)</strong> - parar (<em>hacer parar o hacer parar</em>)
@@ -299,7 +339,7 @@
 <p><strong>Te side(cu) fe fronta de darsu-kamer.</strong><br /> Está sentado al frente de la clase. </p>
 <p><strong>Am side(gi) bebe per hin kursi.</strong><br /> Sienta al bebé en esta silla.</p>
 <ul>
-	<li><strong>xorside(cu)</strong> - sentarse (tomar asiento)</li>
+	<li><strong>xorside(cu)</strong> - sentarse (<em>tomar asiento</em>)</li>
 </ul>
 <p><strong>Am xorside per sofa.</strong><br /> Siéntate en el sofá.</p>
 <ul>

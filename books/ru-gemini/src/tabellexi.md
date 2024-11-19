@@ -270,7 +270,7 @@
 <p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Я видел это: <em>Сколько риса ты
 		купил?</em>."<br /> Я видел, сколько риса ты купил. </p>
 <p>(1) <strong>Yu hare kenumer bete?</strong><br /> "Сколько у тебя детей?"<br /> Сколько у тебя детей? </p>
-<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "Мне интересно это: <em>Сколько у тебя
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Мне интересно это: <em>Сколько у тебя
 		детей?</em>."<br /> Мне интересно, сколько у тебя детей. </p>
 <h3>keloka - <em>где</em></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "Где он работает?"<br /> Где он работает?</p>
@@ -287,7 +287,7 @@
 		вечеринку?</em>."<br /> Я знаю, почему ты не пошел на вечеринку. </p>
 <h3>kemaner - <em>как (сделано как)</em></h3>
 <p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "Как ты починил машину?"<br /> Как ты починил машину?</p>
-<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> Мне интересно это: <em>Как ты починил
+<p>(2) <strong>Mi jixivole ku yu le xuli mobil kemaner.</strong><br /> Мне интересно это: <em>Как ты починил
 		машину?</em>."<br /> Мне интересно, как ты починил машину. </p>
 <h2>Повествовательные предложения с вопросительными фразами</h2>
 <p>Говорящие иногда сокращают вопросительное предложение до фразы, даже до единственного вопросительного слова. Союз

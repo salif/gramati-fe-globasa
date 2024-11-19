@@ -31,4 +31,4 @@ curly-quotes = false
 # print-background = false
 
 [output.ze]
-command = "just build-ze Gramati_fe_Globasa_Mesi_09_2024_eng build-ze-ignore"
+command = "just build-ze Gramati_fe_Globasa_Mesi_11_2024_eng build-ze-ignore"

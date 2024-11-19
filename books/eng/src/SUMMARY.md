@@ -13,5 +13,6 @@
 - [Word Order: Sentence Structure](./jumleli-estrutur.md)
 - [Word Formation](./lexikostrui.md)
 - [Truncated Morphemes](./ofkatado-morfomon.md)
+- [Abbreviations](./kurtogixey.md)
 - [Word Classes](./lexiklase.md)
 - [Common Phrases and Expressions](./pimpan-logaxey.md)

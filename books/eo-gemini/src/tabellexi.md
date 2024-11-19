@@ -270,7 +270,7 @@
 <p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Mi vidis tion ĉi: <em>Vi aĉetis kiom da
 		rizo?</em>."<br /> Mi vidis kiom da rizo vi aĉetis. </p>
 <p>(1) <strong>Yu hare kenumer bete?</strong><br /> "Vi havas kiom da infanoj?"<br /> Kiom da infanoj vi havas? </p>
-<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "Mi demandas min tion ĉi: <em>Vi havas kiom da
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Mi demandas min tion ĉi: <em>Vi havas kiom da
 		infanoj?</em>."<br /> Mi demandas min kiom da infanoj vi havas. </p>
 <h3>keloka - <em>kie</em></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "Li laboras kie?"<br /> Kie li laboras?</p>
@@ -287,7 +287,7 @@
 		kial?</em>."<br /> Mi scias kial vi ne iris al la festo. </p>
 <h3>kemaner - <em>kiel (farita kiel)</em></h3>
 <p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "Vi riparis la aŭton kiel?"<br /> Kiel vi riparis la aŭton?</p>
-<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> Mi demandas min tion ĉi: <em>Vi riparis la aŭton
+<p>(2) <strong>Mi jixivole ku yu le xuli mobil kemaner.</strong><br /> Mi demandas min tion ĉi: <em>Vi riparis la aŭton
 		kiel?</em>."<br /> Mi demandas min kiel vi riparis la aŭton. </p>
 <h2>Deklaraj Frazoj kun Demando-frazaj Partoj</h2>
 <p>Parolantoj foje reduktas demando-propozicion al frazo, eĉ al la sola demandovorto. La konjunkcio <strong>ku</strong>

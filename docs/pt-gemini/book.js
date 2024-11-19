@@ -222,7 +222,7 @@ function playground_text(playground, hidden = true) {
                 }
 
                 var clipButton = document.createElement('button');
-                clipButton.className = 'fa fa-copy clip-button';
+                clipButton.className = 'clip-button';
                 clipButton.title = 'Copy to clipboard';
                 clipButton.setAttribute('aria-label', clipButton.title);
                 clipButton.innerHTML = '<i class=\"tooltiptext\"></i>';
@@ -255,7 +255,7 @@ function playground_text(playground, hidden = true) {
 
         if (window.playground_copyable) {
             var copyCodeClipboardButton = document.createElement('button');
-            copyCodeClipboardButton.className = 'fa fa-copy clip-button';
+            copyCodeClipboardButton.className = 'clip-button';
             copyCodeClipboardButton.innerHTML = '<i class="tooltiptext"></i>';
             copyCodeClipboardButton.title = 'Copy to clipboard';
             copyCodeClipboardButton.setAttribute('aria-label', copyCodeClipboardButton.title);
@@ -286,6 +286,10 @@ function playground_text(playground, hidden = true) {
     var themeToggleButton = document.getElementById('theme-toggle');
     var themePopup = document.getElementById('theme-list');
     var themeColorMetaTag = document.querySelector('meta[name="theme-color"]');
+    var themeIds = [];
+    themePopup.querySelectorAll('button.theme').forEach(function (el) {
+        themeIds.push(el.id);
+    });
 
     function showThemes() {
         themePopup.style.display = 'block';
@@ -309,7 +313,7 @@ function playground_text(playground, hidden = true) {
     function get_theme() {
         var theme;
         try { theme = localStorage.getItem('mdbook-theme'); } catch (e) { }
-        if (theme === null || theme === undefined) {
+        if (theme === null || theme === undefined || !themeIds.includes(theme)) {
             return default_theme;
         } else {
             return theme;
@@ -432,17 +436,6 @@ function playground_text(playground, hidden = true) {
         sidebar.setAttribute('aria-hidden', false);
         try { localStorage.setItem('mdbook-sidebar', 'visible'); } catch (e) { }
     }
-
-
-    var sidebarAnchorToggles = document.querySelectorAll('#sidebar a.toggle');
-
-    function toggleSection(ev) {
-        ev.currentTarget.parentElement.classList.toggle('expanded');
-    }
-
-    Array.from(sidebarAnchorToggles).forEach(function (el) {
-        el.addEventListener('click', toggleSection);
-    });
 
     function hideSidebar() {
         body.classList.remove('sidebar-visible')
@@ -571,12 +564,12 @@ function playground_text(playground, hidden = true) {
 
     function hideTooltip(elem) {
         elem.firstChild.innerText = "";
-        elem.className = 'fa fa-copy clip-button';
+        elem.className = 'clip-button';
     }
 
     function showTooltip(elem, msg) {
         elem.firstChild.innerText = msg;
-        elem.className = 'fa fa-copy tooltipped';
+        elem.className = 'clip-button tooltipped';
     }
 
     var clipboardSnippets = new ClipboardJS('.clip-button', {

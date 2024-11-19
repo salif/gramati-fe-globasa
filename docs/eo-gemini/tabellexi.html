@@ -1,12 +1,10 @@
 <!DOCTYPE HTML>
-<html lang="eo" class="rust-clr" dir="ltr">
+<html lang="eo" class="rust-clr sidebar-visible" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Korelativoj - Gramatiko de Globaso</title>
 
-        <meta name="description" content="Esperanta traduko de gramatiko de Globaso (per Google Gemini): Korelativoj">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Custom HTML head -->
         <style>
@@ -28,7 +26,10 @@
         	/* beautify ignore:end */
         </style>
 
+        <meta name="description" content="Esperanta traduko de gramatiko de Globaso (per Google Gemini) : Korelativoj">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#e1e1db">
+
         <link rel="icon" href="favicon.svg">
         <link rel="shortcut icon" href="favicon.png">
         <link rel="stylesheet" href="css/variables.css">
@@ -52,15 +53,17 @@
 
         <!-- Custom theme stylesheets -->
 
-    </head>
-    <body class="sidebar-visible no-js">
-    <div id="body-container">
+
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
         </script>
-
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -82,19 +85,16 @@
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
-            var html = document.querySelector('html');
+            const html = document.documentElement;
             html.classList.remove('rust-clr')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add("js");
         </script>
 
         <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var body = document.querySelector('body');
             var sidebar = null;
             var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
@@ -104,45 +104,25 @@
                 sidebar = 'hidden';
             }
             sidebar_toggle.checked = sidebar === 'visible';
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="gramati.html"><strong aria-hidden="true">1.</strong> Enkonduko</a></li><li class="chapter-item expanded "><a href="SUMMARY.html"><strong aria-hidden="true">2.</strong> Enhavtabelo</a></li><li class="chapter-item expanded "><a href="abece-ji-lafuzu.html"><strong aria-hidden="true">3.</strong> Alfabeto kaj Prononco</a></li><li class="chapter-item expanded "><a href="inharelexi.html"><strong aria-hidden="true">4.</strong> Enhavaj Vortoj: Substantivoj, Verboj, Adjektivoj kaj Adverboj</a></li><li class="chapter-item expanded "><a href="gramatilexi.html"><strong aria-hidden="true">5.</strong> Funkciaj Vortoj: Konjunkcioj, Prepozicioj kaj Funkciaj Adverboj</a></li><li class="chapter-item expanded "><a href="pornamelexi.html"><strong aria-hidden="true">6.</strong> Pronomoj</a></li><li class="chapter-item expanded "><a href="tabellexi.html" class="active"><strong aria-hidden="true">7.</strong> Korelativoj</a></li><li class="chapter-item expanded "><a href="numer-ji-mesi.html"><strong aria-hidden="true">8.</strong> Nombroj kaj Monatoj de la Jaro</a></li><li class="chapter-item expanded "><a href="falelexili-morfo.html"><strong aria-hidden="true">9.</strong> Verbformoj</a></li><li class="chapter-item expanded "><a href="jumlemonli-estrutur.html"><strong aria-hidden="true">10.</strong> Vortordo: Frazstrukturo</a></li><li class="chapter-item expanded "><a href="jumleli-estrutur.html"><strong aria-hidden="true">11.</strong> Vortordo: Frazstrukturo</a></li><li class="chapter-item expanded "><a href="lexikostrui.html"><strong aria-hidden="true">12.</strong> Vortfarado</a></li><li class="chapter-item expanded "><a href="ofkatado-morfomon.html"><strong aria-hidden="true">13.</strong> Mallongigitaj Morfemoj</a></li><li class="chapter-item expanded "><a href="lexiklase.html"><strong aria-hidden="true">14.</strong> Vortklasoj</a></li><li class="chapter-item expanded "><a href="pimpan-logaxey.html"><strong aria-hidden="true">15.</strong> Oftaj Frazoj kaj Esprimoj</a></li></ol>
-            </div>
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>
         </nav>
 
-        <!-- Track and set sidebar scroll position -->
-        <script>
-            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
-            sidebarScrollbox.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A') {
-                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
-                }
-            }, { passive: true });
-            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
-            sessionStorage.removeItem('sidebar-scroll');
-            if (sidebarScrollTop) {
-                // preserve sidebar scroll position when navigating via links within sidebar
-                sidebarScrollbox.scrollTop = sidebarScrollTop;
-            } else {
-                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
-                var activeSection = document.querySelector('#sidebar .active');
-                if (activeSection) {
-                    activeSection.scrollIntoView({ block: 'center' });
-                }
-            }
-        </script>
-
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
@@ -480,7 +460,7 @@
 <p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Mi vidis tion ĉi: <em>Vi aĉetis kiom da
 		rizo?</em>."<br /> Mi vidis kiom da rizo vi aĉetis. </p>
 <p>(1) <strong>Yu hare kenumer bete?</strong><br /> "Vi havas kiom da infanoj?"<br /> Kiom da infanoj vi havas? </p>
-<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "Mi demandas min tion ĉi: <em>Vi havas kiom da
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Mi demandas min tion ĉi: <em>Vi havas kiom da
 		infanoj?</em>."<br /> Mi demandas min kiom da infanoj vi havas. </p>
 <h3 id="keloka---kie"><a class="header" href="#keloka---kie">keloka - <em>kie</em></a></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "Li laboras kie?"<br /> Kie li laboras?</p>
@@ -497,7 +477,7 @@
 		kial?</em>."<br /> Mi scias kial vi ne iris al la festo. </p>
 <h3 id="kemaner---kiel-farita-kiel"><a class="header" href="#kemaner---kiel-farita-kiel">kemaner - <em>kiel (farita kiel)</em></a></h3>
 <p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "Vi riparis la aŭton kiel?"<br /> Kiel vi riparis la aŭton?</p>
-<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> Mi demandas min tion ĉi: <em>Vi riparis la aŭton
+<p>(2) <strong>Mi jixivole ku yu le xuli mobil kemaner.</strong><br /> Mi demandas min tion ĉi: <em>Vi riparis la aŭton
 		kiel?</em>."<br /> Mi demandas min kiel vi riparis la aŭton. </p>
 <h2 id="deklaraj-frazoj-kun-demando-frazaj-partoj"><a class="header" href="#deklaraj-frazoj-kun-demando-frazaj-partoj">Deklaraj Frazoj kun Demando-frazaj Partoj</a></h2>
 <p>Parolantoj foje reduktas demando-propozicion al frazo, eĉ al la sola demandovorto. La konjunkcio <strong>ku</strong>
