@@ -13,5 +13,6 @@
 - [Orden de palabras: Estructura de la oración](./jumleli-estrutur.md)
 - [Formación de palabras](./lexikostrui.md)
 - [Morfemas truncados](./ofkatado-morfomon.md)
+- [Abreviaturas](./kurtogixey.md)
 - [Clases de palabras](./lexiklase.md)
 - [Frases y expresiones comunes](./pimpan-logaxey.md)

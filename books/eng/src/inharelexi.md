@@ -194,55 +194,63 @@
 <p>Verbs are defined in the dictionary as <em>auxiliary</em>, <em>copula</em>, <em>transitive</em>,
 	<em>intransitive</em>, or <em>ambitransitive</em>.</p>
 <h4>Auxiliary Verbs</h4>
-<p>Auxiliary verbs are immediately followed by another verb, which may be omitted. There are only three auxiliary verbs
-	in Globasa: <strong>abil</strong> (can, able to), <strong>ingay</strong> (should, ought to), <strong>musi</strong>
-	(must, have to). </p>
+<p><em>Auxiliary verbs</em> are immediately followed by another verb, which may be omitted. There are only three
+	<em>auxiliary verbs</em> in Globasa: <strong>abil</strong> (can, able to), <strong>ingay</strong> (should, ought
+	to), <strong>musi</strong> (must, have to). </p>
 <h4>Copula Verbs</h4>
-<p>Copula verbs link the subject to its complement. There are currently 12 copula verbs: <strong>sen</strong> (be),
-	<strong>xorsen</strong> (become), <strong>sencu</strong> (become), <strong>sengi</strong> (cause to be),
-	<strong>kwasisen</strong> (seem), <strong>okocu</strong> (look), <strong>orecu</strong> (sound),
+<p><em>Copula verbs</em> link the subject to its complement. There are currently 12 <em>copula verbs</em>:
+	<strong>sen</strong> (be), <strong>xorsen</strong> (become), <strong>sencu</strong> (become), <strong>sengi</strong>
+	(cause to be), <strong>kwasisen</strong> (seem), <strong>okocu</strong> (look), <strong>orecu</strong> (sound),
 	<strong>nasacu</strong> (smell), <strong>xetocu</strong> (taste), <strong>pifucu</strong> (feel to touch),
 	<strong>hisicu</strong> (feel physically), <strong>ganjoncu</strong> (feel emotionally). </p>
 <h4>Transitive Verbs</h4>
-<p>Transitive verbs take a direct object: <strong>haja</strong> (need), <strong>bujo</strong> (catch, capture),
-	<strong>gibe</strong> (give). However, certain transitive verbs will sometimes or often omit the direct object:
-	<strong>doxo</strong> (read), <strong>yam</strong> (eat). </p>
+<p><em>Transitive verbs</em> take a direct object: <strong>haja</strong> (need), <strong>bujo</strong> (catch, capture),
+	<strong>gibe</strong> (give). However, certain <em>transitive verbs</em> will sometimes or often omit the direct
+	object: <strong>doxo</strong> (read), <strong>yam</strong> (eat). </p>
 <h4>Intransitive Verbs</h4>
-<p>Intransitive verbs do not take a direct object: <strong>idi</strong> (go), <strong>konduta</strong> (behave),
-	<strong>loka</strong> (be located). However, certain verbs labeled as intransitive may be used as transitive verbs
-	with the same noun/verb word repeated as the direct object, or likewise with a proper noun or category of said noun.
-</p>
+<p><em>Intransitive verbs</em> do not take a direct object: <strong>idi</strong> (go), <strong>konduta</strong>
+	(behave), <strong>loka</strong> (be located). However, certain verbs labeled as intransitive may be used as
+	<em>transitive verbs</em> with the same noun/verb word repeated as the direct object, or likewise with a proper noun
+	or category of said noun.</p>
 <p><strong>Mi le somno (lungo somno).</strong><br /> I slept (a long sleep).</p>
 <p><strong>Yu le haha (sotipul haha).</strong><br /> You laughed (a loud laugh). </p>
 <p><strong>Te xa lala (Hox Xencudin).</strong><br /> She will sing (Happy Birthday).</p>
 <p><strong>Te danse (tango).</strong><br /> He's dancing (tango).</p>
-<p>In theory, all intransitive verbs may be used transitively with an optional use of <strong>-gi</strong>, although it
-	may be a better practice to apply <strong>-gi</strong> in most cases. </p>
+<p>In theory, all other <em>intransitive verbs</em> may be used transitively with an optional use of <strong><a
+			href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>, although it may be a better practice to apply
+	<strong>-gi</strong> in most cases. </p>
 <p><strong>Kam yu fley(gi) hawanavi?</strong><br /> Do you fly aircraft?</p>
 <p><strong>Mi xa sampo(gi) bwaw fe axam.</strong><br /> I will walk the dog in the evening.</p>
 <h4>Ambitransitive Verbs</h4>
-<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive">Ambitransitive verbs</a> in Globasa are verbs
-	for which both the subject of the intransitive meaning and the direct object of the transitive meaning experience
-	the same action/state of the verb. The intransitive meaning of these verbs may optionally apply <strong>-cu</strong>
-	and the transitive meaning may optionally apply <strong>-gi</strong>. There are three subcategories of
-	ambitransitive verbs: verbs of feeling, agentless verbs, and verbs of position/location or movement. </p>
+<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive"><em>Ambitransitive verbs</em></a> in Globasa
+	are verbs for which both the subject of the intransitive meaning and the direct object of the transitive meaning
+	experience the same action/state of the verb. The intransitive meaning of these verbs may optionally apply
+	<strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a></strong> and the transitive meaning may optionally apply
+	<strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>. See <strong>-cu</strong> and
+	<strong>-gi</strong> below under <em>Common Affixes</em>. There are four subcategories of <em>ambitransitive
+		verbs</em>: <em>verbs of feeling</em>, <em>verbs of state</em>, <em>agentless verbs</em>, and <em>verbs of
+		position/location or movement</em>. </p>
 <p><em>Verbs of Feeling</em></p>
-<p>Ambitransitive verbs denoting a feeling mean <em>to feel [root noun] or cause to feel [root noun]</em>. </p>
+<p><em>Ambitransitive verbs</em> denoting a feeling mean <em>to feel [root noun] or cause to feel [root noun]</em>. Note
+	that the intransitive meaning may also be expressed as a copula and adjective phrase: <strong>sen</strong> <em>[root
+		noun]</em><strong>-do</strong>. See <strong><a href="./inharelexi.html#xafefikso_-do">-do</a></strong> below.
+</p>
 <ul>
-	<li><strong>interes(cu)</strong> - be/feel interested (feel interest)<br />
-		<strong>interes(gi)</strong> - interest (cause to feel interest)
+	<li><strong>interes(cu)</strong> - be/feel interested (<em>feel interest</em>)<br />
+		<strong>interes(gi)</strong> - interest (<em>cause to feel interest</em>)
 	</li>
 </ul>
-<p><strong>Mi interes(cu) tem basalogi.</strong><br /> I'm interested in linguistics.</p>
+<p><strong>Mi interes(cu) tem basalogi.</strong> = <strong>Mi sen interesdo tem basalogi.</strong><br /> I'm interested
+	in linguistics.</p>
 <p><strong>Basalogi interes(gi) mi.</strong><br /> Linguistics interests me.</p>
 <ul>
-	<li><strong>pilo(cu)</strong> - be/feel tired (feel fatigue)<br />
-		<strong>pilo(gi)</strong> - tire (cause to feel fatigue)
+	<li><strong>pilo(cu)</strong> - be/feel tired (<em>feel fatigue</em>)<br />
+		<strong>pilo(gi)</strong> - tire (<em>cause to feel fatigue</em>)
 	</li>
 </ul>
-<p><strong>Te pilo(cu).</strong><br /> She is/feels tired.</p>
+<p><strong>Te pilo(cu).</strong> = <strong>Te sen pilodo.</strong><br /> She is/feels tired.</p>
 <p><strong>Tesu ergo pilo(gi) te.</strong><br /> Her work tires her.</p>
-<p>The prefix <strong>xor-</strong> may be used with verbs of feeling to express the following distinction:</p>
+<p>The prefix <strong>xor-</strong> may be used with <em>verbs of feeling</em> to express the following distinction:</p>
 <p><strong>Mi le interes tem basalogi lefe multi nyan.</strong><br /> I was interested in linguistics many years ago.
 </p>
 <p><strong>Te le pilo dur na ergo.</strong><br /> She was tired while working.</p>
@@ -250,9 +258,42 @@
 <p><strong>Mi le xorinteres tem basalogi lefe multi nyan.</strong><br /> I became interested in linguistics many years
 	ago.</p>
 <p><strong>Te le xorpilo dur na ergo.</strong><br /> She got/became tired while working.</p>
+<p><em>Verbs of State</em></p>
+<p><em>Ambitransitive verbs of state</em> are similar <em>verbs of feeling</em>. They are <em>nouns of state</em> that
+	can be used as <em>ambitransitive verbs</em> meaning <em>to have [noun root] or to cause to have [noun root]</em>.
+	Note that the intransitive meaning may also be expressed as a copula and adjective phrase: <strong>sen</strong>
+	<em>[root noun]</em><strong>-pul</strong>. See <strong><a href="./inharelexi.html#xafefikso_-pul">-pul</a></strong>
+	below.
+</p>
+<ul>
+	<li><strong>termo(cu)</strong> - be hot/warm (<em>have heat</em>)<br />
+		<strong>termo(gi)</strong> - heat (<em>cause to have heat</em>)
+	</li>
+</ul>
+<p><strong>Misu kafe no haji termo.</strong> = <strong>Misu kafe no haji sen termopul.</strong><br /> My coffee isn't
+	hot any longer.</p>
+<p><strong>Kam yu le termo banyo-kamer?</strong><br /> Did you warm up the bathroom?</p>
+<ul>
+	<li><strong>cinon(cu)</strong> - be intelligent (<em>have intelligence</em>)<br />
+		<strong>cinon(gi)</strong> - make intelligent (<em>cause to have intelligence</em>)
+	</li>
+</ul>
+<p><strong>Syensiyen cinon.</strong> = <strong>Syensiyen sen cinonpul.</strong><br /> The scientist is intelligent. </p>
+<p><strong>Eskol le cinon te.</strong><br /> The school made him smart. </p>
+<ul>
+	<li><strong>talento(cu)</strong> - be talented (<em>have talent</em>)<br />
+		<strong>talento(gi)</strong> - make talented (<em>cause to have talent</em>)
+	</li>
+</ul>
+<p><strong>Lalayen talento.</strong> = <strong>Lalayen sen talentopul.</strong><br /> The singer is talented.</p>
+<p><strong>Patre le talento lalayen.</strong><br /> The father made the singer talented.</p>
+<p>The prefix <strong>xor-</strong> may be used with <em>verbs of state</em> to express the following distinction:</p>
+<p><strong>Jaledin le termo.</strong> = <strong>Jaledin le sen termopul.</strong><br /> Yesterday was warm</p>
+<p><strong>To le xortermo fe midinuru.</strong> = <strong>To le xorsen/sencu termopul fe midinuru.</strong><br /> It
+	got/became warm at noon. </p>
 <p><em>Agentless Verbs</em></p>
-<p>In the intransitive meaning of agentless ambitransitive verbs, the action is something that happens to the subject
-	rather than something the subject performs. </p>
+<p>In the intransitive meaning of <em>agentless ambitransitive verbs</em>, the action is something that happens to the
+	subject rather than something the subject performs. </p>
 <ul>
 	<li><strong>kasiru(cu)</strong> - break (<em>get broken</em>)<br />
 		<strong>kasiru(gi)</strong> - break (<em>cause to break</em>)
@@ -268,8 +309,8 @@
 <p><strong>Dwer le buka(cu).</strong><br /> The door opened.</p>
 <p><strong>Mi le buka(gi) dwer.</strong><br /> I opened the door.</p>
 <p><em>Verbs of Position/Location or Movement</em></p>
-<p>In the intransitive meaning of ambitransitive verbs of position/location or movement the subject is both agent and
-	patient. </p>
+<p>In the intransitive meaning of <em>ambitransitive verbs of position/location or movement</em> the subject is both
+	agent and patient. </p>
 <ul>
 	<li><strong>esto(cu)</strong> - stop (<em>come to a stop</em>)<br />
 		<strong>esto(gi)</strong> - stop (<em>bring to a stop or cause to stop</em>)
@@ -287,8 +328,8 @@
 <p>The following three verbs in this subcategory also use <strong>xor-</strong> as seen above to make a similar
 	distinction in meaning:</p>
 <ul>
-	<li><strong>side(cu)</strong> - sit (be seated/sitting)<br />
-		<strong>side(gi)</strong> - seat (cause to sit)
+	<li><strong>side(cu)</strong> - sit (<em>be seated/sitting</em>)<br />
+		<strong>side(gi)</strong> - seat (<em>cause to sit</em>)
 	</li>
 </ul>
 <p><strong>Te side(cu) fe fronta de darsu-kamer.</strong><br /> He's sitting at the front of the class.</p>
@@ -298,7 +339,7 @@
 </ul>
 <p><strong>Am xorside per sofa.</strong><br /> Sit down on the sofa. </p>
 <ul>
-	<li><strong>estay(cu)</strong> - stand (be standing)<br />
+	<li><strong>estay(cu)</strong> - stand (<em>be standing</em>)<br />
 		<strong>estay(gi)</strong> - (cause to) stand
 	</li>
 </ul>
@@ -309,7 +350,7 @@
 </ul>
 <p><strong>Mi le xorestay denwatu hu te le inidi kamer.</strong><br /> I stood up when she entered the room.</p>
 <ul>
-	<li><strong>leta(cu)</strong> - lie (be lying)<br />
+	<li><strong>leta(cu)</strong> - lie (<em>be lying</em>)<br />
 		<strong>leta(gi)</strong> - lay
 	</li>
 </ul>
@@ -474,7 +515,7 @@
 <ul>
 	<li>
 		<p><strong>oko</strong> - eye (<em>concrete noun</em>), see, look (<em>verb</em>)<br />
-			<strong>okoya</strong> - sight <em>or</em> sense of sight (<em>abstract noun</em>)
+			<strong>okoya</strong> - view, sight <em>or</em> sense of sight (<em>abstract noun</em>)
 		</p>
 	</li>
 	<li>
@@ -640,7 +681,9 @@
 		or more than enough</em>.</p>
 <ul>
 	<li>
-		<p><strong>humor</strong> - humor <strong>humorpul</strong> - humorous, funny</p>
+		<p><strong>humor</strong> - humor<br />
+			<strong>humorpul</strong> - humorous, funny
+		</p>
 	</li>
 	<li>
 		<p><strong>hatari</strong> - danger<br />

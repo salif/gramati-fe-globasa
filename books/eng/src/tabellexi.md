@@ -270,7 +270,7 @@
 		rice?</em>."<br /> I saw how much rice you bought. </p>
 <p>(1) <strong>Yu hare kenumer bete?</strong><br /> "You have how many children?"<br /> How many children do you have?
 </p>
-<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "I wonder this: <em>You have how many
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "I wonder this: <em>You have how many
 		children?</em>."<br /> I wonder how many children you have. </p>
 <h3>keloka - <em>where</em></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "He works where?"<br /> Where does he work?</p>
@@ -287,7 +287,7 @@
 		why?</em>."<br /> I know why you didn't go to the party. </p>
 <h3>kemaner - <em>how (done how)</em></h3>
 <p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "You fixed the car how?"<br /> How did you fix the car?</p>
-<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> I wonder this: <em>You fixed the car
+<p>(2) <strong>Mi jixivole ku yu le xuli mobil kemaner.</strong><br /> I wonder this: <em>You fixed the car
 		how?</em>."<br /> I wonder how you fixed the car. </p>
 <h2>Declarative Sentences with Interrogative Phrases</h2>
 <p>Speakers will sometimes reduce an interrogative clause into a phrase, even to the lone interrogative word. The

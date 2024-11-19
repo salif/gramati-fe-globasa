@@ -269,7 +269,7 @@
 <p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Vi isto: <em>Quanto arroz você
 		comprou?</em>".<br /> Vi quanto arroz você comprou.</p>
 <p>(1) <strong>¿Yu hare kenumer bete?</strong><br /> "Você tem quantos filhos?"<br /> Quantos filhos você tem?</p>
-<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "Eu me pergunto isto: <em>Você tem quantos
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Eu me pergunto isto: <em>Você tem quantos
 		filhos?</em>".<br /> Eu me pergunto quantos filhos você tem. </p>
 <h3>keloka - <em>onde</em></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "Ele trabalha onde?"<br /> Onde ele trabalha?</p>
@@ -287,7 +287,7 @@
 <h3>kemaner - <em>como (de que maneira)</em></h3>
 <p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "Você consertou o carro como?"<br /> Como você consertou o
 	carro?</p>
-<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> Eu me pergunto isto: <em>Você consertou o carro
+<p>(2) <strong>Mi jixivole ku yu le xuli mobil kemaner.</strong><br /> Eu me pergunto isto: <em>Você consertou o carro
 		como?</em>”.<br /> Eu me pergunto como você consertou o carro.</p>
 <h2>Orações declarativas com sintagmas interrogativos</h2>
 <p>Os falantes às vezes reduzem uma oração interrogativa indireta a um sintagma, inclusive só à palavra interrogativa.

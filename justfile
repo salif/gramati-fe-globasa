@@ -142,9 +142,8 @@ update-book lang="eng" action="update":
 	const glb_site = "https://xwexi.globasa.net/"
 	let page_names = [
 		"abece-ji-lafuzu", "falelexili-morfo", "gramatilexi", "inharelexi",
-		"jumleli-estrutur", "jumlemonli-estrutur", "lexiklase", "lexikostrui",
+		"jumleli-estrutur", "jumlemonli-estrutur", "kurtogixey", "lexiklase", "lexikostrui",
 		"numer-ji-mesi", "ofkatado-morfomon", "pimpan-logaxey", "pornamelexi", "tabellexi"]
-	// page_names = ["jumlemonli-estrutur"]
 	async function get_page(url) {
 		const res = await fetch(url)
 		const page = await res.text()
@@ -164,8 +163,10 @@ update-book lang="eng" action="update":
 	}
 	function fix_content(content, page_name, lang) {
 		let new_content = content
-		new_content = new_content.replaceAll("<br>", "<br />").replaceAll("pronamelexi", "pornamelexi").
-		replaceAll('style="ancho:100%"', 'style="width:100%"').replace("Glosaba", "Globasa")
+		new_content = new_content.replaceAll("<br>", "<br />").
+			replaceAll("pronamelexi", "pornamelexi").
+			replaceAll('style="ancho:100%"', 'style="width:100%"').
+			replace("Glosaba", "Globasa")
 		if (page_name === "abece-ji-lafuzu") {
 			if (lang === "spa") {
 				new_content = new_content.replaceAll(

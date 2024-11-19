@@ -268,7 +268,7 @@
 <p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Şunu gördüm: <em>Ne kadar pirinç
 		aldın?</em>."<br /> Ne kadar pirinç aldığını gördüm. </p>
 <p>(1) <strong>Yu hare kenumer bete?</strong><br /> "Kaç çocuğun var?"<br /> Kaç çocuğun var? </p>
-<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "Şunu merak ediyorum: <em>Kaç çocuğun
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Şunu merak ediyorum: <em>Kaç çocuğun
 		var?</em>."<br /> Kaç çocuğun olduğunu merak ediyorum. </p>
 <h3>keloka - <em>nerede</em></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "Nerede çalışıyor?"<br /> Nerede çalışıyor?</p>
@@ -285,7 +285,7 @@
 <h3>kemaner - <em>nasıl (nasıl yapılmış)</em></h3>
 <p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "Arabayı nasıl tamir ettin?"<br /> Arabayı nasıl tamir ettin?
 </p>
-<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> Şunu merak ediyorum: <em>Arabayı nasıl tamir
+<p>(2) <strong>Mi jixivole ku yu le xuli mobil kemaner.</strong><br /> Şunu merak ediyorum: <em>Arabayı nasıl tamir
 		ettin?</em>."<br /> Arabayı nasıl tamir ettiğini merak ediyorum. </p>
 <h2>Soru Öbekleri İçeren Bildirim Cümleleri</h2>
 <p>Konuşmacılar bazen bir soru cümleciğini bir öbeğe, hatta tek bir soru kelimesine indirgeyebilirler. Tam bir cümlecik

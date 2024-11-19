@@ -269,7 +269,7 @@
 <p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Видях това: <em>Ти купи колко много
 		ориз?</em>"<br /> Видях колко ориз купи.</p>
 <p>(1) <strong>Yu hare kenumer bete?</strong><br /> "Ти имаш колко деца?"<br /> Колко деца имаш?</p>
-<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "Чудя се това: <em>Ти имаш колко деца?</em>"<br />
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Чудя се това: <em>Ти имаш колко деца?</em>"<br />
 	Чудя се колко деца имаш.</p>
 <h3>keloka - <em>къде</em></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "Той работи къде?"<br /> Къде работи той?</p>
@@ -286,7 +286,7 @@
 		защо?</em>"<br /> Знам защо не отиде на партито.</p>
 <h3>kemaner - <em>как (направено как)</em></h3>
 <p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "Ти поправи колата как?"<br /> Как поправи колата?</p>
-<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> Чудя се това: <em>Ти поправи колата
+<p>(2) <strong>Mi jixivole ku yu le xuli mobil kemaner.</strong><br /> Чудя се това: <em>Ти поправи колата
 		как?</em>"<br /> Чудя се как поправи колата.</p>
 <h2>Декларативни изречения с въпросителни фрази</h2>
 <p>Говорещите понякога съкращават въпросителното подчинено изречение до фраза, дори до единствената въпросителна дума.

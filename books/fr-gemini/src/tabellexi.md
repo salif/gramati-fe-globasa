@@ -269,7 +269,7 @@
 <p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "J'ai vu ceci: <em>Combien de riz as-tu
 		acheté?</em>".<br /> J'ai vu combien de riz tu as acheté.</p>
 <p>(1) <strong>¿Yu hare kenumer bete?</strong><br /> "Tu as combien d'enfants?"<br /> Combien d'enfants as-tu?</p>
-<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "Je me demande ceci: <em>Tu as combien
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Je me demande ceci: <em>Tu as combien
 		d'enfants?</em>".<br /> Je me demande combien d'enfants tu as. </p>
 <h3>keloka - <em>où</em></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "Il travaille où?"<br /> Où travaille-t-il?</p>
@@ -287,7 +287,7 @@
 <h3>kemaner - <em>comment (de quelle manière)</em></h3>
 <p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "Tu as réparé la voiture comment?"<br /> Comment as-tu réparé la
 	voiture?</p>
-<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> Je me demande ceci: <em>Tu as réparé la voiture
+<p>(2) <strong>Mi jixivole ku yu le xuli mobil kemaner.</strong><br /> Je me demande ceci: <em>Tu as réparé la voiture
 		comment?</em>”.<br /> Je me demande comment tu as réparé la voiture.</p>
 <h2>Phrases déclaratives avec des syntagmes interrogatifs</h2>
 <p>Les locuteurs réduisent parfois une proposition interrogative à un syntagme, voire à un seul mot interrogatif. Même

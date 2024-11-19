@@ -268,7 +268,7 @@
 <p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Vi esto: <em>¿Cuánto arroz compraste?</em>".<br />
 	Vi cuánto arroz compraste.</p>
 <p>(1) <strong>¿Yu hare kenumer bete?</strong><br /> "¿Tú tienes cuántos hijos?"<br /> ¿Cuántos hijos tienes?</p>
-<p>(2) <strong>Mi jixipel ku yu hare kenumer bete.</strong><br /> "Me pregunto esto: <em>¿Tú tienes cuántos
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Me pregunto esto: <em>¿Tú tienes cuántos
 		hijos?</em>".<br /> Me pregunto cuántos hijos tienes. </p>
 <h3>keloka - <em>dónde</em></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "¿Él trabaja dónde?"<br /> ¿Dónde trabaja?</p>
@@ -285,7 +285,7 @@
 		qué?</em>."<br /> Yo sé por qué no fuiste a la fiesta.</p>
 <h3>kemaner - <em>cómo (de qué manera)</em></h3>
 <p>(1) <strong>Yu le xuli mobil kemaner?</strong><br /> "¿Arreglaste el auto cómo?"<br /> ¿Cómo arreglaste el auto?</p>
-<p>(2) <strong>Mi jixipel ku yu le xuli mobil kemaner.</strong><br /> Me pregunto esto: <em>¿Arreglaste el carro
+<p>(2) <strong>Mi jixivole ku yu le xuli mobil kemaner.</strong><br /> Me pregunto esto: <em>¿Arreglaste el carro
 		cómo?</em>”.<br /> Me pregunto cómo arreglaste el coche.</p>
 <h2>Oraciones declarativas con sintagmas interrogativos</h2>
 <p>Los hablantes a veces reducen una cláusula interrogativa a un sintagma, incluso sólo a la palabra interrogativa. Aun
