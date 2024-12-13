@@ -1,7 +1,7 @@
 # Gramática da globasa
 
 Este livro contém uma tradução para português da [Gramática completa de Globasa](https://salif.github.io/gramati-fe-globasa/spa/).
-Você pode baixá-lo em [formato EPUB](Gramati_fe_Globasa_Mesi_08_2024_pt_gemini.epub)
+Você pode baixá-lo em [formato EPUB](Gramati_fe_Globasa_Mesi_11_2024_pt_gemini.epub)
 ou lê-lo [online](https://salif.github.io/gramati-fe-globasa/pt-gemini/).
 
 O autor do conteúdo original é [the Globasa Team](https://globasa.net/).

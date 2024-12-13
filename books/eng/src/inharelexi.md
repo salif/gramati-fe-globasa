@@ -747,7 +747,7 @@
 	<em>While reading his favorite book,</em> the kid fell asleep.
 </p>
 <p>Naturally, these phrases may also be expressed as full clauses, as opposed to prepositional phrases.</p>
-<p><strong><em>Dur te le doxo (sesu preferido kitabu),</em> nini le xorsomno.</strong><br />
+<p><strong><em>Durki te le doxo (sesu preferido kitabu),</em> nini le xorsomno.</strong><br />
 	<em>While he read (his favorite book),</em> the kid fell asleep.
 </p>
 <h3>Passive Adjectives</h3>

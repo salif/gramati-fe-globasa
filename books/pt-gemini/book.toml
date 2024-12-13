@@ -20,4 +20,4 @@ no-section-label = false
 curly-quotes = false
 
 [output.ze]
-command = "just build-ze Gramati_fe_Globasa_Mesi_08_2024_pt_gemini build-ze-ignore"
+command = "just build-ze Gramati_fe_Globasa_Mesi_11_2024_pt_gemini build-ze-ignore"

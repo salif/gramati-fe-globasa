@@ -179,7 +179,7 @@
 <ul>
 	<li>However, if the sentence contains objects, the adverb phrase must immediately follow all objects.</li>
 </ul>
-<p><strong>Mi le gibe pesa cel coriyen <em>volekal</em> koski mi le befobi ki te xa morgi mi.</strong><br /> I gave the
+<p><strong>Mi le gibe pesa tas coriyen <em>volekal</em> koski mi le befobi ki te xa morgi mi.</strong><br /> I gave the
 	money to the thief <em>involuntarily</em> because I feared he would kill me.</p>
 <p>Adverbs may also be moved to the start of the sentence, so long as there is a definite pause with the comma to
 	separate the phrase from the rest of the sentence. Without the pause, the adjective/adverb could be mistakenly
