@@ -13,5 +13,6 @@
 - [Словоред: Структура на изречението](./jumleli-estrutur.md)
 - [Словообразуване](./lexikostrui.md)
 - [Съкратени морфеми](./ofkatado-morfomon.md)
+- [Съкращения](./kurtogixey.md)
 - [Класове думи](./lexiklase.md)
 - [Често използвани фрази и изрази](./pimpan-logaxey.md)

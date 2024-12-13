@@ -181,7 +181,7 @@
 <ul>
 	<li>Tamen, se la frazo enhavas objektojn, la adverba frazo devas tuj sekvi ĉiujn objektojn.</li>
 </ul>
-<p><strong>Mi le gibe pesa cel coriyen <em>volekal</em> koski mi le befobi ki te xa morgi mi.</strong><br /> Mi donis la
+<p><strong>Mi le gibe pesa tas coriyen <em>volekal</em> koski mi le befobi ki te xa morgi mi.</strong><br /> Mi donis la
 	monon al la ŝtelisto <em>nevole</em> ĉar mi timis ke li mortigos min.</p>
 <p>Adverboj ankaŭ povas esti movitaj al la komenco de la frazo, kondiĉe ke ekzistas difinita paŭzo kun la komo por
 	apartigi la frazon de la resto de la frazo. Sen la paŭzo, la adjektivo/adverbo povus esti erare interpretita kiel

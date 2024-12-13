@@ -1,7 +1,7 @@
 # Грамматика глобаса
 
 Эта книга содержит русский перевод [Complete Globasa Grammar](https://salif.github.io/gramati-fe-globasa/eng/).
-Вы можете скачать её в [формате EPUB](Gramati_fe_Globasa_Mesi_08_2024_ru_gemini.epub)
+Вы можете скачать её в [формате EPUB](Gramati_fe_Globasa_Mesi_11_2024_ru_gemini.epub)
 или читать [онлайн](https://salif.github.io/gramati-fe-globasa/ru-gemini/).
 
 Автор оригинального содержания — [the Globasa Team](https://globasa.net/).

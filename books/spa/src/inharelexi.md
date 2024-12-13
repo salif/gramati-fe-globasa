@@ -747,7 +747,7 @@
 </p>
 <p>Naturalmente, estas frases también pueden expresarse como cláusulas completas, a diferencia de las frases
 	preposicionales.</p>
-<p><strong><em>Dur te le doxo (sesu preferido kitabu),</em> nini le xorsomno.</strong><br />
+<p><strong><em>Durki te le doxo (sesu preferido kitabu),</em> nini le xorsomno.</strong><br />
 	<em>Mientras leía (su libro favorito),</em> el niño se quedó dormido.
 </p>
 <h3>Adjetivos pasivos</h3>

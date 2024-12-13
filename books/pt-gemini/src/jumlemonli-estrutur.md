@@ -181,7 +181,7 @@
 <ul>
 	<li>No entanto, se a frase contiver objetos, a frase adverbial deve seguir imediatamente todos os objetos. </li>
 </ul>
-<p><strong>Mi le gibe pesa cel coriyen <em>volekal</em> koski mi le befobi ki te xa morgi mi.</strong><br /> Dei o
+<p><strong>Mi le gibe pesa tas coriyen <em>volekal</em> koski mi le befobi ki te xa morgi mi.</strong><br /> Dei o
 	dinheiro ao ladrão <em>involuntariamente</em> porque temia que ele me matasse.</p>
 <p>Os advérbios também podem ser movidos para o início da frase, desde que haja uma pausa clara usando a vírgula para
 	separar a frase do resto da frase. Sem a pausa, o adjetivo/advérbio pode ser erroneamente interpretado como um

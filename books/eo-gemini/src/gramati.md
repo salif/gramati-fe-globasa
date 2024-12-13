@@ -1,7 +1,7 @@
 # Gramatiko de Globaso
 
 Ĉi tiu libro enhavas Esperantan tradukon de la [kompleta gramatiko de Globaso](https://salif.github.io/gramati-fe-globasa/eng/).
-Vi povas elŝuti ĝin en [EPUB-formato](Gramati_fe_Globasa_Mesi_08_2024_eo_gemini.epub)
+Vi povas elŝuti ĝin en [EPUB-formato](Gramati_fe_Globasa_Mesi_11_2024_eo_gemini.epub)
 aŭ legi ĝin [rete](https://salif.github.io/gramati-fe-globasa/eo-gemini/).
 
 La aŭtoro de la originala enhavo estas [the Globasa Team](https://globasa.net/).
