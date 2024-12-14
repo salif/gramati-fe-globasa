@@ -1,0 +1,23 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "ko"
+multilingual = false
+src = "src"
+title = "글로바사 문법"
+description = "Gemini 언어 모델을 사용하여 만든 글로바사 문법의 한국어 번역입니다"
+
+[output.html]
+default-theme = "rust-sans"
+preferred-dark-theme = "mocha-sans"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/ko-gemini/{path}"
+site-url = "/gramati-fe-globasa/ko-gemini/"
+
+[output.epub]
+use-default-css = true
+no-section-label = false
+curly-quotes = false
+
+[output.ze]
+command = "just build-ze Gramati_fe_Globasa_Mesi_11_2024_ko_gemini build-ze-ignore"

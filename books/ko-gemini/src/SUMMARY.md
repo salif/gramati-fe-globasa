@@ -1,0 +1,18 @@
+# 목차
+
+- [소개](./gramati.md)
+- [목차](./SUMMARY.md)
+- [알파벳 및 발음](./abece-ji-lafuzu.md)
+- [내용어: 명사, 동사, 형용사 및 부사](./inharelexi.md)
+- [기능어: 접속사, 전치사 및 기능 부사](./gramatilexi.md)
+- [대명사](./pornamelexi.md)
+- [상관어](./tabellexi.md)
+- [숫자와 연중 월](./numer-ji-mesi.md)
+- [동사 형태](./falelexili-morfo.md)
+- [어순: 구 구조](./jumlemonli-estrutur.md)
+- [어순: 문장 구조](./jumleli-estrutur.md)
+- [단어 형성](./lexikostrui.md)
+- [절단된 형태소](./ofkatado-morfomon.md)
+- [약어](./kurtogixey.md)
+- [품사](./lexiklase.md)
+- [일반적인 구 및 표현](./pimpan-logaxey.md)

@@ -15,6 +15,7 @@ Translations of the Complete Globasa Grammar. Fell free to fork this repository 
 | 🇧🇬 български | [Граматика на глобаса](https://salif.github.io/gramati-fe-globasa/bg-gemini/) | Gemini 1.5 Pro | Mesi 11 2024 | eng |
 | 🇧🇬 български | [Граматика на глобаса](https://salif.github.io/gramati-fe-globasa/bg-claude/) | Claude 3.5 Sonnet | Mesi 09 2024 | eng |
 | 🟢 Esperanto | [Gramatiko de Globaso](https://salif.github.io/gramati-fe-globasa/eo-gemini/) | Gemini 1.5 Pro Experimental 0827 | Mesi 11 2024 | eng |
+| 🇰🇷 한국어 | [글로바사 문법](https://salif.github.io/gramati-fe-globasa/ko-gemini/) | Gemini Experimental 1206 | Mesi 11 2024 | eng |
 
 ## Contributing
 
