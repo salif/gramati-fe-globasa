@@ -93,9 +93,9 @@ serve port='4000':
 gh-pages:
 	git diff --cached --quiet
 	git switch gh-pages
-	git merge main -X theirs --no-commit
+	git merge main -X theirs --no-ff --no-commit
 	just clean-all build clean-gitignore update-sitemap
-	git add ./docs
+	git add docs
 	git merge --continue
 	git push
 	git switch -
