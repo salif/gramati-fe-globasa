@@ -1,0 +1,376 @@
+<!DOCTYPE HTML>
+<html lang="ko" class="rust-sans sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>일반적인 구 및 표현 - 글로바사 문법</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="Gemini 언어 모델을 사용하여 만든 글로바사 문법의 한국어 번역입니다 : 일반적인 구 및 표현">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <!-- 
+        <link rel="stylesheet" href="fonts/fonts.css">
+         -->
+
+        <!-- Highlight.js Stylesheets -->
+        <!--
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+        -->
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-sans" : "rust-sans";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-sans')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">글로바사 문법</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/ko-gemini/src/pimpan-logaxey.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="자주-쓰이는-구절과-표현"><a class="header" href="#자주-쓰이는-구절과-표현">자주 쓰이는 구절과 표현</a></h1>
+<p>
+</p>
+<h2 id="인사"><a class="header" href="#인사">인사</a></h2>
+<p><strong>salom</strong> - 안녕 </p>
+<p><strong>xanti</strong> - 안녕하세요 ("평화") </p>
+<p><strong>bonsoba</strong> - 좋은 아침입니다 </p>
+<p><strong>bonnuru</strong> - 좋은 낮입니다/좋은 오후입니다 </p>
+<p><strong>bonaxam</strong> - 좋은 저녁입니다 </p>
+<p><strong>bonnoce</strong> - 좋은 저녁입니다 ("좋은 밤")</p>
+<h2 id="작별-인사"><a class="header" href="#작별-인사">작별 인사</a></h2>
+<p><strong>weda</strong> - 안녕(히 가세요) </p>
+<p><strong>xanti</strong> - 안녕 ("평화") </p>
+<p><strong>finfe (rioko)</strong> - 또 봐요 </p>
+<p><strong>finfe xaya</strong> - 나중에 봐요 </p>
+<p><strong>finfe ner xaya</strong> - 곧 봐요 </p>
+<p><strong>bon soba</strong> - 좋은 아침입니다 </p>
+<p><strong>bon nuru</strong> - 좋은 낮입니다/좋은 오후입니다 </p>
+<p><strong>bon axam</strong> - 좋은 저녁입니다 </p>
+<p><strong>bon noce</strong> - 좋은 밤입니다 </p>
+<h2 id="기타-덕담"><a class="header" href="#기타-덕담">기타 덕담</a></h2>
+<p>참고: 위에서 보았듯이, <strong>bon</strong> (좋은, 잘)을 사용한 인사는 합성어로 표현되는 반면, 작별 인사는 두 단어 구절로 표현됩니다. 다음 표현에서, 말하는 이와 듣는 이가 함께 남아
+	있을 때는 합성어가 사용됩니다. 따라서 두 어근이 합쳐져 한 단어가 됩니다. 반대로, 말하는 이나 듣는 이 중 한 명이 떠나는 경우에는 두 단어 구절이 사용됩니다. 따라서 어근이 분리됩니다. </p>
+<p><strong>bonata</strong> <em>또는</em> <strong>bon ata</strong> - 환영합니다 </p>
+<p><strong>bonxanse</strong> <em>또는</em> <strong>bon xanse</strong> - 행운을 빕니다 </p>
+<p><strong>bonyam</strong> <em>또는</em> <strong>bon yam</strong> - 맛있게 드세요 ("좋은 식사") </p>
+<p><strong>bonglu</strong> <em>또는</em> <strong>bon glu</strong> - 건배 ("좋은 음료") </p>
+<p><strong>bonturi</strong> <em>또는</em> <strong>bon turi</strong> - 즐거운 여행 되세요, 안전한 여행 되세요 </p>
+<h2 id="공손한-표현"><a class="header" href="#공손한-표현">공손한 표현</a></h2>
+<p><strong>fe lutuf</strong> - 부탁합니다 </p>
+<p><strong>xukra</strong> - 감사합니다 </p>
+<p><strong>multi xukra</strong> - 정말 감사합니다, 대단히 감사합니다 </p>
+<p><strong>no hay seba</strong> - 천만에요 ("이유가 없습니다") </p>
+<p><strong>asif</strong> - 죄송합니다 </p>
+<p><strong>mafu</strong> - 실례합니다, 죄송합니다 </p>
+<h2 id="기타-감탄사"><a class="header" href="#기타-감탄사">기타 감탄사</a></h2>
+<p><strong>daybon</strong> - 훌륭합니다, 대단합니다 </p>
+<p><strong>melibon</strong> - 좋습니다, 다정합니다 </p>
+<p><strong>suprem</strong> - 멋집니다, 훌륭합니다, 대단합니다 </p>
+<p><strong>otima</strong> - 굉장합니다 </p>
+<p><strong>afarin</strong> - 잘했습니다, 훌륭합니다 ("박수") </p>
+<p><strong>hura</strong> - 만세, 야호, 우후, 예이 </p>
+<p><strong>ay</strong> - 아야 </p>
+<p><strong>wao</strong> - 와우 </p>
+<h2 id="대화-중-채우는-말"><a class="header" href="#대화-중-채우는-말">대화 중 채우는 말</a></h2>
+<p><strong>o</strong> - 오 </p>
+<p><strong>a</strong> - 아 </p>
+<p><strong>nun</strong> - 음 (그러니까), 그래서, 이제 </p>
+<p><strong>fe folo</strong> - 그래서, 그러므로, 결과적으로 </p>
+<p><strong>fe fato</strong> - 사실은, 실은 </p>
+<p><strong>fe fini</strong> - 마침내 </p>
+<p><strong>fe bonxanse</strong> - 다행히도, 운 좋게도 </p>
+<p><strong>fe asif</strong> - 유감스럽게도, 불행히도 </p>
+<p><strong>fe onxala</strong> - 바라건대 </p>
+<p><strong>fe misal</strong> - 예를 들어 </p>
+<p><strong>fe xugwan</strong> - 보통 </p>
+<p><strong>fe benji</strong> - 본질적으로, 기본적으로 </p>
+<p><strong>fe moy kaso</strong> - 어쨌든, 하여튼 </p>
+<p><strong>fe alo kaso</strong> - 그렇지 않으면 </p>
+<p><strong>maxpul</strong> - 게다가, 더욱이 </p>
+<p><strong>pia</strong> - 또한 </p>
+<p><strong>abruto</strong> - 갑자기 </p>
+<p><strong>e</strong> <em>또는</em> <strong>em</strong> - 어 </p>
+<p><strong>aham</strong> - 알겠습니다, 이해했습니다 ("이해하다") </p>
+<p><strong>yakin</strong> - 확실히, 틀림없이 </p>
+<p><strong>totalyakin</strong> <em>또는</em> <strong>pulyakin</strong> - 절대적으로, 완전히 </p>
+<p><strong>mimbay</strong> - 분명히, 물론 </p>
+<p><strong>sipul</strong> - 정말로 </p>
+<p><strong>okey</strong> - 오케이, 좋아요 </p>
+<p><strong>ible</strong> - 아마도, 어쩌면, 혹시 </p>
+<p><strong>dayible</strong> - 아마도 </p>
+<p><strong>sahi</strong> - 맞습니다, 옳습니다 </p>
+<p><strong>mal</strong> - 틀립니다, 잘못되었습니다, 그렇지 않습니다 </p>
+<p><strong>sati</strong> - 사실입니다 </p>
+<p><strong>falso</strong> - 거짓입니다, 사실이 아닙니다 </p>
+<p><strong>samaijen</strong> - 동의합니다 ("같은 의견") </p>
+<p><strong>Kam sati?</strong> - 정말요? </p>
+<p><strong>Kam jidi?</strong> - 진심이에요? 진심으로 하는 말이에요? </p>
+<p><strong>Kam yakin?</strong> - 확실해요? </p>
+<p><strong>Kam bon?</strong> - 잘 지내세요? 괜찮으세요? 좋은가요? </p>
+<p><strong>Kam okey?</strong> - 괜찮아요? 다 괜찮아요? </p>
+<h2 id="자주-쓰이는-질문답변"><a class="header" href="#자주-쓰이는-질문답변">자주 쓰이는 질문/답변</a></h2>
+<ul>
+	<li><strong>Yu sen kepul?</strong> <em>또는</em> <strong>Yu kepul?</strong><br /> 어떻게 지내세요? </li>
+</ul>
+<p><strong>Daymo bon, ji yu?</strong><br /> 아주 잘 지내요, 당신은요?</p>
+<p><strong>semibon</strong><br /> 나쁘지 않아요</p>
+<p><strong>semi semi</strong><br /> 그저 그래요</p>
+<ul>
+	<li><strong>Yu name keto?</strong> <em>또는</em> <strong>Yusu name sen keto?</strong><br /> 당신의 이름은 무엇입니까?</li>
+</ul>
+<p><strong>Mi name...</strong> <em>또는</em> <strong>Misu name sen...</strong><br /> 제 이름은...입니다</p>
+<p><strong>(To sen) yukwe, na xorkone yu.</strong> <em>또는</em> <strong>Yukwe.</strong><br /> 만나서 반가워요. 또는 반갑습니다. </p>
+<p><strong>(To sen) furaha, na xorkone yu.</strong> <em>또는</em> <strong>Furaha.</strong><br /> 만나서 기쁩니다. 또는 기쁩니다.</p>
+<p><strong>(Mi sen) hox na xorkone yu.</strong> <em>또는</em> <strong>Mi sen hox.</strong><br /> 만나서 (저는) 행복합니다. 또는 저는
+	행복합니다.</p>
+<ul>
+	<li><strong>Yu ogar keloka?</strong><br /> 어디에 사세요?</li>
+</ul>
+<p><strong>Mi ogar in...</strong><br /> 저는 ...에 살아요</p>
+<ul>
+	<li><strong>Yu sen of keloka?</strong><br /> 어디에서 오셨어요?</li>
+</ul>
+<p><strong>Mi sen of...</strong><br /> 저는 ...에서 왔어요</p>
+<ul>
+	<li><strong>Yu sen kemo lao?</strong> <em>또는</em> <strong>Yu sen fe ke nyan?</strong><br /> 몇 살이세요? </li>
+</ul>
+<p><strong>Mi sen lao fe... (nyan).</strong> <em>또는</em> <strong>Mi sen fe... (nyan).</strong><br /> 저는 ...살입니다. </p>
+<ul>
+	<li><strong>Kam yu (pala) Globasa?</strong><br /> 글로바사어를 할 줄 아세요?</li>
+</ul>
+<p><strong>Si, xosu.</strong><br /> 네, (조금) 할 줄 알아요.</p>
+<ul>
+	<li><strong>Yu pala ke basa?</strong><br /> 어떤 언어를 할 줄 아세요? </li>
+</ul>
+<p><strong>Mi pala...</strong><br /> 저는 ...를 할 줄 알아요</p>
+<ul>
+	<li><strong>Kam yu aham?</strong><br /> 이해하시겠어요?</li>
+</ul>
+<p><strong>(Si,) mi aham.</strong><br /> (네,) 이해합니다. </p>
+<p><strong>(No,) mi no aham.</strong><br /> (아니요,) 이해 못 합니다.</p>
+<ul>
+	<li><strong>Ren loga... kemaner (in Globasa)?</strong><br /> ...를 (글로바사어로) 어떻게 말하나요?</li>
+</ul>
+<p><strong>In Globasa, ren loga...</strong><br /> (글로바사어로는) ...라고 말합니다. </p>
+<h2 id="자주-쓰이는-표현"><a class="header" href="#자주-쓰이는-표현">자주 쓰이는 표현</a></h2>
+<p><strong>Mi jixi.</strong><br /> 저는 알아요.</p>
+<p><strong>Mi no jixi.</strong><br /> 저는 몰라요.</p>
+<p><strong>Mi lubi yu.</strong><br /> 사랑해요.</p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="lexiklase.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="lexiklase.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <!-- <script src="highlight.js"></script> -->
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>
