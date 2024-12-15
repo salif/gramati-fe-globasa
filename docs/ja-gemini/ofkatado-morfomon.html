@@ -1,0 +1,304 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="rust-sans sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>切り捨てられた形態素 - グロバサ文法</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="ジェミニ言語モデルを使用して作成されたグロバサ文法の日本語翻訳 : 切り捨てられた形態素">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <!-- 
+        <link rel="stylesheet" href="fonts/fonts.css">
+         -->
+
+        <!-- Highlight.js Stylesheets -->
+        <!--
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+        -->
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-sans" : "rust-sans";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-sans')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">グロバサ文法</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/ja-gemini/src/ofkatado-morfomon.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="短縮形態素"><a class="header" href="#短縮形態素">短縮形態素</a></h1>
+<p>
+</p>
+<p>グロバサの特別な特徴は、<em>短縮形態素</em>の使用です。短縮形態素とは、機能語や接辞が、対応する親単語よりも短い形式を持ち、通常は親単語よりも狭い意味または広い意味を持つものです。短縮形態素は、厳密には派生語ではなく、実際には、学習を容易にするために特定の活用語と形式が似ている、完全に独立した語根と見なすのが最適です。その結果、短縮形態素は必ずしも体系的なパターンを通じて生じるわけではありません。
+</p>
+<p>同様の特徴は自然言語にも見られます。例えば、世界のクレオール言語では、親言語の活用語から機能語が生じることは一般的です。実際、これはほとんどの自然言語がどのように進化し、機能語や文法的な形態素を生成してきたかという方法です。このトピックに関する魅力的な議論については、ガイ・ドイッチャー著<a
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1?keywords=unfolding%2Bof%2Blanguage&qid=1565409086&s=gateway&sr=8-1"><em>The
+			Unfolding of Language: An Evolutionary Tour of Mankind's Greatest
+			Invention</em></a>（日本語訳『言語の「進化」とは何か』）を参照してください。</p>
+<p>以下の機能語は<em>短縮形態素</em>です。</p>
+<ul>
+	<li><strong>cel</strong>（～へ、～のために、～するために） <em>語源</em> <strong>cele</strong>（目標、目的）</li>
+	<li><strong>dur</strong>（～の間） <em>語源</em> <strong>dure</strong>（期間）</li>
+	<li><strong>fal</strong>（～によってなされる） <em>語源</em> <strong>fale</strong>（する）</li>
+	<li><strong>fol</strong>（～によれば、～に沿って） <em>語源</em> <strong>folo</strong>（従う）</li>
+	<li><strong>ger</strong>（～だろう） <em>語源</em> <strong>eger</strong>（もし～ならば）</li>
+	<li><strong>har</strong>（～を持って） <em>語源</em> <strong>hare</strong>（持つ）</li>
+	<li><strong>kom</strong>（～より） <em>語源</em> <strong>kompara</strong>（比較）</li>
+	<li><strong>kos</strong>（～のために、～のせいで） <em>語源</em> <strong>kosa</strong>（原因）</li>
+	<li><strong>kwas</strong>（まるで～のように） <em>語源</em> <strong>kwasi</strong>（～のように見える）</li>
+	<li><strong>pas</strong>（～を通って） <em>語源</em> <strong>pasa</strong>（通る）</li>
+	<li><strong>sol</strong>（～だけ） <em>語源</em> <strong>solo</strong>（単独で）</li>
+	<li><strong>tas</strong>（～へ、～に、<em>間接目的語</em>） <em>語源</em> <strong>taslum</strong>（受け取る）</li>
+	<li><strong>tem</strong>（～について、～に関して） <em>語源</em> <strong>tema</strong>（トピック、テーマ）</li>
+	<li><strong>ton</strong>（～と一緒に） <em>語源</em> <strong>tongo</strong>（一緒に）</li>
+	<li><strong>wey</strong>（～の周りに） <em>語源</em> <strong>jowey</strong>（周囲）</li>
+	<li><strong>yon</strong>（～を使って、～によって） <em>語源</em> <strong>yongu</strong>（使う）</li>
+</ul>
+<p>以下の接頭辞は<em>短縮形態素</em>です。</p>
+<ul>
+	<li><strong>aw-</strong>（離れて） <em>語源</em> <strong>awsenti</strong>（不在の）</li>
+	<li><strong>awto-</strong>（自動～、自動的に） <em>語源</em> <strong>awtomati</strong>（自動の）</li>
+	<li><strong>du-</strong>（<em>継続・習慣相</em>） <em>語源</em> <strong>dure</strong>（期間）</li>
+	<li><strong>fin-</strong>（終わり、終了） <em>語源</em> <strong>fini</strong>（終わり、終了）</li>
+	<li><strong>fron-</strong>（前方へ） <em>語源</em> <strong>fronta</strong>（額、前面）</li>
+	<li><strong>ja-</strong>（すぐ隣の） <em>語源</em> <strong>jara</strong>（隣人）</li>
+	<li><strong>pre-</strong>（ここ／そこに） <em>語源</em> <strong>presenti</strong>（現在の）</li>
+	<li><strong>pos-</strong>（反対の） <em>語源</em> <strong>opos</strong>（反対）</li>
+	<li><strong>ru-</strong>（後方へ、後ろへ） <em>語源</em> <strong>ruke</strong>（背中、後部）</li>
+	<li><strong>xor-</strong>（開始、始める） <em>語源</em> <strong>xoru</strong>（開始、始める）</li>
+</ul>
+<p>以下の接尾辞は<em>短縮形態素</em>です。</p>
+<ul>
+	<li><strong>-cu</strong>（<em>自動詞</em>） <em>語源</em> <strong>cudu</strong>（得る、獲得する、手に入れる、取る） </li>
+	<li><strong>-gon</strong>（<em>特定の数の角を持つ幾何学的図形</em>） <em>語源</em>
+		<strong>gono</strong>（角）
+	</li>
+	<li><strong>-gi</strong>（<em>他動詞</em>） <em>語源</em> <strong>gibe</strong>（与える）</li>
+	<li><strong>-je</strong>（度） <em>語源</em> <strong>daraje</strong>（度）</li>
+	<li><strong>-sa</strong>（言語、動物の鳴き声） <em>語源</em> <strong>basa</strong>（言語）</li>
+</ul>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="lexikostrui.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="kurtogixey.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="lexikostrui.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="kurtogixey.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <!-- <script src="highlight.js"></script> -->
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>

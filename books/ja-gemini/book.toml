@@ -1,0 +1,23 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "ja"
+multilingual = false
+src = "src"
+title = "グロバサ文法"
+description = "ジェミニ言語モデルを使用して作成されたグロバサ文法の日本語翻訳"
+
+[output.html]
+default-theme = "rust-sans"
+preferred-dark-theme = "mocha-sans"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/ja-gemini/{path}"
+site-url = "/gramati-fe-globasa/ja-gemini/"
+
+[output.epub]
+use-default-css = true
+no-section-label = false
+curly-quotes = false
+
+[output.ze]
+command = "just build-ze Gramati_fe_Globasa_Mesi_11_2024_ja_gemini build-ze-ignore"

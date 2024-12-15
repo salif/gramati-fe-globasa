@@ -4,7 +4,7 @@ language = "ko"
 multilingual = false
 src = "src"
 title = "글로바사 문법"
-description = "Gemini 언어 모델을 사용하여 만든 글로바사 문법의 한국어 번역입니다"
+description = "제미니 언어 모델을 사용하여 만든 관바사 문법의 한국어 번역"
 
 [output.html]
 default-theme = "rust-sans"
