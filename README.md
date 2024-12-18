@@ -24,28 +24,20 @@ Translations of the Complete Globasa Grammar. Fell free to fork this repository 
 
 ```sh
 mdbook init ./books/new-book
-just --yes sync-theme
+just --yes sync_theme
 just build
 ```
 
-### Build books
+### Build all books
 
 ```sh
-just --yes sync-theme
-just clean-all build
+just --yes sync_theme
+just del "all" build
 # just serve
 ```
 
 ### Rebuild a book
 
 ```sh
-just clean eng build
-```
-
-### Fetch upstream
-
-```sh
-just update-book eng update
-just update-book-diff eng > new.diff
-just update-book eng remove
+just del "eng" build
 ```

@@ -29,6 +29,3 @@ curly-quotes = false
 # margin-right = 0.4
 # display-header-footer = false
 # print-background = false
-
-[output.ze]
-command = "just build-ze Gramati_fe_Globasa_Mesi_11_2024_eng build-ze-ignore"

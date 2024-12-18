@@ -18,6 +18,3 @@ site-url = "/gramati-fe-globasa/bg-gemini/"
 use-default-css = true
 no-section-label = false
 curly-quotes = false
-
-[output.ze]
-command = "just build-ze Gramati_fe_Globasa_Mesi_11_2024_bg_gemini build-ze-ignore"
