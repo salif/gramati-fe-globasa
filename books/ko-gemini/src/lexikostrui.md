@@ -14,7 +14,7 @@
 	<li><strong><a href="./falelexili-morfo.html#be-">be-</a>:</strong> 수동태</li>
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> 동명사; <em>습관적/지속적 동사 상</em></li>
 </ul>
-<h2>접두사</h2>
+<h2>접두사 <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> 부재하는, 멀리 <ul>
 			<li><strong>awidi</strong> - 떠나다, 가버리다 (<em>idi</em> - <em>가다</em>); <strong>awglu</strong> - 다 마시다

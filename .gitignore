@@ -1,4 +1,11 @@
+/scripts/node_modules
+/scripts/pnpm-lock.yaml
+/scripts/package-lock.json
+/scripts/yarn.lock
+
 /books/*/book
 /books/*/theme
-/books/eng/src/*_new.md
-/books/spa/src/*_new.md
+/books/eng/src/*_orig.html
+/books/eng/src/*_orig_src.html
+/books/spa/src/*_orig.html
+/books/spa/src/*_orig_src.html

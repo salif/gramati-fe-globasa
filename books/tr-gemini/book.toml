@@ -4,7 +4,7 @@ language = "tr"
 multilingual = false
 src = "src"
 title = "Globasa dilbilgisi"
-description = "Globasa dilbilgisinin Türkçe çevirisi (Google Gemini ile)"
+description = "Globasa adı verilen yapay dilin gramerinin resmi olmayan Türkçe çevirisi. Çevirinin bazı kısımları Gemini dil modeli kullanılarak yapılmıştır."
 
 [output.html]
 default-theme = "rust-clr"
@@ -18,6 +18,3 @@ site-url = "/gramati-fe-globasa/tr-gemini/"
 use-default-css = true
 no-section-label = false
 curly-quotes = false
-
-[output.ze]
-command = "just build-ze Gramati_fe_Globasa_Mesi_11_2024_tr_gemini build-ze-ignore"

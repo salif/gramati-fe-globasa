@@ -182,159 +182,160 @@
 <p><strong>Folki mi max doxo, mi max jixi.</strong><br /> 내가 더 많이 읽을수록, 나는 더 많이 안다.</p>
 <p>이 구절들의 순서는 바뀔 수 있습니다:</p>
 <p><strong>Mi max jixi, folki mi max doxo.</strong><br /> 나는 더 많이 안다, 내가 더 많이 읽을수록.</p>
-<h3>동사 범주 <span id="falelexili_klase"></span></h3>
-<p>동사는 사전에 <em>조동사</em>, <em>연결 동사</em>, <em>타동사</em>, <em>자동사</em> 또는 <em>양방향 타동사</em>로 정의됩니다.</p>
+<h3>동사 분류 <span id="falelexili_klase"></span></h3>
+<p>동사는 사전에서 <em>조동사</em>, <em>계사</em>, <em>타동사</em>, <em>자동사</em> 또는 <em>양타동사</em>로 정의됩니다. 이 섹션에서 볼 수 있는
+	접미사(<strong>-cu</strong>, <strong>-gi</strong>, <strong>-ne</strong>, <strong>-do</strong>, <strong>-pul</strong>)는
+	아래의 <a href="./inharelexi.html#pimpan_fikso"><em>일반적인 접사</em></a>에서 설명합니다. 접두사 <strong>xor-</strong>는 <a
+		href="./lexikostrui.html#lefefikso"><em>단어 형성: 접두사</em></a>에서 설명합니다.</p>
 <h4>조동사</h4>
-<p><em>조동사</em>는 바로 뒤에 다른 동사가 오며, 생략될 수 있습니다. 글로바사에는 세 개의 <em>조동사</em>만 있습니다: <strong>abil</strong> (~할 수 있다),
-	<strong>ingay</strong> (~해야 한다), <strong>musi</strong> (~해야만 한다). </p>
-<h4>연결 동사</h4>
-<p><em>연결 동사</em>는 주어를 보어와 연결합니다. 현재 12개의 <em>연결 동사</em>가 있습니다: <strong>sen</strong> (~이다), <strong>xorsen</strong> (~이
-	되다), <strong>sencu</strong> (~이 되다), <strong>sengi</strong> (~이 되게 하다), <strong>kwasisen</strong> (~처럼 보이다),
-	<strong>okocu</strong> (보이다), <strong>orecu</strong> (들리다), <strong>nasacu</strong> (냄새나다), <strong>xetocu</strong>
-	(맛이 나다), <strong>pifucu</strong> (만져서 느껴지다), <strong>hisicu</strong> (신체적으로 느끼다), <strong>ganjoncu</strong> (감정적으로
-	느끼다). </p>
+<p><em>조동사</em>는 다른 동사 바로 뒤에 오며, 이 동사는 생략될 수 있습니다. 글로바사에는 세 개의 <em>조동사</em>만 있습니다: <strong>abil</strong> (할 수 있다),
+	<strong>ingay</strong> (해야 한다), <strong>musi</strong> (해야만 한다). </p>
+<h4>계사</h4>
+<p><em>계사</em>는 주어와 보어를 연결합니다. 현재 12개의 <em>계사</em>가 있습니다: <strong>sen</strong> (이다), <strong>xorsen</strong> (되다),
+	<strong>sencu</strong> (되다), <strong>sengi</strong> (~이 되게 하다), <strong>kwasisen</strong> (처럼 보이다),
+	<strong>okocu</strong> (보이다), <strong>orecu</strong> (들리다), <strong>nasacu</strong> (냄새가 나다),
+	<strong>xetocu</strong> (맛이 나다), <strong>pifucu</strong> (만져지는 느낌이 나다), <strong>hisicu</strong> (신체적으로 또는 감정적으로
+	느끼다), <strong>ganjoncu</strong> (감정적으로 느끼다). </p>
 <h4>타동사</h4>
 <p><em>타동사</em>는 직접 목적어를 취합니다: <strong>haja</strong> (필요하다), <strong>bujo</strong> (잡다, 포획하다), <strong>gibe</strong>
-	(주다). 그러나 특정 <em>타동사</em>는 때때로 또는 자주 직접 목적어를 생략합니다: <strong>doxo</strong> (읽다), <strong>yam</strong> (먹다). </p>
-<h4>자동사</h4>
-<p><em>자동사</em>는 직접 목적어를 취하지 않습니다: <strong>idi</strong> (가다), <strong>konduta</strong> (행동하다), <strong>loka</strong>
-	(위치하다). 그러나 자동사로 분류된 특정 동사는 동일한 명사/동사 단어를 직접 목적어로 반복하거나, 고유 명사 또는 해당 명사의 범주와 함께 <em>타동사</em>로 사용될 수 있습니다.</p>
+	(주다). 그러나 특정 <em>타동사</em>는 때때로 또는 자주 직접 목적어를 생략합니다: <strong>doxo</strong> (읽다), <strong>yam</strong> (먹다),
+	<strong>lala</strong> (노래하다) 등. </p>
+<p>일부 <em>타동사</em>는 거의 항상 직접 목적어 없이 사용됩니다: <strong>somno</strong> (자다), <strong>haha</strong> (웃다),
+	<strong>pawbu</strong> (달리다), <strong>fley</strong> (날다) 등.</p>
 <p><strong>Mi le somno (lungo somno).</strong><br /> 나는 잤다 (긴 잠을).</p>
 <p><strong>Yu le haha (sotipul haha).</strong><br /> 너는 웃었다 (큰 웃음을). </p>
-<p><strong>Te xa lala (Hox Xencudin).</strong><br /> 그녀는 노래할 것이다 (생일 축하 노래를).</p>
-<p><strong>Te danse (tango).</strong><br /> 그는 춤추고 있다 (탱고를).</p>
-<p>이론적으로, 다른 모든 <em>자동사</em>는 선택적으로 <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>를 사용하여 타동사로 사용될 수
-	있지만, 대부분의 경우 <strong>-gi</strong>를 적용하는 것이 더 나은 방법일 수 있습니다.</p>
-<p><strong>Kam yu fley(gi) hawanavi?</strong><br /> 당신은 항공기를 조종합니까?</p>
-<p><strong>Mi xa sampo(gi) bwaw fe axam.</strong><br /> 나는 저녁에 개를 산책시킬 것입니다.</p>
-<h4>양방향 타동사</h4>
-<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive"><em>양방향 타동사</em></a>는 글로바사에서 자동사 의미의 주어와 타동사
-	의미의 직접 목적어가 동사의 동일한 행위/상태를 경험하는 동사입니다. 이러한 동사의 자동사 의미는 선택적으로 <strong><a
-			href="./inharelexi.html#xafefikso_-cu">-cu</a></strong>를 적용할 수 있고 타동사 의미는 선택적으로 <strong><a
-			href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>를 적용할 수 있습니다. <em>일반적인 접사</em> 아래의
-	<strong>-cu</strong>와 <strong>-gi</strong>를 참조하십시오. <em>양방향 타동사</em>에는 네 가지 하위 범주가 있습니다: <em>감정 동사</em>, <em>상태
-		동사</em>, <em>무주어 동사</em>, <em>위치/장소 또는 이동 동사</em>.</p>
-<p><em>감정 동사</em></p>
-<p>감정을 나타내는 <em>양방향 타동사</em>는 <em>[어근 명사]를 느끼다 또는 [어근 명사]를 느끼게 하다</em>를 의미합니다. 자동사 의미는 연결 동사와 형용사 구로 표현될 수도 있습니다:
-	<strong>sen</strong> <em>[어근 명사]</em><strong>-do</strong>. 아래의 <strong><a
-			href="./inharelexi.html#xafefikso_-do">-do</a></strong>를 참조하십시오.</p>
+<p>접미사 <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>는 <em>타동사</em>에 적용되어 _(직접 목적어)가 [어근 동사]하게 하다,
+	(직접 목적어)를 [어근 동사]하게 만들다_라는 의미를 가질 수 있습니다.</p>
+<p><strong>Kam yu fleygi hawanavi?</strong><br /> 당신은 비행기를 조종하나요?</p>
+<p><strong>Mi xa sampogi bwaw fe axam.</strong><br /> 저는 저녁에 개를 산책시킬 것입니다.</p>
+<p><strong>Payaco le hahagi mi.</strong><br /> 광대가 나를 웃게 만들었습니다. </p>
+<h4>자동사</h4>
+<p><em>자동사</em>는 직접 목적어를 취하지 않습니다: <strong>idi</strong> (가다), <strong>konduta</strong> (행동하다), <strong>loka</strong>
+	(위치하다), <strong>side</strong> (앉아 있다), <strong>garaku</strong> (익사하다, 가라앉다). <em>자동사</em>는 직접 목적어가 있을 때 <strong><a
+			href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>를 선택적으로 사용하여 <em>타동사</em>로 바뀔 수 있습니다. </p>
 <ul>
-	<li><strong>interes(cu)</strong> - 흥미를 느끼다 (<em>흥미를 느끼다</em>)<br />
-		<strong>interes(gi)</strong> - 흥미를 갖게 하다 (<em>흥미를 느끼게 하다</em>)
+	<li><strong>garaku</strong> - 익사하다, 가라앉다<br />
+		<strong>garaku(gi)</strong> - 익사시키다, 가라앉히다
 	</li>
 </ul>
-<p><strong>Mi interes(cu) tem basalogi.</strong> = <strong>Mi sen interesdo tem basalogi.</strong><br /> 나는 언어학에 관심이 있다.
-</p>
-<p><strong>Basalogi interes(gi) mi.</strong><br /> 언어학은 나에게 흥미를 준다.</p>
+<p><strong>Navikef le garaku.</strong><br /> 선장이 익사했습니다.</p>
+<p><strong>Navikef le garaku(gi) navi.</strong><br /> 선장이 배를 침몰시켰습니다.</p>
+<p>그러나 단어 파생에서는 <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>가 필수적입니다. <strong>garaku</strong>와 접미사
+	<strong><a href="./inharelexi.html#xafefikso_-ne">-ne</a></strong>로 파생된 다음 형용사를 비교해 보세요. </p>
+<p><strong>garakune navikef</strong> - 익사하는 선장 </p>
+<p><strong>garakugine navikef</strong>- (배를) 침몰시키는 선장</p>
+<h4>양타동사</h4>
+<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive"><em>양타동사</em></a>는 자동사 의미의 주어와 타동사 의미의 직접 목적어가
+	모두 동사의 동일한 동작/상태를 경험하는 동사입니다. 이러한 동사의 자동사 의미는 선택적으로 <strong><a
+			href="./inharelexi.html#xafefikso_-cu">-cu</a></strong>를 적용할 수 있고, 타동사 의미는 선택적으로 <strong><a
+			href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>를 적용할 수 있습니다.</p>
+<p><em>양타동사</em>에는 네 가지 하위 범주가 있습니다: <em>감정 동사</em>, <em>상태 동사</em>, <em>무주어 동사</em>, <em>위치/장소 또는 이동 동사</em>. </p>
+<p><em>감정 동사</em></p>
+<p>감정을 나타내는 <em>양타동사</em>는 <em>[어근 명사]를 느끼다 또는 [어근 명사]를 느끼게 하다</em>를 의미합니다. 자동사 의미는 계사와 형용사 구문으로도 표현될 수 있습니다:
+	<strong>sen</strong> <em>[어근 명사]</em><strong><a href="./inharelexi.html#xafefikso_-do">-do</a></strong>.</p>
+<ul>
+	<li><strong>interes(cu)</strong> - 흥미를 느끼다 (<em>관심을 느끼다</em>)<br />
+		<strong>interes(gi)</strong> - 흥미를 일으키다 (<em>관심을 느끼게 하다</em>)
+	</li>
+</ul>
+<p><strong>Mi interes(cu) tem basalogi.</strong> = <strong>Mi sen interesdo tem basalogi.</strong><br /> 저는 언어학에 관심이
+	있습니다.</p>
+<p><strong>Basalogi interes(gi) mi.</strong><br /> 언어학은 저에게 흥미를 일으킵니다.</p>
 <ul>
 	<li><strong>pilo(cu)</strong> - 피곤하다/피곤함을 느끼다 (<em>피로를 느끼다</em>)<br />
 		<strong>pilo(gi)</strong> - 피곤하게 하다 (<em>피로를 느끼게 하다</em>)
 	</li>
 </ul>
-<p><strong>Te pilo(cu).</strong> = <strong>Te sen pilodo.</strong><br /> 그녀는 피곤하다/피곤함을 느낀다.</p>
-<p><strong>Tesu ergo pilo(gi) te.</strong><br /> 그녀의 일은 그녀를 피곤하게 한다.</p>
-<p>접두사 <strong>xor-</strong>는 <em>감정 동사</em>와 함께 다음과 같은 차이를 표현하는 데 사용될 수 있습니다:</p>
-<p><strong>Mi le interes tem basalogi lefe multi nyan.</strong><br /> 나는 수년 전에 언어학에 관심이 있었다.</p>
-<p><strong>Te le pilo dur na ergo.</strong><br /> 그녀는 일하는 동안 피곤했다.</p>
-<p>대조:</p>
-<p><strong>Mi le xorinteres tem basalogi lefe multi nyan.</strong><br /> 나는 수년 전에 언어학에 관심을 갖게 되었다.</p>
-<p><strong>Te le xorpilo dur na ergo.</strong><br /> 그녀는 일하는 동안 피곤해졌다/피곤하게 되었다.</p>
+<p><strong>Te pilo(cu).</strong> = <strong>Te sen pilodo.</strong><br /> 그녀는 피곤합니다/피곤함을 느낍니다.</p>
+<p><strong>Tesu ergo pilo(gi) te.</strong><br /> 그녀의 일이 그녀를 피곤하게 합니다.</p>
+<p>접두사 <strong>xor-</strong>는 <em>감정 동사</em>와 함께 사용하여 다음과 같은 차이를 표현할 수 있습니다:</p>
+<p><strong>Mi le interes tem basalogi lefe multi nyan.</strong><br /> 저는 여러 해 전에 언어학에 관심이 있었습니다. </p>
+<p><strong>Te le pilo dur na ergo.</strong><br /> 그녀는 일하는 동안 피곤했습니다.</p>
+<p>대:</p>
+<p><strong>Mi le xorinteres tem basalogi lefe multi nyan.</strong><br /> 저는 여러 해 전에 언어학에 관심을 갖게 되었습니다.</p>
+<p><strong>Te le xorpilo dur na ergo.</strong><br /> 그녀는 일하는 동안 피곤해졌습니다/피곤하게 되었습니다.</p>
 <p><em>상태 동사</em></p>
-<p><em>상태 양방향 타동사</em>는 <em>감정 동사</em>와 유사합니다. 이것은 <em>[명사 어근]을 가지다 또는 [명사 어근]을 갖게 하다</em>를 의미하는 <em>양방향 타동사</em>로 사용될 수
-	있는 <em>상태 명사</em>입니다. 자동사 의미는 연결 동사와 형용사 구로 표현될 수도 있습니다: <strong>sen</strong> <em>[어근 명사]</em><strong>-pul</strong>.
-	아래의 <strong><a href="./inharelexi.html#xafefikso_-pul">-pul</a></strong>을 참조하십시오.</p>
+<p><em>상태를 나타내는 양타동사</em>는 <em>감정 동사</em>와 유사합니다. 이들은 <em>[명사 어근]을 가지다 또는 [명사 어근]을 가지게 하다</em>를 의미하는 <em>양타동사</em>로 사용될
+	수 있는 <em>상태 명사</em>입니다. 자동사 의미는 계사와 형용사 구문으로도 표현될 수 있습니다: <strong>sen</strong> <em>[어근 명사]</em><strong><a
+			href="./inharelexi.html#xafefikso_-pul">-pul</a></strong>. </p>
 <ul>
 	<li><strong>termo(cu)</strong> - 덥다/따뜻하다 (<em>열을 가지다</em>)<br />
-		<strong>termo(gi)</strong> - 데우다 (<em>열을 갖게 하다</em>)
+		<strong>termo(gi)</strong> - 데우다 (<em>열을 가지게 하다</em>)
 	</li>
 </ul>
-<p><strong>Misu kafe no haji termo.</strong> = <strong>Misu kafe no haji sen termopul.</strong><br /> 내 커피는 더 이상 뜨겁지 않다.
-</p>
-<p><strong>Kam yu le termo banyo-kamer?</strong><br /> 욕실을 데웠습니까?</p>
+<p><strong>Misu kafe no haji termo.</strong> = <strong>Misu kafe no haji sen termopul.</strong><br /> 제 커피는 더 이상 뜨겁지
+	않습니다.</p>
+<p><strong>Kam yu le termo banyo-kamer?</strong><br /> 욕실을 데웠나요?</p>
 <ul>
 	<li><strong>cinon(cu)</strong> - 똑똑하다 (<em>지능을 가지다</em>)<br />
-		<strong>cinon(gi)</strong> - 똑똑하게 만들다 (<em>지능을 갖게 하다</em>)
+		<strong>cinon(gi)</strong> - 똑똑하게 만들다 (<em>지능을 가지게 하다</em>)
 	</li>
 </ul>
-<p><strong>Syensiyen cinon.</strong> = <strong>Syensiyen sen cinonpul.</strong><br /> 과학자는 똑똑하다. </p>
-<p><strong>Eskol le cinon te.</strong><br /> 학교가 그를 똑똑하게 만들었다. </p>
+<p><strong>Syensiyen cinon.</strong> = <strong>Syensiyen sen cinonpul.</strong><br /> 그 과학자는 똑똑합니다. </p>
+<p><strong>Eskol le cinon te.</strong><br /> 학교가 그를 똑똑하게 만들었습니다. </p>
 <ul>
 	<li><strong>talento(cu)</strong> - 재능이 있다 (<em>재능을 가지다</em>)<br />
-		<strong>talento(gi)</strong> - 재능 있게 만들다 (<em>재능을 갖게 하다</em>)
+		<strong>talento(gi)</strong> - 재능 있게 만들다 (<em>재능을 가지게 하다</em>)
 	</li>
 </ul>
-<p><strong>Lalayen talento.</strong> = <strong>Lalayen sen talentopul.</strong><br /> 가수는 재능이 있다.</p>
-<p><strong>Patre le talento lalayen.</strong><br /> 아버지가 가수를 재능 있게 만들었다.</p>
-<p>접두사 <strong>xor-</strong>는 <em>상태 동사</em>와 함께 다음과 같은 차이를 표현하는 데 사용될 수 있습니다:</p>
-<p><strong>Jaledin le termo.</strong> = <strong>Jaledin le sen termopul.</strong><br /> 어제는 따뜻했다</p>
+<p><strong>Lalayen talento.</strong> = <strong>Lalayen sen talentopul.</strong><br /> 그 가수는 재능이 있습니다.</p>
+<p><strong>Patre le talento lalayen.</strong><br /> 아버지가 그 가수를 재능 있게 만들었습니다.</p>
+<p>접두사 <strong>xor-</strong>는 <em>상태 동사</em>와 함께 사용하여 다음과 같은 차이를 표현할 수 있습니다:</p>
+<p><strong>Jaledin le termo.</strong> = <strong>Jaledin le sen termopul.</strong><br /> 어제는 따뜻했습니다</p>
 <p><strong>To le xortermo fe midinuru.</strong> = <strong>To le xorsen/sencu termopul fe midinuru.</strong><br /> 정오에
-	따뜻해졌다/따뜻하게 되었다. </p>
+	더워졌습니다/따뜻해졌습니다. </p>
 <p><em>무주어 동사</em></p>
-<p><em>무주어 양방향 타동사</em>의 자동사 의미에서, 행위는 주어가 수행하는 것이 아니라 주어에게 일어나는 것입니다.</p>
+<p><em>무주어 양타동사</em>의 자동사 의미에서, 동작은 주어가 수행하는 것보다는 주어에게 일어나는 일입니다. </p>
 <ul>
-	<li><strong>kasiru(cu)</strong> - 깨지다 (<em>부서지다</em>)<br />
-		<strong>kasiru(gi)</strong> - 깨다 (<em>부수다</em>)
+	<li><strong>kasiru(cu)</strong> - 부서지다 (<em>부서짐을 당하다</em>)<br />
+		<strong>kasiru(gi)</strong> - 부수다 (<em>부서지게 하다</em>)
 	</li>
 </ul>
-<p><strong>Janela le kasiru(cu).</strong><br /> 창문이 깨졌다. </p>
-<p><strong>Mi le kasiru(gi) janela.</strong><br /> 나는 창문을 깼다.</p>
+<p><strong>Janela le kasiru(cu).</strong><br /> 창문이 부서졌습니다. </p>
+<p><strong>Mi le kasiru(gi) janela.</strong><br /> 제가 창문을 부쉈습니다.</p>
 <ul>
-	<li><strong>buka(cu)</strong> - 열리다 (<em>열리게 되다</em>)<br />
-		<strong>buka(gi)</strong> - 열다 (<em>열리게 하다</em>)
+	<li><strong>boyle(cu)</strong> - 끓다 (<em>끓여짐을 당하다</em>)<br />
+		<strong>boyle(gi)</strong> - 끓이다 (<em>끓게 하다</em>)
 	</li>
 </ul>
-<p><strong>Dwer le buka(cu).</strong><br /> 문이 열렸다.</p>
-<p><strong>Mi le buka(gi) dwer.</strong><br /> 나는 문을 열었다.</p>
+<p><strong>Sui le boyle(cu).</strong><br /> 물이 끓었습니다.</p>
+<p><strong>Te le boyle(gi) sui.</strong><br /> 그녀가 물을 끓였습니다.</p>
+<ul>
+	<li><strong>fini(cu)</strong> - 끝나다 (<em>끝남에 이르다</em>)<br />
+		<strong>fini(gi)</strong> - 끝내다 (<em>끝남에 이르게 하다</em>)
+	</li>
+</ul>
+<p><strong>Jange le fini(cu).</strong><br /> 전쟁이 끝났습니다.</p>
+<p><strong>Ete le fini(gi) jange.</strong><br /> 그들이 전쟁을 끝냈습니다.</p>
 <p><em>위치/장소 또는 이동 동사</em></p>
-<p><em>위치/장소 또는 이동 양방향 타동사</em>의 자동사 의미에서 주어는 행위자이자 피행위자입니다.</p>
+<p><em>위치/장소 또는 이동을 나타내는 양타동사</em>의 자동사 의미에서 주어는 행위자이자 피행위자입니다. </p>
 <ul>
-	<li><strong>esto(cu)</strong> - 멈추다 (<em>정지하다</em>)<br />
-		<strong>esto(gi)</strong> - 멈추게 하다 (<em>정지하게 하다</em>)
+	<li><strong>esto(cu)</strong> - 멈추다 (<em>멈춤에 이르다</em>)<br />
+		<strong>esto(gi)</strong> - 멈추게 하다 (<em>멈춤에 이르게 하다</em>)
 	</li>
 </ul>
 <p><strong>Am esto(cu)!</strong><br /> 멈춰!</p>
-<p><strong>Am esto(gi) mobil!</strong><br /> 차를 세워!</p>
+<p><strong>Am esto(gi) mobil!</strong><br /> 차를 멈춰!</p>
 <ul>
 	<li><strong>harka(cu)</strong> - 움직이다 (<em>움직임을 만들다</em>)<br />
 		<strong>harka(gi)</strong> - 움직이게 하다 (<em>움직이게 하다</em>)
 	</li>
 </ul>
 <p><strong>Am no harka(cu)!</strong><br /> 움직이지 마!</p>
-<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> 나는 당신의 의자를 옮겼다. </p>
-<p>이 하위 범주의 다음 세 동사는 위에서 본 것과 유사한 의미 차이를 만들기 위해 <strong>xor-</strong>를 사용합니다:</p>
+<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> 제가 당신의 의자를 움직였습니다. </p>
 <ul>
-	<li><strong>side(cu)</strong> - 앉다 (<em>앉아 있다</em>)<br />
-		<strong>side(gi)</strong> - 앉히다 (<em>앉게 하다</em>)
+	<li><strong>buka(cu)</strong> - 열리다 (<em>열린 상태가 되다</em>)<br />
+		<strong>buka(gi)</strong> - 열다 (<em>열린 상태로 만들다</em>)
 	</li>
 </ul>
-<p><strong>Te side(cu) fe fronta de darsu-kamer.</strong><br /> 그는 교실 앞쪽에 앉아 있다.</p>
-<p><strong>Am side(gi) bebe per hin kursi.</strong><br /> 아기를 이 의자에 앉혀.</p>
-<ul>
-	<li><strong>xorside(cu)</strong> - 앉다, 자리에 앉다</li>
-</ul>
-<p><strong>Am xorside per sofa.</strong><br /> 소파에 앉아. </p>
-<ul>
-	<li><strong>estay(cu)</strong> - 서다 (<em>서 있다</em>)<br />
-		<strong>estay(gi)</strong> - 서게 하다
-	</li>
-</ul>
-<p><strong>Yu estay(cu) per misu kamisa!</strong><br /> 너는 내 셔츠 위에 서 있어!</p>
-<p><strong>Am estay(gi) bebe.</strong><br /> 아기를 세워.</p>
-<ul>
-	<li><strong>xorestay(cu)</strong> - 일어서다</li>
-</ul>
-<p><strong>Mi le xorestay denwatu hu te le inidi kamer.</strong><br /> 나는 그녀가 방에 들어왔을 때 일어섰다.</p>
-<ul>
-	<li><strong>leta(cu)</strong> - 눕다 (<em>누워 있다</em>)<br />
-		<strong>leta(gi)</strong> - 눕히다
-	</li>
-</ul>
-<p><strong>Myaw leta(cu) per dixan.</strong><br /> 고양이가 바닥에 누워 있다.</p>
-<p><strong>Mi xa leta(gi) bwaw per bistar.</strong><br /> 나는 개를 침대 위에 눕힐 것이다.</p>
-<ul>
-	<li><strong>xorleta(cu)</strong> - 눕다</li>
-</ul>
-<p><strong>Am no xorleta per sofa!</strong><br /> 소파에 눕지 마!</p>
+<p><strong>Dwer le buka(cu).</strong><br /> 문이 열렸습니다.</p>
+<p><strong>Mi le buka(gi) dwer.</strong><br /> 제가 문을 열었습니다.</p>
+<p>단어 파생에서 <em>양타동사</em>는 <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>가 없어도 <em>타동사</em>로 기능합니다.
+	그러나 단어 파생에서 동사의 <em>자동사</em> 의미가 필요한 경우, <strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a></strong>를 적용해야
+	합니다. <strong>buka</strong>와 접미사 <strong><a href="./inharelexi.html#xafefikso_-ne">-ne</a></strong>로 파생된 다음 형용사를 비교해
+	보세요:</p>
+<p><strong>bukane merasem</strong> - 개회식</p>
+<p><strong>bukacune dwer</strong> - 열리는 문</p>
 <h2>형용사/부사</h2>
 <p>글로바사에서 형용사와 <em>동사를 수식하는 부사</em>는 동일한 형태를 가집니다.</p>
 <ul>
@@ -407,7 +408,7 @@
 	<li><strong>musi</strong>: (동사) ~해야만 한다; (형용사/부사) ~해야만 하는</li>
 	<li><strong>ingay</strong>: (동사) ~해야 한다; (형용사/부사) ~해야 하는</li>
 </ul>
-<h2>일반적인 접사</h2>
+<h2>일반적인 접사 <span id="pimpan_fikso"></span></h2>
 <h3>명사 접미사 -ya <span id="xafefikso_-ya"></span></h3>
 <p>접미사 <strong>-ya</strong>는 다양한 유용한 기능을 가지고 있으며 여러 영어 접미사와 동일합니다: <em>-ity</em>, <em>-ness</em>, <em>-dom</em>,
 	<em>-hood</em>, <em>-ship</em>.</p>
@@ -556,28 +557,16 @@
 		</p>
 	</li>
 </ul>
-<p><em>접미사 <strong>-gi</strong>는 <strong>gibe</strong> (주다)에서 잘라낸 것입니다.<br /> <strong>gibe</strong>의 어원: 영어 (give), 독일어
-		(geben, gibt), 중국어 (给 “gěi”)</em></p>
 <h4>동사</h4>
-<p>접미사 <strong>-gi</strong>는 또한 자동사와 타동사를 사역 동사로 바꾸는 데 사용되거나(아래 참조), <a href="./inharelexi.html#falelexili_klase">동사
-		범주</a>에서 위에서 본 것처럼 피행위 양방향 타동사에서 선택적으로 사용됩니다.</p>
-<ul>
-	<li>
-		<p><strong>haha</strong> - 웃다<br />
-			<strong>hahagi</strong> - 웃게 하다 (<em>웃음을 유발하다</em>)
-		</p>
-	</li>
-	<li>
-		<p><strong>yam</strong> - 먹다<br />
-			<strong>yamgi</strong> - 먹이다 (<em>먹게 하다</em>)
-		</p>
-	</li>
-</ul>
+<p>접미사 <strong>-gi</strong>는 자동사와 타동사를 사역 동사로 바꾸거나, 위의 <a href="./inharelexi.html#falelexili_klase"><em>동사 범주</em></a>에서
+	볼 수 있듯이 양타동사에서 선택적으로 사용됩니다.</p>
+<p><em>접미사 <strong>-gi</strong>는 <strong>gibe</strong>(주다)에서 비롯되었습니다.<br /> <strong>gibe</strong>의 어원: 영어 (give), 독일어
+		(geben, gibt), 중국어 (给 “gěi”)</em></p>
 <h3>명사/동사 접미사 -cu <span id="xafefikso_-cu"></span></h3>
-<p>접미사 <strong>-cu</strong>는 <a href="./inharelexi.html#falelexili_klase">동사 범주</a>에서 위에서 본 것처럼 동사 외에도 형용사와 명사에 적용될 수
-	있습니다.</p>
+<p>접미사 <strong>-cu</strong>는 위의 <a href="./inharelexi.html#falelexili_klase"><em>동사 범주</em></a>에서 볼 수 있듯이 동사 외에도 형용사와
+	명사에 적용될 수 있습니다.</p>
 <h4>형용사</h4>
-<p>접미사 <strong>-cu</strong> (되다)는 형용사를 자동사로 바꿉니다.</p>
+<p>접미사 <strong>-cu</strong> (되다/얻다)는 형용사를 자동사로 바꿉니다.</p>
 <ul>
 	<li>
 		<p><strong>roso</strong> - 붉은<br />

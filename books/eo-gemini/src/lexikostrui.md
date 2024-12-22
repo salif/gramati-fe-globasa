@@ -19,7 +19,7 @@
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> gerundio; <em>kutima/daŭra verba
 			aspekto</em></li>
 </ul>
-<h2>Prefiksoj</h2>
+<h2>Prefiksoj <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> forestanta, for <ul>
 			<li><strong>awidi</strong> - foriri (<em>idi</em> - <em>iri</em>); <strong>awglu</strong> - eltrinki

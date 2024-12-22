@@ -1,7 +1,7 @@
 # 글로바사 문법
 
 이 책은 [글로바사 종합 문법](https://salif.github.io/gramati-fe-globasa/eng/)의 한국어 번역본입니다.
-[EPUB 형식](Gramati_fe_Globasa_Mesi_11_2024_ko_gemini.epub)으로 다운로드하거나
+[EPUB 형식](Gramati_fe_Globasa_Mesi_12_2024_ko_gemini.epub)으로 다운로드하거나
 [온라인](https://salif.github.io/gramati-fe-globasa/ko-gemini/)에서 읽을 수 있습니다.
 
 원문의 저자는 [글로바사 팀](https://globasa.net/)입니다.

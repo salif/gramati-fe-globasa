@@ -4,7 +4,7 @@ language = "ja"
 multilingual = false
 src = "src"
 title = "グロバサ文法"
-description = "ジェミニ言語モデルを使用して作成されたグロバサ文法の日本語翻訳"
+description = "グロバサ (Globasa) と呼ばれる人工言語の文法の非公式日本語訳。翻訳の一部は Gemini 言語モデルを使用して行われています。"
 
 [output.html]
 default-theme = "rust-sans"
@@ -18,6 +18,3 @@ site-url = "/gramati-fe-globasa/ja-gemini/"
 use-default-css = true
 no-section-label = false
 curly-quotes = false
-
-[output.ze]
-command = "just build-ze Gramati_fe_Globasa_Mesi_11_2024_ja_gemini build-ze-ignore"

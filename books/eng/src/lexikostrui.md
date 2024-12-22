@@ -18,7 +18,7 @@
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> gerund; <em>habitual/continuous verb
 			aspect</em></li>
 </ul>
-<h2>Prefixes</h2>
+<h2>Prefixes <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> absent, away <ul>
 			<li><strong>awidi</strong> - leave, go away (<em>idi</em> - <em>go</em>); <strong>awglu</strong> - drink up

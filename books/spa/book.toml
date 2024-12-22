@@ -4,7 +4,7 @@ language = "es"
 multilingual = false
 src = "src"
 title = "Gramática completa de Globasa"
-description = "Una copia de la gramática completa de Globasa"
+description = "Una copia de la gramática completa de Globasa."
 
 [output.html]
 default-theme = "rust-clr"
@@ -18,6 +18,3 @@ site-url = "/gramati-fe-globasa/spa/"
 use-default-css = true
 no-section-label = false
 curly-quotes = false
-
-[output.ze]
-command = "just build-ze Gramati_fe_Globasa_Mesi_11_2024_spa build-ze-ignore"

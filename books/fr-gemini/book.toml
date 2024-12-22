@@ -4,7 +4,7 @@ language = "fr"
 multilingual = false
 src = "src"
 title = "Grammaire de globasa"
-description = "Traduction française de la grammaire de globasa (via Google Gemini)"
+description = "Traduction française non officielle de la grammaire de la langue construite appelée globasa. Certaines parties de la traduction sont réalisées à l'aide du modèle linguistique Gemini."
 
 [output.html]
 default-theme = "rust-clr"
@@ -18,6 +18,3 @@ site-url = "/gramati-fe-globasa/fr-gemini/"
 use-default-css = true
 no-section-label = false
 curly-quotes = false
-
-[output.ze]
-command = "just build-ze Gramati_fe_Globasa_Mesi_11_2024_fr_gemini build-ze-ignore"

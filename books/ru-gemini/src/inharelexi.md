@@ -193,119 +193,170 @@
 <p>Порядок этих фраз может меняться местами:</p>
 <p><strong>Mi max jixi, folki mi max doxo.</strong><br /> Я знаю больше, чем больше я читаю.</p>
 <h3>Категории глаголов <span id="falelexili_klase"></span></h3>
-<p>Глаголы в словаре определены как <em>вспомогательные</em>, <em>связочные</em>, <em>переходные</em>,
-	<em>непереходные</em> или <em>амбитранзитивные</em>.</p>
+<p>В словаре глаголы определяются как <em>вспомогательные</em>, <em>глаголы-связки</em>, <em>переходные</em>,
+	<em>непереходные</em> или <em>амбипереходные</em>. Суффиксы, встречающиеся в этом разделе (<strong>-cu</strong>,
+	<strong>-gi</strong>, <strong>-ne</strong>, <strong>-do</strong>, <strong>-pul</strong>), объясняются ниже в разделе
+	<a href="./inharelexi.html#pimpan_fikso"><em>Распространенные аффиксы</em></a>. Значение приставки
+	<strong>xor-</strong> объясняется в разделе <a href="./lexikostrui.html#lefefikso"><em>Словообразование:
+			приставки</em></a>.</p>
 <h4>Вспомогательные глаголы</h4>
-<p>За <em>вспомогательными глаголами</em> сразу же следует другой глагол, который может быть опущен. В глобаса всего три
-	<em>вспомогательных глагола</em>: <strong>abil</strong> (мочь, быть способным), <strong>ingay</strong> (следует,
-	должен), <strong>musi</strong> (должен, обязан).</p>
-<h4>Связочные глаголы</h4>
-<p><em>Связочные глаголы</em> связывают подлежащее с его дополнением. В настоящее время существует 12 <em>связочных
-		глаголов</em>: <strong>sen</strong> (быть), <strong>xorsen</strong> (становиться), <strong>sencu</strong>
-	(становиться), <strong>sengi</strong> (заставлять быть), <strong>kwasisen</strong> (казаться),
-	<strong>okocu</strong> (выглядеть), <strong>orecu</strong> (звучать), <strong>nasacu</strong> (пахнуть),
-	<strong>xetocu</strong> (пробовать на вкус), <strong>pifucu</strong> (ощущаться на ощупь), <strong>hisicu</strong>
-	(ощущаться физически), <strong>ganjoncu</strong> (ощущаться эмоционально).</p>
+<p>За <em>вспомогательными глаголами</em> непосредственно следует другой глагол, который, впрочем, может быть опущен. В
+	глобасе всего три <em>вспомогательных глагола</em>: <strong>abil</strong> (мочь, быть способным),
+	<strong>ingay</strong> (следует, должен), <strong>musi</strong> (должен, вынужден). </p>
+<h4>Глаголы-связки</h4>
+<p><em>Глаголы-связки</em> связывают подлежащее с дополнением. В настоящее время существует 12 <em>глаголов-связок</em>:
+	<strong>sen</strong> (быть), <strong>xorsen</strong> (становиться), <strong>sencu</strong> (становиться),
+	<strong>sengi</strong> (делать, заставлять быть), <strong>kwasisen</strong> (казаться), <strong>okocu</strong>
+	(выглядеть), <strong>orecu</strong> (звучать), <strong>nasacu</strong> (пахнуть), <strong>xetocu</strong> (быть на
+	вкус), <strong>pifucu</strong> (чувствоваться на ощупь), <strong>hisicu</strong> (чувствовать физически или
+	эмоционально), <strong>ganjoncu</strong> (чувствовать эмоционально). </p>
 <h4>Переходные глаголы</h4>
 <p><em>Переходные глаголы</em> принимают прямое дополнение: <strong>haja</strong> (нуждаться), <strong>bujo</strong>
 	(ловить, захватывать), <strong>gibe</strong> (давать). Однако некоторые <em>переходные глаголы</em> иногда или часто
-	опускают прямое дополнение: <strong>doxo</strong> (читать), <strong>yam</strong> (есть).</p>
+	опускают прямое дополнение: <strong>doxo</strong> (читать), <strong>yam</strong> (есть), <strong>lala</strong>
+	(петь) и т. д. </p>
+<p>Некоторые <em>переходные глаголы</em> почти всегда используются без прямого дополнения: <strong>somno</strong>
+	(спать), <strong>haha</strong> (смеяться), <strong>pawbu</strong> (бегать), <strong>fley</strong> (летать) и т. д.
+</p>
+<p><strong>Mi le somno (lungo somno).</strong><br /> Я спал (долгим сном).</p>
+<p><strong>Yu le haha (sotipul haha).</strong><br /> Ты смеялся (громким смехом). </p>
+<p>Суффикс <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> может применяться к <em>переходным
+		глаголам</em> со значением _заставлять (прямое дополнение) [глагол-корень], делать так, чтобы (прямое
+	дополнение) [глагол-корень]._</p>
+<p><strong>Kam yu fleygi hawanavi?</strong><br /> Ты управляешь самолетом?</p>
+<p><strong>Mi xa sampogi bwaw fe axam.</strong><br /> Я выгуляю собаку вечером.</p>
+<p><strong>Payaco le hahagi mi.</strong><br /> Клоун заставил меня смеяться. </p>
 <h4>Непереходные глаголы</h4>
 <p><em>Непереходные глаголы</em> не принимают прямое дополнение: <strong>idi</strong> (идти), <strong>konduta</strong>
-	(вести себя), <strong>loka</strong> (быть расположенным). Однако некоторые глаголы, помеченные как непереходные,
-	могут использоваться как <em>переходные глаголы</em> с тем же существительным/глаголом, повторенным в качестве
-	прямого дополнения, или, аналогично, с именем собственным или категорией указанного существительного.</p>
-<p><strong>Mi le somno (lungo somno).</strong><br /> Я спал (долгий сон).</p>
-<p><strong>Yu le haha (sotipul haha).</strong><br /> Ты смеялся (громкий смех).</p>
-<p><strong>Te xa lala (Hox Xencudin).</strong><br /> Она споёт (С Днём Рождения).</p>
-<p><strong>Te danse (tango).</strong><br /> Он танцует (танго).</p>
-<p>Теоретически, все остальные <em>непереходные глаголы</em> могут использоваться в переходной форме с необязательным
-	использованием <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>, хотя в большинстве случаев лучше
-	применять <strong>-gi</strong>.</p>
-<p><strong>Kam yu fley(gi) hawanavi?</strong><br /> Ты управляешь самолётом?</p>
-<p><strong>Mi xa sampo(gi) bwaw fe axam.</strong><br /> Я буду выгуливать собаку вечером.</p>
-<h4>Амбитранзитивные глаголы</h4>
-<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive"><em>Амбитранзитивные глаголы</em></a> в
-	глобаса — это глаголы, у которых и подлежащее непереходного значения, и прямое дополнение переходного значения
-	испытывают одно и то же действие/состояние глагола. Непереходное значение этих глаголов может необязательно
-	применять <strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a></strong>, а переходное значение может
-	необязательно применять <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>. См. <strong>-cu</strong>
-	и <strong>-gi</strong> ниже в разделе <em>Общие аффиксы</em>. Существует четыре подкатегории <em>амбитранзитивных
-		глаголов</em>: <em>глаголы чувства</em>, <em>глаголы состояния</em>, <em>бездействующие глаголы</em> и
-	<em>глаголы положения/местоположения или движения</em>.</p>
-<p><em>Глаголы чувства</em></p>
-<p><em>Амбитранзитивные глаголы</em>, обозначающие чувство, означают <em>чувствовать [коренное существительное] или
-		вызывать чувство [коренное существительное]</em>. Обратите внимание, что непереходное значение также может быть
-	выражено как связочная и прилагательная фраза: <strong>sen</strong> <em>[коренное
-		существительное]</em><strong>-do</strong>. См. <strong><a
-			href="./inharelexi.html#xafefikso_-do">-do</a></strong> ниже.</p>
+	(вести себя), <strong>loka</strong> (находиться), <strong>side</strong> (сидеть), <strong>garaku</strong> (тонуть,
+	идти ко дну). <em>Непереходные глаголы</em> могут быть превращены в <em>переходные глаголы</em> с необязательным
+	использованием <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> при наличии прямого дополнения.
+</p>
 <ul>
-	<li><strong>interes(cu)</strong> - быть/чувствовать интерес (<em>чувствовать интерес</em>)<br />
-		<strong>interes(gi)</strong> - заинтересовать (<em>вызывать чувство интереса</em>)
+	<li><strong>garaku</strong> - тонуть, идти ко дну<br />
+		<strong>garaku(gi)</strong> - (заставлять) тонуть, топить
+	</li>
+</ul>
+<p><strong>Navikef le garaku.</strong><br /> Капитан утонул.</p>
+<p><strong>Navikef le garaku(gi) navi.</strong><br /> Капитан потопил корабль.</p>
+<p>Однако в словообразовании <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> является обязательным.
+	Сравните следующие прилагательные, образованные от <strong>garaku</strong> с помощью суффикса <strong><a
+			href="./inharelexi.html#xafefikso_-ne">-ne</a></strong>. </p>
+<p><strong>garakune navikef</strong> - тонущий капитан </p>
+<p><strong>garakugine navikef</strong>- капитан, топящий (корабль)</p>
+<h4>Амбипереходные глаголы</h4>
+<p><a
+		href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3"><em>Амбипереходные
+			глаголы</em></a> в глобасе — это глаголы, у которых и подлежащее непереходного значения, и прямое дополнение
+	переходного значения испытывают одно и то же действие/состояние глагола. Непереходное значение этих глаголов может
+	опционально использовать суффикс <strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a></strong>, а переходное
+	значение может опционально использовать суффикс <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>.
+</p>
+<p>Существует четыре подкатегории <em>амбипереходных глаголов</em>: <em>глаголы чувства</em>, <em>глаголы
+		состояния</em>, <em>безличные глаголы</em> и <em>глаголы положения/местоположения или движения</em>. </p>
+<p><em>Глаголы чувства</em></p>
+<p><em>Амбипереходные глаголы</em>, обозначающие чувство, означают <em>чувствовать [корень-существительное] или вызывать
+		чувство [корень-существительное]</em>. Обратите внимание, что непереходное значение также может быть выражено с
+	помощью глагола-связки и прилагательного: <strong>sen</strong> <em>[корень-существительное]</em><strong><a
+			href="./inharelexi.html#xafefikso_-do">-do</a></strong>.</p>
+<ul>
+	<li><strong>interes(cu)</strong> - быть заинтересованным/чувствовать интерес (<em>испытывать интерес</em>)<br />
+		<strong>interes(gi)</strong> - интересовать (<em>вызывать интерес</em>)
 	</li>
 </ul>
 <p><strong>Mi interes(cu) tem basalogi.</strong> = <strong>Mi sen interesdo tem basalogi.</strong><br /> Я интересуюсь
 	лингвистикой.</p>
 <p><strong>Basalogi interes(gi) mi.</strong><br /> Лингвистика интересует меня.</p>
 <ul>
-	<li><strong>pilo(cu)</strong> - быть/чувствовать усталость (<em>чувствовать усталость</em>)<br />
-		<strong>pilo(gi)</strong> - утомлять (<em>вызывать чувство усталости</em>)
+	<li><strong>pilo(cu)</strong> - быть уставшим/чувствовать усталость (<em>испытывать усталость</em>)<br />
+		<strong>pilo(gi)</strong> - утомлять (<em>вызывать усталость</em>)
 	</li>
 </ul>
 <p><strong>Te pilo(cu).</strong> = <strong>Te sen pilodo.</strong><br /> Она устала/чувствует усталость.</p>
 <p><strong>Tesu ergo pilo(gi) te.</strong><br /> Её работа утомляет её.</p>
-<p>Префикс <strong>xor-</strong> можно использовать с <em>глаголами чувства</em> для выражения следующего различия:</p>
-<p><strong>Mi le interes tem basalogi lefe multi nyan.</strong><br /> Я интересовался лингвистикой много лет назад.</p>
-<p><strong>Te le pilo dur na ergo.</strong><br /> Она устала во время работы.</p>
-<p>versus:</p>
+<p>Приставка <strong>xor-</strong> может использоваться с <em>глаголами чувства</em>, чтобы выразить следующее различие:
+</p>
+<p><strong>Mi le interes tem basalogi lefe multi nyan.</strong><br /> Я интересовался лингвистикой много лет назад. </p>
+<p><strong>Te le pilo dur na ergo.</strong><br /> Она уставала во время работы.</p>
+<p>против:</p>
 <p><strong>Mi le xorinteres tem basalogi lefe multi nyan.</strong><br /> Я заинтересовался лингвистикой много лет назад.
 </p>
-<p><strong>Te le xorpilo dur na ergo.</strong><br /> Она устала/стала уставшей во время работы.</p>
+<p><strong>Te le xorpilo dur na ergo.</strong><br /> Она устала во время работы.</p>
 <p><em>Глаголы состояния</em></p>
-<p><em>Амбитранзитивные глаголы состояния</em> похожи на <em>глаголы чувства</em>. Это <em>существительные
-		состояния</em>, которые можно использовать в качестве <em>амбитранзитивных глаголов</em>, означающих <em>иметь
-		[коренное существительное] или вызывать наличие [коренное существительное]</em>. Обратите внимание, что
-	непереходное значение также может быть выражено как связочная и прилагательная фраза: <strong>sen</strong>
-	<em>[коренное существительное]</em><strong>-pul</strong>. См. <strong><a
-			href="./inharelexi.html#xafefikso_-pul">-pul</a></strong> ниже.
+<p><em>Амбипереходные глаголы состояния</em> похожи на <em>глаголы чувства</em>. Это <em>существительные состояния</em>,
+	которые могут использоваться как <em>амбипереходные глаголы</em> со значением <em>иметь [корень-существительное] или
+		заставлять иметь [корень-существительное]</em>. Обратите внимание, что непереходное значение также может быть
+	выражено с помощью глагола-связки и прилагательного: <strong>sen</strong>
+	<em>[корень-существительное]</em><strong><a href="./inharelexi.html#xafefikso_-pul">-pul</a></strong>.
 </p>
 <ul>
-	<li><strong>termo(cu)</strong> - быть горячим/тёплым (<em>иметь тепло</em>)<br />
-		<strong>termo(gi)</strong> - нагревать (<em>вызывать наличие тепла</em>)
+	<li><strong>termo(cu)</strong> - быть горячим/теплым (<em>иметь тепло</em>)<br />
+		<strong>termo(gi)</strong> - нагревать (<em>заставлять иметь тепло</em>)
 	</li>
 </ul>
 <p><strong>Misu kafe no haji termo.</strong> = <strong>Misu kafe no haji sen termopul.</strong><br /> Мой кофе больше не
 	горячий.</p>
-<p><strong>Kam yu le termo banyo-kamer?</strong><br /> Ты нагрел ванную комнату?</p>
+<p><strong>Kam yu le termo banyo-kamer?</strong><br /> Ты нагрел ванную?</p>
 <ul>
-	<li><strong>cinon(cu)</strong> - быть умным (<em>иметь интеллект</em>)<br />
-		<strong>cinon(gi)</strong> - сделать умным (<em>вызывать наличие интеллекта</em>)
+	<li><strong>cinon(cu)</strong> - быть умным (<em>иметь ум</em>)<br />
+		<strong>cinon(gi)</strong> - делать умным (<em>заставлять иметь ум</em>)
 	</li>
 </ul>
-<p><strong>Syensiyen cinon.</strong> = <strong>Syensiyen sen cinonpul.</strong><br /> Учёный умён.</p>
-<p><strong>Eskol le cinon te.</strong><br /> Школа сделала его умным.</p>
+<p><strong>Syensiyen cinon.</strong> = <strong>Syensiyen sen cinonpul.</strong><br /> Ученый умный. </p>
+<p><strong>Eskol le cinon te.</strong><br /> Школа сделала его умным. </p>
 <ul>
 	<li><strong>talento(cu)</strong> - быть талантливым (<em>иметь талант</em>)<br />
-		<strong>talento(gi)</strong> - сделать талантливым (<em>вызывать наличие таланта</em>)
+		<strong>talento(gi)</strong> - делать талантливым (<em>заставлять иметь талант</em>)
 	</li>
 </ul>
 <p><strong>Lalayen talento.</strong> = <strong>Lalayen sen talentopul.</strong><br /> Певец талантлив.</p>
 <p><strong>Patre le talento lalayen.</strong><br /> Отец сделал певца талантливым.</p>
-<p>Префикс <strong>xor-</strong> можно использовать с <em>глаголами состояния</em> для выражения следующего различия:
-</p>
-<p><strong>Jaledin le termo.</strong> = <strong>Jaledin le sen termopul.</strong><br /> Вчера было тепло</p>
-<p><strong>To le xortermo fe midinuru.</strong> = <strong>To le xorsen/sencu termopul fe midinuru.</strong><br /> Оно
-	по-теплело/стало тёплым в полдень.</p>
-<p><em>Бездействующие глаголы</em></p>
-<p>В непереходном значении <em>бездействующих амбитранзитивных глаголов</em> действие — это то, что происходит с
-	подлежащим, а не то, что подлежащее выполняет.</p>
+<p>Приставка <strong>xor-</strong> может использоваться с <em>глаголами состояния</em>, чтобы выразить следующее
+	различие:</p>
+<p><strong>Jaledin le termo.</strong> = <strong>Jaledin le sen termopul.</strong><br /> Вчера было тепло.</p>
+<p><strong>To le xortermo fe midinuru.</strong> = <strong>To le xorsen/sencu termopul fe midinuru.</strong><br /> Стало
+	тепло в полдень. </p>
+<p><em>Безличные глаголы</em></p>
+<p>В непереходном значении <em>безличных амбипереходных глаголов</em> действие — это то, что происходит с подлежащим, а
+	не то, что подлежащее выполняет. </p>
 <ul>
-	<li><strong>kasiru(cu)</strong> - ломаться (<em>ломаться</em>)<br />
-		<strong>kasiru(gi)</strong> - ломать (<em>вызывать поломку</em>)
+	<li><strong>kasiru(cu)</strong> - ломаться (<em>становиться сломанным</em>)<br />
+		<strong>kasiru(gi)</strong> - ломать (<em>заставлять сломаться</em>)
 	</li>
 </ul>
-<p><strong>Janela le kasiru(cu).</strong><br /> Окно разбилось.</p>
+<p><strong>Janela le kasiru(cu).</strong><br /> Окно разбилось. </p>
 <p><strong>Mi le kasiru(gi) janela.</strong><br /> Я разбил окно.</p>
+<ul>
+	<li><strong>boyle(cu)</strong> - кипеть (<em>становиться кипяченым</em>)<br />
+		<strong>boyle(gi)</strong> - кипятить (<em>заставлять кипеть</em>)
+	</li>
+</ul>
+<p><strong>Sui le boyle(cu).</strong><br /> Вода закипела.</p>
+<p><strong>Te le boyle(gi) sui.</strong><br /> Она вскипятила воду.</p>
+<ul>
+	<li><strong>fini(cu)</strong> - заканчиваться (<em>подходить к концу</em>)<br />
+		<strong>fini(gi)</strong> - заканчивать (<em>заставлять подойти к концу</em>)
+	</li>
+</ul>
+<p><strong>Jange le fini(cu).</strong><br /> Война закончилась.</p>
+<p><strong>Ete le fini(gi) jange.</strong><br /> Они закончили войну.</p>
+<p><em>Глаголы положения/местоположения или движения</em></p>
+<p>В непереходном значении <em>амбипереходных глаголов положения/местоположения или движения</em> подлежащее
+	одновременно является и субъектом, и объектом. </p>
+<ul>
+	<li><strong>esto(cu)</strong> - останавливаться (<em>приходить к остановке</em>)<br />
+		<strong>esto(gi)</strong> - останавливать (<em>приводить к остановке или заставлять остановиться</em>)
+	</li>
+</ul>
+<p><strong>Am esto(cu)!</strong><br /> Остановись!</p>
+<p><strong>Am esto(gi) mobil!</strong><br /> Останови машину!</p>
+<ul>
+	<li><strong>harka(cu)</strong> - двигаться (<em>совершать движение</em>)<br />
+		<strong>harka(gi)</strong> - двигать (<em>заставлять двигаться</em>)
+	</li>
+</ul>
+<p><strong>Am no harka(cu)!</strong><br /> Не двигайся!</p>
+<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> Я подвинул твой стул. </p>
 <ul>
 	<li><strong>buka(cu)</strong> - открываться (<em>становиться открытым</em>)<br />
 		<strong>buka(gi)</strong> - открывать (<em>делать открытым</em>)
@@ -313,58 +364,13 @@
 </ul>
 <p><strong>Dwer le buka(cu).</strong><br /> Дверь открылась.</p>
 <p><strong>Mi le buka(gi) dwer.</strong><br /> Я открыл дверь.</p>
-<p><em>Глаголы положения/местоположения или движения</em></p>
-<p>В непереходном значении <em>амбитранзитивных глаголов положения/местоположения или движения</em> подлежащее является
-	одновременно агентом и пациентом.</p>
-<ul>
-	<li><strong>esto(cu)</strong> - остановиться (<em>прийти к остановке</em>)<br />
-		<strong>esto(gi)</strong> - останавливать (<em>приводить к остановке или вызывать остановку</em>)
-	</li>
-</ul>
-<p><strong>Am esto(cu)!</strong><br /> Остановись!</p>
-<p><strong>Am esto(gi) mobil!</strong><br /> Останови машину!</p>
-<ul>
-	<li><strong>harka(cu)</strong> - двигаться (<em>совершать движение</em>)<br />
-		<strong>harka(gi)</strong> - двигать (<em>вызывать движение</em>)
-	</li>
-</ul>
-<p><strong>Am no harka(cu)!</strong><br /> Не двигайся!</p>
-<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> Я передвинул твой стул.</p>
-<p>Следующие три глагола в этой подкатегории также используют <strong>xor-</strong>, как было показано выше, чтобы
-	сделать аналогичное различие в значении:</p>
-<ul>
-	<li><strong>side(cu)</strong> - сидеть (<em>быть сидящим</em>)<br />
-		<strong>side(gi)</strong> - посадить (<em>заставлять сидеть</em>)
-	</li>
-</ul>
-<p><strong>Te side(cu) fe fronta de darsu-kamer.</strong><br /> Он сидит впереди класса.</p>
-<p><strong>Am side(gi) bebe per hin kursi.</strong><br /> Посади ребёнка на этот стул.</p>
-<ul>
-	<li><strong>xorside(cu)</strong> - сесть</li>
-</ul>
-<p><strong>Am xorside per sofa.</strong><br /> Садись на диван.</p>
-<ul>
-	<li><strong>estay(cu)</strong> - стоять (<em>стоять</em>)<br />
-		<strong>estay(gi)</strong> - (заставлять) стоять
-	</li>
-</ul>
-<p><strong>Yu estay(cu) per misu kamisa!</strong><br /> Ты стоишь на моей рубашке!</p>
-<p><strong>Am estay(gi) bebe.</strong><br /> Поставь ребёнка.</p>
-<ul>
-	<li><strong>xorestay(cu)</strong> - встать</li>
-</ul>
-<p><strong>Mi le xorestay denwatu hu te le inidi kamer.</strong><br /> Я встал, когда она вошла в комнату.</p>
-<ul>
-	<li><strong>leta(cu)</strong> - лежать (<em>быть лежащим</em>)<br />
-		<strong>leta(gi)</strong> - класть
-	</li>
-</ul>
-<p><strong>Myaw leta(cu) per dixan.</strong><br /> Кошка лежит на полу.</p>
-<p><strong>Mi xa leta(gi) bwaw per bistar.</strong><br /> Я положу собаку на кровать.</p>
-<ul>
-	<li><strong>xorleta(cu)</strong> - лечь</li>
-</ul>
-<p><strong>Am no xorleta per sofa!</strong><br /> Не ложись на диван!</p>
+<p>В словообразовании <em>амбипереходные глаголы</em> функционируют как <em>переходные глаголы</em> без необходимости
+	использования <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>. Однако, когда в словообразовании
+	требуется <em>непереходное</em> значение глагола, необходимо применять <strong><a
+			href="./inharelexi.html#xafefikso_-cu">-cu</a></strong>. Сравните следующие прилагательные, образованные от
+	<strong>buka</strong> с помощью суффикса <strong><a href="./inharelexi.html#xafefikso_-ne">-ne</a></strong>:</p>
+<p><strong>bukane merasem</strong> - церемония открытия</p>
+<p><strong>bukacune dwer</strong> - открывающаяся дверь</p>
 <h2>Прилагательные/Наречия</h2>
 <p>В глобаса прилагательные и <em>наречия, изменяющие глаголы</em>, имеют идентичную форму.</p>
 <ul>
@@ -445,7 +451,7 @@
 	<li><strong>musi</strong>: (глагол) должен, обязан; (прил./нареч.) который должен, который обязан</li>
 	<li><strong>ingay</strong>: (глагол) следует, должен; (прил./нареч.) который должен, которому следует</li>
 </ul>
-<h2>Общие аффиксы</h2>
+<h2>Общие аффиксы <span id="pimpan_fikso"></span></h2>
 <h3>Суффикс существительного -ya <span id="xafefikso_-ya"></span></h3>
 <p>Суффикс <strong>-ya</strong> выполняет множество полезных функций и эквивалентен нескольким английским суффиксам:
 	<em>-ity</em>, <em>-ness</em>, <em>-dom</em>, <em>-hood</em>, <em>-ship</em>.</p>
@@ -601,29 +607,17 @@
 		</p>
 	</li>
 </ul>
-<p><em>Суффикс <strong>-gi</strong> является усечением от <strong>gibe</strong> (давать).<br /> Этимология
-		<strong>gibe</strong>: английский (give), немецкий (geben, gibt) и мандаринский (给 “gěi”)</em></p>
 <h4>Глаголы</h4>
-<p>Суффикс <strong>-gi</strong> также используется для превращения непереходных и переходных глаголов в причинные
-	глаголы (как показано ниже) или используется по желанию в пациентивных амбитранзитивных глаголах, как показано выше
-	в разделе <a href="./inharelexi.html#falelexili_klase">Категории глаголов</a>.</p>
-<ul>
-	<li>
-		<p><strong>haha</strong> - смеяться<br />
-			<strong>hahagi</strong> - смешить (<em>вызывать смех</em>)
-		</p>
-	</li>
-	<li>
-		<p><strong>yam</strong> - есть<br />
-			<strong>yamgi</strong> - кормить (<em>заставлять есть</em>)
-		</p>
-	</li>
-</ul>
+<p>Суффикс <strong>-gi</strong> также используется для преобразования непереходных и переходных глаголов в каузативные
+	глаголы или опционально в амбипереходных глаголах, как показано в разделе <a
+		href="./inharelexi.html#falelexili_klase"><em>Категории глаголов</em></a> выше.</p>
+<p><em>Суффикс <strong>-gi</strong> происходит от <strong>gibe</strong> (давать).<br /> Этимология
+		<strong>gibe</strong>: английский (give), немецкий (geben, gibt) и китайский (путунхуа) (给 “gěi”)</em></p>
 <h3>Суффикс существительного/глагола -cu <span id="xafefikso_-cu"></span></h3>
-<p>Суффикс <strong>-cu</strong> может применяться к прилагательным и существительным, а также к глаголам, как показано
-	выше в разделе <a href="./inharelexi.html#falelexili_klase">Категории глаголов</a>.</p>
+<p>Суффикс <strong>-cu</strong> может применяться к прилагательным и существительным, в дополнение к глаголам, как
+	показано в разделе <a href="./inharelexi.html#falelexili_klase"><em>Категории глаголов</em></a> выше.</p>
 <h4>Прилагательные</h4>
-<p>Суффикс <strong>-cu</strong> (получать/становиться) превращает прилагательные в непереходные глаголы.</p>
+<p>Суффикс <strong>-cu</strong> (становиться/стать) превращает прилагательные в непереходные глаголы.</p>
 <ul>
 	<li>
 		<p><strong>roso</strong> - красный<br />

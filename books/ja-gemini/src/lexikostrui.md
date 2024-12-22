@@ -14,7 +14,7 @@
 	<li><strong><a href="./falelexili-morfo.html#be-">be-</a>:</strong> 受動態</li>
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> 動名詞；<em>習慣的/継続的な動詞の相</em></li>
 </ul>
-<h2>接頭辞</h2>
+<h2>接頭辞 <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> 不在、離れて <ul>
 			<li><strong>awidi</strong> - 去る、立ち去る（<em>idi</em> - <em>行く</em>）；<strong>awglu</strong> - 飲み干す（<em>glu</em>
