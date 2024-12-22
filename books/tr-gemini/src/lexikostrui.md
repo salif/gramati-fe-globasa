@@ -17,7 +17,7 @@
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> ulaç; <em>alışkanlık/sürekli fiil
 			görünümü</em></li>
 </ul>
-<h2>Önekler</h2>
+<h2>Önekler <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> yok, uzakta <ul>
 			<li><strong>awidi</strong> - ayrılmak, uzaklaşmak (<em>idi</em> - <em>gitmek</em>); <strong>awglu</strong> -

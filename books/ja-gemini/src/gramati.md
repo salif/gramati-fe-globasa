@@ -1,7 +1,7 @@
 # グロバサ文法
 
 この本は、[グロバサの完全な文法](https://salif.github.io/gramati-fe-globasa/eng/)の日本語訳です。
-[EPUB形式](Gramati_fe_Globasa_Mesi_11_2024_ja_gemini.epub)でダウンロードするか、
+[EPUB形式](Gramati_fe_Globasa_Mesi_12_2024_ja_gemini.epub)でダウンロードするか、
 [オンライン](https://salif.github.io/gramati-fe-globasa/ja-gemini/)で読むことができます。
 
 原著の作者は[グロバサチーム](https://globasa.net/)です。

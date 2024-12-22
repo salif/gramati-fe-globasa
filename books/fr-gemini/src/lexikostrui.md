@@ -20,7 +20,7 @@
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> <em>aspect verbal habituel/continu</em>
 	</li>
 </ul>
-<h2>Préfixes</h2>
+<h2>Préfixes <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> pas ici ou pas là <ul>
 			<li><strong>awidi</strong> - partir (<em>idi</em> - <em>aller</em>); <strong>awglu</strong> - boire

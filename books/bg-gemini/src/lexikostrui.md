@@ -19,7 +19,7 @@
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> герундий; <em>обичаен/продължителен глаголен
 			аспект</em></li>
 </ul>
-<h2>Префикси</h2>
+<h2>Префикси <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> отсъстващ, далеч <ul>
 			<li><strong>awidi</strong> - напускам, отивам си (<em>idi</em> - <em>отивам</em>); <strong>awglu</strong> -

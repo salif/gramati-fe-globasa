@@ -20,7 +20,7 @@
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> <em>aspecto verbal habitual/contínuo</em>
 	</li>
 </ul>
-<h2>Prefixos</h2>
+<h2>Prefixos <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> não aqui ou não ali <ul>
 			<li><strong>awidi</strong> - ir-se embora (<em>idi</em> - <em>ir</em>); <strong>awglu</strong> - beber tudo

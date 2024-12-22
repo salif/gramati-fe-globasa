@@ -19,7 +19,7 @@
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> <em>aspecto verbal habitual/continuo</em>
 	</li>
 </ul>
-<h2>Prefijos</h2>
+<h2>Prefijos <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> no aquí o no allí <ul>
 			<li><strong>awidi</strong> - irse (<em>idi</em> - <em>ir</em>); <strong>awglu</strong> - bebérse
