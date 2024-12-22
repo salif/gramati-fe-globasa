@@ -80,7 +80,7 @@ del_all_gitignore:
 	const {fs, path} = require("zx")
 	const books = fs.readdirSync(path.resolve("books"))
 	for (const book of books) {
-		fs.removeSync(path.resolve("dest", book, ".gitignore"))
+		fs.removeSync(path.resolve("docs", book, ".gitignore"))
 	}
 
 [group('make')]
@@ -92,14 +92,14 @@ del book:
 	const bookName = "{{ book }}"
 	let books = []
 	if (bookName === "all") {
-		books = zx.fs.readdirSync(zx.path.resolve("docs"))
+		books = zx.fs.readdirSync(zx.path.resolve("docs"),
+			{ withFileTypes: true }).filter(e => e.isDirectory() && e.name !== "fonts").map(e => zx.path.resolve("docs", e.name))
 	} else {
 		books = [bookName]
 	}
 	for (const book of books) {
-		const dest = zx.path.resolve("docs", book)
-		if (zx.fs.pathExistsSync(zx.path.join(dest, "toc.html"))) {
-			zx.fs.removeSync(dest)
+		if (zx.fs.pathExistsSync(book)) {
+			zx.fs.removeSync(book)
 		} else if (bookName !== "all") {
 			console.log(`Skipping ${book}`)
 		}
