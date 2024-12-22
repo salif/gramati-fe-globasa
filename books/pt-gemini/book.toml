@@ -4,7 +4,7 @@ language = "pt"
 multilingual = false
 src = "src"
 title = "Gramática da globasa"
-description = "Tradução portuguesa da gramática da globasa (via Google Gemini)"
+description = "Tradução não oficial para o português da gramática da língua construída chamada globasa. Partes da tradução são feitas usando o modelo de linguagem Gemini."
 
 [output.html]
 default-theme = "rust-clr"

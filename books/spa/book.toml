@@ -4,7 +4,7 @@ language = "es"
 multilingual = false
 src = "src"
 title = "Gramática completa de Globasa"
-description = "Una copia de la gramática completa de Globasa"
+description = "Una copia de la gramática completa de Globasa."
 
 [output.html]
 default-theme = "rust-clr"

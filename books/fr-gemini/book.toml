@@ -4,7 +4,7 @@ language = "fr"
 multilingual = false
 src = "src"
 title = "Grammaire de globasa"
-description = "Traduction française de la grammaire de globasa (via Google Gemini)"
+description = "Traduction française non officielle de la grammaire de la langue construite appelée globasa. Certaines parties de la traduction sont réalisées à l'aide du modèle linguistique Gemini."
 
 [output.html]
 default-theme = "rust-clr"

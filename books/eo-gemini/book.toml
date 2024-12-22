@@ -4,7 +4,7 @@ language = "eo"
 multilingual = false
 src = "src"
 title = "Gramatiko de Globaso"
-description = "Esperanta traduko de gramatiko de Globaso (per Google Gemini)"
+description = "Neoficiala Esperanto-traduko de la gramatiko de la konstruita lingvo nomata Globasa. Partoj de la traduko estas faritaj per la lingvomodelo Gemini."
 
 [output.html]
 default-theme = "rust-clr"

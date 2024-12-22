@@ -4,7 +4,7 @@ language = "tr"
 multilingual = false
 src = "src"
 title = "Globasa dilbilgisi"
-description = "Globasa dilbilgisinin Türkçe çevirisi (Google Gemini ile)"
+description = "Globasa adı verilen yapay dilin gramerinin resmi olmayan Türkçe çevirisi. Çevirinin bazı kısımları Gemini dil modeli kullanılarak yapılmıştır."
 
 [output.html]
 default-theme = "rust-clr"
