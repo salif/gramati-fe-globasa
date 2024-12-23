@@ -50,7 +50,7 @@ function parseEpubFileName(mdFile) {
 	return md.substring(md.lastIndexOf("(", lindex) + 1, lindex + 5)
 }
 
-export async function del(bookName) {
+export function del(bookName) {
 	const docsPath = path.resolve("docs")
 	let books = []
 	if (bookName === "all") {
@@ -66,5 +66,20 @@ export async function del(bookName) {
 		} else {
 			console.warn(`${book} is already deleted`)
 		}
+	}
+}
+
+export function syncTheme() {
+	const booksPath = path.resolve("books")
+	const books = fs.readdirSync(booksPath)
+	for (const book of books) {
+		const themePath = path.join(booksPath, book, "theme")
+		if (fs.pathExistsSync(themePath)) {
+			fs.removeSync(themePath)
+		}
+		fs.mkdirSync(themePath)
+		fs.copySync(path.resolve("theme"), themePath, { recursive: true })
+		fs.mkdirSync(path.join(themePath, "fonts"))
+		fs.writeFileSync(path.join(themePath, "fonts", "fonts.css"), "")
 	}
 }

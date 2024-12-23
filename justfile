@@ -22,7 +22,7 @@ check_requirements:
 [doc('Build books')]
 [extension(".mjs"), script("node")]
 build:
-	import {build} from "{{ just_scripts }}/make.js"; build();	
+	import {build} from "{{ just_scripts }}/make.js"; await build();
 
 [group('make')]
 [doc('Delete a built book')]
@@ -33,26 +33,18 @@ del book:
 [confirm]
 [group('make')]
 [doc('Apply theme changes to all books')]
+[extension(".mjs"), script("node")]
 sync_theme:
-	@cd books && { \
-		for d in */; do \
-			rm -rf "./${d}theme"; \
-			mkdir -p "./${d}theme/fonts/"; \
-			touch "./${d}theme/fonts/fonts.css"; \
-			cp -rft "./${d}theme/" ../theme/*; \
-		done; \
-	}
+	import {syncTheme} from "{{ just_scripts }}/make.js"; syncTheme();
 
 [group('test')]
 [doc('Serve')]
 serve port='4000':
 	#!/usr/bin/env node
 	"use strict"
-	const express = require('express');
-	const path = require('path');
-	const app = express();
-	const basePath = '/gramati-fe-globasa/';
-	app.use(basePath, express.static(path.join('.', 'docs')));
+	const express = require("express"), path = require("path"),
+		app = express(), basePath = "/gramati-fe-globasa/";
+	app.use(basePath, express.static(path.join(".", "docs")));
 	const server = app.listen({{ port }}, () => {
 		const addr = server.address();
 		console.log(`Server is listening on http://localhost:${addr.port}${basePath}`);
@@ -77,8 +69,8 @@ gh_pages: && (del "all") build del_all_gitignore update_sitemap gh_pages_2
 	git switch gh-pages
 	git merge main -X theirs --no-ff --no-commit
 
-[group('push')]
 [private]
+[group('push')]
 gh_pages_2:
 	git add docs
 	git merge --continue
@@ -88,30 +80,12 @@ gh_pages_2:
 [private]
 [group('push')]
 update_sitemap:
-	#!/usr/bin/env bash
-	set -euo pipefail
-	cd docs
-	SITEMAP='sitemap.xml'
-	URL='https://salif.github.io/gramati-fe-globasa/'
-	NOW=$(date +%F)
-	printf "%s\n%s\n" '<?xml version="1.0" encoding="UTF-8"?>' \
-	'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' > ${SITEMAP}
-	find * -type f -name '*.html' ! -name '404.html' ! -name 'print.html' | LC_COLLATE=C sort | \
-	while read -r line; do
-		LASTMOD=$(git log -1 --pretty="format:%cs" "${line}")
-		if [[ "${line}" == *index.html ]]; then
-			line="${line::-10}"
-		fi
-		printf "%s\n%s%s%s\n%s%s%s\n%s\n" '<url>' \
-		'<loc>' "${URL}${line}" '</loc>' \
-		'<lastmod>' "${LASTMOD:-${NOW}}" '</lastmod>' '</url>' >> ${SITEMAP}
-	done
-	printf "%s\n" '</urlset>' >> ${SITEMAP}
+	@bash {{ just_scripts / "sitemap.bash" }}
 
 [group('pull-orig')]
 [extension(".mjs"), script("node")]
 orig_pull book:
-	import {update} from "{{ just_scripts }}/orig_pull.js"; update("{{ book }}");
+	import {update} from "{{ just_scripts }}/orig_pull.js"; await update("{{ book }}");
 
 [group('pull-orig')]
 [extension(".mjs"), script("node")]
@@ -121,4 +95,4 @@ orig_remove book:
 [group('pull-orig')]
 [extension(".mjs"), script("node")]
 orig_diff book out="orig.diff":
-	import {diff} from "{{ just_scripts }}/orig_pull.js"; diff("{{ book }}", "{{ out }}");
+	import {diff} from "{{ just_scripts }}/orig_pull.js"; await diff("{{ book }}", "{{ out }}");
