@@ -20,90 +20,15 @@ check_requirements:
 
 [group('make')]
 [doc('Build books')]
+[extension(".mjs"), script("node")]
 build:
-	#!/usr/bin/env node
-	"use strict"
-	const zx = require("zx")
-	const fs = zx.fs, path = zx.path
-	const skippedBooks = []
-	;(async () => {
-		const jfDir = process.cwd()
-		const books = fs.readdirSync("./books")
-		for (const book of books) {
-			const bookDir = path.join(jfDir, "books", book)
-			const destDir = path.join(jfDir, "docs", book)
-			if (fs.pathExistsSync(destDir)) {
-				skippedBooks.push(book)
-				continue
-			}
-			zx.cd(bookDir)
-			await buildBook(book, bookDir, destDir)
-		}
-		if (skippedBooks.length > 0)
-			console.log(`Skipping ${skippedBooks.join(', ')}`)
-	})()
-	async function buildBook(book, bookDir, destDir) {
-		console.log(`Building ${book}`)
-		try {
-			await zx.$`mdbook build`
-			fs.ensureDirSync(destDir)
-			fs.copySync(path.join(bookDir, "book", "html"), destDir, {recursive: true})
-			copyEpubFile(bookDir, destDir)
-			fs.outputFileSync(path.join(destDir, ".gitignore"), "*")
-			await zx.$`mdbook clean`
-		} catch (error) {
-			console.error(`Error building ${book}: ${error}`)
-			process.exitCode = 1
-		}
-	}
-	function copyEpubFile(bookDir, destDir) {
-		const destEpubName = parseEpubFileName(path.join(bookDir, "src", "gramati.md"))
-		const epubDir = path.join(bookDir, "book", "epub")
-		const epubs = fs.readdirSync(epubDir)
-		if (epubs.length === 1) {
-			fs.copyFileSync(path.join(epubDir, epubs[0]), path.join(destDir, destEpubName))
-		} else {
-			console.error("Epub files not one:", epubs)
-		}
-	}
-	function parseEpubFileName(mdFile) {
-		const md = fs.readFileSync(mdFile, "utf-8")
-		const lindex = md.indexOf(".epub)")
-		return md.substring(md.lastIndexOf("(", lindex)+1, lindex+5)
-	}
-
-[private]
-[group('push')]
-del_all_gitignore:
-	#!/usr/bin/env node
-	"use strict"
-	const {fs, path} = require("zx")
-	const books = fs.readdirSync(path.resolve("books"))
-	for (const book of books) {
-		fs.removeSync(path.resolve("docs", book, ".gitignore"))
-	}
+	import {build} from "{{ just_scripts }}/make.js"; build();	
 
 [group('make')]
 [doc('Delete a built book')]
+[extension(".mjs"), script("node")]
 del book:
-	#!/usr/bin/env node
-	"use strict"
-	const zx = require("zx")
-	const bookName = "{{ book }}"
-	let books = []
-	if (bookName === "all") {
-		books = zx.fs.readdirSync(zx.path.resolve("docs"),
-			{ withFileTypes: true }).filter(e => e.isDirectory() && e.name !== "fonts").map(e => zx.path.resolve("docs", e.name))
-	} else {
-		books = [bookName]
-	}
-	for (const book of books) {
-		if (zx.fs.pathExistsSync(book)) {
-			zx.fs.removeSync(book)
-		} else if (bookName !== "all") {
-			console.log(`Skipping ${book}`)
-		}
-	}
+	import {del} from "{{ just_scripts }}/make.js"; del("{{ book }}");	
 
 [confirm]
 [group('make')]
@@ -132,6 +57,17 @@ serve port='4000':
 		const addr = server.address();
 		console.log(`Server is listening on http://localhost:${addr.port}${basePath}`);
 	});
+
+[private]
+[group('push')]
+del_all_gitignore:
+	#!/usr/bin/env node
+	"use strict"
+	const {fs, path} = require("zx")
+	const books = fs.readdirSync(path.resolve("books"))
+	for (const book of books) {
+		fs.removeSync(path.resolve("docs", book, ".gitignore"))
+	}
 
 [confirm]
 [group('push')]
