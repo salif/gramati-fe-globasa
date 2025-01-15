@@ -5205,6 +5205,22 @@
         <!-- Custom JS scripts -->
 
         <script>
+            "use strict";
+            (function () {
+            	const s2h = {};
+            	const h1s = Array.from(document.getElementById("content").querySelectorAll("h1[id]")).map(e => e.getAttribute("id"));
+            	Array.from(document.getElementById("sidebar").querySelectorAll(".chapter-item a")).forEach((e, i) => s2h["./" + e.getAttribute("href")] = h1s[i]);
+            	Array.from(document.getElementById("content").querySelectorAll("a[href]")).filter(e => e.getAttribute("href").startsWith("./")).forEach(e => {
+            		const h = e.getAttribute("href");
+            		if (h.endsWith(".html")) {
+            			e.setAttribute("href", "#" + s2h[h]);
+            		} else if (h.includes(".html#")) {
+            			e.setAttribute("href", h.substring(h.indexOf(".html") + 5));
+            		}
+            	});
+            })();
+        </script>
+        <script>
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
