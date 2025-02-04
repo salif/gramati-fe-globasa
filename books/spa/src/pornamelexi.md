@@ -52,9 +52,11 @@
 	<li><strong>mante</strong> - él</li>
 	<li><strong>femete</strong>/<strong>manete</strong> - ellas / ellos</li>
 </ul>
-<h3>seli</h3>
-<p>El adjetivo <strong>seli</strong> se utiliza con pronombres de sujeto para expresar énfasis en uno mismo.</p>
-<p><strong>seli mi</strong> - yo mismo <strong>seli yu</strong> - tú mismo etc.</p>
+<h3>he</h3>
+<p>La partícula <strong>he</strong> se usa con pronombres personales para expresar énfasis.</p>
+<p><strong>he mi</strong> - yo mismo<br />
+	<strong>he yu</strong> - tú mismo<br /> etc.
+</p>
 <h2>Adjetivos posesivos <span id="suyali_sifalexi"></span></h2>
 <p>Los adjetivos posesivos se derivan de los pronombres añadiendo el sufijo <strong>-su</strong>:</p>
 <table style="width:100%">

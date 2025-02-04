@@ -52,10 +52,10 @@
 	<li><strong>mante</strong> - he</li>
 	<li><strong>femete</strong>/<strong>manete</strong> - they</li>
 </ul>
-<h3>seli</h3>
-<p>The adjective <strong>seli</strong> is used with subject pronouns to express emphasis of self.</p>
-<p><strong>seli mi</strong> - I myself<br />
-	<strong>seli yu</strong> - you yourself<br /> etc.
+<h3>he</h3>
+<p>The particle <strong>he</strong> is used with subject pronouns to express emphasis.</p>
+<p><strong>he mi</strong> - I myself<br />
+	<strong>he yu</strong> - you yourself<br /> etc.
 </p>
 <h2>Possessive Adjectives <span id="suyali_sifalexi"></span></h2>
 <p>The possessive adjectives are derived from the pronouns by adding the suffix <strong>-su</strong>:</p>

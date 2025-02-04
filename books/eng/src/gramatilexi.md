@@ -1,8 +1,8 @@
 <h1>Function Words: Conjunctions, Prepositions and Function Adverbs</h1>
 <p>
 </p>
-<p>Click to see <a href="./pornamelexi.html">Pronouns</a>. Click to see <a href="./tabellexi.html">Correlatives</a>.
-	Click to see <a href="./numer-ji-mesi.html">Numbers</a>.</p>
+<p>See also the following separate chapters: <a href="./pornamelexi.html">Pronouns</a>, <a
+		href="./tabellexi.html">Correlatives</a> and <a href="./numer-ji-mesi.html">Numbers</a></p>
 <h2>Conjunctions</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ji">ji</a></strong> - and <ul>
@@ -456,4 +456,38 @@
 		</ul>
 	</li>
 </ul>
+<h2>Contrastive Emphasis</h2>
+<p>The particle <strong>he</strong> may be used to express contrastive emphasis on most words: determiners (See <a
+		href="./tabellexi.html">Correlatives</a>), content words, function adverbs and verb particles. It appears right
+	before the word being emphasized. Compare the following set of sentences:</p>
+<p><strong>He <em>mi</em> le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>I</em> (myself) never said she stole my money. (Someone else said that she stole the money.)</p>
+<p><strong>Mi le he <em>nilwatu</em> loga ki te le cori misu pesa.</strong></p>
+<p>I <em>never</em> (ever) said she stole my money. (I definitely did not, and would not, say that she stole my money.)
+</p>
+<p><strong>Mi le nilwatu he <em>loga</em> ki te le cori misu pesa.</strong></p>
+<p>I never (even/actually) <em>said</em> she stole my money. (Verbally, it was not said that she stole my money, but it
+	was implied.)</p>
+<p><strong>Mi le nilwatu loga ki he <em>te</em> le cori misu pesa.</strong></p>
+<p>I never said (it was) <em>she</em> (who) stole my money. (I said that someone else stole my money.)</p>
+<p><strong>Mi le nilwatu loga ki te le he <em>cori</em> misu pesa.</strong></p>
+<p>I never said she (actually) <em>stole</em> my money. (I said that she took my money, but I wouldn't describe it as
+	stealing.)</p>
+<p><strong>Mi le nilwatu loga ki te le cori he <em>misu</em> pesa.</strong></p>
+<p>I never said she stole <em>my</em> money. Or, I never said the money she stole was mine. (I said that she stole
+	someone else's money.)</p>
+<p><strong>Mi le nilwatu loga ki te le cori misu he <em>pesa</em>.</strong></p>
+<p>I never said she stole my <em>money</em>. Or, I never said it was money that she stole from me. (She stole something
+	else from me.)</p>
+<p>For greater emphasis, it's also possible to move the emphasized word to the front, along with <strong>he</strong>,
+	followed by a comma and the entire sentence without <strong>he</strong>. For example:</p>
+<p><strong>He nilwatu, mi le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>Never ever</em>, I <em>never</em> said she stole my money.</p>
+<p><strong>He cori, mi le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>Stole</em>? I never said she <em>stole</em> my money.</p>
+<h2>Other Function Words</h2>
+<p><a href="./pornamelexi.html">Pronouns</a><br />
+	<a href="./tabellexi.html">Correlatives</a><br />
+	<a href="./numer-ji-mesi.html">Numbers</a>
+</p>
 <p></p>

@@ -7,7 +7,13 @@
 	<li><strong><a href="./inharelexi.html#falelexili_klase">falelexi</a></strong> <em>(f)</em> - verbo <em>(v)</em>
 		<ul>
 			<li><strong>linkuli falelexi</strong> <em>(b.lin)</em> - verbo copulativo <em>(v.cop)</em></li>
-			<li><strong>ojetoli falelexi</strong> <em>(b.oj)</em> - verbo transitivo <em>(v.tr)</em></li>
+			<li><strong>ojetoli falelexi</strong> <em>(b.oj)</em> - verbo transitivo <em>(v.tr)</em>
+				<ul>
+					<li><strong>rusoti-ojetoli falelexi</strong> <em>(b.oj.ru)</em> - verbo transitivo de complemento
+						reflejado <em>(v.tr.re)</em>
+					</li>
+				</ul>
+			</li>
 			<li><strong>nenojetoli falelexi</strong> <em>(b.nenoj)</em> - verbo intransitivo <em>(v.intr)</em></li>
 			<li><strong>oroojetoli falelexi</strong> <em>(b.oro)</em> - <a
 					href="https://globalwikionline.com/detial/en/Ambitransitive_verb">verbo ambitransitivo</a>

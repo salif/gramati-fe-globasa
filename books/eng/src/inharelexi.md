@@ -66,6 +66,8 @@
 	<li><strong>Fe misal,</strong> - For example </li>
 	<li><strong>Fe xugwan,</strong> - Usually </li>
 	<li><strong>Fe benji,</strong> - In essence, Basically </li>
+	<li><strong>Fe durama,</strong> - Sometimes </li>
+	<li><strong>Fe rimara,</strong> - Again </li>
 	<li><strong>Fe moy kaso,</strong> - In any case, At any rate </li>
 	<li><strong>Fe alo kaso,</strong> - Otherwise </li>
 	<li><strong>Fe nunya,</strong> - At present, Now </li>
@@ -210,12 +212,15 @@
 <p><em>Transitive verbs</em> take a direct object: <strong>haja</strong> (need), <strong>bujo</strong> (catch, capture),
 	<strong>gibe</strong> (give). However, certain <em>transitive verbs</em> will sometimes or often omit the direct
 	object: <strong>doxo</strong> (read), <strong>yam</strong> (eat), <strong>lala</strong> (sing), etc. </p>
-<p>Some <em>transitive verbs</em> are almost always used without a direct object: <strong>somno</strong> (sleep),
-	<strong>haha</strong> (laugh), <strong>pawbu</strong> (run), <strong>fley</strong> (fly), etc.</p>
+<p>Some <em>transitive verbs</em> are often or almost always used without a direct object: <strong>somno</strong>
+	(sleep), <strong>haha</strong> (laugh), <strong>pawbu</strong> (run), <strong>fley</strong> (fly), etc. These are
+	known in Globasa as <em>echo-object transitive verbs</em> since the optional direct object is the same word as the
+	verb. </p>
 <p><strong>Mi le somno (lungo somno).</strong><br /> I slept (a long sleep).</p>
 <p><strong>Yu le haha (sotipul haha).</strong><br /> You laughed (a loud laugh). </p>
 <p>The suffix <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> may be applied to <em>transitive
-		verbs</em> with the meaning _to cause (direct object) to [root verb], to make (direct object) [root verb].</p>
+		verbs</em> with the meaning <em>to cause (direct object) to [root verb], to make (direct object) [root
+		verb]</em>.</p>
 <p><strong>Kam yu fleygi hawanavi?</strong><br /> Do you fly aircraft?</p>
 <p><strong>Mi xa sampogi bwaw fe axam.</strong><br /> I will walk the dog in the evening.</p>
 <p><strong>Payaco le hahagi mi.</strong><br /> The clown made me laugh. </p>
@@ -386,7 +391,9 @@
 <p>The following are adjective/adverbs commonly used in sentence-initial phrases followed by a clear pause before the
 	rest of the sentence.</p>
 <ul>
-	<li><strong>Ripul,</strong> - Again </li>
+	<li><strong>Ripul, Rili, Rimarali,</strong> - Again </li>
+	<li><strong>Dumarali,</strong> - Sometimes</li>
+	<li><strong>Pimpan,</strong> - Often, Oftentimes</li>
 	<li><strong>Ible,</strong> - Maybe, Perhaps </li>
 	<li><strong>Maxpul,</strong> - Moreover, Furthermore </li>
 	<li><strong>Pia,</strong> - Also </li>
@@ -398,7 +405,6 @@
 	<li><strong>Mingu,</strong> - Clearly, Evidently </li>
 	<li><strong>Sipul,</strong> - Indeed </li>
 	<li><strong>Fori,</strong> - Immediately </li>
-	<li><strong>Pimpan,</strong> - Often, Oftentimes </li>
 	<li><strong>Sati,</strong> - Truly </li>
 	<li><strong>Umumi,</strong> - In general, Generally </li>
 	<li><strong>Nerleli,</strong> - Recently </li>
@@ -513,7 +519,7 @@
 <ul>
 	<li>
 		<p><strong>oko</strong> - eye (<em>concrete noun</em>), see, look (<em>verb</em>)<br />
-			<strong>okoya</strong> - view, sight <em>or</em> sense of sight (<em>abstract noun</em>)
+			<strong>okoya</strong> - viewing, sight <em>or</em> sense of sight (<em>abstract noun</em>)
 		</p>
 	</li>
 	<li>
@@ -752,7 +758,7 @@
 	forms (<em>I have worked</em>, <em>It was/got stolen</em>, etc.). Instead, they function only as adjectives.</p>
 <p>It is worth noting that, technically speaking, the suffix <strong>-do</strong> is added to the <em>noun</em> aspect
 	of noun/verbs. For this reason, <strong>-do</strong> may be added to transitive, intransitive or ambitransitive
-	verbs noun/verbs.</p>
+	noun/verbs.</p>
 <h4>With transitive verbs</h4>
 <ul>
 	<li><strong>hajado ergo</strong> - necessary work (<em>in a state of necessity</em>) </li>

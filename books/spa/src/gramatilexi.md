@@ -1,8 +1,6 @@
 <h1>Palabras de función: Conjunciones, preposiciones y adverbios de función</h1>
 <p>
 </p>
-<p>Haz click <a href="./pornamelexi.html">aquí</a> para ver Pronombres. Haz click <a href="./tabellexi.html">aquí</a>
-	para ver Correlativos. Haz click <a href="./numer-ji-mesi.html">aquí</a> para ver Números.</p>
 <h2>Conjunciones</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/spa/lexi/ji">ji</a></strong> - y/e <ul>
@@ -457,4 +455,38 @@
 		</ul>
 	</li>
 </ul>
+<h2>Énfasis contrastivo</h2>
+<p>La partícula <strong>he</strong> puede utilizarse para expresar énfasis contrastivo en la mayoría de las palabras:
+	determinantes (Ver <a href="./tabellexi.html">Correlativos</a>), palabras de contenido, adverbios de función y
+	partículas verbales. La partícula <strong>he</strong> aparece justo antes de la palabra que se enfatiza. Compare el
+	siguiente conjunto de oraciones:</p>
+<p><strong>He <em>mi</em> le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>Yo</em> nunca dije que ella robó mi dinero. (Alguien más dijo que ella robó el dinero.)</p>
+<p><strong>Mi le he <em>nilwatu</em> loga ki te le cori misu pesa.</strong></p>
+<p><em>Nunca</em> (en ningún momento) dije que ella robó mi dinero. (Definitivamente no dije, y no diría, que ella robó
+	mi dinero.)</p>
+<p><strong>Mi le nilwatu he <em>loga</em> ki te le cori misu pesa.</strong></p>
+<p>Nunca <em>dije</em> que ella robó mi dinero. (Verbalmente, no se dijo que ella me robó el dinero, pero se dio a
+	entender.)</p>
+<p><strong>Mi le nilwatu loga ki he <em>te</em> le cori misu pesa.</strong></p>
+<p>Nunca dije que <em>ella</em> (fue) (quien) me robó el dinero. (Dije que alguien más me robó el dinero.)</p>
+<p><strong>Mi le nilwatu loga ki te le he <em>cori</em> misu pesa.</strong></p>
+<p>Nunca dije que ella <em>robó</em> mi dinero. (Dije que ella tomó mi dinero, pero no lo describiría como un robo.)</p>
+<p><strong>Mi le nilwatu loga ki te le cori he <em>misu</em> pesa.</strong></p>
+<p>Nunca dije que ella robó <em>mi</em> dinero. O, Nunca dije que el dinero que ella robó era mío. (Dije que ella robó
+	el dinero de otra persona.)</p>
+<p><strong>Mi le nilwatu loga ki te le cori misu he <em>pesa</em>.</strong></p>
+<p>Nunca dije que ella robó mi <em>dinero</em>. O, Nunca dije que era dinero lo que ella me robó. (Ella me robó algo
+	más.)</p>
+<p>Para mayor énfasis, también es posible mover la palabra enfatizada al frente, junto con <strong>he</strong>, seguida
+	de una coma y la oración completa sin <strong>he</strong>. Por ejemplo:</p>
+<p><strong>He nilwatu, mi le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>Nunca jamás</em>, <em>nunca</em> dije que ella robó mi dinero.</p>
+<p><strong>He cori, mi le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>¿Que robó</em>? Nunca dije que ella <em>robó</em> mi dinero.</p>
+<h2>Otras palabras de función</h2>
+<p><a href="./pornamelexi.html">Pronombres</a><br />
+	<a href="./tabellexi.html">Correlativos</a><br />
+	<a href="./numer-ji-mesi.html">Números</a>
+</p>
 <p></p>
