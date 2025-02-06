@@ -547,9 +547,9 @@
 		</ul>
 	</li>
 	<li><strong>kumax:</strong> (парче) плат <ul>
-			<li><strong>banyokumax</strong> - кърпа (<em>banyo</em> - <em>вана</em>); <strong>mesakumax</strong> -
-				покривка (<em>mesa</em> - <em>маса</em>); <strong>nasakumax</strong> - носна кърпичка (<em>nasa</em> -
-				<em>нос</em>); <strong>muntekumax</strong> - салфетка (<em>munte</em> - <em>уста</em>)</li>
+			<li><strong>mesakumax</strong> - покривка за маса (<em>mesa</em> - <em>маса</em>);
+				<strong>nasakumax</strong> - носна кърпа (<em>nasa</em> - <em>нос</em>); <strong>muntekumax</strong> -
+				салфетка (<em>munte</em> - <em>уста</em>)</li>
 		</ul>
 	</li>
 	<li><strong>lari:</strong> колективна група <ul>
@@ -686,7 +686,7 @@
 </p>
 <p>По същия начин собствените имена с <strong>utara</strong>, <strong>sude</strong>, <strong>dongu</strong>,
 	<strong>garebi</strong> и <strong>centro</strong> могат да се изписват по един от трите начина. </p>
-<p><strong>Sudehangu</strong> или <strong>SudeHangu</strong> или <strong>Sude-Hangu</strong> - Южна Корея</p>
+<p><strong>Sudekorea</strong> или <strong>SudeKorea</strong> или <strong>Sude-Korea</strong> - Южна Корея</p>
 <p>Собствените имена с <strong>ji</strong> могат да се съединяват и по следния начин.</p>
 <p><strong>Antigwa ji Barbuda</strong> или <strong>AntigwaBarbuda</strong> или <strong>Antigwa-Barbuda</strong> -
 	Антигуа и Барбуда</p>

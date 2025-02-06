@@ -66,6 +66,8 @@
 	<li><strong>Fe misal,</strong> - Например</li>
 	<li><strong>Fe xugwan,</strong> - Обикновено</li>
 	<li><strong>Fe benji,</strong> - По същество, По принцип</li>
+	<li><strong>Fe durama,</strong> - Понякога </li>
+	<li><strong>Fe rimara,</strong> - Отново </li>
 	<li><strong>Fe moy kaso,</strong> - Във всеки случай</li>
 	<li><strong>Fe alo kaso,</strong> - В противен случай</li>
 	<li><strong>Fe nunya,</strong> - В момента, Сега</li>
@@ -214,13 +216,15 @@
 <p><em>Преходните глаголи</em> приемат пряко допълнение: <strong>haja</strong> (нуждая се от), <strong>bujo</strong>
 	(хващам, улавям), <strong>gibe</strong> (давам). Някои <em>преходни глаголи</em> обаче понякога или често пропускат
 	прякото допълнение: <strong>doxo</strong> (чета), <strong>yam</strong> (ям), <strong>lala</strong> (пея) и т.н. </p>
-<p>Някои <em>преходни глаголи</em> почти винаги се използват без пряко допълнение: <strong>somno</strong> (спя),
-	<strong>haha</strong> (смея се), <strong>pawbu</strong> (тичам), <strong>fley</strong> (летя) и т.н.</p>
+<p>Някои <em>преходни глаголи</em> често или почти винаги се използват без пряко допълнение: <strong>somno</strong>
+	(спя), <strong>haha</strong> (смея се), <strong>pawbu</strong> (тичам), <strong>fley</strong> (летя) и т.н. Те са
+	известни в глобаса като <em>преходни глаголи с ехо-допълнение</em>, тъй като незадължителното пряко допълнение е
+	същата дума като глагола. </p>
 <p><strong>Mi le somno (lungo somno).</strong><br /> Аз спах (дълъг сън).</p>
 <p><strong>Yu le haha (sotipul haha).</strong><br /> Ти се смя (силен смях). </p>
 <p>Наставката <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> може да се добавя към <em>преходни
-		глаголи</em> със значение _карам (прякото допълнение) да [коренен глагол], правя (прякото допълнение) да
-	[коренен глагол].</p>
+		глаголи</em> със значение <em>карам (прякото допълнение) да [коренен глагол], правя (прякото допълнение) да
+		[коренен глагол]</em>.</p>
 <p><strong>Kam yu fleygi hawanavi?</strong><br /> Ти управляваш ли самолети?</p>
 <p><strong>Mi xa sampogi bwaw fe axam.</strong><br /> Ще разходя кучето вечерта.</p>
 <p><strong>Payaco le hahagi mi.</strong><br /> Клоунът ме накара да се смея. </p>
@@ -390,7 +394,9 @@
 <p>Следните са прилагателни/наречия, често използвани във фрази в началото на изречението, следвани от ясна пауза преди
 	останалата част от изречението.</p>
 <ul>
-	<li><strong>Ripul,</strong> - Отново</li>
+	<li><strong>Ripul, Rili, Rimarali,</strong> - Отново </li>
+	<li><strong>Dumarali,</strong> - Понякога</li>
+	<li><strong>Pimpan,</strong> - Често</li>
 	<li><strong>Ible,</strong> - Може би, Вероятно</li>
 	<li><strong>Maxpul,</strong> - Освен това, Нещо повече</li>
 	<li><strong>Pia,</strong> - Също така</li>
@@ -402,7 +408,6 @@
 	<li><strong>Mingu,</strong> - Ясно, Очевидно</li>
 	<li><strong>Sipul,</strong> - Наистина</li>
 	<li><strong>Fori,</strong> - Незабавно</li>
-	<li><strong>Pimpan,</strong> - Често</li>
 	<li><strong>Sati,</strong> - Истински</li>
 	<li><strong>Umumi,</strong> - Като цяло, Общо взето</li>
 	<li><strong>Nerleli,</strong> - Наскоро</li>
@@ -518,7 +523,7 @@
 <ul>
 	<li>
 		<p><strong>oko</strong> - око (<em>конкретно съществително</em>), виждам, гледам (<em>глагол</em>)<br />
-			<strong>okoya</strong> - поглед <em>или</em> зрение (<em>отвлечено съществително</em>)
+			<strong>okoya</strong> - гледане <em>или</em> зрение (<em>отвлечено съществително</em>)
 		</p>
 	</li>
 	<li>
