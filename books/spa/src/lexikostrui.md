@@ -553,9 +553,9 @@
 		</ul>
 	</li>
 	<li><strong>kumax:</strong> (pedazo de) tela <ul>
-			<li><strong>banyokumax</strong> - toalla (<em>banyo</em> - <em>baño</em>); <strong>mesakumax</strong> -
-				mantel (<em>mesa</em> - <em>mesa</em>); <strong>nasakumax</strong> - pañuelo (<em>nasa</em> -
-				<em>nariz</em>); <strong>muntekumax</strong> - servilleta (<em>munte</em> - <em>boca</em>)</li>
+			<li><strong>mesakumax</strong> - mantel (<em>mesa</em> - <em>mesa</em>); <strong>nasakumax</strong> -
+				pañuelo (<em>nasa</em> - <em>nariz</em>); <strong>muntekumax</strong> - servilleta (<em>munte</em> -
+				<em>boca</em>)</li>
 		</ul>
 	</li>
 	<li><strong>lari:</strong> grupo colectivo <ul>
@@ -694,7 +694,7 @@
 </p>
 <p>Del mismo modo, los nombres propios con <strong>utara</strong>, <strong>sude</strong>, <strong>dongu</strong>,
 	<strong>garebi</strong> y <strong>centro</strong> también se pueden escribir de tres maneras.</p>
-<p><strong>Sudehangu</strong> o <strong>SudeHangu</strong> o <strong>Sude-Hangu</strong> - Corea del Sur</p>
+<p><strong>Sudekorea</strong> o <strong>SudeKorea</strong> o <strong>Sude-Korea</strong> - Corea del Sur</p>
 <p>Los nombres propios con <strong>ji</strong> también se pueden unir alternativamente de la siguiente manera.</p>
 <p><strong>Antigwa ji Barbuda</strong> o <strong>AntigwaBarbuda</strong> o <strong>Antigwa-Barbuda</strong> - Antigua y
 	Barbuda</p>
