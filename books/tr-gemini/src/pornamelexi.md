@@ -51,10 +51,10 @@
 	<li><strong>mante</strong> - o (erkek)</li>
 	<li><strong>femete</strong>/<strong>manete</strong> - onlar (erkek/kadın)</li>
 </ul>
-<h3>seli</h3>
-<p><strong>seli</strong> sıfatı, özneyi vurgulamak için özne zamirleriyle birlikte kullanılır.</p>
-<p><strong>seli mi</strong> - bizzat ben<br />
-	<strong>seli yu</strong> - bizzat sen<br /> vb.
+<h3>he</h3>
+<p><strong>He</strong> parçacığı, özne zamirleriyle birlikte vurgu ifade etmek için kullanılır.</p>
+<p><strong>he mi</strong> - ben kendim<br />
+	<strong>he yu</strong> - sen kendin<br /> vb.
 </p>
 <h2>İyelik Sıfatları <span id="suyali_sifalexi"></span></h2>
 <p>İyelik sıfatları, zamirlere <strong>-su</strong> soneki eklenerek türetilir:</p>

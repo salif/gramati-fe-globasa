@@ -1,7 +1,7 @@
 # Globasa Dilbilgisi
 
 Bu kitap, [Complete Globasa Grammar](https://salif.github.io/gramati-fe-globasa/eng/) kitabının Türkçe çevirisini içermektedir.
-Kitabı [EPUB formatında indirebilir](Gramati_fe_Globasa_Mesi_12_2024_tr_gemini.epub)
+Kitabı [EPUB formatında indirebilir](Gramati_fe_Globasa_Mesi_1_Nyan_2025_tr_gemini.epub)
 veya [çevrimiçi okuyabilirsiniz](https://salif.github.io/gramati-fe-globasa/tr-gemini/).
 
 Orijinal içeriğin yazarı [the Globasa Team](https://globasa.net/).

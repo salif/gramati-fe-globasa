@@ -10,7 +10,7 @@
 	виждат служебни думи, произлизащи от съдържателни думи от родителския език. Всъщност, това е начинът, по който
 	повечето естествени езици са се развили и са генерирали служебни думи и граматически морфеми. За увлекателна
 	дискусия по тази тема вижте <a
-		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1?keywords=unfolding%2Bof%2Blanguage&amp;qid=1565409086&amp;s=gateway&amp;sr=8-1"><em>Разгръщането
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>Разгръщането
 			на езика: Еволюционно пътешествие из най-великото изобретение на човечеството</em></a> от Гай Дойчер.</p>
 <p>Следните служебни думи са <em>съкратени морфеми</em>:</p>
 <ul>

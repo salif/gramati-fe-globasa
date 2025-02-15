@@ -540,10 +540,10 @@
 			<li><strong>demokrasi</strong> - demokratio (<em>demo - popolo</em>)</li>
 		</ul>
 	</li>
-	<li><strong>kumax:</strong> (peco de) ŝtofo <ul>
-			<li><strong>banyokumax</strong> - mantuko (<em>banyo</em> - <em>bano</em>); <strong>mesakumax</strong> -
-				tablotuko (<em>mesa</em> - <em>tablo</em>); <strong>nasakumax</strong> - naztuko (<em>nasa</em> -
-				<em>nazo</em>); <strong>muntekumax</strong> - buŝtuko (<em>munte</em> - <em>buŝo</em>)</li>
+	<li><strong>kumax:</strong> (peco da) ŝtofo <ul>
+			<li><strong>mesakumax</strong> - tablotuko (<em>mesa</em> - <em>tablo</em>); <strong>nasakumax</strong> -
+				naztuko (<em>nasa</em> - <em>nazo</em>); <strong>muntekumax</strong> - buŝtuko (<em>munte</em> -
+				<em>buŝo</em>)</li>
 		</ul>
 	</li>
 	<li><strong>lari:</strong> kolektiva grupo <ul>
@@ -675,7 +675,7 @@
 </p>
 <p>Same, propraj substantivoj kun <strong>utara</strong>, <strong>sude</strong>, <strong>dongu</strong>,
 	<strong>garebi</strong> kaj <strong>centro</strong> ankaŭ povas esti skribitaj laŭ unu el tri manieroj. </p>
-<p><strong>Sudehangu</strong> aŭ <strong>SudeHangu</strong> aŭ <strong>Sude-Hangu</strong> - Sud-Koreio</p>
+<p><strong>Sudekorea</strong> aŭ <strong>SudeKorea</strong> aŭ <strong>Sude-Korea</strong> - Sud-Koreio</p>
 <p>Propraj substantivoj kun <strong>ji</strong> ankaŭ povas esti alternative kunigitaj jene.</p>
 <p><strong>Antigwa ji Barbuda</strong> aŭ <strong>AntigwaBarbuda</strong> aŭ <strong>Antigwa-Barbuda</strong> - Antigvo
 	kaj Barbudo</p>

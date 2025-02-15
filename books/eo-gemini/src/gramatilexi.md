@@ -1,8 +1,8 @@
 <h1>Funkcivortoj: Konjunkcioj, Prepozicioj kaj Funkciaj Adverboj</h1>
 <p>
 </p>
-<p>Alklaku <a href="./pornamelexi.html">ĉi tie</a> por vidi Pronomojn. Alklaku <a href="./tabellexi.html">ĉi tie</a> por
-	vidi Korelativojn. Alklaku <a href="./numer-ji-mesi.html">ĉi tie</a> por vidi Nombrojn.</p>
+<p>Vidu ankaŭ la jenajn apartajn ĉapitrojn: <a href="./pornamelexi.html">Pronomoj</a>, <a
+		href="./tabellexi.html">Korelativoj</a> kaj <a href="./numer-ji-mesi.html">Nombroj</a></p>
 <h2>Konjunkcioj</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ji">ji</a></strong> - kaj <ul>
@@ -459,4 +459,38 @@
 		</ul>
 	</li>
 </ul>
+<h2>Kontrasta Emfazo</h2>
+<p>La partiklo <strong>he</strong> povas esti uzata por esprimi kontrastan emfazon ĉe plej multaj vortoj: determinantoj
+	(Vidu <a href="./tabellexi.html">Korelativoj</a>), enhavvortoj, funkciaj adverboj kaj verbaj partikloj. Ĝi aperas
+	ĝuste antaŭ la emfazata vorto. Komparu la jenajn frazojn:</p>
+<p><strong>He <em>mi</em> le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>Mi</em> (mem) neniam diris, ke ŝi ŝtelis mian monon. (Iu alia diris, ke ŝi ŝtelis la monon.)</p>
+<p><strong>Mi le he <em>nilwatu</em> loga ki te le cori misu pesa.</strong></p>
+<p>Mi <em>neniam</em> (iam ajn) diris, ke ŝi ŝtelis mian monon. (Mi definitive ne diris, kaj ne dirus, ke ŝi ŝtelis mian
+	monon.) </p>
+<p><strong>Mi le nilwatu he <em>loga</em> ki te le cori misu pesa.</strong></p>
+<p>Mi neniam (eĉ/fakte) <em>diris</em>, ke ŝi ŝtelis mian monon. (Parole, tio ne estis dirita, ke ŝi ŝtelis mian monon,
+	sed tio estis implicita.)</p>
+<p><strong>Mi le nilwatu loga ki he <em>te</em> le cori misu pesa.</strong></p>
+<p>Mi neniam diris, ke (estis) <em>ŝi</em> (kiu) ŝtelis mian monon. (Mi diris, ke iu alia ŝtelis mian monon.)</p>
+<p><strong>Mi le nilwatu loga ki te le he <em>cori</em> misu pesa.</strong></p>
+<p>Mi neniam diris, ke ŝi (fakte) <em>ŝtelis</em> mian monon. (Mi diris, ke ŝi prenis mian monon, sed mi ne priskribus
+	tion kiel ŝteladon.)</p>
+<p><strong>Mi le nilwatu loga ki te le cori he <em>misu</em> pesa.</strong></p>
+<p>Mi neniam diris, ke ŝi ŝtelis <em>mian</em> monon. Aŭ, mi neniam diris, ke la mono, kiun ŝi ŝtelis, estis mia. (Mi
+	diris, ke ŝi ŝtelis la monon de iu alia.)</p>
+<p><strong>Mi le nilwatu loga ki te le cori misu he <em>pesa</em>.</strong></p>
+<p>Mi neniam diris, ke ŝi ŝtelis mian <em>monon</em>. Aŭ, mi neniam diris, ke estis mono, kion ŝi ŝtelis de mi. (Ŝi
+	ŝtelis ion alian de mi.)</p>
+<p>Por pli granda emfazo, eblas ankaŭ movi la emfazatan vorton al la komenco, kune kun <strong>he</strong>, sekvata de
+	komo kaj la tuta frazo sen <strong>he</strong>. Ekzemple:</p>
+<p><strong>He nilwatu, mi le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>Neniam, neniam</em>, mi <em>neniam</em> diris, ke ŝi ŝtelis mian monon.</p>
+<p><strong>He cori, mi le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>Ŝtelis</em>? Mi neniam diris, ke ŝi <em>ŝtelis</em> mian monon.</p>
+<h2>Aliaj Funkciaj Vortoj</h2>
+<p><a href="./pornamelexi.html">Pronomoj</a><br />
+	<a href="./tabellexi.html">Korelativoj</a><br />
+	<a href="./numer-ji-mesi.html">Nombroj</a>
+</p>
 <p></p>

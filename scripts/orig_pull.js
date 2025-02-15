@@ -72,6 +72,13 @@ function fixPageContent(content, pageName, bookName) {
 		newContent = newContent.replace(
 			'<table style="width:100%">',
 			'<table style="width:100%" class="large-table">')
+		if (bookName === "spa") {
+			newContent = newContent.replace(
+				"_¡Qué día!</p>", "¡<em>Qué</em> día!</p>").replace(
+					"_¡Qué hermoso!</p>", "¡<em>Qué</em> hermoso!</p>").replace(
+						"_¡Qué hermoso día!</p>", "¡<em>Qué</em> hermoso día!</p>"
+					)
+		}
 	}
 	if (pageName === "jumleli-estrutur") {
 		if (!newContent.includes('<td colspan="2" style="font-size:125%;"><b>Myaw sen in sanduku.'))
@@ -93,6 +100,12 @@ function fixPageContent(content, pageName, bookName) {
 			'<table style="width:100%" class="large-table">').replace(
 				'<table style="width:100%">',
 				'<table style="width:100%" class="large-table">')
+	}
+	if (pageName === "ofkatado-morfomon") {
+		newContent = newContent.replace(
+			"https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1?keywords=unfolding%2Bof%2Blanguage&amp;qid=1565409086&amp;s=gateway&amp;sr=8-1",
+			"https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"
+		)
 	}
 	for (let i = 0; i < 2; i++) {
 		newContent = js_beautify.html(newContent, beautifyOptions)

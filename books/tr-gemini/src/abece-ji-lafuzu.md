@@ -722,8 +722,7 @@
 <p>Aşağıdaki kök sözcüklerde, <em>i</em> ve <em>u</em> vurguludur:</p>
 <p><strong>maux</strong> (fare), <em>ma-<u><strong>u</strong></u>x</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maux.mp3">[ma.'uʃ]</a> olarak telaffuz edilir<br />
-	<strong>daif</strong> (zayıf), <em>da-<u><strong>i</strong></u>f</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/daif.mp3">[da.'if]</a> olarak telaffuz edilir
+	<strong>daifu</strong> (zayıf), <em>da-<u><strong>i</strong></u>-fu</em> [da.'i.fu] olarak telaffuz edilir
 </p>
 <p>Aşağıdaki kök sözcüklerde, fonotaktik kurallar yalnızca <em>i</em> ve <em>u</em>'ya izin verir: </p>
 <p><strong>triunfa</strong> (kazanmak, zafer kazanmak), <em>tri-<u><strong>u</strong></u>n-fa</em> <a
