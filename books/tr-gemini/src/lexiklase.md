@@ -7,7 +7,13 @@
 	<li><strong><a href="./inharelexi.html#falelexili_klase">falelexi</a></strong> <em>(f)</em> - fiil <em>(f)</em>
 		<ul>
 			<li><strong>linkuli falelexi</strong> <em>(b.lin)</em> - bağlaç fiili <em>(f.bağ)</em></li>
-			<li><strong>ojetoli falelexi</strong> <em>(b.oj)</em> - geçişli fiil <em>(f.geçiş)</em></li>
+			<li><strong>ojetoli falelexi</strong> <em>(b.oj)</em> - geçişli fiil <em>(f.geç)</em>
+				<ul>
+					<li><strong>rusoti-ojetoli falelexi</strong> <em>(b.oj.ru)</em> - yankı-nesneli geçişli fiil
+						<em>(f.geç.y)</em>
+					</li>
+				</ul>
+			</li>
 			<li><strong>nenojetoli falelexi</strong> <em>(b.nenoj)</em> - geçişsiz fiil <em>(f.geçişsiz)</em></li>
 			<li><strong>oroojetoli falelexi</strong> <em>(b.oro)</em> - (ettirgen) iki yönlü geçişli fiil
 				<em>(f.ikiyon)</em>

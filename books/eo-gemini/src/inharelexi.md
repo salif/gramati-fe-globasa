@@ -66,6 +66,8 @@
 	<li><strong>Fe misal,</strong> - Ekzemple </li>
 	<li><strong>Fe xugwan,</strong> - Kutime </li>
 	<li><strong>Fe benji,</strong> - Esence, Baze </li>
+	<li><strong>Fe durama,</strong> - Kelkfoje </li>
+	<li><strong>Fe rimara,</strong> - Denove </li>
 	<li><strong>Fe moy kaso,</strong> - Ĉiukaze, Ĉiel ajn </li>
 	<li><strong>Fe alo kaso,</strong> - Alie </li>
 	<li><strong>Fe nunya,</strong> - Nuntempe, Nun </li>
@@ -210,12 +212,15 @@
 <p><em>Transitivaj verboj</em> prenas rektan objekton: <strong>haja</strong> (bezoni), <strong>bujo</strong> (kapti),
 	<strong>gibe</strong> (doni). Tamen, certaj <em>transitivaj verboj</em> foje aŭ ofte ellasas la rektan objekton:
 	<strong>doxo</strong> (legi), <strong>yam</strong> (manĝi), <strong>lala</strong> (kanti), ktp. </p>
-<p>Kelkaj <em>transitivaj verboj</em> estas preskaŭ ĉiam uzataj sen rekta objekto: <strong>somno</strong> (dormi),
-	<strong>haha</strong> (ridi), <strong>pawbu</strong> (kuri), <strong>fley</strong> (flugi), ktp.</p>
+<p>Kelkaj <em>transitivaj verboj</em> estas ofte aŭ preskaŭ ĉiam uzataj sen rekta objekto: <strong>somno</strong>
+	(dormi), <strong>haha</strong> (ridi), <strong>pawbu</strong> (kuri), <strong>fley</strong> (flugi), ktp. Ĉi tiuj
+	estas konataj en Globasa kiel <em>eĥo-objektaj transitivaj verboj</em> ĉar la nedeviga rekta objekto estas la sama
+	vorto kiel la verbo. </p>
 <p><strong>Mi le somno (lungo somno).</strong><br /> Mi dormis (longan dormon).</p>
 <p><strong>Yu le haha (sotipul haha).</strong><br /> Vi ridis (laŭtan ridon). </p>
 <p>La sufikso <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> povas esti aplikata al <em>transitivaj
-		verboj</em> kun la signifo _igi (rektan objekton) [radika verbo], fari (rektan objekton) [radika verbo].</p>
+		verboj</em> kun la signifo <em>igi (rektan objekton) [radika verbo], fari (rektan objekton) [radika verbo]</em>.
+</p>
 <p><strong>Kam yu fleygi hawanavi?</strong><br /> Ĉu vi flugigas aviadilon?</p>
 <p><strong>Mi xa sampogi bwaw fe axam.</strong><br /> Mi promenigos la hundon vespere.</p>
 <p><strong>Payaco le hahagi mi.</strong><br /> La klaŭno ridigis min. </p>
@@ -389,7 +394,9 @@
 <p>La jenaj estas adjektivoj/adverboj komune uzataj en frazo-komencaj frazoj sekvataj de klara paŭzo antaŭ la resto de
 	la frazo.</p>
 <ul>
-	<li><strong>Ripul,</strong> - Denove </li>
+	<li><strong>Ripul, Rili, Rimarali,</strong> - Denove </li>
+	<li><strong>Dumarali,</strong> - Kelkfoje </li>
+	<li><strong>Pimpan,</strong> - Ofte </li>
 	<li><strong>Ible,</strong> - Eble </li>
 	<li><strong>Maxpul,</strong> - Plie, Krome </li>
 	<li><strong>Pia,</strong> - Ankaŭ </li>
@@ -401,7 +408,6 @@
 	<li><strong>Mingu,</strong> - Klare, Evidente </li>
 	<li><strong>Sipul,</strong> - Ja </li>
 	<li><strong>Fori,</strong> - Tuj </li>
-	<li><strong>Pimpan,</strong> - Ofte </li>
 	<li><strong>Sati,</strong> - Vere </li>
 	<li><strong>Umumi,</strong> - Ĝenerale </li>
 	<li><strong>Nerleli,</strong> - Lastatempe </li>

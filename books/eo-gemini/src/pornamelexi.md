@@ -51,10 +51,10 @@
 	<li><strong>mante</strong> - li</li>
 	<li><strong>femete</strong>/<strong>manete</strong> - ili</li>
 </ul>
-<h3>seli</h3>
-<p>La adjektivo <strong>seli</strong> estas uzata kun subjektaj pronomoj por esprimi emfazon de si mem.</p>
-<p><strong>seli mi</strong> - mi mem<br />
-	<strong>seli yu</strong> - vi mem<br /> ktp.
+<h3>he</h3>
+<p>La partiklo <strong>he</strong> estas uzata kun subjektaj pronomoj por esprimi emfazon.</p>
+<p><strong>he mi</strong> - mi mem<br />
+	<strong>he yu</strong> - vi mem<br /> ktp.
 </p>
 <h2>Posedaj Adjektivoj <span id="suyali_sifalexi"></span></h2>
 <p>La posedaj adjektivoj estas derivitaj de la pronomoj per aldono de la sufikso <strong>-su</strong>:</p>

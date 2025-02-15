@@ -11,7 +11,7 @@
 	виждат функционални думи, възникнали от съдържателни думи от родителския език. Всъщност, по този начин повечето
 	естествени езици са еволюирали и са генерирали функционални думи и граматически морфеми. За увлекателна дискусия по
 	тази тема вижте <a
-		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1?keywords=unfolding%2Bof%2Blanguage&amp;qid=1565409086&amp;s=gateway&amp;sr=8-1"><em>The
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>The
 			Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention</em></a> от Гай Дойчер.</p>
 <p>Следните функционални думи са <em>съкратени морфеми</em>:</p>
 <ul>

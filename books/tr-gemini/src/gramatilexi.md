@@ -1,9 +1,8 @@
 <h1>İşlev Sözcükleri: Bağlaçlar, Edatlar ve İşlev Zarfları</h1>
 <p>
 </p>
-<p>Zamirleri görmek için <a href="./pornamelexi.html">buraya</a> tıklayın. İlgi Zamirlerini görmek için <a
-		href="./tabellexi.html">buraya</a> tıklayın. Sayıları görmek için <a href="./numer-ji-mesi.html">buraya</a>
-	tıklayın.</p>
+<p>Ayrıca aşağıdaki ayrı bölümlere de bakınız: <a href="./pornamelexi.html">Zamirler</a>, <a
+		href="./tabellexi.html">İlintililer</a> ve <a href="./numer-ji-mesi.html">Sayılar</a></p>
 <h2>Bağlaçlar</h2>
 <ul>
 	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ji">ji</a></strong> - ve <ul>
@@ -462,4 +461,39 @@
 		</ul>
 	</li>
 </ul>
+<h2>Karşılaştırmalı Vurgu</h2>
+<p><strong>He</strong> parçacığı, belirteçler (Bkz. <a href="./tabellexi.html">İlintililer</a>), içerik kelimeleri,
+	işlev zarfları ve fiil parçacıkları dahil çoğu kelime üzerinde karşılaştırmalı vurgu ifade etmek için
+	kullanılabilir. Vurgulanan kelimenin hemen önünde görünür. Aşağıdaki cümleleri karşılaştırın:</p>
+<p><strong>He <em>mi</em> le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>Ben</em> (kendim) onun benim paramı çaldığını asla söylemedim. (Başka biri onun parayı çaldığını söyledi.)</p>
+<p><strong>Mi le he <em>nilwatu</em> loga ki te le cori misu pesa.</strong></p>
+<p>Ben onun benim paramı çaldığını <em>asla</em> (hiçbir zaman) söylemedim. (Kesinlikle söylemedim ve onun benim paramı
+	çaldığını söylemezdim.) </p>
+<p><strong>Mi le nilwatu he <em>loga</em> ki te le cori misu pesa.</strong></p>
+<p>Onun benim paramı çaldığını asla (hatta/aslında) <em>söylemedim</em>. (Sözlü olarak, onun benim paramı çaldığı
+	söylenmedi, ama ima edildi.)</p>
+<p><strong>Mi le nilwatu loga ki he <em>te</em> le cori misu pesa.</strong></p>
+<p>Onun benim paramı çaldığını <em>o</em> (nun) (olduğunu) asla söylemedim. (Başka birinin benim paramı çaldığını
+	söyledim.)</p>
+<p><strong>Mi le nilwatu loga ki te le he <em>cori</em> misu pesa.</strong></p>
+<p>Onun benim paramı (aslında) <em>çaldığını</em> asla söylemedim. (Onun benim paramı aldığını söyledim, ama bunu çalmak
+	olarak tanımlamazdım.)</p>
+<p><strong>Mi le nilwatu loga ki te le cori he <em>misu</em> pesa.</strong></p>
+<p>Onun <em>benim</em> paramı çaldığını asla söylemedim. Ya da, onun çaldığı paranın benim olduğunu asla söylemedim.
+	(Başka birinin parasını çaldığını söyledim.)</p>
+<p><strong>Mi le nilwatu loga ki te le cori misu he <em>pesa</em>.</strong></p>
+<p>Onun benim <em>paramı</em> çaldığını asla söylemedim. Ya da, benden çaldığı şeyin para olduğunu asla söylemedim.
+	(Benden başka bir şey çaldı.)</p>
+<p>Daha fazla vurgu için, vurgulanan kelimeyi, <strong>he</strong> ile birlikte, ardından bir virgül ve
+	<strong>he</strong> içermeyen cümlenin tamamı ile başa taşımak da mümkündür. Örneğin:</p>
+<p><strong>He nilwatu, mi le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>Asla, asla</em>, onun benim paramı çaldığını <em>asla</em> söylemedim.</p>
+<p><strong>He cori, mi le nilwatu loga ki te le cori misu pesa.</strong></p>
+<p><em>Çaldı mı</em>? Onun benim paramı <em>çaldığını</em> asla söylemedim.</p>
+<h2>Diğer İşlev Kelimeleri</h2>
+<p><a href="./pornamelexi.html">Zamirler</a><br />
+	<a href="./tabellexi.html">İlintililer</a><br />
+	<a href="./numer-ji-mesi.html">Sayılar</a>
+</p>
 <p></p>

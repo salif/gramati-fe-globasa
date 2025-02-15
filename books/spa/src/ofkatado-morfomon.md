@@ -11,7 +11,7 @@
 	es común ver que las palabras de función surgen de palabras de contenido del idioma de origen. De hecho, así es como
 	la mayoría de los lenguajes naturales han evolucionado y generado palabras de función y morfemas gramaticales. Para
 	una discusión fascinante sobre este tema, consulte <a
-		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1?keywords=unfolding%2Bof%2Blanguage&amp;qid=1565409086&amp;s=gateway&amp;sr=8-1"><em>The
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>The
 			Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention</em></a>, de Guy Deutscher.</p>
 <p>Las siguientes palabras de función son <em>morfemas truncados</em>:</p>
 <ul>

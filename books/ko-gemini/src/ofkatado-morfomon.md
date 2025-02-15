@@ -6,7 +6,7 @@
 	생성될 필요가 없습니다.</p>
 <p>유사한 특징이 자연어에서도 발견됩니다. 예를 들어, 세계의 크리올 언어에서는 기능어가 모국어의 내용어에서 발생하는 것을 흔히 볼 수 있습니다. 사실, 이것은 대부분의 자연어가 어떻게 진화하고 기능어와 문법적
 	형태소를 생성했는지 보여줍니다. 이 주제에 대한 흥미로운 토론을 보려면 Guy Deutscher의 <a
-		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1?keywords=unfolding%2Bof%2Blanguage&qid=1565409086&s=gateway&sr=8-1"><em>The
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>The
 			Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention</em></a>을 참고하십시오.</p>
 <p>다음 기능어는 <em>잘린 형태소</em>입니다:</p>
 <ul>

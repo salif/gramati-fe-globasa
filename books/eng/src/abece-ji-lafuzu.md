@@ -707,8 +707,7 @@
 <p>In the following root words, <em>i</em> and <em>u</em> are stressed:</p>
 <p><strong>maux</strong> (mouse), pronounced <em>ma-<u><strong>u</strong></u>x</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maux.mp3">[ma.'uʃ]</a><br />
-	<strong>daif</strong> (weak), pronounced <em>da-<u><strong>i</strong></u>f</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/daif.mp3">[da.'if]</a>
+	<strong>daifu</strong> (weak), pronounced <em>da-<u><strong>i</strong></u>-fu</em> [da.'i.fu]
 </p>
 <p>In the following root words, phonotactic rules only allow <em>i</em> and <em>u</em>: </p>
 <p><strong>triunfa</strong> (win, triumph), pronounced <em>tri-<u><strong>u</strong></u>n-fa</em> <a
