@@ -291,7 +291,7 @@
 	<strong>Din <em>hu denwatu mi xa preata</em> sen Lunadin.</strong><br /> "O dia <em>que então eu chego</em> é
 	segunda-feira".<br /> O dia <em>quando eu chegarei</em> é segunda-feira.
 </p>
-<p>Em vez de advérbios correlativos, sintagmas preposicionais podem ser usados ​​para expressar frases equivalentes.
+<p>Em vez de advérbios correlativos, sintagmas preposicionais podem ser usados para expressar frases equivalentes.
 </p>
 <p><strong>Kitabudom <em>hu mi ergo in da</em> sen day.</strong><br /> "A biblioteca <em>que eu trabalho nela</em> é
 	grande".<br />

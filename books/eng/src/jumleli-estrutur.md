@@ -1,4 +1,4 @@
-<h1>​Word Order: Sentence Structure</h1>
+<h1>Word Order: Sentence Structure</h1>
 <p>
 </p>
 <h2>SVO</h2>

@@ -1,4 +1,4 @@
-<h1>​Vortordo: Frazstrukturo</h1>
+<h1>Vortordo: Frazstrukturo</h1>
 <p>
 </p>
 <h2>SVO</h2>
