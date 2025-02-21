@@ -15,7 +15,7 @@
         <!-- Custom HTML head -->
         {{> head}}
 
-        <meta name="description" content="{{ chapter_title }} | {{ description }}">
+        <meta name="description" content="{{ chapter_title }} - {{ description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#e1e1db">
 
@@ -35,16 +35,11 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="{{ path_to_root }}FontAwesome/css/font-awesome.css">
-        <!-- {{#if copy_fonts}}
-        <link rel="stylesheet" href="{{ path_to_root }}fonts/fonts.css">
-        {{/if}} -->
 
         <!-- Highlight.js Stylesheets -->
-        <!--
         <link rel="stylesheet" href="{{ path_to_root }}highlight.css">
         <link rel="stylesheet" href="{{ path_to_root }}tomorrow-night.css">
         <link rel="stylesheet" href="{{ path_to_root }}ayu-highlight.css">
-        -->
 
         <!-- Custom theme stylesheets -->
         {{#each additional_css}}
@@ -304,7 +299,7 @@
         {{/if}}
 
         <script src="{{ path_to_root }}clipboard.min.js"></script>
-        <!-- <script src="{{ path_to_root }}highlight.js"></script> -->
+        <script src="{{ path_to_root }}highlight.js"></script>
         <script src="{{ path_to_root }}book.js"></script>
 
         <!-- Custom JS scripts -->

@@ -404,48 +404,48 @@
 				<em>din</em>)</li>
 		</ul>
 	</li>
-	<li><strong>kal:</strong> boş; <em>bileşik kelimelerde:</em> -siz, -sız <ul>
-			<li><strong>legakal</strong> - yasadışı (<em>lega</em> - <em>yasa</em>); <strong>ergokal</strong> - işsiz
-				(<em>ergo</em> - <em>çalışmak</em>); <strong>pesakal</strong> - fakir (<em>pesa</em> - <em>para</em>);
-				<strong>luminkal</strong> - karanlık (<em>lumin</em> - <em>ışık</em>); <strong>yamkal</strong> - aç
-				(<em>yam</em> - <em>yemek</em>); <strong>suikal</strong> - susamış (<em>sui</em> - <em>su</em>)</li>
+	<li><strong>kal:</strong> boş; <em>bileşik kelimelerde:</em> -siz <ul>
+			<li><strong>legakal</strong> - yasa dışı, kanunsuz (<em>lega</em> - <em>kanun</em>);
+				<strong>ergokal</strong> - işsiz (<em>ergo</em> - <em>iş</em>); <strong>pesakal</strong> - yoksul
+				(<em>pesa</em> - <em>para</em>); <strong>luminkal</strong> - karanlık (<em>lumin</em> - <em>ışık</em>)
+			</li>
 		</ul>
 	</li>
-	<li><strong>kolordo (<em>kolor-do</em>):</strong> renk tonu, renkli (Ayrıca bakınız <strong>-sim</strong>.) <ul>
+	<li><strong>kolordo (<em>kolor-do</em>):</strong> ton, renkli (Ayrıca <strong>-sim</strong>'e bakınız.) <ul>
 			<li><strong>asmankolordo</strong> - gök mavisi (<em>asman</em> - <em>gök</em>)</li>
 		</ul>
 	</li>
-	<li><strong>laye:</strong> layık, değer <ul>
+	<li><strong>laye:</strong> layık <ul>
 			<li><strong>xinloylaye</strong> - güvenilir (<em>xinloy</em> - <em>güven</em>); <strong>memorilaye</strong>
-				- unutulmaz (<em>memori</em> - <em>hafıza/hatırlamak</em>); <strong>doxolaye</strong> - okunmaya değer
-				(<em>doxo</em> - <em>okumak</em>)</li>
+				- hatırlanmaya değer (<em>memori</em> - <em>hafıza/hatırlamak</em>); <strong>doxolaye</strong> -
+				okunmaya değer (<em>doxo</em> - <em>okumak</em>)</li>
 		</ul>
 	</li>
-	<li><strong>musi:</strong> -meli, -malı; <em>bileşik kelimelerde:</em> (etken) -meli; (edilgen) -lmalı, zorunlu <ul>
-			<li>etken: <strong>triunfamusi</strong> - kazanması gereken kişi (<em>triunfa</em> -
-				<em>kazanmak/zafer</em>)</li>
-			<li>edilgen: <strong>beokomusi</strong> - mutlaka görülmesi gereken (<em>oko - görmek; beoko -
-					görülmek</em>)</li>
+	<li><strong>musi:</strong> -meli/-malı, zorunda olmak; <em>bileşik kelimelerde:</em> (etken) -meli/-malı; (edilgen)
+		-meli/-malı, emir kipi <ul>
+			<li>etken: <strong>triunfamusi</strong> - kazanması gereken (<em>triunfa</em> - <em>kazanmak/zafer
+					kazanmak</em>)</li>
+			<li>edilgen: <strong>beokomusi</strong> - görülmesi gereken (<em>oko - görmek; beoko - görülmek</em>)</li>
 		</ul>
 	</li>
-	<li><strong>peldo (<em>pel-do</em>):</strong> sürülmüş, itilmiş <ul>
-			<li><strong>somnopeldo</strong> - uykulu (<em>somno</em> - <em>uyku</em>)</li>
+	<li><strong>peldo (<em>pel-do</em>):</strong> tarafından yönlendirilen <ul>
+			<li><strong>somnopeldo</strong> - uykulu (<em>somno</em> - <em>uyku</em>); <strong>yampeldo</strong> - aç
+				(<em>yam</em> - <em>yemek</em>)</li>
 		</ul>
 	</li>
-	<li><strong>pul:</strong> dolu; <em>bileşik kelimelerde:</em> -dolu, -li <ul>
-			<li><strong>kimapul</strong> - pahalı (<em>kima</em> - <em>fiyat</em>); <strong>yampul</strong> - tok
-				(<em>yam - yemek</em>); <strong>jawgupul</strong> - dikkatli (<em>jawgu</em> - <em>dikkat etmek</em>);
-				<strong>brilapul</strong> - parlak (<em>brila</em> - <em>parlamak</em>); <strong>pesapul</strong> -
-				zengin (<em>pesa</em> - <em>para</em>); <strong>hataripul</strong> - tehlikeli (<em>hatari</em> -
-				<em>tehlike</em>); <strong>legapul</strong> - yasal (<em>lega</em> - <em>yasa</em>);
-				<strong>bawlupul</strong> - şiddet dolu (<em>bawlu</em> - <em>şiddet</em>)</li>
+	<li><strong>pul:</strong> dolu; <em>bileşik kelimelerde:</em> bol, -li/-lı (ekleri ile) <ul>
+			<li><strong>kimapul</strong> - pahalı (<em>kima</em> - <em>fiyat</em>); <strong>juipul</strong> - dikkatli
+				(<em>jui</em> - <em>dikkat</em>); <strong>brilapul</strong> - parlak (<em>brila</em> -
+				<em>parlamak</em>); <strong>pesapul</strong> - zengin (<em>pesa</em> - <em>para</em>);
+				<strong>hataripul</strong> - tehlikeli (<em>hatari</em> - <em>tehlike</em>); <strong>legapul</strong> -
+				yasal, kanuni (<em>lega</em> - <em>kanun</em>); <strong>bawlupul</strong> - şiddetli (<em>bawlu</em> -
+				<em>şiddet</em>)</li>
 		</ul>
 	</li>
-	<li><strong>sim:</strong> benzer; <em>bileşik kelimelerde:</em> -gibi, -msı, renk tonu <ul>
-			<li><strong>dostesim</strong> - dost canlısı (<em>doste</em> - <em>arkadaş</em>); <strong>ninisim</strong> -
-				çocuksu (<em>nini</em> - <em>çocuk</em>); <strong>dahabusim</strong> - altın rengi (<em>dahabu -
-					altın</em>); <strong>realsim</strong> - gerçekçi (<em>real</em> - <em>gerçek</em>);
-				<strong>femsim</strong> - kadınsı (<em>fem</em> - <em>kadınsı</em>)</li>
+	<li><strong>sim:</strong> benzer; <em>bileşik kelimelerde:</em> gibi, -ımsı, renk tonu <ul>
+			<li><strong>dostesim</strong> - arkadaşça (<em>doste</em> - <em>arkadaş</em>); <strong>ninisim</strong> -
+				çocuksu (<em>nini</em> - <em>çocuk</em>); <strong>dahabusim</strong> - altın sarısı (<em>dahabu -
+					altın</em>); <strong>realsim</strong> - gerçekçi (<em>real</em> - <em>gerçek</em>)</li>
 		</ul>
 	</li>
 </ul>
@@ -603,10 +603,9 @@
 			<li><strong>sikoosis</strong> - psikoz (<em>siko</em> - <em>akıl</em>)</li>
 		</ul>
 	</li>
-	<li><strong>pel:</strong> sürmek, itmek <ul>
-			<li><strong>seksopel</strong> - cinsel dürtü, libido (<em>sekso - seks</em>); <strong>amirupel</strong> -
-				kontrol (<em>amiru - emretmek</em>); <strong>tehdidupel</strong> - zorlamak (<em>tehdidu - tehdit</em>)
-			</li>
+	<li><strong>pel:</strong> (dışsal) itmek, yönlendirmek; istemeye neden olmak <ul>
+			<li><strong>seksopel</strong> - çekicilik, seksapel (<em>sekso - seks</em>); <strong>jixipel</strong> -
+				merak uyandırmak</li>
 		</ul>
 	</li>
 	<li><strong>tim:</strong> takım; <em>bileşik kelimelerde:</em> takım, kurul <ul>
