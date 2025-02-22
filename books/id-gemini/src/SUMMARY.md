@@ -1,0 +1,18 @@
+# Daftar isi
+
+- [Pendahuluan](./gramati.md)
+- [Daftar isi](./SUMMARY.md)
+- [Alfabet dan Pengucapan](./abece-ji-lafuzu.md)
+- [Kata-Kata Isi: Kata Benda, Kata Kerja, Kata Sifat, dan Kata Keterangan](./inharelexi.md)
+- [Kata Bantu: Konjungsi, Preposisi, dan Adverbia Fungsi](./gramatilexi.md)
+- [Kata Ganti](./pornamelexi.md)
+- [Korelatif](./tabellexi.md)
+- [Angka dan Bulan dalam Setahun](./numer-ji-mesi.md)
+- [Bentuk Kata Kerja](./falelexili-morfo.md)
+- [Urutan Kata: Struktur Frasa](./jumlemonli-estrutur.md)
+- [Tata Kata: Struktur Kalimat](./jumleli-estrutur.md)
+- [Pembentukan Kata](./lexikostrui.md)
+- [Morfem Terpangkas](./ofkatado-morfomon.md)
+- [Singkatan](./kurtogixey.md)
+- [Kelas Kata](./lexiklase.md)
+- [Frasa dan Ekspresi Umum](./pimpan-logaxey.md)

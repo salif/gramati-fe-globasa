@@ -1,0 +1,963 @@
+<!DOCTYPE HTML>
+<html lang="de" class="rust-clr sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Wortbildung - Globasa Grammatik</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="Wortbildung - Eine inoffizielle deutsche Übersetzung der Grammatik der konstruierten Sprache namens Globasa. Teile der Übersetzung wurden mit dem Gemini-Sprachmodell erstellt.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Globasa Grammatik</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/de-gemini/src/lexikostrui.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="wortbildung"><a class="header" href="#wortbildung">Wortbildung</a></h1>
+<p>
+</p>
+<h2 id="wortart-von-affixierten-wörtern"><a class="header" href="#wortart-von-affixierten-wörtern">Wortart von affixierten Wörtern</a></h2>
+<p>Präfixe verändern die Wortart des affixierten Wortes nicht. Suffixe hingegen tun dies und werden entweder als
+	Adjektiv-/Adverb-Suffixe oder als Substantiv-/Verb-Suffixe definiert.</p>
+<h2 id="grammatikalische-affixe"><a class="header" href="#grammatikalische-affixe">Grammatikalische Affixe</a></h2>
+<ul>
+	<li><strong><a href="./pornamelexi.html#suyali_sifalexi">-su</a>:</strong> Possessivadjektive</li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-li">-li</a>:</strong> Macht Substantive zu Adjektiven/Adverbien
+		(<em>von, bezogen auf</em>)</li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-mo">-mo</a>:</strong> Macht Adjektive zu
+		<em>Adjektiv/Adverb-modifizierenden Adverbien</em></li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-ya">-ya</a>:</strong> Macht Adjektive zu abstrakten Substantiven
+	</li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a>:</strong> Transitivitätsmarker</li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a>:</strong> Intransitivitätsmarker</li>
+	<li><strong><a href="./falelexili-morfo.html#be-">be-</a>:</strong> Passiv</li>
+	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> Gerundium;
+		<em>gewohnheitsmäßiger/fortdauernder Verbaspekt</em></li>
+</ul>
+<h2 id="präfixe"><a class="header" href="#präfixe">Präfixe <span id="lefefikso"></span></a></h2>
+<ul>
+	<li><strong>aw-:</strong> abwesend, weg <ul>
+			<li><strong>awidi</strong> - verlassen, weggehen (<em>idi</em> - <em>gehen</em>); <strong>awglu</strong> -
+				austrinken (<em>glu</em> - <em>trinken</em>); <strong>awpel</strong> - wegfahren (<em>pel</em> -
+				<em>fahren/schieben, Impuls/Antrieb</em>)</li>
+		</ul>
+	</li>
+	<li><strong>awto-:</strong> auto- (<em>automatisch</em>) [<strong>awtomati</strong> - automatisch] <ul>
+			<li><strong>awtosahigi</strong> - autokorrigieren (<em>sahi - korrekt, richtig; sahigi - korrigieren</em>)
+			</li>
+		</ul>
+	</li>
+	<li><strong>dis-:</strong> verteilen, zerstreuen <ul>
+			<li><strong>disgibe</strong> - verteilen (<em>gibe</em> - <em>geben</em>)</li>
+		</ul>
+	</li>
+	<li><strong>eko-:</strong> öko- <ul>
+			<li><strong>ekologi</strong> - Ökologie (<em>logi - Fachgebiet, Disziplin</em>), <strong>ekosistema</strong>
+				- Ökosystem (<em>sistema - System</em>)</li>
+		</ul>
+	</li>
+	<li><strong>fin-:</strong> beenden, zu Ende <ul>
+			<li><strong>findoxo</strong> - beenden, zu Ende lesen (<em>doxo</em> - <em>lesen</em>);
+				<strong>finyam</strong> - aufessen (<em>yam</em> - <em>essen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>fron-:</strong> vorwärts [<strong>fronta</strong> - Stirn, Vorderseite] <ul>
+			<li><strong>fronkadam</strong> - vorankommen, Fortschritt (<em>kadam</em> - <em>Schritt</em>)</li>
+		</ul>
+	</li>
+	<li><strong>ja-:</strong> unmittelbar angrenzend [<strong>jara</strong> - Nachbar] <ul>
+			<li><strong>jale</strong> - gerade (haben) (<em>le - Partikel für Vergangenheitsform</em>);
+				<strong>jaxa</strong> - im Begriff sein zu (<em>xa - Partikel für Zukunftsform</em>);
+				<strong>jaledin</strong> - gestern (<em>din - Tag</em>); <strong>jaxadin</strong> - morgen (<em>din -
+					Tag</em>)</li>
+		</ul>
+	</li>
+	<li><strong>nen-:</strong> un-, in-, im-, ir- <ul>
+			<li><strong>nenmuhim</strong> - unwichtig (<em>muhim</em> - <em>wichtig</em>); <strong>nenkompleto</strong>
+				- unvollständig (<em>kompleto</em> - <em>vollständig</em>); <strong>nenible</strong> - unmöglich
+				(<em>ible - möglich</em>); <strong>okonenible</strong> - unsichtbar (<em>oko - sehen</em>);
+				<strong>imanunenible</strong> - unglaublich (<em>imanu - glauben</em>); <strong>nensomno</strong> -
+				Schlaflosigkeit (<em>somno</em> - <em>Schlaf</em>)</li>
+		</ul>
+	</li>
+	<li><strong>pos-:</strong> Gegenteil [<strong>opos</strong> - Gegenteil] <ul>
+			<li><strong>possahay</strong> - behindern (<em>sahay</em> - <em>helfen</em>); <strong>possukses</strong> -
+				Misserfolg/scheitern (<em>sukses</em> - <em>Erfolg</em>); <strong>posdongwi</strong> - nicht
+				übereinstimmen (<em>dongwi</em> - <em>übereinstimmen</em>); <strong>posgami</strong> - sich scheiden
+				lassen (<em>gami</em> - <em>Ehepartner/heiraten</em>)</li>
+		</ul>
+	</li>
+	<li><strong>pre:</strong> hier/da, anwesend (im Gegensatz zu <em>weg, abwesend</em>) <ul>
+			<li><strong>preata</strong> - ankommen (<em>ata</em> - <em>kommen</em>); <strong>preporta</strong> -
+				bringen, mitnehmen (<em>porta</em> - <em>tragen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>ri-:</strong> wieder- (erneut) <ul>
+			<li><strong>rieskri</strong> - neu schreiben (<em>eskri</em> - <em>schreiben</em>);
+				<strong>riadresu</strong> - weiterleiten (<em>adresu</em> - <em>Adresse</em>); <strong>ridoxo</strong> -
+				nochmals lesen (<em>doxo</em> - <em>lesen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>ru-:</strong> retro-, zurück- [<strong>ruke</strong> - Rücken/Rückseite] <ul>
+			<li><strong>ruata</strong> - zurückkommen, zurückkehren (<em>ata</em> - <em>kommen</em>);
+				<strong>ruidi</strong> - zurückgehen, zurückkehren (<em>idi</em> - <em>gehen</em>);
+				<strong>rugibe</strong> - zurückgeben, zurückerstatten (<em>gibe</em> - <em>geben</em>);
+				<strong>ruaksyon</strong> - reagieren/Reaktion (<em>aksyon</em> - <em>handeln/Handlung</em>)</li>
+		</ul>
+	</li>
+	<li><strong>xor-:</strong> Anfang von, Beginn von <ul>
+			<li><strong>xorsomno</strong> - einschlafen (<em>somno</em> - <em>Schlaf</em>); <strong>xoraham</strong> -
+				erkennen, verstehen (<em>aham</em> - <em>verstehen</em>)</li>
+		</ul>
+	</li>
+</ul>
+<h2 id="adjadv-suffixe"><a class="header" href="#adjadv-suffixe">Adj/Adv-Suffixe</a></h2>
+<ul>
+	<li><strong>-do:</strong> in einem inaktiven Zustand von (macht Substantive zu <em>inaktiven Adjektiven</em>) <ul>
+			<li><strong>kasirudo</strong> - gebrochen (<em>kasiru</em> - <em>brechen</em>); <strong>klosido</strong> -
+				geschlossen (<em>klosi</em> - <em>schließen</em>); <strong>estodo</strong> - angehalten (<em>esto</em> -
+				<em>anhalten</em>) </li>
+		</ul>
+	</li>
+	<li><strong>-ne:</strong> im aktiven Prozess von (macht Verben zu <em>aktiven Adjektiven</em>) <ul>
+			<li><strong>somnone</strong> - schlafend (<em>somno</em> - <em>Schlaf</em>); <strong>interesne</strong> -
+				interessant (<em>interes</em> - <em>Interesse</em>); <strong>amusane</strong> - amüsant, lustig
+				(<em>amusa</em> - <em>amüsieren</em>)</li>
+		</ul>
+	</li>
+	<li><strong>-ple:</strong> mehrfach <ul>
+			<li><strong>duaple</strong> - doppelt (<em>dua</em> - <em>zwei</em>); <strong>tigaple</strong> - dreifach
+				(<em>tiga</em> - <em>drei</em>); <strong>careple</strong> - vierfach (<em>care</em> - <em>vier</em>)
+			</li>
+		</ul>
+	</li>
+	<li><strong>-yum:</strong> <em>Ordnungszahlen</em>
+		<ul>
+			<li><strong>unyum</strong> - erste(r/s) (<em>un - eins</em>); <strong>duayum</strong> - zweite(r/s) (<em>dua
+					- zwei</em>); <strong>tigayum</strong> - dritte(r/s) (<em>tiga - drei</em>)</li>
+		</ul>
+	</li>
+</ul>
+<h2 id="substantiv-suffixe"><a class="header" href="#substantiv-suffixe">Substantiv-Suffixe</a></h2>
+<ul>
+	<li><strong>-gon:</strong> -agon (<em>geometrische Figur</em>) [<strong>gono</strong> - Winkel] <ul>
+			<li><strong>tigagon</strong> - Dreieck (<em>tiga - drei</em>); <strong>limagon</strong> - Fünfeck (<em>lima
+					- fünf</em>); <strong>ocogon</strong> - Achteck (<em>oco - acht</em>); <strong>ortogon</strong> -
+				Rechteck (<em>orto - aufrecht</em>) </li>
+		</ul>
+	</li>
+	<li><strong>-ina:</strong> -in <ul>
+			<li><strong>kafeina</strong> - Koffein (<em>kafe - Kaffee</em>)</li>
+		</ul>
+	</li>
+	<li><strong>-je:</strong> Grad [<strong>daraje</strong> - Grad, Niveau] <ul>
+			<li><strong>dayje</strong> - Größe (<em>day</em> - <em>groß</em>); <strong>velosije</strong> -
+				Geschwindigkeit (<em>velosi</em> - <em>schnell</em>); <strong>telije</strong> - Entfernung
+				(<em>teli</em> - <em>fern</em>); <strong>laoje</strong> - Alter (<em>lao</em> - <em>alt</em>);
+				<strong>termoje</strong> - Temperatur (<em>termo</em> - <em>Hitze</em>); <strong>gaoje</strong> - Höhe
+				(<em>gao</em> - <em>hoch/groß</em>) </li>
+		</ul>
+	</li>
+	<li><strong>-sa:</strong> Sprache; Tierlaute [<strong>basa</strong> - Sprache] <ul>
+			<li><strong>Globasa</strong> - Globasa (<em>globa</em> - <em>Welt</em>); <strong>Englisa</strong> - Englisch
+				(<em>Engli</em> - <em>England</em>); <strong>Espanisa</strong> - Spanisch (<em>Espani</em> -
+				<em>Spanien</em>)</li>
+			<li><strong>bwawsa</strong> - Bellen (<em>bwaw</em> - <em>Hund</em>); <strong>myawsa</strong> - Miauen
+				(<em>myaw</em> - <em>Katze</em>); <strong>umasa</strong> - Wiehern (<em>uma</em> - <em>Pferd</em>);
+				<strong>singasa</strong> - Brüllen (<em>singa</em> - <em>Löwe</em>)</li>
+		</ul>
+	</li>
+</ul>
+<h2 id="funktionswörter-als-quasi-präfixe-in-zusammengesetzten-wörtern"><a class="header" href="#funktionswörter-als-quasi-präfixe-in-zusammengesetzten-wörtern">Funktionswörter als Quasi-Präfixe in zusammengesetzten Wörtern</a></h2>
+<ul>
+	<li><strong>anti:</strong> gegen, wider, Anti- <ul>
+			<li><strong>antidokya</strong> - Gegengift (<em>dokya</em> - <em>Gift</em>); <strong>antijento</strong> -
+				bekämpfen (<em>jento</em> - <em>kämpfen</em>); <strong>antiaksyon</strong> - entgegenwirken
+				(<em>aksyon</em> - <em>handeln/Handlung</em>)</li>
+		</ul>
+	</li>
+	<li><strong>bax:</strong> unter, Sub-, Vize- <ul>
+			<li><strong>baxgeoli</strong> - unterirdisch (<em>geo - Erde, Boden</em>); <strong>baxpresidiyen</strong> -
+				Vizepräsident (<em>presidiyen - Präsident</em>)</li>
+		</ul>
+	</li>
+	<li><strong>pas:</strong> durch <ul>
+			<li><strong>pasdoxo</strong> - durchlesen (<em>doxo - lesen</em>); <strong>pasjiwa</strong> - durchleben
+				(<em>jiwa - leben, Leben</em>); <strong>paspasa</strong> - durchqueren, passieren (<em>pasa -
+					passieren</em>) </li>
+		</ul>
+	</li>
+	<li><strong>ex:</strong> aus <ul>
+			<li><strong>exidi</strong> - Ausgang (<em>idi - gehen</em>); <strong>exporta</strong> - exportieren
+				(<em>porta - tragen</em>); <strong>exnasyonli</strong> - ausländisch (<em>nasyon - Nation</em>)</li>
+		</ul>
+	</li>
+	<li><strong>in:</strong> in <ul>
+			<li><strong>inidi</strong> - eintreten (<em>idi - gehen</em>); <strong>inporta</strong> - importieren
+				(<em>porta - tragen</em>); <strong>inhare</strong> - enthalten (<em>hare</em> - <em>haben</em>) </li>
+		</ul>
+	</li>
+	<li><strong>infra:</strong> infra-, hypo- <ul>
+			<li><strong>infratermo</strong> - Unterkühlung (<em>termo</em> - <em>Hitze</em>); <strong>infraroso</strong>
+				- infrarot (<em>roso</em> - <em>rot</em>); <strong>infraidi</strong> - absteigen (<em>idi</em> -
+				<em>gehen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>intre:</strong> zwischen, inter- <ul>
+			<li><strong>intrenasyonli</strong> - international (<em>nasyon</em> - <em>Nation</em>);
+				<strong>intrepala</strong> - Gespräch (<em>pala</em> - <em>sprechen, reden</em>);
+				<strong>intreaksyon</strong> - interagieren/Interaktion (<em>aksyon</em> - <em>handeln/Handlung</em>);
+				<strong>intrediskusi</strong> - Dialog (<em>diskusi</em> - <em>diskutieren/Diskussion</em>)</li>
+		</ul>
+	</li>
+	<li><strong>le:</strong> vergangen <ul>
+			<li><strong>lefe</strong> - vorher (<em>fe - bei</em>); <strong>legami</strong> - Ex-Ehepartner
+				(<em>gami</em> - <em>Ehepartner</em>); <strong>lepresidiyen</strong> - Ex-Präsident (<em>presidi</em> -
+				<em>präsidieren</em>) </li>
+		</ul>
+	</li>
+	<li><strong>lefe:</strong> vor-, voran- <ul>
+			<li><strong>lefeoko</strong> - vorhersehen (<em>oko - sehen</em>); <strong>lefeloga</strong> - vorhersagen,
+				prophezeien (<em>loga - sagen/erzählen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>moy:</strong> jeder, alle <ul>
+			<li><strong>moyabil</strong> - allmächtig (<em>abil - fähig, können</em>); <strong>moydinli</strong> -
+				täglich, alltäglich (<em>din - Tag</em>)</li>
+		</ul>
+	</li>
+	<li><strong>of:</strong> von, aus, <em>Brüche</em>
+		<ul>
+			<li><strong>offolo</strong> - abhängen von (<em>folo - folgen</em>); <strong>un ofdua</strong> - halb, eins
+				von zwei (<em>dua</em> - <em>zwei</em>)</li>
+		</ul>
+	</li>
+	<li><strong>se:</strong> selbst- <ul>
+			<li><strong>semorgi</strong> - Selbstmord (<em>morgi</em> - <em>töten</em>); <strong>sebawe</strong> -
+				Selbstverteidigung (<em>bawe - Verteidigung</em>)</li>
+		</ul>
+	</li>
+	<li><strong>supra:</strong> über, super-, hyper- <ul>
+			<li><strong>suprarealsim</strong> - hyperrealistisch (<em>real - real; realsim - realistisch</em>);
+				<strong>supraidi</strong> - aufsteigen (<em>idi - gehen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>ton:</strong> zusammen, mit- <ul>
+			<li><strong>tonaksyon</strong> - kooperieren (<em>aksyon - handeln/Handlung</em>); <strong>tonergo</strong>
+				- zusammenarbeiten (<em>ergo - arbeiten</em>)</li>
+		</ul>
+	</li>
+	<li><strong>tras:</strong> quer, trans- <ul>
+			<li><strong>trasporta</strong> - transportieren/Transport (<em>porta - tragen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>ultra:</strong> jenseits <ul>
+			<li><strong>ultrajiwa</strong> - überleben (<em>jiwa</em> - <em>Leben</em>); <strong>ultranaturali</strong>
+				- übernatürlich (<em>natura</em> - <em>Natur</em>); <strong>ultrapasa</strong> - übertreffen
+				(<em>pasa</em> - <em>passieren</em>)</li>
+		</ul>
+	</li>
+	<li><strong>xa:</strong> zukünftig <ul>
+			<li><strong>xafe</strong> - nach (<em>fe - bei</em>)</li>
+		</ul>
+	</li>
+	<li><strong>xafe:</strong> post- <ul>
+			<li><strong>xafeplasi</strong> - verschieben (<em>plasi - setzen</em>); <strong>xafemorculi</strong>
+				(vorzugsweise prägnanter als Präpositionalphrase ausgedrückt - <strong>xafe morcu</strong>) -
+				postmortal, posthum (<em>morcu - Tod</em>); <strong>xafexengili</strong> (vorzugsweise prägnanter als
+				Präpositionalphrase ausgedrückt - <strong>xafe xengi</strong>) - postpartal (<em>xen - geboren; xengi -
+					gebären</em>)</li>
+		</ul>
+	</li>
+</ul>
+<h2 id="substantiv-verb-wörter-als-quasi-präfixe-in-zusammengesetzten-wörtern"><a class="header" href="#substantiv-verb-wörter-als-quasi-präfixe-in-zusammengesetzten-wörtern">Substantiv-/Verb-Wörter als Quasi-Präfixe in zusammengesetzten Wörtern</a></h2>
+<ul>
+	<li><strong>gami:</strong> Ehepartner, heiraten; <em>in Zusammensetzungen:</em> Schwieger- <ul>
+			<li><strong>gamisodar</strong> - Schwager, Schwägerin (<em>sodar</em> - <em>Geschwister</em>);
+				<strong>gamiatre</strong> - Schwiegereltern (<em>atre</em> - <em>Elternteil</em>) </li>
+		</ul>
+	</li>
+	<li><strong>hawa:</strong> Luft; <em>in Zusammensetzungen:</em> aero- <ul>
+			<li><strong>hawanavi</strong> - Flugzeug (<em>navi</em> - <em>Schiff</em>)</li>
+		</ul>
+	</li>
+</ul>
+<h2 id="adjadv-wörter-als-quasi-präfixe-in-zusammengesetzten-wörtern"><a class="header" href="#adjadv-wörter-als-quasi-präfixe-in-zusammengesetzten-wörtern">Adj/Adv-Wörter als Quasi-Präfixe in zusammengesetzten Wörtern</a></h2>
+<p>Viele Adjektive/Adverbien können verwendet werden, um zusammengesetzte Wörter zu bilden. Die folgende Liste enthält
+	die am häufigsten verwendeten Adjektive/Adverbien in Zusammensetzungen.</p>
+<ul>
+	<li><strong>bon:</strong> gut; <em>in Zusammensetzungen:</em> eu-, objektiv oder moralisch gut <ul>
+			<li><strong>bonata</strong> - willkommen (<em>ata</em> - <em>kommen</em>); <strong>bonxanse</strong> - viel
+				Glück (<em>xanse</em> - <em>Chance</em>, <em>Glück</em>); <strong>bonlexi</strong> - Euphemismus
+				(<em>lexi</em> - <em>Wort</em>); <strong>bonmorcu</strong> - Euthanasie (<em>morcu</em> - <em>Tod</em>);
+				<strong>bonoko</strong> - beobachten, zuschauen (<em>oko</em> - <em>Auge/sehen/schauen</em>);
+				<strong>bonore</strong> - zuhören (<em>ore</em> - <em>Ohr/hören</em>)</li>
+		</ul>
+	</li>
+	<li><strong>bur:</strong> schlecht; <em>in Zusammensetzungen:</em> objektiv oder moralisch schlecht <ul>
+			<li><strong>burnini</strong> - Gör, Balg (<em>nini</em> - <em>Kind</em>); <strong>bursolo</strong> - einsam
+				(<em>solo</em> - <em>allein</em>); <strong>burlexi</strong> - Schimpfwort (<em>lexi</em> -
+				<em>Wort</em>) </li>
+		</ul>
+	</li>
+	<li><strong>colo:</strong> hässlich; <em>in Zusammensetzungen:</em> hässlich <ul>
+			<li><strong>coloeskri</strong> - kritzeln (<em>eskri</em> - <em>schreiben</em>)</li>
+		</ul>
+	</li>
+	<li><strong>cuyo:</strong> haupt-, Haupt-, primär; <em>in Zusammensetzungen:</em> Haupt-, Meister-, Erz- <ul>
+			<li><strong>cuyodolo</strong> - Hauptstraße (<em>dolo</em> - <em>Straße</em>); <strong>cuyoyawxe</strong> -
+				Hauptschlüssel (<em>yawxe</em> - <em>Schlüssel</em>)</li>
+		</ul>
+	</li>
+	<li><strong>day:</strong> groß; <em>in Zusammensetzungen:</em> augmentativ <ul>
+			<li><strong>daybon</strong> - ausgezeichnet, großartig, fantastisch (<em>bon</em> - <em>gut</em>);
+				<strong>dayday</strong> - riesig, gigantisch (<em>day</em> - <em>groß</em>); <strong>daylil</strong> -
+				winzig (<em>lil</em> - <em>klein</em>); <strong>dayxaher</strong> - Metropole (<em>xaher</em> -
+				<em>Stadt</em>); <strong>daybaytu</strong> - Villa (<em>baytu</em> - <em>Haus</em>)</li>
+		</ul>
+	</li>
+	<li><strong>fem:</strong> weiblich <ul>
+			<li><strong>femgami</strong> - Ehefrau (<em>gami</em> - <em>Ehepartner</em>); <strong>femnini</strong> -
+				Mädchen (<em>nini</em> - <em>Kind</em>); <strong>femixu</strong> - Frau (<em>ixu</em> - <em>Erwachsener,
+					Mann/Frau</em>); <strong>femwangu</strong> - Königin (<em>wangu</em> - <em>Monarch</em>,
+				<em>König/Königin</em>)</li>
+		</ul>
+	</li>
+	<li><strong>godo:</strong> - übermäßig, übertrieben, zu viel, zu viele; <em>in Zusammensetzungen:</em> zu <ul>
+			<li><strong>godojaldi</strong> - verfrüht (<em>jaldi - früh</em>)</li>
+		</ul>
+	</li>
+	<li><strong>juni:</strong> jung; <em>in Zusammensetzungen:</em> Nachwuchs <ul>
+			<li><strong>junibwaw</strong> - Welpe (<em>bwaw</em> - <em>Hund</em>); <strong>junimyaw</strong> - Kätzchen
+				(<em>myaw</em> - <em>Katze</em>); <strong>junisinga</strong> - Junges (<em>singa</em> - <em>Löwe</em>);
+				<strong>juninini</strong> - Säugling, Kleinkind (<em>nini</em> - <em>Kind</em>)</li>
+		</ul>
+	</li>
+	<li><strong>kwasi:</strong> scheinbar; <em>in Zusammensetzungen:</em> quasi-, Stief- <ul>
+			<li><strong>kwasisodar</strong> - Stiefbruder, Stiefschwester (<em>sodar</em> - <em>Geschwister</em>) </li>
+		</ul>
+	</li>
+	<li><strong>lama:</strong> alt [<em>Gegensatz</em> <strong>neo</strong>] <ul>
+			<li><strong>lamahistori</strong> - alte Geschichte (<em>histori</em> - <em>Geschichte</em>)</li>
+		</ul>
+	</li>
+	<li><strong>lao:</strong> alt [<em>Gegensatz</em> <strong>juni</strong>] <ul>
+			<li><strong>laoatre</strong> - Vorfahre, Ahn (<em>atre</em> - <em>Elternteil</em>); <strong>laonini</strong>
+				- Teenager, Jugendlicher (<em>nini</em> - <em>Kind</em>);
+				<strong>laodaypatre</strong>/<strong>laodaypapa</strong> - Urgroßvater/Uropa (<em>daypatre</em> -
+				<em>Großvater</em>; <em>daypapa</em> - <em>Opa</em>)</li>
+		</ul>
+	</li>
+	<li><strong>lil:</strong> klein; <em>in Zusammensetzungen:</em> diminutiv <ul>
+			<li><strong>lilhaha</strong> - kichern (<em>haha</em> - <em>lachen</em>); <strong>lilbaytu</strong> - Hütte,
+				Kate (<em>baytu</em> - <em>Haus</em>); <strong>lilnahir</strong> - Bach (<em>nahir</em> -
+				<em>Fluss</em>)</li>
+		</ul>
+	</li>
+	<li><strong>mal:</strong> falsch; <em>in Zusammensetzungen:</em> miss- <ul>
+			<li><strong>malaham</strong> - missverstehen (<em>aham</em> - <em>verstehen</em>);
+				<strong>malhesabu</strong> - verzählen (<em>hesabu</em> - <em>zählen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>man:</strong> männlich <ul>
+			<li><strong>mangami</strong> - Ehemann (<em>gami</em> - <em>Ehepartner</em>); <strong>mannini</strong> -
+				Junge (<em>nini</em> - <em>Kind</em>); <strong>manixu</strong> - Mann (<em>ixu</em> -
+				<em>Erwachsener</em>, <em>Mann/Frau</em>); <strong>manwangu</strong> - König (<em>wangu</em> -
+				<em>Monarch</em>, <em>König/Königin</em>)</li>
+		</ul>
+	</li>
+	<li><strong>meli:</strong> schön, hübsch <ul>
+			<li><strong>melieskri</strong> - Kalligraphie (<em>eskri</em> - <em>schreiben</em>)</li>
+		</ul>
+	</li>
+	<li><strong>midi:</strong> mittel; <em>in Zusammensetzungen:</em> mittel-, Mittel- <ul>
+			<li><strong>midinuru</strong> - Mittag (<em>nuru</em> - <em>Tageslicht</em>); <strong>midinoce</strong> -
+				Mitternacht (<em>noce</em> - <em>Nacht</em>); <strong>mididay</strong> - mittel</li>
+		</ul>
+	</li>
+	<li><strong>neo:</strong> neu; <em>in Zusammensetzungen:</em> neu, neo- <ul>
+			<li><strong>neoklasiko</strong> - neoklassisch (<em>klasiko</em> - <em>klassisch</em>) </li>
+		</ul>
+	</li>
+	<li><strong>semi:</strong> irgendwie, teilweise; <em>in Zusammensetzungen:</em> halb-; semi-, -isch <ul>
+			<li><strong>semisodar</strong> - Halbbruder/Halbschwester (<em>sodar</em> - <em>Geschwister</em>);
+				<strong>semikijawi</strong> - grünlich (<em>kijawi</em> - <em>grün</em>); <strong>seminudi</strong> -
+				halbnackt (<em>nudi - nackt</em>)</li>
+		</ul>
+	</li>
+</ul>
+<h2 id="zahlwörter-als-quasi-präfixe-in-zusammengesetzten-wörtern"><a class="header" href="#zahlwörter-als-quasi-präfixe-in-zusammengesetzten-wörtern">Zahlwörter als Quasi-Präfixe in zusammengesetzten Wörtern</a></h2>
+<p>Zahlwörter können auch verwendet werden, um zusammengesetzte Wörter zu bilden.</p>
+<ul>
+	<li><strong>unbasayen</strong> - einsprachig (<em>basa - Sprache</em>)</li>
+	<li><strong>duacalun</strong> - Fahrrad (<em>calun - Rad</em>)</li>
+</ul>
+<h2 id="adjadv-wörter-als-quasi-suffixe-in-zusammengesetzten-wörtern"><a class="header" href="#adjadv-wörter-als-quasi-suffixe-in-zusammengesetzten-wörtern">Adj/Adv-Wörter als Quasi-Suffixe in zusammengesetzten Wörtern</a></h2>
+<ul>
+	<li><strong>abil:</strong> können, fähig; <em>in Zusammensetzungen:</em> können, -iv <ul>
+			<li><strong>kreaabil</strong> - kreativ (<em>krea - erschaffen</em>); <strong>okonenabil</strong> - blind
+				(<em>oko - sehen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>bimar:</strong> krank <ul>
+			<li><strong>sikobimar</strong> - geisteskrank (<em>siko</em> - <em>Geist</em>)</li>
+		</ul>
+	</li>
+	<li><strong>bon:</strong> gut <ul>
+			<li><strong>xetocubon</strong> - köstlich (<em>xetocu - Geschmack</em>); <strong>xansebon</strong> -
+				glücklich, vom Glück begünstigt (<em>xanse - Chancen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>bur:</strong> schlecht <ul>
+			<li><strong>xansebur</strong> - unglücklich, vom Pech verfolgt (<em>xanse</em> - Chancen)</li>
+		</ul>
+	</li>
+	<li><strong>ible:</strong> möglich; <em>in Zusammensetzungen</em> -bar/-ibel <ul>
+			<li><strong>yamible</strong> - essbar (<em>yam - essen</em>); <strong>doxoible</strong> - lesbar (<em>doxo -
+					lesen</em>); <strong>okoible</strong> - sichtbar (<em>oko - sehen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>fil:</strong> geneigt zu, anfällig für <ul>
+			<li><strong>ergofil</strong> - fleißig, arbeitsam (<em>ergo</em> - <em>arbeiten</em>);
+				<strong>fobifil</strong> - furchtsam (<em>fobi</em> - <em>Angst</em>); <strong>dinifil</strong> -
+				religiös (<em>dini</em> - <em>Religion</em>)</li>
+		</ul>
+	</li>
+	<li><strong>kal:</strong> leer; <em>in Zusammensetzungen:</em> -los <ul>
+			<li><strong>legakal</strong> - illegal, gesetzlos (<em>lega</em> - <em>Gesetz</em>);
+				<strong>ergokal</strong> - arbeitslos (<em>ergo</em> - <em>arbeiten</em>); <strong>pesakal</strong> -
+				arm (<em>pesa</em> - <em>Geld</em>); <strong>luminkal</strong> - dunkel (<em>lumin</em> -
+				<em>Licht</em>)</li>
+		</ul>
+	</li>
+	<li><strong>kolordo (<em>kolor-do</em>):</strong> Farbton, gefärbt (Siehe auch <strong>-sim</strong>.) <ul>
+			<li><strong>asmankolordo</strong> - himmelblau (<em>asman</em> - <em>Himmel</em>)</li>
+		</ul>
+	</li>
+	<li><strong>laye:</strong> würdig <ul>
+			<li><strong>xinloylaye</strong> - vertrauenswürdig (<em>xinloy</em> - <em>Vertrauen</em>);
+				<strong>memorilaye</strong> - denkwürdig (<em>memori</em> - <em>Gedächtnis/erinnern</em>);
+				<strong>doxolaye</strong> - lesenswert (<em>doxo</em> - <em>lesen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>musi:</strong> müssen; <em>in Zusammensetzungen:</em> (aktiv) müssen; (passiv) muss sein, imperativ <ul>
+			<li>aktiv: <strong>triunfamusi</strong> - der gewinnen muss (<em>triunfa</em> -
+				<em>gewinnen/triumphieren</em>)</li>
+			<li>passiv: <strong>beokomusi</strong> - sehenswert (<em>oko - sehen; beoko - gesehen werden</em>)</li>
+		</ul>
+	</li>
+	<li><strong>peldo (<em>pel-do</em>):</strong> getrieben <ul>
+			<li><strong>somnopeldo</strong> - schläfrig (<em>somno</em> - <em>Schlaf</em>); <strong>yampeldo</strong> -
+				hungrig (<em>yam</em> - <em>essen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>pul:</strong> voll; <em>in Zusammensetzungen:</em> -voll <ul>
+			<li><strong>kimapul</strong> - kostspielig, teuer (<em>kima</em> - <em>Preis</em>); <strong>juipul</strong>
+				- vorsichtig (<em>jui</em> - <em>Aufmerksamkeit</em>); <strong>brilapul</strong> - glänzend
+				(<em>brila</em> - <em>glänzen</em>); <strong>pesapul</strong> - reich (<em>pesa</em> - <em>Geld</em>);
+				<strong>hataripul</strong> - gefährlich (<em>hatari</em> - <em>Gefahr</em>); <strong>legapul</strong> -
+				legal, rechtmäßig (<em>lega</em> - <em>Gesetz</em>); <strong>bawlupul</strong> - gewalttätig
+				(<em>bawlu</em> - <em>Gewalt</em>)</li>
+		</ul>
+	</li>
+	<li><strong>sim:</strong> ähnlich; <em>in Zusammensetzungen:</em> -ähnlich, -artig, Farbton <ul>
+			<li><strong>dostesim</strong> - freundlich (<em>doste</em> - <em>Freund</em>); <strong>ninisim</strong> -
+				kindisch (<em>nini</em> - <em>Kind</em>); <strong>dahabusim</strong> - golden (<em>dahabu - Gold</em>);
+				<strong>realsim</strong> - realistisch (<em>real</em> - <em>real</em>)</li>
+		</ul>
+	</li>
+</ul>
+<h2 id="substantive-als-quasi-suffixe-in-zusammengesetzten-wörtern"><a class="header" href="#substantive-als-quasi-suffixe-in-zusammengesetzten-wörtern">Substantive als Quasi-Suffixe in zusammengesetzten Wörtern</a></h2>
+<ul>
+	<li><strong>bol:</strong> Ball <ul>
+			<li><strong>pedabol</strong> - Fußball (<em>peda</em> - <em>Fuß</em>); <strong>basketobol</strong> -
+				Basketball (<em>basketo</em> - <em>Korb</em>)</li>
+		</ul>
+	</li>
+	<li><strong>din:</strong> Tag <ul>
+			<li><strong>Soladin</strong> - Sonntag (<em>Sola - Sonne der Erde</em>); <strong>Lunadin</strong> - Montag
+				(<em>Luna - Mond der Erde</em>); <strong>Marihidin</strong> - Dienstag (<em>Marihi - Mars</em>);
+				<strong>Bududin</strong> - Mittwoch (<em>Budu - Merkur</em>); <strong>Muxtaridin</strong> - Donnerstag
+				(<em>Muxtari - Jupiter</em>); <strong>Zuhuradin</strong> - Freitag (<em>Zuhura - Venus</em>);
+				<strong>Xanidin</strong> - Samstag (<em>Xani - Saturn</em>); <strong>Kristodin</strong> - Weihnachten
+				(<em>Kristo - Christus</em>); <strong>xencudin</strong> - Geburtstag (<em>xencu - Geburt</em>)</li>
+		</ul>
+	</li>
+	<li><strong>dom:</strong> Ort <ul>
+			<li><strong>kitabudom</strong> - Bibliothek (<em>kitabu</em> - <em>Buch</em>); <strong>mehmandom</strong> -
+				Herberge (<em>mehman</em> - <em>Gast</em>); <strong>dinidom</strong> - Kirche, Tempel (<em>dini</em> -
+				<em>Religion</em>)</li>
+		</ul>
+	</li>
+	<li><strong>doku:</strong> Dokument <ul>
+			<li><strong>pasadoku</strong> - Reisepass (<em>pasa</em> - <em>passieren</em>); <strong>xencudoku</strong> -
+				Geburtsurkunde (<em>xen</em> - <em>geboren</em>, <em>xencu</em> - <em>Geburt</em>)</li>
+		</ul>
+	</li>
+	<li><strong>dukan:</strong> Laden <ul>
+			<li><strong>kitabudukan</strong> - Buchhandlung (<em>kitabu</em> - <em>Buch</em>); <strong>yamdukan</strong>
+				- Lebensmittelgeschäft (<em>yam</em> - <em>Lebensmittel</em>)</li>
+		</ul>
+	</li>
+	<li><strong>ente:</strong> unbelebter Agent <ul>
+			<li><strong>medisente</strong> - Medizin, Medikament (<em>medis - Medizin</em>);
+				<strong>antigutonente</strong> - Schmerzmittel (<em>guton - Schmerz</em>)</li>
+		</ul>
+	</li>
+	<li><strong>fon:</strong> -fon, Audiowerkzeug <ul>
+			<li><strong>telifon</strong> - Telefon (<em>teli</em> - <em>fern</em>); <strong>infon</strong> - Mikrofon
+				(<em>in</em> - <em>hinein</em>); <strong>exfon</strong> - Lautsprecher (<em>ex - hinaus</em>);
+				<strong>orefon</strong> - Kopfhörer (<em>ore</em> - <em>Ohr</em>); <strong>radyofon</strong> -
+				Radiosender (<em>radyo</em> - <em>Radio</em>)</li>
+		</ul>
+	</li>
+	<li><strong>hole:</strong> Hülle, Halter <ul>
+			<li><strong>xamahole</strong> - Kerzenständer (<em>xama</em> - <em>Kerze</em>); <strong>pamtulhole</strong>
+				- Holster (<em>pamtul</em> - <em>Pistole</em>)</li>
+		</ul>
+	</li>
+	<li><strong>grafi:</strong> Aufnahme; <em>in Zusammensetzungen</em>; Aufnahme, -graphie <ul>
+			<li><strong>jiwagrafi</strong> - Biografie (<em>jiwa</em> - <em>Leben</em>); <strong>radyagrafi</strong> -
+				Röntgenbild (<em>radya</em> - <em>Strahlung</em>); <strong>teligrafi</strong> - Telegramm (<em>teli</em>
+				- <em>fern</em>)</li>
+		</ul>
+	</li>
+	<li><strong>ismo:</strong> -ismus <ul>
+			<li><strong>kapitalismo</strong> - Kapitalismus (<em>kapital</em> - <em>Kapital</em>);
+				<strong>komunismo</strong> - Kommunismus (<em>komun</em> - <em>kommunal</em>); <strong>Budaismo</strong>
+				- Buddhismus (<em>Buda</em> - <em>Buddha</em>)</li>
+		</ul>
+	</li>
+	<li><strong>ista:</strong> -ist (Bedeutung beschränkt auf <em>Anhänger von -ismus</em>) <ul>
+			<li><strong>kapitalista</strong> - Kapitalist (<em>kapital</em> - <em>Kapital</em>);
+				<strong>komunista</strong> - Kommunist (<em>komun</em> - <em>kommunal</em>); <strong>Budaista</strong> -
+				Buddhist (<em>Buda</em> - <em>Buddha</em>)</li>
+		</ul>
+	</li>
+	<li><strong>itis:</strong> Entzündung (-itis) <ul>
+			<li><strong>artroitis</strong> - Arthritis (<em>artro</em> - <em>Gelenk</em>); <strong>mogeitis</strong> -
+				Enzephalitis (<em>moge</em> - <em>Gehirn</em>)</li>
+		</ul>
+	</li>
+	<li><strong>kaxa:</strong> Behälter <ul>
+			<li><strong>anjenkaxa</strong> - Safe (<em>anjen</em> - <em>sicher</em>); <strong>pesakaxa</strong> -
+				Geldbörse (<em>pesa</em> - <em>Geld</em>); <strong>bezekaxa</strong> - Bienenstock (<em>beze</em> -
+				<em>Biene</em>) </li>
+		</ul>
+	</li>
+	<li><strong>kamer:</strong> Zimmer <ul>
+			<li><strong>banyokamer</strong> - Badezimmer (<em>banyo</em> - <em>Bad</em>); <strong>somnokamer</strong> -
+				Schlafzimmer (<em>somno - Schlaf</em>); <strong>darsukamer</strong> - Klassenzimmer (<em>darsu</em> -
+				<em>Unterricht, Klasse</em>)</li>
+		</ul>
+	</li>
+	<li><strong>kef:</strong> Chef, Leiter <ul>
+			<li><strong>navikef</strong> - Kapitän (<em>nave</em> - <em>Schiff</em>); <strong>xaherkef</strong> -
+				Bürgermeister (<em>xaher</em> - <em>Stadt</em>)</li>
+		</ul>
+	</li>
+	<li><strong>krasi:</strong> Regierung <ul>
+			<li><strong>demokrasi</strong> - Demokratie (<em>demo - Volk, Öffentlichkeit</em>)</li>
+		</ul>
+	</li>
+	<li><strong>kumax:</strong> (Stück) Stoff <ul>
+			<li><strong>mesakumax</strong> - Tischdecke (<em>mesa</em> - <em>Tisch</em>); <strong>nasakumax</strong> -
+				Taschentuch (<em>nasa</em> - <em>Nase</em>); <strong>muntekumax</strong> - Serviette (<em>munte</em> -
+				<em>Mund</em>)</li>
+		</ul>
+	</li>
+	<li><strong>lari:</strong> kollektive Gruppe <ul>
+			<li><strong>drevolari</strong> - Wald (<em>drevo</em> - <em>Baum</em>); <strong>insanlari</strong> -
+				Menschheit (<em>insan</em> - <em>Mensch</em>); <strong>darsulari</strong> - Kurs (<em>darsu</em> -
+				<em>Unterricht/Klasse</em>); <strong>mumulari</strong> - Rinderherde (<em>mumu</em> - <em>Stier/Kuh,
+					Rind</em>); <strong>lexilari</strong> - Vokabular (<em>lexi</em> - <em>Wort</em>);
+				<strong>menalari</strong> - Wörterbuch (<em>mena</em> - <em>Bedeutung</em>, <em>Definition</em>);
+				<strong>navilari</strong> - Schiffsflotte (<em>navi</em> - <em>Schiff</em>); <strong>yumawlari</strong>
+				- Gefieder (<em>yumaw</em> - <em>Feder</em>)</li>
+		</ul>
+	</li>
+	<li><strong>lexi:</strong> Wort <ul>
+			<li><strong>namelexi</strong> - Substantiv (<em>name</em> - <em>Name</em>); <strong>falelexi</strong> - Verb
+				(<em>fale</em> - <em>tun</em>); <strong>sifalexi</strong> - Adjektiv (<em>sifa</em> -
+				<em>Eigenschaft</em>); <strong>manerlexi</strong> - Adverb (<em>maner</em> - <em>Art und Weise</em>)
+			</li>
+		</ul>
+	</li>
+	<li><strong>logi:</strong> Spezialgebiet, Studium von <ul>
+			<li><strong>biologi</strong> - Biologie (<em>bio</em> - <em>Leben/Organismen</em>);
+				<strong>sikologi</strong> - Psychologie (<em>siko</em> - <em>Geist</em>)</li>
+		</ul>
+	</li>
+	<li><strong>maso:</strong> Fleisch <ul>
+			<li><strong>mumumaso</strong> - Rindfleisch (<em>mumu</em> - <em>Stier/Kuh, Rind</em>);
+				<strong>kukumaso</strong> - Hühnerfleisch (<em>kuku</em> - <em>Huhn/Hahn</em>);
+				<strong>swinimaso</strong> - Schweinefleisch (<em>swini</em> - <em>Schwein</em>);
+				<strong>mahimaso</strong> - Fisch (<em>mahi</em> - <em>Fisch</em>)</li>
+		</ul>
+	</li>
+	<li><strong>medis:</strong> Medizin (<em>Praxis</em>) <ul>
+			<li><strong>dentamedis</strong> - Zahnmedizin (<em>denta - Zahn</em>); <strong>sikomedis</strong> -
+				Psychiatrie (<em>siko - Geist</em>); <strong>hewanmedis</strong> - Tiermedizin (<em>hewan - Tier</em>);
+				<strong>ninimedis</strong> - Pädiatrie (<em>nini - Kind</em>); <strong>pifumedis</strong> - Dermatologie
+				(<em>pifu - Haut</em>)</li>
+		</ul>
+	</li>
+	<li><strong>meter:</strong> Messgerät <ul>
+			<li><strong>termometer</strong> - Thermometer (<em>termo</em> - <em>Hitze</em>); <strong>satumeter</strong>
+				- Uhr (<em>satu</em> - <em>Stunde</em>)</li>
+		</ul>
+	</li>
+	<li><strong>mon:</strong> Element oder Teil eines Ganzen <ul>
+			<li><strong>talujimon</strong> - Schneeflocke (<em>taluji</em> - <em>Schnee</em>); <strong>watumon</strong>
+				- Punkt (<em>watu</em> - <em>Zeit</em>); <strong>atexmon</strong> - Flamme (<em>atex</em> -
+				<em>Feuer</em>) </li>
+		</ul>
+	</li>
+	<li><strong>mosem:</strong> Jahreszeit <ul>
+			<li><strong>bardimosem</strong> - Winter (<em>bardi</em> - <em>kalt</em>); <strong>bijamosem</strong> -
+				Frühling (<em>bija</em> - <em>Samen/säen</em>); <strong>termomosem</strong> - Sommer (<em>termo</em> -
+				<em>Hitze</em>); <strong>xuhamosem</strong> - Herbst (<em>xuha</em> - <em>ernten</em>)</li>
+		</ul>
+	</li>
+	<li><strong>osis:</strong> Pathologie <ul>
+			<li><strong>sikoosis</strong> - Psychose (<em>siko</em> - <em>Geist</em>)</li>
+		</ul>
+	</li>
+	<li><strong>pel:</strong> (extrinsischer) Antrieb, Schub; veranlassen zu wollen (zu) <ul>
+			<li><strong>seksopel</strong> - Sexyness, Sexappeal (<em>sekso - Sex</em>); <strong>jixipel</strong> - zum
+				Nachdenken anregen, neugierig machen</li>
+		</ul>
+	</li>
+	<li><strong>tim:</strong> Team; <em>in Zusammensetzungen:</em> Team, Körper <ul>
+			<li><strong>asosyatim</strong> - Vereinigung (<em>asosya</em> - <em>assoziieren</em>);
+				<strong>komuntim</strong> - Gemeinschaft (<em>komun</em> - <em>kommunal</em>);
+				<strong>organisatim</strong> - Organisation (<em>organisa</em> - <em>organisieren</em>);
+				<strong>jangetim</strong> - Militär (<em>jange</em> - <em>Krieg</em>); <strong>krasitim</strong> -
+				Regierung (<em>krasi</em> - <em>herrschen/regieren</em>); <strong>ergotim</strong> - Personal
+				(<em>ergo</em> - <em>arbeiten</em>); <strong>oretim</strong> - Publikum (<em>ore</em> -
+				<em>Ohr/hören</em>)</li>
+		</ul>
+	</li>
+	<li><strong>tora:</strong> Maschine, Gerät, Apparat; <em>in Zusammensetzungen:</em> -ator, Maschine, Gerät, Apparat
+		<ul>
+			<li><strong>komputatora</strong> - Computer (<em>komputa</em> - <em>berechnen</em>);
+				<strong>liftitora</strong> - Aufzug (<em>lifti</em> - <em>heben</em>); <strong>woxatora</strong> -
+				Waschmaschine (<em>woxa</em> - <em>waschen</em>); <strong>tayputora</strong> - Schreibmaschine
+				(<em>taypu</em> - <em>tippen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>tul:</strong> Werkzeug <ul>
+			<li><strong>eskritul</strong> - Schreibgerät (<em>eskri</em> - <em>schreiben</em>); <strong>katatul</strong>
+				- Messer (<em>kata</em> - <em>schneiden</em>); <strong>yuxitul</strong> - Spielzeug (<em>yuxi</em> -
+				<em>spielen/Spiel</em>)</li>
+		</ul>
+	</li>
+	<li><strong>xey:</strong> Ding, Objekt; <em>in Zusammensetzungen:</em> Ding, Objekt, Substanz <ul>
+			<li><strong>yamxey</strong> - Essen, Nahrung (<em>yam</em> - <em>Mahlzeit</em>, <em>essen</em>);
+				<strong>kreaxey</strong> - (eine) Schöpfung (<em>krea</em> - <em>erschaffen</em>);
+				<strong>kostruixey</strong> - Gebäude (<em>kostrui</em> - <em>bauen</em>)</li>
+		</ul>
+	</li>
+	<li><strong>yen:</strong> Wesen (jedes Lebewesen oder personifiziertes Objekt); <em>in Zusammensetzungen:</em> -ist,
+		-er, -aner <ul>
+			<li><em>Substantiv-/Verb-Stämme:</em> <strong>estudiyen</strong> - Student (<em>estudi</em> -
+				<em>studieren</em>); <strong>danseyen</strong> - Tänzer (<em>danse</em> - <em>tanzen</em>);
+				<strong>medisyen</strong> - Arzt (<em>medis</em> - <em>medizinisch behandeln, Medizin</em>);
+				<strong>arteyen</strong> - Künstler (<em>arte</em> - <em>Kunst</em>); <strong>alimyen</strong> - Lehrer
+				(<em>alim</em> - <em>lehren</em>); <strong>polisiyen</strong> - Polizist (<em>polisi</em> -
+				<em>Polizei</em>); <strong>legayen</strong> - Anwalt (<em>lega</em> - <em>Gesetz</em>);
+				<strong>poemayen</strong> - Dichter (<em>poema</em> - <em>Gedicht</em>)</li>
+			<li><em>Adjektiv-Stämme:</em> <strong>juniyen</strong> - junger Mann/Frau, Bursche/Mädel (<em>juni</em> -
+				<em>jung</em>)</li>
+			<li><em>Nationalitäten:</em> <strong>Italiyen</strong> - Italiener (<em>Itali</em> - <em>Italien</em>);
+				<strong>Mexikoyen</strong> - Mexikaner (<em>Mexiko</em> - <em>Mexiko</em>)</li>
+			<li><em>Ärzte:</em> <strong>dentamedisyen</strong> - Zahnarzt (<em>denta</em> - <em>Zahn</em>);
+				<strong>sikomedisyen</strong> - Psychiater (<em>siko</em> - <em>Geist</em>);
+				<strong>hewanmedisyen</strong> - Tierarzt (<em>hewan</em> - <em>Tier</em>);
+				<strong>ninimedisyen</strong> - Kinderarzt (<em>nini</em> - <em>Kind</em>);
+				<strong>pifumedisyen</strong> - Dermatologe (<em>pifu</em> - <em>Haut</em>)</li>
+		</ul>
+	</li>
+</ul>
+<h2 id="andere-zusammensetzungen-mit-inhaltswörtern"><a class="header" href="#andere-zusammensetzungen-mit-inhaltswörtern">Andere Zusammensetzungen mit Inhaltswörtern</a></h2>
+<p>Die oben als <em>Quasi-Affixe</em> aufgeführten Substantive und Adjektive sind die am häufigsten verwendeten
+	Inhaltswörter, die in zusammengesetzten Wörtern vorkommen. Die Liste ist jedoch nicht erschöpfend, da <em>jedes</em>
+	Inhaltswort frei verwendet werden kann, um zusammengesetzte Wörter abzuleiten. Ein Bindestrich kann optional
+	hinzugefügt werden, um zwei Morpheme innerhalb eines zusammengesetzten Wortes zu trennen. Es wird jedoch empfohlen,
+	als Faustregel Bindestriche nur zur Trennung von Morphemen zu verwenden, die weniger häufig in Zusammensetzungen
+	verwendet werden, wie z. B. in den folgenden Wörtern.</p>
+<p><strong>rukebao</strong> oder <strong>ruke-bao</strong> - Rucksack<br />
+	<strong>familname</strong> oder <strong>famil-name</strong> - Nachname<br />
+	<strong>kosmonaviyen</strong> oder <strong>kosmo-naviyen</strong> - Astronaut<br />
+	<strong>mobilxuliyen</strong> oder <strong>mobil-xuliyen</strong> - Mechaniker
+</p>
+<h2 id="zusammensetzungen-mit-eigennamen"><a class="header" href="#zusammensetzungen-mit-eigennamen">Zusammensetzungen mit Eigennamen</a></h2>
+<p>Eigennamen können auch zu Zusammensetzungen verbunden werden. Sie können auf drei verschiedene Arten geschrieben
+	werden, wie unten gezeigt.</p>
+<p><strong>Ceskieslovaki</strong> oder <strong>CeskiEslovaki</strong> oder <strong>Ceski-Eslovaki</strong> -
+	Tschechoslowakei<br />
+	<strong>Serbihervatskasa</strong> oder <strong>SerbiHervatskasa</strong> oder <strong>Serbi-Hervatskasa</strong> -
+	Serbokroatisch<br />
+	<strong>Kinsasakongo</strong> oder <strong>KinsasaKongo</strong> oder <strong>Kinsasa-Kongo</strong> -
+	Kongo-Kinshasa
+</p>
+<p>Ebenso können Eigennamen mit <strong>utara</strong>, <strong>sude</strong>, <strong>dongu</strong>,
+	<strong>garebi</strong> und <strong>centro</strong> auch auf drei verschiedene Arten geschrieben werden.</p>
+<p><strong>Sudekorea</strong> oder <strong>SudeKorea</strong> oder <strong>Sude-Korea</strong> - Südkorea</p>
+<p>Eigennamen mit <strong>ji</strong> können auch alternativ wie folgt verbunden werden.</p>
+<p><strong>Antigwa ji Barbuda</strong> oder <strong>AntigwaBarbuda</strong> oder <strong>Antigwa-Barbuda</strong> -
+	Antigua und Barbuda</p>
+<p>Abgeleitete Zusammensetzungen, die aus zwei verschiedenen Eigennamen bestehen, müssen mit einem Binde- oder
+	Gedankenstrich verbunden werden.</p>
+<p><strong>Mexiko-Usali byen</strong> - Grenze zwischen Mexiko und den USA</p>
+<h2 id="beschreibende-substantiv-zusammensetzungen"><a class="header" href="#beschreibende-substantiv-zusammensetzungen">Beschreibende Substantiv-Zusammensetzungen</a></h2>
+<p>Substantiv-Zusammensetzungen wie die oben genannten können einfach durch Anhängen des Suffixes <strong>-li</strong>
+	als Adjektive ausgedrückt werden. </p>
+<p><strong>xencudinli hadya</strong> - Geburtstagsgeschenk</p>
+<p>Alternativ kann das beschreibende Wort in einer Präpositionalphrase mit <strong>fe</strong> als Äquivalent zu
+	<strong>-li</strong> verwendet werden. Dies ist sogar die bevorzugte Methode, wenn das zusammengesetzte Wort bereits
+	aus drei oder mehr Morphemen besteht, wie z. B. <strong>xencudin</strong> (<strong><em>xen-cu-din</em></strong>).
+</p>
+<p><strong>hadya fe xencudin</strong> - Geburtstagsgeschenk (wörtlich: <em>Geschenk des Geburtstags</em>)</p>
+<p>Diese Methode ist besonders nützlich, um komplexere beschreibende Substantivphrasen zu bilden:</p>
+<p><strong>maydoyen fe hadya fe xencudin</strong> - Verkäufer von Geburtstagsgeschenken (wörtlich: <em>Verkäufer von
+		Geschenken des Geburtstags</em>)</p>
+<h2 id="objekt-verb-adjektive"><a class="header" href="#objekt-verb-adjektive">Objekt-Verb-Adjektive</a></h2>
+<p>Objekt-Verb-Adjektive sind Adjektive, die aus zwei Substantiven (Objekt und Verb) plus einem Adjektivsuffix bestehen.
+</p>
+<p><strong>mogeyamne ameba</strong> - gehirnfressende Amöbe<br />
+	<strong>fikirprovokane idey</strong> - zum Nachdenken anregende Idee
+</p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="jumleli-estrutur.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="ofkatado-morfomon.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="jumleli-estrutur.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="ofkatado-morfomon.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>

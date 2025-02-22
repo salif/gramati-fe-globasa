@@ -410,9 +410,7 @@
 	<li><strong>kal:</strong> empty; <em>in compounds:</em> -less <ul>
 			<li><strong>legakal</strong> - illegal, lawless (<em>lega</em> - <em>law</em>); <strong>ergokal</strong> -
 				unemployed (<em>ergo</em> - <em>work</em>); <strong>pesakal</strong> - poor (<em>pesa</em> -
-				<em>money</em>); <strong>luminkal</strong> - dark (<em>lumin</em> - <em>light</em>);
-				<strong>yamkal</strong> - hungry (<em>yam</em> - <em>eat/meal</em>); <strong>suikal</strong> - thirsty
-				(<em>sui</em> - <em>water</em>)</li>
+				<em>money</em>); <strong>luminkal</strong> - dark (<em>lumin</em> - <em>light</em>)</li>
 		</ul>
 	</li>
 	<li><strong>kolordo (<em>kolor-do</em>):</strong> shade, colored (See also <strong>-sim</strong>.) <ul>
@@ -431,14 +429,14 @@
 		</ul>
 	</li>
 	<li><strong>peldo (<em>pel-do</em>):</strong> driven <ul>
-			<li><strong>somnopeldo</strong> - sleepy (<em>somno</em> - <em>sleep</em>)</li>
+			<li><strong>somnopeldo</strong> - sleepy (<em>somno</em> - <em>sleep</em>); <strong>yampeldo</strong> -
+				hungry (<em>yam</em> - <em>eat</em>)</li>
 		</ul>
 	</li>
 	<li><strong>pul:</strong> full; <em>in compounds:</em> -ful <ul>
 			<li><strong>kimapul</strong> - costly, pricey, expensive (<em>kima</em> - <em>price</em>);
-				<strong>yampul</strong> - full, satiated (<em>yam - eat/meal</em>); <strong>jawgupul</strong> - careful
-				(<em>jawgu</em> - <em>take care</em>); <strong>brilapul</strong> - shiny (<em>brila</em> -
-				<em>shine</em>); <strong>pesapul</strong> - rich (<em>pesa</em> - <em>money</em>);
+				<strong>juipul</strong> - careful (<em>jui</em> - <em>attention</em>); <strong>brilapul</strong> - shiny
+				(<em>brila</em> - <em>shine</em>); <strong>pesapul</strong> - rich (<em>pesa</em> - <em>money</em>);
 				<strong>hataripul</strong> - dangerous (<em>hatari</em> - <em>danger</em>); <strong>legapul</strong> -
 				legal, lawful (<em>lega</em> - <em>law</em>); <strong>bawlupul</strong> - violent (<em>bawlu</em> -
 				<em>violence</em>)</li>
@@ -447,8 +445,7 @@
 	<li><strong>sim:</strong> similar; <em>in compounds:</em> -like, -ish, shade of color <ul>
 			<li><strong>dostesim</strong> - friendly (<em>doste</em> - <em>friend</em>); <strong>ninisim</strong> -
 				childish (<em>nini</em> - <em>child</em>); <strong>dahabusim</strong> - golden (<em>dahabu - gold</em>);
-				<strong>realsim</strong> - realistic (<em>real</em> - <em>real</em>); <strong>femsim</strong> -
-				female-like (<em>fem</em> - <em>feminine</em>)</li>
+				<strong>realsim</strong> - realistic (<em>real</em> - <em>real</em>)</li>
 		</ul>
 	</li>
 </ul>
@@ -606,10 +603,9 @@
 			<li><strong>sikoosis</strong> - psychosis (<em>siko</em> - <em>mind</em>)</li>
 		</ul>
 	</li>
-	<li><strong>pel:</strong> drive, push <ul>
-			<li><strong>seksopel</strong> - sex drive, libido (<em>sekso - sex</em>); <strong>amirupel</strong> -
-				control (<em>amiru - command</em>); <strong>tehdidupel</strong> - coerce (<em>tehdidu - threat</em>)
-			</li>
+	<li><strong>pel:</strong> (extrinsic) drive, push; cause to want (to) <ul>
+			<li><strong>seksopel</strong> - sexiness, sex appeal (<em>sekso - sex</em>); <strong>jixipel</strong> - make
+				(one) wonder</li>
 		</ul>
 	</li>
 	<li><strong>tim:</strong> team; <em>in compounds:</em> team, body <ul>
@@ -661,8 +657,8 @@
 	</li>
 </ul>
 <h2>Other Compounds with Content Words</h2>
-<p>The nouns and adjectives listed above as <em>quasi-affixes</em> are the most frequently used content words used in
-	compound words. However, the list is not exhaustive, since <em>any</em> content word may be used freely to derive
+<p>The nouns and adjectives listed above as <em>quasi-affixes</em> are the most frequently used content words appearing
+	in compound words. However, the list is not exhaustive, since <em>any</em> content word may be used freely to derive
 	compound words. A hyphen may be optionally added to separate any two morphemes within any compound word. However, it
 	is suggested that as a rule of thumb, hyphens be used only to separate morphemes that are less commonly used in
 	compounds, such as those in the words below.</p>

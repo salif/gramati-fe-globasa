@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="de" class="rust-clr sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Wortarten - Globasa Grammatik</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="Wortarten - Eine inoffizielle deutsche Übersetzung der Grammatik der konstruierten Sprache namens Globasa. Teile der Übersetzung wurden mit dem Gemini-Sprachmodell erstellt.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Globasa Grammatik</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/de-gemini/src/lexiklase.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="wortarten"><a class="header" href="#wortarten">Wortarten</a></h1>
+<p>
+</p>
+<h2 id="inhaltswörter"><a class="header" href="#inhaltswörter">Inhaltswörter</a></h2>
+<ul>
+	<li><strong>benjilexi</strong> <em>(b)</em> - Nomen/Verb <em>(n/v)</em></li>
+	<li><strong><a href="./inharelexi.html#falelexili_klase">falelexi</a></strong> <em>(f)</em> - Verb <em>(v)</em>
+		<ul>
+			<li><strong>linkuli falelexi</strong> <em>(b.lin)</em> - Kopula <em>(v.kop)</em></li>
+			<li><strong>ojetoli falelexi</strong> <em>(b.oj)</em> - transitives Verb <em>(v.tr)</em>
+				<ul>
+					<li><strong>rusoti-ojetoli falelexi</strong> <em>(b.oj.ru)</em> - transitives Verb mit Echo-Objekt
+						<em>(v.tr.e)</em>
+					</li>
+				</ul>
+			</li>
+			<li><strong>nenojetoli falelexi</strong> <em>(b.nenoj)</em> - intransitives Verb <em>(v.intr)</em></li>
+			<li><strong>oroojetoli falelexi</strong> <em>(b.oro)</em> - (patientives) ambitransitives Verb
+				<em>(v.ambi)</em></li>
+			<li><strong>sahayli falelexi</strong> <em>(b.sah)</em> - Hilfsverb <em>(v.aux)</em></li>
+		</ul>
+	</li>
+	<li><strong>manerlexi</strong> <em>(m)</em> - Adverb <em>(adv)</em></li>
+	<li><strong>namelexi</strong> <em>(n)</em> - Nomen <em>(n)</em>
+		<ul>
+			<li><strong>pornamelexi</strong> <em>(pn)</em> - Pronomen <em>(pron)</em>
+				<ul>
+					<li><strong>suyali pornamelexi</strong> <em>(su pn)</em> - Possessivpronomen <em>(poss pron)</em>
+					</li>
+				</ul>
+			</li>
+			<li><strong>suli namelexi</strong> <em>(su n)</em> - Eigenname <em>(eig n)</em></li>
+		</ul>
+	</li>
+	<li><strong>sifalexi</strong> <em>(s)</em> - Adjektiv <em>(adj)</em>
+		<ul>
+			<li><strong>suyali sifalexi</strong> <em>(su s)</em> - Possessivadjektiv <em>(poss adj)</em></li>
+		</ul>
+	</li>
+	<li><strong>tosifulexi</strong> <em>(t)</em> - Adjektiv/Adverb <em>(adj/adv)</em>
+		<ul>
+			<li><strong>suli tosifulexi</strong> <em>(su t)</em> - Eigenname-Adjektiv/Adverb <em>(eig adj/adv)</em></li>
+		</ul>
+	</li>
+</ul>
+<h2 id="funktionswörter"><a class="header" href="#funktionswörter">Funktionswörter</a></h2>
+<ul>
+	<li><strong>dingyalexi</strong> <em>(d)</em> - Determinans <em>(det)</em></li>
+	<li><strong>intrelogalexi</strong> <em>(il)</em> - Interjektion <em>(interj)</em></li>
+	<li><strong>linkulexi</strong> <em>(l)</em> - Konjunktion <em>(konj)</em></li>
+	<li><strong>numer</strong> <em>(num)</em> - Zahlwort <em>(num)</em></li>
+	<li><strong>partikul</strong> <em>(par)</em> - Partikel <em>(part)</em></li>
+	<li><strong>plasilexi</strong> <em>(p)</em> - Adposition <em>(adp)</em>
+		<ul>
+			<li><strong>lefeplasilexi</strong> <em>(lp)</em> - Präposition <em>(präp)</em></li>
+			<li><strong>xafeplasilexi</strong> <em>(xp)</em> - Postposition <em>(postp)</em></li>
+		</ul>
+	</li>
+</ul>
+<h2 id="affixe"><a class="header" href="#affixe">Affixe</a></h2>
+<ul>
+	<li><strong>fikso</strong> <em>(fik)</em> - Affix <em>(afx)</em>
+		<ul>
+			<li><strong>lefefikso</strong> <em>(lfik)</em> - Präfix <em>(pfx)</em></li>
+			<li><strong>xafefikso</strong> <em>(xfik)</em> - Suffix <em>(sfx)</em></li>
+		</ul>
+	</li>
+</ul>
+<h2 id="phrasen"><a class="header" href="#phrasen">Phrasen</a></h2>
+<p>Neben einzelnen Wörtern werden im Globasa-Wörterbuch auch verschiedene Phrasen als Einträge aufgeführt. Einige
+	Beispiele sind unten aufgelistet.</p>
+<ul>
+	<li><strong>jumlemon</strong> <em>(jm)</em> - Phrase <em>(phrs)</em>
+		<ul>
+			<li><strong>plasilexili jumlemon</strong> <em>(p jm)</em> - Präpositionalphrase <em>(präp phrs)</em></li>
+			<li><strong>jumlemonli plasilexi</strong> <em>(jm p)</em> - Phrasenpräposition <em>(phrs präp)</em></li>
+			<li><strong>falelexili jumlemon</strong> <em>(f jm)</em> - Verbalphrase <em>(v phrs)</em></li>
+		</ul>
+	</li>
+</ul>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="kurtogixey.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="pimpan-logaxey.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="kurtogixey.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="pimpan-logaxey.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>

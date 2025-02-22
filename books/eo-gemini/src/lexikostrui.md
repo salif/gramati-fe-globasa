@@ -403,47 +403,45 @@
 			</li>
 		</ul>
 	</li>
-	<li><strong>kal:</strong> malplena; <em>en kunmetaĵoj:</em> sen- <ul>
-			<li><strong>legakal</strong> - kontraŭleĝa, senleĝa (<em>lega</em> - <em>leĝo</em>);
-				<strong>ergokal</strong> - senlabora (<em>ergo</em> - <em>labori</em>); <strong>pesakal</strong> -
-				malriĉa (<em>pesa</em> - <em>mono</em>); <strong>luminkal</strong> - malhela (<em>lumin</em> -
-				<em>lumo</em>); <strong>yamkal</strong> - malsata (<em>yam</em> - <em>manĝi/manĝo</em>);
-				<strong>suikal</strong> - soifa (<em>sui</em> - <em>akvo</em>)</li>
+	<li><strong>kal:</strong> malplena; <em>en kunmetitaj vortoj:</em> -sen <ul>
+			<li><strong>legakal</strong> - neleĝa, senleĝa (<em>lega</em> - <em>leĝo</em>); <strong>ergokal</strong> -
+				senlabora (<em>ergo</em> - <em>laboro</em>); <strong>pesakal</strong> - malriĉa (<em>pesa</em> -
+				<em>mono</em>); <strong>luminkal</strong> - malluma (<em>lumin</em> - <em>lumo</em>)</li>
 		</ul>
 	</li>
-	<li><strong>kolordo (<em>kolor-do</em>):</strong> nuanco, kolora (Vidu ankaŭ <strong>-sim</strong>.) <ul>
+	<li><strong>kolordo (<em>kolor-do</em>):</strong> nuanco, kolorigita (Vidu ankaŭ <strong>-sim</strong>.) <ul>
 			<li><strong>asmankolordo</strong> - ĉielblua (<em>asman</em> - <em>ĉielo</em>)</li>
 		</ul>
 	</li>
 	<li><strong>laye:</strong> inda <ul>
-			<li><strong>xinloylaye</strong> - fidinda (<em>xinloy</em> - <em>fidi</em>); <strong>memorilaye</strong> -
+			<li><strong>xinloylaye</strong> - fidinda (<em>xinloy</em> - <em>fido</em>); <strong>memorilaye</strong> -
 				memorinda (<em>memori</em> - <em>memoro/memori</em>); <strong>doxolaye</strong> - leginda (<em>doxo</em>
 				- <em>legi</em>)</li>
 		</ul>
 	</li>
-	<li><strong>musi:</strong> devas; <em>en kunmetaĵoj:</em> (aktiva) devas; (pasiva) devenda, imperativa <ul>
+	<li><strong>musi:</strong> devi; <em>en kunmetitaj vortoj:</em> (aktiva) devas; (pasiva) devas esti, imperativa <ul>
 			<li>aktiva: <strong>triunfamusi</strong> - kiu devas venki (<em>triunfa</em> - <em>venki/triumfi</em>)</li>
-			<li>pasiva: <strong>beokomusi</strong> - devenda vidindaĵo (<em>oko - vidi; beoko - esti vidata</em>)</li>
+			<li>pasiva: <strong>beokomusi</strong> - vidinda (<em>oko - vidi; beoko - esti vidata</em>)</li>
 		</ul>
 	</li>
 	<li><strong>peldo (<em>pel-do</em>):</strong> pelita <ul>
-			<li><strong>somnopeldo</strong> - dormema (<em>somno</em> - <em>dormi</em>)</li>
+			<li><strong>somnopeldo</strong> - dormema (<em>somno</em> - <em>dormo</em>); <strong>yampeldo</strong> -
+				malsata (<em>yam</em> - <em>manĝi</em>)</li>
 		</ul>
 	</li>
-	<li><strong>pul:</strong> plena; <em>en kunmetaĵoj:</em> -plena <ul>
-			<li><strong>kimapul</strong> - multekosta (<em>kima</em> - <em>prezo</em>); <strong>yampul</strong> - sata
-				(<em>yam - manĝi/manĝo</em>); <strong>jawgupul</strong> - zorgema (<em>jawgu</em> - <em>zorgi</em>);
-				<strong>brilapul</strong> - brila (<em>brila</em> - <em>brili</em>); <strong>pesapul</strong> - riĉa
-				(<em>pesa</em> - <em>mono</em>); <strong>hataripul</strong> - danĝera (<em>hatari</em> -
-				<em>danĝero</em>); <strong>legapul</strong> - leĝa (<em>lega</em> - <em>leĝo</em>);
-				<strong>bawlupul</strong> - perforta (<em>bawlu</em> - <em>perforto</em>)</li>
+	<li><strong>pul:</strong> plena; <em>en kunmetitaj vortoj:</em> -plena <ul>
+			<li><strong>kimapul</strong> - multekosta (<em>kima</em> - <em>prezo</em>); <strong>juipul</strong> -
+				singarda (<em>jui</em> - <em>atento</em>); <strong>brilapul</strong> - brila (<em>brila</em> -
+				<em>brili</em>); <strong>pesapul</strong> - riĉa (<em>pesa</em> - <em>mono</em>);
+				<strong>hataripul</strong> - danĝera (<em>hatari</em> - <em>danĝero</em>); <strong>legapul</strong> -
+				leĝa (<em>lega</em> - <em>leĝo</em>); <strong>bawlupul</strong> - perforta (<em>bawlu</em> -
+				<em>perforto</em>)</li>
 		</ul>
 	</li>
-	<li><strong>sim:</strong> simila; <em>en kunmetaĵoj:</em> -simila, -eca, nuanco de koloro <ul>
-			<li><strong>dostesim</strong> - amikeca (<em>doste</em> - <em>amiko</em>); <strong>ninisim</strong> -
-				infaneca (<em>nini</em> - <em>infano</em>); <strong>dahabusim</strong> - ora (<em>dahabu - oro</em>);
-				<strong>realsim</strong> - realisma (<em>real</em> - <em>reala</em>); <strong>femsim</strong> - virineca
-				(<em>fem</em> - <em>ina</em>)</li>
+	<li><strong>sim:</strong> simila; <em>en kunmetitaj vortoj:</em> -simila, -eca, kolornuanco <ul>
+			<li><strong>dostesim</strong> - amika (<em>doste</em> - <em>amiko</em>); <strong>ninisim</strong> - infaneca
+				(<em>nini</em> - <em>infano</em>); <strong>dahabusim</strong> - ora (<em>dahabu - oro</em>);
+				<strong>realsim</strong> - realisma (<em>real</em> - <em>reala</em>)</li>
 		</ul>
 	</li>
 </ul>
@@ -600,9 +598,8 @@
 			<li><strong>sikoosis</strong> - psikozo (<em>siko</em> - <em>menso</em>)</li>
 		</ul>
 	</li>
-	<li><strong>pel:</strong> peli, puŝi <ul>
-			<li><strong>seksopel</strong> - seksa impulso (<em>sekso - sekso</em>); <strong>amirupel</strong> - kontrolo
-				(<em>amiru - komandi</em>); <strong>tehdidupel</strong> - devigi (<em>tehdidu - minaco</em>) </li>
+	<li><strong>pel:</strong> (ekstera) peli, instigi; kaŭzi deziron (al) <ul>
+			<li><strong>seksopel</strong> - seksalloga (<em>sekso - sekso</em>); <strong>jixipel</strong> - mirigi</li>
 		</ul>
 	</li>
 	<li><strong>tim:</strong> teamo; <em>en kunmetaĵoj:</em> teamo, korpo <ul>
