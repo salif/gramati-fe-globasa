@@ -1,0 +1,20 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "zh"
+multilingual = false
+src = "src"
+title = "格洛巴萨语法"
+description = "格洛巴萨（Globasa）这一人造语言的语法的非官方中文译本。部分内容由 Gemini 语言模型协助翻译。"
+
+[output.html]
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/zh-gemini/{path}"
+site-url = "/gramati-fe-globasa/zh-gemini/"
+
+[output.epub]
+use-default-css = true
+no-section-label = false
+curly-quotes = false

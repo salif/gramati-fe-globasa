@@ -1,0 +1,20 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "sw"
+multilingual = false
+src = "src"
+title = "Sarufi ya Globasa"
+description = "Tafsiri isiyo rasmi ya Kiswahili ya sarufi ya lugha iliyobuniwa ya Globasa. Sehemu za tafsiri hii zimefanywa kwa msaada wa mtindo wa lugha wa Gemini."
+
+[output.html]
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/sw-gemini/{path}"
+site-url = "/gramati-fe-globasa/sw-gemini/"
+
+[output.epub]
+use-default-css = true
+no-section-label = false
+curly-quotes = false

@@ -1,0 +1,18 @@
+# विषयसूची
+
+- [परिचय](./gramati.md)
+- [विषयसूची](./SUMMARY.md)
+- [वर्णमाला और उच्चारण](./abece-ji-lafuzu.md)
+- [मूल शब्द: संज्ञा, क्रिया, विशेषण और क्रिया विशेषण](./inharelexi.md)
+- [कार्य शब्द: संयोजक, पूर्वसर्ग और क्रिया विशेषण](./gramatilexi.md)
+- [सर्वनाम](./pornamelexi.md)
+- [सहसंबंधी](./tabellexi.md)
+- [संख्याएँ और वर्ष के महीने](./numer-ji-mesi.md)
+- [क्रिया रूप](./falelexili-morfo.md)
+- [शब्द क्रम: वाक्यांश संरचना](./jumlemonli-estrutur.md)
+- [शब्द क्रम: वाक्य संरचना](./jumleli-estrutur.md)
+- [शब्द निर्माण](./lexikostrui.md)
+- [संक्षिप्त रूपिम](./ofkatado-morfomon.md)
+- [संक्षिप्ताक्षर](./kurtogixey.md)
+- [शब्द श्रेणियाँ](./lexiklase.md)
+- [आम वाक्यांश और अभिव्यक्तियाँ](./pimpan-logaxey.md)
