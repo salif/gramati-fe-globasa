@@ -1,0 +1,18 @@
+# 目次
+
+- [引言](./gramati.md)
+- [目次](./SUMMARY.md)
+- [字母和发音](./abece-ji-lafuzu.md)
+- [内容词：名词、动词、形容词和副词](./inharelexi.md)
+- [功能词：连词、介词和功能副词](./gramatilexi.md)
+- [代词](./pornamelexi.md)
+- [关联词](./tabellexi.md)
+- [数字和月份](./numer-ji-mesi.md)
+- [动词形式](./falelexili-morfo.md)
+- [词序：短语结构](./jumlemonli-estrutur.md)
+- [词序：句子结构](./jumleli-estrutur.md)
+- [构词法](./lexikostrui.md)
+- [截断语素](./ofkatado-morfomon.md)
+- [缩写](./kurtogixey.md)
+- [词类](./lexiklase.md)
+- [常用短语和表达](./pimpan-logaxey.md)

@@ -46,8 +46,14 @@ function copyEpubFile(bookDir, destDir) {
 
 function parseEpubFileName(mdFile) {
 	const md = fs.readFileSync(mdFile, "utf-8")
-	const lindex = md.indexOf(".epub)")
-	return md.substring(md.lastIndexOf("(", lindex) + 1, lindex + 5)
+	const nindex = md.indexOf("[epub]:")
+	if (nindex > -1) {
+		return md.substring(nindex + 7, md.indexOf("\n", nindex))
+	}
+	else {
+		const lindex = md.indexOf(".epub)")
+		return md.substring(md.lastIndexOf("(", lindex) + 1, lindex + 5)
+	}
 }
 
 export function del(bookName) {

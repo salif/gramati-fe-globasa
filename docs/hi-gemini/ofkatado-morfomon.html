@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html lang="hi" class="rust-clr sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>संक्षिप्त रूपिम - ग्लोबासा व्याकरण</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="संक्षिप्त रूपिम - निर्मित भाषा ग्लोबासा (Globasa) के व्याकरण का अनौपचारिक हिंदी अनुवाद। अनुवाद के कुछ भाग जेमिनी भाषा मॉडल की सहायता से किए गए हैं।">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">ग्लोबासा व्याकरण</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/hi-gemini/src/ofkatado-morfomon.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="संकषिपत-रूपिम"><a class="header" href="#संकषिपत-रूपिम">संक्षिप्त रूपिम</a></h1>
+<p>
+</p>
+<p>ग्लोबासा की एक विशेष विशेषता <em>संक्षिप्त रूपिमों</em> का उपयोग है। संक्षिप्त रूपिम कार्य शब्द या प्रत्यय होते हैं
+	जिनका एक छोटा रूप होता है और आमतौर पर उनके मूल शब्दों की तुलना में एक संकरा या व्यापक अर्थ होता है। संक्षिप्त रूपिम
+	व्युत्पन्न शब्द नहीं हैं, और वास्तव में उन्हें पूरी तरह से स्वतंत्र मूल शब्द माना जाता है जो उन्हें सीखने की
+	प्रक्रिया को सुविधाजनक बनाने के तरीके के रूप में कुछ सामग्री शब्दों के समान होते हैं। नतीजतन, संक्षिप्त रूपिमों को
+	एक व्यवस्थित पैटर्न के माध्यम से उत्पन्न होने की आवश्यकता नहीं है।</p>
+<p>प्राकृतिक भाषाओं में भी एक समान विशेषता पाई जाती है। उदाहरण के लिए, दुनिया की क्रेओल भाषाओं में, मूल भाषा के सामग्री
+	शब्दों से कार्य शब्द उत्पन्न होना आम बात है। वास्तव में, अधिकांश प्राकृतिक भाषाएँ इसी तरह विकसित हुई हैं और उन्होंने
+	कार्य शब्द और व्याकरणिक रूपिम उत्पन्न किए हैं। इस विषय पर एक आकर्षक चर्चा के लिए, गाय डॉयचर (Guy Deutscher) की <a
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>द
+			अनफोल्डिंग ऑफ लैंग्वेज: एन इवोल्यूशनरी टूर ऑफ मैनकाइंड्स ग्रेटेस्ट इन्वेंशन</em></a> देखें।</p>
+<p>निम्नलिखित कार्य शब्द <em>संक्षिप्त रूपिम</em> हैं:</p>
+<ul>
+	<li><strong>cel</strong> (को, के लिए, के उद्देश्य से) <em>से</em> <strong>cele</strong> (लक्ष्य, उद्देश्य)</li>
+	<li><strong>dur</strong> (दौरान) <em>से</em> <strong>dure</strong> (अवधि)</li>
+	<li><strong>fal</strong> (द्वारा किया गया) <em>से</em> <strong>fale</strong> (करना)</li>
+	<li><strong>fol</strong> (के अनुसार, के साथ) <em>से</em> <strong>folo</strong> (अनुसरण करना)</li>
+	<li><strong>ger</strong> (संभावनार्थक क्रिया) <em>से</em> <strong>eger</strong> (अगर)</li>
+	<li><strong>har</strong> (के साथ, होने) <em>से</em> <strong>hare</strong> (पास होना)</li>
+	<li><strong>kom</strong> (से) <em>से</em> <strong>kompara</strong> (तुलना/तुलना करना)</li>
+	<li><strong>kos</strong> (के कारण, की वजह से) <em>से</em> <strong>kosa</strong> (कारण)</li>
+	<li><strong>kwas</strong> (मानो) <em>से</em> <strong>kwasi</strong> (लगता हुआ)</li>
+	<li><strong>pas</strong> (के माध्यम से) <em>से</em> <strong>pasa</strong> (गुजरना)</li>
+	<li><strong>sol</strong> (केवल) <em>से</em> <strong>solo</strong> (अकेला)</li>
+	<li><strong>tas</strong> (को, के लिए, <em>अप्रत्यक्ष कर्म</em>) <em>से</em> <strong>taslum</strong> (प्राप्त करना)
+	</li>
+	<li><strong>tem</strong> (के बारे में, के संबंध में) <em>से</em> <strong>tema</strong> (विषय, प्रसंग)</li>
+	<li><strong>ton</strong> (के साथ) <em>से</em> <strong>tongo</strong> (एक साथ)</li>
+	<li><strong>wey</strong> (चारों ओर) <em>से</em> <strong>jowey</strong> (आसपास का क्षेत्र)</li>
+	<li><strong>yon</strong> (के साथ, के द्वारा, से) <em>से</em> <strong>yongu</strong> (उपयोग करना)</li>
+</ul>
+<p>निम्नलिखित उपसर्ग <em>संक्षिप्त रूपिम</em> हैं:</p>
+<ul>
+	<li><strong>aw-</strong> (दूर) <em>से</em> <strong>awsenti</strong> (अनुपस्थित)</li>
+	<li><strong>awto-</strong> (ऑटो-, स्वचालित रूप से) <em>से</em> <strong>awtomati</strong> (स्वचालित)</li>
+	<li><strong>du-</strong> (<em>निरंतर/अभ्यस्त पक्ष</em>) <em>से</em> <strong>dure</strong> (अवधि)</li>
+	<li><strong>fin-</strong> (अंत/समाप्त) <em>से</em> <strong>fini</strong> (अंत, समाप्त)</li>
+	<li><strong>fron-</strong> (आगे) <em>से</em> <strong>fronta</strong> (माथा, सामने)</li>
+	<li><strong>ja-</strong> (तत्काल निकट) <em>से</em> <strong>jara</strong> (पड़ोसी)</li>
+	<li><strong>pre-</strong> (यहाँ/वहाँ) <em>से</em> <strong>presenti</strong> (वर्तमान)</li>
+	<li><strong>pos-</strong> (विपरीत) <em>से</em> <strong>opos</strong> (विपरीत)</li>
+	<li><strong>ru-</strong> (रेट्रो, पीछे की ओर) <em>से</em> <strong>ruke</strong> (पीछे, पिछला भाग) </li>
+	<li><strong>xor-</strong> (शुरू, आरंभ) <em>से</em> <strong>xoru</strong> (शुरू, आरंभ)</li>
+</ul>
+<p>निम्नलिखित प्रत्यय <em>संक्षिप्त रूपिम</em> हैं:</p>
+<ul>
+	<li><strong>-cu</strong> (<em>अकर्मक</em>) <em>से</em> <strong>cudu</strong> (प्राप्त करना, अधिग्रहण करना, पाना,
+		लेना) </li>
+	<li><strong>-gon</strong> (<em>विशिष्ट कोणों वाली ज्यामितीय आकृति</em>) <em>से</em>
+		<strong>gono</strong> (कोण)
+	</li>
+	<li><strong>-gi</strong> (<em>सकर्मक</em>) <em>से</em> <strong>gibe</strong> (देना)</li>
+	<li><strong>-je</strong> (डिग्री) <em>से</em> <strong>daraje</strong> (डिग्री)</li>
+	<li><strong>-sa</strong> (भाषा; जानवरों की आवाजें) <em>से</em> <strong>basa</strong> (भाषा)</li>
+</ul>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="lexikostrui.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="kurtogixey.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="lexikostrui.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="kurtogixey.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>

@@ -22,17 +22,18 @@
 <h2>Prefiksoj <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> forestanta, for <ul>
-			<li><strong>awidi</strong> - foriri (<em>idi</em> - <em>iri</em>); <strong>awglu</strong> - eltrinki
-				(<em>glu</em> - <em>trinki</em>); <strong>awpel</strong> - forpeli (<em>pel</em> - <em>peli/puŝi,
-					impulso/impeto</em>)</li>
+			<li><strong>awidi</strong> - foriri, forlasi (<em>idi</em> - <em>iri</em>); <strong>awglu</strong> -
+				eltrinki (<em>glu</em> - <em>trinki</em>); <strong>awpel</strong> - forpeli (<em>pel</em> -
+				<em>peli/puŝi</em>)</li>
 		</ul>
 	</li>
-	<li><strong>awto-:</strong> aŭto- (<em>aŭtomata</em>) [<strong>awtomati</strong> - aŭtomata] <ul>
+	<li><strong>awto-:</strong> aŭto- (<em>aŭtomata, per si mem</em>) [<strong>awtomati</strong> - aŭtomata,
+		<strong>awtonom</strong> - aŭtonoma] <ul>
 			<li><strong>awtosahigi</strong> - aŭtomate korekti (<em>sahi - ĝusta; sahigi - korekti</em>)</li>
 		</ul>
 	</li>
-	<li><strong>dis-:</strong> disigi, disŝuti <ul>
-			<li><strong>disgibe</strong> - distribui (<em>gibe</em> - <em>doni</em>)</li>
+	<li><strong>dis-:</strong> disigi, dismeti <ul>
+			<li><strong>disgibe</strong> - disdoni (<em>gibe</em> - <em>doni</em>)</li>
 		</ul>
 	</li>
 	<li><strong>eko-:</strong> eko- <ul>
@@ -40,27 +41,27 @@
 				ekosistemo (<em>sistema - sistemo</em>)</li>
 		</ul>
 	</li>
-	<li><strong>fin-:</strong> fini, ĝis la fino <ul>
-			<li><strong>findoxo</strong> - fino de, finlegi (<em>doxo</em> - <em>legi</em>); <strong>finyam</strong> -
-				manĝi ĉion (<em>yam</em> - <em>manĝi</em>)</li>
+	<li><strong>fin-:</strong> - fino de, fini ĝisfine <ul>
+			<li><strong>findoxo</strong> - finlegi (<em>doxo</em> - <em>legi</em>); <strong>finyam</strong> - formanĝi
+				ĉion (<em>yam</em> - <em>manĝi</em>)</li>
 		</ul>
 	</li>
-	<li><strong>fron-:</strong> antaŭen [<strong>fronta</strong> - frunto, antaŭo] <ul>
-			<li><strong>fronkadam</strong> - progresi (<em>kadam</em> - <em>paŝo</em>)</li>
+	<li><strong>fron-:</strong> antaŭen [<strong>fronta</strong> - frunto, fronto] <ul>
+			<li><strong>fronkadam</strong> - progresi, antaŭeniri (<em>kadam</em> - <em>paŝo</em>)</li>
 		</ul>
 	</li>
-	<li><strong>ja-:</strong> tuj apud [<strong>jara</strong> - najbaro] <ul>
-			<li><strong>jale</strong> - ĵus (esti) (<em>le - verbo-partiklo por pasinteco</em>); <strong>jaxa</strong> -
-				estonta (<em>xa - verbo-partiklo por estonteco</em>); <strong>jaledin</strong> - hieraŭ (<em>din -
-					tago</em>); <strong>jaxadin</strong> - morgaŭ (<em>din - tago</em>)</li>
+	<li><strong>ja-:</strong> tuj apuda [<strong>jara</strong> - najbaro] <ul>
+			<li><strong>jale</strong> - ĵus (estas/estis) (<em>le - verbopartiklo por pasinteco</em>);
+				<strong>jaxa</strong> - tuj (estas/estos) (<em>xa - verbopartiklo por futuro</em>);
+				<strong>jaledin</strong> - hieraŭ (<em>din - tago</em>); <strong>jaxadin</strong> - morgaŭ (<em>din -
+					tago</em>)</li>
 		</ul>
 	</li>
-	<li><strong>nen-:</strong> mal-, ne-, sen- <ul>
-			<li><strong>nenmuhim</strong> - malgrava (<em>muhim</em> - <em>grava</em>); <strong>nenkompleto</strong> -
+	<li><strong>nen-:</strong> mal-, sen- <ul>
+			<li><strong>nenmuhim</strong> - negrava (<em>muhim</em> - <em>grava</em>); <strong>nenkompleto</strong> -
 				nekompleta (<em>kompleto</em> - <em>kompleta</em>); <strong>nenible</strong> - neebla (<em>ible -
 					ebla</em>); <strong>okonenible</strong> - nevidebla (<em>oko - vidi</em>);
-				<strong>imanunenible</strong> - nekredebla (<em>imanu - kredi</em>); <strong>nensomno</strong> -
-				sendormeco (<em>somno</em> - <em>dormi</em>)</li>
+				<strong>imanunenible</strong> - nekredebla (<em>imanu - kredi</em>)</li>
 		</ul>
 	</li>
 	<li><strong>pos-:</strong> kontraŭa [<strong>opos</strong> - kontraŭa] <ul>
@@ -122,7 +123,7 @@
 </ul>
 <h2>Substantivaj Sufiksoj</h2>
 <ul>
-	<li><strong>-gon:</strong> -agono (<em>geometria figuro</em>) [<strong>gono</strong> - angulo] <ul>
+	<li><strong>-gon:</strong> -agono (<em>geometria figuro</em>) [<strong>gona</strong> - angulo] <ul>
 			<li><strong>tigagon</strong> - triangulo (<em>tiga - tri</em>); <strong>limagon</strong> - kvinangulo
 				(<em>lima - kvin</em>); <strong>ocogon</strong> - oklatero (<em>oco - ok</em>); <strong>ortogon</strong>
 				- ortangulo (<em>orto - rekta</em>) </li>
@@ -518,9 +519,8 @@
 		</ul>
 	</li>
 	<li><strong>kaxa:</strong> ujo <ul>
-			<li><strong>anjenkaxa</strong> - monŝranko (<em>anjen</em> - <em>sekura</em>); <strong>pesakaxa</strong> -
-				monujo (<em>pesa</em> - <em>mono</em>); <strong>bezekaxa</strong> - abelujejo (<em>beze</em> -
-				<em>abelo</em>) </li>
+			<li><strong>anjenkaxa</strong> - ŝranko (<em>anjen</em> - <em>sekura</em>); <strong>bezekaxa</strong> -
+				abelujo (<em>beze</em> - <em>abelo</em>)</li>
 		</ul>
 	</li>
 	<li><strong>kamer:</strong> ĉambro <ul>
@@ -545,12 +545,12 @@
 		</ul>
 	</li>
 	<li><strong>lari:</strong> kolektiva grupo <ul>
-			<li><strong>drevolari</strong> - arbaro (<em>drevo</em> - <em>arbo</em>); <strong>insanlari</strong> -
-				homaro (<em>insan</em> - <em>homo</em>); <strong>darsulari</strong> - kurso (<em>darsu</em> -
-				<em>leciono/klaso</em>); <strong>mumulari</strong> - bovaro (<em>mumu</em> - <em>bovo</em>);
-				<strong>lexilari</strong> - vortprovizo (<em>lexi</em> - <em>vorto</em>); <strong>menalari</strong> -
-				vortaro (<em>mena</em> - <em>signifo</em>); <strong>navilari</strong> - ŝiparo (<em>navi</em> -
-				<em>ŝipo</em>); <strong>yumawlari</strong> - plumaro (<em>yumaw</em> - <em>plumo</em>)</li>
+			<li><strong>insanlari</strong> - homaro (<em>insan</em> - <em>homo</em>); <strong>darsulari</strong> - kurso
+				(<em>darsu</em> - <em>leciono/klaso</em>); <strong>mumulari</strong> - grego (<em>mumu</em> -
+				<em>bovo/bovino, brutaro</em>); <strong>lexilari</strong> - vortprovizo (<em>lexi</em> -
+				<em>vorto</em>); <strong>menalari</strong> - vortaro (<em>mena</em> - <em>signifo</em>,
+				<em>difino</em>); <strong>navilari</strong> - ŝiparo (<em>navi</em> - <em>ŝipo</em>);
+				<strong>yumawlari</strong> - plumaro (<em>yumaw</em> - <em>plumo</em>)</li>
 		</ul>
 	</li>
 	<li><strong>lexi:</strong> vorto <ul>

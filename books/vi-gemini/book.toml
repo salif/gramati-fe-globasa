@@ -1,0 +1,20 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "vi"
+multilingual = false
+src = "src"
+title = "Ngữ pháp Globasa"
+description = "Bản dịch tiếng Việt không chính thức của ngữ pháp ngôn ngữ nhân tạo Globasa. Một phần của bản dịch được thực hiện với sự hỗ trợ của mô hình ngôn ngữ Gemini."
+
+[output.html]
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/vi-gemini/{path}"
+site-url = "/gramati-fe-globasa/vi-gemini/"
+
+[output.epub]
+use-default-css = true
+no-section-label = false
+curly-quotes = false

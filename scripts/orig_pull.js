@@ -35,7 +35,7 @@ function fixPageElements(page, pageName) {
 
 function fixPageContent(content, pageName, bookName) {
 	let newContent = content
-	newContent = newContent.replaceAll("<br>", "<br />")
+	newContent = newContent.replaceAll("<br>", "<br />").replaceAll(String.fromCharCode(8203), "")
 	if (!newContent.includes("pronamelexi")) console.log(`No 'pronamelexi' on ${pageName}`)
 	newContent = newContent.replaceAll("pronamelexi", "pornamelexi")
 	if (bookName === "spa") {

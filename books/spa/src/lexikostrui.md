@@ -24,10 +24,11 @@
 	<li><strong>aw-:</strong> no aquí o no allí <ul>
 			<li><strong>awidi</strong> - irse (<em>idi</em> - <em>ir</em>); <strong>awglu</strong> - bebérse
 				(<em>glu</em> - <em>beber</em>); <strong>awpel</strong> - ahuyentar (<em>pel</em> -
-				<em>impulsar/empujar, impulso/ímpetu</em>)</li>
+				<em>impulsar/empujar</em>)</li>
 		</ul>
 	</li>
-	<li><strong>awto-:</strong> auto- (<em>automático</em>) [<strong>awtomati</strong> - automático] <ul>
+	<li><strong>awto-:</strong> auto- (<em>automático, por sí solo</em>) [<strong>awtomati</strong> - automático,
+		<strong>awtonom</strong> - autónomo] <ul>
 			<li><strong>awtosahigi</strong> - autocorrección (<em>sahi - correcto; sahigi - corregir</em>)</li>
 		</ul>
 	</li>
@@ -46,7 +47,7 @@
 		</ul>
 	</li>
 	<li><strong>frente-:</strong> adelante [<strong>fronta</strong> - frente] <ul>
-			<li><strong>fronkadam</strong> - progreso (<em>kadam</em> - <em>paso</em>)</li>
+			<li><strong>fronkadam</strong> - progreso, avanzar (<em>kadam</em> - <em>paso</em>)</li>
 		</ul>
 	</li>
 	<li><strong>ja-:</strong> inmediatamente adyacente [<strong>jara</strong> - vecino/-a] <ul>
@@ -60,8 +61,7 @@
 			<li><strong>nenmuhim</strong> - sin importancia (<em>muhim</em> - <em>importante</em>);
 				<strong>nenkompleto</strong> - incompleto (<em>kompleto</em> - <em>completo</em>);
 				<strong>nenible</strong> - imposible (<em>ible - posible</em>); <strong>okonenible</strong> - invisible
-				(<em>oko - ver</em>); <strong>imanunenible</strong> - increíble (<em>imanu - creer</em>);
-				<strong>nensomno</strong> - insomnio (<em>somno</em> - <em>sleep</em>)</li>
+				(<em>oko - ver</em>); <strong>imanunenible</strong> - increíble (<em>imanu - creer</em>)</li>
 		</ul>
 	</li>
 	<li><strong>pos-:</strong> opuesto [<strong>opos</strong> - opuesto] <ul>
@@ -124,7 +124,7 @@
 </ul>
 <h2>Sufijos nominales</h2>
 <ul>
-	<li><strong>-gon:</strong> -agon (<em>figura geométrica</em>) [<strong>gono</strong> - ángulo] <ul>
+	<li><strong>-gon:</strong> -agon (<em>figura geométrica</em>) [<strong>gona</strong> - ángulo] <ul>
 			<li><strong>tigagon</strong> - triángulo (<em>tiga - tres</em>); <strong>limagon</strong> - pentágono
 				(<em>lima - cinco</em>); <strong>ocogon</strong> - octágono (<em>oco - ocho</em>);
 				<strong>ortogon</strong> - rectángulo (<em>orto - recto</em>)</li>
@@ -557,13 +557,12 @@
 		</ul>
 	</li>
 	<li><strong>lari:</strong> grupo colectivo <ul>
-			<li><strong>drevolari</strong> - bosque (<em>drevo</em> - <em>árbol</em>); <strong>insanlari</strong> -
-				humanidad (<em>insan</em> - <em>ser humano</em>); <strong>darsulari</strong> - curso (<em>darsu</em> -
-				<em>lección/clase</em>); <strong>mumulari</strong> - manada de ganado (<em>mumu</em> - <em>toro/vaca,
-					ganado</em>); <strong>lexilari</strong> - vocabulario (<em>lexi</em> - <em>palabra</em>);
-				<strong>menalari</strong> - diccionario (<em>mena</em> - <em>significado</em>);
-				<strong>navilari</strong> - flota de barcos (<em>navi</em> - <em>nave, barco</em>);
-				<strong>yumawlari</strong> - plumaje (<em>yumaw</em> - <em>pluma</em>)</li>
+			<li><strong>insanlari</strong> - humanidad (<em>insan</em> - <em>ser humano</em>);
+				<strong>darsulari</strong> - curso (<em>darsu</em> - <em>lección/clase</em>); <strong>mumulari</strong>
+				- manada de ganado (<em>mumu</em> - <em>toro/vaca, ganado</em>); <strong>lexilari</strong> - vocabulario
+				(<em>lexi</em> - <em>palabra</em>); <strong>menalari</strong> - diccionario (<em>mena</em> -
+				<em>significado</em>); <strong>navilari</strong> - flota de barcos (<em>navi</em> - <em>nave,
+					barco</em>); <strong>yumawlari</strong> - plumaje (<em>yumaw</em> - <em>pluma</em>)</li>
 		</ul>
 	</li>
 	<li><strong>lexi:</strong> palabra <ul>

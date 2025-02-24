@@ -22,11 +22,12 @@
 <ul>
 	<li><strong>aw-:</strong> absent, away <ul>
 			<li><strong>awidi</strong> - leave, go away (<em>idi</em> - <em>go</em>); <strong>awglu</strong> - drink up
-				(<em>glu</em> - <em>drink</em>); <strong>awpel</strong> - drive away (<em>pel</em> - <em>drive/push,
-					impulse/impetus</em>)</li>
+				(<em>glu</em> - <em>drink</em>); <strong>awpel</strong> - drive away (<em>pel</em> -
+				<em>drive/push</em>)</li>
 		</ul>
 	</li>
-	<li><strong>awto-:</strong> auto- (<em>automatic</em>) [<strong>awtomati</strong> - automatic] <ul>
+	<li><strong>awto-:</strong> auto- (<em>automatic, by itsef</em>) [<strong>awtomati</strong> - automatic,
+		<strong>awtonom</strong> - autonomous] <ul>
 			<li><strong>awtosahigi</strong> - autocorrect (<em>sahi - correct, right; sahigi - correct</em>)</li>
 		</ul>
 	</li>
@@ -39,13 +40,13 @@
 				- ecosystem (<em>sistema - system</em>)</li>
 		</ul>
 	</li>
-	<li><strong>fin-:</strong> finish, to the end <ul>
-			<li><strong>findoxo</strong> - end of, finish reading to the end (<em>doxo</em> - <em>read</em>);
+	<li><strong>fin-:</strong> - end of, finish to the end <ul>
+			<li><strong>findoxo</strong> - finish reading to the end (<em>doxo</em> - <em>read</em>);
 				<strong>finyam</strong> - finish eating everything (<em>yam</em> - <em>eat</em>)</li>
 		</ul>
 	</li>
 	<li><strong>fron-:</strong> forwards [<strong>fronta</strong> - forehead, front] <ul>
-			<li><strong>fronkadam</strong> - progress (<em>kadam</em> - <em>step</em>)</li>
+			<li><strong>fronkadam</strong> - progress, advance (<em>kadam</em> - <em>step</em>)</li>
 		</ul>
 	</li>
 	<li><strong>ja-:</strong> immediately adjacent [<strong>jara</strong> - neighbor] <ul>
@@ -59,7 +60,7 @@
 				<strong>nenkompleto</strong> - incomplete (<em>kompleto</em> - <em>complete</em>);
 				<strong>nenible</strong> - impossible (<em>ible - possible</em>); <strong>okonenible</strong> -
 				invisible (<em>oko - see</em>); <strong>imanunenible</strong> - unbelievable, incredible (<em>imanu -
-					believe</em>); <strong>nensomno</strong> - insomnia (<em>somno</em> - <em>sleep</em>)</li>
+					believe</em>)</li>
 		</ul>
 	</li>
 	<li><strong>pos-:</strong> opposite [<strong>opos</strong> - opposite] <ul>
@@ -121,7 +122,7 @@
 </ul>
 <h2>Noun Suffixes</h2>
 <ul>
-	<li><strong>-gon:</strong> -agon (<em>geometric figure</em>) [<strong>gono</strong> - angle] <ul>
+	<li><strong>-gon:</strong> -agon (<em>geometric figure</em>) [<strong>gona</strong> - angle] <ul>
 			<li><strong>tigagon</strong> - triangle (<em>tiga - three</em>); <strong>limagon</strong> - pentagon
 				(<em>lima - five</em>); <strong>ocogon</strong> - octagon (<em>oco - eight</em>);
 				<strong>ortogon</strong> - rectangle (<em>orto - upright</em>) </li>
@@ -522,9 +523,8 @@
 		</ul>
 	</li>
 	<li><strong>kaxa:</strong> container <ul>
-			<li><strong>anjenkaxa</strong> - safebox (<em>anjen</em> - <em>safe</em>); <strong>pesakaxa</strong> - purse
-				(<em>pesa</em> - <em>money</em>); <strong>bezekaxa</strong> - beehive (<em>beze</em> - <em>bee</em>)
-			</li>
+			<li><strong>anjenkaxa</strong> - safebox (<em>anjen</em> - <em>safe</em>); <strong>bezekaxa</strong> -
+				beehive (<em>beze</em> - <em>bee</em>)</li>
 		</ul>
 	</li>
 	<li><strong>kamer:</strong> room <ul>
@@ -549,13 +549,12 @@
 		</ul>
 	</li>
 	<li><strong>lari:</strong> collective group <ul>
-			<li><strong>drevolari</strong> - forest (<em>drevo</em> - <em>tree</em>); <strong>insanlari</strong> -
-				humanity (<em>insan</em> - <em>human being</em>); <strong>darsulari</strong> - course (<em>darsu</em> -
-				<em>lesson/class</em>); <strong>mumulari</strong> - herd of cattle (<em>mumu</em> - <em>bull/cow,
-					cattle</em>); <strong>lexilari</strong> - vocabulary (<em>lexi</em> - <em>word</em>);
-				<strong>menalari</strong> - dictionary (<em>mena</em> - <em>meaning</em>, <em>definition</em>);
-				<strong>navilari</strong> - fleet of ships (<em>navi</em> - <em>ship</em>); <strong>yumawlari</strong> -
-				plumage (<em>yumaw</em> - <em>feather</em>)</li>
+			<li><strong>insanlari</strong> - humanity (<em>insan</em> - <em>human being</em>);
+				<strong>darsulari</strong> - course (<em>darsu</em> - <em>lesson/class</em>); <strong>mumulari</strong>
+				- herd of cattle (<em>mumu</em> - <em>bull/cow, cattle</em>); <strong>lexilari</strong> - vocabulary
+				(<em>lexi</em> - <em>word</em>); <strong>menalari</strong> - dictionary (<em>mena</em> -
+				<em>meaning</em>, <em>definition</em>); <strong>navilari</strong> - fleet of ships (<em>navi</em> -
+				<em>ship</em>); <strong>yumawlari</strong> - plumage (<em>yumaw</em> - <em>feather</em>)</li>
 		</ul>
 	</li>
 	<li><strong>lexi:</strong> word <ul>

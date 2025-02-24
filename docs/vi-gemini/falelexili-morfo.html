@@ -1,0 +1,674 @@
+<!DOCTYPE HTML>
+<html lang="vi" class="rust-clr sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Các Dạng Động Từ - Ngữ pháp Globasa</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="Các Dạng Động Từ - Bản dịch tiếng Việt không chính thức của ngữ pháp ngôn ngữ nhân tạo Globasa. Một phần của bản dịch được thực hiện với sự hỗ trợ của mô hình ngôn ngữ Gemini.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Ngữ pháp Globasa</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/vi-gemini/src/falelexili-morfo.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="các-dạng-Động-từ"><a class="header" href="#các-dạng-Động-từ">Các Dạng Động Từ</a></h1>
+<p>
+</p>
+<h2 id="lược-bỏ-trợ-Động-từ"><a class="header" href="#lược-bỏ-trợ-Động-từ">Lược Bỏ Trợ Động Từ</a></h2>
+<p>Người nói có thể tùy ý lược bỏ các trợ động từ, hoặc, nếu muốn, có thể áp dụng các hướng dẫn sau:</p>
+<ul>
+	<li>
+		<p>Dạng nguyên mẫu của động từ có thể diễn tả thì hiện tại đơn, cho phép lược bỏ các trợ từ
+			<strong>nun</strong>, <strong>du-</strong> và <strong>u</strong>.</p>
+	</li>
+	<li>
+		<p>Trong văn kể chuyện, dạng nguyên mẫu của động từ cũng có thể được sử dụng để tường thuật các sự kiện. Về mặt
+			kỹ thuật, không phải là trợ từ thì quá khứ đơn <strong>le</strong> bị lược bỏ trong trường hợp này, mà là
+			câu chuyện được kể như thể đang mô tả một cảnh trong phim, ở thì hiện tại, với việc lược bỏ
+			<strong>nun</strong>, <strong>du-</strong> hoặc <strong>u</strong>.</p>
+	</li>
+	<li>
+		<p>Ngoài các trường hợp được mô tả ở trên, thì/thức có thể được thiết lập lại với mỗi cụm chủ ngữ và được duy
+			trì mà không cần lặp lại cho các động từ khác hoặc cho đến khi thì/thức bị thay đổi trong mệnh đề đó. Nói
+			cách khác, trợ từ cho <em>bất kỳ</em> thì/thức nào đều có thể được lược bỏ trong các động từ tiếp theo trong
+			một mệnh đề một khi thì/thức đã được thiết lập với động từ đầu tiên của mỗi vị ngữ.</p>
+	</li>
+</ul>
+<h2 id="các-thì-hiện-tại-Đơn"><a class="header" href="#các-thì-hiện-tại-Đơn">Các Thì Hiện Tại Đơn</a></h2>
+<p>Các thì hiện tại đơn của Globasa được diễn đạt như sau.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Các Thì Hiện Tại Đơn</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dạng Động Từ</td>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td>Hiện Tại Chung<br /><br /><br /></td>
+			<td><strong>(nun)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) yam pingo.</strong><br />Tôi ăn táo.<br />Tôi đang ăn táo.</td>
+		</tr>
+		<tr>
+			<td>Hiện Tại Tiếp Diễn/Thói Quen<br /><br /><br /></td>
+			<td><strong>(nun) (du-)</strong><br /><br /><br /></td>
+			<td><strong>Mi (nun) (du)yam pingo.</strong><br />Tôi (thường xuyên/theo thói quen) ăn táo.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="dạng-Động-từ-nguyên-mẫu"><a class="header" href="#dạng-Động-từ-nguyên-mẫu">Dạng Động Từ Nguyên Mẫu</a></h3>
+<p>Theo mặc định, dạng động từ nguyên mẫu diễn tả thì hiện tại chung, tương đương với thì hiện tại đơn trong tiếng Anh.
+	Ngoài ra, chỉ riêng dạng nguyên mẫu cũng có thể diễn tả thì hiện tại chủ động, tương đương với thì hiện tại tiếp
+	diễn trong tiếng Anh. Nói cách khác, chỉ riêng dạng động từ nguyên mẫu là mơ hồ và ngụ ý việc lược bỏ
+	<strong>nun</strong> hoặc <strong>du-</strong>.</p>
+<h3 id="trợ-từ-u"><a class="header" href="#trợ-từ-u">Trợ Từ u</a></h3>
+<p>Thay vì chỉ sử dụng dạng động từ nguyên mẫu, trợ từ <strong>u</strong> có thể được sử dụng thay cho
+	<strong>nun</strong> hoặc <strong>du-</strong>. Trợ từ này thường chỉ được sử dụng trong các văn bản hoặc lời nói
+	trang trọng như một cách đơn giản để đánh dấu vị ngữ khi không có trợ từ chỉ thì/thức nào khác được sử dụng.</p>
+<h3 id="tiền-tố-du-"><a class="header" href="#tiền-tố-du-">Tiền Tố du-</a></h3>
+<p>Là một tiền tố động từ, <strong>du-</strong> diễn tả khía cạnh tiếp diễn/thói quen, mô tả một hoạt động hoặc trạng
+	thái trong một khoảng thời gian không xác định, thay vì xảy ra trong một khoảnh khắc duy nhất hoặc trong một khoảng
+	thời gian cụ thể. Tiền tố <strong>du-</strong> thường được lược bỏ với thì hiện tại.</p>
+<p>Là danh từ, các từ có tiền tố <strong>du-</strong> tương đương với danh động từ trong tiếng Anh.</p>
+<p><strong>dulala</strong> - (việc) hát<br />
+	<strong>dudanse</strong> - (việc) nhảy
+</p>
+<p><em>Tiền tố <strong>du-</strong> được rút gọn từ <strong>dure</strong> (thời lượng).<br /> Nguồn gốc của
+		<strong>dure</strong>: tiếng Anh, tiếng Pháp, tiếng Đức, tiếng Tây Ban Nha</em></p>
+<h2 id="quá-khứ-Đơn"><a class="header" href="#quá-khứ-Đơn">Quá Khứ Đơn</a></h2>
+<p>Các thì quá khứ đơn được diễn đạt bằng cách sử dụng trợ từ <strong>le</strong>.</p>
+<p><em>Nguồn gốc của <strong>le</strong>: tiếng Quan Thoại (了 “le”), tiếng Swahili (-li-), tiếng Nga (-л “-l”)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Các Thì Quá Khứ Đơn</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dạng Động Từ</td>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td>Quá Khứ Chung<br /><br /></td>
+			<td><strong>le</strong><br /><br /></td>
+			<td><strong>Mi le yam pingo.</strong><br />Tôi đã ăn quả táo.</td>
+		</tr>
+		<tr>
+			<td>Quá Khứ Tiếp Diễn/Thói Quen<br /><br /></td>
+			<td><strong>le du-</strong><br /><br /></td>
+			<td><strong>Mi le duyam pingo.</strong><br />Tôi đã từng ăn táo.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="các-thì-tương-lai-Đơn"><a class="header" href="#các-thì-tương-lai-Đơn">Các Thì Tương Lai Đơn</a></h2>
+<p>Các thì tương lai đơn được diễn đạt bằng cách sử dụng trợ từ <strong>xa</strong>.</p>
+<p><em>Nguồn gốc của <strong>xa</strong>: tiếng Ả Rập (سوف “sawf”, سا “sa”), tiếng Anh (shall), tiếng Hà Lan (zal)</em>
+</p>
+<table>
+	<thead>
+		<tr>
+			<th>Các Thì Tương Lai Đơn</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dạng Động Từ</td>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td>Tương Lai Chung<br /><br /></td>
+			<td><strong>xa</strong><br /><br /></td>
+			<td><strong>Mi xa yam pingo.</strong><br />Tôi sẽ ăn quả táo.</td>
+		</tr>
+		<tr>
+			<td>Tương Lai Tiếp Diễn/Thói Quen<br /><br /></td>
+			<td><strong>xa du-</strong><br /><br /></td>
+			<td><strong>Mi xa duyam pingo.</strong><br />Tôi sẽ (thường xuyên/theo thói quen) ăn táo.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="các-thì-quá-khứ-và-tương-lai-gần"><a class="header" href="#các-thì-quá-khứ-và-tương-lai-gần">Các Thì Quá Khứ và Tương Lai Gần</a></h2>
+<p>Các thì quá khứ và tương lai <em>gần</em> được diễn đạt như sau bằng cách sử dụng tiền tố <strong>ja-</strong>.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Các Thì Quá Khứ và Tương Lai Gần</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dạng Động Từ</td>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td>Quá Khứ Gần<br /><br /></td>
+			<td><strong>jale</strong><br /><br /></td>
+			<td><strong>Mi jale yam pingo.</strong><br />Tôi vừa mới ăn quả táo.</td>
+		</tr>
+		<tr>
+			<td>Tương Lai Gần<br /><br /></td>
+			<td><strong>jaxa</strong><br /><br /></td>
+			<td><strong>Mi jaxa yam pingo.</strong><br />Tôi sắp ăn quả táo.</td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="tiền-tố-ja-"><a class="header" href="#tiền-tố-ja-">Tiền Tố ja-</a></h3>
+<p>Tiền tố <strong>ja-</strong> có nghĩa là <em>ngay sát</em> và được rút gọn từ <strong>jara</strong> (<em>hàng
+		xóm</em>).</p>
+<p><em>Nguồn gốc của <strong>jara</strong>: tiếng Ả Rập (جارة “jara”), tiếng Swahili (jirani), tiếng Indonesia
+		(jiran)</em></p>
+<h2 id="các-thì-phức-hợp"><a class="header" href="#các-thì-phức-hợp">Các Thì Phức Hợp</a></h2>
+<p>Các thì phức hợp được hình thành bằng cách kết hợp hai trong số các trợ từ chỉ thì chung (<strong>nun</strong>,
+	<strong>le</strong>, <strong>xa</strong>).</p>
+<p>Về mặt ngôn ngữ học, các thì phức hợp được sử dụng để diễn đạt các khía cạnh ngữ pháp khác nhau một cách chi tiết. Có
+	ba khía cạnh được diễn đạt thông qua các thì phức hợp, tương ứng với ba hàng trong mỗi bảng dưới đây: tiếp diễn (chủ
+	động), hoàn thành (đã hoàn tất) và dự kiến.</p>
+<p>Trong khi các thì đơn giản chỉ báo cáo các sự kiện từ quan điểm của thời điểm hiện tại, các thì phức hợp được sử dụng
+	để báo cáo trạng thái thời gian và khía cạnh của một sự kiện từ quan điểm của hiện tại, quá khứ hoặc tương lai.</p>
+<p>Một số thì phức hợp hiếm khi được sử dụng và thường được diễn đạt tốt nhất bằng cách sử dụng một thì đơn giản thay
+	thế. Các thì khác hữu ích hơn và có thể khá phổ biến trong lời nói, đặc biệt là các thì sau: quá khứ chủ động
+	(<strong>le nun</strong>), hiện tại hoàn thành (<strong>nun le</strong>), tương lai hoàn thành (<strong>xa
+		le</strong>), quá khứ dự kiến (<strong>le xa</strong>).</p>
+<h2 id="các-thì-hiện-tại-phức-hợp"><a class="header" href="#các-thì-hiện-tại-phức-hợp">Các Thì Hiện Tại Phức Hợp</a></h2>
+<p>Các thì hiện tại phức hợp được diễn đạt như sau:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Các Thì Hiện Tại Phức Hợp</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dạng Động Từ</td>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td>Hiện Tại Chủ Động<br /><br /></td>
+			<td><strong>(nun) nun</strong><br /><br /></td>
+			<td><strong>Mi (nun) nun yam pingo.</strong><br />Tôi đang ăn quả táo.</td>
+		</tr>
+		<tr>
+			<td>Hiện Tại Hoàn Thành<br /><br /></td>
+			<td><strong>nun le</strong><br /><br /></td>
+			<td><strong>Mi nun le yam pingo.</strong><br />Tôi đã ăn quả táo.</td>
+		</tr>
+		<tr>
+			<td>Hiện Tại Dự Kiến<br /><br /></td>
+			<td><strong>nun xa</strong><br /><br /></td>
+			<td><strong>Mi nun xa yam pingo.</strong><br />Tôi sẽ ăn quả táo.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="các-thì-quá-khứ-phức-hợp"><a class="header" href="#các-thì-quá-khứ-phức-hợp">Các Thì Quá Khứ Phức Hợp</a></h2>
+<p>Các thì quá khứ phức hợp được diễn đạt như sau:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Các Thì Quá Khứ Phức Hợp</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dạng Động Từ</td>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td>Quá Khứ Chủ Động<br /><br /></td>
+			<td><strong>le nun</strong><br /><br /></td>
+			<td><strong>Mi le nun yam pingo.</strong><br />Tôi đang ăn quả táo.</td>
+		</tr>
+		<tr>
+			<td>Quá Khứ Hoàn Thành<br /><br /></td>
+			<td><strong>le le</strong><br /><br /></td>
+			<td><strong>Mi le le yam pingo.</strong><br />Tôi đã ăn quả táo.</td>
+		</tr>
+		<tr>
+			<td>Quá Khứ Dự Kiến<br /><br /></td>
+			<td><strong>le xa</strong><br /><br /></td>
+			<td><strong>Mi le xa yam pingo.</strong><br />Tôi đã định ăn quả táo.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="các-thì-tương-lai-phức-hợp"><a class="header" href="#các-thì-tương-lai-phức-hợp">Các Thì Tương Lai Phức Hợp</a></h2>
+<p>Các thì tương lai phức hợp được diễn đạt như sau:</p>
+<table>
+	<thead>
+		<tr>
+			<th>Các Thì Tương Lai Phức Hợp</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dạng Động Từ</td>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td>Tương Lai Chủ Động<br /><br /></td>
+			<td><strong>xa nun</strong><br /><br /></td>
+			<td><strong>Mi xa nun yam pingo.</strong><br />Tôi sẽ đang ăn quả táo.</td>
+		</tr>
+		<tr>
+			<td>Tương Lai Hoàn Thành<br /><br /></td>
+			<td><strong>xa le</strong><br /><br /></td>
+			<td><strong>Mi xa le yam pingo.</strong><br />Tôi sẽ đã ăn quả táo.</td>
+		</tr>
+		<tr>
+			<td>Tương Lai Dự Kiến<br /><br /></td>
+			<td><strong>xa xa</strong><br /><br /></td>
+			<td><strong>Mi xa xa yam pingo.</strong><br />Tôi sẽ sắp ăn quả táo.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Cần lưu ý rằng trong khi các thì <em>hoàn thành</em> trong tiếng Anh không phải lúc nào cũng diễn tả một hành động đã
+	hoàn tất, các thì <em>hoàn thành</em> trong Globasa luôn diễn tả như vậy.</p>
+<h2 id="khía-cạnh-tiếp-diễn"><a class="header" href="#khía-cạnh-tiếp-diễn">Khía Cạnh Tiếp Diễn</a></h2>
+<p>Trạng từ chỉ <em>khía cạnh tiếp diễn</em> <strong>dupul</strong> được sử dụng khi một hành động hoặc trạng thái bắt
+	đầu trong quá khứ và tiếp tục đến hiện tại. Trong tiếng Anh, điều này được diễn đạt bằng thì <em>hiện tại hoàn
+		thành</em> hoặc <em>hiện tại hoàn thành tiếp diễn</em>.</p>
+<h3 id="câu-ví-dụ-với-thì-hiện-tại-hoàn-thành-trong-tiếng-anh"><a class="header" href="#câu-ví-dụ-với-thì-hiện-tại-hoàn-thành-trong-tiếng-anh">Câu Ví Dụ với Thì Hiện Tại Hoàn Thành trong Tiếng Anh</a></h3>
+<p><strong>Mi no dupul oko te xorfe mesi tiga.</strong><br /> Tôi đã không gặp cô ấy kể từ tháng Ba.</p>
+<p><strong>Mi dupul kone te dur 30 nyan.</strong><br /> Tôi đã biết anh ấy được 30 năm.</p>
+<p><strong>Mi dupul sen gadibu.</strong><br /> Tôi đã tức giận.</p>
+<p><strong>Yu dupul sen kepul?</strong><br /> Bạn thế nào rồi?</p>
+<h3 id="câu-ví-dụ-với-thì-hiện-tại-hoàn-thành-tiếp-diễn-trong-tiếng-anh"><a class="header" href="#câu-ví-dụ-với-thì-hiện-tại-hoàn-thành-tiếp-diễn-trong-tiếng-anh">Câu Ví Dụ với Thì Hiện Tại Hoàn Thành Tiếp Diễn trong Tiếng Anh</a></h3>
+<p><strong>Mi dupul yam hin pingo dur un satu.</strong><br /> Tôi đã ăn quả táo này được một giờ.</p>
+<p><strong>Yu dupul fale keto?</strong><br /> Bạn đã làm gì?</p>
+<p><strong>Mi dupul doxo hin kitabu xorfe jaleli sabedin.</strong><br /> Tôi đã đọc cuốn sách này kể từ tuần trước.</p>
+<h2 id="thể-Điều-kiện"><a class="header" href="#thể-Điều-kiện">Thể Điều Kiện</a></h2>
+<p>Thể điều kiện được diễn đạt bằng cách sử dụng trợ từ <strong>ger</strong>.</p>
+<p><em>Trợ từ <strong>ger</strong> được rút gọn từ <strong>eger</strong> (nếu).<br /> Nguồn gốc của
+		<strong>eger</strong>: tiếng Hindi (अगर “agar”), tiếng Ba Tư (اگر “agar”), tiếng Thổ Nhĩ Kỳ (eğer)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Thể Điều Kiện</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dạng Động Từ</td>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td>Điều Kiện<br /><br /></td>
+			<td><strong>ger</strong><br /><br /></td>
+			<td><strong>Mi ger yam pingo.</strong><br />Tôi sẽ ăn quả táo.</td>
+		</tr>
+		<tr>
+			<td>Điều Kiện Quá Khứ<br /><br /></td>
+			<td><strong>ger le</strong><br /><br /></td>
+			<td><strong>Mi ger le yam pingo.</strong><br />Tôi đã ăn quả táo.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Mệnh đề phụ (nếu...) sử dụng dạng nguyên mẫu của động từ.</p>
+<p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> Tôi sẽ ăn quả táo nếu tôi đói.</p>
+<h2 id="thể-bị-Động"><a class="header" href="#thể-bị-Động">Thể Bị Động <span id="be-"></span></a></h2>
+<p>Thể bị động được diễn đạt bằng cách sử dụng tiền tố <strong>be-</strong>.</p>
+<p><em>Nguồn gốc của <strong>be-</strong>: tiếng Quan Thoại (被 “bèi”), tiếng Anh (be), tiếng Na Uy (ble)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Thể Bị Động</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dạng Động Từ</td>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td>Bị Động Hiện Tại<br /><br /></td>
+			<td><strong>(nun) be-</strong><br /><br /></td>
+			<td><strong>Pingo beyam mi.</strong><br />Quả táo được tôi ăn.</td>
+		</tr>
+		<tr>
+			<td>Bị Động Quá Khứ<br /><br /></td>
+			<td><strong>le be-</strong><br /><br /></td>
+			<td><strong>Pingo le beyam mi.</strong><br />Quả táo đã được tôi ăn.</td>
+		</tr>
+		<tr>
+			<td>Bị Động Tương Lai<br /><br /></td>
+			<td><strong>xa be-</strong><br /><br /></td>
+			<td><strong>Pingo xa beyam mi.</strong><br />Quả táo sẽ được tôi ăn.</td>
+		</tr>
+	</tbody>
+</table>
+<p>Mặc dù thể bị động về mặt kỹ thuật cũng có thể được sử dụng với tất cả các thì phức hợp, trong thực tế, nó thường
+	được sử dụng nhất với các thì hiện tại, quá khứ và tương lai chung, như đã minh họa ở trên.</p>
+<p>Lưu ý: Trong Globasa, tác nhân trong các câu bị động được diễn đạt như tân ngữ trực tiếp mà không cần giới từ để đánh
+	dấu tác nhân. Ngược lại, tiếng Anh đánh dấu tác nhân bằng <em>by</em> (bởi).</p>
+<p><strong>Myaw le no velosi yam piu.</strong><br /> Con mèo đã không ăn con chim một cách nhanh chóng.</p>
+<p><strong>Piu le no velosi beyam myaw.</strong><br /> Con chim đã không bị con mèo ăn một cách nhanh chóng.</p>
+<h2 id="thể-mệnh-lệnh-và-thể-thỉnh-cầu"><a class="header" href="#thể-mệnh-lệnh-và-thể-thỉnh-cầu">Thể Mệnh Lệnh và Thể Thỉnh Cầu</a></h2>
+<p>Trong Globasa, các mệnh lệnh (<em>thể mệnh lệnh</em>) và lời khuyên (<em>thể thỉnh cầu</em>) đều được diễn đạt bằng
+	cách sử dụng trợ từ <strong>am</strong>.</p>
+<p><em>Trợ từ <strong>am</strong> được rút gọn từ <strong>amiru</strong> (mệnh lệnh)<br /> Nguồn gốc của
+		<strong>amiru</strong>: tiếng Ả Rập (أمر “amr”), tiếng Thổ Nhĩ Kỳ (emir), tiếng Swahili (amri, -amuru)</em></p>
+<table>
+	<thead>
+		<tr>
+			<th>Thể Mệnh Lệnh và Thể Thỉnh Cầu</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Dạng Động Từ</td>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td>Thể Mệnh Lệnh<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>(Yu) Am yam!</strong><br />Ăn đi!<br /><br /><strong>(Uyu) Am yam!</strong><br />(Các bạn) ăn
+				đi!<br /><br /><strong>Imi am yam!</strong><br />Chúng ta hãy ăn nào!</td>
+		</tr>
+		<tr>
+			<td>Thể Thỉnh Cầu<br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>am</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Te am yam.</strong><br />Mong cô ấy ăn.<br /><br /><strong>Mi am yam.</strong><br />Mong tôi
+				được ăn. </td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="thể-mệnh-lệnh"><a class="header" href="#thể-mệnh-lệnh">Thể Mệnh Lệnh</a></h3>
+<p>Các đại từ <strong>yu</strong> và <strong>uyu</strong> có thể được lược bỏ khi diễn đạt <em>thể mệnh lệnh</em>.</p>
+<h3 id="thể-thỉnh-cầu"><a class="header" href="#thể-thỉnh-cầu">Thể Thỉnh Cầu</a></h3>
+<p><em>Thể thỉnh cầu</em> có ý nghĩa tương tự như <em>thể mệnh lệnh</em> nhưng được sử dụng cho ngôi thứ 3
+	(<strong>te</strong>/<strong>to</strong>, <strong>ete</strong>/<strong>oto</strong>), cũng như ngôi thứ nhất số ít
+	(<strong>mi</strong>).</p>
+<p>Thể thỉnh cầu cũng có thể hoạt động như một <em>thức giả định bắt buộc</em> trong các mệnh đề phụ. <em>Thức giả định
+		bắt buộc</em> diễn đạt một yêu cầu, đòi hỏi, yêu cầu, đề nghị hoặc gợi ý.</p>
+<p><strong>Mi vole ki te am safegi sesu kamer.</strong><br /> Tôi muốn anh ấy dọn phòng của mình.</p>
+<p><strong>Mi peti ki imi am xorata jaldi.</strong><br /> Tôi yêu cầu chúng ta đến sớm.</p>
+<p><strong>Kitabu hu xwexiyen am doxo da no sen daymo lungo.</strong><br /> Cuốn sách mà các học sinh phải đọc không dài
+	lắm.</p>
+<h2 id="phủ-Định"><a class="header" href="#phủ-Định">Phủ Định</a></h2>
+<p>Phủ định cho tất cả các dạng động từ được diễn đạt bằng từ <strong>no</strong> và, như một trạng từ, nó đứng ngay
+	trước động từ và bất kỳ trạng từ bổ nghĩa nào khác.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Phủ Định</th>
+			<th> </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Trợ Từ</td>
+			<td>Câu Ví Dụ</td>
+		</tr>
+		<tr>
+			<td><strong>no</strong><br /><br /><br /><br /><br /><br /><br /><br /></td>
+			<td><strong>Mi no sen lao.</strong><br />Tôi không già.<br /><br /><strong>Te no yam pingo.</strong><br />Cô
+				ấy/Anh ấy không ăn táo.<br /><br /><strong>Am no yam pingo.</strong><br />Đừng ăn táo.</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="thể-nguyên-mẫu"><a class="header" href="#thể-nguyên-mẫu">Thể Nguyên Mẫu</a></h2>
+<p>Trong Globasa, dạng động từ nguyên mẫu được đánh dấu bằng trợ từ <strong>na</strong> và thường được lược bỏ trong một
+	mệnh đề một khi nó đã được thiết lập với động từ đầu tiên. Xem <a
+		href="./jumleli-estrutur.html#nafalelexili_jumlemon">Cụm Động Từ Nguyên Mẫu</a> trong phần Cấu Trúc Câu.</p>
+<p><em>Nguồn gốc của <strong>na</strong>: tiếng Hy Lạp (να “na”), tiếng Hindi (-ना “-na”)</em></p>
+<h2 id="mệnh-Đề-phụ"><a class="header" href="#mệnh-Đề-phụ">Mệnh Đề Phụ</a></h2>
+<p>Như đã thấy ở trên, các mệnh đề <em>nếu</em> trong câu điều kiện sử dụng dạng nguyên mẫu của động từ. Tuy nhiên,
+	không phải mọi câu có mệnh đề <em>nếu</em> đều là câu điều kiện. Trừ khi câu là câu điều kiện, các mệnh đề
+	<em>nếu</em> được đánh dấu cho thì.</p>
+<p><strong>Eger mi xa yam pingo, mi xa no haji sen yamkal.</strong><br /> Nếu tôi ăn táo (<em>trong tương lai</em>), tôi
+	sẽ không còn đói nữa.</p>
+<p><strong>Eger te le yam yusu pingo, kam yu xa sen gadibu?</strong><br /> Nếu anh ấy đã ăn táo của bạn (<em>trong quá
+		khứ</em>), bạn có giận không?</p>
+<p><strong>Eger te yam yusu pingo, kam yu gadibucu?</strong><br /> Nếu anh ấy ăn táo của bạn (<em>nói chung</em>), bạn
+	có nổi giận không?</p>
+<h3 id="câu-với-các-mệnh-đề-phụ-khác"><a class="header" href="#câu-với-các-mệnh-đề-phụ-khác">Câu với các mệnh đề phụ khác</a></h3>
+<p>Ngoài <strong>eger</strong> (<em>nếu</em>), các mệnh đề phụ có thể bắt đầu bằng các liên từ khác, chẳng hạn như
+	<strong>denwatu hu</strong> (<em>khi</em>), <strong>denloka hu</strong> (<em>nơi</em>), <strong>koski</strong>
+	(<em>bởi vì</em>), v.v. Các trợ từ chỉ thì là bắt buộc trong tất cả các mệnh đề phụ này.</p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="numer-ji-mesi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="jumlemonli-estrutur.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="numer-ji-mesi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="jumlemonli-estrutur.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>

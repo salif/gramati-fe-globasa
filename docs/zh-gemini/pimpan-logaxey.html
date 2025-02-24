@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="rust-clr sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>常用短语和表达 - 格洛巴萨语法</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="常用短语和表达 - 格洛巴萨（Globasa）这一人造语言的语法的非官方中文译本。部分内容由 Gemini 语言模型协助翻译。">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">格洛巴萨语法</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/zh-gemini/src/pimpan-logaxey.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="常用短语和表达"><a class="header" href="#常用短语和表达">常用短语和表达</a></h1>
+<p>
+</p>
+<h2 id="问候语"><a class="header" href="#问候语">问候语</a></h2>
+<p><strong>salom</strong> - 你好 </p>
+<p><strong>xanti</strong> - 你好 ("和平") </p>
+<p><strong>bonsoba</strong> - 早上好 </p>
+<p><strong>bonnuru</strong> - 日安/下午好 </p>
+<p><strong>bonaxam</strong> - 晚上好 </p>
+<p><strong>bonnoce</strong> - 晚上好 ("晚安")</p>
+<h2 id="告别语"><a class="header" href="#告别语">告别语</a></h2>
+<p><strong>weda</strong> - 再见 </p>
+<p><strong>xanti</strong> - 再见 ("和平") </p>
+<p><strong>finfe (rioko)</strong> - 回见 </p>
+<p><strong>finfe xaya</strong> - 待会儿见 </p>
+<p><strong>finfe ner xaya</strong> - 一会儿见/很快见 </p>
+<p><strong>bon soba</strong> - 早上好 </p>
+<p><strong>bon nuru</strong> - 日安/下午好 </p>
+<p><strong>bon axam</strong> - 晚上好 </p>
+<p><strong>bon noce</strong> - 晚安 </p>
+<h2 id="其他祝福语"><a class="header" href="#其他祝福语">其他祝福语</a></h2>
+<p>注意：如上所示，带有 <strong>bon</strong> (好) 的问候语表达为复合词，而告别语表达为两个词的短语。 在下面的表达中，当说话者和听话者保持在一起时，使用复合词。 因此，两个词根在一起，组合成一个词。
+	相反，如果说话者或听话者离开，则使用两个词的短语。 因此，词根是分开的。 </p>
+<p><strong>bonata</strong> <em>或</em> <strong>bon ata</strong> - 欢迎 </p>
+<p><strong>bonxanse</strong> <em>或</em> <strong>bon xanse</strong> - 祝你好运 </p>
+<p><strong>bonyam</strong> <em>或</em> <strong>bon yam</strong> - 祝你胃口好 ("好餐") </p>
+<p><strong>bonglu</strong> <em>或</em> <strong>bon glu</strong> - 干杯 ("好饮料") </p>
+<p><strong>bonturi</strong> <em>或</em> <strong>bon turi</strong> - 一路顺风，旅途平安 </p>
+<h2 id="礼貌用语"><a class="header" href="#礼貌用语">礼貌用语</a></h2>
+<p><strong>fe lutuf</strong> - 请 </p>
+<p><strong>xukra</strong> - 谢谢你 </p>
+<p><strong>multi xukra</strong> - 多谢，非常感谢 </p>
+<p><strong>no hay seba</strong> - 不客气 ("没理由") </p>
+<p><strong>asif</strong> - 对不起 </p>
+<p><strong>mafu</strong> - 打扰一下，抱歉 </p>
+<h2 id="其他感叹词"><a class="header" href="#其他感叹词">其他感叹词</a></h2>
+<p><strong>daybon</strong> - 太棒了，极好的 </p>
+<p><strong>melibon</strong> - 不错的，甜蜜的 </p>
+<p><strong>suprem</strong> - 酷，太棒了，极好的 </p>
+<p><strong>otima</strong> - 太棒了 </p>
+<p><strong>afarin</strong> - 做得好，干得漂亮 ("鼓掌") </p>
+<p><strong>hura</strong> - 好哇，万岁，呜呼，耶 </p>
+<p><strong>ay</strong> - 哎哟 </p>
+<p><strong>wao</strong> - 哇 </p>
+<h2 id="对话填充词"><a class="header" href="#对话填充词">对话填充词</a></h2>
+<p><strong>o</strong> - 哦 </p>
+<p><strong>a</strong> - 啊 </p>
+<p><strong>nun</strong> - 嗯 (那么)，所以，现在 </p>
+<p><strong>fe folo</strong> - 所以，因此，结果是 </p>
+<p><strong>fe fato</strong> - 事实上，实际上 </p>
+<p><strong>fe fini</strong> - 最后 </p>
+<p><strong>fe bonxanse</strong> - 幸运地，幸好 </p>
+<p><strong>fe asif</strong> - 遗憾地，不幸地 </p>
+<p><strong>fe onxala</strong> - 希望如此 </p>
+<p><strong>fe misal</strong> - 例如 </p>
+<p><strong>fe xugwan</strong> - 通常 </p>
+<p><strong>fe benji</strong> - 本质上，基本上 </p>
+<p><strong>fe moy kaso</strong> - 无论如何，总之，反正 </p>
+<p><strong>fe alo kaso</strong> - 否则 </p>
+<p><strong>maxpul</strong> - 此外，而且 </p>
+<p><strong>pia</strong> - 也 </p>
+<p><strong>abruto</strong> - 突然 </p>
+<p><strong>e</strong> <em>或</em> <strong>em</strong> - 嗯 </p>
+<p><strong>aham</strong> - 我明白了 ("理解") </p>
+<p><strong>yakin</strong> - 当然，肯定 </p>
+<p><strong>totalyakin</strong> <em>或</em> <strong>pulyakin</strong> - 绝对地，完全地 </p>
+<p><strong>mimbay</strong> - 显然，当然 </p>
+<p><strong>sipul</strong> - 的确 </p>
+<p><strong>okey</strong> - 好的，行 </p>
+<p><strong>ible</strong> - 也许，可能 </p>
+<p><strong>dayible</strong> - 很可能 </p>
+<p><strong>sahi</strong> - 正确的，对的 </p>
+<p><strong>mal</strong> - 不正确的，错的，不是这样的 </p>
+<p><strong>sati</strong> - 真的 </p>
+<p><strong>falso</strong> - 假的，不是真的 </p>
+<p><strong>samaijen</strong> - 同意 ("相同意见") </p>
+<p><strong>Kam sati?</strong> - 真的吗？ </p>
+<p><strong>Kam jidi?</strong> - 真的吗？ 你是认真的吗？ </p>
+<p><strong>Kam yakin?</strong> - 你确定吗？ </p>
+<p><strong>Kam bon?</strong> - 你好吗？ 你好吗？ 好吗？ </p>
+<p><strong>Kam okey?</strong> - 这样可以吗？ 一切都好吗？ </p>
+<h2 id="常见问题回答"><a class="header" href="#常见问题回答">常见问题/回答</a></h2>
+<ul>
+	<li><strong>Yu sen kepul?</strong> <em>或</em> <strong>Yu kepul?</strong><br /> 你好吗？ </li>
+</ul>
+<p><strong>Daymo bon, ji yu?</strong><br /> 很好，你呢？</p>
+<p><strong>semibon</strong><br /> 还不错</p>
+<p><strong>semi semi</strong><br /> 马马虎虎</p>
+<ul>
+	<li><strong>Yu name keto?</strong> <em>或</em> <strong>Yusu name sen keto?</strong><br /> 你叫什么名字？</li>
+</ul>
+<p><strong>Mi name...</strong> <em>或</em> <strong>Misu name sen...</strong><br /> 我叫...</p>
+<p><strong>(To sen) yukwe, na xorkone yu.</strong> <em>或</em> <strong>Yukwe.</strong><br /> 很高兴认识你。 或 令人愉快。 </p>
+<p><strong>(To sen) furaha, na xorkone yu.</strong> <em>或</em> <strong>Furaha.</strong><br /> 很高兴见到你. 或 很荣幸。</p>
+<p><strong>(Mi sen) hox na xorkone yu.</strong> <em>或</em> <strong>Mi sen hox.</strong><br /> (我)很高兴见到你。 或 我很高兴。</p>
+<ul>
+	<li><strong>Yu ogar keloka?</strong><br /> 你住在哪里？</li>
+</ul>
+<p><strong>Mi ogar in...</strong><br /> 我住在...</p>
+<ul>
+	<li><strong>Yu sen of keloka?</strong><br /> 你是哪里人？</li>
+</ul>
+<p><strong>Mi sen of...</strong><br /> 我来自...</p>
+<ul>
+	<li><strong>Yu sen kemo lao?</strong> <em>或</em> <strong>Yu sen fe ke nyan?</strong><br /> 你多大了？ </li>
+</ul>
+<p><strong>Mi sen lao fe... (nyan).</strong> <em>或</em> <strong>Mi sen fe... (nyan).</strong><br /> 我...岁。 </p>
+<ul>
+	<li><strong>Kam yu (pala) Globasa?</strong><br /> 你会说格洛巴萨语吗？</li>
+</ul>
+<p><strong>Si, xosu.</strong><br /> 是的，会一点。</p>
+<ul>
+	<li><strong>Yu pala ke basa?</strong><br /> 你会说什么语言？ </li>
+</ul>
+<p><strong>Mi pala...</strong><br /> 我会说...</p>
+<ul>
+	<li><strong>Kam yu aham?</strong><br /> 你明白吗？</li>
+</ul>
+<p><strong>(Si,) mi aham.</strong><br /> (是的，) 我明白。 </p>
+<p><strong>(No,) mi no aham.</strong><br /> (不，) 我不明白。</p>
+<ul>
+	<li><strong>Ren loga... kemaner (in Globasa)?</strong><br /> ...用格洛巴萨语怎么说？</li>
+</ul>
+<p><strong>In Globasa, ren loga...</strong><br /> (在格洛巴萨语中，) 你说...</p>
+<h2 id="常用语句"><a class="header" href="#常用语句">常用语句</a></h2>
+<p><strong>Mi jixi.</strong><br /> 我知道。</p>
+<p><strong>Mi no jixi.</strong><br /> 我不知道。</p>
+<p><strong>Mi lubi yu.</strong><br /> 我爱你。</p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="lexiklase.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="lexiklase.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>

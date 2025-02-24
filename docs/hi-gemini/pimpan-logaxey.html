@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<html lang="hi" class="rust-clr sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>आम वाक्यांश और अभिव्यक्तियाँ - ग्लोबासा व्याकरण</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="आम वाक्यांश और अभिव्यक्तियाँ - निर्मित भाषा ग्लोबासा (Globasa) के व्याकरण का अनौपचारिक हिंदी अनुवाद। अनुवाद के कुछ भाग जेमिनी भाषा मॉडल की सहायता से किए गए हैं।">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">ग्लोबासा व्याकरण</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/hi-gemini/src/pimpan-logaxey.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="आम-वाकयांश-और-अभिवयकतियाँ"><a class="header" href="#आम-वाकयांश-और-अभिवयकतियाँ">आम वाक्यांश और अभिव्यक्तियाँ</a></h1>
+<p>
+</p>
+<h2 id="अभिवादन"><a class="header" href="#अभिवादन">अभिवादन</a></h2>
+<p><strong>salom</strong> - नमस्ते, हेलो </p>
+<p><strong>xanti</strong> - नमस्ते ("शांति") </p>
+<p><strong>bonsoba</strong> - सुप्रभात </p>
+<p><strong>bonnuru</strong> - शुभ दिन/दोपहर </p>
+<p><strong>bonaxam</strong> - शुभ संध्या </p>
+<p><strong>bonnoce</strong> - शुभ रात्रि </p>
+<h2 id="विदाई"><a class="header" href="#विदाई">विदाई</a></h2>
+<p><strong>weda</strong> - अलविदा </p>
+<p><strong>xanti</strong> - अलविदा ("शांति") </p>
+<p><strong>finfe (rioko)</strong> - फिर मिलेंगे </p>
+<p><strong>finfe xaya</strong> - बाद में मिलेंगे </p>
+<p><strong>finfe ner xaya</strong> - जल्द ही मिलेंगे </p>
+<p><strong>bon soba</strong> - सुप्रभात </p>
+<p><strong>bon nuru</strong> - शुभ दिन/दोपहर </p>
+<p><strong>bon axam</strong> - शुभ संध्या </p>
+<p><strong>bon noce</strong> - शुभ रात्रि </p>
+<h2 id="अनय-शुभकामनाएँ"><a class="header" href="#अनय-शुभकामनाएँ">अन्य शुभकामनाएँ</a></h2>
+<p>नोट: जैसा कि ऊपर देखा गया है, <strong>bon</strong> (अच्छा, भला) के साथ अभिवादन यौगिकों के रूप में व्यक्त किए जाते
+	हैं, जबकि विदाई दो-शब्द वाक्यांशों के रूप में व्यक्त की जाती है। निम्नलिखित अभिव्यक्तियों में, यौगिकों का उपयोग तब
+	किया जाता है जब वक्ता और श्रोता एक साथ रहते हैं। इसलिए, दो मूल शब्द एक साथ होते हैं, एक शब्द में संयुक्त होते हैं।
+	इसके विपरीत, दो-शब्द वाक्यांशों का उपयोग किया जाता है यदि वक्ता या श्रोता में से कोई एक प्रस्थान करता है। इसलिए, मूल
+	शब्द अलग हैं। </p>
+<p><strong>bonata</strong> <em>या</em> <strong>bon ata</strong> - स्वागतम् </p>
+<p><strong>bonxanse</strong> <em>या</em> <strong>bon xanse</strong> - शुभकामनाएँ </p>
+<p><strong>bonyam</strong> <em>या</em> <strong>bon yam</strong> - बॉन एपेतीत ("अच्छा भोजन") </p>
+<p><strong>bonglu</strong> <em>या</em> <strong>bon glu</strong> - चीयर्स ("अच्छा पेय") </p>
+<p><strong>bonturi</strong> <em>या</em> <strong>bon turi</strong> - बॉन वॉयेज, सुरक्षित यात्रा </p>
+<h2 id="विनमर-होना"><a class="header" href="#विनमर-होना">विनम्र होना</a></h2>
+<p><strong>fe lutuf</strong> - कृपया </p>
+<p><strong>xukra</strong> - धन्यवाद </p>
+<p><strong>multi xukra</strong> - बहुत धन्यवाद, धन्यवाद </p>
+<p><strong>no hay seba</strong> - कोई बात नहीं ("कोई कारण नहीं है") </p>
+<p><strong>asif</strong> - क्षमा करें </p>
+<p><strong>mafu</strong> - क्षमा करें, माफ़ करें </p>
+<h2 id="अनय-विसमयादिबोधक"><a class="header" href="#अनय-विसमयादिबोधक">अन्य विस्मयादिबोधक</a></h2>
+<p><strong>daybon</strong> - महान, उत्कृष्ट </p>
+<p><strong>melibon</strong> - अच्छा, प्यारा </p>
+<p><strong>suprem</strong> - शानदार, महान, उत्कृष्ट </p>
+<p><strong>otima</strong> - बहुत बढ़िया </p>
+<p><strong>afarin</strong> - शाबाश, अच्छा काम ("प्रशंसा") </p>
+<p><strong>hura</strong> - हुर्रे, हुर्रा, वू-हू, ये </p>
+<p><strong>ay</strong> - आह </p>
+<p><strong>wao</strong> - वाह </p>
+<h2 id="संवाद-पूरक"><a class="header" href="#संवाद-पूरक">संवाद पूरक</a></h2>
+<p><strong>o</strong> - ओह </p>
+<p><strong>a</strong> - आह </p>
+<p><strong>nun</strong> - अच्छा (तो), तो, अब </p>
+<p><strong>fe folo</strong> - तो, इसलिए, फलस्वरूप </p>
+<p><strong>fe fato</strong> - वास्तव में, असल में </p>
+<p><strong>fe fini</strong> - आखिरकार </p>
+<p><strong>fe bonxanse</strong> - सौभाग्य से, भाग्यवश </p>
+<p><strong>fe asif</strong> - अफसोस, दुर्भाग्य से </p>
+<p><strong>fe onxala</strong> - उम्मीद है </p>
+<p><strong>fe misal</strong> - उदाहरण के लिए </p>
+<p><strong>fe xugwan</strong> - आमतौर पर </p>
+<p><strong>fe benji</strong> - संक्षेप में, मूल रूप से </p>
+<p><strong>fe moy kaso</strong> - किसी भी मामले में, किसी भी दर पर, वैसे भी </p>
+<p><strong>fe alo kaso</strong> - अन्यथा </p>
+<p><strong>maxpul</strong> - इसके अलावा, और तो और </p>
+<p><strong>pia</strong> - भी </p>
+<p><strong>abruto</strong> - अचानक </p>
+<p><strong>e</strong> <em>या</em> <strong>em</strong> - उह </p>
+<p><strong>aham</strong> - मैं समझा, समझ गया ("समझना") </p>
+<p><strong>yakin</strong> - निश्चित रूप से, अवश्य </p>
+<p><strong>totalyakin</strong> <em>या</em> <strong>pulyakin</strong> - बिल्कुल, पूरी तरह से </p>
+<p><strong>mimbay</strong> - जाहिर है, बेशक </p>
+<p><strong>sipul</strong> - वास्तव में </p>
+<p><strong>okey</strong> - ठीक है, सब ठीक है </p>
+<p><strong>ible</strong> - शायद, मुमकिन है, संभवतः </p>
+<p><strong>dayible</strong> - शायद </p>
+<p><strong>sahi</strong> - सही, ठीक </p>
+<p><strong>mal</strong> - गलत, सही नहीं </p>
+<p><strong>sati</strong> - सच </p>
+<p><strong>falso</strong> - असत्य, सच नहीं </p>
+<p><strong>samaijen</strong> - सहमत ("समान राय") </p>
+<p><strong>Kam sati?</strong> - सच में? </p>
+<p><strong>Kam jidi?</strong> - गंभीरता से? क्या आप गंभीर हैं? </p>
+<p><strong>Kam yakin?</strong> - क्या आपको यकीन है? </p>
+<p><strong>Kam bon?</strong> - क्या आप ठीक हैं? क्या सब ठीक है? </p>
+<p><strong>Kam okey?</strong> - क्या वह ठीक है? क्या सब कुछ ठीक है? </p>
+<h2 id="सामानय-परशनउततर"><a class="header" href="#सामानय-परशनउततर">सामान्य प्रश्न/उत्तर</a></h2>
+<ul>
+	<li><strong>Yu sen kepul?</strong> <em>या</em> <strong>Yu kepul?</strong><br /> आप कैसे हैं? </li>
+</ul>
+<p><strong>Daymo bon, ji yu?</strong><br /> बहुत अच्छा, और आप?</p>
+<p><strong>semibon</strong><br /> बहुत बुरा नहीं</p>
+<p><strong>semi semi</strong><br /> ठीक ठाक</p>
+<ul>
+	<li><strong>Yu name keto?</strong> <em>या</em> <strong>Yusu name sen keto?</strong><br /> तुम्हारा नाम क्या है?</li>
+</ul>
+<p><strong>Mi name...</strong> <em>या</em> <strong>Misu name sen...</strong><br /> मेरा नाम है...</p>
+<p><strong>(To sen) yukwe, na xorkone yu.</strong> <em>या</em> <strong>Yukwe.</strong><br /> आपसे मिलकर अच्छा लगा। या यह
+	सुखद है। </p>
+<p><strong>(To sen) furaha, na xorkone yu.</strong> <em>या</em> <strong>Furaha.</strong><br /> आपसे मिलकर खुशी हुई। या
+	यह एक खुशी है।</p>
+<p><strong>(Mi sen) hox na xorkone yu.</strong> <em>या</em> <strong>Mi sen hox.</strong><br /> (मैं) आपसे मिलकर खुश हूँ।
+	या मैं खुश हूँ।</p>
+<ul>
+	<li><strong>Yu ogar keloka?</strong><br /> आप कहां रहते हैं?</li>
+</ul>
+<p><strong>Mi ogar in...</strong><br /> मैं ... में रहता हूँ।</p>
+<ul>
+	<li><strong>Yu sen of keloka?</strong><br /> आप कहां के रहने वाले हैं?</li>
+</ul>
+<p><strong>Mi sen of...</strong><br /> मैं ... से हूँ।</p>
+<ul>
+	<li><strong>Yu sen kemo lao?</strong> <em>या</em> <strong>Yu sen fe ke nyan?</strong><br /> तुम्हारी उम्र क्या है?
+	</li>
+</ul>
+<p><strong>Mi sen lao fe... (nyan).</strong> <em>या</em> <strong>Mi sen fe... (nyan).</strong><br /> मैं ... साल का हूँ।
+</p>
+<ul>
+	<li><strong>Kam yu (pala) Globasa?</strong><br /> क्या आप ग्लोबासा बोलते हैं?</li>
+</ul>
+<p><strong>Si, xosu.</strong><br /> हाँ, थोड़ा।</p>
+<ul>
+	<li><strong>Yu pala ke basa?</strong><br /> आप कौन सी भाषा(एँ) बोलते हैं? </li>
+</ul>
+<p><strong>Mi pala...</strong><br /> मैं ... बोलता हूँ।</p>
+<ul>
+	<li><strong>Kam yu aham?</strong><br /> क्या आप समझ रहे हैं?</li>
+</ul>
+<p><strong>(Si,) mi aham.</strong><br /> (हाँ,) मैं समझता हूँ। </p>
+<p><strong>(No,) mi no aham.</strong><br /> (नहीं,) मैं नहीं समझता।</p>
+<ul>
+	<li><strong>Ren loga... kemaner (in Globasa)?</strong><br /> आप ... कैसे कहते हैं (ग्लोबासा में)?</li>
+</ul>
+<p><strong>In Globasa, ren loga...</strong><br /> (ग्लोबासा में), आप कहते हैं... </p>
+<h2 id="सामानय-कथन"><a class="header" href="#सामानय-कथन">सामान्य कथन</a></h2>
+<p><strong>Mi jixi.</strong><br /> मुझे पता है।</p>
+<p><strong>Mi no jixi.</strong><br /> मुझे नहीं पता।</p>
+<p><strong>Mi lubi yu.</strong><br /> मैं तुमसे प्यार करता/करती हूँ।</p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="lexiklase.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="lexiklase.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>

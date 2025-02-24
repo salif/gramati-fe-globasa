@@ -1,0 +1,306 @@
+<!DOCTYPE HTML>
+<html lang="vi" class="rust-clr sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Từ tố rút gọn - Ngữ pháp Globasa</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="Từ tố rút gọn - Bản dịch tiếng Việt không chính thức của ngữ pháp ngôn ngữ nhân tạo Globasa. Một phần của bản dịch được thực hiện với sự hỗ trợ của mô hình ngôn ngữ Gemini.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Ngữ pháp Globasa</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/vi-gemini/src/ofkatado-morfomon.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="từ-tố-rút-gọn"><a class="header" href="#từ-tố-rút-gọn">Từ tố rút gọn</a></h1>
+<p>
+</p>
+<p>Một đặc điểm đặc biệt của Globasa là việc sử dụng <em>từ tố rút gọn</em>. Từ tố rút gọn là các hư từ hoặc tiếp tố có
+	dạng ngắn hơn và thường có nghĩa hẹp hơn hoặc rộng hơn so với các từ gốc tương ứng của chúng. Từ tố rút gọn không
+	hẳn là từ phái sinh, và trên thực tế, tốt nhất nên coi chúng là những từ gốc hoàn toàn độc lập mà có hình thức tương
+	tự như một số từ chỉ nội dung nhất định để hỗ trợ quá trình học chúng. Do đó, từ tố rút gọn không nhất thiết phải
+	phát sinh thông qua một khuôn mẫu có hệ thống.</p>
+<p>Một đặc điểm tương tự được tìm thấy trong các ngôn ngữ tự nhiên. Ví dụ, trong các ngôn ngữ creole trên thế giới,
+	người ta thường thấy các hư từ phát sinh từ các từ chỉ nội dung từ ngôn ngữ gốc. Trên thực tế, đây là cách hầu hết
+	các ngôn ngữ tự nhiên đã phát triển và tạo ra các hư từ và các hình vị ngữ pháp. Để có một cuộc thảo luận hấp dẫn về
+	chủ đề này, hãy xem <a
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>The
+			Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention</em></a>, của Guy Deutscher.
+	(Tạm dịch: Sự Hé Mở Của Ngôn Ngữ: Một Hành Trình Tiến Hóa Về Phát Minh Vĩ Đại Nhất Của Loài Người)</p>
+<p>Các hư từ sau đây là <em>từ tố rút gọn</em>:</p>
+<ul>
+	<li><strong>cel</strong> (tới, cho, để) <em>từ</em> <strong>cele</strong> (mục tiêu, mục đích)</li>
+	<li><strong>dur</strong> (trong khi, suốt) <em>từ</em> <strong>dure</strong> (khoảng thời gian)</li>
+	<li><strong>fal</strong> (được thực hiện bởi) <em>từ</em> <strong>fale</strong> (làm)</li>
+	<li><strong>fol</strong> (theo, bên cạnh) <em>từ</em> <strong>folo</strong> (theo sau)</li>
+	<li><strong>ger</strong> (sẽ - điều kiện) <em>từ</em> <strong>eger</strong> (nếu)</li>
+	<li><strong>har</strong> (với, có) <em>từ</em> <strong>hare</strong> (có)</li>
+	<li><strong>kom</strong> (hơn) <em>từ</em> <strong>kompara</strong> (so sánh/so sánh)</li>
+	<li><strong>kos</strong> (do, bởi vì) <em>từ</em> <strong>kosa</strong> (nguyên nhân)</li>
+	<li><strong>kwas</strong> (như thể) <em>từ</em> <strong>kwasi</strong> (có vẻ)</li>
+	<li><strong>pas</strong> (xuyên qua) <em>từ</em> <strong>pasa</strong> (vượt qua)</li>
+	<li><strong>sol</strong> (chỉ) <em>từ</em> <strong>solo</strong> (một mình)</li>
+	<li><strong>tas</strong> (tới, cho, <em>gián tiếp cách</em>) <em>từ</em> <strong>taslum</strong> (nhận)</li>
+	<li><strong>tem</strong> (về, liên quan đến) <em>từ</em> <strong>tema</strong> (chủ đề)</li>
+	<li><strong>ton</strong> (cùng với) <em>từ</em> <strong>tongo</strong> (cùng nhau)</li>
+	<li><strong>wey</strong> (xung quanh) <em>từ</em> <strong>jowey</strong> (xung quanh)</li>
+	<li><strong>yon</strong> (với, bằng phương tiện, bằng cách) <em>từ</em> <strong>yongu</strong> (sử dụng)</li>
+</ul>
+<p>Các tiền tố sau đây là <em>từ tố rút gọn</em>:</p>
+<ul>
+	<li><strong>aw-</strong> (xa, rời) <em>từ</em> <strong>awsenti</strong> (vắng mặt)</li>
+	<li><strong>awto-</strong> (tự động, một cách tự động) <em>từ</em> <strong>awtomati</strong> (tự động)</li>
+	<li><strong>du-</strong> (<em>thể liên tục/thói quen</em>) <em>từ</em> <strong>dure</strong> (khoảng thời gian)</li>
+	<li><strong>fin-</strong> (kết thúc/hoàn thành) <em>từ</em> <strong>fini</strong> (kết thúc, hoàn thành)</li>
+	<li><strong>fron-</strong> (về phía trước) <em>từ</em> <strong>fronta</strong> (trán, phía trước)</li>
+	<li><strong>ja-</strong> (ngay lập tức liền kề) <em>từ</em> <strong>jara</strong> (hàng xóm)</li>
+	<li><strong>pre-</strong> (ở đây/ở đó) <em>từ</em> <strong>presenti</strong> (hiện diện)</li>
+	<li><strong>pos-</strong> (đối diện) <em>từ</em> <strong>opos</strong> (đối diện)</li>
+	<li><strong>ru-</strong> (ngược, về phía sau) <em>từ</em> <strong>ruke</strong> (lưng, phía sau)</li>
+	<li><strong>xor-</strong> (bắt đầu) <em>từ</em> <strong>xoru</strong> (bắt đầu)</li>
+</ul>
+<p>Các hậu tố sau đây là <em>từ tố rút gọn</em>:</p>
+<ul>
+	<li><strong>-cu</strong> (<em>nội động từ</em>) <em>từ</em> <strong>cudu</strong> (đạt được, có được, nhận được,
+		lấy) </li>
+	<li><strong>-gon</strong> (<em>hình hình học với số góc cụ thể</em>) <em>từ</em>
+		<strong>gono</strong> (góc)
+	</li>
+	<li><strong>-gi</strong> (<em>ngoại động từ</em>) <em>từ</em> <strong>gibe</strong> (cho)</li>
+	<li><strong>-je</strong> (độ, mức) <em>từ</em> <strong>daraje</strong> (độ, mức)</li>
+	<li><strong>-sa</strong> (ngôn ngữ; tiếng kêu động vật) <em>từ</em> <strong>basa</strong> (ngôn ngữ)</li>
+</ul>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="lexikostrui.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="kurtogixey.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="lexikostrui.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="kurtogixey.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>

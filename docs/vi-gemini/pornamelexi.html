@@ -1,0 +1,417 @@
+<!DOCTYPE HTML>
+<html lang="vi" class="rust-clr sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Đại từ - Ngữ pháp Globasa</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="Đại từ - Bản dịch tiếng Việt không chính thức của ngữ pháp ngôn ngữ nhân tạo Globasa. Một phần của bản dịch được thực hiện với sự hỗ trợ của mô hình ngôn ngữ Gemini.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Ngữ pháp Globasa</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/vi-gemini/src/pornamelexi.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="Đại-từ"><a class="header" href="#Đại-từ">Đại từ</a></h1>
+<p>
+</p>
+<h2 id="Đại-từ-chủ-ngữtân-ngữ"><a class="header" href="#Đại-từ-chủ-ngữtân-ngữ">Đại từ Chủ ngữ/Tân ngữ</a></h2>
+<p>Đại từ chủ ngữ/tân ngữ trong Globasa như sau:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>số ít</i></b></th>
+			<th><b><i>số nhiều</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ nhất</i></b></th>
+			<td><b>mi</b> - tôi</td>
+			<td><b>imi</b> - chúng tôi</td>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ hai</i></b></th>
+			<td><b>yu</b> - bạn</td>
+			<td><b>uyu</b> - các bạn</td>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ ba<br />(chỉ người/vật sống)</i></b></th>
+			<td><b>te</b> - anh ấy, chị ấy, nó (người, con vật)</td>
+			<td><b>ete</b> - họ, chúng nó</td>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ ba<br />(chỉ vật)</i></b></th>
+			<td><b>to</b> - nó (vật)</td>
+			<td><b>oto</b> - chúng nó</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>ren</b> - người ta, một người nào đó</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>se</b> - ‘đại từ phản thân’ (bản thân tôi, bản thân bạn, bản thân anh/cô ấy, bản thân
+				chúng ta, bản thân họ) </td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>da</b> - 'đại từ quan hệ' (anh ấy, cô ấy, nó, họ)</td>
+		</tr>
+	</tbody>
+</table>
+<p>Các đại từ trung tính về giới tính <strong>te</strong> và <strong>ete</strong> được sử dụng cho tất cả các dạng sống
+	và các vật được nhân cách hóa. Nếu cần nhấn mạnh giới tính, có thể sử dụng các tính từ <strong>fem</strong> (nữ) và
+	<strong>man</strong> (nam), cũng được dùng cho danh từ, làm tiền tố.</p>
+<ul>
+	<li><strong>femte</strong> - cô ấy</li>
+	<li><strong>mante</strong> - anh ấy</li>
+	<li><strong>femete</strong>/<strong>manete</strong> - họ (giống cái/giống đực)</li>
+</ul>
+<h3 id="he"><a class="header" href="#he">he</a></h3>
+<p>Tiểu từ <strong>he</strong> được sử dụng với đại từ chủ ngữ để diễn tả sự nhấn mạnh.</p>
+<p><strong>he mi</strong> - chính tôi<br />
+	<strong>he yu</strong> - chính bạn<br /> vân vân.
+</p>
+<h2 id="tính-từ-sở-hữu"><a class="header" href="#tính-từ-sở-hữu">Tính từ Sở hữu <span id="suyali_sifalexi"></span></a></h2>
+<p>Tính từ sở hữu được tạo ra từ các đại từ bằng cách thêm hậu tố <strong>-su</strong>:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>số ít</i></b></th>
+			<th><b><i>số nhiều</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ nhất</i></b></th>
+			<td><b>misu</b> - của tôi</td>
+			<td><b>imisu</b> - của chúng tôi</td>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ hai</i></b></th>
+			<td><b>yusu</b> - của bạn</td>
+			<td><b>uyusu</b> - của các bạn</td>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ ba<br />chỉ người/vật sống</i></b></th>
+			<td><b>tesu</b> - của anh ấy, của cô ấy, của nó</td>
+			<td><b>etesu</b> - của họ</td>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ ba<br />chỉ vật</i></b></th>
+			<td><b>tosu</b> - của nó</td>
+			<td><b>otosu</b> - của chúng nó</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>rensu</b> - của người ta</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>sesu</b> - của riêng tôi, của riêng bạn, của riêng anh/cô ấy, của riêng chúng ta, của
+				riêng họ </td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>dasu</b> - (mệnh đề quan hệ) của anh ấy, của cô ấy, của nó, của họ </td>
+		</tr>
+	</tbody>
+</table>
+<p>Giống như đại từ, các tính từ sở hữu trung tính về giới tính <strong>tesu</strong> và <strong>etesu</strong> thường
+	được dùng cho tất cả các thực thể sống ở ngôi thứ ba. Nếu cần nhấn mạnh giới tính, có thể dùng tiền tố
+	<strong>fem</strong> và <strong>man</strong>.</p>
+<ul>
+	<li><strong>femtesu</strong> - của cô ấy</li>
+	<li><strong>mantesu</strong> - của anh ấy</li>
+	<li><strong>femetesu</strong>/<strong>manetesu</strong> - của họ</li>
+</ul>
+<h2 id="Đại-từ-sở-hữu"><a class="header" href="#Đại-từ-sở-hữu">Đại từ Sở hữu</a></h2>
+<p>Đại từ sở hữu được tạo ra từ các tính từ sở hữu bằng cách thêm đại từ <strong>(e)te</strong> hoặc
+	<strong>(o)to</strong>:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>số ít</i></b></th>
+			<th><b><i>số nhiều</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ nhất</i></b></th>
+			<td><b>misu te/to</b> - cái của tôi</td>
+			<td><b>imisu te/to</b> - cái của chúng tôi</td>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ hai</i></b></th>
+			<td><b>yusu te/to</b> - cái của bạn</td>
+			<td><b>uyusu te/to</b> - cái của các bạn</td>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ ba<br />chỉ người/vật</i></b></th>
+			<td><b>tesu te/to</b> - cái của cô ấy, của anh ấy, của nó</td>
+			<td><b>etesu te/to</b> - cái của họ</td>
+		</tr>
+		<tr>
+			<th><b><i>ngôi thứ ba<br />chỉ vật</i></b></th>
+			<td><b>tosu te/to</b> - cái của nó</td>
+			<td><b>otosu te/to</b> - cái của chúng nó</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>rensu te/to</b> - của riêng người ta</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>sesu te/to</b> - của riêng tôi, của riêng bạn, của riêng cô ấy, của riêng anh ấy, của
+				riêng chúng ta, của riêng họ </td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="Đại-từ-ngôi-thứ-ba-ở-cuối-cụm-danh-từ"><a class="header" href="#Đại-từ-ngôi-thứ-ba-ở-cuối-cụm-danh-từ">Đại từ Ngôi thứ ba ở Cuối Cụm Danh từ</a></h3>
+<p>Như đã thấy ở phần Từ tương quan, đại từ ngôi thứ ba (<strong>te</strong>/<strong>to</strong> và
+	<strong>ete</strong>/<strong>oto</strong>) được sử dụng cho đại từ tương quan vì các từ hạn định
+	(<strong>ke</strong>, <strong>hin</strong>, <strong>den</strong>, vân vân.) phải luôn đi kèm với một danh từ (hoặc
+	đại từ). Xem <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Cụm Danh từ</a>.</p>
+<p>Tương tự, <strong>(e)te</strong>/<strong>(o)to</strong> được sử dụng ở cuối cụm danh từ khi danh từ đã được hiểu
+	ngầm. </p>
+<p><em>Một lý do cho quy tắc này, như được minh họa dưới đây, là vì danh từ và động từ có cùng dạng trong Globasa, việc
+		bỏ lại một từ hạn định hoặc một tính từ mà không có danh từ (hoặc đại từ) có thể bị nhầm là bổ nghĩa cho danh
+		từ/động từ ngay sau đó.</em></p>
+<p><strong>Multi <em>te</em> pala sol in Englisa.</strong><br /> Nhiều (<em>người</em>) chỉ nói tiếng Anh.</p>
+<p><em>Một lý do khác, như được minh họa dưới đây, là Globasa không sử dụng mạo từ. Vì vậy, trong khi tiếng Anh có thể
+		sử dụng tính từ như danh từ, Globasa không thể.</em></p>
+<p><strong>bon <em>te</em>, bur <em>te</em> ji colo <em>te</em></strong><br /> người tốt (<em>một người</em>), kẻ xấu
+	(<em>một kẻ</em>) và kẻ xấu xí (<em>một kẻ</em>)</p>
+<p>Cũng lưu ý rằng mặc dù <strong>te</strong> và <strong>to</strong> là đại từ số ít, chúng có thể được sử dụng tùy ý
+	với các từ biểu thị số nhiều, chẳng hạn như <strong>max</strong>, <strong>min</strong>, <strong>multi</strong>,
+	<strong>xosu</strong>. </p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="gramatilexi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="tabellexi.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="gramatilexi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="tabellexi.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,414 @@
+<!DOCTYPE HTML>
+<html lang="hi" class="rust-clr sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>सर्वनाम - ग्लोबासा व्याकरण</title>
+
+
+        <!-- Custom HTML head -->
+        <style>
+        	/* beautify ignore:start */
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: italic; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-Italic-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Alegreya'; font-style: normal; font-display: swap; font-weight: 400 900;
+        		src: url('../fonts/Alegreya-VariableFont_wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: italic; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	@font-face {
+        		font-family: 'Open Sans'; font-style: normal; font-display: swap; font-weight: 300 800; font-stretch: 100%;
+        		src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'); }
+        	html { font-family: "Alegreya", serif !important; }
+        	html.light-sans, html.rust-sans, html.mocha-sans { font-family: "Open Sans", sans-serif !important; }
+        	/* beautify ignore:end */
+        </style>
+
+        <meta name="description" content="सर्वनाम - निर्मित भाषा ग्लोबासा (Globasa) के व्याकरण का अनौपचारिक हिंदी अनुवाद। अनुवाद के कुछ भाग जेमिनी भाषा मॉडल की सहायता से किए गए हैं।">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">ग्लोबासा व्याकरण</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/hi-gemini/src/pornamelexi.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="सरवनाम"><a class="header" href="#सरवनाम">सर्वनाम</a></h1>
+<p>
+</p>
+<h2 id="करताकरम-सरवनाम"><a class="header" href="#करताकरम-सरवनाम">कर्ता/कर्म सर्वनाम</a></h2>
+<p>ग्लोबासा के कर्ता/कर्म सर्वनाम इस प्रकार हैं:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>एकवचन</i></b></th>
+			<th><b><i>बहुवचन</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>प्रथम पुरुष</i></b></th>
+			<td><b>mi</b> - मैं, मुझे</td>
+			<td><b>imi</b> - हम, हमें</td>
+		</tr>
+		<tr>
+			<th><b><i>द्वितीय पुरुष</i></b></th>
+			<td><b>yu</b> - तुम, तुम्हें / आप, आपको</td>
+			<td><b>uyu</b> - तुम, तुम्हें / आप, आपको</td>
+		</tr>
+		<tr>
+			<th><b><i>तृतीय पुरुष<br />(सजीव)</i></b></th>
+			<td><b>te</b> - वह (पुल्लिंग), उसे, वह (स्त्रीलिंग), उसे, यह</td>
+			<td><b>ete</b> - वे, उन्हें</td>
+		</tr>
+		<tr>
+			<th><b><i>तृतीय पुरुष<br />(निर्जीव)</i></b></th>
+			<td><b>to</b> - यह</td>
+			<td><b>oto</b> - वे, उन्हें</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>ren</b> - कोई (one)</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>se</b> - 'निजवाचक सर्वनाम' (स्वयं, खुद, अपने आप) </td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>da</b> - 'संबंधवाचक सर्वनाम' (वह, वे)</td>
+		</tr>
+	</tbody>
+</table>
+<p>लिंग-तटस्थ <strong>te</strong> और <strong>ete</strong> का उपयोग सभी जीवित रूपों और मानवीकृत वस्तुओं के लिए किया जाता
+	है। यदि लिंग पर जोर देना आवश्यक हो, तो विशेषण <strong>fem</strong> और <strong>man</strong>, जो संज्ञाओं के लिए भी
+	उपयोग किए जाते हैं, उपसर्ग के रूप में उपयोग किए जा सकते हैं।</p>
+<ul>
+	<li><strong>femte</strong> - वह (स्त्रीलिंग)</li>
+	<li><strong>mante</strong> - वह (पुल्लिंग)</li>
+	<li><strong>femete</strong>/<strong>manete</strong> - वे (स्त्रीलिंग/पुल्लिंग)</li>
+</ul>
+<h3 id="he"><a class="header" href="#he">he</a></h3>
+<p>कर्ता सर्वनामों के साथ <strong>he</strong> शब्दांश का उपयोग जोर देने के लिए किया जाता है।</p>
+<p><strong>he mi</strong> - मैं खुद<br />
+	<strong>he yu</strong> - तुम खुद / आप खुद<br /> आदि।
+</p>
+<h2 id="संबंध-कारक-विशेषण"><a class="header" href="#संबंध-कारक-विशेषण">संबंध-कारक विशेषण <span id="suyali_sifalexi"></span></a></h2>
+<p>संबंध-कारक विशेषण सर्वनामों से <strong>-su</strong> प्रत्यय जोड़कर बनाए जाते हैं:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>एकवचन</i></b></th>
+			<th><b><i>बहुवचन</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>प्रथम पुरुष</i></b></th>
+			<td><b>misu</b> - मेरा</td>
+			<td><b>imisu</b> - हमारा</td>
+		</tr>
+		<tr>
+			<th><b><i>द्वितीय पुरुष</i></b></th>
+			<td><b>yusu</b> - तुम्हारा / आपका</td>
+			<td><b>uyusu</b> - तुम्हारा / आपका</td>
+		</tr>
+		<tr>
+			<th><b><i>तृतीय पुरुष<br />सजीव</i></b></th>
+			<td><b>tesu</b> - उसका (स्त्रीलिंग), उसका (पुल्लिंग), इसका</td>
+			<td><b>etesu</b> - उनका</td>
+		</tr>
+		<tr>
+			<th><b><i>तृतीय पुरुष<br />निर्जीव</i></b></th>
+			<td><b>tosu</b> - इसका</td>
+			<td><b>otosu</b> - उनका</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>rensu</b> - किसी का (one's)</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>sesu</b> - मेरा अपना, तुम्हारा अपना, उसका अपना, हमारा अपना, उनका अपना </td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>dasu</b> - (संबंधवाचक उपवाक्यों में) उसका, उनका </td>
+		</tr>
+	</tbody>
+</table>
+<p>सर्वनामों की तरह, लिंग-तटस्थ संबंध-कारक विशेषण <strong>tesu</strong> और <strong>etesu</strong> आमतौर पर सभी
+	तृतीय-पुरुष सजीव प्राणियों के लिए उपयोग किए जाते हैं। यदि लिंग पर जोर देना आवश्यक हो, तो उपसर्ग <strong>fem</strong>
+	और <strong>man</strong> का उपयोग किया जा सकता है।</p>
+<ul>
+	<li><strong>femtesu</strong> - उसका (स्त्रीलिंग)</li>
+	<li><strong>mantesu</strong> - उसका (पुल्लिंग)</li>
+	<li><strong>femetesu</strong>/<strong>manetesu</strong> - उनका (स्त्रीलिंग/पुल्लिंग)</li>
+</ul>
+<h2 id="संबंध-कारक-सरवनाम"><a class="header" href="#संबंध-कारक-सरवनाम">संबंध-कारक सर्वनाम</a></h2>
+<p>संबंध-कारक सर्वनाम, संबंध-कारक विशेषणों में सर्वनाम <strong>(e)te</strong> या <strong>(o)to</strong> जोड़कर बनाए जाते
+	हैं:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>एकवचन</i></b></th>
+			<th><b><i>बहुवचन</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>प्रथम पुरुष</i></b></th>
+			<td><b>misu te/to</b> - मेरा</td>
+			<td><b>imisu te/to</b> - हमारा</td>
+		</tr>
+		<tr>
+			<th><b><i>द्वितीय पुरुष</i></b></th>
+			<td><b>yusu te/to</b> - तुम्हारा /आपका</td>
+			<td><b>uyusu te/to</b> - तुम्हारा / आपका</td>
+		</tr>
+		<tr>
+			<th><b><i>तृतीय पुरुष<br />सजीव</i></b></th>
+			<td><b>tesu te/to</b> - उसका (स्त्रीलिंग), उसका (पुल्लिंग), इसका</td>
+			<td><b>etesu te/to</b> - उनका</td>
+		</tr>
+		<tr>
+			<th><b><i>तृतीय पुरुष<br />निर्जीव</i></b></th>
+			<td><b>tosu te/to</b> - इसका</td>
+			<td><b>otosu te/to</b> - उनका</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>rensu te/to</b> - किसी का अपना (one's own)</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>sesu te/to</b> - मेरा अपना, तुम्हारा अपना, उसका अपना, हमारा अपना, उनका अपना </td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="संजञा-वाकयांशों-के-अंत-में-तृतीय-पुरुष-सरवनाम"><a class="header" href="#संजञा-वाकयांशों-के-अंत-में-तृतीय-पुरुष-सरवनाम">संज्ञा वाक्यांशों के अंत में तृतीय-पुरुष सर्वनाम</a></h3>
+<p>सहसंबंधों (Correlatives) के अंतर्गत देखे गए अनुसार, तृतीय-पुरुष सर्वनाम (<strong>te</strong>/<strong>to</strong> और
+	<strong>ete</strong>/<strong>oto</strong>) सहसंबंधी सर्वनामों के लिए उपयोग किए जाते हैं क्योंकि निर्धारक
+	(<strong>ke</strong>, <strong>hin</strong>, <strong>den</strong>, आदि) के बाद हमेशा एक (सर्व)नाम आना चाहिए। देखें <a
+		href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">संज्ञा वाक्यांश</a>।</p>
+<p>इसी तरह, <strong>(e)te</strong>/<strong>(o)to</strong> का उपयोग संज्ञा वाक्यांशों के अंत में किया जाता है जब संज्ञा
+	समझ में आती है।</p>
+<p><em>इस नियम का एक कारण, जैसा कि नीचे दिखाया गया है, यह है कि चूंकि ग्लोबासा में संज्ञा और क्रिया का रूप समान होता है,
+		इसलिए निर्धारक या विशेषण को बिना (सर्व)नाम के छोड़ने पर, उसके तुरंत बाद आने वाली संज्ञा/क्रिया के विशेषण समझने
+		की ग़लती हो सकती है।</em></p>
+<p><strong>Multi <em>te</em> pala sol in Englisa.</strong><br /> कई (<em>लोग</em>) केवल अंग्रेजी में बोलते हैं।</p>
+<p><em>एक और कारण, जैसा कि नीचे दिखाया गया है, यह है कि ग्लोबासा आर्टिकल्स (articles) का उपयोग नहीं करता है। इसलिए जहां
+		अंग्रेजी विशेषणों को संज्ञा के रूप में उपयोग करने में सक्षम है, वहीं ग्लोबासा नहीं।</em></p>
+<p><strong>bon <em>te</em>, bur <em>te</em> ji colo <em>te</em></strong><br /> अच्छा (<em>व्यक्ति</em>), बुरा
+	(<em>व्यक्ति</em>) और बदसूरत (<em>व्यक्ति</em>)</p>
+<p>यह भी ध्यान दें कि हालांकि <strong>te</strong> और <strong>to</strong> एकवचन सर्वनाम हैं, उन्हें वैकल्पिक रूप से
+	बहुलता को दर्शाने वाले शब्दों, जैसे <strong>max</strong>, <strong>min</strong>, <strong>multi</strong>,
+	<strong>xosu</strong> के साथ प्रयोग किया जा सकता है। </p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="gramatilexi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="tabellexi.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="gramatilexi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="tabellexi.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+    </div>
+    </body>
+</html>

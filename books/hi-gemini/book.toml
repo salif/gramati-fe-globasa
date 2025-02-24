@@ -1,0 +1,20 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "hi"
+multilingual = false
+src = "src"
+title = "ग्लोबासा व्याकरण"
+description = "निर्मित भाषा ग्लोबासा (Globasa) के व्याकरण का अनौपचारिक हिंदी अनुवाद। अनुवाद के कुछ भाग जेमिनी भाषा मॉडल की सहायता से किए गए हैं।"
+
+[output.html]
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/hi-gemini/{path}"
+site-url = "/gramati-fe-globasa/hi-gemini/"
+
+[output.epub]
+use-default-css = true
+no-section-label = false
+curly-quotes = false

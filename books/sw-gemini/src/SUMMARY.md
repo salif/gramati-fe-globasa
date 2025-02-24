@@ -1,0 +1,18 @@
+# Yaliyomo
+
+- [Utangulizi](./gramati.md)
+- [Yaliyomo](./SUMMARY.md)
+- [Alfabeti na Matamshi](./abece-ji-lafuzu.md)
+- [Maneno ya Msingi: Nomino, Vitenzi, Vivumishi na Vielezi](./inharelexi.md)
+- [Vihusishi: Viunganishi, Vihusishi na Vielezi Vitendaji](./gramatilexi.md)
+- [Viwakilishi](./pornamelexi.md)
+- [Viwakilishi Vishirikishi](./tabellexi.md)
+- [Nambari na Miezi ya Mwaka](./numer-ji-mesi.md)
+- [Aina za Vitenzi](./falelexili-morfo.md)
+- [Mpangilio wa Maneno: Muundo wa Kirai](./jumlemonli-estrutur.md)
+- [Mpangilio wa Maneno: Muundo wa Sentensi](./jumleli-estrutur.md)
+- [Uundaji wa Maneno](./lexikostrui.md)
+- [Mofimu Zilizofupishwa](./ofkatado-morfomon.md)
+- [Vifupisho](./kurtogixey.md)
+- [Aina za Maneno](./lexiklase.md)
+- [Maneno na Misemo ya Kawaida](./pimpan-logaxey.md)
