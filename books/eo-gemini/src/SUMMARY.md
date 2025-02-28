@@ -10,7 +10,7 @@
 - [Nombroj kaj Monatoj de la Jaro](./numer-ji-mesi.md)
 - [Verbformoj](./falelexili-morfo.md)
 - [Vortordo: Frazstrukturo](./jumlemonli-estrutur.md)
-- [Vortordo: Frazstrukturo](./jumleli-estrutur.md)
+- [Vortordo: Fraza Strukturo](./jumleli-estrutur.md)
 - [Vortfarado](./lexikostrui.md)
 - [Mallongigitaj Morfemoj](./ofkatado-morfomon.md)
 - [Mallongigoj](./kurtogixey.md)

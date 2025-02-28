@@ -1,7 +1,7 @@
 <h1>数字和月份</h1>
 <p>
 </p>
-<h2>基数</h2>
+<h2>基数词</h2>
 <p>0 - <strong>nil</strong><br /> 1 - <strong>un</strong><br /> 2 - <strong>dua</strong><br /> 3 -
 	<strong>tiga</strong><br /> 4 - <strong>care</strong><br /> 5 - <strong>lima</strong><br /> 6 -
 	<strong>sisa</strong><br /> 7 - <strong>sabe</strong><br /> 8 - <strong>oco</strong><br /> 9 -
@@ -24,33 +24,33 @@
 <p>更大的数字可以通过组合 <strong>kilo</strong>、<strong>mega</strong>、<strong>giga</strong> 和 <strong>tera</strong> 来表示。</p>
 <p>1 x 10^15 - <strong>kilo tera</strong><br /> 1 x 10^18 - <strong>mega tera</strong><br /> 1 x 10^21 - <strong>giga
 		tera</strong><br /> 1 x 10^24 - <strong>tera tera</strong> </p>
-<h2>序数</h2>
-<p>第一 (1st) - <strong>unyum</strong> (1yum)<br /> 第二 (2nd) - <strong>duayum</strong> (2yum)<br /> 第三 (3rd) -
-	<strong>tigayum</strong> (3yum)<br /> 第四 (4th) - <strong>careyum</strong> (4yum)<br /> 第五 (5th) -
-	<strong>limayum</strong> (5yum)<br /> 第六 (6th) - <strong>sisayum</strong> (6yum)<br /> 第七 (7th) -
-	<strong>sabeyum</strong> (7yum)<br /> 第八 (8th) - <strong>ocoyum</strong> (8yum)<br /> 第九 (9th) -
-	<strong>nueyum</strong> (9yum)<br /> 第十 (10th) - <strong>desyum</strong> (10yum)<br /> 第十一 (11th) -
-	<strong>desunyum</strong> (11yum)，以此类推。</p>
+<h2>序数词</h2>
+<p>第一 (第1) - <strong>unyum</strong> (1yum)<br /> 第二 (第2) - <strong>duayum</strong> (2yum)<br /> 第三 (第3) -
+	<strong>tigayum</strong> (3yum)<br /> 第四 (第4) - <strong>careyum</strong> (4yum)<br /> 第五 (第5) -
+	<strong>limayum</strong> (5yum)<br /> 第六 (第6) - <strong>sisayum</strong> (6yum)<br /> 第七 (第7) -
+	<strong>sabeyum</strong> (7yum)<br /> 第八 (第8) - <strong>ocoyum</strong> (8yum)<br /> 第九 (第9) -
+	<strong>nueyum</strong> (9yum)<br /> 第十 (第10) - <strong>desyum</strong> (10yum)<br /> 第十一 (第11) -
+	<strong>desunyum</strong> (11yum), 等等。</p>
 <h2>集合数词</h2>
-<p><strong>unyen, unxey</strong> - 单个<br />
-	<strong>duayen, duaxey</strong> - 两个、一对<br />
-	<strong>tigayen, tigaxey</strong> - 三个，以此类推。
+<p><strong>unyen, unxey</strong> - 单个，单独<br />
+	<strong>duayen, duaxey</strong> - 二人组，一对，一双<br />
+	<strong>tigayen, tigaxey</strong> - 三人组，等等。
 </p>
 <h2>分数</h2>
-<p>派生分数是名词，由两个词组成，分子后面跟着分母，分母前缀为 <strong>of-</strong>。</p>
+<p>派生分数是名词，由两个词组成，分子在前，分母在后，分母前缀 <strong>of-</strong>。</p>
 <p>1/2 (二分之一) - <strong>un ofdua</strong><br /> 1/3 (三分之一) - <strong>un oftiga</strong><br /> 1/4 (四分之一) - <strong>un
 		ofcare</strong><br /> 1/5 (五分之一) - <strong>un oflima</strong><br /> 1/6 (六分之一) - <strong>un
 		ofsisa</strong><br /> 1/7 (七分之一) - <strong>un ofsabe</strong><br /> 1/8 (八分之一) - <strong>un ofoco</strong><br />
 	1/9 (九分之一) - <strong>un ofnue</strong><br /> 1/10 (十分之一) - <strong>un ofdes</strong><br /> 1/11 (十一分之一) - <strong>un
-		ofdesun</strong>，以此类推。</p>
-<p>格洛巴萨语也使用以下公制分数。</p>
+		ofdesun</strong>, 等等。</p>
+<p>格洛巴萨也使用以下分数形式的度量单位数字。 </p>
 <p>1 X 10^-1 (十分之一): <strong>deci</strong> (<strong>un ofdes fe</strong>)<br /> 1 X 10^-2 (百分之一): <strong>centi</strong>
 	(<strong>un ofcen fe</strong>)<br /> 1 X 10^-3 (千分之一): <strong>mili</strong> (<strong>un ofkilo fe</strong>)<br /> 1
 	X 10^-6 (百万分之一): <strong>mikro</strong> (<strong>un ofmega fe</strong>)<br /> 1 X 10^-9 (十亿分之一):
 	<strong>nano</strong> (<strong>un ofgiga fe</strong>)<br /> 1 X 10^-12 (万亿分之一): <strong>piko</strong> (<strong>un
 		oftera fe</strong>)</p>
-<h2>公制单位</h2>
-<p>公制单位的词使用整数和分数数字作为前缀。</p>
+<h2>度量单位</h2>
+<p>度量单位词使用整数和分数数字作为前缀。</p>
 <p><strong>metro</strong> - 米<br />
 	<strong>desmetro</strong> - 十米<br />
 	<strong>cenmetro</strong> - 百米<br />
@@ -73,7 +73,7 @@
 	<strong>tigaple</strong> - 三倍<br />
 	<strong>careple</strong> - 四倍<br />
 	<strong>limaple</strong> - 五倍<br />
-	<strong>sisaple</strong> - 六倍，以此类推。
+	<strong>sisaple</strong> - 六倍，等等。
 </p>
 <h2>月份</h2>
 <p><strong>mesi 1 (mesi un)</strong> - 一月<br />

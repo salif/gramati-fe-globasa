@@ -16,151 +16,151 @@
 			<td><strong>a</strong></td>
 			<td><strong>A</strong></td>
 			<td>/ä/</td>
-			<td>आया</td>
+			<td>aya</td>
 		</tr>
 		<tr>
 			<td><strong>b</strong></td>
 			<td><strong>B</strong></td>
 			<td>/b/</td>
-			<td>इबे</td>
+			<td>ibe</td>
 		</tr>
 		<tr>
 			<td><strong>c</strong></td>
 			<td><strong>C</strong></td>
 			<td>/t͡ʃʰ/</td>
-			<td>इसे</td>
+			<td>ice</td>
 		</tr>
 		<tr>
 			<td><strong>d</strong></td>
 			<td><strong>D</strong></td>
 			<td>/d/</td>
-			<td>इदे</td>
+			<td>ide</td>
 		</tr>
 		<tr>
 			<td><strong>e</strong></td>
 			<td><strong>E</strong></td>
 			<td>/e̞/</td>
-			<td>एया</td>
+			<td>eya</td>
 		</tr>
 		<tr>
 			<td><strong>f</strong></td>
 			<td><strong>F</strong></td>
 			<td>/f/</td>
-			<td>इफे</td>
+			<td>ife</td>
 		</tr>
 		<tr>
 			<td><strong>g</strong></td>
 			<td><strong>G</strong></td>
 			<td>/g/</td>
-			<td>इगे</td>
+			<td>ige</td>
 		</tr>
 		<tr>
 			<td><strong>h</strong></td>
 			<td><strong>H</strong></td>
 			<td>/x/</td>
-			<td>इहे</td>
+			<td>ihe</td>
 		</tr>
 		<tr>
 			<td><strong>i</strong></td>
 			<td><strong>I</strong></td>
 			<td>/i/</td>
-			<td>इया</td>
+			<td>iya</td>
 		</tr>
 		<tr>
 			<td><strong>j</strong></td>
 			<td><strong>J</strong></td>
 			<td>/d͡ʒ/</td>
-			<td>इजे</td>
+			<td>ije</td>
 		</tr>
 		<tr>
 			<td><strong>k</strong></td>
 			<td><strong>K</strong></td>
 			<td>/kʰ/</td>
-			<td>इके</td>
+			<td>ike</td>
 		</tr>
 		<tr>
 			<td><strong>l</strong></td>
 			<td><strong>L</strong></td>
 			<td>/l/</td>
-			<td>इले</td>
+			<td>ile</td>
 		</tr>
 		<tr>
 			<td><strong>m</strong></td>
 			<td><strong>M</strong></td>
 			<td>/m/</td>
-			<td>इमे</td>
+			<td>ime</td>
 		</tr>
 		<tr>
 			<td><strong>n</strong></td>
 			<td><strong>N</strong></td>
 			<td>/n/</td>
-			<td>इने</td>
+			<td>ine</td>
 		</tr>
 		<tr>
 			<td><strong>o</strong></td>
 			<td><strong>O</strong></td>
 			<td>/o̞/</td>
-			<td>ओया</td>
+			<td>oya</td>
 		</tr>
 		<tr>
 			<td><strong>p</strong></td>
 			<td><strong>P</strong></td>
 			<td>/pʰ/</td>
-			<td>इपे</td>
+			<td>ipe</td>
 		</tr>
 		<tr>
 			<td><strong>r</strong></td>
 			<td><strong>R</strong></td>
 			<td>/ɾ/</td>
-			<td>इरे</td>
+			<td>ire</td>
 		</tr>
 		<tr>
 			<td><strong>s</strong></td>
 			<td><strong>S</strong></td>
 			<td>/s/</td>
-			<td>इसे</td>
+			<td>ise</td>
 		</tr>
 		<tr>
 			<td><strong>t</strong></td>
 			<td><strong>T</strong></td>
 			<td>/tʰ/</td>
-			<td>इते</td>
+			<td>ite</td>
 		</tr>
 		<tr>
 			<td><strong>u</strong></td>
 			<td><strong>U</strong></td>
 			<td>/u/</td>
-			<td>उया</td>
+			<td>uya</td>
 		</tr>
 		<tr>
 			<td><strong>v</strong></td>
 			<td><strong>V</strong></td>
 			<td>/v/</td>
-			<td>इवे</td>
+			<td>ive</td>
 		</tr>
 		<tr>
 			<td><strong>w</strong></td>
 			<td><strong>W</strong></td>
 			<td>/w/</td>
-			<td>इवे</td>
+			<td>iwe</td>
 		</tr>
 		<tr>
 			<td><strong>x</strong></td>
 			<td><strong>X</strong></td>
 			<td>/ʃ/</td>
-			<td>इक्से</td>
+			<td>ixe</td>
 		</tr>
 		<tr>
 			<td><strong>y</strong></td>
 			<td><strong>Y</strong></td>
 			<td>/j/</td>
-			<td>इये</td>
+			<td>iye</td>
 		</tr>
 		<tr>
 			<td><strong>z</strong></td>
 			<td><strong>Z</strong></td>
 			<td>/z/</td>
-			<td>इज़े</td>
+			<td>ize</td>
 		</tr>
 	</tbody>
 </table>
