@@ -401,7 +401,7 @@
 	<thead>
 		<tr>
 			<th>Negation</th>
-			<th> </th>
+			<th> </th>
 		</tr>
 	</thead>
 	<tbody>

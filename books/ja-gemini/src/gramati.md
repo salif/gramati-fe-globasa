@@ -1,13 +1,19 @@
 # グロバサ文法
 
-この本は、[グロバサの完全な文法](https://salif.github.io/gramati-fe-globasa/eng/)の日本語訳です。
-[EPUB形式](Gramati_fe_Globasa_Mesi_12_2024_ja_gemini.epub)でダウンロードするか、
-[オンライン](https://salif.github.io/gramati-fe-globasa/ja-gemini/)で読むことができます。
+本書は、[グロバサ文法完全版][cgg-link]の日本語訳です。
+[EPUB形式][epub-link]でダウンロードするか、[オンライン][web-link]で読むことができます。
 
-原著の作者は[グロバサチーム](https://globasa.net/)です。
-日本語訳は、Google Geminiの助けを借りて、[Salif Mehmed](https://salif.eu)によって行われました。
-[他の言語](https://salif.github.io/gramati-fe-globasa/)の翻訳も利用できます。
+[オリジナルコンテンツ][oc-link]の著者は、[グロバサチーム][gb-link]です。
+翻訳は、[Salif Mehmed][sm-link]がGoogle Gemini言語モデルを使用して行いました。
 
-翻訳を改善したい場合は、ページの右上隅にあるボタンを使用して変更を提案できます。
+[他の言語][all-link]の翻訳も利用可能です。
 
-[^1]: 法律で認められている範囲で、この本の著者は、その内容に対するすべての著作権および関連する権利または隣接する権利を放棄します。
+[^1]: 法の下で可能な限り、著者はこのサイトのコンテンツに対するすべての著作権および関連する権利、または隣接する権利を放棄しました。
+
+[cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
+[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Niponsa_Gemini.epub
+[web-link]:https://salif.github.io/gramati-fe-globasa/ja-gemini/
+[oc-link]:https://xwexi.globasa.net/eng/gramati
+[gb-link]:https://globasa.net/
+[sm-link]:https://salif.eu/
+[all-link]:https://salif.github.io/gramati-fe-globasa/

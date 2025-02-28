@@ -360,7 +360,7 @@
 	<thead>
 		<tr>
 			<th>否定</th>
-			<th> </th>
+			<th> </th>
 		</tr>
 	</thead>
 	<tbody>

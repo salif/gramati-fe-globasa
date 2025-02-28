@@ -240,11 +240,11 @@
 <p><strong><em>Pia</em> misu gami glu kafe fe soba.</strong><br /> Mia edzino, <em>ankaŭ</em>, trinkas kafon matene.</p>
 <h2>Kompleksaj Adjektivaj Frazoj</h2>
 <p>Kompleksaj adjektivaj frazoj venas post la substantivoj, kiujn ili modifas.</p>
-<p><strong>Adjektivo/Adverbo plus Prepozicia Frazo</strong></p>
+<p><strong>Adjektivo/Adverbo plus Prepozicia Frazo</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> la libro skribita de mia amiko</p>
-<p><strong>alimyen hox kos yusu sukses</strong><br /> la instruisto feliĉa pro via sukceso</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> la instruisto feliĉa pro via sukceso</p>
 <p><strong>Komparativaj Adjektivo/Adverbo-Frazoj</strong></p>
-<p><strong>nini maxmo lao kom misu sodar</strong><br /> la infano pli aĝa ol mia frato</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> la infano pli aĝa ol mia frato</p>
 <h2>Relativaj Propozicioj <span id="relativo_baxjumle"></span></h2>
 <p>En Globasa, relativaj propozicioj estas enkondukitaj per la <em>modifanta propozicia markilo</em> <strong>hu</strong>
 	kaj retenas tipan vortordon. Indas noti ke la konjunkcio <strong>hu</strong> ne havas ekzaktan ekvivalenton en

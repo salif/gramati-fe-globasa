@@ -230,9 +230,9 @@
 <p>複合形容詞句は、修飾する名詞の後に置かれます。</p>
 <p><strong>形容詞・副詞＋前置詞句</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> 私の友達によって書かれた本</p>
-<p><strong>alimyen hox kos yusu sukses</strong><br /> あなたの成功を喜ぶ先生</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> あなたの成功を喜ぶ先生</p>
 <p><strong>比較形容詞・副詞句</strong></p>
-<p><strong>nini maxmo lao kom misu sodar</strong><br /> 私の兄弟よりも年上の子供</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> 私の兄弟よりも年上の子供</p>
 <h2>関係節 <span id="relativo_baxjumle"></span></h2>
 <p>グロバサでは、関係節は<em>修飾節マーカー</em> <strong>hu</strong> で導入され、典型的な語順を保持します。接続詞 <strong>hu</strong> は英語には正確な対応語がありませんが、通常は
 	<em>who</em>、<em>which</em>、または <em>that</em> と翻訳されることに注意してください。</p>

@@ -390,7 +390,7 @@
 	<thead>
 		<tr>
 			<th>Phủ Định</th>
-			<th> </th>
+			<th> </th>
 		</tr>
 	</thead>
 	<tbody>

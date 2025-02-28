@@ -391,7 +391,7 @@
 	<thead>
 		<tr>
 			<th>Nego</th>
-			<th> </th>
+			<th> </th>
 		</tr>
 	</thead>
 	<tbody>

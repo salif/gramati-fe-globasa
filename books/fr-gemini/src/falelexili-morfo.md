@@ -399,7 +399,7 @@
 	<thead>
 		<tr>
 			<th>Négation</th>
-			<th> </th>
+			<th> </th>
 		</tr>
 	</thead>
 	<tbody>

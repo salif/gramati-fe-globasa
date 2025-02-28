@@ -387,7 +387,7 @@
 	<thead>
 		<tr>
 			<th>Olumsuzluk</th>
-			<th> </th>
+			<th> </th>
 		</tr>
 	</thead>
 	<tbody>

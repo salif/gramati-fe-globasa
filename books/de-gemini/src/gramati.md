@@ -1,13 +1,19 @@
-# Globasa Grammatik
+# Globasa-Grammatik
 
-Dieses Buch enthält eine deutsche Übersetzung der [vollständigen Grammatik von Globasa](https://salif.github.io/gramati-fe-globasa/eng/).
-Sie können es im [EPUB-Format herunterladen](Gramati_fe_Globasa_Mesi_1_Nyan_2025_de_gemini.epub)
-oder es [online lesen](https://salif.github.io/gramati-fe-globasa/de-gemini/)
+Dieses Buch enthält die deutsche Übersetzung der [vollständigen Globasa-Grammatik][cgg-link].
+Sie können es im [EPUB-Format][epub-link] herunterladen oder [online][web-link] lesen.
 
-Die ursprünglichen Inhalte wurden vom [Globasa-Team](https://globasa.net/) erstellt.
-Die deutsche Übersetzung wurde von [Salif Mehmed](https://salif.eu) mit Hilfe von Google Gemini angefertigt.
-Übersetzungen in [andere Sprachen](https://salif.github.io/gramati-fe-globasa/) sind ebenfalls verfügbar.
+Der Autor [des Originalinhalts][oc-link] ist [das Globasa-Team][gb-link].
+Die Übersetzung wurde von [Salif Mehmed][sm-link] unter Verwendung des Sprachmodells Google Gemini angefertigt.
 
-Wenn Sie die Übersetzung verbessern möchten, können Sie über die Schaltfläche oben rechts auf der Seite eine Änderung vorschlagen.
+Übersetzungen sind auch [in anderen Sprachen][all-link] verfügbar.
 
-[^1]: Soweit gesetzlich zulässig, haben die Autoren auf alle Urheberrechte und verwandten Schutzrechte an diesem Seiteninhalt verzichtet.
+[^1]: Soweit dies nach geltendem Recht zulässig ist, haben die Autoren auf alle Urheberrechte und verwandten Schutzrechte an diesem Seiteninhalt verzichtet.
+
+[cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
+[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Doycisa_Gemini.epub
+[web-link]:https://salif.github.io/gramati-fe-globasa/de-gemini/
+[oc-link]:https://xwexi.globasa.net/eng/gramati
+[gb-link]:https://globasa.net/
+[sm-link]:https://salif.eu/
+[all-link]:https://salif.github.io/gramati-fe-globasa/

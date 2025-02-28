@@ -1,19 +1,19 @@
 # ग्लोबासा व्याकरण
 
-यह पुस्तक [पूर्ण ग्लोबासा व्याकरण][cgg] का एक हिंदी अनुवाद प्रस्तुत करती है।
-आप इसे [EPUB फॉर्मेट][epub] में डाउनलोड कर सकते हैं या [ऑनलाइन][online] पढ़ सकते हैं।
+यह पुस्तक [कंप्लीट ग्लोबासा ग्रामर][cgg-link] का हिंदी अनुवाद प्रस्तुत करती है।
+आप इसे [EPUB फॉर्मेट][epub-link] में डाउनलोड कर सकते हैं या [ऑनलाइन][web-link] पढ़ सकते हैं।
 
-मूल सामग्री के लेखक [ग्लोबासा टीम][gb] हैं।
-यह हिंदी अनुवाद गूगल जेमिनी का उपयोग करके [सैलिफ़ मेहमेद][sm] द्वारा किया गया था।
-अनुवाद [अन्य भाषाओं][all] में भी उपलब्ध हैं।
+[मूल सामग्री][oc-link] के लेखक [ग्लोबासा टीम][gb-link] हैं।
+यह अनुवाद [सलिफ़ मेहमेद][sm-link] द्वारा गूगल जेमिनी भाषा मॉडल का उपयोग करके किया गया है।
 
-यदि आप अनुवाद को बेहतर बनाना चाहते हैं, तो आप पृष्ठ के ऊपरी दाएं कोने में स्थित बटन का उपयोग करके एक संपादन का सुझाव दे सकते हैं।
+अनुवाद [अन्य भाषाओं में भी][all-link] उपलब्ध हैं।
 
-[^1]: कानून के तहत यथासंभव, लेखकों ने इस साइट की सामग्री के सभी कॉपीराइट और संबंधित या पड़ोसी अधिकारों को माफ कर दिया है।
+[^1]:  कानून द्वारा अनुमत अधिकतम सीमा तक, लेखकों ने इस साइट की सामग्री के सभी कॉपीराइट और संबंधित या पड़ोसी अधिकारों का त्याग कर दिया है।
 
-[cgg]:https://salif.github.io/gramati-fe-globasa/eng/
-[epub]:Gramati_fe_Globasa_Mesi_1_Nyan_2025_hi_gemini.epub
-[online]:https://salif.github.io/gramati-fe-globasa/hi-gemini/
-[gb]:https://globasa.net/
-[sm]:https://salif.eu/
-[all]:https://salif.github.io/gramati-fe-globasa/
+[cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
+[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Hindi_Gemini.epub
+[web-link]:https://salif.github.io/gramati-fe-globasa/hi-gemini/
+[oc-link]:https://xwexi.globasa.net/eng/gramati
+[gb-link]:https://globasa.net/
+[sm-link]:https://salif.eu/
+[all-link]:https://salif.github.io/gramati-fe-globasa/

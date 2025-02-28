@@ -46,12 +46,15 @@ function copyEpubFile(bookDir, destDir) {
 
 function parseEpubFileName(mdFile) {
 	const md = fs.readFileSync(mdFile, "utf-8")
-	const nindex = md.indexOf("[epub]:")
+	const nindex = md.indexOf("[epub-link]:")
 	if (nindex > -1) {
-		return md.substring(nindex + 7, md.indexOf("\n", nindex))
+		return md.substring(nindex + 12, md.indexOf("\n", nindex))
 	}
 	else {
 		const lindex = md.indexOf(".epub)")
+		if (lindex === -1) {
+			throw new Error("No epub name")
+		}
 		return md.substring(md.lastIndexOf("(", lindex) + 1, lindex + 5)
 	}
 }

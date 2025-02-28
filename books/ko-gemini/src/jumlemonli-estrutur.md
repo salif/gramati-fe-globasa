@@ -228,11 +228,11 @@
 <p><strong><em>Pia</em> misu gami glu kafe fe soba.</strong><br /> 나의 배우자<em>도</em> 아침에 커피를 마신다.</p>
 <h2>복합 형용사구</h2>
 <p>복합 형용사구는 수식하는 명사 뒤에 옵니다.</p>
-<p><strong>형용사/부사 + 전치사구</strong></p>
+<p><strong>형용사/부사 + 전치사구</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> 나의 친구가 쓴 책</p>
-<p><strong>alimyen hox kos yusu sukses</strong><br /> 당신의 성공에 기뻐하는 선생님</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> 당신의 성공에 기뻐하는 선생님</p>
 <p><strong>비교 형용사/부사구</strong></p>
-<p><strong>nini maxmo lao kom misu sodar</strong><br /> 나의 형보다 더 나이 많은 아이</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> 나의 형보다 더 나이 많은 아이</p>
 <h2>관계절 <span id="relativo_baxjumle"></span></h2>
 <p>글로바사에서 관계절은 <em>수식절 표지</em> <strong>hu</strong>로 시작되며 일반적인 어순을 유지합니다. 접속사 <strong>hu</strong>는 영어에 정확히 대응하는 단어가 없지만
 	일반적으로 <em>who</em>, <em>which</em>, <em>that</em>으로 번역됩니다.</p>

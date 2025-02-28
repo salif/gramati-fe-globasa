@@ -1,13 +1,19 @@
 # Грамматика глобаса
 
-Эта книга содержит русский перевод [Complete Globasa Grammar](https://salif.github.io/gramati-fe-globasa/eng/).
-Вы можете скачать её в [формате EPUB](Gramati_fe_Globasa_Mesi_12_2024_ru_gemini.epub)
-или читать [онлайн](https://salif.github.io/gramati-fe-globasa/ru-gemini/).
+Эта книга содержит русский перевод [Полной грамматики глобаса][cgg-link].
+Вы можете скачать её в [формате EPUB][epub-link] или читать [онлайн][web-link].
 
-Автор оригинального содержания — [the Globasa Team](https://globasa.net/).
-Русский перевод выполнен [Salif Mehmed](https://salif.eu) с помощью Google Gemini.
-Переводы также доступны на [других языках](https://salif.github.io/gramati-fe-globasa/).
+Автором [оригинального контента][oc-link] является [команда глобаса][gb-link].
+Перевод был выполнен [Салиф Мехмед][sm-link] с использованием языковой модели Google Gemini.
 
-Если вы хотите улучшить перевод, вы можете предложить изменения, используя кнопку в правом верхнем углу страницы.
+Переводы также доступны [на других языках][all-link].
 
-[^1]: Насколько это допустимо законом, авторы этой книги отказываются от всех авторских прав и смежных или соседних прав на ее содержание.
+[^1]: В максимально возможной степени в соответствии с законом, авторы отказались от всех авторских и смежных прав на содержание этого сайта.
+
+[cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
+[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Rusisa_Gemini.epub
+[web-link]:https://salif.github.io/gramati-fe-globasa/ru-gemini/
+[oc-link]:https://xwexi.globasa.net/eng/gramati
+[gb-link]:https://globasa.net/
+[sm-link]:https://salif.eu/
+[all-link]:https://salif.github.io/gramati-fe-globasa/

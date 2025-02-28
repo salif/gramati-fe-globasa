@@ -1,13 +1,19 @@
 # Globasa Dilbilgisi
 
-Bu kitap, [Complete Globasa Grammar](https://salif.github.io/gramati-fe-globasa/eng/) kitabının Türkçe çevirisini içermektedir.
-Kitabı [EPUB formatında indirebilir](Gramati_fe_Globasa_Mesi_1_Nyan_2025_tr_gemini.epub)
-veya [çevrimiçi okuyabilirsiniz](https://salif.github.io/gramati-fe-globasa/tr-gemini/).
+Bu kitap, [Eksiksiz Globasa Dilbilgisi][cgg-link]'nin Türkçe çevirisini içermektedir.
+Onu [EPUB formatında][epub-link] indirebilir veya [çevrimiçi][web-link] okuyabilirsiniz.
 
-Orijinal içeriğin yazarı [the Globasa Team](https://globasa.net/).
-Türkçe çeviri, Google Gemini'nin yardımıyla [Salif Mehmed](https://salif.eu) tarafından yapılmıştır.
-Çeviriler ayrıca [diğer dillerde](https://salif.github.io/gramati-fe-globasa/) de mevcuttur.
+[Orijinal içeriğin][oc-link] yazarı [Globasa ekibidir][gb-link].
+Çeviri, Google Gemini dil modeli kullanılarak [Salif Mehmed][sm-link] tarafından yapılmıştır.
 
-Çeviriyi iyileştirmek istiyorsanız, sayfanın sağ üst köşesindeki düğmeyi kullanarak bir değişiklik önerebilirsiniz.
+Çeviriler [diğer dillerde][all-link] de mevcuttur.
 
-[^1]: Yasa tarafından izin verilen ölçüde, yazarlar bu site içeriğinin tüm telif haklarından ve ilgili veya komşu haklardan feragat etmişlerdir.
+[^1]: Yasa kapsamında mümkün olan en geniş ölçüde, yazarlar bu site içeriği üzerindeki tüm telif haklarından ve ilgili veya komşu haklardan feragat etmiştir.
+
+[cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
+[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Turkisa_Gemini.epub
+[web-link]:https://salif.github.io/gramati-fe-globasa/tr-gemini/
+[oc-link]:https://xwexi.globasa.net/eng/gramati
+[gb-link]:https://globasa.net/
+[sm-link]:https://salif.eu/tr/
+[all-link]:https://salif.github.io/gramati-fe-globasa/

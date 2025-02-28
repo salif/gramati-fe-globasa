@@ -1,17 +1,23 @@
-<h1>Части речи</h1>
+<h1>Классы слов</h1>
 <p>
 </p>
-<h2>Знаменательные части речи</h2>
+<h2>Знаменательные слова</h2>
 <ul>
 	<li><strong>benjilexi</strong> <em>(b)</em> - существительное/глагол <em>(сущ./гл.)</em></li>
 	<li><strong><a href="./inharelexi.html#falelexili_klase">falelexi</a></strong> <em>(f)</em> - глагол <em>(гл.)</em>
 		<ul>
-			<li><strong>linkuli falelexi</strong> <em>(b.lin)</em> - глагол-связка <em>(гл.-св.)</em></li>
-			<li><strong>ojetoli falelexi</strong> <em>(b.oj)</em> - переходный глагол <em>(перех. гл.)</em></li>
+			<li><strong>linkuli falelexi</strong> <em>(b.lin)</em> - глагол-связка <em>(гл.-связка)</em></li>
+			<li><strong>ojetoli falelexi</strong> <em>(b.oj)</em> - переходный глагол <em>(перех. гл.)</em>
+				<ul>
+					<li><strong>rusoti-ojetoli falelexi</strong> <em>(b.oj.ru)</em> - переходный глагол с возвратным
+						объектом <em>(перех. гл. с возвр. об.)</em>
+					</li>
+				</ul>
+			</li>
 			<li><strong>nenojetoli falelexi</strong> <em>(b.nenoj)</em> - непереходный глагол <em>(неперех. гл.)</em>
 			</li>
-			<li><strong>oroojetoli falelexi</strong> <em>(b.oro)</em> - (патиентный) амбитранзитивный глагол
-				<em>(амбитранз. гл.)</em></li>
+			<li><strong>oroojetoli falelexi</strong> <em>(b.oro)</em> - амбипереходный (пациентивный) глагол
+				<em>(амбиперех. гл.)</em></li>
 			<li><strong>sahayli falelexi</strong> <em>(b.sah)</em> - вспомогательный глагол <em>(вспом. гл.)</em></li>
 		</ul>
 	</li>
@@ -36,14 +42,14 @@
 	</li>
 	<li><strong>tosifulexi</strong> <em>(t)</em> - прилагательное/наречие <em>(прил./нар.)</em>
 		<ul>
-			<li><strong>suli tosifulexi</strong> <em>(su t)</em> - имя прилагательное/наречие, образованное от имени
-				собственного <em>(имя прил./нар. от имени собств.)</em></li>
+			<li><strong>suli tosifulexi</strong> <em>(su t)</em> - имя собственное прилагательное/наречие <em>(имя
+					собств. прил./нар.)</em></li>
 		</ul>
 	</li>
 </ul>
-<h2>Служебные части речи</h2>
+<h2>Служебные слова</h2>
 <ul>
-	<li><strong>dingyalexi</strong> <em>(d)</em> - определитель <em>(опред.)</em></li>
+	<li><strong>dingyalexi</strong> <em>(d)</em> - определитель (детерминатив) <em>(опр.)</em></li>
 	<li><strong>intrelogalexi</strong> <em>(il)</em> - междометие <em>(межд.)</em></li>
 	<li><strong>linkulexi</strong> <em>(l)</em> - союз <em>(союз)</em></li>
 	<li><strong>numer</strong> <em>(num)</em> - числительное <em>(числ.)</em></li>
@@ -59,20 +65,20 @@
 <ul>
 	<li><strong>fikso</strong> <em>(fik)</em> - аффикс <em>(афф.)</em>
 		<ul>
-			<li><strong>lefefikso</strong> <em>(lfik)</em> - префикс <em>(преф.)</em></li>
+			<li><strong>lefefikso</strong> <em>(lfik)</em> - префикс (приставка) <em>(преф.)</em></li>
 			<li><strong>xafefikso</strong> <em>(xfik)</em> - суффикс <em>(суфф.)</em></li>
 		</ul>
 	</li>
 </ul>
 <h2>Фразы</h2>
-<p>В дополнение к отдельным словам, различные фразы также рассматриваются как записи в словаре Globasa. Ниже приведено
-	несколько примеров.</p>
+<p>В дополнение к отдельным словам, различные фразы также рассматриваются как словарные единицы в словаре глобасы.
+	Несколько примеров приведены ниже. </p>
 <ul>
-	<li><strong>jumlemon</strong> <em>(jm)</em> - фраза <em>(фраза)</em>
+	<li><strong>jumlemon</strong> <em>(jm)</em> - фраза <em>(фр.)</em>
 		<ul>
-			<li><strong>plasilexili jumlemon</strong> <em>(p jm)</em> - предложная фраза <em>(предл. фраза)</em></li>
-			<li><strong>jumlemonli plasilexi</strong> <em>(jm p)</em> - фразовый предлог <em>(фраз. предл.)</em></li>
-			<li><strong>falelexili jumlemon</strong> <em>(f jm)</em> - глагольная фраза <em>(глаг. фраза)</em></li>
+			<li><strong>plasilexili jumlemon</strong> <em>(p jm)</em> - предложная фраза <em>(предл. фр.)</em></li>
+			<li><strong>jumlemonli plasilexi</strong> <em>(jm p)</em> - фразовый предлог <em>(фр. предл.)</em></li>
+			<li><strong>falelexili jumlemon</strong> <em>(f jm)</em> - глагольная фраза <em>(гл. фр.)</em></li>
 		</ul>
 	</li>
 </ul>

@@ -245,11 +245,11 @@
 <p><strong><em>Pia</em> misu gami glu kafe fe soba.</strong><br /> Pasanganku <em>juga</em> minum kopi di pagi hari.</p>
 <h2>Frasa Kata Sifat Kompleks</h2>
 <p>Frasa kata sifat kompleks muncul setelah kata benda yang dimodifikasinya.</p>
-<p><strong>Kata Sifat/Kata Keterangan plus Frasa Preposisi</strong></p>
+<p><strong>Kata Sifat/Kata Keterangan plus Frasa Preposisi</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> buku yang ditulis oleh temanku</p>
-<p><strong>alimyen hox kos yusu sukses</strong><br /> guru yang senang atas keberhasilanmu</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> guru yang senang atas keberhasilanmu</p>
 <p><strong>Frasa Kata Sifat/Kata Keterangan Komparatif</strong></p>
-<p><strong>nini maxmo lao kom misu sodar</strong><br /> anak yang lebih tua dari saudaraku</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> anak yang lebih tua dari saudaraku</p>
 <h2>Klausa Relatif <span id="relativo_baxjumle"></span></h2>
 <p>Dalam Globasa, klausa relatif diperkenalkan dengan <em>penanda klausa pemodifikasi</em> <strong>hu</strong> dan
 	mempertahankan urutan kata yang khas. Perlu dicatat bahwa konjungsi <strong>hu</strong> tidak memiliki padanan yang

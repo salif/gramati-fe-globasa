@@ -1,13 +1,19 @@
-# Gramatiko de Globaso
+# Gramatiko de Globasa
 
-Ĉi tiu libro enhavas Esperantan tradukon de la [kompleta gramatiko de Globaso](https://salif.github.io/gramati-fe-globasa/eng/).
-Vi povas elŝuti ĝin en [EPUB-formato](Gramati_fe_Globasa_Mesi_1_Nyan_2025_eo_gemini.epub)
-aŭ legi ĝin [rete](https://salif.github.io/gramati-fe-globasa/eo-gemini/).
+Ĉi tiu libro enhavas Esperantan tradukon de la [Kompleta Gramatiko de Globasa][cgg-link].
+Vi povas elŝuti ĝin en [formato EPUB][epub-link] aŭ legi ĝin [rete][web-link].
 
-La aŭtoro de la originala enhavo estas [the Globasa Team](https://globasa.net/).
-La Esperantan tradukon faris [Salif Mehmed](https://salif.eu/eo) kun la helpo de Google Gemini.
-Tradukoj estas ankaŭ haveblaj en [aliaj lingvoj](https://salif.github.io/gramati-fe-globasa/).
+La aŭtoro de [la originala enhavo][oc-link] estas [la teamo de Globasa][gb-link].
+La tradukon faris [Salif Mehmed][sm-link] uzante la lingvomodelon Google Gemini.
 
-Se vi volas plibonigi la tradukon, vi povas proponi ŝanĝon uzante la butonon en la supra dekstra angulo de la paĝo.
+Tradukoj ankaŭ haveblas [en aliaj lingvoj][all-link].
 
-[^1]: Kiom ajn permesas la leĝo, la aŭtoroj de ĉi tiu libro rezignas pri ĉiuj kopirajtoj kaj rilataj aŭ najbaraj rajtoj pri ĝia enhavo.
+[^1]: Laŭeble laŭ la leĝo, la aŭtoroj rezignis pri ĉiuj kopirajtoj kaj rilataj aŭ najbaraj rajtoj al ĉi tiu reteja enhavo.
+
+[cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
+[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Esperanto_Gemini.epub
+[web-link]:https://salif.github.io/gramati-fe-globasa/eo-gemini/
+[oc-link]:https://xwexi.globasa.net/eng/gramati
+[gb-link]:https://globasa.net/
+[sm-link]:https://salif.eu/eo/
+[all-link]:https://salif.github.io/gramati-fe-globasa/

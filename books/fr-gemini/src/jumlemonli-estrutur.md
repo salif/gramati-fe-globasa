@@ -245,11 +245,11 @@
 <p><strong><em>Pia</em> misu gami glu kafe fe soba.</strong><br /> Ma femme <em>aussi</em> boit du café le matin.</p>
 <h2>Syntagmes adjectivaux complexes</h2>
 <p>Les syntagmes adjectivaux complexes viennent après les noms qu'ils modifient.</p>
-<p><strong>Adj/adv plus syntagme prépositionnel</strong> </p>
+<p><strong>Adj/adv plus syntagme prépositionnel</strong> </p>
 <p><strong>Kitabu eskrido fal misu doste</strong><br /> le livre écrit par mon ami</p>
-<p><strong>alimyen hox kos yusu sukses</strong><br /> le professeur heureux de ton succès</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> le professeur heureux de ton succès</p>
 <p><strong>Phrases comparatives avec adj/advs</strong> </p>
-<p><strong>nini maxmo lao kom misu sodar</strong><br /> l'enfant plus âgé que mon frère </p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> l'enfant plus âgé que mon frère </p>
 <h2>Propositions relatives <span id="relativo_baxjumle"></span></h2>
 <p>En Globasa, les propositions relatives sont introduites par le <em>marqueur de proposition modificatrice</em>
 	<strong>hu</strong> et conservent l'ordre des mots typique. Il convient de noter que la conjonction
