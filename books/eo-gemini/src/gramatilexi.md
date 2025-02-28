@@ -1,4 +1,4 @@
-<h1>Funkcivortoj: Konjunkcioj, Prepozicioj kaj Funkciaj Adverboj</h1>
+<h1>Funkciaj Vortoj: Konjunkcioj, Prepozicioj kaj Funkciaj Adverboj</h1>
 <p>
 </p>
 <p>Vidu ankaŭ la jenajn apartajn ĉapitrojn: <a href="./pornamelexi.html">Pronomoj</a>, <a

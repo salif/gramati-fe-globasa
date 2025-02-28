@@ -15,7 +15,7 @@ Translations of the Complete Globasa Grammar. Fell free to fork this repository 
 | 🇧🇬 Bulgarisa | [Граматика на глобаса](https://salif.github.io/gramati-fe-globasa/bg-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇧🇬 Bulgarisa | [Граматика на глобаса](https://salif.github.io/gramati-fe-globasa/bg-claude/) | Claude Sonnet | 2025-02 | eng |
 | 🇹🇷 Turkisa | [Globasa dilbilgisi](https://salif.github.io/gramati-fe-globasa/tr-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
-| 🟢 Esperanto | [Gramatiko de Globaso](https://salif.github.io/gramati-fe-globasa/eo-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
+| 🟢 Esperanto | [Gramatiko de Globasa](https://salif.github.io/gramati-fe-globasa/eo-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇮🇩 Indonesisa | [Tata Bahasa Globasa](https://salif.github.io/gramati-fe-globasa/id-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇰🇷 Koreasa | [글로바사 문법](https://salif.github.io/gramati-fe-globasa/ko-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇯🇵 Niponsa | [グロバサ文法](https://salif.github.io/gramati-fe-globasa/ja-gemini/) | Gemini Pro Experimental | 2025-02 | eng |

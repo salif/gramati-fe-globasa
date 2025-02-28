@@ -5,8 +5,8 @@
 </p>
 <p>类似的特征在自然语言中也能找到。例如，在世界上的克里奥尔语中，经常可以看到功能词从母语的实词中产生。事实上，这就是大多数自然语言演变并产生功能词和语法语素的方式。有关此主题的精彩讨论，请参阅盖伊·多伊彻 (Guy Deutscher)
 	的 <a
-		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>《语言的展开：人类最伟大发明的进化之旅》</em></a>(<em>The
-		Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention</em>)。</p>
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>《语言的展开：人类最伟大发明的进化之旅》</em></a>。
+</p>
 <p>以下功能词是<em>截断语素</em>：</p>
 <ul>
 	<li><strong>cel</strong> (到，为了，以便) <em>来自</em> <strong>cele</strong> (目标，目的)</li>

@@ -15,6 +15,6 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/vi-gemini/"
 
 [output.epub]
-use-default-css = true
+use-default-css = false
 no-section-label = false
 curly-quotes = false
