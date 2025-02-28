@@ -393,7 +393,7 @@
 	<thead>
 		<tr>
 			<th>Отрицание</th>
-			<th>&nbsp;</th>
+			<th> </th>
 		</tr>
 	</thead>
 	<tbody>

@@ -224,9 +224,9 @@
 <p>复杂形容词短语位于它们修饰的名词之后。</p>
 <p><strong>形容词/副词 + 介词短语</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> 我的朋友写的书</p>
-<p><strong>alimyen hox kos yusu sukses</strong><br /> 为你的成功感到高兴的老师</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> 为你的成功感到高兴的老师</p>
 <p><strong>比较形容词/副词短语</strong></p>
-<p><strong>nini maxmo lao kom misu sodar</strong><br /> 比我兄弟大的孩子</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> 比我兄弟大的孩子</p>
 <h2>关系从句 <span id="relativo_baxjumle"></span></h2>
 <p>在格洛巴萨语中，关系从句由<em>修饰从句标记</em> <strong>hu</strong> 引导，并保留典型的词序。值得注意的是，连词 <strong>hu</strong>
 	在中文中没有完全对应的词，但通常被翻译为<em>谁</em>、<em>哪个</em>或<em>那个</em>。</p>

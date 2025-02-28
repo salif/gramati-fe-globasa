@@ -396,7 +396,7 @@
 	<thead>
 		<tr>
 			<th>Negación</th>
-			<th>&nbsp;</th>
+			<th> </th>
 		</tr>
 	</thead>
 	<tbody>

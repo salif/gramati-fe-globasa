@@ -243,11 +243,11 @@
 	Morgen.</p>
 <h2>Komplexe Adjektivphrasen</h2>
 <p>Komplexe Adjektivphrasen stehen nach den Nomen, die sie modifizieren.</p>
-<p><strong>Adj/Adv plus Präpositionalphrase</strong></p>
+<p><strong>Adj/Adv plus Präpositionalphrase</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> das Buch, das von meinem Freund geschrieben wurde</p>
-<p><strong>alimyen hox kos yusu sukses</strong><br /> der Lehrer, der sich über deinen Erfolg freut</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> der Lehrer, der sich über deinen Erfolg freut</p>
 <p><strong>Vergleichende Adj/Adv-Phrasen</strong></p>
-<p><strong>nini maxmo lao kom misu sodar</strong><br /> das Kind, das älter als mein Bruder ist</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> das Kind, das älter als mein Bruder ist</p>
 <h2>Relativsätze <span id="relativo_baxjumle"></span></h2>
 <p>In Globasa werden Relativsätze mit dem <em>modifizierenden Satzmarker</em> <strong>hu</strong> eingeleitet und
 	behalten die typische Wortstellung bei. Es ist erwähnenswert, dass die Konjunktion <strong>hu</strong> keine exakte

@@ -35,7 +35,7 @@ function fixPageElements(page, pageName) {
 
 function fixPageContent(content, pageName, bookName) {
 	let newContent = content
-	newContent = newContent.replaceAll("<br>", "<br />").replaceAll(String.fromCharCode(8203), "")
+	newContent = newContent.replaceAll("<br>", "<br />")
 	if (!newContent.includes("pronamelexi")) console.log(`No 'pronamelexi' on ${pageName}`)
 	newContent = newContent.replaceAll("pronamelexi", "pornamelexi")
 	if (bookName === "spa") {
@@ -81,6 +81,7 @@ function fixPageContent(content, pageName, bookName) {
 		}
 	}
 	if (pageName === "jumleli-estrutur") {
+		newContent = newContent.replaceAll(String.fromCharCode(8203), "")
 		if (!newContent.includes('<td colspan="2" style="font-size:125%;"><b>Myaw sen in sanduku.'))
 			console.log(`No '<td colspan="2" style="font-size:125%;"><b>Myaw sen in sanduku.' on ${pageName}`)
 		newContent = newContent.replace(
@@ -94,12 +95,17 @@ function fixPageContent(content, pageName, bookName) {
 						'<strong>To sen problema, na sen nensabar.')
 	}
 	if (pageName === "jumlemonli-estrutur") {
+		if (!newContent.includes('&nbsp;')) console.log(`No '&nbsp;' on ${pageName}`)
+		newContent = newContent.replaceAll('&nbsp;', ' ')
 		if (!newContent.includes('<table style="width:100%">')) console.log(`No '<table style="width:100%">' on ${pageName}`)
 		newContent = newContent.replace(
 			'<table style="width:100%">',
 			'<table style="width:100%" class="large-table">').replace(
 				'<table style="width:100%">',
 				'<table style="width:100%" class="large-table">')
+	}
+	if (pageName === "falelexili-morfo") {
+		newContent = newContent.replace('&nbsp;', ' ')
 	}
 	if (pageName === "ofkatado-morfomon") {
 		newContent = newContent.replace(

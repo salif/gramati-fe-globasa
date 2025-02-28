@@ -393,7 +393,7 @@
 	<thead>
 		<tr>
 			<th>Negasi</th>
-			<th> </th>
+			<th> </th>
 		</tr>
 	</thead>
 	<tbody>

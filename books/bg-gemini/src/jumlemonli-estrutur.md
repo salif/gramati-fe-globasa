@@ -1,4 +1,4 @@
-<h1>Структура на изречението: Подредба на думите</h1>
+<h1>Словоред: Подредба на думите</h1>
 <p>
 </p>
 <h2>Строг словоред</h2>
@@ -240,11 +240,11 @@
 <p><strong><em>Pia</em> misu gami glu kafe fe soba.</strong><br /> Моят съпруг/а, <em>също</em>, пие кафе сутрин. </p>
 <h2>Сложни прилагателни фрази</h2>
 <p>Сложните прилагателни фрази идват след съществителните, които модифицират.</p>
-<p><strong>Прил./Нареч.&nbsp;плюс&nbsp;Предложна фраза</strong></p>
+<p><strong>Прил./Нареч. плюс Предложна фраза</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> книгата, написана от моя приятел</p>
-<p><strong>alimyen hox kos&nbsp;yusu sukses</strong><br /> учителят, щастлив за твоя успех</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> учителят, щастлив за твоя успех</p>
 <p><strong>Сравнителни прил./нареч. фрази</strong></p>
-<p><strong>nini maxmo&nbsp;lao kom misu sodar</strong><br /> детето, по-голямо от моя брат</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> детето, по-голямо от моя брат</p>
 <h2>Относителни изречения <span id="relativo_baxjumle"></span></h2>
 <p>В глобаса относителните изречения се въвеждат с <em>маркера за модифициращо изречение</em> <strong>hu</strong> и
 	запазват типичния словоред. Струва си да се отбележи, че съюзът <strong>hu</strong> няма точен еквивалент на

@@ -1,13 +1,19 @@
 # Граматика на глобаса
 
-Тази книга съдържа български превод на [пълната граматика на глобаса](https://salif.github.io/gramati-fe-globasa/eng/).
-Можете да я изтеглите в [EPUB формат](Gramati_fe_Globasa_Mesi_1_Nyan_2025_bg_gemini.epub)
-или да я прочетете [онлайн](https://salif.github.io/gramati-fe-globasa/bg-gemini/).
+Тази книга съдържа български превод на [Пълната граматика на глобаса][cgg-link].
+Можете да я изтеглите в [EPUB формат][epub-link] или да я прочетете [онлайн][web-link].
 
-Автор на оригиналното съдържание е [екипът на глобаса](https://globasa.net/).
-Преводът на български език е направен от [Салиф Мехмед](https://salif.eu/bg) с помощта на Google Gemini.
-Налични са преводи и на [други езици](https://salif.github.io/gramati-fe-globasa/).
+Автор на [оригиналното съдържание][oc-link] е [екипът на глобаса][gb-link] (the Globasa team).
+Преводът е направен от [Салиф Мехмед][sm-link] с помощта на езиковия модел Google Gemini.
 
-Ако искате да подобрите превода, можете да предложите промяна, като използвате бутона в горния десен ъгъл на страницата.
+Налични са и преводи [на други езици][all-link].
 
-[^1]: Доколкото е допустимо от закона, авторите на тази книга се отказват от всички авторски права и сродни или съседни права върху съдържанието ѝ.
+[^1]: Доколкото е допустимо от закона, авторите се отказват от всички авторски права и сродни или съседни права върху съдържанието.
+
+[cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
+[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Bulgarisa_Gemini.epub
+[web-link]:https://salif.github.io/gramati-fe-globasa/bg-gemini/
+[oc-link]:https://xwexi.globasa.net/eng/gramati
+[gb-link]:https://globasa.net/
+[sm-link]:https://salif.eu/bg/
+[all-link]:https://salif.github.io/gramati-fe-globasa/

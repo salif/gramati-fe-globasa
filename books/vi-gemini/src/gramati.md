@@ -1,19 +1,19 @@
-# Ngữ Pháp Globasa
+# Ngữ pháp Globasa
 
-Sách này chứa bản dịch tiếng Việt của [Ngữ Pháp Globasa Toàn Diện][cgg].
-Bạn có thể tải xuống ở [định dạng EPUB][epub] hoặc đọc [trực tuyến][online].
+Cuốn sách này bao gồm bản dịch tiếng Việt của [Ngữ pháp Globasa Toàn diện][cgg-link].
+Bạn có thể tải xuống ở [định dạng EPUB][epub-link] hoặc đọc [trực tuyến][web-link].
 
-Tác giả của nội dung gốc là [nhóm Globasa][gb].
-Bản dịch tiếng Anh được thực hiện bởi [Salif Mehmed][sm] sử dụng Google Gemini.
-Các bản dịch sang [các ngôn ngữ khác][all] cũng có sẵn.
+Tác giả của [nội dung gốc][oc-link] là [nhóm Globasa][gb-link].
+Bản dịch này được thực hiện bởi [Salif Mehmed][sm-link] sử dụng mô hình ngôn ngữ Google Gemini.
 
-Nếu bạn muốn cải thiện bản dịch, bạn có thể đề xuất chỉnh sửa bằng cách sử dụng nút ở góc trên bên phải của trang.
+Các bản dịch cũng có sẵn [bằng các ngôn ngữ khác][all-link].
 
-[^1]: Trong phạm vi tối đa được pháp luật cho phép, các tác giả đã từ bỏ mọi bản quyền và các quyền liên quan hoặc lân cận đối với nội dung trang web này.
+[^1]: Trong phạm vi pháp luật cho phép, các tác giả đã từ bỏ mọi bản quyền và các quyền liên quan hoặc lân cận đối với nội dung trang web này.
 
-[cgg]:https://salif.github.io/gramati-fe-globasa/eng/
-[epub]:Gramati_fe_Globasa_Mesi_1_Nyan_2025_vi_gemini.epub
-[online]:https://salif.github.io/gramati-fe-globasa/vi-gemini/
-[gb]:https://globasa.net/
-[sm]:https://salif.eu/
-[all]:https://salif.github.io/gramati-fe-globasa/
+[cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
+[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Vyetnamsa_Gemini.epub
+[web-link]:https://salif.github.io/gramati-fe-globasa/vi-gemini/
+[oc-link]:https://xwexi.globasa.net/eng/gramati
+[gb-link]:https://globasa.net/
+[sm-link]:https://salif.eu/
+[all-link]:https://salif.github.io/gramati-fe-globasa/

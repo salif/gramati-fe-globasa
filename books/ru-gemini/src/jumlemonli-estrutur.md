@@ -248,9 +248,9 @@
 <p>Сложные прилагательные фразы идут после существительных, которые они модифицируют.</p>
 <p><strong>Прилагательное/наречие + предложная фраза</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> книга, написанная моим другом</p>
-<p><strong>alimyen hox kos yusu sukses</strong><br /> учитель, рад вашему успеху</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> учитель, рад вашему успеху</p>
 <p><strong>Сравнительные прилагательные/наречные фразы</strong></p>
-<p><strong>nini maxmo lao kom misu sodar</strong><br /> ребенок старше моего брата</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> ребенок старше моего брата</p>
 <h2>Относительные придаточные предложения <span id="relativo_baxjumle"></span></h2>
 <p>В языке Globasa относительные придаточные предложения вводятся с помощью <em>маркера придаточного предложения</em>
 	<strong>hu</strong> и сохраняют типичный порядок слов. Стоит отметить, что союз <strong>hu</strong> не имеет точного

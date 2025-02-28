@@ -1,12 +1,19 @@
 # Tata Bahasa Globasa
 
-Buku ini berisi terjemahan bahasa Indonesia dari [tata bahasa Globasa yang lengkap](https://salif.github.io/gramati-fe-globasa/eng/).
-Anda dapat mengunduhnya dalam [format EPUB](Gramati_fe_Globasa_Mesi_1_Nyan_2025_id_gemini.epub)
-atau membacanya secara [online](https://salif.github.io/gramati-fe-globasa/id-gemini/).
+Buku ini berisi terjemahan bahasa Indonesia dari [Tata Bahasa Globasa Lengkap][cgg-link].
+Anda dapat mengunduhnya dalam [format EPUB][epub-link] atau membacanya secara [daring][web-link].
 
-Konten asli dibuat oleh [tim Globasa](https://globasa.net/).
-Terjemahan ke dalam bahasa Indonesia ini dilakukan oleh [Salif Mehmed](https://salif.eu) dengan bantuan Google Gemini. Terjemahan dalam [bahasa lain](https://salif.github.io/gramati-fe-globasa/) juga tersedia.
+Penulis [konten asli][oc-link] adalah [tim Globasa][gb-link].
+Terjemahan ini dibuat oleh [Salif Mehmed][sm-link] menggunakan model bahasa Google Gemini.
 
-Jika Anda ingin meningkatkan kualitas terjemahan, Anda dapat menyarankan perubahan dengan menggunakan tombol di pojok kanan atas halaman.
+Terjemahan juga tersedia [dalam bahasa lain][all-link].
 
-[^1]: Sejauh mungkin berdasarkan hukum, penulis telah melepaskan semua hak cipta dan hak terkait atau yang berhubungan dengan konten situs ini.
+[^1]: Sejauh yang diizinkan oleh hukum, para penulis telah melepaskan semua hak cipta dan hak terkait atau hak yang berdekatan dengan konten situs ini.
+
+[cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
+[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Indonesisa_Gemini.epub
+[web-link]:https://salif.github.io/gramati-fe-globasa/id-gemini/
+[oc-link]:https://xwexi.globasa.net/eng/gramati
+[gb-link]:https://globasa.net/
+[sm-link]:https://salif.eu/
+[all-link]:https://salif.github.io/gramati-fe-globasa/

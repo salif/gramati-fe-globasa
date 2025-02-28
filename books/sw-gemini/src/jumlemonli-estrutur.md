@@ -242,11 +242,11 @@
 </p>
 <h2>Virai Vivumishi Changamano</h2>
 <p>Virai vivumishi changamano huja baada ya nomino wanazozirekebisha.</p>
-<p><strong>Kivumishi/Kielezi&nbsp;pamoja&nbsp;na&nbsp;Kirai Kihusishi</strong></p>
+<p><strong>Kivumishi/Kielezi pamoja na Kirai Kihusishi</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> kitabu kilichoandikwa na rafiki yangu</p>
-<p><strong>alimyen hox kos&nbsp;yusu sukses</strong><br /> mwalimu mwenye furaha kwa mafanikio yako</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> mwalimu mwenye furaha kwa mafanikio yako</p>
 <p><strong>Virai Vivumishi/Vielezi vya Kulinganisha</strong></p>
-<p><strong>nini maxmo&nbsp;lao kom misu sodar</strong><br /> mtoto mkubwa kuliko kaka yangu</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> mtoto mkubwa kuliko kaka yangu</p>
 <h2>Vishazi Vishirikishi <span id="relativo_baxjumle"></span></h2>
 <p>Katika Globasa, vishazi vishirikishi huletwa na <em>kiashiria kishirikishi kinachorekebisha</em> <strong>hu</strong>
 	na kudumisha mpangilio wa kawaida wa maneno. Ni muhimu kutambua kwamba kiunganishi <strong>hu</strong> hakina kifani

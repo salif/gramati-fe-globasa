@@ -9,7 +9,7 @@
 - [Съотносителни думи](./tabellexi.md)
 - [Числа и месеци в годината](./numer-ji-mesi.md)
 - [Глаголни форми](./falelexili-morfo.md)
-- [Словоред: Структура на фразата](./jumlemonli-estrutur.md)
+- [Словоред: Подредба на думите](./jumlemonli-estrutur.md)
 - [Словоред: Структура на изречението](./jumleli-estrutur.md)
 - [Образуване на думи](./lexikostrui.md)
 - [Съкратени морфеми](./ofkatado-morfomon.md)

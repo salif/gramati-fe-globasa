@@ -364,7 +364,7 @@
 	<thead>
 		<tr>
 			<th>부정</th>
-			<th> </th>
+			<th> </th>
 		</tr>
 	</thead>
 	<tbody>

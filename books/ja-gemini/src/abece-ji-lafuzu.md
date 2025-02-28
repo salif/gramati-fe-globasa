@@ -667,8 +667,7 @@
 <p>次の語根では、<em>i</em> と <em>u</em> に強勢があります。</p>
 <p><strong>maux</strong> (マウス)、発音 <em>ma-<u><strong>u</strong></u>x</em> <a
 		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/maux.mp3">[ma.'uʃ]</a><br />
-	<strong>daif</strong> (弱い)、発音 <em>da-<u><strong>i</strong></u>f</em> <a
-		href="https://xwexi.globasa.net/eng/gramati/abece-ji-lafuzu/daif.mp3">[da.'if]</a>
+	<strong>daifu</strong> (弱い)、発音 <em>da-<u><strong>i</strong></u>-fu</em> [da.'i.fu]
 </p>
 <p>次の語根では、音韻規則によって <em>i</em> と <em>u</em> のみが許可されています。 </p>
 <p><strong>triunfa</strong> (勝つ、勝利)、発音 <em>tri-<u><strong>u</strong></u>n-fa</em> <a

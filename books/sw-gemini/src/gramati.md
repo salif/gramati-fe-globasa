@@ -1,19 +1,19 @@
 # Sarufi ya Globasa
 
-Kitabu hiki kina tafsiri ya Kiswahili ya [Sarufi Kamili ya Globasa][cgg].
-Unaweza kuipakua katika [umbizo la EPUB][epub] au kuisoma [mtandaoni][online].
+Kitabu hiki kina tafsiri ya Kiswahili ya [Sarufi Kamili ya Globasa][cgg-link].
+Unaweza kuipakua katika [mfumo wa EPUB][epub-link] au kuisoma [mtandaoni][web-link].
 
-Mwandishi wa maudhui asilia ni [timu ya Globasa][gb].
-Tafsiri ya Kiingereza ilifanywa na [Salif Mehmed][sm] akitumia Google Gemini.
-Tafsiri zinapatikana pia katika [lugha nyingine][all].
+Mwandishi wa [maudhui asilia][oc-link] ni [timu ya Globasa][gb-link].
+Tafsiri hii imefanywa na [Salif Mehmed][sm-link] kwa kutumia lugha ya akili bandia ya Google Gemini.
 
-Ikiwa unataka kuboresha tafsiri hii, unaweza kupendekeza mabadiliko ukitumia kitufe kilicho upande wa juu kulia wa ukurasa.
+Tafsiri pia zinapatikana [katika lugha zingine][all-link].
 
-[^1]: Kwa kadri inavyowezekana kisheria, waandishi wameachilia haki zote za hakimiliki na haki zinazohusiana au zilizo karibu na maudhui ya tovuti hii.
+[^1]: Kwa kiwango kinachoruhusiwa na sheria, waandishi wameondoa hakimiliki zote na haki zinazohusiana au za jirani kwa maudhui haya ya tovuti.
 
-[cgg]:https://salif.github.io/gramati-fe-globasa/eng/
-[epub]:Gramati_fe_Globasa_Mesi_1_Nyan_2025_sw_gemini.epub
-[online]:https://salif.github.io/gramati-fe-globasa/sw-gemini/
-[gb]:https://globasa.net/
-[sm]:https://salif.eu/
-[all]:https://salif.github.io/gramati-fe-globasa/
+[cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
+[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Swahilisa_Gemini.epub
+[web-link]:https://salif.github.io/gramati-fe-globasa/sw-gemini/
+[oc-link]:https://xwexi.globasa.net/eng/gramati
+[gb-link]:https://globasa.net/
+[sm-link]:https://salif.eu/
+[all-link]:https://salif.github.io/gramati-fe-globasa/

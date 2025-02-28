@@ -1,13 +1,19 @@
 <h1>Classes de Palavras</h1>
 <p>
 </p>
-<h2>Palavras de Conteúdo</h2>
+<h2>Palavras de conteúdo</h2>
 <ul>
 	<li><strong>benjilexi</strong> <em>(b)</em> - substantivo/verbo <em>(s/v)</em></li>
 	<li><strong><a href="./inharelexi.html#falelexili_klase">falelexi</a></strong> <em>(f)</em> - verbo <em>(v)</em>
 		<ul>
 			<li><strong>linkuli falelexi</strong> <em>(b.lin)</em> - verbo copulativo <em>(v.cop)</em></li>
-			<li><strong>ojetoli falelexi</strong> <em>(b.oj)</em> - verbo transitivo <em>(v.tr)</em></li>
+			<li><strong>ojetoli falelexi</strong> <em>(b.oj)</em> - verbo transitivo <em>(v.tr)</em>
+				<ul>
+					<li><strong>rusoti-ojetoli falelexi</strong> <em>(b.oj.ru)</em> - verbo transitivo de complemento
+						reflexivo <em>(v.tr.re)</em>
+					</li>
+				</ul>
+			</li>
 			<li><strong>nenojetoli falelexi</strong> <em>(b.nenoj)</em> - verbo intransitivo <em>(v.intr)</em></li>
 			<li><strong>oroojetoli falelexi</strong> <em>(b.oro)</em> - <a
 					href="https://globalwikionline.com/detial/en/Ambitransitive_verb">verbo ambitransitivo</a>
@@ -39,7 +45,7 @@
 		</ul>
 	</li>
 </ul>
-<h2>Palavras Funcionais</h2>
+<h2>Palavras funcionais</h2>
 <ul>
 	<li><strong>dingyalexi</strong> <em>(d)</em> - determinante <em>(det)</em></li>
 	<li><strong>intrelogalexi</strong> <em>(il)</em> - interjeição <em>(interj)</em></li>
@@ -55,15 +61,15 @@
 </ul>
 <h2>Afixos</h2>
 <ul>
-	<li><strong>fikso</strong> <em>(fik)</em> - afixo <em>(afj)</em>
+	<li><strong>fikso</strong> <em>(fik)</em> - afixo <em>(afx)</em>
 		<ul>
-			<li><strong>lefefikso</strong> <em>(lfik)</em> - prefixo <em>(pfj)</em></li>
-			<li><strong>xafefikso</strong> <em>(xfik)</em> - sufixo <em>(sfj)</em></li>
+			<li><strong>lefefikso</strong> <em>(lfik)</em> - prefixo <em>(pfx)</em></li>
+			<li><strong>xafefikso</strong> <em>(xfik)</em> - sufixo <em>(sfx)</em></li>
 		</ul>
 	</li>
 </ul>
 <h2>Frases</h2>
-<p>Além de palavras singulares, uma variedade de frases também aparecem no dicionário de Globasa. Veja a seguir alguns
+<p>Além de palavras singulares, uma variedade de frases também aparecem no dicionário de globasa. Veja abaixo alguns
 	exemplos. </p>
 <ul>
 	<li><strong>jumlemon</strong> <em>(jm)</em> - frase <em>(frs)</em>

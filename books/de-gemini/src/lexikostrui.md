@@ -1,58 +1,59 @@
 <h1>Wortbildung</h1>
 <p>
 </p>
-<h2>Wortart von affixierten Wörtern</h2>
-<p>Präfixe verändern die Wortart des affixierten Wortes nicht. Suffixe hingegen tun dies und werden entweder als
-	Adjektiv-/Adverb-Suffixe oder als Substantiv-/Verb-Suffixe definiert.</p>
-<h2>Grammatikalische Affixe</h2>
+<h2>Wortart von Wörtern mit Affixen</h2>
+<p>Präfixe verändern die Wortart des Wortes, an das sie angehängt werden, nicht. Suffixe hingegen tun dies und werden
+	entweder als Adjektiv-/Adverb-Suffixe oder als Substantiv-/Verb-Suffixe definiert.</p>
+<h2>Grammatische Affixe</h2>
 <ul>
-	<li><strong><a href="./pornamelexi.html#suyali_sifalexi">-su</a>:</strong> Possessivadjektive</li>
-	<li><strong><a href="./inharelexi.html#xafefikso_-li">-li</a>:</strong> Macht Substantive zu Adjektiven/Adverbien
-		(<em>von, bezogen auf</em>)</li>
-	<li><strong><a href="./inharelexi.html#xafefikso_-mo">-mo</a>:</strong> Macht Adjektive zu
-		<em>Adjektiv/Adverb-modifizierenden Adverbien</em></li>
-	<li><strong><a href="./inharelexi.html#xafefikso_-ya">-ya</a>:</strong> Macht Adjektive zu abstrakten Substantiven
-	</li>
+	<li><strong><a href="./pornamelexi.html#suyali_sifalexi">-su</a>:</strong> Possessivpronomen (Adjektive)</li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-li">-li</a>:</strong> Wandelt Substantive in Adjektive/Adverbien
+		um (<em>von, bezüglich</em>)</li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-mo">-mo</a>:</strong> Wandelt Adjektive in
+		<em>Adjektiv/Adverb-modifizierende Adverbien um</em></li>
+	<li><strong><a href="./inharelexi.html#xafefikso_-ya">-ya</a>:</strong> Wandelt Adjektive in abstrakte Substantive
+		um</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a>:</strong> Transitivitätsmarker</li>
 	<li><strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a>:</strong> Intransitivitätsmarker</li>
 	<li><strong><a href="./falelexili-morfo.html#be-">be-</a>:</strong> Passiv</li>
-	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> Gerundium;
-		<em>gewohnheitsmäßiger/fortdauernder Verbaspekt</em></li>
+	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> Gerundium; <em>habitueller/kontinuierlicher
+			Verbaspekt</em></li>
 </ul>
 <h2>Präfixe <span id="lefefikso"></span></h2>
 <ul>
 	<li><strong>aw-:</strong> abwesend, weg <ul>
 			<li><strong>awidi</strong> - verlassen, weggehen (<em>idi</em> - <em>gehen</em>); <strong>awglu</strong> -
 				austrinken (<em>glu</em> - <em>trinken</em>); <strong>awpel</strong> - wegfahren (<em>pel</em> -
-				<em>fahren/schieben, Impuls/Antrieb</em>)</li>
+				<em>fahren/schieben</em>)</li>
 		</ul>
 	</li>
-	<li><strong>awto-:</strong> auto- (<em>automatisch</em>) [<strong>awtomati</strong> - automatisch] <ul>
-			<li><strong>awtosahigi</strong> - autokorrigieren (<em>sahi - korrekt, richtig; sahigi - korrigieren</em>)
+	<li><strong>awto-:</strong> Auto- (<em>automatisch, von selbst</em>) [<strong>awtomati</strong> - automatisch,
+		<strong>awtonom</strong> - autonom] <ul>
+			<li><strong>awtosahigi</strong> - Autokorrektur (<em>sahi - korrekt, richtig; sahigi - korrigieren</em>)
 			</li>
 		</ul>
 	</li>
-	<li><strong>dis-:</strong> verteilen, zerstreuen <ul>
+	<li><strong>dis-:</strong> verteilen, verstreuen <ul>
 			<li><strong>disgibe</strong> - verteilen (<em>gibe</em> - <em>geben</em>)</li>
 		</ul>
 	</li>
-	<li><strong>eko-:</strong> öko- <ul>
+	<li><strong>eko-:</strong> Öko- <ul>
 			<li><strong>ekologi</strong> - Ökologie (<em>logi - Fachgebiet, Disziplin</em>), <strong>ekosistema</strong>
 				- Ökosystem (<em>sistema - System</em>)</li>
 		</ul>
 	</li>
-	<li><strong>fin-:</strong> beenden, zu Ende <ul>
-			<li><strong>findoxo</strong> - beenden, zu Ende lesen (<em>doxo</em> - <em>lesen</em>);
-				<strong>finyam</strong> - aufessen (<em>yam</em> - <em>essen</em>)</li>
+	<li><strong>fin-:</strong> - Ende von, zu Ende bringen <ul>
+			<li><strong>findoxo</strong> - zu Ende lesen (<em>doxo</em> - <em>lesen</em>); <strong>finyam</strong> -
+				alles aufessen (<em>yam</em> - <em>essen</em>)</li>
 		</ul>
 	</li>
 	<li><strong>fron-:</strong> vorwärts [<strong>fronta</strong> - Stirn, Vorderseite] <ul>
-			<li><strong>fronkadam</strong> - vorankommen, Fortschritt (<em>kadam</em> - <em>Schritt</em>)</li>
+			<li><strong>fronkadam</strong> - fortschreiten, vorankommen (<em>kadam</em> - <em>Schritt</em>)</li>
 		</ul>
 	</li>
 	<li><strong>ja-:</strong> unmittelbar angrenzend [<strong>jara</strong> - Nachbar] <ul>
-			<li><strong>jale</strong> - gerade (haben) (<em>le - Partikel für Vergangenheitsform</em>);
-				<strong>jaxa</strong> - im Begriff sein zu (<em>xa - Partikel für Zukunftsform</em>);
+			<li><strong>jale</strong> - gerade (haben) (<em>le - Partikel für Vergangenheitsform von Verben</em>);
+				<strong>jaxa</strong> - im Begriff sein zu (<em>xa - Partikel für Zukunftsform von Verben</em>);
 				<strong>jaledin</strong> - gestern (<em>din - Tag</em>); <strong>jaxadin</strong> - morgen (<em>din -
 					Tag</em>)</li>
 		</ul>
@@ -61,15 +62,14 @@
 			<li><strong>nenmuhim</strong> - unwichtig (<em>muhim</em> - <em>wichtig</em>); <strong>nenkompleto</strong>
 				- unvollständig (<em>kompleto</em> - <em>vollständig</em>); <strong>nenible</strong> - unmöglich
 				(<em>ible - möglich</em>); <strong>okonenible</strong> - unsichtbar (<em>oko - sehen</em>);
-				<strong>imanunenible</strong> - unglaublich (<em>imanu - glauben</em>); <strong>nensomno</strong> -
-				Schlaflosigkeit (<em>somno</em> - <em>Schlaf</em>)</li>
+				<strong>imanunenible</strong> - unglaublich (<em>imanu - glauben</em>)</li>
 		</ul>
 	</li>
 	<li><strong>pos-:</strong> Gegenteil [<strong>opos</strong> - Gegenteil] <ul>
 			<li><strong>possahay</strong> - behindern (<em>sahay</em> - <em>helfen</em>); <strong>possukses</strong> -
 				Misserfolg/scheitern (<em>sukses</em> - <em>Erfolg</em>); <strong>posdongwi</strong> - nicht
-				übereinstimmen (<em>dongwi</em> - <em>übereinstimmen</em>); <strong>posgami</strong> - sich scheiden
-				lassen (<em>gami</em> - <em>Ehepartner/heiraten</em>)</li>
+				einverstanden sein (<em>dongwi</em> - <em>einverstanden sein</em>); <strong>posgami</strong> - sich
+				scheiden lassen (<em>gami</em> - <em>Ehepartner/heiraten</em>)</li>
 		</ul>
 	</li>
 	<li><strong>pre:</strong> hier/da, anwesend (im Gegensatz zu <em>weg, abwesend</em>) <ul>
@@ -83,29 +83,29 @@
 				nochmals lesen (<em>doxo</em> - <em>lesen</em>)</li>
 		</ul>
 	</li>
-	<li><strong>ru-:</strong> retro-, zurück- [<strong>ruke</strong> - Rücken/Rückseite] <ul>
+	<li><strong>ru-:</strong> retro-, zurück- (zurück) [<strong>ruke</strong> - Rückseite/hinten] <ul>
 			<li><strong>ruata</strong> - zurückkommen, zurückkehren (<em>ata</em> - <em>kommen</em>);
 				<strong>ruidi</strong> - zurückgehen, zurückkehren (<em>idi</em> - <em>gehen</em>);
 				<strong>rugibe</strong> - zurückgeben, zurückerstatten (<em>gibe</em> - <em>geben</em>);
 				<strong>ruaksyon</strong> - reagieren/Reaktion (<em>aksyon</em> - <em>handeln/Handlung</em>)</li>
 		</ul>
 	</li>
-	<li><strong>xor-:</strong> Anfang von, Beginn von <ul>
-			<li><strong>xorsomno</strong> - einschlafen (<em>somno</em> - <em>Schlaf</em>); <strong>xoraham</strong> -
-				erkennen, verstehen (<em>aham</em> - <em>verstehen</em>)</li>
+	<li><strong>xor-:</strong> Beginn von, Anfang von <ul>
+			<li><strong>xorsomno</strong> - einschlafen (<em>somno</em> - <em>schlafen</em>); <strong>xoraham</strong> -
+				erkennen, zu verstehen beginnen (<em>aham</em> - <em>verstehen</em>)</li>
 		</ul>
 	</li>
 </ul>
-<h2>Adj/Adv-Suffixe</h2>
+<h2>Adjektiv-/Adverb-Suffixe</h2>
 <ul>
-	<li><strong>-do:</strong> in einem inaktiven Zustand von (macht Substantive zu <em>inaktiven Adjektiven</em>) <ul>
-			<li><strong>kasirudo</strong> - gebrochen (<em>kasiru</em> - <em>brechen</em>); <strong>klosido</strong> -
+	<li><strong>-do:</strong> in einem inaktiven Zustand (wandelt Substantive in <em>inaktive Adjektive um</em>) <ul>
+			<li><strong>kasirudo</strong> - kaputt (<em>kasiru</em> - <em>brechen</em>); <strong>klosido</strong> -
 				geschlossen (<em>klosi</em> - <em>schließen</em>); <strong>estodo</strong> - angehalten (<em>esto</em> -
 				<em>anhalten</em>) </li>
 		</ul>
 	</li>
-	<li><strong>-ne:</strong> im aktiven Prozess von (macht Verben zu <em>aktiven Adjektiven</em>) <ul>
-			<li><strong>somnone</strong> - schlafend (<em>somno</em> - <em>Schlaf</em>); <strong>interesne</strong> -
+	<li><strong>-ne:</strong> im aktiven Prozess befindlich (wandelt Verben in <em>aktive Adjektive um</em>) <ul>
+			<li><strong>somnone</strong> - schlafend (<em>somno</em> - <em>schlafen</em>); <strong>interesne</strong> -
 				interessant (<em>interes</em> - <em>Interesse</em>); <strong>amusane</strong> - amüsant, lustig
 				(<em>amusa</em> - <em>amüsieren</em>)</li>
 		</ul>
@@ -125,7 +125,7 @@
 </ul>
 <h2>Substantiv-Suffixe</h2>
 <ul>
-	<li><strong>-gon:</strong> -agon (<em>geometrische Figur</em>) [<strong>gono</strong> - Winkel] <ul>
+	<li><strong>-gon:</strong> -agon (<em>geometrische Figur</em>) [<strong>gona</strong> - Winkel] <ul>
 			<li><strong>tigagon</strong> - Dreieck (<em>tiga - drei</em>); <strong>limagon</strong> - Fünfeck (<em>lima
 					- fünf</em>); <strong>ocogon</strong> - Achteck (<em>oco - acht</em>); <strong>ortogon</strong> -
 				Rechteck (<em>orto - aufrecht</em>) </li>
@@ -139,8 +139,8 @@
 			<li><strong>dayje</strong> - Größe (<em>day</em> - <em>groß</em>); <strong>velosije</strong> -
 				Geschwindigkeit (<em>velosi</em> - <em>schnell</em>); <strong>telije</strong> - Entfernung
 				(<em>teli</em> - <em>fern</em>); <strong>laoje</strong> - Alter (<em>lao</em> - <em>alt</em>);
-				<strong>termoje</strong> - Temperatur (<em>termo</em> - <em>Hitze</em>); <strong>gaoje</strong> - Höhe
-				(<em>gao</em> - <em>hoch/groß</em>) </li>
+				<strong>termoje</strong> - Temperatur (<em>termo</em> - <em>Wärme</em>); <strong>gaoje</strong> - Höhe
+				(<em>gao</em> - <em>groß/hoch</em>) </li>
 		</ul>
 	</li>
 	<li><strong>-sa:</strong> Sprache; Tierlaute [<strong>basa</strong> - Sprache] <ul>
@@ -155,7 +155,7 @@
 </ul>
 <h2>Funktionswörter als Quasi-Präfixe in zusammengesetzten Wörtern</h2>
 <ul>
-	<li><strong>anti:</strong> gegen, wider, Anti- <ul>
+	<li><strong>anti:</strong> gegen, Anti- <ul>
 			<li><strong>antidokya</strong> - Gegengift (<em>dokya</em> - <em>Gift</em>); <strong>antijento</strong> -
 				bekämpfen (<em>jento</em> - <em>kämpfen</em>); <strong>antiaksyon</strong> - entgegenwirken
 				(<em>aksyon</em> - <em>handeln/Handlung</em>)</li>
@@ -179,16 +179,17 @@
 	</li>
 	<li><strong>in:</strong> in <ul>
 			<li><strong>inidi</strong> - eintreten (<em>idi - gehen</em>); <strong>inporta</strong> - importieren
-				(<em>porta - tragen</em>); <strong>inhare</strong> - enthalten (<em>hare</em> - <em>haben</em>) </li>
+				(<em>porta</em> - <em>tragen</em>); <strong>inhare</strong> - enthalten (<em>hare</em> - <em>haben</em>)
+			</li>
 		</ul>
 	</li>
-	<li><strong>infra:</strong> infra-, hypo- <ul>
-			<li><strong>infratermo</strong> - Unterkühlung (<em>termo</em> - <em>Hitze</em>); <strong>infraroso</strong>
-				- infrarot (<em>roso</em> - <em>rot</em>); <strong>infraidi</strong> - absteigen (<em>idi</em> -
+	<li><strong>infra:</strong> Infra-, Hypo- <ul>
+			<li><strong>infratermo</strong> - Unterkühlung (<em>termo</em> - <em>Wärme</em>); <strong>infraroso</strong>
+				- Infrarot (<em>roso</em> - <em>rot</em>); <strong>infraidi</strong> - absteigen (<em>idi</em> -
 				<em>gehen</em>)</li>
 		</ul>
 	</li>
-	<li><strong>intre:</strong> zwischen, inter- <ul>
+	<li><strong>intre:</strong> zwischen, Inter- <ul>
 			<li><strong>intrenasyonli</strong> - international (<em>nasyon</em> - <em>Nation</em>);
 				<strong>intrepala</strong> - Gespräch (<em>pala</em> - <em>sprechen, reden</em>);
 				<strong>intreaksyon</strong> - interagieren/Interaktion (<em>aksyon</em> - <em>handeln/Handlung</em>);
@@ -196,25 +197,25 @@
 		</ul>
 	</li>
 	<li><strong>le:</strong> vergangen <ul>
-			<li><strong>lefe</strong> - vorher (<em>fe - bei</em>); <strong>legami</strong> - Ex-Ehepartner
+			<li><strong>lefe</strong> - bevor (<em>fe - an/bei</em>); <strong>legami</strong> - Ex-Ehepartner
 				(<em>gami</em> - <em>Ehepartner</em>); <strong>lepresidiyen</strong> - Ex-Präsident (<em>presidi</em> -
 				<em>präsidieren</em>) </li>
 		</ul>
 	</li>
-	<li><strong>lefe:</strong> vor-, voran- <ul>
+	<li><strong>lefe:</strong> vor-, voraus- <ul>
 			<li><strong>lefeoko</strong> - vorhersehen (<em>oko - sehen</em>); <strong>lefeloga</strong> - vorhersagen,
 				prophezeien (<em>loga - sagen/erzählen</em>)</li>
 		</ul>
 	</li>
 	<li><strong>moy:</strong> jeder, alle <ul>
-			<li><strong>moyabil</strong> - allmächtig (<em>abil - fähig, können</em>); <strong>moydinli</strong> -
-				täglich, alltäglich (<em>din - Tag</em>)</li>
+			<li><strong>moyabil</strong> - allmächtig, omnipotent (<em>abil - fähig, in der Lage</em>);
+				<strong>moydinli</strong> - täglich, alltäglich (<em>din - Tag</em>)</li>
 		</ul>
 	</li>
 	<li><strong>of:</strong> von, aus, <em>Brüche</em>
 		<ul>
-			<li><strong>offolo</strong> - abhängen von (<em>folo - folgen</em>); <strong>un ofdua</strong> - halb, eins
-				von zwei (<em>dua</em> - <em>zwei</em>)</li>
+			<li><strong>offolo</strong> - abhängen von (<em>folo - folgen</em>); <strong>un ofdua</strong> - Hälfte,
+				eins von zwei (<em>dua</em> - <em>zwei</em>)</li>
 		</ul>
 	</li>
 	<li><strong>se:</strong> selbst- <ul>
@@ -222,17 +223,17 @@
 				Selbstverteidigung (<em>bawe - Verteidigung</em>)</li>
 		</ul>
 	</li>
-	<li><strong>supra:</strong> über, super-, hyper- <ul>
+	<li><strong>supra:</strong> über, Super-, Hyper- <ul>
 			<li><strong>suprarealsim</strong> - hyperrealistisch (<em>real - real; realsim - realistisch</em>);
 				<strong>supraidi</strong> - aufsteigen (<em>idi - gehen</em>)</li>
 		</ul>
 	</li>
-	<li><strong>ton:</strong> zusammen, mit- <ul>
+	<li><strong>ton:</strong> zusammen, Mit- <ul>
 			<li><strong>tonaksyon</strong> - kooperieren (<em>aksyon - handeln/Handlung</em>); <strong>tonergo</strong>
 				- zusammenarbeiten (<em>ergo - arbeiten</em>)</li>
 		</ul>
 	</li>
-	<li><strong>tras:</strong> quer, trans- <ul>
+	<li><strong>tras:</strong> quer, Trans- <ul>
 			<li><strong>trasporta</strong> - transportieren/Transport (<em>porta - tragen</em>)</li>
 		</ul>
 	</li>
@@ -243,44 +244,44 @@
 		</ul>
 	</li>
 	<li><strong>xa:</strong> zukünftig <ul>
-			<li><strong>xafe</strong> - nach (<em>fe - bei</em>)</li>
+			<li><strong>xafe</strong> - nach (<em>fe - an/bei</em>)</li>
 		</ul>
 	</li>
-	<li><strong>xafe:</strong> post- <ul>
-			<li><strong>xafeplasi</strong> - verschieben (<em>plasi - setzen</em>); <strong>xafemorculi</strong>
-				(vorzugsweise prägnanter als Präpositionalphrase ausgedrückt - <strong>xafe morcu</strong>) -
-				postmortal, posthum (<em>morcu - Tod</em>); <strong>xafexengili</strong> (vorzugsweise prägnanter als
-				Präpositionalphrase ausgedrückt - <strong>xafe xengi</strong>) - postpartal (<em>xen - geboren; xengi -
-					gebären</em>)</li>
+	<li><strong>xafe:</strong> Post- <ul>
+			<li><strong>xafeplasi</strong> - verschieben (<em>plasi - setzen, stellen, legen</em>);
+				<strong>xafemorculi</strong> (vorzugsweise prägnanter als Präpositionalphrase ausgedrückt - <strong>xafe
+					morcu</strong>) - postmortal, posthum (<em>morcu - Tod</em>); <strong>xafexengili</strong>
+				(vorzugsweise prägnanter als Präpositionalphrase ausgedrückt - <strong>xafe xengi</strong>) -
+				nachgeburtlich (<em>xen - geboren; xengi - gebären</em>)</li>
 		</ul>
 	</li>
 </ul>
 <h2>Substantiv-/Verb-Wörter als Quasi-Präfixe in zusammengesetzten Wörtern</h2>
 <ul>
 	<li><strong>gami:</strong> Ehepartner, heiraten; <em>in Zusammensetzungen:</em> Schwieger- <ul>
-			<li><strong>gamisodar</strong> - Schwager, Schwägerin (<em>sodar</em> - <em>Geschwister</em>);
+			<li><strong>gamisodar</strong> - Schwager/Schwägerin (<em>sodar</em> - <em>Geschwister</em>);
 				<strong>gamiatre</strong> - Schwiegereltern (<em>atre</em> - <em>Elternteil</em>) </li>
 		</ul>
 	</li>
-	<li><strong>hawa:</strong> Luft; <em>in Zusammensetzungen:</em> aero- <ul>
+	<li><strong>hawa:</strong> Luft; <em>in Zusammensetzungen:</em> Aero- <ul>
 			<li><strong>hawanavi</strong> - Flugzeug (<em>navi</em> - <em>Schiff</em>)</li>
 		</ul>
 	</li>
 </ul>
-<h2>Adj/Adv-Wörter als Quasi-Präfixe in zusammengesetzten Wörtern</h2>
-<p>Viele Adjektive/Adverbien können verwendet werden, um zusammengesetzte Wörter zu bilden. Die folgende Liste enthält
-	die am häufigsten verwendeten Adjektive/Adverbien in Zusammensetzungen.</p>
+<h2>Adjektiv-/Adverb-Wörter als Quasi-Präfixe in zusammengesetzten Wörtern</h2>
+<p>Viele Adjektive/Adverbien können verwendet werden, um Zusammensetzungen zu bilden. Die folgende Liste enthält die am
+	häufigsten verwendeten Adjektive/Adverbien in Zusammensetzungen.</p>
 <ul>
 	<li><strong>bon:</strong> gut; <em>in Zusammensetzungen:</em> eu-, objektiv oder moralisch gut <ul>
 			<li><strong>bonata</strong> - willkommen (<em>ata</em> - <em>kommen</em>); <strong>bonxanse</strong> - viel
 				Glück (<em>xanse</em> - <em>Chance</em>, <em>Glück</em>); <strong>bonlexi</strong> - Euphemismus
 				(<em>lexi</em> - <em>Wort</em>); <strong>bonmorcu</strong> - Euthanasie (<em>morcu</em> - <em>Tod</em>);
-				<strong>bonoko</strong> - beobachten, zuschauen (<em>oko</em> - <em>Auge/sehen/schauen</em>);
+				<strong>bonoko</strong> - beobachten, anschauen (<em>oko</em> - <em>Auge/sehen/schauen</em>);
 				<strong>bonore</strong> - zuhören (<em>ore</em> - <em>Ohr/hören</em>)</li>
 		</ul>
 	</li>
 	<li><strong>bur:</strong> schlecht; <em>in Zusammensetzungen:</em> objektiv oder moralisch schlecht <ul>
-			<li><strong>burnini</strong> - Gör, Balg (<em>nini</em> - <em>Kind</em>); <strong>bursolo</strong> - einsam
+			<li><strong>burnini</strong> - Göre, Balg (<em>nini</em> - <em>Kind</em>); <strong>bursolo</strong> - einsam
 				(<em>solo</em> - <em>allein</em>); <strong>burlexi</strong> - Schimpfwort (<em>lexi</em> -
 				<em>Wort</em>) </li>
 		</ul>
@@ -289,7 +290,8 @@
 			<li><strong>coloeskri</strong> - kritzeln (<em>eskri</em> - <em>schreiben</em>)</li>
 		</ul>
 	</li>
-	<li><strong>cuyo:</strong> haupt-, Haupt-, primär; <em>in Zusammensetzungen:</em> Haupt-, Meister-, Erz- <ul>
+	<li><strong>cuyo:</strong> hauptsächlich, Haupt-, primär; <em>in Zusammensetzungen:</em> Haupt-, Chef-, primär,
+		Meister-, Erz- <ul>
 			<li><strong>cuyodolo</strong> - Hauptstraße (<em>dolo</em> - <em>Straße</em>); <strong>cuyoyawxe</strong> -
 				Hauptschlüssel (<em>yawxe</em> - <em>Schlüssel</em>)</li>
 		</ul>
@@ -314,21 +316,21 @@
 	</li>
 	<li><strong>juni:</strong> jung; <em>in Zusammensetzungen:</em> Nachwuchs <ul>
 			<li><strong>junibwaw</strong> - Welpe (<em>bwaw</em> - <em>Hund</em>); <strong>junimyaw</strong> - Kätzchen
-				(<em>myaw</em> - <em>Katze</em>); <strong>junisinga</strong> - Junges (<em>singa</em> - <em>Löwe</em>);
-				<strong>juninini</strong> - Säugling, Kleinkind (<em>nini</em> - <em>Kind</em>)</li>
+				(<em>myaw</em> - <em>Katze</em>); <strong>junisinga</strong> - Jungtier (<em>singa</em> -
+				<em>Löwe</em>); <strong>juninini</strong> - Säugling, Kleinkind (<em>nini</em> - <em>Kind</em>)</li>
 		</ul>
 	</li>
-	<li><strong>kwasi:</strong> scheinbar; <em>in Zusammensetzungen:</em> quasi-, Stief- <ul>
-			<li><strong>kwasisodar</strong> - Stiefbruder, Stiefschwester (<em>sodar</em> - <em>Geschwister</em>) </li>
+	<li><strong>kwasi:</strong> scheinend(erweise); <em>in Zusammensetzungen:</em> quasi-, Stief- <ul>
+			<li><strong>kwasisodar</strong> - Stiefbruder, Stiefschwester (<em>sodar</em> - <em>Geschwister</em>)</li>
 		</ul>
 	</li>
-	<li><strong>lama:</strong> alt [<em>Gegensatz</em> <strong>neo</strong>] <ul>
+	<li><strong>lama:</strong> antik [ <em>Gegenteil</em> <strong>neo</strong>] <ul>
 			<li><strong>lamahistori</strong> - alte Geschichte (<em>histori</em> - <em>Geschichte</em>)</li>
 		</ul>
 	</li>
-	<li><strong>lao:</strong> alt [<em>Gegensatz</em> <strong>juni</strong>] <ul>
-			<li><strong>laoatre</strong> - Vorfahre, Ahn (<em>atre</em> - <em>Elternteil</em>); <strong>laonini</strong>
-				- Teenager, Jugendlicher (<em>nini</em> - <em>Kind</em>);
+	<li><strong>lao:</strong> alt [<em>Gegenteil</em> <strong>juni</strong>] <ul>
+			<li><strong>laoatre</strong> - Vorfahre, Urahn (<em>atre</em> - <em>Elternteil</em>);
+				<strong>laonini</strong> - Teenager, Jugendlicher (<em>nini</em> - <em>Kind</em>);
 				<strong>laodaypatre</strong>/<strong>laodaypapa</strong> - Urgroßvater/Uropa (<em>daypatre</em> -
 				<em>Großvater</em>; <em>daypapa</em> - <em>Opa</em>)</li>
 		</ul>
@@ -355,41 +357,41 @@
 			<li><strong>melieskri</strong> - Kalligraphie (<em>eskri</em> - <em>schreiben</em>)</li>
 		</ul>
 	</li>
-	<li><strong>midi:</strong> mittel; <em>in Zusammensetzungen:</em> mittel-, Mittel- <ul>
+	<li><strong>midi:</strong> Mitte; <em>in Zusammensetzungen:</em> mittel- <ul>
 			<li><strong>midinuru</strong> - Mittag (<em>nuru</em> - <em>Tageslicht</em>); <strong>midinoce</strong> -
-				Mitternacht (<em>noce</em> - <em>Nacht</em>); <strong>mididay</strong> - mittel</li>
+				Mitternacht (<em>noce</em> - <em>Nacht</em>); <strong>mididay</strong> - mittel, medium</li>
 		</ul>
 	</li>
-	<li><strong>neo:</strong> neu; <em>in Zusammensetzungen:</em> neu, neo- <ul>
-			<li><strong>neoklasiko</strong> - neoklassisch (<em>klasiko</em> - <em>klassisch</em>) </li>
+	<li><strong>neo:</strong> neu; <em>in Zusammensetzungen:</em> Neu-, Neo- <ul>
+			<li><strong>neoklasiko</strong> - neoklassizistisch (<em>klasiko</em> - <em>klassisch</em>) </li>
 		</ul>
 	</li>
-	<li><strong>semi:</strong> irgendwie, teilweise; <em>in Zusammensetzungen:</em> halb-; semi-, -isch <ul>
+	<li><strong>semi:</strong> irgendwie, teils, teilweise; <em>in Zusammensetzungen:</em> halb-; semi-, -artig <ul>
 			<li><strong>semisodar</strong> - Halbbruder/Halbschwester (<em>sodar</em> - <em>Geschwister</em>);
 				<strong>semikijawi</strong> - grünlich (<em>kijawi</em> - <em>grün</em>); <strong>seminudi</strong> -
 				halbnackt (<em>nudi - nackt</em>)</li>
 		</ul>
 	</li>
 </ul>
-<h2>Zahlwörter als Quasi-Präfixe in zusammengesetzten Wörtern</h2>
-<p>Zahlwörter können auch verwendet werden, um zusammengesetzte Wörter zu bilden.</p>
+<h2>Numeralia als Quasi-Präfixe in zusammengesetzten Wörtern</h2>
+<p>Numeralia können auch verwendet werden, um Zusammensetzungen zu bilden.</p>
 <ul>
 	<li><strong>unbasayen</strong> - einsprachig (<em>basa - Sprache</em>)</li>
 	<li><strong>duacalun</strong> - Fahrrad (<em>calun - Rad</em>)</li>
 </ul>
-<h2>Adj/Adv-Wörter als Quasi-Suffixe in zusammengesetzten Wörtern</h2>
+<h2>Adjektiv-/Adverb-Wörter als Quasi-Suffixe in zusammengesetzten Wörtern</h2>
 <ul>
-	<li><strong>abil:</strong> können, fähig; <em>in Zusammensetzungen:</em> können, -iv <ul>
+	<li><strong>abil:</strong> können, fähig; <em>in Zusammensetzungen:</em> können, -fähig <ul>
 			<li><strong>kreaabil</strong> - kreativ (<em>krea - erschaffen</em>); <strong>okonenabil</strong> - blind
 				(<em>oko - sehen</em>)</li>
 		</ul>
 	</li>
 	<li><strong>bimar:</strong> krank <ul>
-			<li><strong>sikobimar</strong> - geisteskrank (<em>siko</em> - <em>Geist</em>)</li>
+			<li><strong>sikobimar</strong> - psychisch krank (<em>siko</em> - <em>Geist</em>)</li>
 		</ul>
 	</li>
 	<li><strong>bon:</strong> gut <ul>
-			<li><strong>xetocubon</strong> - köstlich (<em>xetocu - Geschmack</em>); <strong>xansebon</strong> -
+			<li><strong>xetocubon</strong> - köstlich (<em>xetocu - schmecken</em>); <strong>xansebon</strong> -
 				glücklich, vom Glück begünstigt (<em>xanse - Chancen</em>)</li>
 		</ul>
 	</li>
@@ -397,14 +399,14 @@
 			<li><strong>xansebur</strong> - unglücklich, vom Pech verfolgt (<em>xanse</em> - Chancen)</li>
 		</ul>
 	</li>
-	<li><strong>ible:</strong> möglich; <em>in Zusammensetzungen</em> -bar/-ibel <ul>
+	<li><strong>ible:</strong> möglich; <em>in Zusammensetzungen</em> -bar/-lich <ul>
 			<li><strong>yamible</strong> - essbar (<em>yam - essen</em>); <strong>doxoible</strong> - lesbar (<em>doxo -
 					lesen</em>); <strong>okoible</strong> - sichtbar (<em>oko - sehen</em>)</li>
 		</ul>
 	</li>
 	<li><strong>fil:</strong> geneigt zu, anfällig für <ul>
 			<li><strong>ergofil</strong> - fleißig, arbeitsam (<em>ergo</em> - <em>arbeiten</em>);
-				<strong>fobifil</strong> - furchtsam (<em>fobi</em> - <em>Angst</em>); <strong>dinifil</strong> -
+				<strong>fobifil</strong> - ängstlich (<em>fobi</em> - <em>Angst</em>); <strong>dinifil</strong> -
 				religiös (<em>dini</em> - <em>Religion</em>)</li>
 		</ul>
 	</li>
@@ -415,25 +417,26 @@
 				<em>Licht</em>)</li>
 		</ul>
 	</li>
-	<li><strong>kolordo (<em>kolor-do</em>):</strong> Farbton, gefärbt (Siehe auch <strong>-sim</strong>.) <ul>
+	<li><strong>kolordo (<em>kolor-do</em>):</strong> Farbton, farbig (Siehe auch <strong>-sim</strong>.) <ul>
 			<li><strong>asmankolordo</strong> - himmelblau (<em>asman</em> - <em>Himmel</em>)</li>
 		</ul>
 	</li>
 	<li><strong>laye:</strong> würdig <ul>
 			<li><strong>xinloylaye</strong> - vertrauenswürdig (<em>xinloy</em> - <em>Vertrauen</em>);
-				<strong>memorilaye</strong> - denkwürdig (<em>memori</em> - <em>Gedächtnis/erinnern</em>);
+				<strong>memorilaye</strong> - denkwürdig (<em>memori</em> - <em>Erinnerung/erinnern</em>);
 				<strong>doxolaye</strong> - lesenswert (<em>doxo</em> - <em>lesen</em>)</li>
 		</ul>
 	</li>
-	<li><strong>musi:</strong> müssen; <em>in Zusammensetzungen:</em> (aktiv) müssen; (passiv) muss sein, imperativ <ul>
+	<li><strong>musi:</strong> müssen, sollen; <em>in Zusammensetzungen:</em> (aktiv) müssen; (passiv) müssen, unbedingt
+		erforderlich <ul>
 			<li>aktiv: <strong>triunfamusi</strong> - der gewinnen muss (<em>triunfa</em> -
 				<em>gewinnen/triumphieren</em>)</li>
 			<li>passiv: <strong>beokomusi</strong> - sehenswert (<em>oko - sehen; beoko - gesehen werden</em>)</li>
 		</ul>
 	</li>
 	<li><strong>peldo (<em>pel-do</em>):</strong> getrieben <ul>
-			<li><strong>somnopeldo</strong> - schläfrig (<em>somno</em> - <em>Schlaf</em>); <strong>yampeldo</strong> -
-				hungrig (<em>yam</em> - <em>essen</em>)</li>
+			<li><strong>somnopeldo</strong> - schläfrig (<em>somno</em> - <em>schlafen</em>); <strong>yampeldo</strong>
+				- hungrig (<em>yam</em> - <em>essen</em>)</li>
 		</ul>
 	</li>
 	<li><strong>pul:</strong> voll; <em>in Zusammensetzungen:</em> -voll <ul>
@@ -441,11 +444,11 @@
 				- vorsichtig (<em>jui</em> - <em>Aufmerksamkeit</em>); <strong>brilapul</strong> - glänzend
 				(<em>brila</em> - <em>glänzen</em>); <strong>pesapul</strong> - reich (<em>pesa</em> - <em>Geld</em>);
 				<strong>hataripul</strong> - gefährlich (<em>hatari</em> - <em>Gefahr</em>); <strong>legapul</strong> -
-				legal, rechtmäßig (<em>lega</em> - <em>Gesetz</em>); <strong>bawlupul</strong> - gewalttätig
+				legal, gesetzlich (<em>lega</em> - <em>Gesetz</em>); <strong>bawlupul</strong> - gewalttätig
 				(<em>bawlu</em> - <em>Gewalt</em>)</li>
 		</ul>
 	</li>
-	<li><strong>sim:</strong> ähnlich; <em>in Zusammensetzungen:</em> -ähnlich, -artig, Farbton <ul>
+	<li><strong>sim:</strong> ähnlich; <em>in Zusammensetzungen:</em> -ähnlich, -artig, Farbschattierung <ul>
 			<li><strong>dostesim</strong> - freundlich (<em>doste</em> - <em>Freund</em>); <strong>ninisim</strong> -
 				kindisch (<em>nini</em> - <em>Kind</em>); <strong>dahabusim</strong> - golden (<em>dahabu - Gold</em>);
 				<strong>realsim</strong> - realistisch (<em>real</em> - <em>real</em>)</li>
@@ -481,7 +484,7 @@
 	</li>
 	<li><strong>dukan:</strong> Laden <ul>
 			<li><strong>kitabudukan</strong> - Buchhandlung (<em>kitabu</em> - <em>Buch</em>); <strong>yamdukan</strong>
-				- Lebensmittelgeschäft (<em>yam</em> - <em>Lebensmittel</em>)</li>
+				- Lebensmittelgeschäft (<em>yam</em> - <em>Essen</em>)</li>
 		</ul>
 	</li>
 	<li><strong>ente:</strong> unbelebter Agent <ul>
@@ -491,7 +494,7 @@
 	</li>
 	<li><strong>fon:</strong> -fon, Audiowerkzeug <ul>
 			<li><strong>telifon</strong> - Telefon (<em>teli</em> - <em>fern</em>); <strong>infon</strong> - Mikrofon
-				(<em>in</em> - <em>hinein</em>); <strong>exfon</strong> - Lautsprecher (<em>ex - hinaus</em>);
+				(<em>in</em> - <em>hinein</em>); <strong>exfon</strong> - Lautsprecher (<em>ex - heraus</em>);
 				<strong>orefon</strong> - Kopfhörer (<em>ore</em> - <em>Ohr</em>); <strong>radyofon</strong> -
 				Radiosender (<em>radyo</em> - <em>Radio</em>)</li>
 		</ul>
@@ -501,7 +504,7 @@
 				- Holster (<em>pamtul</em> - <em>Pistole</em>)</li>
 		</ul>
 	</li>
-	<li><strong>grafi:</strong> Aufnahme; <em>in Zusammensetzungen</em>; Aufnahme, -graphie <ul>
+	<li><strong>grafi:</strong> Aufzeichnung; <em>in Zusammensetzungen</em>; Aufzeichnung, -graphie <ul>
 			<li><strong>jiwagrafi</strong> - Biografie (<em>jiwa</em> - <em>Leben</em>); <strong>radyagrafi</strong> -
 				Röntgenbild (<em>radya</em> - <em>Strahlung</em>); <strong>teligrafi</strong> - Telegramm (<em>teli</em>
 				- <em>fern</em>)</li>
@@ -509,14 +512,14 @@
 	</li>
 	<li><strong>ismo:</strong> -ismus <ul>
 			<li><strong>kapitalismo</strong> - Kapitalismus (<em>kapital</em> - <em>Kapital</em>);
-				<strong>komunismo</strong> - Kommunismus (<em>komun</em> - <em>kommunal</em>); <strong>Budaismo</strong>
-				- Buddhismus (<em>Buda</em> - <em>Buddha</em>)</li>
+				<strong>komunismo</strong> - Kommunismus (<em>komun</em> - <em>gemeinschaftlich</em>);
+				<strong>Budaismo</strong> - Buddhismus (<em>Buda</em> - <em>Buddha</em>)</li>
 		</ul>
 	</li>
-	<li><strong>ista:</strong> -ist (Bedeutung beschränkt auf <em>Anhänger von -ismus</em>) <ul>
+	<li><strong>ista:</strong> -ist (Bedeutung beschränkt auf <em>Anhänger des -ismus</em>) <ul>
 			<li><strong>kapitalista</strong> - Kapitalist (<em>kapital</em> - <em>Kapital</em>);
-				<strong>komunista</strong> - Kommunist (<em>komun</em> - <em>kommunal</em>); <strong>Budaista</strong> -
-				Buddhist (<em>Buda</em> - <em>Buddha</em>)</li>
+				<strong>komunista</strong> - Kommunist (<em>komun</em> - <em>gemeinschaftlich</em>);
+				<strong>Budaista</strong> - Buddhist (<em>Buda</em> - <em>Buddha</em>)</li>
 		</ul>
 	</li>
 	<li><strong>itis:</strong> Entzündung (-itis) <ul>
@@ -525,9 +528,8 @@
 		</ul>
 	</li>
 	<li><strong>kaxa:</strong> Behälter <ul>
-			<li><strong>anjenkaxa</strong> - Safe (<em>anjen</em> - <em>sicher</em>); <strong>pesakaxa</strong> -
-				Geldbörse (<em>pesa</em> - <em>Geld</em>); <strong>bezekaxa</strong> - Bienenstock (<em>beze</em> -
-				<em>Biene</em>) </li>
+			<li><strong>anjenkaxa</strong> - Safe (<em>anjen</em> - <em>sicher</em>); <strong>bezekaxa</strong> -
+				Bienenstock (<em>beze</em> - <em>Biene</em>)</li>
 		</ul>
 	</li>
 	<li><strong>kamer:</strong> Zimmer <ul>
@@ -536,7 +538,7 @@
 				<em>Unterricht, Klasse</em>)</li>
 		</ul>
 	</li>
-	<li><strong>kef:</strong> Chef, Leiter <ul>
+	<li><strong>kef:</strong> Chef, Leiter, Anführer <ul>
 			<li><strong>navikef</strong> - Kapitän (<em>nave</em> - <em>Schiff</em>); <strong>xaherkef</strong> -
 				Bürgermeister (<em>xaher</em> - <em>Stadt</em>)</li>
 		</ul>
@@ -546,19 +548,18 @@
 		</ul>
 	</li>
 	<li><strong>kumax:</strong> (Stück) Stoff <ul>
-			<li><strong>mesakumax</strong> - Tischdecke (<em>mesa</em> - <em>Tisch</em>); <strong>nasakumax</strong> -
+			<li><strong>mesakumax</strong> - Tischtuch (<em>mesa</em> - <em>Tisch</em>); <strong>nasakumax</strong> -
 				Taschentuch (<em>nasa</em> - <em>Nase</em>); <strong>muntekumax</strong> - Serviette (<em>munte</em> -
 				<em>Mund</em>)</li>
 		</ul>
 	</li>
-	<li><strong>lari:</strong> kollektive Gruppe <ul>
-			<li><strong>drevolari</strong> - Wald (<em>drevo</em> - <em>Baum</em>); <strong>insanlari</strong> -
-				Menschheit (<em>insan</em> - <em>Mensch</em>); <strong>darsulari</strong> - Kurs (<em>darsu</em> -
-				<em>Unterricht/Klasse</em>); <strong>mumulari</strong> - Rinderherde (<em>mumu</em> - <em>Stier/Kuh,
-					Rind</em>); <strong>lexilari</strong> - Vokabular (<em>lexi</em> - <em>Wort</em>);
-				<strong>menalari</strong> - Wörterbuch (<em>mena</em> - <em>Bedeutung</em>, <em>Definition</em>);
-				<strong>navilari</strong> - Schiffsflotte (<em>navi</em> - <em>Schiff</em>); <strong>yumawlari</strong>
-				- Gefieder (<em>yumaw</em> - <em>Feder</em>)</li>
+	<li><strong>lari:</strong> Sammelgruppe <ul>
+			<li><strong>insanlari</strong> - Menschheit (<em>insan</em> - <em>Mensch</em>); <strong>darsulari</strong> -
+				Kurs (<em>darsu</em> - <em>Unterricht/Klasse</em>); <strong>mumulari</strong> - Rinderherde
+				(<em>mumu</em> - <em>Bulle/Kuh, Rind</em>); <strong>lexilari</strong> - Vokabular (<em>lexi</em> -
+				<em>Wort</em>); <strong>menalari</strong> - Wörterbuch (<em>mena</em> - <em>Bedeutung</em>,
+				<em>Definition</em>); <strong>navilari</strong> - Schiffsflotte (<em>navi</em> - <em>Schiff</em>);
+				<strong>yumawlari</strong> - Gefieder (<em>yumaw</em> - <em>Feder</em>)</li>
 		</ul>
 	</li>
 	<li><strong>lexi:</strong> Wort <ul>
@@ -568,13 +569,13 @@
 			</li>
 		</ul>
 	</li>
-	<li><strong>logi:</strong> Spezialgebiet, Studium von <ul>
+	<li><strong>logi:</strong> Fachgebiet, Lehre von <ul>
 			<li><strong>biologi</strong> - Biologie (<em>bio</em> - <em>Leben/Organismen</em>);
 				<strong>sikologi</strong> - Psychologie (<em>siko</em> - <em>Geist</em>)</li>
 		</ul>
 	</li>
 	<li><strong>maso:</strong> Fleisch <ul>
-			<li><strong>mumumaso</strong> - Rindfleisch (<em>mumu</em> - <em>Stier/Kuh, Rind</em>);
+			<li><strong>mumumaso</strong> - Rindfleisch (<em>mumu</em> - <em>Bulle/Kuh, Rind</em>);
 				<strong>kukumaso</strong> - Hühnerfleisch (<em>kuku</em> - <em>Huhn/Hahn</em>);
 				<strong>swinimaso</strong> - Schweinefleisch (<em>swini</em> - <em>Schwein</em>);
 				<strong>mahimaso</strong> - Fisch (<em>mahi</em> - <em>Fisch</em>)</li>
@@ -588,37 +589,37 @@
 		</ul>
 	</li>
 	<li><strong>meter:</strong> Messgerät <ul>
-			<li><strong>termometer</strong> - Thermometer (<em>termo</em> - <em>Hitze</em>); <strong>satumeter</strong>
+			<li><strong>termometer</strong> - Thermometer (<em>termo</em> - <em>Wärme</em>); <strong>satumeter</strong>
 				- Uhr (<em>satu</em> - <em>Stunde</em>)</li>
 		</ul>
 	</li>
 	<li><strong>mon:</strong> Element oder Teil eines Ganzen <ul>
 			<li><strong>talujimon</strong> - Schneeflocke (<em>taluji</em> - <em>Schnee</em>); <strong>watumon</strong>
-				- Punkt (<em>watu</em> - <em>Zeit</em>); <strong>atexmon</strong> - Flamme (<em>atex</em> -
+				- Satzzeichen/Punkt (<em>watu</em> - <em>Zeit</em>); <strong>atexmon</strong> - Flamme (<em>atex</em> -
 				<em>Feuer</em>) </li>
 		</ul>
 	</li>
 	<li><strong>mosem:</strong> Jahreszeit <ul>
 			<li><strong>bardimosem</strong> - Winter (<em>bardi</em> - <em>kalt</em>); <strong>bijamosem</strong> -
-				Frühling (<em>bija</em> - <em>Samen/säen</em>); <strong>termomosem</strong> - Sommer (<em>termo</em> -
-				<em>Hitze</em>); <strong>xuhamosem</strong> - Herbst (<em>xuha</em> - <em>ernten</em>)</li>
+				Frühling (<em>bija</em> - <em>Saat/säen</em>); <strong>termomosem</strong> - Sommer (<em>termo</em> -
+				<em>Wärme</em>); <strong>xuhamosem</strong> - Herbst (<em>xuha</em> - <em>ernten</em>)</li>
 		</ul>
 	</li>
 	<li><strong>osis:</strong> Pathologie <ul>
 			<li><strong>sikoosis</strong> - Psychose (<em>siko</em> - <em>Geist</em>)</li>
 		</ul>
 	</li>
-	<li><strong>pel:</strong> (extrinsischer) Antrieb, Schub; veranlassen zu wollen (zu) <ul>
+	<li><strong>pel:</strong> (extrinsischer) Antrieb, Schub; dazu bringen, (etwas) zu wollen <ul>
 			<li><strong>seksopel</strong> - Sexyness, Sexappeal (<em>sekso - Sex</em>); <strong>jixipel</strong> - zum
-				Nachdenken anregen, neugierig machen</li>
+				Nachdenken bringen, neugierig machen</li>
 		</ul>
 	</li>
 	<li><strong>tim:</strong> Team; <em>in Zusammensetzungen:</em> Team, Körper <ul>
-			<li><strong>asosyatim</strong> - Vereinigung (<em>asosya</em> - <em>assoziieren</em>);
-				<strong>komuntim</strong> - Gemeinschaft (<em>komun</em> - <em>kommunal</em>);
+			<li><strong>asosyatim</strong> - Vereinigung (<em>asosya</em> - <em>assoziieren, verbinden</em>);
+				<strong>komuntim</strong> - Gemeinschaft (<em>komun</em> - <em>gemeinschaftlich</em>);
 				<strong>organisatim</strong> - Organisation (<em>organisa</em> - <em>organisieren</em>);
 				<strong>jangetim</strong> - Militär (<em>jange</em> - <em>Krieg</em>); <strong>krasitim</strong> -
-				Regierung (<em>krasi</em> - <em>herrschen/regieren</em>); <strong>ergotim</strong> - Personal
+				Regierung (<em>krasi</em> - <em>herrschen/regieren</em>); <strong>ergotim</strong> - Belegschaft
 				(<em>ergo</em> - <em>arbeiten</em>); <strong>oretim</strong> - Publikum (<em>ore</em> -
 				<em>Ohr/hören</em>)</li>
 		</ul>
@@ -638,29 +639,29 @@
 		</ul>
 	</li>
 	<li><strong>xey:</strong> Ding, Objekt; <em>in Zusammensetzungen:</em> Ding, Objekt, Substanz <ul>
-			<li><strong>yamxey</strong> - Essen, Nahrung (<em>yam</em> - <em>Mahlzeit</em>, <em>essen</em>);
+			<li><strong>yamxey</strong> - Lebensmittel (<em>yam</em> - <em>Mahlzeit</em>, <em>essen</em>);
 				<strong>kreaxey</strong> - (eine) Schöpfung (<em>krea</em> - <em>erschaffen</em>);
 				<strong>kostruixey</strong> - Gebäude (<em>kostrui</em> - <em>bauen</em>)</li>
 		</ul>
 	</li>
 	<li><strong>yen:</strong> Wesen (jedes Lebewesen oder personifiziertes Objekt); <em>in Zusammensetzungen:</em> -ist,
 		-er, -aner <ul>
-			<li><em>Substantiv-/Verb-Stämme:</em> <strong>estudiyen</strong> - Student (<em>estudi</em> -
+			<li><em>Substantiv-/Verb-Wurzeln:</em> <strong>estudiyen</strong> - Student (<em>estudi</em> -
 				<em>studieren</em>); <strong>danseyen</strong> - Tänzer (<em>danse</em> - <em>tanzen</em>);
 				<strong>medisyen</strong> - Arzt (<em>medis</em> - <em>medizinisch behandeln, Medizin</em>);
 				<strong>arteyen</strong> - Künstler (<em>arte</em> - <em>Kunst</em>); <strong>alimyen</strong> - Lehrer
 				(<em>alim</em> - <em>lehren</em>); <strong>polisiyen</strong> - Polizist (<em>polisi</em> -
 				<em>Polizei</em>); <strong>legayen</strong> - Anwalt (<em>lega</em> - <em>Gesetz</em>);
 				<strong>poemayen</strong> - Dichter (<em>poema</em> - <em>Gedicht</em>)</li>
-			<li><em>Adjektiv-Stämme:</em> <strong>juniyen</strong> - junger Mann/Frau, Bursche/Mädel (<em>juni</em> -
-				<em>jung</em>)</li>
+			<li><em>Adjektiv-Wurzeln:</em> <strong>juniyen</strong> - junger Mann/junge Frau, Kerl/Mädel (<em>juni</em>
+				- <em>jung</em>)</li>
 			<li><em>Nationalitäten:</em> <strong>Italiyen</strong> - Italiener (<em>Itali</em> - <em>Italien</em>);
 				<strong>Mexikoyen</strong> - Mexikaner (<em>Mexiko</em> - <em>Mexiko</em>)</li>
 			<li><em>Ärzte:</em> <strong>dentamedisyen</strong> - Zahnarzt (<em>denta</em> - <em>Zahn</em>);
 				<strong>sikomedisyen</strong> - Psychiater (<em>siko</em> - <em>Geist</em>);
 				<strong>hewanmedisyen</strong> - Tierarzt (<em>hewan</em> - <em>Tier</em>);
 				<strong>ninimedisyen</strong> - Kinderarzt (<em>nini</em> - <em>Kind</em>);
-				<strong>pifumedisyen</strong> - Dermatologe (<em>pifu</em> - <em>Haut</em>)</li>
+				<strong>pifumedisyen</strong> - Hautarzt (<em>pifu</em> - <em>Haut</em>)</li>
 		</ul>
 	</li>
 </ul>
@@ -669,16 +670,16 @@
 	Inhaltswörter, die in zusammengesetzten Wörtern vorkommen. Die Liste ist jedoch nicht erschöpfend, da <em>jedes</em>
 	Inhaltswort frei verwendet werden kann, um zusammengesetzte Wörter abzuleiten. Ein Bindestrich kann optional
 	hinzugefügt werden, um zwei Morpheme innerhalb eines zusammengesetzten Wortes zu trennen. Es wird jedoch empfohlen,
-	als Faustregel Bindestriche nur zur Trennung von Morphemen zu verwenden, die weniger häufig in Zusammensetzungen
-	verwendet werden, wie z. B. in den folgenden Wörtern.</p>
+	Bindestriche nur zur Trennung von Morphemen zu verwenden, die weniger häufig in Zusammensetzungen vorkommen, wie z.
+	B. in den folgenden Wörtern.</p>
 <p><strong>rukebao</strong> oder <strong>ruke-bao</strong> - Rucksack<br />
 	<strong>familname</strong> oder <strong>famil-name</strong> - Nachname<br />
 	<strong>kosmonaviyen</strong> oder <strong>kosmo-naviyen</strong> - Astronaut<br />
 	<strong>mobilxuliyen</strong> oder <strong>mobil-xuliyen</strong> - Mechaniker
 </p>
 <h2>Zusammensetzungen mit Eigennamen</h2>
-<p>Eigennamen können auch zu Zusammensetzungen verbunden werden. Sie können auf drei verschiedene Arten geschrieben
-	werden, wie unten gezeigt.</p>
+<p>Eigennamen können auch zu Zusammensetzungen verbunden werden. Sie können auf drei Arten geschrieben werden, wie unten
+	gezeigt.</p>
 <p><strong>Ceskieslovaki</strong> oder <strong>CeskiEslovaki</strong> oder <strong>Ceski-Eslovaki</strong> -
 	Tschechoslowakei<br />
 	<strong>Serbihervatskasa</strong> oder <strong>SerbiHervatskasa</strong> oder <strong>Serbi-Hervatskasa</strong> -
@@ -686,8 +687,8 @@
 	<strong>Kinsasakongo</strong> oder <strong>KinsasaKongo</strong> oder <strong>Kinsasa-Kongo</strong> -
 	Kongo-Kinshasa
 </p>
-<p>Ebenso können Eigennamen mit <strong>utara</strong>, <strong>sude</strong>, <strong>dongu</strong>,
-	<strong>garebi</strong> und <strong>centro</strong> auch auf drei verschiedene Arten geschrieben werden.</p>
+<p>Eigennamen mit <strong>utara</strong>, <strong>sude</strong>, <strong>dongu</strong>, <strong>garebi</strong> und
+	<strong>centro</strong> können ebenfalls auf eine von drei Arten geschrieben werden.</p>
 <p><strong>Sudekorea</strong> oder <strong>SudeKorea</strong> oder <strong>Sude-Korea</strong> - Südkorea</p>
 <p>Eigennamen mit <strong>ji</strong> können auch alternativ wie folgt verbunden werden.</p>
 <p><strong>Antigwa ji Barbuda</strong> oder <strong>AntigwaBarbuda</strong> oder <strong>Antigwa-Barbuda</strong> -
@@ -705,12 +706,12 @@
 </p>
 <p><strong>hadya fe xencudin</strong> - Geburtstagsgeschenk (wörtlich: <em>Geschenk des Geburtstags</em>)</p>
 <p>Diese Methode ist besonders nützlich, um komplexere beschreibende Substantivphrasen zu bilden:</p>
-<p><strong>maydoyen fe hadya fe xencudin</strong> - Verkäufer von Geburtstagsgeschenken (wörtlich: <em>Verkäufer von
-		Geschenken des Geburtstags</em>)</p>
+<p><strong>maydoyen fe hadya fe xencudin</strong> - Geburtstagsgeschenkverkäufer (wörtlich: <em>Verkäufer von Geschenken
+		des Geburtstags</em>)</p>
 <h2>Objekt-Verb-Adjektive</h2>
 <p>Objekt-Verb-Adjektive sind Adjektive, die aus zwei Substantiven (Objekt und Verb) plus einem Adjektivsuffix bestehen.
 </p>
-<p><strong>mogeyamne ameba</strong> - gehirnfressende Amöbe<br />
+<p><strong>mogeyamne ameba</strong> - Gehirn-fressende Amöbe<br />
 	<strong>fikirprovokane idey</strong> - zum Nachdenken anregende Idee
 </p>
 <p></p>

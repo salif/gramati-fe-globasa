@@ -241,11 +241,11 @@
 	morning.</p>
 <h2>Complex Adjective Phrases</h2>
 <p>Complex adjective phrases come after the nouns they modify.</p>
-<p><strong>Adj/Adv&nbsp;plus&nbsp;Prepositional Phrase</strong></p>
+<p><strong>Adj/Adv plus Prepositional Phrase</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> the book written by my friend</p>
-<p><strong>alimyen hox kos&nbsp;yusu sukses</strong><br /> the teacher happy for your success</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> the teacher happy for your success</p>
 <p><strong>Comparative Adj/Adv Phrases</strong></p>
-<p><strong>nini maxmo&nbsp;lao kom misu sodar</strong><br /> the kid older than my brother</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> the kid older than my brother</p>
 <h2>Relative Clauses <span id="relativo_baxjumle"></span></h2>
 <p>In Globasa, relative clauses are introduced with the <em>modifying clause marker</em> <strong>hu</strong> and retain
 	typical word order. It is worth noting that the conjunction <strong>hu</strong> doesn't have an exact equivalent in

@@ -238,9 +238,9 @@
 <p>Karmaşık sıfat tamlamaları, nitelendirdikleri isimlerden sonra gelir.</p>
 <p><strong>Sıfat/Zarf + Edat Tamlaması</strong></p>
 <p><strong>kitabu eskrido fal misu doste</strong><br /> arkadaşım tarafından yazılmış kitap</p>
-<p><strong>alimyen hox kos yusu sukses</strong><br /> başarınız için mutlu olan öğretmen</p>
+<p><strong>alimyen hox kos yusu sukses</strong><br /> başarınız için mutlu olan öğretmen</p>
 <p><strong>Karşılaştırmalı Sıfat/Zarf Tamlamaları</strong></p>
-<p><strong>nini maxmo lao kom misu sodar</strong><br /> kardeşimden büyük çocuk</p>
+<p><strong>nini maxmo lao kom misu sodar</strong><br /> kardeşimden büyük çocuk</p>
 <h2>İlgi Cümlecikleri <span id="relativo_baxjumle"></span></h2>
 <p>Globasa'da, ilgi cümlecikleri <em>niteleyici cümlecik belirteci</em> <strong>hu</strong> ile başlar ve tipik kelime
 	sırasını korur. <strong>hu</strong> bağlacının İngilizce'de tam bir karşılığı olmadığını, ancak genellikle
