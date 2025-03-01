@@ -4,7 +4,7 @@ language = "ru"
 multilingual = false
 src = "src"
 title = "Грамматика глобаса"
-description = "Неофициальный русский перевод грамматики искусственного языка под названием глобаса (Globasa). Части перевода сделаны с использованием языковой модели Gemini."
+description = "Неофициальный русский перевод грамматики искусственного языка под названием глобаса (Globasa)"
 
 [output.html]
 default-theme = "rust-clr"
@@ -15,4 +15,5 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/ru-gemini/"
 
 [output.epub]
+cover-image = "cover.png"
 curly-quotes = false

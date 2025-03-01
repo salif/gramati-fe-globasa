@@ -4,7 +4,7 @@ language = "bg"
 multilingual = false
 src = "src"
 title = "Граматика на глобаса"
-description = "Неофициален български превод на граматиката на конструирания език глобаса (Globasa). Части от превода са направени с помощта на езиковия модел Клод."
+description = "Неофициален български превод на граматиката на изкуствения език глобаса (Globasa)"
 
 [output.html]
 default-theme = "rust-clr"
@@ -15,4 +15,5 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/bg-claude/"
 
 [output.epub]
+cover-image = "cover.png"
 curly-quotes = false

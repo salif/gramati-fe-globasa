@@ -4,7 +4,7 @@ language = "vi"
 multilingual = false
 src = "src"
 title = "Ngữ pháp Globasa"
-description = "Bản dịch tiếng Việt không chính thức của ngữ pháp ngôn ngữ nhân tạo Globasa. Một phần của bản dịch được thực hiện với sự hỗ trợ của mô hình ngôn ngữ Gemini."
+description = "Bản dịch tiếng Việt không chính thức của ngữ pháp ngôn ngữ nhân tạo Globasa"
 
 [output.html]
 default-theme = "rust-clr"
@@ -15,4 +15,5 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/vi-gemini/"
 
 [output.epub]
+cover-image = "cover.png"
 curly-quotes = false
