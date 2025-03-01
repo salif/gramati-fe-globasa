@@ -4,7 +4,7 @@ language = "fr"
 multilingual = false
 src = "src"
 title = "Grammaire de globasa"
-description = "Traduction française non officielle de la grammaire de la langue construite appelée globasa. Certaines parties de la traduction sont réalisées à l'aide du modèle linguistique Gemini."
+description = "Traduction française non officielle de la grammaire de la langue construite appelée globasa"
 
 [output.html]
 default-theme = "rust-clr"
@@ -15,4 +15,5 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/fr-gemini/"
 
 [output.epub]
+cover-image = "cover.png"
 curly-quotes = false

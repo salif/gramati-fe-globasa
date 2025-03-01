@@ -1,6 +1,6 @@
-# Gramática completa de Globasa
+# Gramática completa del Globasa
 
-Este libro contiene una copia de la [Gramática completa de Globasa][oc-link].
+Este libro contiene una copia de la [Gramática completa del Globasa][oc-link].
 Puedes descargarla en [formato EPUB][epub-link] o leerla [en línea][web-link].
 El autor del contenido original es [el equipo de Globasa][gb-link].
 

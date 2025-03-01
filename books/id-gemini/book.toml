@@ -4,7 +4,7 @@ language = "id"
 multilingual = false
 src = "src"
 title = "Tata Bahasa Globasa"
-description = "Terjemahan tidak resmi tata bahasa dari bahasa buatan bernama Globasa ke dalam Bahasa Indonesia. Sebagian dari terjemahan ini dibuat menggunakan model bahasa Gemini."
+description = "Terjemahan tidak resmi tata bahasa dari bahasa buatan bernama Globasa ke dalam Bahasa Indonesia"
 
 [output.html]
 default-theme = "rust-clr"
@@ -15,4 +15,5 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/id-gemini/"
 
 [output.epub]
+cover-image = "cover.png"
 curly-quotes = false

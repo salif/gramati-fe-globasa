@@ -4,7 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Complete Globasa Grammar"
-description = "A copy of the Complete Globasa Grammar and the source for the translated books."
+description = "A copy of the Complete Globasa Grammar and the source for the translated books"
 
 [output.html]
 default-theme = "rust-clr"
@@ -15,4 +15,5 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/eng/"
 
 [output.epub]
+cover-image = "cover.png"
 curly-quotes = false

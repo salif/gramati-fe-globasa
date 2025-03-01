@@ -4,7 +4,7 @@ language = "ja"
 multilingual = false
 src = "src"
 title = "グロバサ文法"
-description = "グロバサ (Globasa) と呼ばれる人工言語の文法の非公式日本語訳。翻訳の一部は Gemini 言語モデルを使用して行われています。"
+description = "グロバサ (Globasa) と呼ばれる人工言語の文法の非公式日本語訳"
 
 [output.html]
 default-theme = "rust-sans"
@@ -15,4 +15,5 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/ja-gemini/"
 
 [output.epub]
+cover-image = "cover.png"
 curly-quotes = false

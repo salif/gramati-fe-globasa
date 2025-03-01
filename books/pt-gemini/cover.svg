@@ -1,0 +1,17 @@
+<svg width="612" height="792" viewBox="0 0 612 792" xmlns="http://www.w3.org/2000/svg">
+  <!-- rsvg-convert -w 612 -h 792 -b white cover.svg -o src/cover.png -->
+  <!-- Background -->
+  <rect width="612" height="792" fill="#ffffff" />
+  <!-- Blue decorative element (top) -->
+  <path d="M0,0 L612,0 L612,120 C480,150 300,80 0,120 Z" fill="#0040a9" />
+  <!-- Green decorative element (bottom) -->
+  <path d="M0,792 L612,792 L612,672 C480,642 300,712 0,672 Z" fill="#008113" />
+  <!-- Title -->
+  <text x="306" y="330" font-family="Alegreya, serif" font-weight="bold" font-size="64"
+    text-anchor="middle" fill="#008113">Gramática</text>
+  <text x="306" y="400" font-family="Alegreya, serif" font-weight="bold" font-size="64"
+    text-anchor="middle" fill="#008113">da globasa</text>
+  <!-- Link -->
+  <text x="306" y="560" font-family="Alegreya, serif" font-weight="bold" font-size="24"
+    text-anchor="middle" fill="#0040a9">salif.github.io/gramati-fe-globasa/pt-gemini</text>
+</svg>

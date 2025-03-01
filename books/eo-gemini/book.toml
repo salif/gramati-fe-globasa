@@ -4,7 +4,7 @@ language = "eo"
 multilingual = false
 src = "src"
 title = "Gramatiko de Globasa"
-description = "Neoficiala Esperanto-traduko de la gramatiko de la konstruita lingvo nomata Globasa. Partoj de la traduko estas faritaj per la lingvomodelo Gemini."
+description = "Neoficiala Esperanta traduko de la gramatiko de la konstruita lingvo nomata Globasa"
 
 [output.html]
 default-theme = "rust-clr"
@@ -15,4 +15,5 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/eo-gemini/"
 
 [output.epub]
+cover-image = "cover.png"
 curly-quotes = false

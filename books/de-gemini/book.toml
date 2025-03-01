@@ -4,7 +4,7 @@ language = "de"
 multilingual = false
 src = "src"
 title = "Globasa Grammatik"
-description = "Eine inoffizielle deutsche Übersetzung der Grammatik der konstruierten Sprache namens Globasa. Teile der Übersetzung wurden mit dem Gemini-Sprachmodell erstellt."
+description = "Eine inoffizielle deutsche Übersetzung der Grammatik der konstruierten Sprache namens Globasa"
 
 [output.html]
 default-theme = "rust-clr"
@@ -15,4 +15,5 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/de-gemini/"
 
 [output.epub]
+cover-image = "cover.png"
 curly-quotes = false

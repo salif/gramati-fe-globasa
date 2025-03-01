@@ -3,8 +3,8 @@ authors = ["The Globasa Team", "Salif Mehmed"]
 language = "es"
 multilingual = false
 src = "src"
-title = "Gramática completa de Globasa"
-description = "Una copia de la gramática completa de Globasa."
+title = "Gramática completa del Globasa"
+description = "Una copia de la Gramática completa del Globasa"
 
 [output.html]
 default-theme = "rust-clr"
@@ -15,4 +15,5 @@ edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/bo
 site-url = "/gramati-fe-globasa/spa/"
 
 [output.epub]
+cover-image = "cover.png"
 curly-quotes = false

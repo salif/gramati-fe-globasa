@@ -7,7 +7,7 @@ Translations of the Complete Globasa Grammar. Fell free to fork this repository 
 | language | book  | llm | version | source book |
 | -------- | ----- | --- | ------- | ----------- |
 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Englisa | [Complete Globasa Grammar](https://salif.github.io/gramati-fe-globasa/eng/) | none | 2025-02 | none |
-| 🇪🇸 Espanisa | [Gramática completa de Globasa](https://salif.github.io/gramati-fe-globasa/spa/) | none | 2025-02 | none |
+| 🇪🇸 Espanisa | [Gramática completa del Globasa](https://salif.github.io/gramati-fe-globasa/spa/) | none | 2025-02 | none |
 | 🇫🇷 Fransesa | [Grammaire de globasa](https://salif.github.io/gramati-fe-globasa/fr-gemini/) | Gemini Pro Experimental | 2025-02 | spa |
 | 🇵🇹 Portugalsa | [Gramática da globasa](https://salif.github.io/gramati-fe-globasa/pt-gemini/) | Gemini Pro Experimental | 2025-02 | spa |
 | 🇩🇪 Doycisa | [Globasa Grammatik](https://salif.github.io/gramati-fe-globasa/de-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
