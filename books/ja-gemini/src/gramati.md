@@ -8,7 +8,7 @@
 
 [他の言語][all-link]の翻訳も利用可能です。
 
-[^1]: 法の下で可能な限り、著者はこのサイトのコンテンツに対するすべての著作権および関連する権利、または隣接する権利を放棄しました。
+法の下で可能な限り、著者はこのサイトのコンテンツに対するすべての著作権および関連する権利、または隣接する権利を放棄しました。
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Niponsa_Gemini.epub

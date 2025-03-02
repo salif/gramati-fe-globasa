@@ -12,6 +12,8 @@ while read -r line; do
 	else
 		LASTMOD=$(date +%F)
 	fi
+	# Not sitemap
+	sed -i -e 's/content=\"cover.png\"/content=\"https:\/\/salif.github.io\/gramati-fe-globasa\/'$(dirname $line)'\/cover.png\"/' $line
 	if [[ "${line}" == *index.html ]]; then
 		line="${line::-10}"
 	fi

@@ -8,7 +8,7 @@ Terjemahan ini dibuat oleh [Salif Mehmed][sm-link] menggunakan model bahasa Goog
 
 Terjemahan juga tersedia [dalam bahasa lain][all-link].
 
-[^1]: Sejauh yang diizinkan oleh hukum, para penulis telah melepaskan semua hak cipta dan hak terkait atau hak yang berdekatan dengan konten situs ini.
+Sejauh yang diizinkan oleh hukum, para penulis telah melepaskan semua hak cipta dan hak terkait atau hak yang berdekatan dengan konten situs ini.
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Indonesisa_Gemini.epub

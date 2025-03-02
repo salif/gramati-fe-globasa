@@ -8,7 +8,7 @@ Bản dịch này được thực hiện bởi [Salif Mehmed][sm-link] sử dụ
 
 Các bản dịch cũng có sẵn [bằng các ngôn ngữ khác][all-link].
 
-[^1]: Trong phạm vi pháp luật cho phép, các tác giả đã từ bỏ mọi bản quyền và các quyền liên quan hoặc lân cận đối với nội dung trang web này.
+Trong phạm vi pháp luật cho phép, các tác giả đã từ bỏ mọi bản quyền và các quyền liên quan hoặc lân cận đối với nội dung trang web này.
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Vyetnamsa_Gemini.epub

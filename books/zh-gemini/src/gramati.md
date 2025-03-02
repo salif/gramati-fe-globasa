@@ -8,7 +8,7 @@
 
 [其他语言版本][all-link] 也可获取。
 
-[^1]: 在法律允许的最大范围内，作者已放弃对此站点内容的所有版权及相关或邻近权利。
+在法律允许的最大范围内，作者已放弃对此站点内容的所有版权及相关或邻近权利。
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Putunhwa_Gemini.epub

@@ -8,7 +8,7 @@
 
 [다른 언어][all-link]로도 번역본을 이용할 수 있습니다.
 
-[^1]: 법률상 허용되는 한도 내에서, 저자들은 이 사이트 콘텐츠에 대한 모든 저작권 및 관련 또는 인접 권리를 포기했습니다.
+법률상 허용되는 한도 내에서, 저자들은 이 사이트 콘텐츠에 대한 모든 저작권 및 관련 또는 인접 권리를 포기했습니다.
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Koreasa_Gemini.epub
