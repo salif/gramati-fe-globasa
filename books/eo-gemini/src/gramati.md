@@ -8,7 +8,7 @@ La tradukon faris [Salif Mehmed][sm-link] uzante la lingvomodelon Google Gemini.
 
 Tradukoj ankaŭ haveblas [en aliaj lingvoj][all-link].
 
-[^1]: Laŭeble laŭ la leĝo, la aŭtoroj rezignis pri ĉiuj kopirajtoj kaj rilataj aŭ najbaraj rajtoj al ĉi tiu reteja enhavo.
+Laŭeble laŭ la leĝo, la aŭtoroj rezignis pri ĉiuj kopirajtoj kaj rilataj aŭ najbaraj rajtoj al ĉi tiu reteja enhavo.
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Esperanto_Gemini.epub

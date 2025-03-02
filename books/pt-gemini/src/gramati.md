@@ -8,7 +8,7 @@ A tradução foi feita por [Salif Mehmed][sm-link] usando o modelo de linguagem 
 
 Traduções também estão disponíveis [em outros idiomas][all-link].
 
-[^1]: Na máxima extensão permitida por lei, os autores renunciaram a todos os direitos autorais e direitos conexos ou vizinhos em relação ao conteúdo deste site.
+Na máxima extensão permitida por lei, os autores renunciaram a todos os direitos autorais e direitos conexos ou vizinhos em relação ao conteúdo deste site.
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/spa/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Portugalsa_Gemini.epub

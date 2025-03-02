@@ -8,7 +8,7 @@ Tafsiri hii imefanywa na [Salif Mehmed][sm-link] kwa kutumia lugha ya akili band
 
 Tafsiri pia zinapatikana [katika lugha zingine][all-link].
 
-[^1]: Kwa kiwango kinachoruhusiwa na sheria, waandishi wameondoa hakimiliki zote na haki zinazohusiana au za jirani kwa maudhui haya ya tovuti.
+Kwa kiwango kinachoruhusiwa na sheria, waandishi wameondoa hakimiliki zote na haki zinazohusiana au za jirani kwa maudhui haya ya tovuti.
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Swahilisa_Gemini.epub

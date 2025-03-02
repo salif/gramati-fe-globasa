@@ -6,7 +6,7 @@ The author of the original content is [the Globasa team][gb-link].
 
 Translations are available [in other languages][all-link].
 
-[^1]: To the extent possible under law, the authors has waived all copyright and related or neighboring rights to this site content.
+To the extent possible under law, the authors has waived all copyright and related or neighboring rights to this site content.
 
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Englisa.epub
 [web-link]:https://salif.github.io/gramati-fe-globasa/eng/

@@ -8,7 +8,7 @@ La traduction a été réalisée par [Salif Mehmed][sm-link] à l'aide du modèl
 
 Des traductions sont également disponibles [dans d'autres langues][all-link].
 
-[^1]: Dans la mesure permise par la loi, les auteurs ont renoncé à tous les droits d'auteur et droits voisins ou connexes sur le contenu de ce site.
+Dans la mesure permise par la loi, les auteurs ont renoncé à tous les droits d'auteur et droits voisins ou connexes sur le contenu de ce site.
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/spa/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Fransesa_Gemini.epub

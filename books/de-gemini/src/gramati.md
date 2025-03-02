@@ -8,7 +8,7 @@ Die Übersetzung wurde von [Salif Mehmed][sm-link] unter Verwendung des Sprachmo
 
 Übersetzungen sind auch [in anderen Sprachen][all-link] verfügbar.
 
-[^1]: Soweit dies nach geltendem Recht zulässig ist, haben die Autoren auf alle Urheberrechte und verwandten Schutzrechte an diesem Seiteninhalt verzichtet.
+Soweit dies nach geltendem Recht zulässig ist, haben die Autoren auf alle Urheberrechte und verwandten Schutzrechte an diesem Seiteninhalt verzichtet.
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Doycisa_Gemini.epub

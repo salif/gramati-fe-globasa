@@ -8,7 +8,7 @@ Onu [EPUB formatında][epub-link] indirebilir veya [çevrimiçi][web-link] okuya
 
 Çeviriler [diğer dillerde][all-link] de mevcuttur.
 
-[^1]: Yasa kapsamında mümkün olan en geniş ölçüde, yazarlar bu site içeriği üzerindeki tüm telif haklarından ve ilgili veya komşu haklardan feragat etmiştir.
+Yasa kapsamında mümkün olan en geniş ölçüde, yazarlar bu site içeriği üzerindeki tüm telif haklarından ve ilgili veya komşu haklardan feragat etmiştir.
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
 [epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Turkisa_Gemini.epub
