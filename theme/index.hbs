@@ -11,7 +11,11 @@
         <base href="{{ base_url }}">
         {{/if}}
 
+        {{#if chapter_title}}
         <meta name="description" content="{{ description }} - {{ chapter_title }}">
+        {{else}}
+        <meta name="description" content="{{ description }}">
+        {{/if}}
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#e1e1db">
 
@@ -338,8 +342,7 @@
         });
         </script>
         {{/if}}
-        {{/if}}
-
+        {{else}}
         <script>
             window.addEventListener("load", function () {
                 if (window.location.hostname === "salif.github.io") {
@@ -350,6 +353,7 @@
                 }
             })
         </script>
+        {{/if}}
     </div>
     </body>
 </html>
