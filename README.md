@@ -29,7 +29,7 @@ Translations of the Complete Globasa Grammar. Fell free to fork this repository 
 ### Add new book
 
 ```sh
-mdbook init ./books/new-book
+mdbook init --ignore=none ./books/new-book
 just --yes sync_theme
 just build
 ```

@@ -1,0 +1,18 @@
+# محتويات
+
+- [مقدمة](./gramati.md)
+- [محتويات](./SUMMARY.md)
+- [الأبجدية والنطق](./abece-ji-lafuzu.md)
+- [كلمات المحتوى: الأسماء، الأفعال، الصفات، والأحوال](./inharelexi.md)
+- [كلمات الوظيفة: أدوات العطف، حروف الجر، وظروف الوظيفة](./gramatilexi.md)
+- [الضمائر](./pornamelexi.md)
+- [الضمائر النسبية](./tabellexi.md)
+- [الأعداد وأشهر السنة](./numer-ji-mesi.md)
+- [أشكال الأفعال](./falelexili-morfo.md)
+- [ترتيب الكلمات: بنية العبارة](./jumlemonli-estrutur.md)
+- [ترتيب الكلمات: بنية الجملة](./jumleli-estrutur.md)
+- [تكوين الكلمات](./lexikostrui.md)
+- [المورفيمات المبتورة](./ofkatado-morfomon.md)
+- [الاختصارات](./kurtogixey.md)
+- [أقسام الكلم](./lexiklase.md)
+- [عبارات وتعبيرات شائعة](./pimpan-logaxey.md)

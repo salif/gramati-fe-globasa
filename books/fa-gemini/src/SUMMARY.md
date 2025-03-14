@@ -1,0 +1,18 @@
+# مطالب
+
+- [مقدمه](./gramati.md)
+- [مطالب](./SUMMARY.md)
+- [الفبا و تلفظ](./abece-ji-lafuzu.md)
+- [کلمات محتوایی: اسم‌ها، فعل‌ها، صفت‌ها و قیدها](./inharelexi.md)
+- [کلمات کارکردی: حروف ربط، حروف اضافه و قیدهای کارکردی](./gramatilexi.md)
+- [ضمایر](./pornamelexi.md)
+- [وابسته‌ها](./tabellexi.md)
+- [اعداد و ماه‌های سال](./numer-ji-mesi.md)
+- [اشکال فعل](./falelexili-morfo.md)
+- [ترتیب کلمات: ساختار عبارت](./jumlemonli-estrutur.md)
+- [ترتیب کلمات: ساختار جمله](./jumleli-estrutur.md)
+- [تشکیل کلمه](./lexikostrui.md)
+- [تکواژهای کوتاه‌شده](./ofkatado-morfomon.md)
+- [مخفف‌ها](./kurtogixey.md)
+- [رده‌های واژگان](./lexiklase.md)
+- [عبارات و اصطلاحات رایج](./pimpan-logaxey.md)

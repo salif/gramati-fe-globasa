@@ -1,0 +1,20 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "ar"
+text-direction = "rtl"
+multilingual = false
+src = "src"
+title = "قواعد غلوباسا"
+description = ""
+
+[output.html]
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/ar-gemini/{path}"
+site-url = "/gramati-fe-globasa/ar-gemini/"
+
+[output.epub]
+cover-image = "cover.png"
+curly-quotes = false

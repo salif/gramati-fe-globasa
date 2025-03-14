@@ -1,0 +1,18 @@
+# תוכן העניינים
+
+- [מָבוֹא](./gramati.md)
+- [תוכן העניינים](./SUMMARY.md)
+- [אלפבית והגייה](./abece-ji-lafuzu.md)
+- [מילות תוכן: שמות עצם, פעלים, שמות תואר ותוארי פועל](./inharelexi.md)
+- [מילות תפקוד: מילות קישור, מילות יחס ומילות תואר הפועל תפקודיות](./gramatilexi.md)
+- [כינויי גוף](./pornamelexi.md)
+- [מילות יחס מקשרות](./tabellexi.md)
+- [מספרים וחודשי השנה](./numer-ji-mesi.md)
+- [צורות פועל](./falelexili-morfo.md)
+- [סדר מילים: מבנה הצירוף](./jumlemonli-estrutur.md)
+- [סדר מילים: מבנה המשפט](./jumleli-estrutur.md)
+- [יצירת מילים](./lexikostrui.md)
+- [מורפמות קטועות](./ofkatado-morfomon.md)
+- [קיצורים](./kurtogixey.md)
+- [מחלקות מילים](./lexiklase.md)
+- [ביטויים וביטויים נפוצים](./pimpan-logaxey.md)
