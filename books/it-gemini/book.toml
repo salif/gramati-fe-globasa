@@ -1,0 +1,19 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "it"
+multilingual = false
+src = "src"
+title = "Grammatica di globasa"
+description = "Traduzione non ufficiale della grammatica della lingua artificiale globasa in italiano"
+
+[output.html]
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/it-gemini/{path}"
+site-url = "/gramati-fe-globasa/it-gemini/"
+
+[output.epub]
+cover-image = "cover.png"
+curly-quotes = false

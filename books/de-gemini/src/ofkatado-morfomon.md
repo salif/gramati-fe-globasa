@@ -11,9 +11,9 @@
 	üblich, dass Funktionswörter aus Inhaltswörtern der Muttersprache entstehen. Tatsächlich haben sich die meisten
 	natürlichen Sprachen auf diese Weise entwickelt und Funktionswörter und grammatische Morpheme hervorgebracht. Eine
 	faszinierende Diskussion zu diesem Thema findet sich in <a
-		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>The
-			Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention</em></a> (Die Entfaltung der
-	Sprache: Eine evolutionäre Reise zur größten Erfindung der Menschheit), von Guy Deutscher.</p>
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>Die
+			Entfaltung der Sprache: Eine evolutionäre Reise zur größten Erfindung der Menschheit</em></a>, von Guy
+	Deutscher.</p>
 <p>Die folgenden Funktionswörter sind <em>abgekürzte Morpheme</em>:</p>
 <ul>
 	<li><strong>cel</strong> (zu, für, um zu) <em>von</em> <strong>cele</strong> (Ziel, Zweck)</li>

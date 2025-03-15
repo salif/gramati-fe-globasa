@@ -5,7 +5,7 @@ text-direction = "rtl"
 multilingual = false
 src = "src"
 title = "قواعد غلوباسا"
-description = ""
+description = "ترجمة غير رسمية لقواعد اللغة المصطنعة غلوباسا (Globasa) إلى العربية"
 
 [output.html]
 default-theme = "rust-clr"

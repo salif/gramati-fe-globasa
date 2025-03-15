@@ -5,7 +5,7 @@ text-direction = "rtl"
 multilingual = false
 src = "src"
 title = "دستور زبان گلوباسا"
-description = ""
+description = "ترجمه غیر رسمی دستور زبان زبان ساختگی گلوباسا (Globasa) به فارسی"
 
 [output.html]
 default-theme = "rust-clr"

@@ -1,0 +1,19 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "pl"
+multilingual = false
+src = "src"
+title = "Gramatyka języka globasa"
+description = "Nieoficjalne tłumaczenie gramatyki sztucznego języka globasa na polski"
+
+[output.html]
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/pl-gemini/{path}"
+site-url = "/gramati-fe-globasa/pl-gemini/"
+
+[output.epub]
+cover-image = "cover.png"
+curly-quotes = false
