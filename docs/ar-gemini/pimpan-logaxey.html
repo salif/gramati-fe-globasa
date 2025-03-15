@@ -1,0 +1,369 @@
+<!DOCTYPE HTML>
+<html lang="ar" class="rust-clr sidebar-visible" dir="rtl">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>عبارات وتعبيرات شائعة - قواعد غلوباسا</title>
+
+        <meta name="description" content=" - عبارات وتعبيرات شائعة">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Custom HTML head -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../custom.css">
+        <meta property="og:title" content="عبارات وتعبيرات شائعة - قواعد غلوباسا">
+        <meta property="og:description" content="">
+        <meta property="og:type" content="book">
+        <meta property="og:image" content="https://salif.github.io/gramati-fe-globasa/ar-gemini/cover.png">
+        <meta property="og:image:width" content="612">
+        <meta property="og:image:height" content="792">
+        <meta property="og:image:type" content="image/png">
+        <meta property="book:author" content="https://salif.eu/">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">قواعد غلوباسا</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/ar-gemini/src/pimpan-logaxey.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    
+                    <main>
+                        <h1 id="عبارات-وتعبيرات-شائعة"><a class="header" href="#عبارات-وتعبيرات-شائعة">عبارات وتعبيرات شائعة</a></h1>
+<p>
+</p>
+<h2 dir="rtl">التحيات</h2>
+<p dir="rtl"><strong>salom</strong> - مرحبًا </p>
+<p dir="rtl"><strong>xanti</strong> - مرحبًا ("سلام") </p>
+<p dir="rtl"><strong>bonsoba</strong> - صباح الخير </p>
+<p dir="rtl"><strong>bonnuru</strong> - نهارك سعيد / مساء الخير </p>
+<p dir="rtl"><strong>bonaxam</strong> - مساء الخير </p>
+<p dir="rtl"><strong>bonnoce</strong> - مساء الخير ("ليلة سعيدة")</p>
+<h2 dir="rtl">الوداع</h2>
+<p dir="rtl"><strong>weda</strong> - مع السلامة </p>
+<p dir="rtl"><strong>xanti</strong> - مع السلامة ("سلام") </p>
+<p dir="rtl"><strong>finfe (rioko)</strong> - أراك لاحقًا </p>
+<p dir="rtl"><strong>finfe xaya</strong> - أراك لاحقًا </p>
+<p dir="rtl"><strong>finfe ner xaya</strong> - أراك قريبًا </p>
+<p dir="rtl"><strong>bon soba</strong> - صباح الخير</p>
+<p dir="rtl"><strong>bon nuru</strong> - نهارك سعيد / مساء الخير</p>
+<p dir="rtl"><strong>bon axam</strong> - مساء الخير </p>
+<p dir="rtl"><strong>bon noce</strong> - ليلة سعيدة </p>
+<h2 dir="rtl">تمنيات أخرى</h2>
+<p dir="rtl">ملاحظة: كما رأينا أعلاه، التحيات التي تبدأ بـ <strong>bon</strong> (جيد، حسنًا) يتم التعبير عنها ككلمات
+	مركبة، في حين يتم التعبير عن الوداع كعبارات من كلمتين. في العبارات التالية، يتم استخدام الكلمات المركبة عندما يبقى
+	المتحدث والمستمع معًا. وبالتالي، فإن الكلمتين الأساسيتين تكونان معًا، مدمجتين في كلمة واحدة. في المقابل، يتم استخدام
+	عبارات مكونة من كلمتين إذا غادر المتحدث أو المستمع. وبالتالي، فإن الكلمات الجذرية تكون منفصلة.</p>
+<p dir="rtl"><strong>bonata</strong> <em>أو</em> <strong>bon ata</strong> - أهلًا وسهلًا </p>
+<p dir="rtl"><strong>bonxanse</strong> <em>أو</em> <strong>bon xanse</strong> - حظًا سعيدًا </p>
+<p dir="rtl"><strong>bonyam</strong> <em>أو</em> <strong>bon yam</strong> - بالهناء والشفاء ("وجبة جيدة") </p>
+<p dir="rtl"><strong>bonglu</strong> <em>أو</em> <strong>bon glu</strong> - في صحتك ("مشروب جيد") </p>
+<p dir="rtl"><strong>bonturi</strong> <em>أو</em> <strong>bon turi</strong> - رحلة موفقة، سفر آمن </p>
+<h2 dir="rtl">التأدب</h2>
+<p dir="rtl"><strong>fe lutuf</strong> - من فضلك </p>
+<p dir="rtl"><strong>xukra</strong> - شكرًا لك </p>
+<p dir="rtl"><strong>multi xukra</strong> - شكرًا جزيلًا </p>
+<p dir="rtl"><strong>no hay seba</strong> - على الرحب والسعة ("لا يوجد سبب") </p>
+<p dir="rtl"><strong>asif</strong> - آسف </p>
+<p dir="rtl"><strong>mafu</strong> - المعذرة، اعذرني </p>
+<h2 dir="rtl">تعابير أخرى</h2>
+<p dir="rtl"><strong>daybon</strong> - عظيم، ممتاز </p>
+<p dir="rtl"><strong>melibon</strong> - لطيف، جميل </p>
+<p dir="rtl"><strong>suprem</strong> - رائع، عظيم، ممتاز </p>
+<p dir="rtl"><strong>otima</strong> - رائع </p>
+<p dir="rtl"><strong>afarin</strong> - أحسنت، عمل جيد ("تصفيق") </p>
+<p dir="rtl"><strong>hura</strong> - يا سلام، يا للفرحة </p>
+<p dir="rtl"><strong>ay</strong> - آخ </p>
+<p dir="rtl"><strong>wao</strong> - واو </p>
+<h2 dir="rtl">حشو الكلام</h2>
+<p dir="rtl"><strong>o</strong> - أوه </p>
+<p dir="rtl"><strong>a</strong> - آه </p>
+<p dir="rtl"><strong>nun</strong> - حسنًا (إذًا)، إذًا، الآن </p>
+<p dir="rtl"><strong>fe folo</strong> - لذلك، وبالتالي </p>
+<p dir="rtl"><strong>fe fato</strong> - في الواقع، فعليًا </p>
+<p dir="rtl"><strong>fe fini</strong> - أخيرًا </p>
+<p dir="rtl"><strong>fe bonxanse</strong> - لحسن الحظ </p>
+<p dir="rtl"><strong>fe asif</strong> - للأسف، لسوء الحظ </p>
+<p dir="rtl"><strong>fe onxala</strong> - نأمل </p>
+<p dir="rtl"><strong>fe misal</strong> - على سبيل المثال </p>
+<p dir="rtl"><strong>fe xugwan</strong> - عادةً </p>
+<p dir="rtl"><strong>fe benji</strong> - في الأساس، بشكل أساسي </p>
+<p dir="rtl"><strong>fe moy kaso</strong> - على أي حال، في أي حال </p>
+<p dir="rtl"><strong>fe alo kaso</strong> - خلاف ذلك </p>
+<p dir="rtl"><strong>maxpul</strong> - علاوة على ذلك </p>
+<p dir="rtl"><strong>pia</strong> - أيضًا </p>
+<p dir="rtl"><strong>abruto</strong> - فجأة </p>
+<p dir="rtl"><strong>e</strong> <em>أو</em> <strong>em</strong> - إيه </p>
+<p dir="rtl"><strong>aham</strong> - فهمت ("أفهم") </p>
+<p dir="rtl"><strong>yakin</strong> - بالتأكيد، حتمًا </p>
+<p dir="rtl"><strong>totalyakin</strong> <em>أو</em> <strong>pulyakin</strong> - إطلاقًا، كليًا </p>
+<p dir="rtl"><strong>mimbay</strong> - بوضوح، بالطبع </p>
+<p dir="rtl"><strong>sipul</strong> - في الواقع </p>
+<p dir="rtl"><strong>okey</strong> - حسنًا، تمام </p>
+<p dir="rtl"><strong>ible</strong> - ربما، من الممكن </p>
+<p dir="rtl"><strong>dayible</strong> - على الأرجح </p>
+<p dir="rtl"><strong>sahi</strong> - صحيح </p>
+<p dir="rtl"><strong>mal</strong> - غير صحيح، خطأ، ليس كذلك </p>
+<p dir="rtl"><strong>sati</strong> - صحيح </p>
+<p dir="rtl"><strong>falso</strong> - خطأ، غير صحيح </p>
+<p dir="rtl"><strong>samaijen</strong> - متفق عليه ("نفس الرأي") </p>
+<p dir="rtl"><strong>Kam sati?</strong> - حقًا؟ </p>
+<p dir="rtl"><strong>Kam jidi?</strong> - بجدية؟ هل أنت جاد؟ </p>
+<p dir="rtl"><strong>Kam yakin?</strong> - هل أنت متأكد؟ </p>
+<p dir="rtl"><strong>Kam bon?</strong> - هل أنت بخير؟ هل أنت جيد؟ هل هذا جيد؟ </p>
+<p dir="rtl"><strong>Kam okey?</strong> - هل هذا جيد؟ هل كل شيء على ما يرام؟ </p>
+<h2 dir="rtl">أسئلة / ردود شائعة</h2>
+<ul>
+	<li dir="rtl"><strong>Yu sen kepul?</strong> <em>أو</em> <strong>Yu kepul?</strong><br /> كيف حالك؟ </li>
+</ul>
+<p dir="rtl"><strong>Daymo bon, ji yu?</strong><br /> بخير، وأنت؟</p>
+<p dir="rtl"><strong>semibon</strong><br /> ليس سيئًا جدًا</p>
+<p dir="rtl"><strong>semi semi</strong><br /> نص نص</p>
+<ul>
+	<li dir="rtl"><strong>Yu name keto?</strong> <em>أو</em> <strong>Yusu name sen keto?</strong><br /> ما اسمك؟</li>
+</ul>
+<p dir="rtl"><strong>Mi name...</strong> <em>أو</em> <strong>Misu name sen...</strong><br /> اسمي...</p>
+<p dir="rtl"><strong>(To sen) yukwe, na xorkone yu.</strong> <em>أو</em> <strong>Yukwe.</strong><br /> سررت بلقائك. أو
+	هذا لطيف.</p>
+<p dir="rtl"><strong>(To sen) furaha, na xorkone yu.</strong> <em>أو</em> <strong>Furaha.</strong><br /> أنا سعيد
+	بلقائك. أو هذه سعادة.</p>
+<p dir="rtl"><strong>(Mi sen) hox na xorkone yu.</strong> <em>أو</em> <strong>Mi sen hox.</strong><br /> (أنا) سعيد
+	بلقائك. أو أنا سعيد.</p>
+<ul>
+	<li dir="rtl"><strong>Yu ogar keloka?</strong><br /> أين تعيش؟</li>
+</ul>
+<p dir="rtl"><strong>Mi ogar in...</strong><br /> أعيش في...</p>
+<ul>
+	<li dir="rtl"><strong>Yu sen of keloka?</strong><br /> من أين أنت؟</li>
+</ul>
+<p dir="rtl"><strong>Mi sen of...</strong><br /> أنا من...</p>
+<ul>
+	<li dir="rtl"><strong>Yu sen kemo lao?</strong> <em>أو</em> <strong>Yu sen fe ke nyan?</strong><br /> كم عمرك؟ </li>
+</ul>
+<p dir="rtl"><strong>Mi sen lao fe... (nyan).</strong> <em>أو</em> <strong>Mi sen fe... (nyan).</strong><br /> عمري...
+	سنة/سنوات.</p>
+<ul>
+	<li dir="rtl"><strong>Kam yu (pala) Globasa?</strong><br /> هل تتحدث الغلوباسا؟</li>
+</ul>
+<p dir="rtl"><strong>Si, xosu.</strong><br /> نعم، قليلًا.</p>
+<ul>
+	<li dir="rtl"><strong>Yu pala ke basa?</strong><br /> ما هي اللغة (اللغات) التي تتحدثها؟ </li>
+</ul>
+<p dir="rtl"><strong>Mi pala...</strong><br /> أتحدث...</p>
+<ul>
+	<li dir="rtl"><strong>Kam yu aham?</strong><br /> هل تفهم؟</li>
+</ul>
+<p dir="rtl"><strong>(Si,) mi aham.</strong><br /> (نعم،) أفهم. </p>
+<p dir="rtl"><strong>(No,) mi no aham.</strong><br /> (لا،) لا أفهم.</p>
+<ul>
+	<li dir="rtl"><strong>Ren loga... kemaner (in Globasa)?</strong><br /> كيف تقول... (بلغة غلوباسا)؟</li>
+</ul>
+<p dir="rtl"><strong>In Globasa, ren loga...</strong><br /> (بلغة غلوباسا)، تقول... </p>
+<h2 dir="rtl">عبارات شائعة</h2>
+<p dir="rtl"><strong>Mi jixi.</strong><br /> أعرف.</p>
+<p dir="rtl"><strong>Mi no jixi.</strong><br /> لا أعرف.</p>
+<p dir="rtl"><strong>Mi lubi yu.</strong><br /> أحبك.</p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="lexiklase.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="lexiklase.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+
+    </div>
+    </body>
+</html>

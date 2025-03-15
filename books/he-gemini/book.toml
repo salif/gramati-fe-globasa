@@ -1,0 +1,20 @@
+[book]
+authors = ["Salif Mehmed"]
+language = "he"
+text-direction = "rtl"
+multilingual = false
+src = "src"
+title = "דקדוק גלובאסה"
+description = ""
+
+[output.html]
+default-theme = "rust-clr"
+preferred-dark-theme = "mocha-clr"
+smart-punctuation = false
+git-repository-url = "https://codeberg.org/salif/gramati-fe-globasa"
+edit-url-template = "https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/he-gemini/{path}"
+site-url = "/gramati-fe-globasa/he-gemini/"
+
+[output.epub]
+cover-image = "cover.png"
+curly-quotes = false

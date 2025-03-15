@@ -1,0 +1,405 @@
+<!DOCTYPE HTML>
+<html lang="he" class="rust-clr sidebar-visible" dir="rtl">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>כינויי גוף - דקדוק גלובאסה</title>
+
+        <meta name="description" content=" - כינויי גוף">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Custom HTML head -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../custom.css">
+        <meta property="og:title" content="כינויי גוף - דקדוק גלובאסה">
+        <meta property="og:description" content="">
+        <meta property="og:type" content="book">
+        <meta property="og:image" content="https://salif.github.io/gramati-fe-globasa/he-gemini/cover.png">
+        <meta property="og:image:width" content="612">
+        <meta property="og:image:height" content="792">
+        <meta property="og:image:type" content="image/png">
+        <meta property="book:author" content="https://salif.eu/">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">דקדוק גלובאסה</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/he-gemini/src/pornamelexi.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    
+                    <main>
+                        <h1 id="כינויי-גוף"><a class="header" href="#כינויי-גוף">כינויי גוף</a></h1>
+<p>
+</p>
+<h2 id="כינויי-גוף-נושאמושא"><a class="header" href="#כינויי-גוף-נושאמושא">כינויי גוף נושא/מושא</a></h2>
+<p>כינויי הגוף נושא/מושא בגלובאסה הם כדלקמן:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>יחיד</i></b></th>
+			<th><b><i>רבים</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>גוף ראשון</i></b></th>
+			<td><b>mi</b> - אני, אותי</td>
+			<td><b>imi</b> - אנחנו, אותנו</td>
+		</tr>
+		<tr>
+			<th><b><i>גוף שני</i></b></th>
+			<td><b>yu</b> - אתה, את, אתכם/אתכן, אותך, אתכם/אתכן</td>
+			<td><b>uyu</b> - אתם, אתן, אתכם/אתכן, אותכם/אתכן</td>
+		</tr>
+		<tr>
+			<th><b><i>גוף שלישי<br />(חי)</i></b></th>
+			<td><b>te</b> - הוא, היא, אותו, אותה, זה (לחי)</td>
+			<td><b>ete</b> - הם, הן, אותם, אותן</td>
+		</tr>
+		<tr>
+			<th><b><i>גוף שלישי<br />(דומם)</i></b></th>
+			<td><b>to</b> - זה (לדומם)</td>
+			<td><b>oto</b> - הם, אותם (לדומם)</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>ren</b> - אדם, מישהו</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>se</b> - 'כינוי גוף חוזר' (עצמי, עצמך, עצמה, עצמו, עצמנו, עצמם/ן) </td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>da</b> - 'כינוי זיקה' (אשר, שהוא, שהיא, שזה, שהם)</td>
+		</tr>
+	</tbody>
+</table>
+<p>הכינויים הנייטרליים מבחינה מגדרית <strong>te</strong> ו-<strong>ete</strong> משמשים לכל היצורים החיים וחפצים מואנשים.
+	אם יש צורך להדגיש את המגדר, ניתן להשתמש בתארים <strong>fem</strong> ו-<strong>man</strong>, המשמשים גם לשמות עצם,
+	כתחיליות.</p>
+<ul>
+	<li><strong>femte</strong> - היא</li>
+	<li><strong>mante</strong> - הוא</li>
+	<li><strong>femete</strong>/<strong>manete</strong> - הם/הן</li>
+</ul>
+<h3 id="he"><a class="header" href="#he">he</a></h3>
+<p>המילה <strong>he</strong> משמשת עם כינויי גוף נושא כדי להביע הדגשה.</p>
+<p><strong>he mi</strong> - אני עצמי<br />
+	<strong>he yu</strong> - אתה עצמך / את עצמך<br /> וכו'
+</p>
+<h2 id="תוארי-קניין"><a class="header" href="#תוארי-קניין">תוארי קניין <span id="suyali_sifalexi"></span></a></h2>
+<p>תוארי הקניין נגזרים מכינויי הגוף על ידי הוספת הסיומת <strong>-su</strong>:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>יחיד</i></b></th>
+			<th><b><i>רבים</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>גוף ראשון</i></b></th>
+			<td><b>misu</b> - שלי</td>
+			<td><b>imisu</b> - שלנו</td>
+		</tr>
+		<tr>
+			<th><b><i>גוף שני</i></b></th>
+			<td><b>yusu</b> - שלךָ, שלךְ, שלכם/שלכן</td>
+			<td><b>uyusu</b> - שלכם, שלכן</td>
+		</tr>
+		<tr>
+			<th><b><i>גוף שלישי<br />חי</i></b></th>
+			<td><b>tesu</b> - שלה, שלו, של זה (לחי)</td>
+			<td><b>etesu</b> - שלהם, שלהן</td>
+		</tr>
+		<tr>
+			<th><b><i>גוף שלישי<br />דומם</i></b></th>
+			<td><b>tosu</b> - של זה (לדומם)</td>
+			<td><b>otosu</b> - שלהם (לדומם)</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>rensu</b> - של מישהו/אדם</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>sesu</b> - שלי, שלך, שלה, שלו, שלנו, שלהם </td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>dasu</b> - (בפסוקיות זיקה) שלה, שלו, של זה, שלהם </td>
+		</tr>
+	</tbody>
+</table>
+<p>כמו בכינויי הגוף, תוארי הקניין הנייטרליים מבחינה מגדרית <strong>tesu</strong> ו-<strong>etesu</strong> משמשים בדרך
+	כלל לכל היצורים החיים בגוף שלישי. אם יש צורך להדגיש את המגדר, ניתן להשתמש בתחיליות <strong>fem</strong>
+	ו-<strong>man</strong>.</p>
+<ul>
+	<li><strong>femtesu</strong> - שלה</li>
+	<li><strong>mantesu</strong> - שלו</li>
+	<li><strong>femetesu</strong>/<strong>manetesu</strong> - שלהם/שלהן</li>
+</ul>
+<h2 id="כינויי-קניין-חבורים"><a class="header" href="#כינויי-קניין-חבורים">כינויי קניין חבורים</a></h2>
+<p>כינויי הקניין החבורים נגזרים מתוארי הקניין על ידי הוספת כינוי הגוף <strong>(e)te</strong> או <strong>(o)to</strong>:
+</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>יחיד</i></b></th>
+			<th><b><i>רבים</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>גוף ראשון</i></b></th>
+			<td><b>misu te/to</b> - שלי</td>
+			<td><b>imisu te/to</b> - שלנו</td>
+		</tr>
+		<tr>
+			<th><b><i>גוף שני</i></b></th>
+			<td><b>yusu te/to</b> - שלךָ/שלךְ/שלכם/שלכן</td>
+			<td><b>uyusu te/to</b> - שלכם/שלכן</td>
+		</tr>
+		<tr>
+			<th><b><i>גוף שלישי<br />חי</i></b></th>
+			<td><b>tesu te/to</b> - שלה, שלו, של זה</td>
+			<td><b>etesu te/to</b> - שלהם/שלהן</td>
+		</tr>
+		<tr>
+			<th><b><i>גוף שלישי<br />דומם</i></b></th>
+			<td><b>tosu te/to</b> - של זה</td>
+			<td><b>otosu te/to</b> - שלהם</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>rensu te/to</b> - של האדם עצמו</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>sesu te/to</b> - שלי, שלך, שלה, שלו, שלנו, שלהם </td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="כינויי-גוף-בגוף-שלישי-בסוף-צירופי-שם"><a class="header" href="#כינויי-גוף-בגוף-שלישי-בסוף-צירופי-שם">כינויי גוף בגוף שלישי בסוף צירופי שם</a></h3>
+<p>כפי שניתן לראות תחת מילות קישור, כינויי גוף בגוף שלישי (<strong>te</strong>/<strong>to</strong> ו-
+	<strong>ete</strong>/<strong>oto</strong>) משמשים עבור כינויי גוף קוֹרֶלָטיביים (correlative pronouns) מכיוון שאחרי
+	מיליות יידוע (<strong>ke</strong>, <strong>hin</strong>, <strong>den</strong>, וכו') חייבת תמיד לבוא מילת (כינוי)
+	שם. ראה <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">צירופי שם</a>.</p>
+<p>באופן דומה, <strong>(e)te</strong>/<strong>(o)to</strong> משמשים בסוף צירופי שם כאשר שם העצם מובן.</p>
+<p><em>סיבה אחת לכלל זה, כפי שמודגם להלן, היא שמכיוון שלשמות עצם ולפעלים יש את אותה צורה בגלובאסה, השארת מילית יידוע או
+		תואר ללא (כינוי) שם עלולה להתפרש בטעות כמתארת את שם העצם/פועל שמיד לאחריהם.</em></p>
+<p><strong>Multi <em>te</em> pala sol in Englisa.</strong><br /> רבים (<em>אנשים</em>) מדברים רק אנגלית.</p>
+<p><em>סיבה נוספת, כפי שמודגם להלן, היא שגלובאסה אינה משתמשת בתווית יידוע. לכן, בעוד שבאנגלית ניתן להשתמש בתארים כשמות
+		עצם, בגלובאסה זה לא אפשרי.</em></p>
+<p><strong>bon <em>te</em>, bur <em>te</em> ji colo <em>te</em></strong><br /> הטוב (<em>אחד</em>), הרע (<em>אחד</em>)
+	והמכוער (<em>אחד</em>)</p>
+<p>שימו לב גם שלמרות ש-<strong>te</strong> ו-<strong>to</strong> הם כינויי גוף ביחיד, ניתן להשתמש בהם באופן אופציונלי עם
+	מילים המציינות ריבוי, כגון <strong>max</strong>, <strong>min</strong>, <strong>multi</strong>,
+	<strong>xosu</strong>. </p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="gramatilexi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="tabellexi.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="gramatilexi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="tabellexi.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+
+    </div>
+    </body>
+</html>
