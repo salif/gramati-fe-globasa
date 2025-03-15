@@ -10,9 +10,9 @@
 	người ta thường thấy các hư từ phát sinh từ các từ chỉ nội dung từ ngôn ngữ gốc. Trên thực tế, đây là cách hầu hết
 	các ngôn ngữ tự nhiên đã phát triển và tạo ra các hư từ và các hình vị ngữ pháp. Để có một cuộc thảo luận hấp dẫn về
 	chủ đề này, hãy xem <a
-		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>The
-			Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention</em></a>, của Guy Deutscher.
-	(Tạm dịch: Sự Hé Mở Của Ngôn Ngữ: Một Hành Trình Tiến Hóa Về Phát Minh Vĩ Đại Nhất Của Loài Người)</p>
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>Tạm
+			dịch: Sự Hé Mở Của Ngôn Ngữ: Một Hành Trình Tiến Hóa Về Phát Minh Vĩ Đại Nhất Của Loài Người</em></a>, của
+	Guy Deutscher.</p>
 <p>Các hư từ sau đây là <em>từ tố rút gọn</em>:</p>
 <ul>
 	<li><strong>cel</strong> (tới, cho, để) <em>từ</em> <strong>cele</strong> (mục tiêu, mục đích)</li>

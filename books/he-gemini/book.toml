@@ -5,7 +5,7 @@ text-direction = "rtl"
 multilingual = false
 src = "src"
 title = "דקדוק גלובאסה"
-description = ""
+description = "תרגום לא רשמי של הדקדוק של השפה המובנית גלובאסה (Globasa) לעברית"
 
 [output.html]
 default-theme = "rust-clr"

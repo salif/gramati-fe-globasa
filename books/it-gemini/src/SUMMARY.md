@@ -1,0 +1,18 @@
+# Indice
+
+- [Introduzione](./gramati.md)
+- [Indice](./SUMMARY.md)
+- [Alfabeto e pronuncia](./abece-ji-lafuzu.md)
+- [Parole di contenuto: Sostantivi, verbi, aggettivi e avverbi](./inharelexi.md)
+- [Parole funzionali: Congiunzioni, preposizioni e avverbi funzionali](./gramatilexi.md)
+- [Pronomi](./pornamelexi.md)
+- [Correlativi](./tabellexi.md)
+- [Numeri e mesi dell'anno](./numer-ji-mesi.md)
+- [Forme verbali](./falelexili-morfo.md)
+- [Ordine delle parole: Struttura della frase](./jumlemonli-estrutur.md)
+- [Ordine delle parole: Struttura del periodo](./jumleli-estrutur.md)
+- [Formazione delle parole](./lexikostrui.md)
+- [Morfemi troncati](./ofkatado-morfomon.md)
+- [Abbreviazioni](./kurtogixey.md)
+- [Classi di Parole](./lexiklase.md)
+- [Frasi ed espressioni comuni](./pimpan-logaxey.md)

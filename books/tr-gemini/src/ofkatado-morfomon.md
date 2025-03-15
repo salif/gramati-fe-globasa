@@ -10,9 +10,8 @@
 	gelen içerik kelimelerinden ortaya çıktığını görmek yaygındır. Aslında, çoğu doğal dil bu şekilde evrimleşmiş ve
 	işlev kelimeleri ve dilbilgisel morfemler üretmiştir. Bu konuyla ilgili büyüleyici bir tartışma için Guy Deutscher
 	tarafından yazılan <a
-		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>The
-			Unfolding of Language: An Evolutionary Tour of Mankind's Greatest Invention</em></a> (Dilin Açılımı:
-	İnsanlığın En Büyük Buluşunun Evrimsel Bir Gezisi) adlı kitaba bakın.</p>
+		href="https://www.amazon.com/Unfolding-Language-Evolutionary-Mankinds-Invention/dp/0805080120/ref=sr_1_1"><em>Dilin
+			Açılımı: İnsanlığın En Büyük Buluşunun Evrimsel Bir Gezisi</em></a> adlı kitaba bakın.</p>
 <p>Aşağıdaki işlev kelimeleri <em>kısaltılmış morfemlerdir</em>:</p>
 <ul>
 	<li><strong>cel</strong> (e, için, -mek için) <em>-den</em> <strong>cele</strong> (hedef, amaç)</li>

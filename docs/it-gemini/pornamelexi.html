@@ -1,0 +1,409 @@
+<!DOCTYPE HTML>
+<html lang="it" class="rust-clr sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Pronomi - Grammatica di globasa</title>
+
+        <meta name="description" content="Traduzione non ufficiale della grammatica della lingua artificiale globasa in italiano - Pronomi">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e1e1db">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Custom HTML head -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../custom.css">
+        <meta property="og:title" content="Pronomi - Grammatica di globasa">
+        <meta property="og:description" content="Traduzione non ufficiale della grammatica della lingua artificiale globasa in italiano">
+        <meta property="og:type" content="book">
+        <meta property="og:image" content="https://salif.github.io/gramati-fe-globasa/it-gemini/cover.png">
+        <meta property="og:image:width" content="612">
+        <meta property="og:image:height" content="792">
+        <meta property="og:image:type" content="image/png">
+        <meta property="book:author" content="https://salif.eu/">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust-clr')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-clr">Rust bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust-sans">Rust sans</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-clr">Mocha bold</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha-sans">Mocha sans</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Grammatica di globasa</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://codeberg.org/salif/gramati-fe-globasa/_edit/main/books/it-gemini/src/pornamelexi.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    
+                    <main>
+                        <h1 id="pronomi"><a class="header" href="#pronomi">Pronomi</a></h1>
+<p>
+</p>
+<h2 id="pronomi-soggettooggetto"><a class="header" href="#pronomi-soggettooggetto">Pronomi soggetto/oggetto</a></h2>
+<p>I pronomi soggetto/oggetto di globasa sono i seguenti:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>singolare</i></b></th>
+			<th><b><i>plurale</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>1a persona</i></b></th>
+			<td><b>mi</b> - io, me</td>
+			<td><b>imi</b> - noi</td>
+		</tr>
+		<tr>
+			<th><b><i>2a persona</i></b></th>
+			<td><b>yu</b> - tu, te; Lei</td>
+			<td><b>uyu</b> - voi</td>
+		</tr>
+		<tr>
+			<th><b><i>3a persona<br />(animata)</i></b></th>
+			<td><b>te</b> - lui, lo, lei, la, le</td>
+			<td><b>ete</b> - loro, li, le</td>
+		</tr>
+		<tr>
+			<th><b><i>3a persona<br />(inanimata)</i></b></th>
+			<td><b>to</b> - esso, essa</td>
+			<td><b>oto</b> - essi, esse, li, le</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>ren</b> - uno, si (impersonale)</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>se</b> - pronome riflessivo (me stesso, te stesso, sé stesso, noi stessi, voi stessi,
+				loro stessi) </td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>da</b> - pronome relativo (lui/esso/loro, lei/essa/loro)</td>
+		</tr>
+	</tbody>
+</table>
+<p>Gli aggettivi di genere neutro <strong>te</strong> e <strong>ete</strong> sono usati per tutti gli esseri viventi e
+	gli oggetti personificati. Se è necessario evidenziare il genere, si possono usare come prefissi gli aggettivi
+	<strong>fem</strong> e <strong>man</strong>, che sono anche usati per i sostantivi.</p>
+<ul>
+	<li><strong>femte</strong> - lei</li>
+	<li><strong>mante</strong> - lui</li>
+	<li><strong>femete</strong>/<strong>manete</strong> - loro (femminile) / loro (maschile)</li>
+</ul>
+<h3 id="he"><a class="header" href="#he">he</a></h3>
+<p>La particella <strong>he</strong> si usa con i pronomi personali per esprimere enfasi.</p>
+<p><strong>he mi</strong> - io stesso<br />
+	<strong>he yu</strong> - tu stesso<br /> ecc.
+</p>
+<h2 id="aggettivi-possessivi"><a class="header" href="#aggettivi-possessivi">Aggettivi possessivi <span id="suyali_sifalexi"></span></a></h2>
+<p>Gli aggettivi possessivi derivano dai pronomi aggiungendo il suffisso <strong>-su</strong>:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>singolare</i></b></th>
+			<th><b><i>plurale</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>1a persona</i></b></th>
+			<td><b>misu</b> - mio/mia/miei/mie</td>
+			<td><b>imisu</b> - nostro/nostra/nostri/nostre</td>
+		</tr>
+		<tr>
+			<th><b><i>2a persona</i></b></th>
+			<td><b>yusu</b> - tuo/tua/tuoi/tue</td>
+			<td><b>uyusu</b> - vostro/vostra/vostri/vostre</td>
+		</tr>
+		<tr>
+			<th><b><i>3a persona<br />animata</i></b></th>
+			<td><b>tesu</b> - suo/sua/suoi/sue (di lui/lei)</td>
+			<td><b>etesu</b> - suo/sua/suoi/sue (di loro)</td>
+		</tr>
+		<tr>
+			<th><b><i>3a persona<br />inanimata</i></b></th>
+			<td><b>tosu</b> - suo/sua/suoi/sue (di esso/essa)</td>
+			<td><b>otosu</b> - suo/sua/suoi/sue (di essi/esse)</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>rensu</b> - di uno, proprio</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>sesu</b> - mio, tuo, suo, nostro, vostro, loro (proprio/a/i/e) </td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>dasu</b> - (proposizioni relative) il cui, la cui, i cui, le cui </td>
+		</tr>
+	</tbody>
+</table>
+<p>Come nel caso dei pronomi, gli aggettivi possessivi <strong>tesu</strong> e <strong>etesu</strong>, di genere neutro,
+	sono usati normalmente per tutti gli esseri animati alla terza persona. Se è necessario enfatizzare il genere, si
+	possono usare i prefissi <strong>fem</strong> e <strong>man</strong>.</p>
+<ul>
+	<li><strong>femtesu</strong> - suo/sua (di lei)</li>
+	<li><strong>mantesu</strong> - suo/sua (di lui)</li>
+	<li><strong>femetesu</strong>/<strong>manetesu</strong> - loro (di loro femmine / di loro maschi)</li>
+</ul>
+<h2 id="pronomi-possessivi"><a class="header" href="#pronomi-possessivi">Pronomi possessivi</a></h2>
+<p>I pronomi possessivi si derivano dagli aggettivi possessivi aggiungendo i pronomi <strong>(e)te</strong> o
+	<strong>(o)to</strong>:</p>
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td></td>
+			<th><b><i>singolare</i></b></th>
+			<th><b><i>plurale</i></b></th>
+		</tr>
+		<tr>
+			<th><b><i>1a persona</i></b></th>
+			<td><b>misu te/to</b> - mio/mia</td>
+			<td><b>imisu te/to</b> - nostro/nostra</td>
+		</tr>
+		<tr>
+			<th><b><i>2a persona</i></b></th>
+			<td><b>yusu te/to</b> - tuo/tua</td>
+			<td><b>uyusu te/to</b> - vostro/vostra</td>
+		</tr>
+		<tr>
+			<th><b><i>3a persona<br />animata</i></b></th>
+			<td><b>tesu te/to</b> - suo/sua (di lui, di lei)</td>
+			<td><b>etesu te/to</b> - loro</td>
+		</tr>
+		<tr>
+			<th><b><i>3a persona<br />inanimata</i></b></th>
+			<td><b>tosu te/to</b> - suo/sua (di esso/essa)</td>
+			<td><b>otosu te/to</b> - loro</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="3"><b>rensu te/to</b> - di uno, proprio</td>
+		</tr>
+		<tr>
+			<td colspan="3"><b>sesu te/to</b> - proprio, ecc. </td>
+		</tr>
+	</tbody>
+</table>
+<h3 id="pronomi-di-terza-persona-alla-fine-dei-sintagmi-nominali"><a class="header" href="#pronomi-di-terza-persona-alla-fine-dei-sintagmi-nominali">Pronomi di terza persona alla fine dei sintagmi nominali</a></h3>
+<p>Come visto in Correlativi, i pronomi di terza persona (<strong>te</strong>/<strong>to</strong> e
+	<strong>ete</strong>/<strong>oto</strong>) sono usati per i pronomi correlativi, dato che i determinanti
+	(<strong>ke</strong>, <strong>hin</strong>, <strong>den</strong>, ecc.) devono essere sempre seguiti da un
+	sostantivo o pronome. Vedi <a href="./jumlemonli-estrutur.html#pornamelexi_in_namelexili_jumlemon">Sintagmi
+		nominali</a>. </p>
+<p>Allo stesso modo, <strong>(e)te</strong>/<strong>(o)to</strong> sono usati alla fine dei sintagmi nominali quando il
+	sostantivo è implicito. </p>
+<p><em>Una ragione per questa regola, come illustrato di seguito, è che, poiché i sostantivi e i verbi hanno la stessa
+		forma in globasa, lasciare un determinante o un aggettivo senza un sostantivo o pronome può potenzialmente
+		essere confuso come modificatore del sostantivo/verbo che lo segue immediatamente.</em></p>
+<p><strong>Multi <em>te</em> pala sol in Englisa.</strong><br /> Molti (<em>molte persone</em>) parlano solo inglese.
+</p>
+<p><em>Un'altra ragione, come illustrato di seguito, è che globasa non usa articoli. Pertanto, mentre l'italiano può
+		usare aggettivi come sostantivi, globasa non può.</em></p>
+<p><strong>bon <em>te</em>, bur <em>te</em> ji colo <em>te</em></strong><br /> il buono, il brutto e il cattivo</p>
+<p>Si noti anche che, sebbene <strong>te</strong> e <strong>to</strong> siano pronomi singolari, possono essere usati
+	opzionalmente con parole che denotano pluralità, come <strong>max</strong>, <strong>min</strong>,
+	<strong>multi</strong>, <strong>xosu</strong>. </p>
+<p></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="gramatilexi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="tabellexi.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="gramatilexi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="tabellexi.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script>
+            window.addEventListener("load", function () {
+                if (window.location.hostname === "salif.github.io") {
+                    (function (c_, o_, u_, n_, t_, e_, r_) {
+                        e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+                        e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+                    })(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+                }
+            })
+        </script>
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+# Spis treści
+
+- [Wprowadzenie](./gramati.md)
+- [Spis treści](./SUMMARY.md)
+- [Alfabet i wymowa](./abece-ji-lafuzu.md)
+- [Słowa treściwe: Rzeczowniki, Czasowniki, Przymiotniki i Przysłówki](./inharelexi.md)
+- [Słowa funkcyjne: Spójniki, przyimki i przysłówki funkcyjne](./gramatilexi.md)
+- [Zaimki](./pornamelexi.md)
+- [Korelatywy](./tabellexi.md)
+- [Liczby i miesiące roku](./numer-ji-mesi.md)
+- [Formy czasownika](./falelexili-morfo.md)
+- [Szyk wyrazów: Struktura frazy](./jumlemonli-estrutur.md)
+- [Szyk wyrazów: Struktura zdania](./jumleli-estrutur.md)
+- [Tworzenie słów](./lexikostrui.md)
+- [Zredukowane morfemy](./ofkatado-morfomon.md)
+- [Skróty](./kurtogixey.md)
+- [Klasy Słów](./lexiklase.md)
+- [Typowe zwroty i wyrażenia](./pimpan-logaxey.md)
