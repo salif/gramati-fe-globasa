@@ -27,7 +27,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Wakati Uliopo Sahili</th>
+			<th colspan="3">Wakati Uliopo Sahili</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -74,7 +74,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Wakati Uliopita Sahili</th>
+			<th colspan="3">Wakati Uliopita Sahili</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -101,7 +101,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Wakati Ujao Sahili</th>
+			<th colspan="3">Wakati Ujao Sahili</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -127,7 +127,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Wakati Uliopita na Ujao wa Karibu</th>
+			<th colspan="3">Wakati Uliopita na Ujao wa Karibu</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -169,7 +169,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Nyakati Mchanganyiko za Wakati Uliopo</th>
+			<th colspan="3">Nyakati Mchanganyiko za Wakati Uliopo</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -200,7 +200,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Nyakati Mchanganyiko za Wakati Uliopita</th>
+			<th colspan="3">Nyakati Mchanganyiko za Wakati Uliopita</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -231,7 +231,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Nyakati Mchanganyiko za Wakati Ujao</th>
+			<th colspan="3">Nyakati Mchanganyiko za Wakati Ujao</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -280,7 +280,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Hali ya Masharti</th>
+			<th colspan="3">Hali ya Masharti</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -309,7 +309,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kauli ya Kutendwa</th>
+			<th colspan="3">Kauli ya Kutendwa</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -349,7 +349,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Hali ya Amri na Hali ya Jussive</th>
+			<th colspan="3">Hali ya Amri na Hali ya Jussive</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -390,8 +390,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Ukanushaji</th>
-			<th> </th>
+			<th colspan="2">Ukanushaji</th>
 		</tr>
 	</thead>
 	<tbody>

@@ -29,7 +29,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Temps du présent simple</th>
+			<th colspan="3">Temps du présent simple</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -77,7 +77,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Temps du passé simple</th>
+			<th colspan="3">Temps du passé simple</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -104,7 +104,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Temps du futur simple</th>
+			<th colspan="3">Temps du futur simple</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -131,7 +131,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Temps du passé et du futur immédiat</th>
+			<th colspan="3">Temps du passé et du futur immédiat</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -174,7 +174,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Temps présents composés</th>
+			<th colspan="3">Temps présents composés</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -205,7 +205,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Temps passés composés</th>
+			<th colspan="3">Temps passés composés</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -236,7 +236,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Temps futurs composés</th>
+			<th colspan="3">Temps futurs composés</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -285,7 +285,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Mode conditionnel</th>
+			<th colspan="3">Mode conditionnel</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -314,7 +314,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Voix passive</th>
+			<th colspan="3">Voix passive</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -355,7 +355,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Modes impératif et jussif</th>
+			<th colspan="3">Modes impératif et jussif</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -398,8 +398,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Négation</th>
-			<th> </th>
+			<th colspan="2">Négation</th>
 		</tr>
 	</thead>
 	<tbody>

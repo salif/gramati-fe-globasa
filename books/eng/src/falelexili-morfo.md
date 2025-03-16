@@ -27,7 +27,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Simple Present Tenses</th>
+			<th colspan="3">Simple Present Tenses</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -73,7 +73,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Simple Past Tenses</th>
+			<th colspan="3">Simple Past Tenses</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -100,7 +100,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Simple Future Tenses</th>
+			<th colspan="3">Simple Future Tenses</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -126,7 +126,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Immediate Past and Future Tenses</th>
+			<th colspan="3">Immediate Past and Future Tenses</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -168,7 +168,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Compound Present Tenses</th>
+			<th colspan="3">Compound Present Tenses</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -199,7 +199,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Compound Past Tenses</th>
+			<th colspan="3">Compound Past Tenses</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -230,7 +230,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Compound Future Tenses</th>
+			<th colspan="3">Compound Future Tenses</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -279,7 +279,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Conditional Mood</th>
+			<th colspan="3">Conditional Mood</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -308,7 +308,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Passive Voice</th>
+			<th colspan="3">Passive Voice</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -348,7 +348,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Imperative and Jussive Moods</th>
+			<th colspan="3">Imperative and Jussive Moods</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -390,8 +390,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Negation</th>
-			<th> </th>
+			<th colspan="2">Negation</th>
 		</tr>
 	</thead>
 	<tbody>

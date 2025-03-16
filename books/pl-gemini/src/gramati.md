@@ -4,7 +4,7 @@ Niniejsza książka zawiera polskie tłumaczenie publikacji [Kompletna gramatyka
 Można ją pobrać w [formacie EPUB][epub-link] lub przeczytać [online][web-link].
 
 Autorem [oryginalnej treści][oc-link] jest [zespół twórców języka globasa][gb-link].
-Tłumaczenie zostało wykonane przez [Salifa Mehmeda][sm-link] przy użyciu modelu językowego Google Gemini.
+Tłumaczenie zostało wykonane przez [Salif Mehmed][sm-link] przy użyciu modelu językowego Google Gemini.
 
 Dostępne są również tłumaczenia [w innych językach][all-link].
 

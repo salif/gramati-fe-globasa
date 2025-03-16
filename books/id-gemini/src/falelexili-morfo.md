@@ -28,7 +28,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kala Kini Sederhana</th>
+			<th colspan="3">Kala Kini Sederhana</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -75,7 +75,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kala Lampau Sederhana</th>
+			<th colspan="3">Kala Lampau Sederhana</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -102,7 +102,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kala Depan Sederhana</th>
+			<th colspan="3">Kala Depan Sederhana</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -128,7 +128,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kala Lampau dan Depan Dekat</th>
+			<th colspan="3">Kala Lampau dan Depan Dekat</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -170,7 +170,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kala Kini Majemuk</th>
+			<th colspan="3">Kala Kini Majemuk</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -201,7 +201,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kala Lampau Majemuk</th>
+			<th colspan="3">Kala Lampau Majemuk</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -232,7 +232,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kala Depan Majemuk</th>
+			<th colspan="3">Kala Depan Majemuk</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -281,7 +281,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Modus Kondisional</th>
+			<th colspan="3">Modus Kondisional</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -310,7 +310,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Suara Pasif</th>
+			<th colspan="3">Suara Pasif</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -350,7 +350,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Modus Imperatif dan Jusif</th>
+			<th colspan="3">Modus Imperatif dan Jusif</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -392,8 +392,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Negasi</th>
-			<th> </th>
+			<th colspan="2">Negasi</th>
 		</tr>
 	</thead>
 	<tbody>

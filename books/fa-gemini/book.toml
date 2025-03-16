@@ -4,7 +4,7 @@ language = "fa"
 text-direction = "rtl"
 multilingual = false
 src = "src"
-title = "دستور زبان گلوباسا"
+title = "گرامر گلوباسا"
 description = "ترجمه غیر رسمی دستور زبان زبان ساختگی گلوباسا (Globasa) به فارسی"
 
 [output.html]

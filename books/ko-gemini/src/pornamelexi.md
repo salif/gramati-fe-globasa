@@ -31,8 +31,6 @@
 			<td><b>oto</b> - 그것들, 그것들을</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - (불특정) 사람</td>
 		</tr>
 		<tr>
@@ -85,8 +83,6 @@
 			<td><b>otosu</b> - 그것들의</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - (불특정) 사람의</td>
 		</tr>
 		<tr>
@@ -132,8 +128,6 @@
 			<th><b><i>3인칭<br />무정</i></b></th>
 			<td><b>tosu te/to</b> - 그것의 것</td>
 			<td><b>otosu te/to</b> - 그것들의 것</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - (불특정) 사람 자신의 것</td>

@@ -31,8 +31,6 @@
 			<td><b>oto</b> - eles/elas (para coisas), os, as</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - a gente, alguém</td>
 		</tr>
 		<tr>
@@ -87,8 +85,6 @@
 			<td><b>otosu</b> - seu/sua (deles/delas - coisas)</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - de alguém</td>
 		</tr>
 		<tr>
@@ -136,8 +132,6 @@
 			<th><b><i>3ª pessoa<br />inanimada</i></b></th>
 			<td><b>tosu te/to</b> - seu/sua (disso)</td>
 			<td><b>otosu te/to</b> - seu/sua (deles - coisas)</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - de alguém</td>

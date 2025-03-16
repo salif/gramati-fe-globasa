@@ -22,7 +22,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>단순 현재 시제</th>
+			<th colspan="3">단순 현재 시제</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -64,7 +64,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>단순 과거 시제</th>
+			<th colspan="3">단순 과거 시제</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -91,7 +91,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>단순 미래 시제</th>
+			<th colspan="3">단순 미래 시제</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -117,7 +117,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>직전 과거 및 직후 미래 시제</th>
+			<th colspan="3">직전 과거 및 직후 미래 시제</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -153,7 +153,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>복합 현재 시제</th>
+			<th colspan="3">복합 현재 시제</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -184,7 +184,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>복합 과거 시제</th>
+			<th colspan="3">복합 과거 시제</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -215,7 +215,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>복합 미래 시제</th>
+			<th colspan="3">복합 미래 시제</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -261,7 +261,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>가정법</th>
+			<th colspan="3">가정법</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -290,7 +290,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>수동태</th>
+			<th colspan="3">수동태</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -327,7 +327,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>명령법과 권유법</th>
+			<th colspan="3">명령법과 권유법</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -363,8 +363,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>부정</th>
-			<th> </th>
+			<th colspan="2">부정</th>
 		</tr>
 	</thead>
 	<tbody>

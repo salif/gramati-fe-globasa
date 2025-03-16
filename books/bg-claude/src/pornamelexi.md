@@ -31,8 +31,6 @@
 			<td><b>oto</b> - те, тях</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - човек</td>
 		</tr>
 		<tr>
@@ -86,8 +84,6 @@
 			<td><b>otosu</b> - техен, тяхна, тяхно</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - на човека</td>
 		</tr>
 		<tr>
@@ -135,8 +131,6 @@
 			<th><b><i>3-то лице<br />неодушевено</i></b></th>
 			<td><b>tosu te/to</b> - неговият, неговата, неговото</td>
 			<td><b>otosu te/to</b> - техният, тяхната, тяхното</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - този на човека</td>

@@ -27,7 +27,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Czasy teraźniejsze proste</th>
+			<th colspan="3">Czasy teraźniejsze proste</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -74,7 +74,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Czasy przeszłe proste</th>
+			<th colspan="3">Czasy przeszłe proste</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -102,7 +102,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Czasy przyszłe proste</th>
+			<th colspan="3">Czasy przyszłe proste</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -129,7 +129,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Czasy przeszłe i przyszłe bezpośrednie</th>
+			<th colspan="3">Czasy przeszłe i przyszłe bezpośrednie</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -172,7 +172,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Złożone czasy teraźniejsze</th>
+			<th colspan="3">Złożone czasy teraźniejsze</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -203,7 +203,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Złożone czasy przeszłe</th>
+			<th colspan="3">Złożone czasy przeszłe</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -234,7 +234,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Złożone czasy przyszłe</th>
+			<th colspan="3">Złożone czasy przyszłe</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -282,7 +282,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Tryb warunkowy</th>
+			<th colspan="3">Tryb warunkowy</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -312,7 +312,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Strona bierna</th>
+			<th colspan="3">Strona bierna</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -353,7 +353,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Tryb rozkazujący i tryb życzący</th>
+			<th colspan="3">Tryb rozkazujący i tryb życzący</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -394,8 +394,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Przeczenie</th>
-			<th> </th>
+			<th colspan="2">Przeczenie</th>
 		</tr>
 	</thead>
 	<tbody>

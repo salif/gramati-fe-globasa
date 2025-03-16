@@ -24,7 +24,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>זמני הווה פשוט</th>
+			<th colspan="3">זמני הווה פשוט</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -68,7 +68,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>זמני עבר פשוט</th>
+			<th colspan="3">זמני עבר פשוט</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -95,7 +95,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>זמני עתיד פשוט</th>
+			<th colspan="3">זמני עתיד פשוט</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -121,7 +121,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>זמני עבר ועתיד מיידיים</th>
+			<th colspan="3">זמני עבר ועתיד מיידיים</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -160,7 +160,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>זמני הווה מורכבים</th>
+			<th colspan="3">זמני הווה מורכבים</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -191,7 +191,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>זמני עבר מורכבים</th>
+			<th colspan="3">זמני עבר מורכבים</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -222,7 +222,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>זמני עתיד מורכבים</th>
+			<th colspan="3">זמני עתיד מורכבים</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -269,7 +269,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>מצב התנאי</th>
+			<th colspan="3">מצב התנאי</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -298,7 +298,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>סביל</th>
+			<th colspan="3">סביל</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -337,7 +337,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>מצבי ציווי וזירוז</th>
+			<th colspan="3">מצבי ציווי וזירוז</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -376,8 +376,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>שלילה</th>
-			<th> </th>
+			<th colspan="2">שלילה</th>
 		</tr>
 	</thead>
 	<tbody>

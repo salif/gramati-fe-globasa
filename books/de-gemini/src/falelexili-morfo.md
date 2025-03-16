@@ -29,7 +29,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Einfache Präsensformen</th>
+			<th colspan="3">Einfache Präsensformen</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -76,7 +76,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Einfache Vergangenheitsformen</th>
+			<th colspan="3">Einfache Vergangenheitsformen</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -104,7 +104,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Einfache Zukunftsformen</th>
+			<th colspan="3">Einfache Zukunftsformen</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -131,7 +131,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Unmittelbare Vergangenheit und Zukunft</th>
+			<th colspan="3">Unmittelbare Vergangenheit und Zukunft</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -175,7 +175,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Zusammengesetzte Präsensformen</th>
+			<th colspan="3">Zusammengesetzte Präsensformen</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -206,7 +206,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Zusammengesetzte Vergangenheitsformen</th>
+			<th colspan="3">Zusammengesetzte Vergangenheitsformen</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -237,7 +237,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Zusammengesetzte Zukunftsformen</th>
+			<th colspan="3">Zusammengesetzte Zukunftsformen</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -287,7 +287,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Konditional</th>
+			<th colspan="3">Konditional</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -316,7 +316,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Passiv</th>
+			<th colspan="3">Passiv</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -358,7 +358,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Imperativ und Jussiv</th>
+			<th colspan="3">Imperativ und Jussiv</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -400,8 +400,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Negation</th>
-			<th> </th>
+			<th colspan="2">Negation</th>
 		</tr>
 	</thead>
 	<tbody>

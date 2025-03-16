@@ -31,8 +31,6 @@
 			<td><b>oto</b> - onlar (cansız), onlara (cansız)</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - biri</td>
 		</tr>
 		<tr>
@@ -86,8 +84,6 @@
 			<td><b>otosu</b> - onların (cansız)</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - birinin</td>
 		</tr>
 		<tr>
@@ -135,8 +131,6 @@
 			<th><b><i>3. kişi<br />cansız</i></b></th>
 			<td><b>tosu te/to</b> - onunki (cansız)</td>
 			<td><b>otosu te/to</b> - onlarınki (cansız)</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - birininki</td>

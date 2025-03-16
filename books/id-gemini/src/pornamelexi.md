@@ -31,8 +31,6 @@
 			<td><b>oto</b> - mereka, -nya (jamak)</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - seseorang, orang (umum)</td>
 		</tr>
 		<tr>
@@ -87,8 +85,6 @@
 			<td><b>otosu</b> - -mereka, punya mereka</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - punya seseorang, punya orang (umum)</td>
 		</tr>
 		<tr>
@@ -137,8 +133,6 @@
 			<th><b><i>Orang ketiga<br />tidak bernyawa</i></b></th>
 			<td><b>tosu te/to</b> - miliknya</td>
 			<td><b>otosu te/to</b> - milik mereka</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - milik seseorang</td>

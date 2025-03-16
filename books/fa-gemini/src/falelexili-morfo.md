@@ -27,7 +27,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>زمان‌های حال ساده</th>
+			<th colspan="3">زمان‌های حال ساده</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -72,7 +72,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>زمان‌های گذشته ساده</th>
+			<th colspan="3">زمان‌های گذشته ساده</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -99,7 +99,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>زمان‌های آینده ساده</th>
+			<th colspan="3">زمان‌های آینده ساده</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -125,7 +125,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>زمان‌های گذشته و آینده قریب‌الوقوع</th>
+			<th colspan="3">زمان‌های گذشته و آینده قریب‌الوقوع</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -166,7 +166,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>زمان‌های حال مرکب</th>
+			<th colspan="3">زمان‌های حال مرکب</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -197,7 +197,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>زمان‌های گذشته مرکب</th>
+			<th colspan="3">زمان‌های گذشته مرکب</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -228,7 +228,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>زمان‌های آینده مرکب</th>
+			<th colspan="3">زمان‌های آینده مرکب</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -276,7 +276,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>وجه شرطی</th>
+			<th colspan="3">وجه شرطی</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -305,7 +305,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>حالت مجهول</th>
+			<th colspan="3">حالت مجهول</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -345,7 +345,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>وجه‌های امری و دعایی</th>
+			<th colspan="3">وجه‌های امری و دعایی</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -385,8 +385,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>نفی</th>
-			<th> </th>
+			<th colspan="2">نفی</th>
 		</tr>
 	</thead>
 	<tbody>

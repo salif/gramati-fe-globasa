@@ -26,7 +26,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Geniş Zamanlar</th>
+			<th colspan="3">Geniş Zamanlar</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -72,7 +72,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Basit Geçmiş Zamanlar</th>
+			<th colspan="3">Basit Geçmiş Zamanlar</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -99,7 +99,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Basit Gelecek Zamanlar</th>
+			<th colspan="3">Basit Gelecek Zamanlar</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -125,7 +125,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Yakın Geçmiş ve Gelecek Zamanlar</th>
+			<th colspan="3">Yakın Geçmiş ve Gelecek Zamanlar</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -167,7 +167,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Bileşik Geniş Zamanlar</th>
+			<th colspan="3">Bileşik Geniş Zamanlar</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -198,7 +198,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Bileşik Geçmiş Zamanlar</th>
+			<th colspan="3">Bileşik Geçmiş Zamanlar</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -229,7 +229,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Bileşik Gelecek Zamanlar</th>
+			<th colspan="3">Bileşik Gelecek Zamanlar</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -277,7 +277,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Koşul Kipi</th>
+			<th colspan="3">Koşul Kipi</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -306,7 +306,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Edilgen Çatı</th>
+			<th colspan="3">Edilgen Çatı</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -346,7 +346,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Emir ve Rica Kipleri</th>
+			<th colspan="3">Emir ve Rica Kipleri</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -386,8 +386,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Olumsuzluk</th>
-			<th> </th>
+			<th colspan="2">Olumsuzluk</th>
 		</tr>
 	</thead>
 	<tbody>

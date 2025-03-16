@@ -27,7 +27,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Simplaj Presencaj Tempoj</th>
+			<th colspan="3">Simplaj Presencaj Tempoj</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -73,7 +73,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Simplaj Preteritaj Tempoj</th>
+			<th colspan="3">Simplaj Preteritaj Tempoj</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -100,7 +100,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Simplaj Estontaj Tempoj</th>
+			<th colspan="3">Simplaj Estontaj Tempoj</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -126,7 +126,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Tujaj Preteritaj kaj Estontaj Tempoj</th>
+			<th colspan="3">Tujaj Preteritaj kaj Estontaj Tempoj</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -168,7 +168,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kunmetitaj Presencaj Tempoj</th>
+			<th colspan="3">Kunmetitaj Presencaj Tempoj</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -199,7 +199,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kunmetitaj Preteritaj Tempoj</th>
+			<th colspan="3">Kunmetitaj Preteritaj Tempoj</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -230,7 +230,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kunmetitaj Estontaj Tempoj</th>
+			<th colspan="3">Kunmetitaj Estontaj Tempoj</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -279,7 +279,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Kondiĉa Modo</th>
+			<th colspan="3">Kondiĉa Modo</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -308,7 +308,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Pasiva Voĉo</th>
+			<th colspan="3">Pasiva Voĉo</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -348,7 +348,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Imperativa kaj Jussiva Modoj</th>
+			<th colspan="3">Imperativa kaj Jussiva Modoj</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -390,8 +390,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Nego</th>
-			<th> </th>
+			<th colspan="2">Nego</th>
 		</tr>
 	</thead>
 	<tbody>

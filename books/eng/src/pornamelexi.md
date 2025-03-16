@@ -31,8 +31,6 @@
 			<td><b>oto</b> - they, them</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - one</td>
 		</tr>
 		<tr>
@@ -87,8 +85,6 @@
 			<td><b>otosu</b> - their</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - one's</td>
 		</tr>
 		<tr>
@@ -136,8 +132,6 @@
 			<th><b><i>3rd person<br />inanimate</i></b></th>
 			<td><b>tosu te/to</b> - its</td>
 			<td><b>otosu te/to</b> - theirs</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - one's own</td>

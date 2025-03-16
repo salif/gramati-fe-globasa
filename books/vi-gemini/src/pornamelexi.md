@@ -31,8 +31,6 @@
 			<td><b>oto</b> - chúng nó</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - người ta, một người nào đó</td>
 		</tr>
 		<tr>
@@ -87,8 +85,6 @@
 			<td><b>otosu</b> - của chúng nó</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - của người ta</td>
 		</tr>
 		<tr>
@@ -137,8 +133,6 @@
 			<th><b><i>ngôi thứ ba<br />chỉ vật</i></b></th>
 			<td><b>tosu te/to</b> - cái của nó</td>
 			<td><b>otosu te/to</b> - cái của chúng nó</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - của riêng người ta</td>

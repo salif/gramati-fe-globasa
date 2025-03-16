@@ -26,7 +26,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Các Thì Hiện Tại Đơn</th>
+			<th colspan="3">Các Thì Hiện Tại Đơn</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -72,7 +72,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Các Thì Quá Khứ Đơn</th>
+			<th colspan="3">Các Thì Quá Khứ Đơn</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -100,7 +100,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Các Thì Tương Lai Đơn</th>
+			<th colspan="3">Các Thì Tương Lai Đơn</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -126,7 +126,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Các Thì Quá Khứ và Tương Lai Gần</th>
+			<th colspan="3">Các Thì Quá Khứ và Tương Lai Gần</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -169,7 +169,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Các Thì Hiện Tại Phức Hợp</th>
+			<th colspan="3">Các Thì Hiện Tại Phức Hợp</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -200,7 +200,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Các Thì Quá Khứ Phức Hợp</th>
+			<th colspan="3">Các Thì Quá Khứ Phức Hợp</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -231,7 +231,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Các Thì Tương Lai Phức Hợp</th>
+			<th colspan="3">Các Thì Tương Lai Phức Hợp</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -279,7 +279,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Thể Điều Kiện</th>
+			<th colspan="3">Thể Điều Kiện</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -308,7 +308,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Thể Bị Động</th>
+			<th colspan="3">Thể Bị Động</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -348,7 +348,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Thể Mệnh Lệnh và Thể Thỉnh Cầu</th>
+			<th colspan="3">Thể Mệnh Lệnh và Thể Thỉnh Cầu</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -389,8 +389,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Phủ Định</th>
-			<th> </th>
+			<th colspan="2">Phủ Định</th>
 		</tr>
 	</thead>
 	<tbody>
