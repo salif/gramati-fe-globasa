@@ -31,8 +31,6 @@
 			<td><b>oto</b> - ils, elles, les, eux</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - on</td>
 		</tr>
 		<tr>
@@ -87,8 +85,6 @@
 			<td><b>otosu</b> - leur, leurs (à eux/elles)</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - d'on, de quelqu'un</td>
 		</tr>
 		<tr>
@@ -137,8 +133,6 @@
 			<th><b><i>3ème personne<br />inanimée</i></b></th>
 			<td><b>tosu te/to</b> - le sien, la sienne, les siens, les siennes (à lui/elle/ça)</td>
 			<td><b>otosu te/to</b> - le leur, la leur, les leurs (à eux, à elles)</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - le/la/les sien(ne)(s) de quelqu'un</td>

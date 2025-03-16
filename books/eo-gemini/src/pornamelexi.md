@@ -31,8 +31,6 @@
 			<td><b>oto</b> - ili</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - oni</td>
 		</tr>
 		<tr>
@@ -86,8 +84,6 @@
 			<td><b>otosu</b> - ilia</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - onia</td>
 		</tr>
 		<tr>
@@ -135,8 +131,6 @@
 			<th><b><i>3-a persono<br />nevivaĵo</i></b></th>
 			<td><b>tosu te/to</b> - ĝia</td>
 			<td><b>otosu te/to</b> - ilia</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - onia</td>

@@ -31,8 +31,6 @@
 			<td><b>oto</b> - essi, esse, li, le</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - uno, si (impersonale)</td>
 		</tr>
 		<tr>
@@ -87,8 +85,6 @@
 			<td><b>otosu</b> - suo/sua/suoi/sue (di essi/esse)</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - di uno, proprio</td>
 		</tr>
 		<tr>
@@ -136,8 +132,6 @@
 			<th><b><i>3a persona<br />inanimata</i></b></th>
 			<td><b>tosu te/to</b> - suo/sua (di esso/essa)</td>
 			<td><b>otosu te/to</b> - loro</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - di uno, proprio</td>

@@ -31,8 +31,6 @@
 			<td><b>oto</b> - one, ich</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - ktoś, się (zaimek nieokreślony)</td>
 		</tr>
 		<tr>
@@ -86,8 +84,6 @@
 			<td><b>otosu</b> - ich</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - czyjś</td>
 		</tr>
 		<tr>
@@ -136,8 +132,6 @@
 			<th><b><i>3. osoba<br />nieżywotna</i></b></th>
 			<td><b>tosu te/to</b> - jego</td>
 			<td><b>otosu te/to</b> - ich</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - czyjś</td>

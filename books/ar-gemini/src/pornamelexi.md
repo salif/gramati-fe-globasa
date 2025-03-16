@@ -31,8 +31,6 @@
 			<td><b>oto</b> - هم، هن (لغير العاقل)</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - الواحد، المرء</td>
 		</tr>
 		<tr>
@@ -86,8 +84,6 @@
 			<td><b>otosu</b> - ـهم/ـهن (لغير العاقل)</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - ملك المرء</td>
 		</tr>
 		<tr>
@@ -134,8 +130,6 @@
 			<th><b><i>الغائب<br />غير العاقل</i></b></th>
 			<td><b>tosu te/to</b> - ملكه/ملكها (لغير العاقل)</td>
 			<td><b>otosu te/to</b> - ملكهم/ملكهن (لغير العاقل)</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - ملك المرء الخاص</td>

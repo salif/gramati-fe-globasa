@@ -28,7 +28,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Просто сегашно време</th>
+			<th colspan="3">Просто сегашно време</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -75,7 +75,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Минало просто време</th>
+			<th colspan="3">Минало просто време</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -102,7 +102,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Просто бъдеще време</th>
+			<th colspan="3">Просто бъдеще време</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -129,7 +129,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Непосредствено минало и бъдеще време</th>
+			<th colspan="3">Непосредствено минало и бъдеще време</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -171,7 +171,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Сложни сегашни времена</th>
+			<th colspan="3">Сложни сегашни времена</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -202,7 +202,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Сложни минали времена</th>
+			<th colspan="3">Сложни минали времена</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -233,7 +233,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Сложни бъдещи времена</th>
+			<th colspan="3">Сложни бъдещи времена</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -281,7 +281,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Условно наклонение</th>
+			<th colspan="3">Условно наклонение</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -310,7 +310,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Страдателен залог</th>
+			<th colspan="3">Страдателен залог</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -350,7 +350,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Повелително и желателно наклонение</th>
+			<th colspan="3">Повелително и желателно наклонение</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -392,8 +392,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Отрицание</th>
-			<th> </th>
+			<th colspan="2">Отрицание</th>
 		</tr>
 	</thead>
 	<tbody>

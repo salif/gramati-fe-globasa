@@ -31,8 +31,6 @@
 			<td><b>oto</b> - הם, אותם (לדומם)</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - אדם, מישהו</td>
 		</tr>
 		<tr>
@@ -86,8 +84,6 @@
 			<td><b>otosu</b> - שלהם (לדומם)</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - של מישהו/אדם</td>
 		</tr>
 		<tr>
@@ -135,8 +131,6 @@
 			<th><b><i>גוף שלישי<br />דומם</i></b></th>
 			<td><b>tosu te/to</b> - של זה</td>
 			<td><b>otosu te/to</b> - שלהם</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - של האדם עצמו</td>

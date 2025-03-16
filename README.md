@@ -24,7 +24,7 @@ Translations of the Complete Globasa Grammar.
 | 🇨🇳 Putunhwa | [格洛巴萨语法](https://salif.github.io/gramati-fe-globasa/zh-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇮🇳 Hindi | [ग्लोबासा व्याकरण](https://salif.github.io/gramati-fe-globasa/hi-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇮🇱 Ivrisa | [דקדוק גלובאסה](https://salif.github.io/gramati-fe-globasa/he-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
-| 🇮🇷 Parsisa | [دستور زبان گلوباسا](https://salif.github.io/gramati-fe-globasa/fa-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
+| 🇮🇷 Parsisa | [گرامر گلوباسا](https://salif.github.io/gramati-fe-globasa/fa-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇸🇦 Arabisa | [قواعد غلوباسا](https://salif.github.io/gramati-fe-globasa/ar-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇻🇳 Vyetnamsa | [Ngữ pháp Globasa](https://salif.github.io/gramati-fe-globasa/vi-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇹🇿 Swahilisa | [Sarufi ya Globasa](https://salif.github.io/gramati-fe-globasa/sw-gemini/) | Gemini Pro Experimental | 2025-02 | eng |

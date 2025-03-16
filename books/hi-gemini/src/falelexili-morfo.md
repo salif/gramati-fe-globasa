@@ -27,7 +27,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>सरल वर्तमान काल</th>
+			<th colspan="3">सरल वर्तमान काल</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -74,7 +74,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>सरल भूतकाल</th>
+			<th colspan="3">सरल भूतकाल</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -101,7 +101,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>सरल भविष्य काल</th>
+			<th colspan="3">सरल भविष्य काल</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -127,7 +127,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>निकट भूत और भविष्य काल</th>
+			<th colspan="3">निकट भूत और भविष्य काल</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -169,7 +169,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>संयुक्त वर्तमान काल</th>
+			<th colspan="3">संयुक्त वर्तमान काल</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -200,7 +200,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>संयुक्त भूतकाल</th>
+			<th colspan="3">संयुक्त भूतकाल</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -231,7 +231,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>संयुक्त भविष्य काल</th>
+			<th colspan="3">संयुक्त भविष्य काल</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -279,7 +279,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>सशर्त मनोदशा</th>
+			<th colspan="3">सशर्त मनोदशा</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -308,7 +308,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>कर्मवाच्य</th>
+			<th colspan="3">कर्मवाच्य</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -349,7 +349,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>आदेशात्मक और प्रोत्साहनात्मक मनोदशा</th>
+			<th colspan="3">आदेशात्मक और प्रोत्साहनात्मक मनोदशा</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -390,8 +390,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>निषेध</th>
-			<th> </th>
+			<th colspan="2">निषेध</th>
 		</tr>
 	</thead>
 	<tbody>

@@ -31,8 +31,6 @@
 			<td><b>oto</b> - آن‌ها</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>ren</b> - آدم، شخص</td>
 		</tr>
 		<tr>
@@ -86,8 +84,6 @@
 			<td><b>otosu</b> - مالِ آن‌ها</td>
 		</tr>
 		<tr>
-		</tr>
-		<tr>
 			<td colspan="3"><b>rensu</b> - مالِ شخص</td>
 		</tr>
 		<tr>
@@ -134,8 +130,6 @@
 			<th><b><i>سوم شخص<br />بی‌جان</i></b></th>
 			<td><b>tosu te/to</b> - مالِ آن</td>
 			<td><b>otosu te/to</b> - مالِ آن‌ها</td>
-		</tr>
-		<tr>
 		</tr>
 		<tr>
 			<td colspan="3"><b>rensu te/to</b> - متعلق به شخص</td>

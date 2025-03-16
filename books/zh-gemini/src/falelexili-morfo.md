@@ -21,7 +21,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>一般现在时</th>
+			<th colspan="3">一般现在时</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -62,7 +62,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>一般过去时</th>
+			<th colspan="3">一般过去时</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -89,7 +89,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>一般将来时</th>
+			<th colspan="3">一般将来时</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -115,7 +115,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>最近的过去时和将来时</th>
+			<th colspan="3">最近的过去时和将来时</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -150,7 +150,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>复合现在时</th>
+			<th colspan="3">复合现在时</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -181,7 +181,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>复合过去时</th>
+			<th colspan="3">复合过去时</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -212,7 +212,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>复合将来时</th>
+			<th colspan="3">复合将来时</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -257,7 +257,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>条件语气</th>
+			<th colspan="3">条件语气</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -286,7 +286,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>被动语态</th>
+			<th colspan="3">被动语态</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -323,7 +323,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>祈使语气和命令语气</th>
+			<th colspan="3">祈使语气和命令语气</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -359,8 +359,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>否定</th>
-			<th> </th>
+			<th colspan="2">否定</th>
 		</tr>
 	</thead>
 	<tbody>

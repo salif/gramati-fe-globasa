@@ -22,7 +22,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>単純現在時制</th>
+			<th colspan="3">単純現在時制</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -64,7 +64,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>単純過去時制</th>
+			<th colspan="3">単純過去時制</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -91,7 +91,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>単純未来時制</th>
+			<th colspan="3">単純未来時制</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -117,7 +117,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>直近の過去と未来時制</th>
+			<th colspan="3">直近の過去と未来時制</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -152,7 +152,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>複合現在時制</th>
+			<th colspan="3">複合現在時制</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -183,7 +183,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>複合過去時制</th>
+			<th colspan="3">複合過去時制</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -214,7 +214,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>複合未来時制</th>
+			<th colspan="3">複合未来時制</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -260,7 +260,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>仮定法</th>
+			<th colspan="3">仮定法</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -289,7 +289,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>受動態</th>
+			<th colspan="3">受動態</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -326,7 +326,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>命令法と勧誘法</th>
+			<th colspan="3">命令法と勧誘法</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -363,8 +363,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>否定</th>
-			<th> </th>
+			<th colspan="2">否定</th>
 		</tr>
 	</thead>
 	<tbody>

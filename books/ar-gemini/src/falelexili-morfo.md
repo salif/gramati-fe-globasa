@@ -24,7 +24,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>أزمنة المضارع البسيط</th>
+			<th colspan="3">أزمنة المضارع البسيط</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -69,7 +69,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>أزمنة الماضي البسيط</th>
+			<th colspan="3">أزمنة الماضي البسيط</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -96,7 +96,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>أزمنة المستقبل البسيط</th>
+			<th colspan="3">أزمنة المستقبل البسيط</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -122,7 +122,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>أزمنة الماضي والمستقبل القريبين</th>
+			<th colspan="3">أزمنة الماضي والمستقبل القريبين</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -163,7 +163,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>أزمنة المضارع المركبة</th>
+			<th colspan="3">أزمنة المضارع المركبة</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -194,7 +194,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>أزمنة الماضي المركبة</th>
+			<th colspan="3">أزمنة الماضي المركبة</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -225,7 +225,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>أزمنة المستقبل المركبة</th>
+			<th colspan="3">أزمنة المستقبل المركبة</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -272,7 +272,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>صيغة الشرط</th>
+			<th colspan="3">صيغة الشرط</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -301,7 +301,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>صيغة المبني للمجهول</th>
+			<th colspan="3">صيغة المبني للمجهول</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -341,7 +341,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>صيغتا الأمر والالتماس</th>
+			<th colspan="3">صيغتا الأمر والالتماس</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -381,8 +381,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>النفي</th>
-			<th> </th>
+			<th colspan="2">النفي</th>
 		</tr>
 	</thead>
 	<tbody>

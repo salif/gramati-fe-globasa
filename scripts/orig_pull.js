@@ -42,6 +42,9 @@ function fixPageContent(content, pageName, bookName) {
 		if (newContent.includes('style="ancho:100%"')) console.log(`Found 'style="ancho:100%"' on ${pageName}`)
 		newContent = newContent.replaceAll('style="ancho:100%"', 'style="width:100%"')
 	}
+	if (pageName === "pornamelexi") {
+		newContent = newContent.replaceAll("<tr>\n  </tr>\n", "")
+	}
 	if (pageName === "abece-ji-lafuzu") {
 		if (bookName === "spa") {
 			newContent = newContent.replaceAll(
@@ -105,7 +108,16 @@ function fixPageContent(content, pageName, bookName) {
 				'<table style="width:100%" class="large-table">')
 	}
 	if (pageName === "falelexili-morfo") {
-		newContent = newContent.replace('&nbsp;', ' ')
+		if (bookName === "spa") {
+			newContent = newContent.replace(
+				'<th>Negación</th>\n<th>&nbsp;</th>\n',
+				'<th colspan="2">Negación</th>')
+		} else {
+			newContent = newContent.replace(
+				'<th>Negation</th>\n<th>&nbsp;</th>\n',
+				'<th colspan="2">Negation</th>')
+		}
+		newContent = newContent.replaceAll('<th>', '<th colspan="3">')
 	}
 	if (pageName === "ofkatado-morfomon") {
 		newContent = newContent.replace(
