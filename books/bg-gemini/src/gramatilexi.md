@@ -55,10 +55,10 @@
 <p>Ако съществителното име е подразбиращо се, се използва местоимение (<strong>te</strong>/<strong>to</strong> или
 	<strong>ete</strong>/<strong>oto</strong>):</p>
 <p><strong>To de Maria sen day.</strong><br /> Тази на Мария е голяма.</p>
-<p>Суфиксът <strong>-su</strong> се добавя към местоименията, за да образува притежателни прилагателни. По подобен начин
-	частицата <strong><a href="https://menalari.globasa.net/eng/lexi/su">su</a></strong> се използва за изразяване на
-	притежание от съществителни имена и е еквивалентна на английския притежателен суфикс <em>'s</em>. За разлика от
-	английския език, обаче, <strong>su</strong> се използва като отделна дума.</p>
+<p>Наставката <strong>-su</strong> се добавя към местоименията, за да образува притежателни прилагателни. По подобен
+	начин частицата <strong><a href="https://menalari.globasa.net/eng/lexi/su">su</a></strong> се използва за изразяване
+	на притежание от съществителни имена и е еквивалентна на английската притежателна наставка <em>'s</em>. За разлика
+	от английския език, обаче, <strong>su</strong> се използва като отделна дума.</p>
 <p><strong>Maria su baytu sen day.</strong><br /> Къщата на Мария е голяма.</p>
 <p>Ако съществителното име е подразбиращо се, се използва местоимение (<strong>te</strong>/<strong>to</strong> или
 	<strong>ete</strong>/<strong>oto</strong>):</p>
@@ -268,13 +268,13 @@
 			<li><strong>durki</strong> - докато <em>+ изречение</em></li>
 		</ul>
 	</li>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>префикс</em>) край, стигам
-		до [<strong>fini</strong> - завършвам/свършвам] <ul>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>представка</em>) край,
+		стигам до [<strong>fini</strong> - завършвам/свършвам] <ul>
 			<li><strong>finfe</strong> - (<em>предл.</em>) до <em>+ съществително име</em></li>
 			<li><strong>finki</strong> - (<em>съюз</em>) докато <em>+ изречение</em></li>
 		</ul>
 	</li>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/xor-">xor-</a></strong> - (<em>префикс</em>) начало
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/xor-">xor-</a></strong> - (<em>представка</em>) начало
 		[<strong>xoru</strong> - започвам/стартирам] <ul>
 			<li><strong>xorfe</strong> - (<em>предл.</em>) от, откакто <em>+ съществително име</em></li>
 			<li><strong>xorki</strong> - (<em>съюз</em>) (откакто) <em>+ изречение</em></li>
@@ -308,8 +308,8 @@
 			<li>(<strong>fe</strong>) <strong>nunli din</strong> - в наши дни</li>
 		</ul>
 	</li>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ja-">ja-</a></strong> - (<em>префикс</em>) непосредствено
-		съседен [<strong>jara</strong> - съсед] <ul>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ja-">ja-</a></strong> - (<em>представка</em>)
+		непосредствено съседен [<strong>jara</strong> - съсед] <ul>
 			<li><strong>jali</strong> - съседен</li>
 		</ul>
 	</li>

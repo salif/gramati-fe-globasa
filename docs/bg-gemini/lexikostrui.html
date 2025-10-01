@@ -41,10 +41,11 @@
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+            const path_to_root = "";
+            const default_light_theme = "rust-clr";
+            const default_dark_theme = "mocha-clr";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
@@ -54,8 +55,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -69,7 +70,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -82,8 +84,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -119,6 +121,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
@@ -180,8 +183,8 @@
 <p>
 </p>
 <h2 id="Част-на-речта-на-думи-с-афикси"><a class="header" href="#Част-на-речта-на-думи-с-афикси">Част на речта на думи с афикси</a></h2>
-<p>Префиксите не променят частта на речта на думата, към която са прикрепени. От друга страна, суфиксите го правят и се
-	дефинират като прилагателни/наречия суфикси или съществителни/глаголни суфикси.</p>
+<p>Представките не променят частта на речта на думата, към която са прикрепени. От друга страна, наставките го правят и
+	се дефинират като прилагателни/наречия наставки или съществителни/глаголни наставки.</p>
 <h2 id="Граматически-афикси"><a class="header" href="#Граматически-афикси">Граматически афикси</a></h2>
 <ul>
 	<li><strong><a href="./pornamelexi.html#suyali_sifalexi">-su</a>:</strong> притежателни прилагателни</li>
@@ -197,7 +200,7 @@
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> герундий; <em>обичаен/продължителен глаголен
 			аспект</em></li>
 </ul>
-<h2 id="Префикси"><a class="header" href="#Префикси">Префикси <span id="lefefikso"></span></a></h2>
+<h2 id="Представки"><a class="header" href="#Представки">Представки <span id="lefefikso"></span></a></h2>
 <ul>
 	<li><strong>aw-:</strong> отсъстващ, далеч <ul>
 			<li><strong>awidi</strong> - напускам, отивам си (<em>idi</em> - <em>отивам</em>); <strong>awglu</strong> -
@@ -272,7 +275,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Суфикси-за-прилагателнинаречия"><a class="header" href="#Суфикси-за-прилагателнинаречия">Суфикси за прилагателни/наречия</a></h2>
+<h2 id="Наставки-за-прилагателнинаречия"><a class="header" href="#Наставки-за-прилагателнинаречия">Наставки за прилагателни/наречия</a></h2>
 <ul>
 	<li><strong>-do:</strong> в неактивно състояние (превръща съществителните имена в <em>неактивни прилагателни</em>)
 		<ul>
@@ -300,7 +303,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Суфикси-за-съществителни-имена"><a class="header" href="#Суфикси-за-съществителни-имена">Суфикси за съществителни имена</a></h2>
+<h2 id="Наставки-за-съществителни-имена"><a class="header" href="#Наставки-за-съществителни-имена">Наставки за съществителни имена</a></h2>
 <ul>
 	<li><strong>-gon:</strong> -ъгълник (<em>геометрична фигура</em>) [<strong>gona</strong> - ъгъл] <ul>
 			<li><strong>tigagon</strong> - триъгълник (<em>tiga - три</em>); <strong>limagon</strong> - петоъгълник
@@ -330,7 +333,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Функционални-думи-като-квазипрефикси-в-сложни-думи"><a class="header" href="#Функционални-думи-като-квазипрефикси-в-сложни-думи">Функционални думи като квазипрефикси в сложни думи</a></h2>
+<h2 id="Функционални-думи-като-квазипредставки-в-сложни-думи"><a class="header" href="#Функционални-думи-като-квазипредставки-в-сложни-думи">Функционални думи като квазипредставки в сложни думи</a></h2>
 <ul>
 	<li><strong>anti:</strong> против, контра-, анти- <ul>
 			<li><strong>antidokya</strong> - противоотрова (<em>dokya</em> - <em>отрова</em>);
@@ -433,7 +436,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Съществителниглаголни-думи-като-квазипрефикси-в-сложни-думи"><a class="header" href="#Съществителниглаголни-думи-като-квазипрефикси-в-сложни-думи">Съществителни/глаголни думи като квазипрефикси в сложни думи</a></h2>
+<h2 id="Съществителниглаголни-думи-като-квазипредставки-в-сложни-думи"><a class="header" href="#Съществителниглаголни-думи-като-квазипредставки-в-сложни-думи">Съществителни/глаголни думи като квазипредставки в сложни думи</a></h2>
 <ul>
 	<li><strong>gami:</strong> съпруг/съпруга, женя се; <em>в сложни думи:</em> -по закон <ul>
 			<li><strong>gamisodar</strong> - зет/снаха (<em>sodar</em> - <em>брат/сестра</em>);
@@ -445,7 +448,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Прилагателнинаречия-като-квазипрефикси-в-сложни-думи"><a class="header" href="#Прилагателнинаречия-като-квазипрефикси-в-сложни-думи">Прилагателни/наречия като квазипрефикси в сложни думи</a></h2>
+<h2 id="Прилагателнинаречия-като-квазипредставки-в-сложни-думи"><a class="header" href="#Прилагателнинаречия-като-квазипредставки-в-сложни-думи">Прилагателни/наречия като квазипредставки в сложни думи</a></h2>
 <p>Много прилагателни/наречия могат да се използват за създаване на сложни думи. Следният списък включва най-често
 	използваните прилагателни/наречия в сложни думи.</p>
 <ul>
@@ -547,7 +550,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Числа-като-квазипрефикси-в-сложни-думи"><a class="header" href="#Числа-като-квазипрефикси-в-сложни-думи">Числа като квазипрефикси в сложни думи</a></h2>
+<h2 id="Числа-като-квазипредставки-в-сложни-думи"><a class="header" href="#Числа-като-квазипредставки-в-сложни-думи">Числа като квазипредставки в сложни думи</a></h2>
 <p>Числата могат да се използват и за създаване на сложни думи.</p>
 <ul>
 	<li><strong>unbasayen</strong> - едно езичен (<em>basa - език</em>)</li>

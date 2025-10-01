@@ -41,10 +41,11 @@
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+            const path_to_root = "";
+            const default_light_theme = "rust-clr";
+            const default_dark_theme = "mocha-clr";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
@@ -54,8 +55,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -69,7 +70,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -82,8 +84,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -119,6 +121,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
@@ -233,10 +236,10 @@
 <p>Ако съществителното име е подразбиращо се, се използва местоимение (<strong>te</strong>/<strong>to</strong> или
 	<strong>ete</strong>/<strong>oto</strong>):</p>
 <p><strong>To de Maria sen day.</strong><br /> Тази на Мария е голяма.</p>
-<p>Суфиксът <strong>-su</strong> се добавя към местоименията, за да образува притежателни прилагателни. По подобен начин
-	частицата <strong><a href="https://menalari.globasa.net/eng/lexi/su">su</a></strong> се използва за изразяване на
-	притежание от съществителни имена и е еквивалентна на английския притежателен суфикс <em>'s</em>. За разлика от
-	английския език, обаче, <strong>su</strong> се използва като отделна дума.</p>
+<p>Наставката <strong>-su</strong> се добавя към местоименията, за да образува притежателни прилагателни. По подобен
+	начин частицата <strong><a href="https://menalari.globasa.net/eng/lexi/su">su</a></strong> се използва за изразяване
+	на притежание от съществителни имена и е еквивалентна на английската притежателна наставка <em>'s</em>. За разлика
+	от английския език, обаче, <strong>su</strong> се използва като отделна дума.</p>
 <p><strong>Maria su baytu sen day.</strong><br /> Къщата на Мария е голяма.</p>
 <p>Ако съществителното име е подразбиращо се, се използва местоимение (<strong>te</strong>/<strong>to</strong> или
 	<strong>ete</strong>/<strong>oto</strong>):</p>
@@ -446,13 +449,13 @@
 			<li><strong>durki</strong> - докато <em>+ изречение</em></li>
 		</ul>
 	</li>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>префикс</em>) край, стигам
-		до [<strong>fini</strong> - завършвам/свършвам] <ul>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>представка</em>) край,
+		стигам до [<strong>fini</strong> - завършвам/свършвам] <ul>
 			<li><strong>finfe</strong> - (<em>предл.</em>) до <em>+ съществително име</em></li>
 			<li><strong>finki</strong> - (<em>съюз</em>) докато <em>+ изречение</em></li>
 		</ul>
 	</li>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/xor-">xor-</a></strong> - (<em>префикс</em>) начало
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/xor-">xor-</a></strong> - (<em>представка</em>) начало
 		[<strong>xoru</strong> - започвам/стартирам] <ul>
 			<li><strong>xorfe</strong> - (<em>предл.</em>) от, откакто <em>+ съществително име</em></li>
 			<li><strong>xorki</strong> - (<em>съюз</em>) (откакто) <em>+ изречение</em></li>
@@ -486,8 +489,8 @@
 			<li>(<strong>fe</strong>) <strong>nunli din</strong> - в наши дни</li>
 		</ul>
 	</li>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ja-">ja-</a></strong> - (<em>префикс</em>) непосредствено
-		съседен [<strong>jara</strong> - съсед] <ul>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ja-">ja-</a></strong> - (<em>представка</em>)
+		непосредствено съседен [<strong>jara</strong> - съсед] <ul>
 			<li><strong>jali</strong> - съседен</li>
 		</ul>
 	</li>

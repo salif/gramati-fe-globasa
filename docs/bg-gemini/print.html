@@ -42,10 +42,11 @@
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+            const path_to_root = "";
+            const default_light_theme = "rust-clr";
+            const default_dark_theme = "mocha-clr";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
@@ -55,8 +56,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -70,7 +71,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -83,8 +85,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -120,6 +122,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
@@ -176,7 +179,7 @@
                     <main>
                         <h1 id="Граматика-на-глобаса"><a class="header" href="#Граматика-на-глобаса">Граматика на глобаса</a></h1>
 <p>Тази книга съдържа български превод на <a href="https://salif.github.io/gramati-fe-globasa/eng/">Пълната граматика на глобаса</a>.
-Можете да я изтеглите в <a href="Gramati_fe_Globasa_Mesi_2_Nyan_2025_Bulgarisa_Gemini.epub">EPUB формат</a> или да я прочетете <a href="https://salif.github.io/gramati-fe-globasa/bg-gemini/">онлайн</a>.</p>
+Можете да я изтеглите в <a href="Gramati_fe_Globasa_Mesi_9_Nyan_2025_Bulgarisa_Gemini.epub">EPUB формат</a> или да я прочетете <a href="https://salif.github.io/gramati-fe-globasa/bg-gemini/">онлайн</a>.</p>
 <p>Автор на <a href="https://xwexi.globasa.net/eng/gramati">оригиналното съдържание</a> е <a href="https://globasa.net/">екипът на глобаса</a>.
 Преводът е направен от <a href="https://salif.eu/bg/">Салиф Мехмед</a> с помощта на езиковия модел Джемини.</p>
 <p>Налични са и преводи <a href="https://salif.github.io/gramati-fe-globasa/">на други езици</a>.</p>
@@ -1208,182 +1211,194 @@
 <p><strong>Folki mi max doxo, mi max jixi.</strong><br /> Колкото повече чета, толкова повече знам.</p>
 <p>Редът на тези фрази може да се променя:</p>
 <p><strong>Mi max jixi, folki mi max doxo.</strong><br /> Знам повече, колкото повече чета.</p>
-<h3 id="Категории-глаголи"><a class="header" href="#Категории-глаголи">Категории глаголи <span id="falelexili_klase"></span></a></h3>
-<p>В речника глаголите се дефинират като <em>помощни</em>, <em>копулативни</em>, <em>преходни</em>, <em>непреходни</em>
-	или <em>амбитранзитивни</em>. Наставките, използвани в този раздел (<strong>-cu</strong>, <strong>-gi</strong>,
-	<strong>-ne</strong>, <strong>-do</strong>, <strong>-pul</strong>), са обяснени в раздела <a
-		href="./inharelexi.html#pimpan_fikso"><em>Често срещани афикси</em></a> по-долу. Представката
-	<strong>xor-</strong> е обяснена в раздела <a href="./lexikostrui.html#lefefikсо"><em>Словообразуване:
-			Представки</em></a>.</p>
-<h4 id="Помощни-глаголи"><a class="header" href="#Помощни-глаголи">Помощни глаголи</a></h4>
-<p><em>Помощните глаголи</em> са непосредствено последвани от друг глагол, който може да бъде пропуснат. В глобаса има
-	само три <em>помощни глагола</em>: <strong>abil</strong> (мога, способен съм да), <strong>ingay</strong> (трябва
-	да), <strong>musi</strong> (трябва, налага се да). </p>
-<h4 id="Копулативни-глаголи"><a class="header" href="#Копулативни-глаголи">Копулативни глаголи</a></h4>
-<p><em>Копулативните глаголи</em> свързват подлога с неговото допълнение. В момента има 12 <em>копулативни глагола</em>:
-	<strong>sen</strong> (съм), <strong>xorsen</strong> (ставам), <strong>sencu</strong> (ставам),
-	<strong>sengi</strong> (карам да бъде), <strong>kwasisen</strong> (изглеждам), <strong>okocu</strong> (изглеждам),
-	<strong>orecu</strong> (звуча), <strong>nasacu</strong> (мириша), <strong>xetocu</strong> (имам вкус на),
-	<strong>pifucu</strong> (чувствам се на допир), <strong>hisicu</strong> (чувствам се физически или емоционално),
-	<strong>ganjoncu</strong> (чувствам се емоционално). </p>
-<h4 id="Преходни-глаголи"><a class="header" href="#Преходни-глаголи">Преходни глаголи</a></h4>
-<p><em>Преходните глаголи</em> приемат пряко допълнение: <strong>haja</strong> (нуждая се от), <strong>bujo</strong>
-	(хващам, улавям), <strong>gibe</strong> (давам). Някои <em>преходни глаголи</em> обаче понякога или често пропускат
-	прякото допълнение: <strong>doxo</strong> (чета), <strong>yam</strong> (ям), <strong>lala</strong> (пея) и т.н. </p>
+<h3 id="Глаголни-категории"><a class="header" href="#Глаголни-категории">Глаголни категории <span id="falelexili_klase"></span></a></h3>
+<p>В речника глаголите се определят като <em>спомагателни</em>, <em>свързващи (копулативни)</em>, <em>преходни</em>,
+	<em>непреходни</em> или <em>амбитранзитивни</em>. Наставките, разгледани в този раздел (<strong>-cu</strong>,
+	<strong>-gi</strong>, <strong>-ne</strong>, <strong>-do</strong>, <strong>-pul</strong>), са обяснени по-долу в <a
+		href="./inharelexi.html#pimpan_fikso"><em>Често срещани афикси</em></a>. Представката <strong>xor-</strong> е
+	обяснена в <a href="./lexikostrui.html#lefefikso"><em>Словообразуване: Представки</em></a>.</p>
+<h4 id="Спомагателни-глаголи"><a class="header" href="#Спомагателни-глаголи"><strong>Спомагателни глаголи</strong></a></h4>
+<p><em>Спомагателните глаголи</em> се следват непосредствено от глаголи в инфинитив (означен с частицата
+	<strong>na</strong>), която може да бъде пропусната. В глобаса има само три <em>спомагателни глагола</em>:
+	<strong>abil</strong> (мога, способен съм да), <strong>ingay</strong> (трябва, би трябвало да),
+	<strong>musi</strong> (трябва, длъжен съм да). </p>
+<h4 id="Свързващи-копулативни-глаголи"><a class="header" href="#Свързващи-копулативни-глаголи"><strong>Свързващи (копулативни) глаголи</strong></a></h4>
+<p><em>Свързващите (копулативни) глаголи</em> свързват подлога с неговото сказуемно определение. Понастоящем има 12
+	<em>свързващи (копулативни) глагола</em>: <strong>sen</strong> (съм), <strong>xorsen</strong> (ставам),
+	<strong>sencu</strong> (ставам), <strong>sengi</strong> (правя/карам да бъде), <strong>kwasisen</strong> (изглеждам,
+	струва ми се), <strong>okocu</strong> (изглеждам (на вид)), <strong>orecu</strong> (звуча), <strong>nasacu</strong>
+	(мириша на), <strong>xetocu</strong> (имам вкус на), <strong>pifucu</strong> (усещам се (при допир)),
+	<strong>hisicu</strong> (чувствам се (физически или емоционално)), <strong>ganjoncu</strong> (чувствам се
+	(емоционално)). </p>
+<h4 id="Преходни-глаголи"><a class="header" href="#Преходни-глаголи"><strong>Преходни глаголи</strong></a></h4>
+<p><em>Преходните глаголи</em> изискват пряко допълнение: <strong>haja</strong> (имам нужда от), <strong>bujo</strong>
+	(хващам, улавям), <strong>gibe</strong> (давам). При някои <em>преходни глаголи</em> обаче прякото допълнение
+	понякога или често се пропуска: <strong>doxo</strong> (чета), <strong>yam</strong> (ям), <strong>lala</strong> (пея)
+	и др. </p>
 <p>Някои <em>преходни глаголи</em> често или почти винаги се използват без пряко допълнение: <strong>somno</strong>
-	(спя), <strong>haha</strong> (смея се), <strong>pawbu</strong> (тичам), <strong>fley</strong> (летя) и т.н. Те са
-	известни в глобаса като <em>преходни глаголи с ехо-допълнение</em>, тъй като незадължителното пряко допълнение е
-	същата дума като глагола. </p>
+	(спя), <strong>haha</strong> (смея се), <strong>pawbu</strong> (тичам), <strong>fley</strong> (летя) и др. В глобаса
+	те са известни като <em>преходни глаголи с ехо-допълнение</em>, тъй като незадължителното пряко допълнение е същата
+	дума като глагола. </p>
 <p><strong>Mi le somno (lungo somno).</strong><br /> Аз спах (дълъг сън).</p>
 <p><strong>Yu le haha (sotipul haha).</strong><br /> Ти се смя (силен смях). </p>
-<p>Наставката <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> може да се добавя към <em>преходни
-		глаголи</em> със значение <em>карам (прякото допълнение) да [коренен глагол], правя (прякото допълнение) да
-		[коренен глагол]</em>.</p>
-<p><strong>Kam yu fleygi hawanavi?</strong><br /> Ти управляваш ли самолети?</p>
+<p>Наставката <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> може да се добави към <em>преходни
+		глаголи</em> със значение <em>карам (прякото допълнение) да [глагол в корена]</em>.</p>
+<p><strong>Kam yu fleygi hawanavi?</strong><br /> Вие пилотирате ли самолети?</p>
 <p><strong>Mi xa sampogi bwaw fe axam.</strong><br /> Ще разходя кучето вечерта.</p>
-<p><strong>Payaco le hahagi mi.</strong><br /> Клоунът ме накара да се смея. </p>
-<h4 id="Непреходни-глаголи"><a class="header" href="#Непреходни-глаголи">Непреходни глаголи</a></h4>
-<p><em>Непреходните глаголи</em> не приемат пряко допълнение: <strong>idi</strong> (отивам), <strong>konduta</strong>
-	(държа се), <strong>loka</strong> (намирам се), <strong>side</strong> (седя), <strong>garaku</strong> (давя се,
-	потъвам). <em>Непреходните глаголи</em> могат да бъдат превърнати в <em>преходни глаголи</em> с незадължителна
-	употреба на <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> при наличие на пряко допълнение. </p>
+<p><strong>Payaco le hahagi mi.</strong><br /> Клоунът ме разсмя. </p>
+<h4 id="Непреходни-глаголи"><a class="header" href="#Непреходни-глаголи"><strong>Непреходни глаголи</strong></a></h4>
+<p><em>Непреходните глаголи</em> нямат пряко допълнение: <strong>idi</strong> (отивам), <strong>konduta</strong> (държа
+	се), <strong>loka</strong> (намирам се), <strong>side</strong> (седя), <strong>garaku</strong> (давам се, потъвам).
+	<em>Непреходните глаголи</em> могат да се превърнат в <em>преходни</em> чрез незадължителната употреба на <strong><a
+			href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> при наличие на пряко допълнение. </p>
 <ul>
 	<li><strong>garaku</strong> - давя се, потъвам<br />
-		<strong>garaku(gi)</strong> - (карам да се) дави, (карам да) потъва
+		<strong>garaku</strong>(<strong>gi</strong>) - потопявам, (карам да) се удави
 	</li>
 </ul>
 <p><strong>Navikef le garaku.</strong><br /> Капитанът се удави.</p>
-<p><strong>Navikef le garaku(gi) navi.</strong><br /> Капитанът потопи кораба.</p>
+<p><strong>Navikef le garaku</strong>(<strong>gi</strong>) <strong>navi.</strong><br /> Капитанът потопи кораба.</p>
 <p>При словообразуването обаче <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong> е задължителна.
 	Сравнете следните прилагателни, образувани с <strong>garaku</strong> и наставката <strong><a
 			href="./inharelexi.html#xafefikso_-ne">-ne</a></strong>. </p>
 <p><strong>garakune navikef</strong> - давещият се капитан </p>
-<p><strong>garakugine navikef</strong>- капитанът, който потапя (кораба)</p>
-<h4 id="Амбитранзитивни-глаголи"><a class="header" href="#Амбитранзитивни-глаголи">Амбитранзитивни глаголи</a></h4>
-<p><a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive"><em>Амбитранзитивните глаголи</em></a> в
-	глобаса са глаголи, при които както подлогът при непреходното значение, така и прякото допълнение при преходното
-	значение изпитват едно и също действие/състояние на глагола. Непреходното значение на тези глаголи може
-	незадължително да прилага <strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a></strong>, а преходното значение
-	може незадължително да прилага <strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>.</p>
+<p><strong>garakugine navikef</strong>- капитанът, който потопява (кораба)</p>
+<h4 id="Амбитранзитивни-глаголи"><a class="header" href="#Амбитранзитивни-глаголи"><strong>Амбитранзитивни глаголи</strong></a></h4>
+<p>В глобаса <a href="https://en.wikipedia.org/wiki/Ambitransitive_verb#Patientive"><em>амбитранзитивните
+			глаголи</em></a> са по своята същност преходни глаголи, които могат да се използват и като непреходни.</p>
 <p>Има четири подкатегории <em>амбитранзитивни глаголи</em>: <em>глаголи за чувство</em>, <em>глаголи за състояние</em>,
-	<em>безлични глаголи</em> и <em>глаголи за позиция/местоположение или движение</em>. </p>
-<p><em>Глаголи за чувство</em></p>
-<p><em>Амбитранзитивните глаголи</em>, обозначаващи чувство, означават <em>чувствам [коренно съществително] или карам да
-		се чувства [коренно съществително]</em>. Обърнете внимание, че непреходното значение може да бъде изразено и
-	като фраза с копулативен глагол и прилагателно: <strong>sen</strong> <em>[коренно съществително]</em><strong><a
+	<em>безагентни глаголи</em> и <em>глаголи за движение</em>. </p>
+<p><strong><em>Глаголи за чувство</em></strong></p>
+<p><em>Амбитранзитивните глаголи</em>, които означават чувство, имат значение <em>карам да чувствам [същ. или
+		прил.]</em> или <em>чувствам [същ. или прил.]</em>, което обикновено зависи от наличието или отсъствието на
+	пряко допълнение. Имайте предвид, че непреходното значение може да се изрази и като фраза със свързващ глагол и
+	прилагателно: <strong>sen</strong> <em>[корен]</em><strong><a
 			href="./inharelexi.html#xafefikso_-do">-do</a></strong>.</p>
 <ul>
-	<li><strong>interes(cu)</strong> - интересувам се/чувствам интерес (<em>чувствам интерес</em>)<br />
-		<strong>interes(gi)</strong> - интересувам (<em>карам да се чувства интерес</em>)
-	</li>
+	<li><strong>interes</strong> - <em>прех.:</em> интересувам; <em>непрех.:</em> интересувам се (от), имам интерес
+		(към) </li>
 </ul>
-<p><strong>Mi interes(cu) tem basalogi.</strong> = <strong>Mi sen interesdo tem basalogi.</strong><br /> Интересувам се
-	от лингвистика.</p>
-<p><strong>Basalogi interes(gi) mi.</strong><br /> Лингвистиката ме интересува.</p>
+<p><strong>Basalogi interes mi.</strong><br /> Лингвистиката ме интересува.</p>
+<p><strong>Mi interes tem basalogi.</strong> = <strong>Mi sen interesdo tem basalogi.</strong><br /> Интересувам се от
+	лингвистика.</p>
 <ul>
-	<li><strong>pilo(cu)</strong> - уморен съм/чувствам се уморен (<em>чувствам умора</em>)<br />
-		<strong>pilo(gi)</strong> - изморявам (<em>карам да се чувства умора</em>)
-	</li>
+	<li><strong>pilo</strong> - <em>прех.:</em> изморявам, уморявам; <em>непрех.:</em> изморен съм, уморен съм</li>
 </ul>
-<p><strong>Te pilo(cu).</strong> = <strong>Te sen pilodo.</strong><br /> Тя е уморена/чувства се уморена.</p>
-<p><strong>Tesu ergo pilo(gi) te.</strong><br /> Нейната работа я изморява.</p>
-<p>Представката <strong>xor-</strong> може да се използва с <em>глаголи за чувство</em>, за да се изрази следната
-	разлика:</p>
-<p><strong>Mi le interes tem basalogi lefe multi nyan.</strong><br /> Интересувах се от лингвистика преди много години.
-</p>
-<p><strong>Te le pilo dur na ergo.</strong><br /> Тя беше уморена, докато работеше.</p>
-<p>срещу:</p>
-<p><strong>Mi le xorinteres tem basalogi lefe multi nyan.</strong><br /> Започнах да се интересувам от лингвистика преди
-	много години.</p>
-<p><strong>Te le xorpilo dur na ergo.</strong><br /> Тя се умори, докато работеше.</p>
-<p><em>Глаголи за състояние</em></p>
+<p><strong>Tesu ergo pilo te.</strong><br /> Нейната работа я изморява.</p>
+<p><strong>Te pilo.</strong> = <strong>Te sen pilodo.</strong><br /> Тя е изморена.</p>
+<p>Наставката <strong>-cu</strong> или алтернативно представката <strong>xor-</strong> може да се приложи към
+	<em>глаголи за чувство</em>, за да се изрази следната разлика:</p>
+<p><strong>Mi le interes tem basalogi lefe multi nyan.</strong> = <strong>Mi le sen interesdo tem basalogi lefe multi
+		nyan.</strong><br /> Интересувах се от лингвистика преди много години.</p>
+<p><strong>Te le pilo dur na ergo.</strong> = <strong>Te le sen pilodo dur na ergo.</strong><br /> Тя беше уморена,
+	докато работеше.</p>
+<p>спрямо:</p>
+<p><strong>Mi le interescu</strong> (or <strong>xorinteres</strong>) <strong>tem basalogi lefe multi nyan.</strong> =
+	<strong>Mi le sencu</strong> (or <strong>xorsen</strong>) <strong>interesdo tem basalogi lefe multi
+		nyan.</strong><br /> Заинтересувах се от лингвистика преди много години.</p>
+<p><strong>Te le pilocu</strong> (or <strong>xorpilo</strong>) <strong>dur na ergo.</strong> = <strong>Te le
+		sencu</strong> (or <strong>xorsen</strong>) <strong>pilodo dur na ergo.</strong><br /> Тя се умори, докато
+	работеше.</p>
+<p><strong><em>Глаголи за състояние</em></strong></p>
 <p><em>Амбитранзитивните глаголи за състояние</em> са подобни на <em>глаголите за чувство</em>. Те са <em>съществителни
-		за състояние</em>, които могат да се използват като <em>амбитранзитивни глаголи</em> със значение <em>имам
-		[коренно съществително] или карам да има [коренно съществително]</em>. Обърнете внимание, че непреходното
-	значение може да бъде изразено и като фраза с копулативен глагол и прилагателно: <strong>sen</strong> <em>[коренно
-		съществително]</em><strong><a href="./inharelexi.html#xafefikso_-pul">-pul</a></strong>. </p>
+		за състояние</em>, които могат да се използват като <em>амбитранзитивни глаголи</em> със значение <em>правя да
+		има [съществително]</em> или <em>имам [съществително]</em>, което обикновено зависи от наличието или отсъствието
+	на пряко допълнение. Имайте предвид, че непреходното значение може да се изрази и като фраза със свързващ глагол и
+	прилагателно: <strong>sen</strong> <em>[корен]</em><strong><a
+			href="./inharelexi.html#xafefikso_-pul">-pul</a></strong>.</p>
 <ul>
-	<li><strong>termo(cu)</strong> - топъл съм/горещ съм (<em>имам топлина</em>)<br />
-		<strong>termo(gi)</strong> - затоплям (<em>карам да има топлина</em>)
-	</li>
+	<li><strong>termo</strong> - <em>прех.:</em> затоплям, нагрявам; <em>непрех.:</em> топло е, горещо е </li>
 </ul>
-<p><strong>Misu kafe no haji termo.</strong> = <strong>Misu kafe no haji sen termopul.</strong><br /> Моето кафе вече не
-	е топло.</p>
 <p><strong>Kam yu le termo banyo-kamer?</strong><br /> Затопли ли банята?</p>
+<p><strong>Misu kafe no haji termo = Misu kafe no haji sen termopul.</strong><br /> Кафето ми вече не е горещо.</p>
 <ul>
-	<li><strong>cinon(cu)</strong> - интелигентен съм (<em>имам интелигентност</em>)<br />
-		<strong>cinon(gi)</strong> - правя интелигентен (<em>карам да има интелигентност</em>)
-	</li>
+	<li><strong>cinon</strong> - <em>прех.:</em> правя интелигентен, карам да бъде интелигентен; <em>непрех.:</em>
+		интелигентен съм </li>
 </ul>
-<p><strong>Syensiyen cinon.</strong> = <strong>Syensiyen sen cinonpul.</strong><br /> Ученият е интелигентен. </p>
 <p><strong>Eskol le cinon te.</strong><br /> Училището го направи умен. </p>
+<p><strong>Syensiyen cinon. = Syensiyen sen cinonpul.</strong><br /> Ученият е интелигентен. </p>
 <ul>
-	<li><strong>talento(cu)</strong> - талантлив съм (<em>имам талант</em>)<br />
-		<strong>talento(gi)</strong> - правя талантлив (<em>карам да има талант</em>)
-	</li>
+	<li><strong>talento</strong> - <em>прех.:</em> правя талантлив, карам да бъде талантлив; <em>непрех.:</em> талантлив
+		съм</li>
 </ul>
-<p><strong>Lalayen talento.</strong> = <strong>Lalayen sen talentopul.</strong><br /> Певецът е талантлив.</p>
 <p><strong>Patre le talento lalayen.</strong><br /> Бащата направи певеца талантлив.</p>
-<p>Представката <strong>xor-</strong> може да се използва с <em>глаголи за състояние</em>, за да се изрази следната
-	разлика:</p>
-<p><strong>Jaledin le termo.</strong> = <strong>Jaledin le sen termopul.</strong><br /> Вчера беше топло.</p>
-<p><strong>To le xortermo fe midinuru.</strong> = <strong>To le xorsen/sencu termopul fe midinuru.</strong><br /> Стана
-	топло по обяд. </p>
-<p><em>Безлични глаголи</em></p>
-<p>При непреходното значение на <em>безличните амбитранзитивни глаголи</em> действието е нещо, което се случва на
-	подлога, а не нещо, което подлогът извършва. </p>
+<p><strong>Lalayen talento. = Lalayen sen talentopul.</strong><br /> Певецът е талантлив.</p>
+<p>Наставката <strong>-cu</strong> или алтернативно представката <strong>xor-</strong> може да се приложи към
+	<em>глаголи за състояние</em>, за да се изрази следната разлика:</p>
+<p><strong>Jaledin le termo. = Jaledin le sen termopul.</strong><br /> Вчера беше топло.</p>
+<p>спрямо:</p>
+<p><strong>To le termocu</strong> (or <strong>xortermo</strong>) <strong>fe midinuru.</strong> = <strong>To le
+		sencu</strong> (or <strong>xorsen</strong>) <strong>termopul fe midinuru.</strong><br /> Стана топло по обяд.
+</p>
+<p><strong><em>Безагентни глаголи</em></strong></p>
+<p>При непреходното значение на <em>безагентните амбитранзитивни глаголи</em> действието е нещо, което се случва на
+	подлога, а не нещо, което подлогът извършва. Наставката <strong><a
+			href="./inharelexi.html#xafefikso_-do">-cu</a></strong> може да се добави по избор към <em>безагентни
+		глаголи</em> за непреходното значение.</p>
 <ul>
-	<li><strong>kasiru(cu)</strong> - чупя се (<em>ставам счупен</em>)<br />
-		<strong>kasiru(gi)</strong> - чупя (<em>карам да се счупи</em>)
+	<li><strong>kasiru</strong> - <em>прех.:</em> чупя (<em>карам да се счупи</em>)<br />
+		<strong>kasiru</strong>(<strong>cu</strong>) - <em>непрех.:</em> чупя се (<em>бивам счупен</em>)
 	</li>
 </ul>
-<p><strong>Janela le kasiru(cu).</strong><br /> Прозорецът се счупи. </p>
-<p><strong>Mi le kasiru(gi) janela.</strong><br /> Аз счупих прозореца.</p>
+<p><strong>Mi le kasiru janela.</strong><br /> Аз счупих прозореца.</p>
+<p><strong>Janela le kasiru</strong>(<strong>cu</strong>)<strong>.</strong><br /> Прозорецът се счупи. </p>
 <ul>
-	<li><strong>boyle(cu)</strong> - варя се (<em>ставам сварен</em>)<br />
-		<strong>boyle(gi)</strong> - варя (<em>карам да се свари</em>)
+	<li><strong>boyle</strong> - <em>прех.:</em> варя (<em>карам да заври</em>)<br />
+		<strong>boyle</strong>(<strong>cu</strong>) - <em>непрех.:</em> вря (<em>бивам сварен</em>)
 	</li>
 </ul>
-<p><strong>Sui le boyle(cu).</strong><br /> Водата завря.</p>
-<p><strong>Te le boyle(gi) sui.</strong><br /> Тя свари водата.</p>
+<p><strong>Te le boyle sui.</strong><br /> Тя свари водата.</p>
+<p><strong>Sui le boyle</strong>(<strong>cu</strong>)<strong>.</strong><br /> Водата завря.</p>
 <ul>
-	<li><strong>fini(cu)</strong> - свършвам (<em>стигам до край</em>)<br />
-		<strong>fini(gi)</strong> - завършвам, приключвам (<em>карам да стигне до край</em>)
+	<li><strong>fini</strong> - <em>прех.:</em> завършвам, приключвам (<em>карам да приключи</em>)<br />
+		<strong>fini</strong>(<strong>cu</strong>) - <em>непрех.:</em> свършвам, приключвам (<em>стигам до край</em>)
 	</li>
 </ul>
-<p><strong>Jange le fini(cu).</strong><br /> Войната свърши.</p>
-<p><strong>Ete le fini(gi) jange.</strong><br /> Те приключиха войната.</p>
-<p><em>Глаголи за позиция/местоположение или движение</em></p>
-<p>При непреходното значение на <em>амбитранзитивните глаголи за позиция/местоположение или движение</em> подлогът е
-	едновременно деятел и потърпевш. </p>
+<p><strong>Ete le fini jange.</strong><br /> Те прекратиха войната.</p>
+<p><strong>Jange le fini</strong>(<strong>cu</strong>)<strong>.</strong><br /> Войната свърши.</p>
+<p><strong><em>Глаголи за движение</em></strong></p>
+<p>При непреходното значение на <em>амбитранзитивните глаголи за движение</em> подлогът е едновременно деятел (агенс) и
+	търпец (пациенс). Наставката <strong><a href="./inharelexi.html#xafefikso_-do">-cu</a></strong> може да се добави по
+	избор към <em>глаголи за движение</em> за непреходното значение.</p>
 <ul>
-	<li><strong>esto(cu)</strong> - спирам (<em>стигам до спиране</em>)<br />
-		<strong>esto(gi)</strong> - спирам (<em>довеждам до спиране или карам да спре</em>)
+	<li><strong>esto</strong> - <em>прех.:</em> спирам (<em>карам да спре</em>)<br />
+		<strong>esto</strong>(<strong>cu</strong>) - <em>непрех.:</em> спирам (се) (<em>стигам до спирка</em>)
 	</li>
 </ul>
-<p><strong>Am esto(cu)!</strong><br /> Спри!</p>
-<p><strong>Am esto(gi) mobil!</strong><br /> Спри колата!</p>
+<p><strong>Am esto mobil!</strong><br /> Спри колата!</p>
+<p><strong>Am esto</strong>(<strong>cu</strong>)<strong>!</strong><br /> Спри!</p>
 <ul>
-	<li><strong>harka(cu)</strong> - движа се (<em>извършвам движение</em>)<br />
-		<strong>harka(gi)</strong> - движа (<em>карам да се движи</em>)
+	<li><strong>harka</strong> - <em>прех.:</em> местя (<em>карам да се движи</em>)<br />
+		<strong>harka</strong>(<strong>cu</strong>) - <em>непрех.:</em> движа се (<em>правя движение</em>)
 	</li>
 </ul>
-<p><strong>Am no harka(cu)!</strong><br /> Не мърдай!</p>
-<p><strong>Mi le harka(gi) yusu kursi.</strong><br /> Преместих твоя стол. </p>
+<p><strong>Mi le harka yusu kursi.</strong><br /> Аз преместих твоя стол. </p>
+<p><strong>Am no harka</strong>(<strong>cu</strong>)<strong>!</strong><br /> Не мърдай!</p>
 <ul>
-	<li><strong>buka(cu)</strong> - отварям се (<em>ставам отворен</em>)<br />
-		<strong>buka(gi)</strong> - отварям (<em>правя отворен</em>)
+	<li><strong>buka</strong> - <em>прех.:</em> отварям (<em>правя да е отворен</em>)<br />
+		<strong>buka</strong>(<strong>cu</strong>) - <em>непрех.:</em> отварям се (<em>ставам отворен</em>)
 	</li>
 </ul>
-<p><strong>Dwer le buka(cu).</strong><br /> Вратата се отвори.</p>
-<p><strong>Mi le buka(gi) dwer.</strong><br /> Аз отворих вратата.</p>
-<p>При словообразуването <em>амбитранзитивните глаголи</em> функционират като <em>преходни глаголи</em> без нужда от
-	<strong><a href="./inharelexi.html#xafefikso_-gi">-gi</a></strong>. Когато обаче е необходимо <em>непреходното</em>
-	значение на глагола при словообразуването, трябва да се приложи <strong><a
-			href="./inharelexi.html#xafefikso_-cu">-cu</a></strong>. Сравнете следните прилагателни, образувани с
-	<strong>buka</strong> и наставката <strong><a href="./inharelexi.html#xafefikso_-ne">-ne</a></strong>:</p>
-<p><strong>bukane merasem</strong> - церемонията по откриването</p>
-<p><strong>bukacune dwer</strong> - отварящата се врата</p>
+<p><strong>Mi le buka dwer.</strong><br /> Аз отворих вратата.</p>
+<p><strong>Dwer le buka</strong>(<strong>cu</strong>)<strong>.</strong><br /> Вратата се отвори.</p>
+<p><strong><em>Амбитранзитивни глаголи при словообразуване</em></strong></p>
+<p>При словообразуване <em>амбитранзитивните глаголи</em> се държат като <em>преходни глаголи</em>, което отразява
+	тяхната присъща преходна природа.</p>
+<p>Когато в производна дума е необходимо <em>непреходното</em> значение на <em>безагентните глаголи</em> и <em>глаголите
+		за движение</em>, <strong><a href="./inharelexi.html#xafefikso_-cu">-cu</a></strong> е задължителна, освен при
+	добавяне на <strong>-ne</strong>, <strong>-do</strong>, <strong>-abil</strong>, <strong>-musi</strong> или
+	<strong>-ingay</strong>, в който случай <strong>-cu</strong> остава незадължителна. </p>
+<p>Сравнете следните прилагателни, образувани с корените <strong>buka</strong> (отварям) и <strong>klosi</strong>
+	(затварям) и наставките <strong><a href="./inharelexi.html#xafefikso_-ne">-ne</a></strong> и <strong><a
+			href="./inharelexi.html#xafefikso_-do">-do</a></strong>. Както се вижда от примерите по-долу, двусмислието,
+	което може да възникне от пропускането на незадължителната наставка <strong>-cu</strong> при словообразуването,
+	обикновено е незначително.</p>
+<p><em>преходен глагол</em>: <strong>bukane merasem</strong> - церемонията по откриването </p>
+<p><em>непреходен глагол</em>: <strong>buka</strong>(<strong>cu</strong>)<strong>ne dwer</strong> - отварящата се врата
+</p>
+<p><em>преходен глагол</em>: <strong>klosido dwer</strong> - затворената врата (<em>която е била затворена</em>) </p>
+<p><em>непреходен глагол</em>: <strong>klosi</strong>(<strong>cu</strong>)<strong>do dwer</strong> - затворената врата
+	(<em>която се е затворила</em>) </p>
 <h2 id="ПрилагателниНаречия"><a class="header" href="#ПрилагателниНаречия">Прилагателни/Наречия</a></h2>
 <p>В глобаса прилагателните и <em>наречията, които изменят глаголи</em> имат идентична форма.</p>
 <ul>
@@ -1773,25 +1788,29 @@
 	Въпреки това, за разлика от английския, <em>неактивните прилагателни</em> не се използват за генериране на
 	<em>перфектни</em> или <em>пасивни глаголни</em> форми (<em>Аз съм работил</em>, <em>Беше/беше откраднато</em> и
 	т.н.). Вместо това те функционират само като прилагателни.</p>
-<p>Струва си да се отбележи, че технически погледнато, окончанието <strong>-do</strong> се добавя към
-	<em>съществителното</em> измерение на съществителните/глаголите. Поради тази причина, <strong>-do</strong> може да
-	се добави към преходни, непреходни или амбипреходни глаголи-съществителни.</p>
-<h4 id="С-преходни-глаголи"><a class="header" href="#С-преходни-глаголи">С преходни глаголи</a></h4>
 <ul>
-	<li><strong>hajado ergo</strong> - необходима работа (<em>в състояние на необходимост</em>) </li>
-	<li><strong>bujodo morgiyen</strong> - заловен убиец (<em>в състояние на залавяне</em>)</li>
+	<li>
+		<p><strong>bujodo morgiyen</strong> - заловен убиец (<em>в състояние на залавяне</em> или <em>който е бил
+				заловен</em>)</p>
+	</li>
+	<li>
+		<p><strong>Uncudo Nasyonlari</strong> - Обединени нации (<em>в състояние на обединение</em> или <em>които са се
+				обединили</em>) </p>
+	</li>
+	<li>
+		<p><strong>awcudo fleytora</strong> - изчезнал самолет (<em>в състояние на изчезване</em> или <em>който е
+				изчезнал</em>) </p>
+	</li>
+	<li>
+		<p><strong>kasirudo janela</strong> - счупен прозорец (<em>в състояние на счупване</em> или <em>който се е
+				счупил или е бил счупен</em>) </p>
+	</li>
+	<li>
+		<p><strong>klosido dwer</strong> - затворена врата (<em>в състояние на затваряне</em> или <em>която се е
+				затворила или е била затворена</em>) </p>
+	</li>
 </ul>
-<h4 id="С-непреходни-глаголи"><a class="header" href="#С-непреходни-глаголи">С непреходни глаголи</a></h4>
-<ul>
-	<li><strong>Uncudo Nasyonlari</strong> - Обединени Нации (<em>в състояние на обединение</em>) </li>
-	<li><strong>awcudo fleytora</strong> - изчезнал самолет (<em>в състояние на изчезване</em>) </li>
-</ul>
-<h4 id="С-амбипреходни-глаголи"><a class="header" href="#С-амбипреходни-глаголи">С амбипреходни глаголи</a></h4>
-<ul>
-	<li><strong>kasirudo janela</strong> - счупен прозорец (<em>в състояние на счупване</em>) </li>
-	<li><strong>klosido dwer</strong> - затворена врата (<em>в състояние на затваряне</em>) </li>
-</ul>
-<p><em>Етимология на <strong>-do</strong>: английски (-ed), испански (-ado, -ido)</em></p>
+<p><em>Етимология на <strong>-do</strong>: английски (-ed), испански (-ado, -ido), мандарин ( 的 „de“)</em></p>
 <h3 id="Наречно-окончание--mo"><a class="header" href="#Наречно-окончание--mo">Наречно окончание -mo <span id="xafefikso_-mo"></span></a></h3>
 <p>Прилагателните/наречията, които изменят други прилагателни/наречия, известни като <em>наречия, които изменят
 		прилагателни/наречия</em>, добавят окончанието <strong>-mo</strong>. Сравнете следните двойки фрази.</p>
@@ -1870,10 +1889,10 @@
 <p>Ако съществителното име е подразбиращо се, се използва местоимение (<strong>te</strong>/<strong>to</strong> или
 	<strong>ete</strong>/<strong>oto</strong>):</p>
 <p><strong>To de Maria sen day.</strong><br /> Тази на Мария е голяма.</p>
-<p>Суфиксът <strong>-su</strong> се добавя към местоименията, за да образува притежателни прилагателни. По подобен начин
-	частицата <strong><a href="https://menalari.globasa.net/eng/lexi/su">su</a></strong> се използва за изразяване на
-	притежание от съществителни имена и е еквивалентна на английския притежателен суфикс <em>'s</em>. За разлика от
-	английския език, обаче, <strong>su</strong> се използва като отделна дума.</p>
+<p>Наставката <strong>-su</strong> се добавя към местоименията, за да образува притежателни прилагателни. По подобен
+	начин частицата <strong><a href="https://menalari.globasa.net/eng/lexi/su">su</a></strong> се използва за изразяване
+	на притежание от съществителни имена и е еквивалентна на английската притежателна наставка <em>'s</em>. За разлика
+	от английския език, обаче, <strong>su</strong> се използва като отделна дума.</p>
 <p><strong>Maria su baytu sen day.</strong><br /> Къщата на Мария е голяма.</p>
 <p>Ако съществителното име е подразбиращо се, се използва местоимение (<strong>te</strong>/<strong>to</strong> или
 	<strong>ete</strong>/<strong>oto</strong>):</p>
@@ -2083,13 +2102,13 @@
 			<li><strong>durki</strong> - докато <em>+ изречение</em></li>
 		</ul>
 	</li>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>префикс</em>) край, стигам
-		до [<strong>fini</strong> - завършвам/свършвам] <ul>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/fin-">fin-</a></strong> - (<em>представка</em>) край,
+		стигам до [<strong>fini</strong> - завършвам/свършвам] <ul>
 			<li><strong>finfe</strong> - (<em>предл.</em>) до <em>+ съществително име</em></li>
 			<li><strong>finki</strong> - (<em>съюз</em>) докато <em>+ изречение</em></li>
 		</ul>
 	</li>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/xor-">xor-</a></strong> - (<em>префикс</em>) начало
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/xor-">xor-</a></strong> - (<em>представка</em>) начало
 		[<strong>xoru</strong> - започвам/стартирам] <ul>
 			<li><strong>xorfe</strong> - (<em>предл.</em>) от, откакто <em>+ съществително име</em></li>
 			<li><strong>xorki</strong> - (<em>съюз</em>) (откакто) <em>+ изречение</em></li>
@@ -2123,8 +2142,8 @@
 			<li>(<strong>fe</strong>) <strong>nunli din</strong> - в наши дни</li>
 		</ul>
 	</li>
-	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ja-">ja-</a></strong> - (<em>префикс</em>) непосредствено
-		съседен [<strong>jara</strong> - съсед] <ul>
+	<li><strong><a href="https://menalari.globasa.net/eng/lexi/ja-">ja-</a></strong> - (<em>представка</em>)
+		непосредствено съседен [<strong>jara</strong> - съсед] <ul>
 			<li><strong>jali</strong> - съседен</li>
 		</ul>
 	</li>
@@ -2546,7 +2565,7 @@
 			<td><b>samaete</b><br />същите (за живи същества)</td>
 		</tr>
 		<tr>
-			<th><b><i>притежание</i></b><br /><br /><b>-su</b> -<br />притежателен суфикс</th>
+			<th><b><i>притежание</i></b><br /><br /><b>-su</b> -<br />притежателна наставка</th>
 			<td><b>kesu</b><br />чий/чия/чие/чии</td>
 			<td><b>hinsu</b><br />на този/тази/това/тези</td>
 			<td><b>densu</b><br />на онзи/онази/онова/онези</td>
@@ -2557,7 +2576,7 @@
 			<td><b>samasu</b><br />на същия/същата/същото/същите</td>
 		</tr>
 		<tr>
-			<th><b><i>вид, начин</i></b> <br /><br /><b>-pul</b> -<br />суфикс за прилагателно/наречие</th>
+			<th><b><i>вид, начин</i></b> <br /><br /><b>-pul</b> -<br />наставка за прилагателно/наречие</th>
 			<td><b>kepul</b><br />като какъв/каква/какво/какви; как<br />(по какъв начин)</td>
 			<td><b>hinpul</b><br />като този/тази/това/тези;<br />по този начин</td>
 			<td><b>denpul</b><br />като онзи/онази/онова/онези;<br />по онзи начин</td>
@@ -2568,7 +2587,7 @@
 			<td><b>samapul</b><br />същият вид;<br />по същия начин</td>
 		</tr>
 		<tr>
-			<th><b><i>степен</i></b> <br /><br /><b>-mo</b> -<br />суфикс за наречие</th>
+			<th><b><i>степен</i></b> <br /><br /><b>-mo</b> -<br />наставка за наречие</th>
 			<td><b>kemo</b><br />колко<br />(до каква степен)</td>
 			<td><b>hinmo</b><br />до тази степен<br />да, така е</td>
 			<td><b>denmo</b><br />до онази степен<br />като, така, такъв/такава/такова/такива</td>
@@ -2745,8 +2764,8 @@
 <p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Видях това: <em>Ти купи колко ориз?</em>."<br />
 	Видях колко ориз купи. </p>
 <p>(1) <strong>Yu hare kenumer bete?</strong><br /> "Ти имаш колко деца?"<br /> Колко деца имаш?</p>
-<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Чудя се на това: <em>Ти имаш колко деца?</em>."<br />
-	Чудя се колко деца имаш. </p>
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Чудя се на това: <em>Ти имаш колко
+		деца?</em>."<br /> Чудя се колко деца имаш. </p>
 <h3 id="keloka---къде"><a class="header" href="#keloka---къде">keloka - <em>къде</em></a></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "Той работи къде?"<br /> Къде работи?</p>
 <p>(2) <strong>Mi jixi ku te ergo keloka.</strong><br /> "Знам това: <em>Той работи къде?</em>."<br /> Знам къде работи.
@@ -3005,15 +3024,16 @@
 	използва вместо <strong>nun</strong> или <strong>du-</strong>. Тази частица обикновено се използва само във формални
 	текстове или реч като прост начин за маркиране на сказуемото, където не се използва друг маркер за време/наклонение.
 </p>
-<h3 id="Префикс-du-"><a class="header" href="#Префикс-du-">Префикс du-</a></h3>
-<p>Като глаголен префикс, <strong>du-</strong> изразява продължителен/обичаен аспект, който описва действие или
+<h3 id="Представката-du-"><a class="header" href="#Представката-du-">Представката du-</a></h3>
+<p>Като глаголна представка, <strong>du-</strong> изразява продължителен/обичаен аспект, който описва действие или
 	състояние за неопределен период от време, а не случващо се в един единствен момент или за определен период от време.
-	Префиксът <strong>du-</strong> обикновено се пропуска в сегашно време.</p>
-<p>Като съществителни, думите с префикса <strong>du-</strong> са еквивалентни на деепричастието в българския език.</p>
+	Представката <strong>du-</strong> обикновено се пропуска в сегашно време.</p>
+<p>Като съществителни, думите с представката <strong>du-</strong> са еквивалентни на деепричастието в българския език.
+</p>
 <p><strong>dulala</strong> - (действието) пеене<br />
 	<strong>dudanse</strong> - (действието) танцуване
 </p>
-<p><em>Префиксът <strong>du-</strong> е съкратен от <strong>dure</strong> (продължителност).<br /> Етимология на
+<p><em>Представката <strong>du-</strong> е съкратен от <strong>dure</strong> (продължителност).<br /> Етимология на
 		<strong>dure</strong>: английски, френски, немски, испански</em></p>
 <h2 id="Минало-просто-време"><a class="header" href="#Минало-просто-време">Минало просто време</a></h2>
 <p>Миналото просто време се изразява с помощта на частицата <strong>le</strong>.</p>
@@ -3070,7 +3090,7 @@
 	</tbody>
 </table>
 <h2 id="Непосредствено-минало-и-бъдеще-време"><a class="header" href="#Непосредствено-минало-и-бъдеще-време">Непосредствено минало и бъдеще време</a></h2>
-<p>Непосредственото минало и бъдеще време се изразяват по следния начин, като се използва префиксът
+<p>Непосредственото минало и бъдеще време се изразяват по следния начин, като се използва представката
 	<strong>ja-</strong>. </p>
 <table>
 	<thead>
@@ -3096,8 +3116,8 @@
 		</tr>
 	</tbody>
 </table>
-<h3 id="Префикс-ja-"><a class="header" href="#Префикс-ja-">Префикс ja-</a></h3>
-<p>Префиксът <strong>ja-</strong> означава <em>непосредствено съседен</em> и е съкратен от <strong>jara</strong>
+<h3 id="Представката-ja-"><a class="header" href="#Представката-ja-">Представката ja-</a></h3>
+<p>Представката <strong>ja-</strong> означава <em>непосредствено съседен</em> и е съкратен от <strong>jara</strong>
 	(<em>съсед</em>).</p>
 <p><em>Етимология на <strong>jara</strong>: арабски (جارة “jara”), суахили (jirani), индонезийски (jiran)</em></p>
 <h2 id="Сложни-времена"><a class="header" href="#Сложни-времена">Сложни времена</a></h2>
@@ -3251,7 +3271,7 @@
 <p>Подчиненото изречение (ако...) използва речниковата форма на глагола.</p>
 <p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> Бих ял ябълката, ако бях гладен.</p>
 <h2 id="Страдателен-залог"><a class="header" href="#Страдателен-залог">Страдателен залог <span id="be-"></span></a></h2>
-<p>Страдателният залог се изразява с помощта на префикса <strong>be-</strong>.</p>
+<p>Страдателният залог се изразява с помощта на представката <strong>be-</strong>.</p>
 <p><em>Етимология на <strong>be-</strong>: мандарин (被 “bèi”), английски (be), норвежки (ble)</em></p>
 <table>
 	<thead>
@@ -4079,8 +4099,8 @@
 <p>
 </p>
 <h2 id="Част-на-речта-на-думи-с-афикси"><a class="header" href="#Част-на-речта-на-думи-с-афикси">Част на речта на думи с афикси</a></h2>
-<p>Префиксите не променят частта на речта на думата, към която са прикрепени. От друга страна, суфиксите го правят и се
-	дефинират като прилагателни/наречия суфикси или съществителни/глаголни суфикси.</p>
+<p>Представките не променят частта на речта на думата, към която са прикрепени. От друга страна, наставките го правят и
+	се дефинират като прилагателни/наречия наставки или съществителни/глаголни наставки.</p>
 <h2 id="Граматически-афикси"><a class="header" href="#Граматически-афикси">Граматически афикси</a></h2>
 <ul>
 	<li><strong><a href="./pornamelexi.html#suyali_sifalexi">-su</a>:</strong> притежателни прилагателни</li>
@@ -4096,7 +4116,7 @@
 	<li><strong><a href="./inharelexi.html#lefefikso_du-">du-</a>:</strong> герундий; <em>обичаен/продължителен глаголен
 			аспект</em></li>
 </ul>
-<h2 id="Префикси"><a class="header" href="#Префикси">Префикси <span id="lefefikso"></span></a></h2>
+<h2 id="Представки"><a class="header" href="#Представки">Представки <span id="lefefikso"></span></a></h2>
 <ul>
 	<li><strong>aw-:</strong> отсъстващ, далеч <ul>
 			<li><strong>awidi</strong> - напускам, отивам си (<em>idi</em> - <em>отивам</em>); <strong>awglu</strong> -
@@ -4171,7 +4191,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Суфикси-за-прилагателнинаречия"><a class="header" href="#Суфикси-за-прилагателнинаречия">Суфикси за прилагателни/наречия</a></h2>
+<h2 id="Наставки-за-прилагателнинаречия"><a class="header" href="#Наставки-за-прилагателнинаречия">Наставки за прилагателни/наречия</a></h2>
 <ul>
 	<li><strong>-do:</strong> в неактивно състояние (превръща съществителните имена в <em>неактивни прилагателни</em>)
 		<ul>
@@ -4199,7 +4219,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Суфикси-за-съществителни-имена"><a class="header" href="#Суфикси-за-съществителни-имена">Суфикси за съществителни имена</a></h2>
+<h2 id="Наставки-за-съществителни-имена"><a class="header" href="#Наставки-за-съществителни-имена">Наставки за съществителни имена</a></h2>
 <ul>
 	<li><strong>-gon:</strong> -ъгълник (<em>геометрична фигура</em>) [<strong>gona</strong> - ъгъл] <ul>
 			<li><strong>tigagon</strong> - триъгълник (<em>tiga - три</em>); <strong>limagon</strong> - петоъгълник
@@ -4229,7 +4249,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Функционални-думи-като-квазипрефикси-в-сложни-думи"><a class="header" href="#Функционални-думи-като-квазипрефикси-в-сложни-думи">Функционални думи като квазипрефикси в сложни думи</a></h2>
+<h2 id="Функционални-думи-като-квазипредставки-в-сложни-думи"><a class="header" href="#Функционални-думи-като-квазипредставки-в-сложни-думи">Функционални думи като квазипредставки в сложни думи</a></h2>
 <ul>
 	<li><strong>anti:</strong> против, контра-, анти- <ul>
 			<li><strong>antidokya</strong> - противоотрова (<em>dokya</em> - <em>отрова</em>);
@@ -4332,7 +4352,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Съществителниглаголни-думи-като-квазипрефикси-в-сложни-думи"><a class="header" href="#Съществителниглаголни-думи-като-квазипрефикси-в-сложни-думи">Съществителни/глаголни думи като квазипрефикси в сложни думи</a></h2>
+<h2 id="Съществителниглаголни-думи-като-квазипредставки-в-сложни-думи"><a class="header" href="#Съществителниглаголни-думи-като-квазипредставки-в-сложни-думи">Съществителни/глаголни думи като квазипредставки в сложни думи</a></h2>
 <ul>
 	<li><strong>gami:</strong> съпруг/съпруга, женя се; <em>в сложни думи:</em> -по закон <ul>
 			<li><strong>gamisodar</strong> - зет/снаха (<em>sodar</em> - <em>брат/сестра</em>);
@@ -4344,7 +4364,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Прилагателнинаречия-като-квазипрефикси-в-сложни-думи"><a class="header" href="#Прилагателнинаречия-като-квазипрефикси-в-сложни-думи">Прилагателни/наречия като квазипрефикси в сложни думи</a></h2>
+<h2 id="Прилагателнинаречия-като-квазипредставки-в-сложни-думи"><a class="header" href="#Прилагателнинаречия-като-квазипредставки-в-сложни-думи">Прилагателни/наречия като квазипредставки в сложни думи</a></h2>
 <p>Много прилагателни/наречия могат да се използват за създаване на сложни думи. Следният списък включва най-често
 	използваните прилагателни/наречия в сложни думи.</p>
 <ul>
@@ -4446,7 +4466,7 @@
 		</ul>
 	</li>
 </ul>
-<h2 id="Числа-като-квазипрефикси-в-сложни-думи"><a class="header" href="#Числа-като-квазипрефикси-в-сложни-думи">Числа като квазипрефикси в сложни думи</a></h2>
+<h2 id="Числа-като-квазипредставки-в-сложни-думи"><a class="header" href="#Числа-като-квазипредставки-в-сложни-думи">Числа като квазипредставки в сложни думи</a></h2>
 <p>Числата могат да се използват и за създаване на сложни думи.</p>
 <ul>
 	<li><strong>unbasayen</strong> - едно езичен (<em>basa - език</em>)</li>

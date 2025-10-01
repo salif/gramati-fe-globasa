@@ -41,10 +41,11 @@
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+            const path_to_root = "";
+            const default_light_theme = "rust-clr";
+            const default_dark_theme = "mocha-clr";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
@@ -54,8 +55,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -69,7 +70,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -82,8 +84,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -119,6 +121,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
@@ -237,15 +240,16 @@
 	използва вместо <strong>nun</strong> или <strong>du-</strong>. Тази частица обикновено се използва само във формални
 	текстове или реч като прост начин за маркиране на сказуемото, където не се използва друг маркер за време/наклонение.
 </p>
-<h3 id="Префикс-du-"><a class="header" href="#Префикс-du-">Префикс du-</a></h3>
-<p>Като глаголен префикс, <strong>du-</strong> изразява продължителен/обичаен аспект, който описва действие или
+<h3 id="Представката-du-"><a class="header" href="#Представката-du-">Представката du-</a></h3>
+<p>Като глаголна представка, <strong>du-</strong> изразява продължителен/обичаен аспект, който описва действие или
 	състояние за неопределен период от време, а не случващо се в един единствен момент или за определен период от време.
-	Префиксът <strong>du-</strong> обикновено се пропуска в сегашно време.</p>
-<p>Като съществителни, думите с префикса <strong>du-</strong> са еквивалентни на деепричастието в българския език.</p>
+	Представката <strong>du-</strong> обикновено се пропуска в сегашно време.</p>
+<p>Като съществителни, думите с представката <strong>du-</strong> са еквивалентни на деепричастието в българския език.
+</p>
 <p><strong>dulala</strong> - (действието) пеене<br />
 	<strong>dudanse</strong> - (действието) танцуване
 </p>
-<p><em>Префиксът <strong>du-</strong> е съкратен от <strong>dure</strong> (продължителност).<br /> Етимология на
+<p><em>Представката <strong>du-</strong> е съкратен от <strong>dure</strong> (продължителност).<br /> Етимология на
 		<strong>dure</strong>: английски, френски, немски, испански</em></p>
 <h2 id="Минало-просто-време"><a class="header" href="#Минало-просто-време">Минало просто време</a></h2>
 <p>Миналото просто време се изразява с помощта на частицата <strong>le</strong>.</p>
@@ -302,7 +306,7 @@
 	</tbody>
 </table>
 <h2 id="Непосредствено-минало-и-бъдеще-време"><a class="header" href="#Непосредствено-минало-и-бъдеще-време">Непосредствено минало и бъдеще време</a></h2>
-<p>Непосредственото минало и бъдеще време се изразяват по следния начин, като се използва префиксът
+<p>Непосредственото минало и бъдеще време се изразяват по следния начин, като се използва представката
 	<strong>ja-</strong>. </p>
 <table>
 	<thead>
@@ -328,8 +332,8 @@
 		</tr>
 	</tbody>
 </table>
-<h3 id="Префикс-ja-"><a class="header" href="#Префикс-ja-">Префикс ja-</a></h3>
-<p>Префиксът <strong>ja-</strong> означава <em>непосредствено съседен</em> и е съкратен от <strong>jara</strong>
+<h3 id="Представката-ja-"><a class="header" href="#Представката-ja-">Представката ja-</a></h3>
+<p>Представката <strong>ja-</strong> означава <em>непосредствено съседен</em> и е съкратен от <strong>jara</strong>
 	(<em>съсед</em>).</p>
 <p><em>Етимология на <strong>jara</strong>: арабски (جارة “jara”), суахили (jirani), индонезийски (jiran)</em></p>
 <h2 id="Сложни-времена"><a class="header" href="#Сложни-времена">Сложни времена</a></h2>
@@ -483,7 +487,7 @@
 <p>Подчиненото изречение (ако...) използва речниковата форма на глагола.</p>
 <p><strong>Mi ger yam pingo eger mi sen yamkal.</strong><br /> Бих ял ябълката, ако бях гладен.</p>
 <h2 id="Страдателен-залог"><a class="header" href="#Страдателен-залог">Страдателен залог <span id="be-"></span></a></h2>
-<p>Страдателният залог се изразява с помощта на префикса <strong>be-</strong>.</p>
+<p>Страдателният залог се изразява с помощта на представката <strong>be-</strong>.</p>
 <p><em>Етимология на <strong>be-</strong>: мандарин (被 “bèi”), английски (be), норвежки (ble)</em></p>
 <table>
 	<thead>

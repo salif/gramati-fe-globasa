@@ -41,10 +41,11 @@
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha-clr" : "rust-clr";
+            const path_to_root = "";
+            const default_light_theme = "rust-clr";
+            const default_dark_theme = "mocha-clr";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
@@ -54,8 +55,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -69,7 +70,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -82,8 +84,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -119,6 +121,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light-clr">Light bold</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light-sans">Light sans</button></li>
@@ -252,7 +255,7 @@
 			<td><b>samaete</b><br />същите (за живи същества)</td>
 		</tr>
 		<tr>
-			<th><b><i>притежание</i></b><br /><br /><b>-su</b> -<br />притежателен суфикс</th>
+			<th><b><i>притежание</i></b><br /><br /><b>-su</b> -<br />притежателна наставка</th>
 			<td><b>kesu</b><br />чий/чия/чие/чии</td>
 			<td><b>hinsu</b><br />на този/тази/това/тези</td>
 			<td><b>densu</b><br />на онзи/онази/онова/онези</td>
@@ -263,7 +266,7 @@
 			<td><b>samasu</b><br />на същия/същата/същото/същите</td>
 		</tr>
 		<tr>
-			<th><b><i>вид, начин</i></b> <br /><br /><b>-pul</b> -<br />суфикс за прилагателно/наречие</th>
+			<th><b><i>вид, начин</i></b> <br /><br /><b>-pul</b> -<br />наставка за прилагателно/наречие</th>
 			<td><b>kepul</b><br />като какъв/каква/какво/какви; как<br />(по какъв начин)</td>
 			<td><b>hinpul</b><br />като този/тази/това/тези;<br />по този начин</td>
 			<td><b>denpul</b><br />като онзи/онази/онова/онези;<br />по онзи начин</td>
@@ -274,7 +277,7 @@
 			<td><b>samapul</b><br />същият вид;<br />по същия начин</td>
 		</tr>
 		<tr>
-			<th><b><i>степен</i></b> <br /><br /><b>-mo</b> -<br />суфикс за наречие</th>
+			<th><b><i>степен</i></b> <br /><br /><b>-mo</b> -<br />наставка за наречие</th>
 			<td><b>kemo</b><br />колко<br />(до каква степен)</td>
 			<td><b>hinmo</b><br />до тази степен<br />да, така е</td>
 			<td><b>denmo</b><br />до онази степен<br />като, така, такъв/такава/такова/такива</td>
@@ -451,8 +454,8 @@
 <p>(2) <strong>Mi le oko ku yu le kari kekwanti risi.</strong><br /> "Видях това: <em>Ти купи колко ориз?</em>."<br />
 	Видях колко ориз купи. </p>
 <p>(1) <strong>Yu hare kenumer bete?</strong><br /> "Ти имаш колко деца?"<br /> Колко деца имаш?</p>
-<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Чудя се на това: <em>Ти имаш колко деца?</em>."<br />
-	Чудя се колко деца имаш. </p>
+<p>(2) <strong>Mi jixivole ku yu hare kenumer bete.</strong><br /> "Чудя се на това: <em>Ти имаш колко
+		деца?</em>."<br /> Чудя се колко деца имаш. </p>
 <h3 id="keloka---къде"><a class="header" href="#keloka---къде">keloka - <em>къде</em></a></h3>
 <p>(1) <strong>Te ergo keloka?</strong><br /> "Той работи къде?"<br /> Къде работи?</p>
 <p>(2) <strong>Mi jixi ku te ergo keloka.</strong><br /> "Знам това: <em>Той работи къде?</em>."<br /> Знам къде работи.
