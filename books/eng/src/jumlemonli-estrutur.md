@@ -175,7 +175,7 @@
 <ul>
 	<li>If the sentence has no direct or indirect objects the adverb may immediately follow the verb.</li>
 </ul>
-<p><strong>Femyen danse <em>meli</em>.</strong><br /> The lady dance <em>beautifully</em>.</p>
+<p><strong>Femyen danse <em>meli</em>.</strong><br /> The lady dances <em>beautifully</em>.</p>
 <ul>
 	<li>However, if the sentence contains objects, the adverb phrase must immediately follow all objects.</li>
 </ul>

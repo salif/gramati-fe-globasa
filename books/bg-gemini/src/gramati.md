@@ -11,7 +11,7 @@
 Доколкото е допустимо от закона, авторите се отказват от всички авторски права и сродни или съседни права върху съдържанието.
 
 [cgg-link]:https://salif.github.io/gramati-fe-globasa/eng/
-[epub-link]:Gramati_fe_Globasa_Mesi_2_Nyan_2025_Bulgarisa_Gemini.epub
+[epub-link]:Gramati_fe_Globasa_Mesi_9_Nyan_2025_Bulgarisa_Gemini.epub
 [web-link]:https://salif.github.io/gramati-fe-globasa/bg-gemini/
 [oc-link]:https://xwexi.globasa.net/eng/gramati
 [gb-link]:https://globasa.net/

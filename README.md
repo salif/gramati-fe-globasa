@@ -15,7 +15,7 @@ Translations of the Complete Globasa Grammar.
 | 🇩🇪 Doycisa | [Globasa Grammatik](https://salif.github.io/gramati-fe-globasa/de-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇹🇷 Turkisa | [Globasa dilbilgisi](https://salif.github.io/gramati-fe-globasa/tr-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇷🇺 Rusisa | [Грамматика глобаса](https://salif.github.io/gramati-fe-globasa/ru-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
-| 🇧🇬 Bulgarisa | [Граматика на глобаса](https://salif.github.io/gramati-fe-globasa/bg-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
+| 🇧🇬 Bulgarisa | [Граматика на глобаса](https://salif.github.io/gramati-fe-globasa/bg-gemini/) | Gemini Pro Experimental | 2025-09 | eng |
 | 🇧🇬 Bulgarisa | [Граматика на глобаса](https://salif.github.io/gramati-fe-globasa/bg-claude/) | Claude Sonnet | 2025-02 | eng |
 | 🟢 Esperanto | [Gramatiko de Globasa](https://salif.github.io/gramati-fe-globasa/eo-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
 | 🇮🇩 Indonesisa | [Tata Bahasa Globasa](https://salif.github.io/gramati-fe-globasa/id-gemini/) | Gemini Pro Experimental | 2025-02 | eng |
@@ -31,7 +31,7 @@ Translations of the Complete Globasa Grammar.
 
 ## Contributing
 
-Fell free to fork this repository and add new books or improve existing books.
+Feel free to fork this repository and add new books or improve existing books.
 Human translations, LLM translations and unfinished books are accepted.
 
 ### Add new book
